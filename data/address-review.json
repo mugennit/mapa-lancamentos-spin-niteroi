@@ -8,68 +8,12 @@
     "issue": "A Spin confirma a Rua José Lobo de Medeiros; um anúncio individual aponta nº 8, mas há referência pública divergente. Número pendente de validação."
   },
   {
-    "id": "conviva-itacoa",
-    "name": "Conviva Itacoá",
-    "neighborhood": "Itacoatiara",
-    "address": "Rua Antônio Nascimento Cottas, lote 27A ou 28",
-    "source": "https://convivaengenharia.com.br/conviva-itacoa/",
-    "issue": "A própria página da Conviva diverge: um trecho cita lote 27A e o endereço/ficha técnica informa lote 28. Confirmar na tabela/book."
-  },
-  {
-    "id": "conquista-oceanica",
-    "name": "Conquista Oceânica",
-    "neighborhood": "Rio do Ouro, São Gonçalo",
-    "address": "Avenida Rio do Ouro, s/n — Rio do Ouro, São Gonçalo/RJ",
-    "source": "https://brjimoveis.com/lancamentos/conquista-oceanica-sao-goncalo/",
-    "issue": "Material comercial consultado confirma Avenida Rio do Ouro, s/n, São Gonçalo. O empreendimento está fora do município de Niterói indicado pelo conjunto da planilha; revisar se deve entrar no mapa."
-  },
-  {
     "id": "vila-gaudi",
     "name": "Vila Gaudí",
     "neighborhood": "Itaipu",
     "address": "Rua Vereador Agostinho de Paula Santos, 548 — Piratininga",
     "source": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/itaipu",
     "issue": "Lopes lista o endereço em Piratininga; outros anúncios classificam como Itaipu/Santo Antônio. Validar o bairro cartográfico."
-  },
-  {
-    "id": "sou-charitas",
-    "name": "Sou + Charitas",
-    "neighborhood": "Charitas",
-    "address": "Rua Juiz Alberto Nader — Charitas (nº divergente: 11 ou 70)",
-    "source": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/regiao-oceanica-de-niteroi",
-    "issue": "Lopes lista nº 70; material comercial antigo indexado lista nº 11. Manter pendente até conferir tabela/book atual."
-  },
-  {
-    "id": "serena",
-    "name": "Serena",
-    "neighborhood": "A confirmar",
-    "address": "Avenida Almirante Tamandaré — Piratininga (nº divergente: 2 ou 2926)",
-    "source": "https://www.spinimoveis.com/empreendimento/serena-apartamentos-coberturas-e-apartamentos-garden-niteroi-2-a-4-quartos-91-a-266-m/24550694-SETV?from=sale",
-    "issue": "A ficha Spin exibe nº 2, enquanto o cadastro da SPE/empreendimento aponta nº 2926; mantido em revisão até confirmar no book/tabela."
-  },
-  {
-    "id": "jardim-itacoa",
-    "name": "Jardim Itacoá",
-    "neighborhood": "Itacoatiara",
-    "address": "Estrada Francisco da Cruz Nunes, 10512",
-    "source": "https://www.spinimoveis.com/empreendimento/jardim-itacoa-residencial-apartamentos-coberturas-lojas-e-apartamentos-garden-niteroi-3-quartos-38-a-157-m/23240576-SETV",
-    "issue": "Endereço listado pela Spin. Há anúncios divergentes de números próximos para o empreendimento; validar o número no book/tabela."
-  },
-  {
-    "id": "sunset",
-    "name": "Sunset",
-    "neighborhood": "Icaraí",
-    "address": "Rua Joaquim Távora, 80",
-    "source": "https://sunseticarai.com.br/",
-    "issue": "Site oficial e book do empreendimento indicam nº 80; anúncios do ZAP mostram nº 84. Confirmar numeração cartográfica."
-  },
-  {
-    "id": "tropico-camboinhas",
-    "name": "Trópico Camboinhas",
-    "neighborhood": "Camboinhas",
-    "address": "Avenida Professor Florestan Fernandes",
-    "source": "https://www.spinimoveis.com/empreendimento/tropico-camboinhas-apartamentos-e-coberturas-niteroi-4-quartos-110-a-313-m/18866010-SETV",
-    "issue": "A Spin indica nº 1; outras fontes listam o imóvel em trecho/números diferentes da avenida. Manter apenas a via até conferir no book/tabela."
   },
   {
     "id": "business",

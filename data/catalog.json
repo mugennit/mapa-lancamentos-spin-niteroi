@@ -825,7 +825,7 @@
     "name": "Conviva Itacoá",
     "company": "Conviva",
     "neighborhood": "Itacoatiara",
-    "address": "Rua Antônio Nascimento Cottas, lote 27A ou 28",
+    "address": "Rua Antônio Nascimento Cottas, 28",
     "book": {
       "name": "Spin_Book Provisório - Conviva Itacoa - Antecipe-se ao lançamento.pdf",
       "url": "https://drive.google.com/file/d/1CQF6ZE8ODO7qNldgDd9WIr_iMlGaJ2wi/view?usp=drivesdk"
@@ -847,16 +847,14 @@
     "lng": -43.034869,
     "precision": "exact",
     "photo": "/empreendimentos/conviva-itacoa.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "Validação pendente: A própria página da Conviva diverge: um trecho cita lote 27A e o endereço/ficha técnica informa lote 28. Confirmar na tabela/book."
-    ],
+    "checkedAt": "2026-10-03",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
-    "addressReview": "A própria página da Conviva diverge: um trecho cita lote 27A e o endereço/ficha técnica informa lote 28. Confirmar na tabela/book.",
+    "addressReview": null,
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://convivaengenharia.com.br/conviva-itacoa/",
-    "addressReviewStatus": "Precisa de apoio",
-    "locationSource": "https://www.google.com/maps?q=-22.96277,-43.034869"
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://maps.app.goo.gl/CGvyAbwskYpaHLj8A"
   },
   {
     "id": "caminhos-da-guanabara",
@@ -1086,8 +1084,8 @@
     "id": "conquista-oceanica",
     "name": "Conquista Oceânica",
     "company": "Direcional",
-    "neighborhood": "Rio do Ouro, São Gonçalo",
-    "address": "Avenida Rio do Ouro, s/n — Rio do Ouro, São Gonçalo/RJ",
+    "neighborhood": "Várzea das Moças",
+    "address": "RJ-106, Km11 - 7461",
     "book": {
       "name": "Book Conquista Oceânica.pdf",
       "url": "https://drive.google.com/file/d/1cljCujTNBvuBEMWlBN1NGOiJjW4UkLL3/view?usp=drivesdk"
@@ -1109,18 +1107,16 @@
     "lng": -42.9683827,
     "precision": "exact",
     "photo": "/empreendimentos/conquista-oceanica.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-03",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "Endereço em conferência nos materiais.",
-      "Validação pendente: Material comercial consultado confirma Avenida Rio do Ouro, s/n, São Gonçalo. O empreendimento está fora do município de Niterói indicado pelo conjunto da planilha; revisar se deve entrar no mapa."
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
-    "addressReview": "Material comercial consultado confirma Avenida Rio do Ouro, s/n, São Gonçalo. O empreendimento está fora do município de Niterói indicado pelo conjunto da planilha; revisar se deve entrar no mapa.",
+    "addressReview": null,
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://brjimoveis.com/lancamentos/conquista-oceanica-sao-goncalo/",
-    "addressReviewStatus": "Precisa de apoio",
-    "locationSource": "https://www.google.com/maps?q=-22.9043015,-42.9683827"
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://maps.app.goo.gl/xkLi26uBVEoyzMBa9"
   },
   {
     "id": "reserva-sao-francisco",
@@ -1883,7 +1879,7 @@
     "name": "Sou + Charitas",
     "company": "Habitare",
     "neighborhood": "Charitas",
-    "address": "Rua Juiz Alberto Nader — Charitas (nº divergente: 11 ou 70)",
+    "address": "Rua Juiz Alberto Nader, 11",
     "book": {
       "name": "SPIN Book de Vendas_Sou+ Charitas.pdf",
       "url": "https://drive.google.com/file/d/1qwJWD3aBcRWuwmI6Npak3bTGVtSiqarJ/view?usp=drivesdk"
@@ -1905,17 +1901,16 @@
     "lng": -43.0942508,
     "precision": "exact",
     "photo": "/empreendimentos/sou-charitas.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-03",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "Validação pendente: Lopes lista nº 70; material comercial antigo indexado lista nº 11. Manter pendente até conferir tabela/book atual."
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/regiao-oceanica-de-niteroi",
-    "addressReviewStatus": "Precisa de apoio",
-    "addressReview": "Lopes lista nº 70; material comercial antigo indexado lista nº 11. Manter pendente até conferir tabela/book atual.",
-    "locationSource": "https://www.google.com/maps?q=-22.9256669,-43.0942508"
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://maps.app.goo.gl/W2gAkX482iwUwEez7"
   },
   {
     "id": "sou-wellness-charitas",
@@ -2081,8 +2076,8 @@
     "id": "serena",
     "name": "Serena",
     "company": "Itauba",
-    "neighborhood": "A confirmar",
-    "address": "Avenida Almirante Tamandaré — Piratininga (nº divergente: 2 ou 2926)",
+    "neighborhood": "Piratininga",
+    "address": "Av. Alm. Tamandaré, 2926",
     "book": {
       "name": "Spin Book SERENA - Itaúba.pdf",
       "url": "https://drive.google.com/file/d/1ddi8NF1nz9B7czr9K3b6i0yAB3kBpJN1/view?usp=drivesdk"
@@ -2104,17 +2099,14 @@
     "lng": -43.074585,
     "precision": "exact",
     "photo": "/empreendimentos/serena.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "Endereço em conferência nos materiais.",
-      "Validação pendente: A ficha Spin exibe nº 2, enquanto o cadastro da SPE/empreendimento aponta nº 2926; mantido em revisão até confirmar no book/tabela."
-    ],
+    "checkedAt": "2026-10-03",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
-    "addressReview": "A ficha Spin exibe nº 2, enquanto o cadastro da SPE/empreendimento aponta nº 2926; mantido em revisão até confirmar no book/tabela.",
+    "addressReview": null,
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://www.spinimoveis.com/empreendimento/serena-apartamentos-coberturas-e-apartamentos-garden-niteroi-2-a-4-quartos-91-a-266-m/24550694-SETV?from=sale",
-    "addressReviewStatus": "Precisa de apoio",
-    "locationSource": "https://www.google.com/maps?q=-22.9555573,-43.074585"
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://maps.app.goo.gl/wC5WJpW9PnowpNVQA"
   },
   {
     "id": "althea",
@@ -2513,11 +2505,10 @@
     "lng": -43.0281432,
     "precision": "exact",
     "photo": "/empreendimentos/jardim-itacoa.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-03",
     "notes": [
       "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes.",
-      "Validação pendente: Endereço listado pela Spin. Há anúncios divergentes de números próximos para o empreendimento; validar o número no book/tabela."
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -2529,9 +2520,9 @@
     },
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://www.spinimoveis.com/empreendimento/jardim-itacoa-residencial-apartamentos-coberturas-lojas-e-apartamentos-garden-niteroi-3-quartos-38-a-157-m/23240576-SETV",
-    "addressReviewStatus": "Precisa de apoio",
-    "addressReview": "Endereço listado pela Spin. Há anúncios divergentes de números próximos para o empreendimento; validar o número no book/tabela.",
-    "locationSource": "https://www.google.com/maps?q=-22.9549181,-43.0281432"
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://maps.app.goo.gl/zfussf9ymjGv6yiH8"
   },
   {
     "id": "wind-itacoatiara",
@@ -3090,10 +3081,8 @@
     "lng": -43.1072321,
     "precision": "exact",
     "photo": "/empreendimentos/sunset.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "Validação pendente: Site oficial e book do empreendimento indicam nº 80; anúncios do ZAP mostram nº 84. Confirmar numeração cartográfica."
-    ],
+    "checkedAt": "2026-10-03",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -3104,9 +3093,9 @@
     },
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://sunseticarai.com.br/",
-    "addressReviewStatus": "Precisa de apoio",
-    "addressReview": "Site oficial e book do empreendimento indicam nº 80; anúncios do ZAP mostram nº 84. Confirmar numeração cartográfica.",
-    "locationSource": "https://www.google.com/maps?q=-22.9119882,-43.1072321"
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://maps.app.goo.gl/zDVvqy2ZyoCx9pag6"
   },
   {
     "id": "soma",
@@ -3949,7 +3938,7 @@
     "name": "Trópico Camboinhas",
     "company": "Tecconstru",
     "neighborhood": "Camboinhas",
-    "address": "Avenida Professor Florestan Fernandes",
+    "address": "Av. Prof. Florestan Fernandes, 700",
     "book": {
       "name": "Book Trópico Camboinhas.pdf",
       "url": "https://drive.google.com/file/d/1tbm8Mdb4tO0HMUOiaR4kl9r7XmAPsypT/view?usp=drivesdk"
@@ -3971,17 +3960,14 @@
     "lng": -43.0523467,
     "precision": "exact",
     "photo": "/empreendimentos/tropico-camboinhas.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "Endereço em conferência nos materiais.",
-      "Validação pendente: A Spin indica nº 1; outras fontes listam o imóvel em trecho/números diferentes da avenida. Manter apenas a via até conferir no book/tabela."
-    ],
+    "checkedAt": "2026-10-03",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
-    "addressReview": "A Spin indica nº 1; outras fontes listam o imóvel em trecho/números diferentes da avenida. Manter apenas a via até conferir no book/tabela.",
+    "addressReview": null,
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://www.spinimoveis.com/empreendimento/tropico-camboinhas-apartamentos-e-coberturas-niteroi-4-quartos-110-a-313-m/18866010-SETV",
-    "addressReviewStatus": "Precisa de apoio",
-    "locationSource": "https://www.google.com/maps?q=-22.9566477,-43.0523467"
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://maps.app.goo.gl/s7HbvKYdw47MDhHU7"
   },
   {
     "id": "flua",
