@@ -49,7 +49,46 @@ export default defineConfig(async ({ command }) => {
   process.env.MINIFLARE_REGISTRY_PATH ??= ".wrangler/registry";
 
   // Wrangler snapshots its log path while the Cloudflare plugin is imported.
-  const { cloudflare } = await import("@cloudflare/vite-plugin");
+  const isVercelBuild =
+    process.env.VERCEL === "1" || process.env.NITRO_PRESET === "vercel";
+  const cssPlugins = isVercelBuild
+    ? [(await import("@tailwindcss/vite")).default()]
+    : [];
+  const platformPlugins = isVercelBuild
+    ? (await import("nitro/vite")).nitro()
+    : [
+        (await import("@cloudflare/vite-plugin")).cloudflare({
+          viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
+          inspectorPort: false,
+          config: {
+            ...localBindingConfig,
+            ...(command === "serve"
+              ? {
+                  services: [
+                    {
+                      binding: "CONNECTORS",
+                      service: "sites-connector-preview",
+                      entrypoint: "ConnectorPreview",
+                    },
+                  ],
+                }
+              : {}),
+          },
+          ...(command === "serve"
+            ? {
+                auxiliaryWorkers: [
+                  {
+                    config: {
+                      name: "sites-connector-preview",
+                      main: "./build/connector-preview-worker.mjs",
+                      compatibility_date: "2026-05-15",
+                    },
+                  },
+                ],
+              }
+            : {}),
+        }),
+      ];
 
   return {
     server: {
@@ -61,40 +100,11 @@ export default defineConfig(async ({ command }) => {
         : {}),
     },
     plugins: [
+      ...cssPlugins,
       vinext(),
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),
-      cloudflare({
-        viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
-        inspectorPort: false,
-        config: {
-          ...localBindingConfig,
-          ...(command === "serve"
-            ? {
-                services: [
-                  {
-                    binding: "CONNECTORS",
-                    service: "sites-connector-preview",
-                    entrypoint: "ConnectorPreview",
-                  },
-                ],
-              }
-            : {}),
-        },
-        ...(command === "serve"
-          ? {
-              auxiliaryWorkers: [
-                {
-                  config: {
-                    name: "sites-connector-preview",
-                    main: "./build/connector-preview-worker.mjs",
-                    compatibility_date: "2026-05-15",
-                  },
-                },
-              ],
-            }
-          : {}),
-      }),
+      ...platformPlugins,
     ],
   };
 });
