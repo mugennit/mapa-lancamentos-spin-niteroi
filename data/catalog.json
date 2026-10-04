@@ -1,0 +1,4518 @@
+[
+  {
+    "id": "jardin-di-grazielle",
+    "name": "Jardin di Grazielle",
+    "company": "4MX",
+    "neighborhood": "Itaipu",
+    "address": "Rua Madre Mary Marcelline, 278",
+    "book": {
+      "name": "SPIN JARDIN DI GRAZIELLE - BOOK DIGITAL - Wide.pdf",
+      "url": "https://drive.google.com/file/d/18Ygj0h_YxO0UkSWRDNfWP-n1RXVDn4GC/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Jardin Di Grazielle - Agosto 2026 (2).pdf",
+        "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9438193,
+    "lng": -43.0309319,
+    "precision": null,
+    "photo": "/empreendimentos/jardin-di-grazielle.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/jardin-di-grazielle-apartamentos-e-coberturas-niteroi-2-a-3-quartos-75-a-18-367-m/23418065-SETV",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9438193,-43.0309319"
+  },
+  {
+    "id": "pebe-74",
+    "name": "Pebê 74",
+    "company": "Bacos",
+    "neighborhood": "Icaraí",
+    "address": "Rua Presidente Backer, 74",
+    "book": {
+      "name": "Book _ PEBÊ 74 _ Bacos Signature.pdf",
+      "url": "https://drive.google.com/file/d/17aBExYFGBGDQRDsLthSCRddUDIf8MmE3/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela Pebê 74 Agosto_2026.pdf",
+        "url": "https://drive.google.com/file/d/1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9050661,
+    "lng": -43.1116521,
+    "precision": null,
+    "photo": "/empreendimentos/pebe-74.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.bacosconstrutora.com.br/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9050661,-43.1116521"
+  },
+  {
+    "id": "singular",
+    "name": "Singular",
+    "company": "Bacos",
+    "neighborhood": "Charitas",
+    "address": "Av. Prefeito Sylvio Picanço, 499",
+    "book": {
+      "name": "Book _ Singular _ BacosSignature _Spin.pdf",
+      "url": "https://drive.google.com/file/d/1j1efLuAz--e-2dGSH0QOilPR9ekuR1jC/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Singular - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1a4UsToYzZFQg-vDHosJO_MryfvAjbQtZ/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9244652,
+    "lng": -43.0945212,
+    "precision": "exact",
+    "photo": "/empreendimentos/singular.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 857060181,
+      "displayName": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9244652,-43.0945212"
+  },
+  {
+    "id": "style",
+    "name": "Style",
+    "company": "Bacos",
+    "neighborhood": "São Francisco",
+    "address": "Rua Major Fróes, 255",
+    "book": {
+      "name": "Book Style.pdf",
+      "url": "https://drive.google.com/file/d/1utggWPNrHKVzWRUc4DA1KcqmHafjCk1I/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Style - Junho 2026.pdf",
+        "url": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk",
+        "date": "Junho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9173354,
+    "lng": -43.0873051,
+    "precision": "exact",
+    "photo": "/empreendimentos/style.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 38117144,
+      "displayName": "Rua Major Fróes, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-200, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://bacossignature.com.br/empreendimentos/style",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://maps.app.goo.gl/3LkUQcygPYxq3TGh6"
+  },
+  {
+    "id": "oka-icarai",
+    "name": "Oka Icaraí",
+    "company": "Bacos",
+    "neighborhood": "Icaraí",
+    "address": "Rua Doutor Tavares de Macedo, 35",
+    "book": {
+      "name": "OKA STUDIOS ICARAÍ - BOOK.pdf",
+      "url": "https://drive.google.com/file/d/12W-oivskbbCTjm7sYSQnVYhq1az0bv36/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Oka Icaraí - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1KUVOhtq8-oO6aIg_KFVT5jDCTH2wgjiu/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9022267,
+    "lng": -43.1134461,
+    "precision": "exact",
+    "photo": "/empreendimentos/oka-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 27459085,
+      "displayName": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-215, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.bacosconstrutora.com.br/ficha-do-imovel/oka-studios-icarai",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9022267,-43.1134461"
+  },
+  {
+    "id": "oka-sao-francisco",
+    "name": "Oka São Francisco",
+    "company": "Bacos",
+    "neighborhood": "São Francisco",
+    "address": "Av. Quintino Bocaiúva, 241",
+    "book": {
+      "name": "OKA STUDIOS RESIDENCIAIS BOOK SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1Y-KUI14vkr_C6qf9pUsGuKcWpSvmJQgq/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Oka São Francisco - Junho 2026.pdf",
+        "url": "https://drive.google.com/file/d/1T7BX5j99jYWqt_F0gllLyXG_hnGJw8kC/view?usp=drivesdk",
+        "date": "Junho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9187759,
+    "lng": -43.0938694,
+    "precision": "exact",
+    "photo": "/empreendimentos/oka-sao-francisco.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 330709487,
+      "displayName": "Avenida Quintino Bocaiúva, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-022, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9187759,-43.0938694"
+  },
+  {
+    "id": "acqua",
+    "name": "Acqua",
+    "company": "CAC",
+    "neighborhood": "A confirmar",
+    "address": "Rua Arídio Martins, lote 33-A, s/n — Fátima",
+    "book": {
+      "name": "Book Acqua SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1fWCwSVt55Q2orzZ9z3-ZpVA9SNrF3zza/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "addressEvidence": "Endereço transcrito do book Acqua (OCR reunido na conferência anterior).",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 123122548,
+      "displayName": "Estrada Velha de Maricá, Maria Paula, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24754-210, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "141-living",
+    "name": "141 Living",
+    "company": "CEU",
+    "neighborhood": "Icaraí",
+    "address": "Rua Mem de Sá, 141",
+    "book": {
+      "name": "Book 141.pdf",
+      "url": "https://drive.google.com/file/d/1Vu0wjKQgbmuq6XBbSSsmR8T75fVQ4oYu/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas 141 Living - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9024801,
+    "lng": -43.109361,
+    "precision": "exact",
+    "photo": "/empreendimentos/141-living.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1319578418,
+      "displayName": "141 Living, 141, Rua Mem de Sá, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-260, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9024801,-43.109361"
+  },
+  {
+    "id": "it-camboinhas",
+    "name": "IT Camboinhas",
+    "company": "CEU",
+    "neighborhood": "Camboinhas",
+    "address": "Rua José Lobo de Medeiros, 8",
+    "book": {
+      "name": "BOOK IT CAMBOINHAS (1).pdf",
+      "url": "https://drive.google.com/file/d/1s_b-hjecVIVraeaYHEpJIWkdbptYI41H/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": "/empreendimentos/it-camboinhas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Validação pendente: A Spin confirma a Rua José Lobo de Medeiros; um anúncio individual aponta nº 8, mas há referência pública divergente. Número pendente de validação."
+    ],
+    "locationStatus": "Precisa de apoio",
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/it-camboinhas-apartamentos-coberturas-e-apartamentos-garden-niteroi-4-quartos-173-a-341-m/17332787-SETV",
+    "addressReviewStatus": "Precisa de apoio",
+    "addressReview": "A Spin confirma a Rua José Lobo de Medeiros; um anúncio individual aponta nº 8, mas há referência pública divergente. Número pendente de validação."
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad",
+    "company": "CEU",
+    "neighborhood": "Piratininga",
+    "address": "Rua Antônio Augusto da Paz, 36",
+    "book": {
+      "name": "Book Nomad.pdf",
+      "url": "https://drive.google.com/file/d/1d5DoWZvlIGqLGBFs01S1_9CFFvb3EsOA/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Nomad - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9536354,
+    "lng": -43.0859276,
+    "precision": "exact",
+    "photo": "/empreendimentos/nomad.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153686,
+      "displayName": "Rua Comendador Antônio Augusto da Paz, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9536354,-43.0859276"
+  },
+  {
+    "id": "maria-maria",
+    "name": "Maria Maria",
+    "company": "CEU",
+    "neighborhood": "Camboinhas",
+    "address": "Rua Jayme Bittencourt",
+    "book": {
+      "name": "Book Spin Mobile - Maria Maria.pdf",
+      "url": "https://drive.google.com/file/d/13eMmhOrd4tRNprGMwJs_EpV3RsavxYKG/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Maria Maria - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.961083,
+    "lng": -43.0547843,
+    "precision": "exact",
+    "photo": "/empreendimentos/maria-maria.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://cidadedeniteroi.com/morar-e-investir/maria-maria-o-charme-do-sul-da-italia-encontra-o-melhor-de-camboinhas/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.961083,-43.0547843"
+  },
+  {
+    "id": "tao",
+    "name": "Tao",
+    "company": "CEU",
+    "neighborhood": "Piratininga",
+    "address": "Rua Antônio Augusto da Paz",
+    "book": {
+      "name": "Spin - Book - Tao.pdf",
+      "url": "https://drive.google.com/file/d/1fh6W0cvVv4vKxOfmvwQ1cPXvhwVIu8sN/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Tao - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.954021,
+    "lng": -43.086274,
+    "precision": "exact",
+    "photo": "/empreendimentos/tao.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153686,
+      "displayName": "Rua Comendador Antônio Augusto da Paz, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/tao-piratininga-apartamentos-e-coberturas-niteroi-2-a-4-quartos-112-a-265-m/22094475-SETV",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.954021,-43.086274"
+  },
+  {
+    "id": "in-icarai",
+    "name": "In Icaraí",
+    "company": "Cheade",
+    "neighborhood": "Icaraí",
+    "address": "Av. Almirante Ary Parreiras, 88",
+    "book": {
+      "name": "SPIN In Icaraí Book VS 1.pdf",
+      "url": "https://drive.google.com/file/d/1OVQbccPK6mAl3aiLnJU-QhYIUzMheZTv/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas In Icaraí Cheade - Junho 2026 - Com Logo.pdf",
+        "url": "https://drive.google.com/file/d/1I_8d0m8z7FxW0r_f80IvziwBJLpN_aTK/view?usp=drivesdk",
+        "date": "Junho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9115981,
+    "lng": -43.1071,
+    "precision": null,
+    "photo": "/empreendimentos/in-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9115981,-43.1071"
+  },
+  {
+    "id": "conviva-camboinhas",
+    "name": "Conviva Camboinhas",
+    "company": "Conviva",
+    "neighborhood": "Camboinhas",
+    "address": "Avenida Professor Florestan Fernandes, 602",
+    "book": {
+      "name": "Book Conviva Camboinhas_ver4.pdf",
+      "url": "https://drive.google.com/file/d/1gnQnRPiC273s9Bxis_VLIyCBSDdkJvVN/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Camboinhas - Setembro 2026 (2).pdf",
+        "url": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9574267,
+    "lng": -43.0519581,
+    "precision": null,
+    "photo": "/empreendimentos/conviva-camboinhas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9574267,-43.0519581"
+  },
+  {
+    "id": "conviva-charitas",
+    "name": "Conviva Charitas",
+    "company": "Conviva",
+    "neighborhood": "Charitas",
+    "address": "Rua Santa Cândida, 40",
+    "book": {
+      "name": "Book Conviva Charitas.pdf",
+      "url": "https://drive.google.com/file/d/1rt1XROIerKfUwTfnnT6nXHEI9htWuftH/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Charitas - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.931802,
+    "lng": -43.097067,
+    "precision": "exact",
+    "photo": "/empreendimentos/conviva-charitas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 262544435,
+      "displayName": "Travessa Santa Cândida, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.931802,-43.097067"
+  },
+  {
+    "id": "nice-camboinhas",
+    "name": "Nice Camboinhas",
+    "company": "Conviva",
+    "neighborhood": "Camboinhas",
+    "address": "Rua Dom Hélder Câmara, 25",
+    "book": {
+      "name": "Book Nice - Digital Spin.pdf",
+      "url": "https://drive.google.com/file/d/1v7aQZShY4nH8wANNSR6iRnGUN8HZesDP/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Nice - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.96066,
+    "lng": -43.055176,
+    "precision": "exact",
+    "photo": "/empreendimentos/nice-camboinhas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29150732,
+      "displayName": "Rua Dom Hélder Câmara, Camboinhas, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-000, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.96066,-43.055176"
+  },
+  {
+    "id": "brise-by-conviva",
+    "name": "Brise by Conviva",
+    "company": "Conviva",
+    "neighborhood": "Camboinhas",
+    "address": "Avenida Professor Florestan Fernandes, 75",
+    "book": {
+      "name": "Brise by Conviva.pdf",
+      "url": "https://drive.google.com/file/d/1k0izmUWM8EN_NKUSAGRxNwkGzb1x4tfp/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Brise By Conviva - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9615888,
+    "lng": -43.0510671,
+    "precision": null,
+    "photo": "/empreendimentos/brise-by-conviva.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9615888,-43.0510671"
+  },
+  {
+    "id": "conviva-life-camboinhas",
+    "name": "Conviva Life Camboinhas",
+    "company": "Conviva",
+    "neighborhood": "Camboinhas",
+    "address": "Avenida Professor Florestan Fernandes, 630",
+    "book": {
+      "name": "Conviva Camboinhas Life.pdf",
+      "url": "https://drive.google.com/file/d/1DHgs-IZyHH3V0soqqMI0nIZNWKrSSGOC/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Life Camboinhas - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9572371,
+    "lng": -43.0521726,
+    "precision": "exact",
+    "photo": "/empreendimentos/conviva-life-camboinhas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9572371,-43.0521726"
+  },
+  {
+    "id": "conviva-life-inga",
+    "name": "Conviva Life Ingá",
+    "company": "Conviva",
+    "neighborhood": "Ingá",
+    "address": "Avenida Casimiro de Abreu, 14",
+    "book": {
+      "name": "Conviva Life Ingá finalizado.pdf",
+      "url": "https://drive.google.com/file/d/1vTB8zxkAPXBoCrX_Fs4KAsX7RLnqIget/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Life Ingá - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9030786,
+    "lng": -43.1219927,
+    "precision": "exact",
+    "photo": "/empreendimentos/conviva-life-inga.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 119972379,
+      "displayName": "Rua Casimiro de Abreu, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-445, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9030786,-43.1219927"
+  },
+  {
+    "id": "conviva-icarai",
+    "name": "Conviva Icaraí",
+    "company": "Conviva",
+    "neighborhood": "Icaraí",
+    "address": "Rua Mariz e Barros, 34",
+    "book": {
+      "name": "Spin Book - Conviva Icarai - Antecipe-se ao lançamento.pdf",
+      "url": "https://drive.google.com/file/d/1D1w0E47_HZ-s-zdtjNtM2HTnjj-lMEYS/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Icaraí - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9103174,
+    "lng": -43.1088218,
+    "precision": "exact",
+    "photo": "/empreendimentos/conviva-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 123755776,
+      "displayName": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-121, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": null,
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9103174,-43.1088218"
+  },
+  {
+    "id": "conviva-itacoa",
+    "name": "Conviva Itacoá",
+    "company": "Conviva",
+    "neighborhood": "Itacoatiara",
+    "address": "Rua Antônio Nascimento Cottas, lote 27A ou 28",
+    "book": {
+      "name": "Spin_Book Provisório - Conviva Itacoa - Antecipe-se ao lançamento.pdf",
+      "url": "https://drive.google.com/file/d/1CQF6ZE8ODO7qNldgDd9WIr_iMlGaJ2wi/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Itacoa - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.96277,
+    "lng": -43.034869,
+    "precision": "exact",
+    "photo": "/empreendimentos/conviva-itacoa.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Validação pendente: A própria página da Conviva diverge: um trecho cita lote 27A e o endereço/ficha técnica informa lote 28. Confirmar na tabela/book."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": "A própria página da Conviva diverge: um trecho cita lote 27A e o endereço/ficha técnica informa lote 28. Confirmar na tabela/book.",
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://convivaengenharia.com.br/conviva-itacoa/",
+    "addressReviewStatus": "Precisa de apoio",
+    "locationSource": "https://www.google.com/maps?q=-22.96277,-43.034869"
+  },
+  {
+    "id": "caminhos-da-guanabara",
+    "name": "Caminhos da Guanabara",
+    "company": "Cury",
+    "neighborhood": "Centro",
+    "address": "Alameda Oscar Niemeyer — Centro (Caminho Niemeyer)",
+    "book": {
+      "name": "Book Digital Caminhos da Guanabara.pdf",
+      "url": "https://drive.google.com/file/d/1KyE6zOHEudOVOuCr016Bn0FHnuEoyhX7/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.886865,
+    "lng": -43.126432,
+    "precision": "exact",
+    "photo": "/empreendimentos/caminhos-da-guanabara.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://niteroi.curyapartamentosrj.com.br/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.886865,-43.126432"
+  },
+  {
+    "id": "orla-central",
+    "name": "Orla Central",
+    "company": "Cury",
+    "neighborhood": "Centro",
+    "address": "Rua Saldanha Marinho",
+    "book": {
+      "name": "Spin_Book_Digital_Orla_Central_V4.pdf",
+      "url": "https://drive.google.com/file/d/1aXKu5nuyuV5J1hAki9Z_bU2CntH4x9jD/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8893326,
+    "lng": -43.1253427,
+    "precision": "exact",
+    "photo": "/empreendimentos/orla-central.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://curyconstrutoras.com.br/empreendimentos/orla-central/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8893326,-43.1253427"
+  },
+  {
+    "id": "rio-branco-220",
+    "name": "Rio Branco 220",
+    "company": "Cury",
+    "neighborhood": "Centro",
+    "address": "Avenida Visconde do Rio Branco, 220",
+    "book": {
+      "name": "RIO BRANCO 220.pdf",
+      "url": "https://drive.google.com/file/d/1zipmuzH2rH-fL9HiOpWekfIynfL7jrtM/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/rio-branco-220.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 183021481,
+      "displayName": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-002, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://apecury.com.br/bora-de-ape/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "the-pier",
+    "name": "The Pier",
+    "company": "Cury",
+    "neighborhood": "Centro",
+    "address": "Rua Projetada 1, 91",
+    "book": {
+      "name": "ThePier_BookDigital SPIN.pdf",
+      "url": "https://drive.google.com/file/d/17EtItisHZOjxnj0FgL3TumidGaRG-Dup/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8893997,
+    "lng": -43.1269739,
+    "precision": "exact",
+    "photo": "/empreendimentos/the-pier.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://apecury.com.br/niteroi/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8893997,-43.1269739"
+  },
+  {
+    "id": "flow-santa-rosa",
+    "name": "Flow Santa Rosa",
+    "company": "Cury",
+    "neighborhood": "Santa Rosa",
+    "address": "Rua Doutor Mário Viana, 441",
+    "book": {
+      "name": "Cury — Book Flow Santa Rosa.pdf",
+      "url": "https://drive.google.com/file/d/1F9c1JG5wEM8E8If1P5wEgerJeKE0vpdf/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9037302,
+    "lng": -43.0939723,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/flow-santa-rosa-niteroi/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9037302,-43.0939723"
+  },
+  {
+    "id": "alto-do-inga",
+    "name": "Alto do Ingá",
+    "company": "CYCOHRP Engenharia",
+    "neighborhood": "Ingá",
+    "address": "Rua Presidente Pedreira, 89",
+    "book": {
+      "name": "Book Alto do Ingá.pdf",
+      "url": "https://drive.google.com/file/d/1PCJs7AJFJc_tUagSl5wpOOW2xgCBLRuz/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/alto-do-inga.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 183032534,
+      "displayName": "Rua Presidente Pedreira, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-431, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.sindicatodosleiloeirosrj.com.br/editais/apto-de-alto-padrao-com-8465-m2-em-inga-niteroi-rj/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "conquista-oceanica",
+    "name": "Conquista Oceânica",
+    "company": "Direcional",
+    "neighborhood": "Rio do Ouro, São Gonçalo",
+    "address": "Avenida Rio do Ouro, s/n — Rio do Ouro, São Gonçalo/RJ",
+    "book": {
+      "name": "Book Conquista Oceânica.pdf",
+      "url": "https://drive.google.com/file/d/1cljCujTNBvuBEMWlBN1NGOiJjW4UkLL3/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conquista Oceânica - Abril 2026.pdf",
+        "url": "https://drive.google.com/file/d/1s9AY3VrW5nUBwJ-GFEkgGwvftiKClvOJ/view?usp=drivesdk",
+        "date": "Abril 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9043015,
+    "lng": -42.9683827,
+    "precision": "exact",
+    "photo": "/empreendimentos/conquista-oceanica.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: Material comercial consultado confirma Avenida Rio do Ouro, s/n, São Gonçalo. O empreendimento está fora do município de Niterói indicado pelo conjunto da planilha; revisar se deve entrar no mapa."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": "Material comercial consultado confirma Avenida Rio do Ouro, s/n, São Gonçalo. O empreendimento está fora do município de Niterói indicado pelo conjunto da planilha; revisar se deve entrar no mapa.",
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://brjimoveis.com/lancamentos/conquista-oceanica-sao-goncalo/",
+    "addressReviewStatus": "Precisa de apoio",
+    "locationSource": "https://www.google.com/maps?q=-22.9043015,-42.9683827"
+  },
+  {
+    "id": "reserva-sao-francisco",
+    "name": "Reserva São Francisco",
+    "company": "Elvas",
+    "neighborhood": "São Francisco",
+    "address": "Avenida Rui Barbosa, 252",
+    "book": {
+      "name": "Book Reserva São Francisco Elvas.pdf",
+      "url": "https://drive.google.com/file/d/1rCwhs6hadF73-_qMXrYAWJdKgxSo4UwJ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Reserva São Francisco - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9194501,
+    "lng": -43.0876731,
+    "precision": "exact",
+    "photo": "/empreendimentos/reserva-sao-francisco.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1195946798,
+      "displayName": "Avenida Rui Barbosa, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-540, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://reservasaofrancisconiteroi.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://maps.app.goo.gl/FHWYZxeu7StepKHj8"
+  },
+  {
+    "id": "neo-design-icarai",
+    "name": "Neo Design Icaraí",
+    "company": "Elvas",
+    "neighborhood": "Icaraí",
+    "address": "Rua Álvares de Azevedo, 239",
+    "book": {
+      "name": "SPIN Book Digital_Neo Design Icaraí.pdf",
+      "url": "https://drive.google.com/file/d/1NYOJf3Ve1XzaCJOeiv8q93OCKW_cyRUT/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Neo Design - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.900402,
+    "lng": -43.110665,
+    "precision": null,
+    "photo": "/empreendimentos/neo-design-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://neodesignicarai.com.br/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.900402,-43.110665"
+  },
+  {
+    "id": "upside-charitas",
+    "name": "Upside Charitas",
+    "company": "Elvas",
+    "neighborhood": "Charitas",
+    "address": "Rua Juiz Alberto Nader, 45",
+    "book": {
+      "name": "SPIN Mini Book Corretor_Upside Charitas.pdf",
+      "url": "https://drive.google.com/file/d/1rpsI8Fsie9lUpN0nAMxcJp4GJX4hiFCJ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de vendas Upside - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1JmZPfIJGqIdZ4QmK7sP5h3ZTfSy-R6iH/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9260496,
+    "lng": -43.0932657,
+    "precision": "exact",
+    "photo": "/empreendimentos/upside-charitas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 514033353,
+      "displayName": "Rua Juiz Alberto Nader, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-010, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.lopes.com.br/lancamento/REM24239/upside-charitas-niteroi-charitas",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9260496,-43.0932657"
+  },
+  {
+    "id": "vila-gaudi",
+    "name": "Vila Gaudí",
+    "company": "Equipe",
+    "neighborhood": "Itaipu",
+    "address": "Rua Vereador Agostinho de Paula Santos, 548 — Piratininga",
+    "book": {
+      "name": "Book Vila Gaudi.pdf",
+      "url": "https://drive.google.com/file/d/1mQ0B9qHxhDeBkVYARNZLKB4yIQxO9Tzp/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: Lopes lista o endereço em Piratininga; outros anúncios classificam como Itaipu/Santo Antônio. Validar o bairro cartográfico."
+    ],
+    "locationStatus": "Precisa de apoio",
+    "addressReview": "Lopes lista o endereço em Piratininga; outros anúncios classificam como Itaipu/Santo Antônio. Validar o bairro cartográfico.",
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/itaipu",
+    "addressReviewStatus": "Precisa de apoio"
+  },
+  {
+    "id": "mok-132",
+    "name": "Mok 132",
+    "company": "Falves",
+    "neighborhood": "Icaraí",
+    "address": "Rua Francisco Dutra, 132",
+    "book": {
+      "name": "Apresentação - Pré-Lançamento MOK.pdf",
+      "url": "https://drive.google.com/file/d/1kFanoIk2UzUxUfrr2UTjgm7oKGkKK8IJ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas  Mok 132 - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1wI6R1rrjcBi-OLQvL99UgOyE4vRyLBt3/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9070526,
+    "lng": -43.1003602,
+    "precision": "exact",
+    "photo": "/empreendimentos/mok-132.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/mok-132-apartamentos-e-coberturas-niteroi-3-quartos-90-a-163-m/22422754-SETV",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9070526,-43.1003602"
+  },
+  {
+    "id": "mb-loft",
+    "name": "MB Loft",
+    "company": "Falves",
+    "neighborhood": "Icaraí",
+    "address": "Rua Mariz e Barros, 225",
+    "book": {
+      "name": "Book MB Loft SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1jBs0ttPtA71ocMRmcEkkX9MfM7fB11i-/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/mb-loft.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 123755776,
+      "displayName": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-121, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://falvesinc.com.br/empreendimentos/mb-loft",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "namas-smart-living",
+    "name": "Namas Smart Living",
+    "company": "Falves",
+    "neighborhood": "Ingá",
+    "address": "Rua São Sebastião, 30",
+    "book": {
+      "name": "Namas SmartLiving.pdf",
+      "url": "https://drive.google.com/file/d/16c4qNZ3VLyUiQyQZmNQq5aZmBMtFbqHd/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Namas - Março 2026.pdf",
+        "url": "https://drive.google.com/file/d/1YXxe_9gXqzfWND-LVnZqR9tRQjuyR5gl/view?usp=drivesdk",
+        "date": "Março 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8990357,
+    "lng": -43.1236131,
+    "precision": null,
+    "photo": "/empreendimentos/namas-smart-living.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/namas-smart-living-apartamentos-coberturas-e-studios-niteroi-1-quarto-28-a-103-m/17333452-SETV",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8990357,-43.1236131"
+  },
+  {
+    "id": "cascais",
+    "name": "Cascais",
+    "company": "Falves",
+    "neighborhood": "São Francisco",
+    "address": "Estrada Leopoldo Fróes",
+    "book": {
+      "name": "SPIN Book - CASCAIS - Estrada Fróes.pdf",
+      "url": "https://drive.google.com/file/d/15mc-ihNweJT-lo0G0UY7pLpv-ihG_gKA/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Cascais - Março 2026 (1).pdf",
+        "url": "https://drive.google.com/file/d/1zYQzLDkhVzWmGD_160L51CsuVKrqSYA7/view?usp=drivesdk",
+        "date": "Março 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9148602,
+    "lng": -43.1107234,
+    "precision": "exact",
+    "photo": "/empreendimentos/cascais.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 604710701,
+      "displayName": "Estrada Leopoldo Fróes, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-540, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://falvesinc.com.br/empreendimentos/cascais-estrada-froes",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9148602,-43.1107234"
+  },
+  {
+    "id": "trend-by-falves",
+    "name": "Trend by Falves",
+    "company": "Falves",
+    "neighborhood": "Ingá",
+    "address": "Rua Nilo Peçanha, 112",
+    "book": {
+      "name": "Spin_Book - Trend - Digital-3.pdf",
+      "url": "https://drive.google.com/file/d/1hGrQ-4x6je8HDMSFnH8trLm4MA6Ed1qm/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Trend By Falves - Maio 2026 (Lançamento).pdf",
+        "url": "https://drive.google.com/file/d/1_ZamfspHEFHYbcaM0TfGOtrb_B7JYgZ8/view?usp=drivesdk",
+        "date": "Maio 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9025529,
+    "lng": -43.1238653,
+    "precision": "exact",
+    "photo": "/empreendimentos/trend-by-falves.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 785117591,
+      "displayName": "Rua Doutor Nilo Peçanha, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-480, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/trend-by-falves-coberturas-studios-e-apartamentos-garden-niteroi-1-quarto-31-a-76-m/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9025529,-43.1238653"
+  },
+  {
+    "id": "arend",
+    "name": "Arend",
+    "company": "Fernandes Maciel",
+    "neighborhood": "São Francisco",
+    "address": "Avenida Rui Barbosa, 303",
+    "book": {
+      "name": "AREND Residencial book.pdf",
+      "url": "https://drive.google.com/file/d/1mm6bcXIEYeHKeVxFyg_5nW9wlkK3qRZx/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Arend - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1sipP_p9oqv24MRipbiiJgzebWmrENrFm/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9186063,
+    "lng": -43.0870009,
+    "precision": "exact",
+    "photo": "/empreendimentos/arend.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1195946798,
+      "displayName": "Avenida Rui Barbosa, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-540, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://fernandesmaciel.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9186063,-43.0870009"
+  },
+  {
+    "id": "duetto",
+    "name": "Duetto",
+    "company": "Fernandes Maciel",
+    "neighborhood": "Jardim Icaraí",
+    "address": "Rua Santa Rosa, 82 — Santa Rosa",
+    "book": {
+      "name": "Book Duetto.pdf",
+      "url": "https://drive.google.com/file/d/1Nud1X8hqIvW0cbj1BsUfsaX9-EQBgWQK/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Duetto - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8998004,
+    "lng": -43.1021411,
+    "precision": "exact",
+    "photo": "/empreendimentos/duetto.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 182642963,
+      "displayName": "Rua Santa Rosa, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-185, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://fernandesmaciel.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.8998004,-43.1021411"
+  },
+  {
+    "id": "ile",
+    "name": "Íle",
+    "company": "Fernandes Maciel",
+    "neighborhood": "Icaraí",
+    "address": "Rua Mariz e Barros, 310 — Jardim Icaraí",
+    "book": {
+      "name": "Book ÍLE.pdf",
+      "url": "https://drive.google.com/file/d/1PCK5EzHiQlrBRAE9Cm1cUrD7x5-sbxAU/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Íle - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9054152,
+    "lng": -43.103472,
+    "precision": "exact",
+    "photo": "/empreendimentos/ile.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 123755776,
+      "displayName": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-121, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.zapimoveis.com.br/lancamentos/ile-id-2913389738/?development_unit_id=2913391038&source=ranking%2Cunknown",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9054152,-43.103472"
+  },
+  {
+    "id": "sd40",
+    "name": "SD40",
+    "company": "Fernandes Maciel",
+    "neighborhood": "Icaraí",
+    "address": "Rua Santos Dumont, 40",
+    "book": {
+      "name": "Book SD40.pdf",
+      "url": "https://drive.google.com/file/d/1RHxtGjjRi3GTL1VUb3xBrYsSxjKIbaje/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas SD40 - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/10NWMMbD8nlKZJNiZDh8BfuEmHhTTSoBo/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9000888,
+    "lng": -43.1070748,
+    "precision": "exact",
+    "photo": "/empreendimentos/sd40.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 30359735,
+      "displayName": "Rua Santos Dumont, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-400, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://fernandesmaciel.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9000888,-43.1070748"
+  },
+  {
+    "id": "green-open",
+    "name": "Green Open",
+    "company": "GPCON",
+    "neighborhood": "Fonseca",
+    "address": "Rua São Geraldo, 75",
+    "book": {
+      "name": "BOOK GREEN OPEN.pdf",
+      "url": "https://drive.google.com/file/d/1Iw8KV21h_czqYeCRBJAixtllYrmkbBTI/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Green Open - Julho 2026.pdf",
+        "url": "https://drive.google.com/file/d/1FPC5D5pWDfXgL7A2fypBAk6TCnDDmvxa/view?usp=drivesdk",
+        "date": "Julho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8853538,
+    "lng": -43.0886703,
+    "precision": "exact",
+    "photo": "/empreendimentos/green-open.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 187386353,
+      "displayName": "Rua São Geraldo, Fonseca, Região Norte, Niterói, Rio de Janeiro, Região Sudeste, 24120-250, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.gpconrealizacoes.com.br/empreendimentos/green-open-residencial",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.8853538,-43.0886703"
+  },
+  {
+    "id": "niteroi-open-santa-rosa",
+    "name": "Niterói Open Santa Rosa",
+    "company": "GPCON",
+    "neighborhood": "Santa Rosa",
+    "address": "Rua Doutor Martins Tôrres, 154",
+    "book": {
+      "name": "BOOK OPEN SANTA ROSA.pdf",
+      "url": "https://drive.google.com/file/d/1qZZ8h2dSI7JOzGDovB6fJbuaEcz-g5Hn/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Niterói Open - Fevereiro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1eIWN1AwuU4-VdSdY5Wt5Xr67W-ZTSy4z/view?usp=drivesdk",
+        "date": "Novembro 2025"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8994146,
+    "lng": -43.094178,
+    "precision": "exact",
+    "photo": "/empreendimentos/niteroi-open-santa-rosa.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "O PDF atualmente vinculado traz validade de 01 a 30/11/2025; confirmar se existe uma tabela mais recente."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.quintoandar.com.br/condominio/open-santa-rosa-santa-rosa-niteroi-k27sg3zxmp",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://maps.app.goo.gl/zHpp9nMgFb1hhfF37"
+  },
+  {
+    "id": "lazuli",
+    "name": "Lazuli",
+    "company": "Habitare",
+    "neighborhood": "Boa Viagem",
+    "address": "Rua Antônio Parreiras, 131",
+    "book": {
+      "name": "Book LAZULI.pdf",
+      "url": "https://drive.google.com/file/d/1oj3rj6_CkGSVxmXVsDyOuA593Jz55BLh/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf",
+        "url": "https://drive.google.com/file/d/1m2rHn8l9763aR_V-H5hWW3xTNcvVZK1l/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9076375,
+    "lng": -43.129734,
+    "precision": "exact",
+    "photo": "/empreendimentos/lazuli.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 130089731,
+      "displayName": "Rua Antônio Parreiras, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-360, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://apartamentoniteroi.com.br/lazuli-niteroi/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9076375,-43.129734"
+  },
+  {
+    "id": "sou-icarai",
+    "name": "Sou + Icaraí",
+    "company": "Habitare",
+    "neighborhood": "Ingá",
+    "address": "Rua Professora Aurélia Pimentel Quaresma Moura, 110",
+    "book": {
+      "name": "Sou Mais+Icarai.pdf",
+      "url": "https://drive.google.com/file/d/1fcfrOh9yCyUBpk1mO8I9FdIcKCqYInyQ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf",
+        "url": "https://drive.google.com/file/d/1ToVWq-gwDBxpeVvIBlWAHft0NxR2ci2J/view?usp=drivesdk",
+        "date": "Maio 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9011823,
+    "lng": -43.1185904,
+    "precision": "exact",
+    "photo": "/empreendimentos/sou-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1200612661,
+      "displayName": "Rua Professora Aurélia Pimentel Quaresma de Moura, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-001, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.soumaisicarai.com/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9011823,-43.1185904"
+  },
+  {
+    "id": "sou-itacoa",
+    "name": "Sou + Itacoá",
+    "company": "Habitare",
+    "neighborhood": "Itacoatiara",
+    "address": "Rua Samuel Wainer Filho, 900",
+    "book": {
+      "name": "SPIN Book de Vendas_Sou Itacoa.pdf",
+      "url": "https://drive.google.com/file/d/1_4v3GOe0G3kk1cz6xwb2WXutm3OQUGmx/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Sou Mais+ Itacoa - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/10q3tYjC_w7LWNUDZaggFLEEiz2dpFNjm/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9624572,
+    "lng": -43.031481,
+    "precision": null,
+    "photo": "/empreendimentos/sou-itacoa.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29159265,
+      "displayName": "Rua Samuel Wainer Filho, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-000, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://apartamentoniteroi.com.br/sou-mais-itacoatiara/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9624572,-43.031481"
+  },
+  {
+    "id": "sou-charitas",
+    "name": "Sou + Charitas",
+    "company": "Habitare",
+    "neighborhood": "Charitas",
+    "address": "Rua Juiz Alberto Nader — Charitas (nº divergente: 11 ou 70)",
+    "book": {
+      "name": "SPIN Book de Vendas_Sou+ Charitas.pdf",
+      "url": "https://drive.google.com/file/d/1qwJWD3aBcRWuwmI6Npak3bTGVtSiqarJ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Sou Mais Charitas - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1ujNZRqo7cihmcd-y3EYJQGKj-mak0ZvE/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9256669,
+    "lng": -43.0942508,
+    "precision": "exact",
+    "photo": "/empreendimentos/sou-charitas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Validação pendente: Lopes lista nº 70; material comercial antigo indexado lista nº 11. Manter pendente até conferir tabela/book atual."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/regiao-oceanica-de-niteroi",
+    "addressReviewStatus": "Precisa de apoio",
+    "addressReview": "Lopes lista nº 70; material comercial antigo indexado lista nº 11. Manter pendente até conferir tabela/book atual.",
+    "locationSource": "https://www.google.com/maps?q=-22.9256669,-43.0942508"
+  },
+  {
+    "id": "sou-wellness-charitas",
+    "name": "Sou + Wellness Charitas",
+    "company": "Habitare",
+    "neighborhood": "Charitas",
+    "address": "Avenida Prefeito Sílvio Picanço, 877",
+    "book": {
+      "name": "Spin_book - sou+ wellness charitas.pdf",
+      "url": "https://drive.google.com/file/d/1uW-Da3vRFI766La-5Htz0JVHuyzD_h8K/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Sou Mais+ Wellness Charitas - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1kqtlLIbqQyg2zRUtl5PdDDj8ood9y2V-/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9312526,
+    "lng": -43.0973633,
+    "precision": "exact",
+    "photo": "/empreendimentos/sou-wellness-charitas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 857060181,
+      "displayName": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.zapimoveis.com.br/lancamentos/sou-mais-wellness-charita-id-2843143215/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9312526,-43.0973633"
+  },
+  {
+    "id": "marina",
+    "name": "Marina",
+    "company": "Itauba",
+    "neighborhood": "Piratininga",
+    "address": "Avenida Almirante Tamandaré, 3394",
+    "book": {
+      "name": "Book Marina.pdf",
+      "url": "https://drive.google.com/file/d/1p9hu2hmixnRknUs2HSRPNmDk6xAH696p/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Marina - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9548681,
+    "lng": -43.078711,
+    "precision": null,
+    "photo": "/empreendimentos/marina.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/marina-apartamentos-e-coberturas-niteroi-2-a-4-quartos-89-a-267-m/19382823-SETV",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9548681,-43.078711"
+  },
+  {
+    "id": "ravello-residenziale",
+    "name": "Ravello Residenziale",
+    "company": "Itauba",
+    "neighborhood": "Piratininga",
+    "address": "Rua Roma, 360",
+    "book": {
+      "name": "Book RAVELLO Residenziale - ITAÚBA-Reduzido.pdf",
+      "url": "https://drive.google.com/file/d/1lN6mwfizdBFgV2-F-B1KS5rw1OnD5mQb/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/ravello-residenziale.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29182470,
+      "displayName": "Rua Roma, Comunidade da Ciclovia, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24350-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.quintoandar.com.br/condominio/ravello-residenziale-piratininga-niteroi-p6js8yzv5k",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "triunfo",
+    "name": "Triunfo",
+    "company": "Itauba",
+    "neighborhood": "Camboinhas",
+    "address": "Rua Jayme Bittencourt, 200",
+    "book": {
+      "name": "Book Triunfo SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1evYHMNuFGwGkwe9P32cv7nithH6W1qYU/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Triunfo - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9613629,
+    "lng": -43.0529928,
+    "precision": null,
+    "photo": "/empreendimentos/triunfo.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.waze.com/live-map/directions/br/rj/triunfo-camboinhas?to=place.ChIJLypqfieHmQARR595hwW1nu8",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9613629,-43.0529928"
+  },
+  {
+    "id": "serena",
+    "name": "Serena",
+    "company": "Itauba",
+    "neighborhood": "A confirmar",
+    "address": "Avenida Almirante Tamandaré — Piratininga (nº divergente: 2 ou 2926)",
+    "book": {
+      "name": "Spin Book SERENA - Itaúba.pdf",
+      "url": "https://drive.google.com/file/d/1ddi8NF1nz9B7czr9K3b6i0yAB3kBpJN1/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Serena - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9555573,
+    "lng": -43.074585,
+    "precision": "exact",
+    "photo": "/empreendimentos/serena.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: A ficha Spin exibe nº 2, enquanto o cadastro da SPE/empreendimento aponta nº 2926; mantido em revisão até confirmar no book/tabela."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": "A ficha Spin exibe nº 2, enquanto o cadastro da SPE/empreendimento aponta nº 2926; mantido em revisão até confirmar no book/tabela.",
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/serena-apartamentos-coberturas-e-apartamentos-garden-niteroi-2-a-4-quartos-91-a-266-m/24550694-SETV?from=sale",
+    "addressReviewStatus": "Precisa de apoio",
+    "locationSource": "https://www.google.com/maps?q=-22.9555573,-43.074585"
+  },
+  {
+    "id": "althea",
+    "name": "Althea",
+    "company": "Joama",
+    "neighborhood": "Jardim Icaraí",
+    "address": "Rua João Pessoa, 65",
+    "book": {
+      "name": "Spin_Book Althea 10.03 LOW.pdf",
+      "url": "https://drive.google.com/file/d/1v7dk3ucVZucumOTBW35fcu0vNIqZh806/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Althea - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8997767,
+    "lng": -43.1049866,
+    "precision": null,
+    "photo": "/empreendimentos/althea.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://joama.com.br/althea/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8997767,-43.1049866"
+  },
+  {
+    "id": "np38",
+    "name": "NP38",
+    "company": "Joama",
+    "neighborhood": "Santa Rosa",
+    "address": "Rua Newton Prado, 38",
+    "book": {
+      "name": "Spin_NP38-EBook - Final.pdf",
+      "url": "https://drive.google.com/file/d/1EMPWlZoyEKl78JgGWRlvn75JWKLbnp_D/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas NP38 - Agosto 2026 (1).pdf",
+        "url": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8986219,
+    "lng": -43.102034,
+    "precision": null,
+    "photo": "/empreendimentos/np38.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://joama.com.br/np38/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8986219,-43.102034"
+  },
+  {
+    "id": "terramarine",
+    "name": "Terramarine",
+    "company": "João Fortes",
+    "neighborhood": "Icaraí",
+    "address": "Rua Joaquim Távora, 138",
+    "book": {
+      "name": "Convenção Terramarine - SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1rQtvlPGIqX91fmHRZPVjlCFzD7-Vka9o/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Terramarine - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1lCkR0QSSfaYUZlftQxM4mmrvX84cGhaQ/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9115633,
+    "lng": -43.1057737,
+    "precision": "exact",
+    "photo": "/empreendimentos/terramarine.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1317534335,
+      "displayName": "Terramarine, 138, Rua Joaquim Távora, Ed Summer Time, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-540, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://joaofortes.com.br/institucional/imovel.php?id=6",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9115633,-43.1057737"
+  },
+  {
+    "id": "uni-home-studios",
+    "name": "Uni Home Studios",
+    "company": "JPR",
+    "neighborhood": "Boa Viagem",
+    "address": "Rua José Maurício Ferraz, 2",
+    "book": {
+      "name": "SPIN BOOK DIGITAL UNI HOME STUDIOS - JPR_21.06.pdf",
+      "url": "https://drive.google.com/file/d/1t0EUI_moCXCZfNjmgr_p5vkpOBAeXeYI/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de vendas - Uni Home Studio - Set_2026.pdf",
+        "url": "https://drive.google.com/file/d/1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9060593,
+    "lng": -43.1323318,
+    "precision": "exact",
+    "photo": "/empreendimentos/uni-home-studios.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 130003067,
+      "displayName": "Uni Home Studios, 2, Rua José Maurício Ferraz, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-346, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.zapimoveis.com.br/condominio/rj-niteroi-boa-viagem-uni-home-studios-id-07073c72-07c5/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9060593,-43.1323318"
+  },
+  {
+    "id": "maris",
+    "name": "Maris",
+    "company": "Krion",
+    "neighborhood": "Charitas",
+    "address": "Avenida Prefeito Sílvio Picanço, 595",
+    "book": {
+      "name": "BOOK TÉCNICO Maris_Spin.pdf",
+      "url": "https://drive.google.com/file/d/1-Igp6NYlEJSdGfoOkg022DpByZY04XMH/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Maris - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9259217,
+    "lng": -43.0948938,
+    "precision": "exact",
+    "photo": "/empreendimentos/maris.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 857060181,
+      "displayName": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://apartamentoniteroi.com.br/maris-charitas/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9259217,-43.0948938"
+  },
+  {
+    "id": "calle-sardegna",
+    "name": "Calle Sardegna",
+    "company": "LRM",
+    "neighborhood": "Santa Rosa",
+    "address": "Rua Doutor Sardinha, 183",
+    "book": {
+      "name": "Book Calle Sardegna SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1XoENepDcItQmn8j0Sd0uramScKPf01-9/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Calle Sardegna - Julho 2026.pdf",
+        "url": "https://drive.google.com/file/d/1vw-lo6lOiz1tG7dfELQIgwwCRs7emYfh/view?usp=drivesdk",
+        "date": "Julho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8982509,
+    "lng": -43.0974368,
+    "precision": "exact",
+    "photo": "/empreendimentos/calle-sardegna.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1318324631,
+      "displayName": "Calle Sardegna, 183, Rua Doutor Sardinha, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-660, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.callesardegna.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.8982509,-43.0974368"
+  },
+  {
+    "id": "solo",
+    "name": "Solo",
+    "company": "LRM",
+    "neighborhood": "Icaraí",
+    "address": "Rua Dom Bosco — Jardim Icaraí",
+    "book": {
+      "name": "Book Spin Digital_Solo_LRM_1920_x_1080px[1].pdf",
+      "url": "https://drive.google.com/file/d/1oDNu2BpbPqUZEehQiVpZUDLXDMRCiCvM/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/solo.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 182481066,
+      "displayName": "Rua Dom Bosco, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-390, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://apto.vc/br/rj/niteroi/icarai/solo-jardim-icarai",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "scenarium-piratininga",
+    "name": "Scenarium Piratininga",
+    "company": "LRM",
+    "neighborhood": "Piratininga",
+    "address": "Avenida Almirante Tamandaré, 2866",
+    "book": {
+      "name": "SPIN BOOK DIGITAL SCENARIUM PIRATININGA.pdf",
+      "url": "https://drive.google.com/file/d/1Cx2Rm796PDHQAxaxT_L7sNwMvb83NR7t/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Scenarium - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/16OCudjv-0EeTDfaRZvUQ_wGw2RJhFxC0/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9556353,
+    "lng": -43.0740297,
+    "precision": "exact",
+    "photo": "/empreendimentos/scenarium-piratininga.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 508062276,
+      "displayName": "Avenida Almirante Tamandaré, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://scenariumpiratininga.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9556353,-43.0740297"
+  },
+  {
+    "id": "tre-amici",
+    "name": "Tre Amici",
+    "company": "Medeiros",
+    "neighborhood": "Piratininga",
+    "address": "Rua Jornalista Francisco Rodrigues de Miranda, 71",
+    "book": {
+      "name": "Book - TRE AMICI_Final_compressed.pdf",
+      "url": "https://drive.google.com/file/d/1RTpe557rM-plPi8DdPDLuVgYZkw6CLgA/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/tre-amici.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153268,
+      "displayName": "Rua Jornalista Francisco Rodrigues de Miranda, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-030, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/tre-amici-residenziale-apartamentos-e-coberturas-niteroi-2-a-3-quartos-83-a-177-m/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "jardim-itacoa",
+    "name": "Jardim Itacoá",
+    "company": "Medeiros",
+    "neighborhood": "Itacoatiara",
+    "address": "Estrada Francisco da Cruz Nunes, 10512",
+    "book": {
+      "name": "Medeiros — SPIN Apresentação_Book Jardim Itacoa.pdf",
+      "url": "https://drive.google.com/file/d/1mObitQqX8RUpwchUgEyMse2wLBMzDI51/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1pyQdpbCX_TWmU5EF-TD3-rOTgDs-kSKe/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9549181,
+    "lng": -43.0281432,
+    "precision": "exact",
+    "photo": "/empreendimentos/jardim-itacoa.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes.",
+      "Validação pendente: Endereço listado pela Spin. Há anúncios divergentes de números próximos para o empreendimento; validar o número no book/tabela."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 264028676,
+      "displayName": "Estrada Francisco da Cruz Nunes, Itacoatiara, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-082, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/jardim-itacoa-residencial-apartamentos-coberturas-lojas-e-apartamentos-garden-niteroi-3-quartos-38-a-157-m/23240576-SETV",
+    "addressReviewStatus": "Precisa de apoio",
+    "addressReview": "Endereço listado pela Spin. Há anúncios divergentes de números próximos para o empreendimento; validar o número no book/tabela.",
+    "locationSource": "https://www.google.com/maps?q=-22.9549181,-43.0281432"
+  },
+  {
+    "id": "wind-itacoatiara",
+    "name": "Wind Itacoatiara",
+    "company": "Metta",
+    "neighborhood": "Itaipu",
+    "address": "Estrada Francisco da Cruz Nunes",
+    "book": {
+      "name": "Book Wind Itacoatiara.pdf",
+      "url": "https://drive.google.com/file/d/1KSAOdyMUe-nDJlyaJzwCAV27AJTTYEwq/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
+        "url": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk",
+        "date": "Março 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9625347,
+    "lng": -43.0305839,
+    "precision": "exact",
+    "photo": "/empreendimentos/wind-itacoatiara.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "node",
+      "osmId": 13669905441,
+      "displayName": "Cor e Unha, 11412, Estrada Francisco da Cruz Nunes, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24340-000, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.vlconstrucoes.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9625347,-43.0305839"
+  },
+  {
+    "id": "wind-oceanica",
+    "name": "Wind Oceânica",
+    "company": "Metta",
+    "neighborhood": "Piratininga",
+    "address": "Rua Doutora Namir Peralta, 113",
+    "book": {
+      "name": "SPIN WIND OCEÂNICA_BOOK- VS 2.pdf",
+      "url": "https://drive.google.com/file/d/1U2qEM3qfk6-IAkb2oNCXyk04IaVkcIY5/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Wind Oceanica - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9545252,
+    "lng": -43.0758152,
+    "precision": "exact",
+    "photo": "/empreendimentos/wind-oceanica.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153289,
+      "displayName": "Rua Doutora Namir Peralta, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-030, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.vlconstrucoes.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9545252,-43.0758152"
+  },
+  {
+    "id": "wind-piratininga",
+    "name": "Wind Piratininga",
+    "company": "Metta",
+    "neighborhood": "Piratininga",
+    "address": "Rua Raul Corrêa de Araújo, 92",
+    "book": {
+      "name": "WIND PIRATININGA BOOK.pdf",
+      "url": "https://drive.google.com/file/d/1krsTIpueLhuNDSJy2JwiVpDoR-3Tawcb/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/wind-piratininga.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153445,
+      "displayName": "Rua Raul Correa de Araújo, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://vlconstrucoes.com.br/imovel/wind-piratininga",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "bettina",
+    "name": "Bettina",
+    "company": "Mhor",
+    "neighborhood": "Piratininga",
+    "address": "Rua Pietro Farsoun, 158",
+    "book": {
+      "name": "Book Bettina SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1isIJ9co9cx-1zxjXskNplNuu6uG5RGlO/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.954374,
+    "lng": -43.0733979,
+    "precision": null,
+    "photo": "/empreendimentos/bettina.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://mohrengenharia.com.br/empreendimentos-bettina",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.954374,-43.0733979"
+  },
+  {
+    "id": "115-tapuias",
+    "name": "115 Tapuias",
+    "company": "MRC",
+    "neighborhood": "São Francisco",
+    "address": "Rua Tapuias, 115",
+    "book": {
+      "name": "SPIN 115 Tapuias - Book Digital.pdf",
+      "url": "https://drive.google.com/file/d/1ByQenh12GDrX9g6b6MdJRsuCi_4MwZAb/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas 115 Tapuias - Abril 2026.pdf",
+        "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+        "date": "Abril 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.918477,
+    "lng": -43.091176,
+    "precision": "exact",
+    "photo": "/empreendimentos/115-tapuias.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 38117140,
+      "displayName": "Rua Tapuias, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-440, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/115-tapuias-residences-apartamentos-e-coberturas-niteroi-3-a-4-quartos-110-a-232-m/22961413-SETV",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.918477,-43.091176"
+  },
+  {
+    "id": "m-48",
+    "name": "M.48",
+    "company": "Nexis",
+    "neighborhood": "Boa Viagem",
+    "address": "Rua Presidente Domiciano, 48",
+    "book": {
+      "name": "Spin_295A_BOOK_M48_DIGITAL_RED.pdf",
+      "url": "https://drive.google.com/file/d/1GcnukwaBLHIxSasl2TgADzPao0Ul6yAh/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/m-48.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29255902,
+      "displayName": "Rua Presidente Domiciano, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-346, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.nexisincorporadora.com.br/M48",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "green-life",
+    "name": "Green Life",
+    "company": "Novolar",
+    "neighborhood": "A confirmar",
+    "address": "Avenida Washington Luís, 1 — Centro",
+    "book": {
+      "name": "Book Green Life.pdf",
+      "url": "https://drive.google.com/file/d/11x1fUe7r2CnMGIbdtMUL68Rh5sWLW1m0/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Green Life - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1ARkrcNKHWXfiSTV4Wr5fV7APGWAOlnrn/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8863149,
+    "lng": -43.1151192,
+    "precision": null,
+    "photo": "/empreendimentos/green-life.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.novolar.com.br/imoveis/green-life/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8863149,-43.1151192"
+  },
+  {
+    "id": "monier",
+    "name": "Monier",
+    "company": "PA5",
+    "neighborhood": "Piratininga",
+    "address": "Rua Doutor Celso Dias Gomes, 105",
+    "book": {
+      "name": "Book_Monier_PA5_vFinal 2.pdf",
+      "url": "https://drive.google.com/file/d/1CF70B4-9agnxiyr8KnxdDVfZUYCox3RJ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Monier - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1WfGNg0IX0jDxAHTu9zzUSfZ5yNmPqRM_/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.952344,
+    "lng": -43.0918896,
+    "precision": "exact",
+    "photo": "/empreendimentos/monier.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153832,
+      "displayName": "Rua Doutor Celso Dias Gomes, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.pa5.com.br/empreendimento/monier",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.952344,-43.0918896"
+  },
+  {
+    "id": "gael",
+    "name": "Gael",
+    "company": "PA5",
+    "neighborhood": "A confirmar",
+    "address": "Rua Canagé Malta, 57 — Piratininga",
+    "book": {
+      "name": "SPIN Gael Book_V25.pdf",
+      "url": "https://drive.google.com/file/d/1SROGwv4Ca9sT68mky37GJ8R7__tuUILl/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Gael - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1kPz2vVDJeqMWB4b-fojLixAbXwf0vVbQ/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9554166,
+    "lng": -43.0717201,
+    "precision": null,
+    "photo": "/empreendimentos/gael.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.pa5.com.br/empreendimento/gael",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9554166,-43.0717201"
+  },
+  {
+    "id": "jardim-dos-manacas",
+    "name": "Jardim dos Manacás",
+    "company": "Proart",
+    "neighborhood": "Santa Rosa",
+    "address": "Rua Doutor Sardinha, 164",
+    "book": {
+      "name": "Book digital Jardim dos Manacás.pdf",
+      "url": "https://drive.google.com/file/d/1Nr8OQbjpHcrnEVs-plTN9HcITXQkgoXZ/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Jardim dos Manacás - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8986001,
+    "lng": -43.0976362,
+    "precision": "exact",
+    "photo": "/empreendimentos/jardim-dos-manacas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 33637690,
+      "displayName": "Rua Doutor Sardinha, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-660, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/santa-rosa",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8986001,-43.0976362"
+  },
+  {
+    "id": "up-icarai",
+    "name": "Up Icaraí",
+    "company": "Proart",
+    "neighborhood": "Icaraí",
+    "address": "Rua Presidente Backer, 128",
+    "book": {
+      "name": "Book digital Up Icaraí.pdf",
+      "url": "https://drive.google.com/file/d/1MYOM7NacDTmpOClgPK_uOSklReurZpk0/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Up Icaraí - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9042435,
+    "lng": -43.1106899,
+    "precision": "exact",
+    "photo": "/empreendimentos/up-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 527671264,
+      "displayName": "Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24110-206, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/barreto",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9042435,-43.1106899"
+  },
+  {
+    "id": "nirvana",
+    "name": "Nirvana",
+    "company": "Proart",
+    "neighborhood": "Piratininga",
+    "address": "Rua Jornalista Prudêncio Luiz Ferreira Travassos, 49",
+    "book": {
+      "name": "Book Nirvana.pdf",
+      "url": "https://drive.google.com/file/d/1l-m9APN2ZQ1Ku162ao30KgC8UrrBf5aS/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Nirvana - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9538548,
+    "lng": -43.0833934,
+    "precision": null,
+    "photo": "/empreendimentos/nirvana.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://proartengenharia.com/realstates/nirvana-praia-boutique/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9538548,-43.0833934"
+  },
+  {
+    "id": "stage",
+    "name": "Stage",
+    "company": "Proart",
+    "neighborhood": "Icaraí",
+    "address": "Rua Ator Paulo Gustavo, 368",
+    "book": {
+      "name": "Book STAGE.pdf",
+      "url": "https://drive.google.com/file/d/1v4FCKLfYMVhnTKeqULX83Be0YvPq5qBV/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Stage (Financiado) - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9096818,
+    "lng": -43.1079021,
+    "precision": "exact",
+    "photo": "/empreendimentos/stage.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 123754762,
+      "displayName": "Rua Ator Paulo Gustavo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-063, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://proartengenharia.com/empreendimentos/stage/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9096818,-43.1079021"
+  },
+  {
+    "id": "sunset",
+    "name": "Sunset",
+    "company": "Proart",
+    "neighborhood": "Icaraí",
+    "address": "Rua Joaquim Távora, 80",
+    "book": {
+      "name": "BOOK SUNSET.pdf",
+      "url": "https://drive.google.com/file/d/1n3Fcx2hEid3dwzCZ7g8gYHCOfFtBmv3Y/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Sunset - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9119882,
+    "lng": -43.1072321,
+    "precision": "exact",
+    "photo": "/empreendimentos/sunset.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Validação pendente: Site oficial e book do empreendimento indicam nº 80; anúncios do ZAP mostram nº 84. Confirmar numeração cartográfica."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29424540,
+      "displayName": "Rua Joaquim Távora, Ed Summer Time, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-540, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://sunseticarai.com.br/",
+    "addressReviewStatus": "Precisa de apoio",
+    "addressReview": "Site oficial e book do empreendimento indicam nº 80; anúncios do ZAP mostram nº 84. Confirmar numeração cartográfica.",
+    "locationSource": "https://www.google.com/maps?q=-22.9119882,-43.1072321"
+  },
+  {
+    "id": "soma",
+    "name": "Soma",
+    "company": "Proart",
+    "neighborhood": "Ingá",
+    "address": "Rua Paulo Alves, 95",
+    "book": {
+      "name": "Soma-SpinBookDigital.pdf",
+      "url": "https://drive.google.com/file/d/1MrrY5aias3SftF7RRvAM_EQW11zN5UHX/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Soma - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9027344,
+    "lng": -43.1222477,
+    "precision": "exact",
+    "photo": "/empreendimentos/soma.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29143326,
+      "displayName": "Rua Doutor Paulo Alves, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-445, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://proartengenharia.com/sobre-a-proart/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9027344,-43.1222477"
+  },
+  {
+    "id": "maren",
+    "name": "Maren",
+    "company": "RAMABE",
+    "neighborhood": "Piratininga",
+    "address": "Rua Comendador Thomaz Lima, 51",
+    "book": {
+      "name": "Book Maren - Digital.pdf",
+      "url": "https://drive.google.com/file/d/16o9qj1hj0RigFcuEmvRLLgbmLu0DgS5N/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Maren By RAMABE - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1SwzmO762LF1NW-dURK55elt-S2VH8RTX/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9533615,
+    "lng": -43.0908413,
+    "precision": "exact",
+    "photo": "/empreendimentos/maren.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153823,
+      "displayName": "Rua Comendador Thomaz Lima, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://ramabe.com/portfolio/maren/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9533615,-43.0908413"
+  },
+  {
+    "id": "vina-del-mar",
+    "name": "Viña del Mar",
+    "company": "RAMABE",
+    "neighborhood": "Piratininga",
+    "address": "Rua Orestes Barbosa, 116",
+    "book": {
+      "name": "Book FINAL Viña Del Mar.pdf",
+      "url": "https://drive.google.com/file/d/1NxMme7fVZSnI2nFXtk4DWT65w9YL83nU/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/vina-del-mar.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153754,
+      "displayName": "Rua Orestes Barbosa, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://ramabe.com/portfolio/vina-del-mar/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "vila-santo-antonio",
+    "name": "Vila Santo Antônio",
+    "company": "RAMABE",
+    "neighborhood": "Itaipu",
+    "address": "Rua dos Pavões, 17",
+    "book": {
+      "name": "Book Vila Santo Antônio SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1RvXfIQSFDHQTH86kStq9bAV_gzmWIY4a/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9392916,
+    "lng": -43.044496,
+    "precision": null,
+    "photo": "/empreendimentos/vila-santo-antonio.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://ramabe.com/portfolio/vila-santo-antonio/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9392916,-43.044496"
+  },
+  {
+    "id": "soul-fonseca",
+    "name": "Soul Fonseca",
+    "company": "RDR",
+    "neighborhood": "Fonseca",
+    "address": "Avenida Professor João Brasil, 610",
+    "book": {
+      "name": "Book Soul Fonseca.pdf",
+      "url": "https://drive.google.com/file/d/1nuY0fVGRS-my6mXCIpDRikZmDHZsvtNS/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8761346,
+    "lng": -43.0973614,
+    "precision": null,
+    "photo": "/empreendimentos/soul-fonseca.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.lopes.com.br/lancamento/REM24812/soul-fonseca-niteroi-fonseca",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8761346,-43.0973614"
+  },
+  {
+    "id": "sun-in",
+    "name": "Sun In",
+    "company": "RDR",
+    "neighborhood": "A confirmar",
+    "address": "Rua São Sebastião, 46 — Ingá",
+    "book": {
+      "name": "Book SUN IN.pdf",
+      "url": "https://drive.google.com/file/d/1ydM0mpa2H_G6NV_Gj6T__xxaYBKntISr/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Sun In - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8991712,
+    "lng": -43.1232776,
+    "precision": null,
+    "photo": "/empreendimentos/sun-in.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.rdrengenharia.com/empreendimentos/sun-in/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.8991712,-43.1232776"
+  },
+  {
+    "id": "giardino-di-verona",
+    "name": "Giardino di Verona",
+    "company": "RJ Engenharia",
+    "neighborhood": "São Francisco",
+    "address": "Rua Lisandro Pereira da Silva, 230",
+    "book": {
+      "name": "Book - Giardino Di Verona - online.pdf",
+      "url": "https://drive.google.com/file/d/1aLWRWhhMrervL0U9Wfu_aCo946WF9pKu/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Giardino Di Verona - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/104RhrBieqQe4z4euI1mTIkEzkH9LjdPF/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9113394,
+    "lng": -43.0826462,
+    "precision": null,
+    "photo": "/empreendimentos/giardino-di-verona.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29424312,
+      "displayName": "Rua Lisandro Pereira da Silva, Cachoeira, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-066, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.rjengenharia.com/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9113394,-43.0826462"
+  },
+  {
+    "id": "dahlia-residence",
+    "name": "Dahlia Residence",
+    "company": "RJ Engenharia",
+    "neighborhood": "Itaipu",
+    "address": "Rua Renato Pereira Machado, 2",
+    "book": {
+      "name": "Book Dahlia Residence.pdf",
+      "url": "https://drive.google.com/file/d/1ALww1J9ADI0jCp3OciDWr938Wi4t5ilt/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Dahlia - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/11m16-F_jxLyy-PH5vYT4FgbwYgwpO8r5/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9425299,
+    "lng": -43.018168,
+    "precision": "exact",
+    "photo": "/empreendimentos/dahlia-residence.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 951541822,
+      "displayName": "Avenida Irene Lopes Sodré, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-200, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.rjengenharia.com/empreendimento/dahlia-residence",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9425299,-43.018168"
+  },
+  {
+    "id": "dianthus",
+    "name": "Dianthus",
+    "company": "RJ Engenharia",
+    "neighborhood": "Piratininga",
+    "address": "Avenida Doutor Acúrcio Torres, 892",
+    "book": {
+      "name": "Book digital DIANTHUS.pdf",
+      "url": "https://drive.google.com/file/d/1veeyBvhFql_OZMEKSZS-Am7hdnTQ7fbk/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Dianthus - Setembro 2026 (Atualizada).pdf",
+        "url": "https://drive.google.com/file/d/1_MhHPxQ2odEov9llMZ_JfLdA4ZqkDcGg/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9533094,
+    "lng": -43.0769158,
+    "precision": "exact",
+    "photo": "/empreendimentos/dianthus.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 677760171,
+      "displayName": "Avenida Doutor Acúrcio Torres, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.rjengenharia.com/empreendimento/dianthus",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9533094,-43.0769158"
+  },
+  {
+    "id": "helianthus",
+    "name": "Helianthus",
+    "company": "RJ Engenharia",
+    "neighborhood": "A confirmar",
+    "address": "Rua Emanuel Pereira das Neves Filho — Piratininga",
+    "book": {
+      "name": "Helianthus - book Spin.pdf",
+      "url": "https://drive.google.com/file/d/16yMkfSElOyBq3wMqL72cQOghLfmh_54P/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9522456,
+    "lng": -43.0947068,
+    "precision": null,
+    "photo": "/empreendimentos/helianthus.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://rjengenharia.amploalcance.com.br/Helianthus-RJ-Engenharia/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9522456,-43.0947068"
+  },
+  {
+    "id": "tarsila",
+    "name": "Tarsila",
+    "company": "Soter",
+    "neighborhood": "Ingá",
+    "address": "Rua Pereira Nunes, 132",
+    "book": {
+      "name": "Apresentação Tarsila final.pdf",
+      "url": "https://drive.google.com/file/d/1-cMtIpgcSnPjDCPUnLrnxnszwYbPtxkT/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/tarsila.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 119514638,
+      "displayName": "Rua Doutor Pereira Nunes, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-430, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.empreendimentos-soter.com.br/tarsila/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "attrium-icarai",
+    "name": "Attrium Icaraí",
+    "company": "Soter",
+    "neighborhood": "Icaraí",
+    "address": "Rua Presidente Backer, 250",
+    "book": {
+      "name": "Attrium Icaraí - Minibook_compressed.pdf",
+      "url": "https://drive.google.com/file/d/1R6enihImp0aLEYaC8seZToXpaeW4ORDC/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Attrium Icaraí - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1VuvjYNxUP6iAIolXEA4Ut0pVUwDqd5-p/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9022277,
+    "lng": -43.1086789,
+    "precision": "exact",
+    "photo": "/empreendimentos/attrium-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1358996012,
+      "displayName": "Attrium, 250, Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24110-206, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.soter.com.br/attrium",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9022277,-43.1086789"
+  },
+  {
+    "id": "ion-icarai",
+    "name": "Íon Icaraí",
+    "company": "Soter",
+    "neighborhood": "Icaraí",
+    "address": "Travessa Capitão Zeferino, 90",
+    "book": {
+      "name": "Book Íon Icaraí.pdf",
+      "url": "https://drive.google.com/file/d/1HzZ-jeNM0KJGeXT1o6U8Fd20Clvafv6z/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Ion Icarai - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1HYjSrxFrYisBMyuYTrOG2mhJMJrqwTcp/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9047619,
+    "lng": -43.1105638,
+    "precision": "exact",
+    "photo": "/empreendimentos/ion-icarai.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 30441852,
+      "displayName": "Travessa Capitão Zeferino, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-230, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.soter.com.br/ion",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9047619,-43.1105638"
+  },
+  {
+    "id": "maestro",
+    "name": "Maestro",
+    "company": "Soter",
+    "neighborhood": "Jardim Icaraí",
+    "address": "Rua Doutor Herotides de Oliveira, 23",
+    "book": {
+      "name": "Book Maestro.pdf",
+      "url": "https://drive.google.com/file/d/1ScvAKqlIv7eg5Dqq0NgZPBCXyy3I9lt6/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Maestro - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.902618,
+    "lng": -43.106622,
+    "precision": "exact",
+    "photo": "/empreendimentos/maestro.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 862874910,
+      "displayName": "23, Rua Doutor Herotides de Oliveira, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-230, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.soter.com.br/portfolio/maestro",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.902618,-43.106622"
+  },
+  {
+    "id": "mediterraneo",
+    "name": "Mediterrâneo",
+    "company": "Soter",
+    "neighborhood": "A confirmar",
+    "address": "Rua Doutor Armando Lopes, 23 — Charitas",
+    "book": {
+      "name": "Book Mediterraneo SPIN.pdf",
+      "url": "https://drive.google.com/file/d/1BXMTnGsk-xENTlC5m1wwnsIiXfPfhUHi/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9283575,
+    "lng": -43.0959755,
+    "precision": null,
+    "photo": "/empreendimentos/mediterraneo.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.soter.com.br/portfolio/mediterraneo-residencial",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9283575,-43.0959755"
+  },
+  {
+    "id": "mud-333",
+    "name": "MUD 333",
+    "company": "Soter",
+    "neighborhood": "Jardim Icaraí",
+    "address": "Rua Professor Miguel Couto, 333",
+    "book": {
+      "name": "Book MUD 333.pdf",
+      "url": "https://drive.google.com/file/d/1BAWOOK3L48z_4GPRFZFr3WEamS8vTM5U/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": "/empreendimentos/mud-333.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 863152997,
+      "displayName": "333, Rua Professor Miguel Couto, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-240, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.soter.com.br/portfolio/mud-333",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "the-edge",
+    "name": "The Edge",
+    "company": "Soter",
+    "neighborhood": "Icaraí",
+    "address": "Rua Jornalista Alberto Francisco Torres, 63",
+    "book": {
+      "name": "Book The Edge.pdf",
+      "url": "https://drive.google.com/file/d/1BDCwYmG7sDsuM6_-w2EpoqzpJ8Cce2rG/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9037805,
+    "lng": -43.117572,
+    "precision": null,
+    "photo": "/empreendimentos/the-edge.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.theedgeicaraisoter.com/the-edge-localiza%C3%A7%C3%A3o",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9037805,-43.117572"
+  },
+  {
+    "id": "clarice",
+    "name": "Clarice",
+    "company": "Soter",
+    "neighborhood": "Jardim Icaraí",
+    "address": "Rua Domingues de Sá, 328",
+    "book": {
+      "name": "Clarice_Book Spin.pdf",
+      "url": "https://drive.google.com/file/d/1KslylZPORFLrVv4e_c6KJ-1a7Z3c3sQu/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Clarice - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1NybBWiY1UGsJd_dFHMJIPhN_Bkl5xcNw/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9033625,
+    "lng": -43.1044631,
+    "precision": "exact",
+    "photo": "/empreendimentos/clarice.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 955366010,
+      "displayName": "Rua Domingues de Sá, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-161, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.clariceicaraisoter.com.br/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9033625,-43.1044631"
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "company": "Soter",
+    "neighborhood": "Icaraí",
+    "address": "Rua Presidente Backer, 88",
+    "book": {
+      "name": "Pulse by Soter - Book.pdf",
+      "url": "https://drive.google.com/file/d/1FsIctPC9fqmb_tYO5L6mwYyS-nM-rnVO/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Pulse - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9049237,
+    "lng": -43.1114485,
+    "precision": "exact",
+    "photo": "/empreendimentos/pulse.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 27459085,
+      "displayName": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-215, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.soter.com.br/pulse",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9049237,-43.1114485"
+  },
+  {
+    "id": "origem",
+    "name": "Origem",
+    "company": "Soter",
+    "neighborhood": "Icaraí",
+    "address": "Rua Álvares de Azevedo, 185",
+    "book": {
+      "name": "SPIN Origem - Minibook.pdf",
+      "url": "https://drive.google.com/file/d/1-ypXNb7DjMEg_VDfJk6xe1jbjplALDPg/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Origem - Setembro 2026 (2).pdf",
+        "url": "https://drive.google.com/file/d/1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9012651,
+    "lng": -43.1117591,
+    "precision": "exact",
+    "photo": "/empreendimentos/origem.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 866370369,
+      "displayName": "185, Rua Álvares de Azevedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-020, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.origemicaraisoter.com.br/in%C3%ADcio",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9012651,-43.1117591"
+  },
+  {
+    "id": "the-grove",
+    "name": "The Grove",
+    "company": "Soter",
+    "neighborhood": "Icaraí",
+    "address": "Rua Miguel de Frias, 270",
+    "book": {
+      "name": "The Grove Spin - Book.pdf",
+      "url": "https://drive.google.com/file/d/1tD4YNy9fkevIwX_iwvo_dNDmSrnqPS9G/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas The Grove - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/14AW8PVp0xTFEZlvcaAifRcsFy6_t-nxm/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8993345,
+    "lng": -43.1117832,
+    "precision": "exact",
+    "photo": "/empreendimentos/the-grove.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 1074913134,
+      "displayName": "Rua Miguel de Frias, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-004, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.soter.com.br/thegrove",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.8993345,-43.1117832"
+  },
+  {
+    "id": "tropico-camboinhas",
+    "name": "Trópico Camboinhas",
+    "company": "Tecconstru",
+    "neighborhood": "Camboinhas",
+    "address": "Avenida Professor Florestan Fernandes",
+    "book": {
+      "name": "Book Trópico Camboinhas.pdf",
+      "url": "https://drive.google.com/file/d/1tbm8Mdb4tO0HMUOiaR4kl9r7XmAPsypT/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de venda - Trópico Camboinhas - Set_2026.pdf",
+        "url": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9566477,
+    "lng": -43.0523467,
+    "precision": "exact",
+    "photo": "/empreendimentos/tropico-camboinhas.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: A Spin indica nº 1; outras fontes listam o imóvel em trecho/números diferentes da avenida. Manter apenas a via até conferir no book/tabela."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": "A Spin indica nº 1; outras fontes listam o imóvel em trecho/números diferentes da avenida. Manter apenas a via até conferir no book/tabela.",
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.spinimoveis.com/empreendimento/tropico-camboinhas-apartamentos-e-coberturas-niteroi-4-quartos-110-a-313-m/18866010-SETV",
+    "addressReviewStatus": "Precisa de apoio",
+    "locationSource": "https://www.google.com/maps?q=-22.9566477,-43.0523467"
+  },
+  {
+    "id": "flua",
+    "name": "Flua",
+    "company": "Tegra",
+    "neighborhood": "Centro",
+    "address": "Avenida Visconde do Rio Branco, 731",
+    "book": {
+      "name": "Book Digital Flua.pdf",
+      "url": "https://drive.google.com/file/d/1FIem4WwRzaf0IZ-yXP9gVU672tZDUUIw/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Selling - Flua - Set_2026.pdf",
+        "url": "https://drive.google.com/file/d/14BRJtaDWhO0IlTkVRYwbJZnaSr_0E9D-/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.8979521,
+    "lng": -43.1279175,
+    "precision": "exact",
+    "photo": "/empreendimentos/flua.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 183021481,
+      "displayName": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-002, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/santa-rosa",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.8979521,-43.1279175"
+  },
+  {
+    "id": "home-boutique",
+    "name": "Home Boutique",
+    "company": "Tegra",
+    "neighborhood": "Icaraí",
+    "address": "Rua Comendador Queiroz, 80",
+    "book": {
+      "name": "Book Home Boutique.pdf",
+      "url": "https://drive.google.com/file/d/1R0fNdgk2tK9DNgAIuZqe5VB9nLglJJ1k/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9105389,
+    "lng": -43.1076513,
+    "precision": null,
+    "photo": "/empreendimentos/home-boutique.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.tegraincorporadora.com.br/rj/niteroi/oceanica/icarai/home-boutique-by-tegra",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9105389,-43.1076513"
+  },
+  {
+    "id": "tresor-dior",
+    "name": "Trésor Dior",
+    "company": "Tresor",
+    "neighborhood": "Camboinhas",
+    "address": "Rua Simon Bolívar, 105",
+    "book": {
+      "name": "BooK Digital Tresor Dior.pdf",
+      "url": "https://drive.google.com/file/d/1t8e1RXEKQWfedIodJyfxfnyclKcRjzOR/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Tresor Dior - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9585007,
+    "lng": -43.0650595,
+    "precision": "exact",
+    "photo": "/empreendimentos/tresor-dior.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29150891,
+      "displayName": "Rua Simon Bolivar, Camboinhas, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-030, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://tresorincorporacoes.com.br/empreendimento/tresor-dior/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.9585007,-43.0650595"
+  },
+  {
+    "id": "mare-blu",
+    "name": "Mare Blu",
+    "company": "VL Construtora",
+    "neighborhood": "Piratininga",
+    "address": "Rua Doutora Célso Dias Gomes, 171",
+    "book": {
+      "name": "Book Mare Blu.pdf",
+      "url": "https://drive.google.com/file/d/147YFs_h7OiTd0r2HJfCkMaI939jTTELW/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Mare Blu - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1glKT_A9ThKKwIOfz6kN3DCAO7neUpjpf/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.952017,
+    "lng": -43.0918756,
+    "precision": "exact",
+    "photo": "/empreendimentos/mare-blu.jpg",
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 29153832,
+      "displayName": "Rua Doutor Celso Dias Gomes, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://vlconstrucoes.com.br/imovel/mare-blu-residenza",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null,
+    "locationSource": "https://www.google.com/maps?q=-22.952017,-43.0918756"
+  },
+  {
+    "id": "conviva-piratininga",
+    "name": "Conviva Piratininga",
+    "company": "Conviva",
+    "neighborhood": "Piratininga",
+    "address": "Rua Lisandro Mota, 8A",
+    "book": {
+      "name": "Conviva — Book Conviva Piratininga.pdf",
+      "url": "https://drive.google.com/file/d/17Pq1gbbX7fm0AGCRYXBHMUvmq60rbRAr/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Conviva Piratininga - Setembro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1oST13WgpeRVGfHyU7RimlSWxvKEtEFpH/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.954119,
+    "lng": -43.0771678,
+    "precision": "exact",
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-03",
+    "addressSource": "https://www.conviva.com.br/empreendimento/conviva-piratininga/",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.954119,-43.0771678"
+  },
+  {
+    "id": "eldorado-ii",
+    "name": "Eldorado II",
+    "company": "Pinto de Almeida",
+    "neighborhood": "Santa Rosa",
+    "address": "Rua Professor Otacílio, 133",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Eldorado II - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/158E2Sd-pSaPZWy3FyZf5gqe3I76-WQbY/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 33637703,
+      "displayName": "Rua Professor Otacílio, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-660, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://lrm.com.br/ficha-imovel/eldorado-ii/",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "company": "Itauba",
+    "neighborhood": "A confirmar",
+    "address": "Rua Mem de Sá, 34 — Icaraí (possível Quality Business)",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Business - Agosto 2026.pdf",
+        "url": "https://drive.google.com/file/d/1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4/view?usp=drivesdk",
+        "date": "Agosto 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: A Itaúba tem um empreendimento chamado Quality Business neste endereço, mas a tabela base informa apenas “Business”. Confirmar se é o mesmo empreendimento."
+    ],
+    "locationStatus": "Precisa de apoio",
+    "addressReview": "A Itaúba tem um empreendimento chamado Quality Business neste endereço, mas a tabela base informa apenas “Business”. Confirmar se é o mesmo empreendimento.",
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.itauba.com.br/imovel/quality-business.html",
+    "addressReviewStatus": "Precisa de apoio"
+  },
+  {
+    "id": "unic-icarai",
+    "name": "Unic Icaraí",
+    "company": "Unic Icaraí",
+    "neighborhood": "Icaraí",
+    "address": "Rua Doutor Paulo César, 63-A",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Unic - Abril 2026.pdf",
+        "url": "https://drive.google.com/file/d/1HA3_sSHSBNH3BnBtuZHttucejDpB6d4N/view?usp=drivesdk",
+        "date": "Abril 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais.",
+      "O documento disponível contém condições de locação. Não deve ser tratado como tabela de venda.",
+      "Validação pendente: Google/listagens mostram o edifício UNIC Icaraí na Rua Doutor Paulo César, 63; verificar se é o empreendimento correspondente da tabela."
+    ],
+    "locationStatus": "Precisa de apoio",
+    "addressReview": "Google/listagens mostram o edifício UNIC Icaraí na Rua Doutor Paulo César, 63; verificar se é o empreendimento correspondente da tabela.",
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.zapimoveis.com.br/condominio/rj-niteroi-icarai-edificio-comercial-unic-icarai-id-2f0a188a-35ae/",
+    "addressReviewStatus": "Precisa de apoio"
+  },
+  {
+    "id": "reserva-natural",
+    "name": "Reserva Natural",
+    "company": "Selling",
+    "neighborhood": "Maceió",
+    "address": "Estrada Pacheco de Carvalho",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Selling - Reserva Natural - Set_2026.pdf",
+        "url": "https://drive.google.com/file/d/1CNOpi0sl9Z8bQAqUkl566IO6jEyhPGWE/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": "street",
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "osmType": "way",
+      "osmId": 527671257,
+      "displayName": "Estrada Pacheco de Carvalho, Maceió, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24310-005, Brasil",
+      "checkedAt": "2026-09-30"
+    },
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.floraimoveis.com/imoveis/apartamento/niteroi/reserva-natural",
+    "addressReviewStatus": "Conferido",
+    "addressReview": null
+  },
+  {
+    "id": "seven-avenue",
+    "name": "Seven Avenue",
+    "company": "Bacos",
+    "neighborhood": "A confirmar",
+    "address": "Avenida Sete de Setembro, 56 — Icaraí",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Seven Avenue - Junho 2026.pdf",
+        "url": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk",
+        "date": "Junho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9075567,
+    "lng": -43.1038154,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.bacosconstrutora.com.br/ficha-do-imovel/seven-avenue",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9075567,-43.1038154"
+  },
+  {
+    "id": "vila-moura",
+    "name": "Vila Moura",
+    "company": "Vila Moura",
+    "neighborhood": "A confirmar",
+    "address": "Rua Demócrito da Cunha Silveira, 137 — Piratininga",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Vila Moura - Março 2026.pdf",
+        "url": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk",
+        "date": "Março 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.9326055,
+    "lng": -43.0748177,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.spinimoveis.com/condominio/vila-moura-casas-niteroi-3-quartos-97-m/23314976-SETV",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.9326055,-43.0748177"
+  },
+  {
+    "id": "santa-barbara",
+    "name": "Santa Bárbara",
+    "company": "FEFM",
+    "neighborhood": "A confirmar",
+    "address": "Rodovia Amaral Peixoto (RJ-106), 4002 — Santa Bárbara",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Santa Bárbara - Março 2026.pdf",
+        "url": "https://drive.google.com/file/d/1nFVsH4_4k8nHJruYDjUF1iQhCwfNi_L2/view?usp=drivesdk",
+        "date": "Março 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: Cadastro da SPE FEFM/La Grandiere indica esse endereço; confirmar que Santa Bárbara na tabela corresponde a esse empreendimento."
+    ],
+    "locationStatus": "Precisa de apoio",
+    "addressReview": "Cadastro da SPE FEFM/La Grandiere indica esse endereço; confirmar que Santa Bárbara na tabela corresponde a esse empreendimento.",
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.econodata.com.br/consulta-empresa/08223426000205-fefm-impermeabilizacao-e-administracao-ltda",
+    "addressReviewStatus": "Precisa de apoio"
+  },
+  {
+    "id": "golden-ville-residence",
+    "name": "Golden Ville Residence",
+    "company": "Natus",
+    "neighborhood": "Maria Paula, São Gonçalo",
+    "address": "Rua Frederico Malesherbes, 54",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de Venda - Golden Ville Residence - Julho_2026.pdf",
+        "url": "https://drive.google.com/file/d/1xrEPQ3LnwOc1nWyqQB1q42RkTEMA1fP1/view?usp=drivesdk",
+        "date": "Julho 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "Endereço em conferência nos materiais.",
+      "Validação pendente: O Golden Ville Residence aparece em Maria Paula, São Gonçalo, fora do município de Niterói indicado pelo mapa; confirmar se deve constar."
+    ],
+    "locationStatus": "Precisa de apoio",
+    "addressReview": "O Golden Ville Residence aparece em Maria Paula, São Gonçalo, fora do município de Niterói indicado pelo mapa; confirmar se deve constar.",
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://www.natusgrupo.com.br/portfolio-item/golden-ville-residence/",
+    "addressReviewStatus": "Precisa de apoio"
+  },
+  {
+    "id": "davinci",
+    "name": "DaVinci",
+    "company": "Tecconstru",
+    "neighborhood": "A confirmar",
+    "address": "Travessa Gastão Ruch, 12 — Icaraí",
+    "book": null,
+    "tables": [
+      {
+        "name": "Tabela de venda - DaVinci - Set_2026.pdf",
+        "url": "https://drive.google.com/file/d/1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [],
+    "delivery": null,
+    "status": "A confirmar",
+    "lat": -22.905833,
+    "lng": -43.107068,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-09-30",
+    "notes": [
+      "Endereço em conferência nos materiais."
+    ],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-09-30",
+    "addressSource": "https://falvesinc.com.br/empreendimentos/davinci-residence",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps?q=-22.905833,-43.107068"
+  }
+]

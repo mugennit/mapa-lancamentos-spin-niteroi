@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-09-30",
+  "checked": 112,
+  "batches": [
+    {
+      "from": 1,
+      "to": 10,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 11,
+      "to": 20,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 21,
+      "to": 30,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 31,
+      "to": 40,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 41,
+      "to": 50,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 51,
+      "to": 60,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 61,
+      "to": 70,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 71,
+      "to": 80,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 81,
+      "to": 90,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 91,
+      "to": 100,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 101,
+      "to": 110,
+      "checked": 10,
+      "withAddress": 10
+    },
+    {
+      "from": 111,
+      "to": 112,
+      "checked": 2,
+      "withAddress": 2
+    }
+  ],
+  "recordsWithAddress": 112,
+  "confirmedAddresses": 97,
+  "needsSupport": 15,
+  "withMapPin": 64
+}

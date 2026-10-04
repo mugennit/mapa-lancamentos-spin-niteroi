@@ -1,0 +1,3960 @@
+{
+  "Rua Madre Mary Marcelline, Niterói, Rio de Janeiro, Brasil": [],
+  "Avenida Prefeito Sylvio Picanço, Niterói, Rio de Janeiro, Brasil": [
+    {
+      "place_id": 10318427,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 857060181,
+      "lat": "-22.9328934",
+      "lon": "-43.0992154",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "address": {
+        "road": "Avenida Prefeito Sylvio Picanço",
+        "suburb": "Charitas",
+        "town": "Região Praias da Baía",
+        "city": "Niterói",
+        "state": "Rio de Janeiro",
+        "ISO3166-2-lvl4": "BR-RJ",
+        "region": "Região Sudeste",
+        "postcode": "24370-480",
+        "country": "Brasil",
+        "country_code": "br"
+      },
+      "boundingbox": [
+        "-22.9333894",
+        "-22.9323931",
+        "-43.0997445",
+        "-43.0986903"
+      ]
+    },
+    {
+      "place_id": 10325928,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 784649495,
+      "lat": "-22.9343689",
+      "lon": "-43.1008342",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "address": {
+        "road": "Avenida Prefeito Sylvio Picanço",
+        "suburb": "Charitas",
+        "town": "Região Praias da Baía",
+        "city": "Niterói",
+        "state": "Rio de Janeiro",
+        "ISO3166-2-lvl4": "BR-RJ",
+        "region": "Região Sudeste",
+        "postcode": "24360-030",
+        "country": "Brasil",
+        "country_code": "br"
+      },
+      "boundingbox": [
+        "-22.9345931",
+        "-22.9340768",
+        "-43.1012565",
+        "-43.1004549"
+      ]
+    },
+    {
+      "place_id": 10318598,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183036036,
+      "lat": "-22.9348971",
+      "lon": "-43.1020947",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "address": {
+        "road": "Avenida Prefeito Sylvio Picanço",
+        "suburb": "Charitas",
+        "town": "Região Praias da Baía",
+        "city": "Niterói",
+        "state": "Rio de Janeiro",
+        "ISO3166-2-lvl4": "BR-RJ",
+        "region": "Região Sudeste",
+        "postcode": "24360-030",
+        "country": "Brasil",
+        "country_code": "br"
+      },
+      "boundingbox": [
+        "-22.9350143",
+        "-22.9347800",
+        "-43.1023994",
+        "-43.1017900"
+      ]
+    },
+    {
+      "place_id": 10369491,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1075236366,
+      "lat": "-22.9256524",
+      "lon": "-43.0952199",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-010, Brasil",
+      "address": {
+        "road": "Avenida Prefeito Sylvio Picanço",
+        "suburb": "Charitas",
+        "town": "Região Praias da Baía",
+        "city": "Niterói",
+        "state": "Rio de Janeiro",
+        "ISO3166-2-lvl4": "BR-RJ",
+        "region": "Região Sudeste",
+        "postcode": "24370-010",
+        "country": "Brasil",
+        "country_code": "br"
+      },
+      "boundingbox": [
+        "-22.9258849",
+        "-22.9253978",
+        "-43.0953694",
+        "-43.0951128"
+      ]
+    },
+    {
+      "place_id": 10346827,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 953067315,
+      "lat": "-22.9317580",
+      "lon": "-43.0980304",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "address": {
+        "road": "Avenida Prefeito Sylvio Picanço",
+        "suburb": "Charitas",
+        "town": "Região Praias da Baía",
+        "city": "Niterói",
+        "state": "Rio de Janeiro",
+        "ISO3166-2-lvl4": "BR-RJ",
+        "region": "Região Sudeste",
+        "postcode": "24370-001",
+        "country": "Brasil",
+        "country_code": "br"
+      },
+      "boundingbox": [
+        "-22.9319157",
+        "-22.9315546",
+        "-43.0981802",
+        "-43.0979469"
+      ]
+    }
+  ],
+  "Rua Madre Mary Marcelline, 278, Niterói, Brasil": [],
+  "Rua Madre Mary Marcelline, Niterói, Brasil": [],
+  "Avenida Prefeito Sylvio Picanço, 499, Niterói, Brasil": [
+    {
+      "place_id": 10469341,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 857060181,
+      "lat": "-22.9328934",
+      "lon": "-43.0992154",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "boundingbox": [
+        "-22.9333894",
+        "-22.9323931",
+        "-43.0997445",
+        "-43.0986903"
+      ]
+    },
+    {
+      "place_id": 10476027,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 784649495,
+      "lat": "-22.9343689",
+      "lon": "-43.1008342",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "boundingbox": [
+        "-22.9345931",
+        "-22.9340768",
+        "-43.1012565",
+        "-43.1004549"
+      ]
+    },
+    {
+      "place_id": 10474251,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183036036,
+      "lat": "-22.9348971",
+      "lon": "-43.1020947",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "boundingbox": [
+        "-22.9350143",
+        "-22.9347800",
+        "-43.1023994",
+        "-43.1017900"
+      ]
+    },
+    {
+      "place_id": 10484606,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 857060180,
+      "lat": "-22.9319842",
+      "lon": "-43.0983040",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "boundingbox": [
+        "-22.9320745",
+        "-22.9319157",
+        "-43.0984125",
+        "-43.0981802"
+      ]
+    },
+    {
+      "place_id": 10479160,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183036119,
+      "lat": "-22.9363530",
+      "lon": "-43.1060749",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-640, Brasil",
+      "boundingbox": [
+        "-22.9363825",
+        "-22.9363232",
+        "-43.1061493",
+        "-43.1060007"
+      ]
+    }
+  ],
+  "Rua Major Fróes, 255, Niterói, Brasil": [
+    {
+      "place_id": 10438488,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 38117144,
+      "lat": "-22.9177575",
+      "lon": "-43.0886158",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Major Fróes",
+      "display_name": "Rua Major Fróes, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-200, Brasil",
+      "boundingbox": [
+        "-22.9180500",
+        "-22.9174649",
+        "-43.0900948",
+        "-43.0871369"
+      ]
+    }
+  ],
+  "Rua Tavares de Macedo, 35, Niterói, Brasil": [
+    {
+      "place_id": 10383901,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27459085,
+      "lat": "-22.9049426",
+      "lon": "-43.1108327",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Tavares de Macedo",
+      "display_name": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-215, Brasil",
+      "boundingbox": [
+        "-22.9062113",
+        "-22.9036417",
+        "-43.1121824",
+        "-43.1094535"
+      ]
+    },
+    {
+      "place_id": 10408214,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1429723966,
+      "lat": "-22.9027616",
+      "lon": "-43.1131478",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Tavares de Macedo",
+      "display_name": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-021, Brasil",
+      "boundingbox": [
+        "-22.9036417",
+        "-22.9018601",
+        "-43.1140933",
+        "-43.1121824"
+      ]
+    },
+    {
+      "place_id": 10369665,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 834913281,
+      "lat": "-22.9064130",
+      "lon": "-43.1093223",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Tavares de Macedo",
+      "display_name": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-190, Brasil",
+      "boundingbox": [
+        "-22.9066108",
+        "-22.9062113",
+        "-43.1094535",
+        "-43.1091860"
+      ]
+    }
+  ],
+  "Avenida Quintino Bocaiúva, 241, Niterói, Brasil": [
+    {
+      "place_id": 10399996,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 330709487,
+      "lat": "-22.9177993",
+      "lon": "-43.0943698",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Quintino Bocaiúva",
+      "display_name": "Avenida Quintino Bocaiúva, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-022, Brasil",
+      "boundingbox": [
+        "-22.9206692",
+        "-22.9150815",
+        "-43.0952565",
+        "-43.0938467"
+      ]
+    },
+    {
+      "place_id": 10318649,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183035562,
+      "lat": "-22.9183325",
+      "lon": "-43.0944094",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Quintino Bocaiúva",
+      "display_name": "Avenida Quintino Bocaiúva, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-000, Brasil",
+      "boundingbox": [
+        "-22.9197816",
+        "-22.9168877",
+        "-43.0946736",
+        "-43.0941703"
+      ]
+    },
+    {
+      "place_id": 10347011,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1024708745,
+      "lat": "-22.9218060",
+      "lon": "-43.0948749",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Quintino Bocaiúva",
+      "display_name": "Avenida Quintino Bocaiúva, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-970, Brasil",
+      "boundingbox": [
+        "-22.9225499",
+        "-22.9213078",
+        "-43.0949028",
+        "-43.0943402"
+      ]
+    },
+    {
+      "place_id": 10369558,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 122862531,
+      "lat": "-22.9299944",
+      "lon": "-43.0971152",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Quintino Bocaiúva",
+      "display_name": "Avenida Quintino Bocaiúva, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-110, Brasil",
+      "boundingbox": [
+        "-22.9302002",
+        "-22.9295404",
+        "-43.0975264",
+        "-43.0969798"
+      ]
+    },
+    {
+      "place_id": 10326097,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952119620,
+      "lat": "-22.9146382",
+      "lon": "-43.0960717",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Quintino Bocaiúva",
+      "display_name": "Avenida Quintino Bocaiúva, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-022, Brasil",
+      "boundingbox": [
+        "-22.9147097",
+        "-22.9145668",
+        "-43.0961379",
+        "-43.0960056"
+      ]
+    }
+  ],
+  "Rua Mém de Sá, 141, Niterói, Brasil": [
+    {
+      "place_id": 10403507,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1319578418,
+      "lat": "-22.9023876",
+      "lon": "-43.1091918",
+      "category": "building",
+      "type": "construction",
+      "place_rank": 30,
+      "importance": 8.152666514071897e-05,
+      "addresstype": "building",
+      "name": "141 Living",
+      "display_name": "141 Living, 141, Rua Mem de Sá, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-260, Brasil",
+      "boundingbox": [
+        "-22.9025944",
+        "-22.9022311",
+        "-43.1095374",
+        "-43.1090246"
+      ]
+    }
+  ],
+  "Rua José Lobo de Medeiros, Niterói, Brasil": [
+    {
+      "place_id": 10498509,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29150842,
+      "lat": "-22.9597407",
+      "lon": "-43.0583350",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Rua José Lobo de Medeiros",
+      "display_name": "Rua José Lobo de Medeiros, Camboinhas, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-000, Brasil",
+      "boundingbox": [
+        "-22.9602131",
+        "-22.9592683",
+        "-43.0584637",
+        "-43.0582064"
+      ]
+    }
+  ],
+  "Rua Comendador Antônio Augusto da Paz, Niterói, Brasil": [
+    {
+      "place_id": 10497813,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153686,
+      "lat": "-22.9524717",
+      "lon": "-43.0859300",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Comendador Antônio Augusto da Paz",
+      "display_name": "Rua Comendador Antônio Augusto da Paz, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9540391",
+        "-22.9509003",
+        "-43.0862092",
+        "-43.0856741"
+      ]
+    }
+  ],
+  "Rua Jayme Bittencourt, Niterói, Brasil": [],
+  "Rua Comendador Antônio Augusto da Paz, 27, Niterói, Brasil": [
+    {
+      "place_id": 10500707,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153686,
+      "lat": "-22.9524717",
+      "lon": "-43.0859300",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Comendador Antônio Augusto da Paz",
+      "display_name": "Rua Comendador Antônio Augusto da Paz, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9540391",
+        "-22.9509003",
+        "-43.0862092",
+        "-43.0856741"
+      ]
+    }
+  ],
+  "Rua Santa Cândida, 44, Niterói, Brasil": [],
+  "Rua Santa Cândida, Niterói, Brasil": [],
+  "Rua Dom Hélder Câmara, 25, Niterói, Brasil": [
+    {
+      "place_id": 10435516,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29150732,
+      "lat": "-22.9572343",
+      "lon": "-43.0563669",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Rua Dom Hélder Câmara",
+      "display_name": "Rua Dom Hélder Câmara, Camboinhas, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-000, Brasil",
+      "boundingbox": [
+        "-22.9606918",
+        "-22.9537895",
+        "-43.0577661",
+        "-43.0550183"
+      ]
+    }
+  ],
+  "Rua Casimiro de Abreu, 14, Niterói, Brasil": [
+    {
+      "place_id": 10418244,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 119972379,
+      "lat": "-22.9030442",
+      "lon": "-43.1213929",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Casimiro de Abreu",
+      "display_name": "Rua Casimiro de Abreu, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-445, Brasil",
+      "boundingbox": [
+        "-22.9031398",
+        "-22.9029487",
+        "-43.1220885",
+        "-43.1206973"
+      ]
+    }
+  ],
+  "Rua Mariz e Barros, 34, Niterói, Brasil": [
+    {
+      "place_id": 10328858,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755776,
+      "lat": "-22.9075401",
+      "lon": "-43.1061414",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-121, Brasil",
+      "boundingbox": [
+        "-22.9093569",
+        "-22.9057232",
+        "-43.1081134",
+        "-43.1041695"
+      ]
+    },
+    {
+      "place_id": 10408498,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755766,
+      "lat": "-22.9042773",
+      "lon": "-43.1025771",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Burger 381, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-153, Brasil",
+      "boundingbox": [
+        "-22.9057232",
+        "-22.9028313",
+        "-43.1041695",
+        "-43.1009841"
+      ]
+    },
+    {
+      "place_id": 10400632,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1074949369,
+      "lat": "-22.9100522",
+      "lon": "-43.1088653",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-120, Brasil",
+      "boundingbox": [
+        "-22.9107475",
+        "-22.9093569",
+        "-43.1096172",
+        "-43.1081134"
+      ]
+    },
+    {
+      "place_id": 10420111,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952071778,
+      "lat": "-22.9022938",
+      "lon": "-43.1003928",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-110, Brasil",
+      "boundingbox": [
+        "-22.9028313",
+        "-22.9017542",
+        "-43.1009841",
+        "-43.0998034"
+      ]
+    }
+  ],
+  "Rua Antônio Nascimento Cottas, Niterói, Brasil": [
+    {
+      "place_id": 10533498,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29157282,
+      "lat": "-22.9627523",
+      "lon": "-43.0342338",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.040063041886015095,
+      "addresstype": "road",
+      "name": "Rua Antônio Nascimento Cottas",
+      "display_name": "Rua Antônio Nascimento Cottas, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-082, Brasil",
+      "boundingbox": [
+        "-22.9627893",
+        "-22.9625980",
+        "-43.0351438",
+        "-43.0333462"
+      ]
+    }
+  ],
+  "Avenida Visconde do Rio Branco, 220, Niterói, Brasil": [
+    {
+      "place_id": 10516456,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 130090778,
+      "lat": "-22.8965085",
+      "lon": "-43.1267631",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, São Domingos, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-140, Brasil",
+      "boundingbox": [
+        "-22.8975867",
+        "-22.8963595",
+        "-43.1279166",
+        "-43.1251455"
+      ]
+    },
+    {
+      "place_id": 10482105,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183021481,
+      "lat": "-22.8907308",
+      "lon": "-43.1240791",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-002, Brasil",
+      "boundingbox": [
+        "-22.8914181",
+        "-22.8900421",
+        "-43.1242235",
+        "-43.1239273"
+      ]
+    },
+    {
+      "place_id": 10519096,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 676938995,
+      "lat": "-22.8848958",
+      "lon": "-43.1258998",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24030-030, Brasil",
+      "boundingbox": [
+        "-22.8851641",
+        "-22.8846643",
+        "-43.1262633",
+        "-43.1255624"
+      ]
+    },
+    {
+      "place_id": 10544266,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 119702281,
+      "lat": "-22.8959800",
+      "lon": "-43.1251965",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-140, Brasil",
+      "boundingbox": [
+        "-22.8963372",
+        "-22.8959193",
+        "-43.1256656",
+        "-43.1248838"
+      ]
+    },
+    {
+      "place_id": 10506019,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 269063947,
+      "lat": "-22.8881082",
+      "lon": "-43.1244482",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24030-078, Brasil",
+      "boundingbox": [
+        "-22.8886161",
+        "-22.8876018",
+        "-43.1245726",
+        "-43.1243299"
+      ]
+    }
+  ],
+  "Rua Presidente Pedreira, 89, Niterói, Brasil": [
+    {
+      "place_id": 10412875,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183032534,
+      "lat": "-22.9037618",
+      "lon": "-43.1232822",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Pedreira",
+      "display_name": "Rua Presidente Pedreira, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-431, Brasil",
+      "boundingbox": [
+        "-22.9038781",
+        "-22.9036455",
+        "-43.1241837",
+        "-43.1223807"
+      ]
+    },
+    {
+      "place_id": 10374800,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 785117592,
+      "lat": "-22.9035514",
+      "lon": "-43.1249130",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Pedreira",
+      "display_name": "Rua Presidente Pedreira, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-470, Brasil",
+      "boundingbox": [
+        "-22.9036455",
+        "-22.9034573",
+        "-43.1256423",
+        "-43.1241837"
+      ]
+    },
+    {
+      "place_id": 10410123,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 182099158,
+      "lat": "-22.9039247",
+      "lon": "-43.1222929",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Pedreira",
+      "display_name": "Rua Presidente Pedreira, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-445, Brasil",
+      "boundingbox": [
+        "-22.9040060",
+        "-22.9038781",
+        "-43.1223807",
+        "-43.1222375"
+      ]
+    }
+  ],
+  "Avenida Rui Barbosa, 252, Niterói, Brasil": [
+    {
+      "place_id": 10535825,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1195946798,
+      "lat": "-22.9153219",
+      "lon": "-43.0834045",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-540, Brasil",
+      "boundingbox": [
+        "-22.9163390",
+        "-22.9141590",
+        "-43.0846541",
+        "-43.0822916"
+      ]
+    },
+    {
+      "place_id": 10542748,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 953535933,
+      "lat": "-22.9097292",
+      "lon": "-43.0697548",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, Largo da Batalha, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24310-005, Brasil",
+      "boundingbox": [
+        "-22.9105045",
+        "-22.9086941",
+        "-43.0707293",
+        "-43.0690199"
+      ]
+    },
+    {
+      "place_id": 10534558,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 253311205,
+      "lat": "-22.9197468",
+      "lon": "-43.0885508",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-440, Brasil",
+      "boundingbox": [
+        "-22.9200067",
+        "-22.9192185",
+        "-43.0896770",
+        "-43.0875240"
+      ]
+    },
+    {
+      "place_id": 10556703,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29339229,
+      "lat": "-22.9206208",
+      "lon": "-43.0927799",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-000, Brasil",
+      "boundingbox": [
+        "-22.9208870",
+        "-22.9203899",
+        "-43.0937744",
+        "-43.0917632"
+      ]
+    },
+    {
+      "place_id": 10557333,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1132181526,
+      "lat": "-22.9124973",
+      "lon": "-43.0781898",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, Cachoeira, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 34365-170, Brasil",
+      "boundingbox": [
+        "-22.9127509",
+        "-22.9123445",
+        "-43.0787572",
+        "-43.0775902"
+      ]
+    }
+  ],
+  "Rua Juiz Alberto Nader, 45, Niterói, Brasil": [
+    {
+      "place_id": 10592589,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 514033353,
+      "lat": "-22.9261277",
+      "lon": "-43.0932739",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Juiz Alberto Nader",
+      "display_name": "Rua Juiz Alberto Nader, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-010, Brasil",
+      "boundingbox": [
+        "-22.9264099",
+        "-22.9258454",
+        "-43.0940949",
+        "-43.0924529"
+      ]
+    }
+  ],
+  "Rua Mariz e Barros, 225, Niterói, Brasil": [
+    {
+      "place_id": 10432472,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755776,
+      "lat": "-22.9075401",
+      "lon": "-43.1061414",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-121, Brasil",
+      "boundingbox": [
+        "-22.9093569",
+        "-22.9057232",
+        "-43.1081134",
+        "-43.1041695"
+      ]
+    },
+    {
+      "place_id": 10500968,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755766,
+      "lat": "-22.9042773",
+      "lon": "-43.1025771",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Burger 381, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-153, Brasil",
+      "boundingbox": [
+        "-22.9057232",
+        "-22.9028313",
+        "-43.1041695",
+        "-43.1009841"
+      ]
+    },
+    {
+      "place_id": 10485251,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1074949369,
+      "lat": "-22.9100522",
+      "lon": "-43.1088653",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-120, Brasil",
+      "boundingbox": [
+        "-22.9107475",
+        "-22.9093569",
+        "-43.1096172",
+        "-43.1081134"
+      ]
+    },
+    {
+      "place_id": 10490327,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952071778,
+      "lat": "-22.9022938",
+      "lon": "-43.1003928",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-110, Brasil",
+      "boundingbox": [
+        "-22.9028313",
+        "-22.9017542",
+        "-43.1009841",
+        "-43.0998034"
+      ]
+    }
+  ],
+  "Estrada Leopoldo Fróes, 157, Niterói, Brasil": [
+    {
+      "place_id": 10468989,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 604710701,
+      "lat": "-22.9147504",
+      "lon": "-43.1070507",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Leopoldo Fróes",
+      "display_name": "Estrada Leopoldo Fróes, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-540, Brasil",
+      "boundingbox": [
+        "-22.9153567",
+        "-22.9126755",
+        "-43.1111836",
+        "-43.0998435"
+      ]
+    },
+    {
+      "place_id": 10506545,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 122540911,
+      "lat": "-22.9136804",
+      "lon": "-43.0983951",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Leopoldo Fróes",
+      "display_name": "Estrada Leopoldo Fróes, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-022, Brasil",
+      "boundingbox": [
+        "-22.9138204",
+        "-22.9132129",
+        "-43.0993042",
+        "-43.0973877"
+      ]
+    },
+    {
+      "place_id": 10473567,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 604710698,
+      "lat": "-22.9131590",
+      "lon": "-43.0995712",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Leopoldo Fróes",
+      "display_name": "Estrada Leopoldo Fróes, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-136, Brasil",
+      "boundingbox": [
+        "-22.9132129",
+        "-22.9131580",
+        "-43.0998435",
+        "-43.0993042"
+      ]
+    },
+    {
+      "place_id": 10505988,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 604710697,
+      "lat": "-22.9125925",
+      "lon": "-43.1092374",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Leopoldo Fróes",
+      "display_name": "Estrada Leopoldo Fróes, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-322, Brasil",
+      "boundingbox": [
+        "-22.9126755",
+        "-22.9125033",
+        "-43.1092763",
+        "-43.1092160"
+      ]
+    }
+  ],
+  "Rua Nilo Peçanha, 112, Niterói, Brasil": [
+    {
+      "place_id": 10478564,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 185323810,
+      "lat": "-22.8906671",
+      "lon": "-43.0589332",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Nilo Peçanha",
+      "display_name": "Rua Doutor Nilo Peçanha, Caramujo, Região Norte, Niterói, Rio de Janeiro, Região Sudeste, 24315-370, Brasil",
+      "boundingbox": [
+        "-22.8942028",
+        "-22.8905756",
+        "-43.0636469",
+        "-43.0556607"
+      ]
+    },
+    {
+      "place_id": 10478745,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 630358233,
+      "lat": "-22.8896029",
+      "lon": "-43.0648185",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Nilo Peçanha",
+      "display_name": "Rua Doutor Nilo Peçanha, Caramujo, Região Norte, Niterói, Rio de Janeiro, Região Sudeste, 24140-430, Brasil",
+      "boundingbox": [
+        "-22.8906448",
+        "-22.8866194",
+        "-43.0655060",
+        "-43.0628933"
+      ]
+    },
+    {
+      "place_id": 10491620,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 269729772,
+      "lat": "-22.8850508",
+      "lon": "-43.0665643",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Nilo Peçanha",
+      "display_name": "Rua Doutor Nilo Peçanha, Caramujo, Região Norte, Niterói, Rio de Janeiro, Região Sudeste, 24140-430, Brasil",
+      "boundingbox": [
+        "-22.8866194",
+        "-22.8833626",
+        "-43.0675328",
+        "-43.0655060"
+      ]
+    },
+    {
+      "place_id": 10460294,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 785117591,
+      "lat": "-22.9025575",
+      "lon": "-43.1240257",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Nilo Peçanha",
+      "display_name": "Rua Doutor Nilo Peçanha, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-480, Brasil",
+      "boundingbox": [
+        "-22.9036455",
+        "-22.9014694",
+        "-43.1241837",
+        "-43.1238677"
+      ]
+    },
+    {
+      "place_id": 10510254,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 50154431,
+      "lat": "-22.9043939",
+      "lon": "-43.1242794",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Nilo Peçanha",
+      "display_name": "Rua Doutor Nilo Peçanha, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-431, Brasil",
+      "boundingbox": [
+        "-22.9051437",
+        "-22.9036455",
+        "-43.1243621",
+        "-43.1241837"
+      ]
+    }
+  ],
+  "Avenida Rui Barbosa, 303A, Niterói, Brasil": [
+    {
+      "place_id": 10467671,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 998244162,
+      "lat": "-22.9111343",
+      "lon": "-43.0722833",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, Morro do Maceió, Maceió, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24310-005, Brasil",
+      "boundingbox": [
+        "-22.9123488",
+        "-22.9083241",
+        "-43.0775902",
+        "-43.0678157"
+      ]
+    },
+    {
+      "place_id": 10487668,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 998244156,
+      "lat": "-22.9118141",
+      "lon": "-43.0743647",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, Maceió, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 34365-170, Brasil",
+      "boundingbox": [
+        "-22.9122658",
+        "-22.9110668",
+        "-43.0765615",
+        "-43.0722485"
+      ]
+    },
+    {
+      "place_id": 10474260,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 953535932,
+      "lat": "-22.9107736",
+      "lon": "-43.0714932",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, Largo da Batalha, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24310-005, Brasil",
+      "boundingbox": [
+        "-22.9110668",
+        "-22.9105045",
+        "-43.0722485",
+        "-43.0707293"
+      ]
+    },
+    {
+      "place_id": 10526079,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1132181526,
+      "lat": "-22.9124973",
+      "lon": "-43.0781898",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, Cachoeira, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 34365-170, Brasil",
+      "boundingbox": [
+        "-22.9127509",
+        "-22.9123445",
+        "-43.0787572",
+        "-43.0775902"
+      ]
+    },
+    {
+      "place_id": 10522826,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1132181525,
+      "lat": "-22.9129244",
+      "lon": "-43.0793372",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Rui Barbosa",
+      "display_name": "Avenida Rui Barbosa, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 34365-170, Brasil",
+      "boundingbox": [
+        "-22.9130400",
+        "-22.9127509",
+        "-43.0799327",
+        "-43.0787572"
+      ]
+    }
+  ],
+  "Rua Santa Rosa, 82, Niterói, Brasil": [
+    {
+      "place_id": 10486160,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 182642963,
+      "lat": "-22.8989482",
+      "lon": "-43.1029661",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Santa Rosa",
+      "display_name": "Rua Santa Rosa, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-185, Brasil",
+      "boundingbox": [
+        "-22.8996159",
+        "-22.8982500",
+        "-43.1035672",
+        "-43.1022526"
+      ]
+    },
+    {
+      "place_id": 10490213,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27459092,
+      "lat": "-22.9020975",
+      "lon": "-43.0991056",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Santa Rosa",
+      "display_name": "Rua Santa Rosa, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-225, Brasil",
+      "boundingbox": [
+        "-22.9024784",
+        "-22.9016968",
+        "-43.0996536",
+        "-43.0985436"
+      ]
+    },
+    {
+      "place_id": 10481532,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 156333769,
+      "lat": "-22.8999842",
+      "lon": "-43.1018218",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Santa Rosa",
+      "display_name": "Rua Santa Rosa, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-420, Brasil",
+      "boundingbox": [
+        "-22.9003525",
+        "-22.8996159",
+        "-43.1022526",
+        "-43.1013909"
+      ]
+    },
+    {
+      "place_id": 10484721,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 156334960,
+      "lat": "-22.9007459",
+      "lon": "-43.1009439",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Santa Rosa",
+      "display_name": "Rua Santa Rosa, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-000, Brasil",
+      "boundingbox": [
+        "-22.9009522",
+        "-22.9005397",
+        "-43.1011812",
+        "-43.1007067"
+      ]
+    },
+    {
+      "place_id": 10516898,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952071777,
+      "lat": "-22.9014337",
+      "lon": "-43.1000652",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Santa Rosa",
+      "display_name": "Rua Santa Rosa, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-110, Brasil",
+      "boundingbox": [
+        "-22.9015898",
+        "-22.9012857",
+        "-43.1003042",
+        "-43.0998318"
+      ]
+    }
+  ],
+  "Rua Mariz e Barros, 310, Niterói, Brasil": [
+    {
+      "place_id": 10432472,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755776,
+      "lat": "-22.9075401",
+      "lon": "-43.1061414",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-121, Brasil",
+      "boundingbox": [
+        "-22.9093569",
+        "-22.9057232",
+        "-43.1081134",
+        "-43.1041695"
+      ]
+    },
+    {
+      "place_id": 10500968,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755766,
+      "lat": "-22.9042773",
+      "lon": "-43.1025771",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Burger 381, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-153, Brasil",
+      "boundingbox": [
+        "-22.9057232",
+        "-22.9028313",
+        "-43.1041695",
+        "-43.1009841"
+      ]
+    },
+    {
+      "place_id": 10485251,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1074949369,
+      "lat": "-22.9100522",
+      "lon": "-43.1088653",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-120, Brasil",
+      "boundingbox": [
+        "-22.9107475",
+        "-22.9093569",
+        "-43.1096172",
+        "-43.1081134"
+      ]
+    },
+    {
+      "place_id": 10490327,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952071778,
+      "lat": "-22.9022938",
+      "lon": "-43.1003928",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Mariz e Barros",
+      "display_name": "Rua Mariz e Barros, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-110, Brasil",
+      "boundingbox": [
+        "-22.9028313",
+        "-22.9017542",
+        "-43.1009841",
+        "-43.0998034"
+      ]
+    }
+  ],
+  "Rua Santos Dumont, 40, Niterói, Brasil": [
+    {
+      "place_id": 7957891,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 494545770,
+      "lat": "-29.9456237",
+      "lon": "-51.1586915",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053393123521782215,
+      "addresstype": "road",
+      "name": "Rua Santos Dumont",
+      "display_name": "Rua Santos Dumont, Nossa Senhora das Graças, Canoas, Rio Grande do Sul, Região Sul, 92120-110, Brasil",
+      "boundingbox": [
+        "-29.9458070",
+        "-29.9454404",
+        "-51.1635679",
+        "-51.1538151"
+      ]
+    },
+    {
+      "place_id": 7918041,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 51770986,
+      "lat": "-29.9459136",
+      "lon": "-51.1665561",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053393123521782215,
+      "addresstype": "road",
+      "name": "Rua Santos Dumont",
+      "display_name": "Rua Santos Dumont, Niterói, Canoas, Rio Grande do Sul, Região Sul, 92120-070, Brasil",
+      "boundingbox": [
+        "-29.9460212",
+        "-29.9458070",
+        "-51.1695442",
+        "-51.1635679"
+      ]
+    },
+    {
+      "place_id": 7921429,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 528475342,
+      "lat": "-29.9462049",
+      "lon": "-51.1745077",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053393123521782215,
+      "addresstype": "road",
+      "name": "Rua Santos Dumont",
+      "display_name": "Rua Santos Dumont, Niterói, Canoas, Rio Grande do Sul, Região Sul, 92120-100, Brasil",
+      "boundingbox": [
+        "-29.9462903",
+        "-29.9461287",
+        "-51.1766335",
+        "-51.1723816"
+      ]
+    },
+    {
+      "place_id": 7939677,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 744485707,
+      "lat": "-29.9460749",
+      "lon": "-51.1709629",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053393123521782215,
+      "addresstype": "road",
+      "name": "Rua Santos Dumont",
+      "display_name": "Rua Santos Dumont, Niterói, Canoas, Rio Grande do Sul, Região Sul, 92120-001, Brasil",
+      "boundingbox": [
+        "-29.9461287",
+        "-29.9460212",
+        "-51.1723816",
+        "-51.1695442"
+      ]
+    },
+    {
+      "place_id": 10489574,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 30359735,
+      "lat": "-22.8998028",
+      "lon": "-43.1072588",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Santos Dumont",
+      "display_name": "Rua Santos Dumont, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-400, Brasil",
+      "boundingbox": [
+        "-22.9003236",
+        "-22.8992805",
+        "-43.1078376",
+        "-43.1066787"
+      ]
+    }
+  ],
+  "Rua São Geraldo, 75, Niterói, Brasil": [
+    {
+      "place_id": 10394690,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 187386353,
+      "lat": "-22.8852115",
+      "lon": "-43.0879613",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua São Geraldo",
+      "display_name": "Rua São Geraldo, Fonseca, Região Norte, Niterói, Rio de Janeiro, Região Sudeste, 24120-250, Brasil",
+      "boundingbox": [
+        "-22.8853322",
+        "-22.8850721",
+        "-43.0897084",
+        "-43.0862119"
+      ]
+    }
+  ],
+  "Rua Antônio Parreiras, 131, Niterói, Brasil": [
+    {
+      "place_id": 10517417,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 130089731,
+      "lat": "-22.9063864",
+      "lon": "-43.1301673",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Antônio Parreiras",
+      "display_name": "Rua Antônio Parreiras, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-360, Brasil",
+      "boundingbox": [
+        "-22.9081447",
+        "-22.9046642",
+        "-43.1303750",
+        "-43.1297175"
+      ]
+    },
+    {
+      "place_id": 10481334,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 951262711,
+      "lat": "-22.9046382",
+      "lon": "-43.1300362",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Antônio Parreiras",
+      "display_name": "Rua Antônio Parreiras, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-320, Brasil",
+      "boundingbox": [
+        "-22.9046642",
+        "-22.9046100",
+        "-43.1300594",
+        "-43.1300157"
+      ]
+    }
+  ],
+  "Rua Professora Aurélia Pimentel Quaresma de Moura, 110, Niterói, Brasil": [
+    {
+      "place_id": 10498268,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1200612661,
+      "lat": "-22.9010729",
+      "lon": "-43.1179227",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Professora Aurélia Pimentel Quaresma de Moura",
+      "display_name": "Rua Professora Aurélia Pimentel Quaresma de Moura, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-001, Brasil",
+      "boundingbox": [
+        "-22.9011225",
+        "-22.9010204",
+        "-43.1183259",
+        "-43.1175199"
+      ]
+    }
+  ],
+  "Rua Samuel Wainer, 900, Niterói, Brasil": [
+    {
+      "place_id": 10538512,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29159265,
+      "lat": "-22.9605124",
+      "lon": "-43.0308822",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Rua Samuel Wainer Filho",
+      "display_name": "Rua Samuel Wainer Filho, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-000, Brasil",
+      "boundingbox": [
+        "-22.9642916",
+        "-22.9550357",
+        "-43.0349341",
+        "-43.0288540"
+      ]
+    }
+  ],
+  "Rua Juiz Alberto Nader, 11, Niterói, Brasil": [
+    {
+      "place_id": 10338320,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 514033353,
+      "lat": "-22.9261277",
+      "lon": "-43.0932739",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Juiz Alberto Nader",
+      "display_name": "Rua Juiz Alberto Nader, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-010, Brasil",
+      "boundingbox": [
+        "-22.9264099",
+        "-22.9258454",
+        "-43.0940949",
+        "-43.0924529"
+      ]
+    }
+  ],
+  "Avenida Prefeito Sylvio Picanço, 877, Niterói, Brasil": [
+    {
+      "place_id": 10469341,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 857060181,
+      "lat": "-22.9328934",
+      "lon": "-43.0992154",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "boundingbox": [
+        "-22.9333894",
+        "-22.9323931",
+        "-43.0997445",
+        "-43.0986903"
+      ]
+    },
+    {
+      "place_id": 10476027,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 784649495,
+      "lat": "-22.9343689",
+      "lon": "-43.1008342",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "boundingbox": [
+        "-22.9345931",
+        "-22.9340768",
+        "-43.1012565",
+        "-43.1004549"
+      ]
+    },
+    {
+      "place_id": 10474251,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183036036,
+      "lat": "-22.9348971",
+      "lon": "-43.1020947",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "boundingbox": [
+        "-22.9350143",
+        "-22.9347800",
+        "-43.1023994",
+        "-43.1017900"
+      ]
+    },
+    {
+      "place_id": 10484606,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 857060180,
+      "lat": "-22.9319842",
+      "lon": "-43.0983040",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "boundingbox": [
+        "-22.9320745",
+        "-22.9319157",
+        "-43.0984125",
+        "-43.0981802"
+      ]
+    },
+    {
+      "place_id": 10479160,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183036119,
+      "lat": "-22.9363530",
+      "lon": "-43.1060749",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-640, Brasil",
+      "boundingbox": [
+        "-22.9363825",
+        "-22.9363232",
+        "-43.1061493",
+        "-43.1060007"
+      ]
+    }
+  ],
+  "Rua Roma, 360, Niterói, Brasil": [
+    {
+      "place_id": 7813460,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 51780393,
+      "lat": "-29.9523502",
+      "lon": "-51.1574195",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053393123521782215,
+      "addresstype": "road",
+      "name": "Rua Roma",
+      "display_name": "Rua Roma, Niterói, Canoas, Rio Grande do Sul, Região Sul, 92130-000, Brasil",
+      "boundingbox": [
+        "-29.9532472",
+        "-29.9514532",
+        "-51.1584165",
+        "-51.1564226"
+      ]
+    },
+    {
+      "place_id": 10380888,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29182470,
+      "lat": "-22.9353092",
+      "lon": "-43.0676918",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Roma",
+      "display_name": "Rua Roma, Comunidade da Ciclovia, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24350-120, Brasil",
+      "boundingbox": [
+        "-22.9370370",
+        "-22.9335958",
+        "-43.0694854",
+        "-43.0658845"
+      ]
+    }
+  ],
+  "Rua Newton Prado, 38, Icaraí, Niterói, Brasil": [],
+  "Rua Newton Prado, Icaraí, Niterói, Brasil": [],
+  "Rua Joaquim Távora, 138, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10432063,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1317534335,
+      "lat": "-22.9116798",
+      "lon": "-43.1054774",
+      "category": "building",
+      "type": "construction",
+      "place_rank": 30,
+      "importance": 8.152666514071897e-05,
+      "addresstype": "building",
+      "name": "Terramarine",
+      "display_name": "Terramarine, 138, Rua Joaquim Távora, Ed Summer Time, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-540, Brasil",
+      "boundingbox": [
+        "-22.9118836",
+        "-22.9114760",
+        "-43.1056152",
+        "-43.1053395"
+      ]
+    }
+  ],
+  "Rua José Maurício Ferraz, 2, Boa Viagem, Niterói, Brasil": [
+    {
+      "place_id": 10493220,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 130003067,
+      "lat": "-22.9060974",
+      "lon": "-43.1323676",
+      "category": "building",
+      "type": "construction",
+      "place_rank": 30,
+      "importance": 8.152666514071897e-05,
+      "addresstype": "building",
+      "name": "Uni Home Studios",
+      "display_name": "Uni Home Studios, 2, Rua José Maurício Ferraz, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-346, Brasil",
+      "boundingbox": [
+        "-22.9063433",
+        "-22.9058514",
+        "-43.1326086",
+        "-43.1322229"
+      ]
+    }
+  ],
+  "Avenida Prefeito Sylvio Picanço, 595, Charitas, Niterói, Brasil": [
+    {
+      "place_id": 10318427,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 857060181,
+      "lat": "-22.9328934",
+      "lon": "-43.0992154",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-480, Brasil",
+      "boundingbox": [
+        "-22.9333894",
+        "-22.9323931",
+        "-43.0997445",
+        "-43.0986903"
+      ]
+    },
+    {
+      "place_id": 10325928,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 784649495,
+      "lat": "-22.9343689",
+      "lon": "-43.1008342",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "boundingbox": [
+        "-22.9345931",
+        "-22.9340768",
+        "-43.1012565",
+        "-43.1004549"
+      ]
+    },
+    {
+      "place_id": 10318598,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183036036,
+      "lat": "-22.9348971",
+      "lon": "-43.1020947",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-030, Brasil",
+      "boundingbox": [
+        "-22.9350143",
+        "-22.9347800",
+        "-43.1023994",
+        "-43.1017900"
+      ]
+    },
+    {
+      "place_id": 10369491,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1075236366,
+      "lat": "-22.9256524",
+      "lon": "-43.0952199",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-010, Brasil",
+      "boundingbox": [
+        "-22.9258849",
+        "-22.9253978",
+        "-43.0953694",
+        "-43.0951128"
+      ]
+    },
+    {
+      "place_id": 10346827,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 953067315,
+      "lat": "-22.9317580",
+      "lon": "-43.0980304",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Prefeito Sylvio Picanço",
+      "display_name": "Avenida Prefeito Sylvio Picanço, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "boundingbox": [
+        "-22.9319157",
+        "-22.9315546",
+        "-43.0981802",
+        "-43.0979469"
+      ]
+    }
+  ],
+  "Rua Doutor Sardinha, 183, Santa Rosa, Niterói, Brasil": [
+    {
+      "place_id": 10539118,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1318324631,
+      "lat": "-22.8980894",
+      "lon": "-43.0975512",
+      "category": "building",
+      "type": "residential",
+      "place_rank": 30,
+      "importance": 8.152666514071897e-05,
+      "addresstype": "building",
+      "name": "Calle Sardegna",
+      "display_name": "Calle Sardegna, 183, Rua Doutor Sardinha, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-660, Brasil",
+      "boundingbox": [
+        "-22.8983380",
+        "-22.8978546",
+        "-43.0977711",
+        "-43.0973221"
+      ]
+    }
+  ],
+  "Rua Dom Bosco, 104, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10371861,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 182481066,
+      "lat": "-22.9051835",
+      "lon": "-43.0993734",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Dom Bosco",
+      "display_name": "Rua Dom Bosco, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-390, Brasil",
+      "boundingbox": [
+        "-22.9064907",
+        "-22.9038667",
+        "-43.1000565",
+        "-43.0986703"
+      ]
+    },
+    {
+      "place_id": 10417814,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 455323175,
+      "lat": "-22.9068698",
+      "lon": "-43.0984045",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Dom Bosco",
+      "display_name": "Rua Dom Bosco, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-321, Brasil",
+      "boundingbox": [
+        "-22.9071191",
+        "-22.9066206",
+        "-43.0985870",
+        "-43.0982219"
+      ]
+    },
+    {
+      "place_id": 10409489,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 196947220,
+      "lat": "-22.9065643",
+      "lon": "-43.0986237",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Dom Bosco",
+      "display_name": "Rua Dom Bosco, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-321, Brasil",
+      "boundingbox": [
+        "-22.9065955",
+        "-22.9065331",
+        "-43.0986431",
+        "-43.0986043"
+      ]
+    }
+  ],
+  "Avenida Almirante Tamandaré, 2866, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10510679,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 508062276,
+      "lat": "-22.9549591",
+      "lon": "-43.0796227",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Almirante Tamandaré",
+      "display_name": "Avenida Almirante Tamandaré, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9551799",
+        "-22.9547345",
+        "-43.0813073",
+        "-43.0779376"
+      ]
+    },
+    {
+      "place_id": 10511310,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1376739202,
+      "lat": "-22.9462874",
+      "lon": "-43.0578762",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Almirante Tamandaré",
+      "display_name": "Avenida Almirante Tamandaré, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24350-680, Brasil",
+      "boundingbox": [
+        "-22.9464864",
+        "-22.9460885",
+        "-43.0579050",
+        "-43.0578484"
+      ]
+    },
+    {
+      "place_id": 10509860,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1225793671,
+      "lat": "-22.9490449",
+      "lon": "-43.0575658",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Almirante Tamandaré",
+      "display_name": "Avenida Almirante Tamandaré, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24320-330, Brasil",
+      "boundingbox": [
+        "-22.9493823",
+        "-22.9486962",
+        "-43.0576518",
+        "-43.0575377"
+      ]
+    }
+  ],
+  "Rua Jornalista Francisco Rodrigues de Miranda, 71, Niterói, Brasil": [
+    {
+      "place_id": 10551497,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153268,
+      "lat": "-22.9541536",
+      "lon": "-43.0741622",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Jornalista Francisco Rodrigues de Miranda",
+      "display_name": "Rua Jornalista Francisco Rodrigues de Miranda, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-030, Brasil",
+      "boundingbox": [
+        "-22.9557490",
+        "-22.9525641",
+        "-43.0744295",
+        "-43.0738776"
+      ]
+    }
+  ],
+  "Estrada Francisco da Cruz Nunes, 10512, Itacoatiara, Niterói, Brasil": [
+    {
+      "place_id": 10638896,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 264028676,
+      "lat": "-22.9633707",
+      "lon": "-43.0312474",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Estrada Francisco da Cruz Nunes",
+      "display_name": "Estrada Francisco da Cruz Nunes, Itacoatiara, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-082, Brasil",
+      "boundingbox": [
+        "-22.9635487",
+        "-22.9631594",
+        "-43.0315861",
+        "-43.0309266"
+      ]
+    },
+    {
+      "place_id": 10553941,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1175636664,
+      "lat": "-22.9629351",
+      "lon": "-43.0306854",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Estrada Francisco da Cruz Nunes",
+      "display_name": "Estrada Francisco da Cruz Nunes, Itacoatiara, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-000, Brasil",
+      "boundingbox": [
+        "-22.9631594",
+        "-22.9626802",
+        "-43.0309266",
+        "-43.0304772"
+      ]
+    }
+  ],
+  "Estrada Francisco da Cruz Nunes, 11412, Itaipu, Niterói, Brasil": [
+    {
+      "place_id": 10504335,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13669905441,
+      "lat": "-22.9623594",
+      "lon": "-43.0304560",
+      "category": "shop",
+      "type": "beauty",
+      "place_rank": 30,
+      "importance": 6.304188601506092e-05,
+      "addresstype": "shop",
+      "name": "Cor e Unha",
+      "display_name": "Cor e Unha, 11412, Estrada Francisco da Cruz Nunes, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24340-000, Brasil",
+      "boundingbox": [
+        "-22.9624094",
+        "-22.9623094",
+        "-43.0305060",
+        "-43.0304060"
+      ]
+    },
+    {
+      "place_id": 10516710,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13669869411,
+      "lat": "-22.9624096",
+      "lon": "-43.0304747",
+      "category": "amenity",
+      "type": "ice_cream",
+      "place_rank": 30,
+      "importance": 6.304188601506092e-05,
+      "addresstype": "amenity",
+      "name": "Oggi Sorvetes",
+      "display_name": "Oggi Sorvetes, 11412, Estrada Francisco da Cruz Nunes, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24340-000, Brasil",
+      "boundingbox": [
+        "-22.9624596",
+        "-22.9623596",
+        "-43.0305247",
+        "-43.0304247"
+      ]
+    },
+    {
+      "place_id": 10522347,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13669857535,
+      "lat": "-22.9625197",
+      "lon": "-43.0305277",
+      "category": "amenity",
+      "type": "pharmacy",
+      "place_rank": 30,
+      "importance": 6.304188601506092e-05,
+      "addresstype": "amenity",
+      "name": "Droga Raia",
+      "display_name": "Droga Raia, 11412, Estrada Francisco da Cruz Nunes, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24340-000, Brasil",
+      "boundingbox": [
+        "-22.9625697",
+        "-22.9624697",
+        "-43.0305777",
+        "-43.0304777"
+      ]
+    }
+  ],
+  "Rua Doutora Namir Peralta, 113, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10442917,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153289,
+      "lat": "-22.9537378",
+      "lon": "-43.0754986",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutora Namir Peralta",
+      "display_name": "Rua Doutora Namir Peralta, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-030, Brasil",
+      "boundingbox": [
+        "-22.9554874",
+        "-22.9519883",
+        "-43.0758057",
+        "-43.0751914"
+      ]
+    }
+  ],
+  "Rua Raul Corrêa de Araújo, 92, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10525757,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153445,
+      "lat": "-22.9542587",
+      "lon": "-43.0784322",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Raul Correa de Araújo",
+      "display_name": "Rua Raul Correa de Araújo, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9551006",
+        "-22.9534173",
+        "-43.0785669",
+        "-43.0782941"
+      ]
+    }
+  ],
+  "Rua Tapúias, 115, São Francisco, Niterói, Brasil": [
+    {
+      "place_id": 10486905,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 38117140,
+      "lat": "-22.9186590",
+      "lon": "-43.0910398",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Tapuias",
+      "display_name": "Rua Tapuias, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-440, Brasil",
+      "boundingbox": [
+        "-22.9188360",
+        "-22.9184823",
+        "-43.0920861",
+        "-43.0899934"
+      ]
+    },
+    {
+      "place_id": 10488794,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 253634853,
+      "lat": "-22.9188969",
+      "lon": "-43.0924513",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Tapuias",
+      "display_name": "Rua Tapuias, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-000, Brasil",
+      "boundingbox": [
+        "-22.9189579",
+        "-22.9188360",
+        "-43.0928165",
+        "-43.0920861"
+      ]
+    },
+    {
+      "place_id": 10431042,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 253634857,
+      "lat": "-22.9190689",
+      "lon": "-43.0934686",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Tapúias",
+      "display_name": "Rua Tapúias, São Francisco, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-000, Brasil",
+      "boundingbox": [
+        "-22.9191799",
+        "-22.9189579",
+        "-43.0941208",
+        "-43.0928165"
+      ]
+    }
+  ],
+  "Rua Presidente Domiciano, 48, Boa Viagem, Niterói, Brasil": [
+    {
+      "place_id": 10523139,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29255902,
+      "lat": "-22.9058845",
+      "lon": "-43.1325726",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Domiciano",
+      "display_name": "Rua Presidente Domiciano, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-346, Brasil",
+      "boundingbox": [
+        "-22.9059921",
+        "-22.9057770",
+        "-43.1327757",
+        "-43.1323696"
+      ]
+    },
+    {
+      "place_id": 10504240,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 130002851,
+      "lat": "-22.9051890",
+      "lon": "-43.1312114",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Domiciano",
+      "display_name": "Rua Presidente Domiciano, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-320, Brasil",
+      "boundingbox": [
+        "-22.9057770",
+        "-22.9045722",
+        "-43.1323696",
+        "-43.1300689"
+      ]
+    },
+    {
+      "place_id": 10530968,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 951262712,
+      "lat": "-22.9045685",
+      "lon": "-43.1298973",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Domiciano",
+      "display_name": "Rua Presidente Domiciano, Boa Viagem, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-320, Brasil",
+      "boundingbox": [
+        "-22.9046009",
+        "-22.9045184",
+        "-43.1299934",
+        "-43.1298101"
+      ]
+    },
+    {
+      "place_id": 10524551,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 951262713,
+      "lat": "-22.9045222",
+      "lon": "-43.1298950",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Domiciano",
+      "display_name": "Rua Presidente Domiciano, São Domingos, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-320, Brasil",
+      "boundingbox": [
+        "-22.9045224",
+        "-22.9045184",
+        "-43.1299799",
+        "-43.1298101"
+      ]
+    }
+  ],
+  "Rua Doutor Celso Dias Gomes, 105, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10356361,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153832,
+      "lat": "-22.9519255",
+      "lon": "-43.0916502",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Celso Dias Gomes",
+      "display_name": "Rua Doutor Celso Dias Gomes, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9534936",
+        "-22.9503550",
+        "-43.0918782",
+        "-43.0914392"
+      ]
+    }
+  ],
+  "Rua Doutor Sardinha, Santa Rosa, Niterói, Brasil": [
+    {
+      "place_id": 10371727,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 33637690,
+      "lat": "-22.8986462",
+      "lon": "-43.0979376",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Sardinha",
+      "display_name": "Rua Doutor Sardinha, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-660, Brasil",
+      "boundingbox": [
+        "-22.8995224",
+        "-22.8977644",
+        "-43.0994380",
+        "-43.0964405"
+      ]
+    },
+    {
+      "place_id": 10387566,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1318324620,
+      "lat": "-22.9002489",
+      "lon": "-43.1006787",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Sardinha",
+      "display_name": "Rua Doutor Sardinha, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-000, Brasil",
+      "boundingbox": [
+        "-22.9005397",
+        "-22.8999582",
+        "-43.1011812",
+        "-43.1001762"
+      ]
+    }
+  ],
+  "Rua Presidente Backer, 128, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10327850,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 527671264,
+      "lat": "-22.9022433",
+      "lon": "-43.1088186",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Backer",
+      "display_name": "Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24110-206, Brasil",
+      "boundingbox": [
+        "-22.9027216",
+        "-22.9017649",
+        "-43.1093565",
+        "-43.1082811"
+      ]
+    },
+    {
+      "place_id": 10416567,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 993169839,
+      "lat": "-22.9002042",
+      "lon": "-43.1065497",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Backer",
+      "display_name": "Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-400, Brasil",
+      "boundingbox": [
+        "-22.9010762",
+        "-22.8993267",
+        "-43.1075122",
+        "-43.1055922"
+      ]
+    },
+    {
+      "place_id": 10387827,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952386970,
+      "lat": "-22.9040137",
+      "lon": "-43.1107753",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Backer",
+      "display_name": "Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-230, Brasil",
+      "boundingbox": [
+        "-22.9044999",
+        "-22.9035276",
+        "-43.1113065",
+        "-43.1102441"
+      ]
+    },
+    {
+      "place_id": 10391639,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123755329,
+      "lat": "-22.9058284",
+      "lon": "-43.1127964",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Backer",
+      "display_name": "Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-062, Brasil",
+      "boundingbox": [
+        "-22.9062988",
+        "-22.9053626",
+        "-43.1133101",
+        "-43.1122781"
+      ]
+    },
+    {
+      "place_id": 10403124,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 952386969,
+      "lat": "-22.9049312",
+      "lon": "-43.1117923",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Presidente Backer",
+      "display_name": "Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-045, Brasil",
+      "boundingbox": [
+        "-22.9053626",
+        "-22.9044999",
+        "-43.1122781",
+        "-43.1113065"
+      ]
+    }
+  ],
+  "Rua Jornalista Prudêncio Luiz de Ferreira Travassos, 49, Piratininga, Niterói, Brasil": [],
+  "Rua Jornalista Prudêncio Luiz de Ferreira Travassos, Piratininga, Niterói, Brasil": [],
+  "Rua Ator Paulo Gustavo, 368, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10496788,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123754762,
+      "lat": "-22.9073199",
+      "lon": "-43.1102423",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Ator Paulo Gustavo",
+      "display_name": "Rua Ator Paulo Gustavo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-063, Brasil",
+      "boundingbox": [
+        "-22.9101276",
+        "-22.9045310",
+        "-43.1131789",
+        "-43.1073232"
+      ]
+    },
+    {
+      "place_id": 10527571,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 122540902,
+      "lat": "-22.9106050",
+      "lon": "-43.1068112",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Ator Paulo Gustavo",
+      "display_name": "Rua Ator Paulo Gustavo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-022, Brasil",
+      "boundingbox": [
+        "-22.9110744",
+        "-22.9101276",
+        "-43.1073232",
+        "-43.1062920"
+      ]
+    },
+    {
+      "place_id": 10519544,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123754765,
+      "lat": "-22.9031597",
+      "lon": "-43.1145477",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Ator Paulo Gustavo",
+      "display_name": "Rua Ator Paulo Gustavo, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-060, Brasil",
+      "boundingbox": [
+        "-22.9036329",
+        "-22.9026857",
+        "-43.1150246",
+        "-43.1140699"
+      ]
+    },
+    {
+      "place_id": 10523702,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123754750,
+      "lat": "-22.9040819",
+      "lon": "-43.1136244",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Ator Paulo Gustavo",
+      "display_name": "Rua Ator Paulo Gustavo, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-061, Brasil",
+      "boundingbox": [
+        "-22.9045310",
+        "-22.9036329",
+        "-43.1140699",
+        "-43.1131789"
+      ]
+    }
+  ],
+  "Rua Joaquim Távora, 80, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10528887,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29424540,
+      "lat": "-22.9117580",
+      "lon": "-43.1067705",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Joaquim Távora",
+      "display_name": "Rua Joaquim Távora, Ed Summer Time, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-540, Brasil",
+      "boundingbox": [
+        "-22.9124870",
+        "-22.9110462",
+        "-43.1091980",
+        "-43.1042592"
+      ]
+    },
+    {
+      "place_id": 10453991,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183035373,
+      "lat": "-22.9109594",
+      "lon": "-43.1039171",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Joaquim Távora",
+      "display_name": "Rua Joaquim Távora, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-550, Brasil",
+      "boundingbox": [
+        "-22.9110462",
+        "-22.9108717",
+        "-43.1042592",
+        "-43.1035752"
+      ]
+    },
+    {
+      "place_id": 10424812,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 161220480,
+      "lat": "-22.9106116",
+      "lon": "-43.1026655",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Joaquim Távora",
+      "display_name": "Rua Joaquim Távora, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-136, Brasil",
+      "boundingbox": [
+        "-22.9108717",
+        "-22.9102991",
+        "-43.1035752",
+        "-43.1017722"
+      ]
+    }
+  ],
+  "Rua Doutor Paulo Alves, 95, Ingá, Niterói, Brasil": [
+    {
+      "place_id": 10483004,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29143326,
+      "lat": "-22.9022380",
+      "lon": "-43.1219964",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Paulo Alves",
+      "display_name": "Rua Doutor Paulo Alves, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-445, Brasil",
+      "boundingbox": [
+        "-22.9029487",
+        "-22.9015262",
+        "-43.1220885",
+        "-43.1219142"
+      ]
+    },
+    {
+      "place_id": 10495495,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183034883,
+      "lat": "-22.9047917",
+      "lon": "-43.1223200",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Paulo Alves",
+      "display_name": "Rua Doutor Paulo Alves, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-405, Brasil",
+      "boundingbox": [
+        "-22.9049692",
+        "-22.9046087",
+        "-43.1223216",
+        "-43.1222791"
+      ]
+    }
+  ],
+  "Rua Comendador Thomaz Lima, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10550917,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153823,
+      "lat": "-22.9520435",
+      "lon": "-43.0902474",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Comendador Thomaz Lima",
+      "display_name": "Rua Comendador Thomaz Lima, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9536504",
+        "-22.9504383",
+        "-43.0904653",
+        "-43.0900173"
+      ]
+    }
+  ],
+  "Rua Orestes Barbosa, 116, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10558792,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153754,
+      "lat": "-22.9516943",
+      "lon": "-43.0873265",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Orestes Barbosa",
+      "display_name": "Rua Orestes Barbosa, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9539784",
+        "-22.9494067",
+        "-43.0876439",
+        "-43.0870364"
+      ]
+    }
+  ],
+  "Rua dos Pavões, 17, Itaipu, Niterói, Brasil": [],
+  "Rua dos Pavões, Itaipu, Niterói, Brasil": [],
+  "Rua Lisandro Pereira da Silva, 230, São Francisco, Niterói, Brasil": [
+    {
+      "place_id": 10497111,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29424312,
+      "lat": "-22.9135961",
+      "lon": "-43.0819570",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Lisandro Pereira da Silva",
+      "display_name": "Rua Lisandro Pereira da Silva, Cachoeira, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24360-066, Brasil",
+      "boundingbox": [
+        "-22.9138732",
+        "-22.9133296",
+        "-43.0821022",
+        "-43.0819295"
+      ]
+    }
+  ],
+  "Avenida Irene Lopes Sodré, Itaipu, Niterói, Brasil": [
+    {
+      "place_id": 10574675,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 951541822,
+      "lat": "-22.9524417",
+      "lon": "-43.0261805",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Avenida Irene Lopes Sodré",
+      "display_name": "Avenida Irene Lopes Sodré, Itaipu, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-200, Brasil",
+      "boundingbox": [
+        "-22.9526321",
+        "-22.9522552",
+        "-43.0265531",
+        "-43.0258058"
+      ]
+    },
+    {
+      "place_id": 10479587,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1175117975,
+      "lat": "-22.9512668",
+      "lon": "-43.0251121",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Avenida Irene Lopes Sodré",
+      "display_name": "Avenida Irene Lopes Sodré, Maravista, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24344-035, Brasil",
+      "boundingbox": [
+        "-22.9518595",
+        "-22.9506687",
+        "-43.0252064",
+        "-43.0250335"
+      ]
+    },
+    {
+      "place_id": 10562221,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 181952379,
+      "lat": "-22.9531340",
+      "lon": "-43.0274269",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Avenida Irene Lopes Sodré",
+      "display_name": "Avenida Irene Lopes Sodré, Maravista, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-200, Brasil",
+      "boundingbox": [
+        "-22.9531350",
+        "-22.9530874",
+        "-43.0275874",
+        "-43.0272674"
+      ]
+    }
+  ],
+  "Rua Doutor Acúrcio Torres, 892, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10527095,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 677760171,
+      "lat": "-22.9530207",
+      "lon": "-43.0789149",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Doutor Acúrcio Torres",
+      "display_name": "Avenida Doutor Acúrcio Torres, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9531598",
+        "-22.9528824",
+        "-43.0789361",
+        "-43.0788883"
+      ]
+    }
+  ],
+  "Rua Doutor Pereira Nunes, 132, Ingá, Niterói, Brasil": [
+    {
+      "place_id": 10527442,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 119514638,
+      "lat": "-22.9032199",
+      "lon": "-43.1231484",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Pereira Nunes",
+      "display_name": "Rua Doutor Pereira Nunes, Morro do Palácio, Ingá, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-430, Brasil",
+      "boundingbox": [
+        "-22.9049337",
+        "-22.9015027",
+        "-43.1233643",
+        "-43.1229592"
+      ]
+    }
+  ],
+  "Rua Presidente Backer, 250, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10494876,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1358996012,
+      "lat": "-22.9023875",
+      "lon": "-43.1087482",
+      "category": "building",
+      "type": "construction",
+      "place_rank": 30,
+      "importance": 8.152666514071897e-05,
+      "addresstype": "building",
+      "name": "Attrium",
+      "display_name": "Attrium, 250, Rua Presidente Backer, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24110-206, Brasil",
+      "boundingbox": [
+        "-22.9025426",
+        "-22.9022227",
+        "-43.1089187",
+        "-43.1085771"
+      ]
+    }
+  ],
+  "Rua Capitão Zeferino, 90, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10357044,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 30441852,
+      "lat": "-22.9044380",
+      "lon": "-43.1103289",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Travessa Capitão Zeferino",
+      "display_name": "Travessa Capitão Zeferino, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-230, Brasil",
+      "boundingbox": [
+        "-22.9049354",
+        "-22.9039405",
+        "-43.1108407",
+        "-43.1098172"
+      ]
+    }
+  ],
+  "Rua Doutor Herotides de Oliveira, 23, Jardim Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 9265818,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 862874910,
+      "lat": "-22.9025888",
+      "lon": "-43.1064759",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.99999999995449e-06,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "23, Rua Doutor Herotides de Oliveira, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-230, Brasil",
+      "boundingbox": [
+        "-22.9026388",
+        "-22.9025388",
+        "-43.1065259",
+        "-43.1064259"
+      ]
+    }
+  ],
+  "Rua Professor Miguel Couto, 333, Jardim Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 9712260,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 863152997,
+      "lat": "-22.9022244",
+      "lon": "-43.1051745",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.99999999995449e-06,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "333, Rua Professor Miguel Couto, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-240, Brasil",
+      "boundingbox": [
+        "-22.9022744",
+        "-22.9021744",
+        "-43.1052245",
+        "-43.1051245"
+      ]
+    }
+  ],
+  "Rua Domingues de Sá, 328, Jardim Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10480080,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 955366010,
+      "lat": "-22.9040133",
+      "lon": "-43.1054292",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Domingues de Sá",
+      "display_name": "Rua Domingues de Sá, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-161, Brasil",
+      "boundingbox": [
+        "-22.9042470",
+        "-22.9037796",
+        "-43.1056887",
+        "-43.1051698"
+      ]
+    },
+    {
+      "place_id": 10475687,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27474604,
+      "lat": "-22.9018743",
+      "lon": "-43.1031045",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Domingues de Sá",
+      "display_name": "Rua Domingues de Sá, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-331, Brasil",
+      "boundingbox": [
+        "-22.9034312",
+        "-22.9003525",
+        "-43.1047853",
+        "-43.1013909"
+      ]
+    },
+    {
+      "place_id": 10478094,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 605884112,
+      "lat": "-22.9051376",
+      "lon": "-43.1066589",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Domingues de Sá",
+      "display_name": "Rua Domingues de Sá, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-091, Brasil",
+      "boundingbox": [
+        "-22.9060151",
+        "-22.9042470",
+        "-43.1076409",
+        "-43.1056887"
+      ]
+    }
+  ],
+  "Rua Tavares de Macedo, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10500920,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27459085,
+      "lat": "-22.9049426",
+      "lon": "-43.1108327",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Tavares de Macedo",
+      "display_name": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-215, Brasil",
+      "boundingbox": [
+        "-22.9062113",
+        "-22.9036417",
+        "-43.1121824",
+        "-43.1094535"
+      ]
+    },
+    {
+      "place_id": 10462509,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1429723966,
+      "lat": "-22.9027616",
+      "lon": "-43.1131478",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Tavares de Macedo",
+      "display_name": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-021, Brasil",
+      "boundingbox": [
+        "-22.9036417",
+        "-22.9018601",
+        "-43.1140933",
+        "-43.1121824"
+      ]
+    },
+    {
+      "place_id": 10516908,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 834913281,
+      "lat": "-22.9064130",
+      "lon": "-43.1093223",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Tavares de Macedo",
+      "display_name": "Rua Doutor Tavares de Macedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-190, Brasil",
+      "boundingbox": [
+        "-22.9066108",
+        "-22.9062113",
+        "-43.1094535",
+        "-43.1091860"
+      ]
+    }
+  ],
+  "Rua Álvares de Azevedo, 185, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 9021672,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 866370369,
+      "lat": "-22.9013693",
+      "lon": "-43.1115986",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.99999999995449e-06,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "185, Rua Álvares de Azevedo, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-020, Brasil",
+      "boundingbox": [
+        "-22.9014193",
+        "-22.9013193",
+        "-43.1116486",
+        "-43.1115486"
+      ]
+    }
+  ],
+  "Rua Miguel de Frias, 270, Icaraí, Niterói, Brasil": [
+    {
+      "place_id": 10478337,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1074913134,
+      "lat": "-22.9013925",
+      "lon": "-43.1135893",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Miguel de Frias",
+      "display_name": "Rua Miguel de Frias, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-004, Brasil",
+      "boundingbox": [
+        "-22.9018601",
+        "-22.9009250",
+        "-43.1140933",
+        "-43.1130853"
+      ]
+    },
+    {
+      "place_id": 10496267,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 261406222,
+      "lat": "-22.9031040",
+      "lon": "-43.1154867",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Miguel de Frias",
+      "display_name": "Rua Miguel de Frias, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-060, Brasil",
+      "boundingbox": [
+        "-22.9035232",
+        "-22.9026857",
+        "-43.1159480",
+        "-43.1150246"
+      ]
+    },
+    {
+      "place_id": 10478033,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 187901679,
+      "lat": "-22.8992882",
+      "lon": "-43.1120296",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Miguel de Frias",
+      "display_name": "Rua Miguel de Frias, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24210-520, Brasil",
+      "boundingbox": [
+        "-22.8998787",
+        "-22.8987001",
+        "-43.1122007",
+        "-43.1118502"
+      ]
+    },
+    {
+      "place_id": 10495692,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 169171094,
+      "lat": "-22.9038626",
+      "lon": "-43.1164685",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Miguel de Frias",
+      "display_name": "Rua Miguel de Frias, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24230-001, Brasil",
+      "boundingbox": [
+        "-22.9039467",
+        "-22.9037675",
+        "-43.1166735",
+        "-43.1162688"
+      ]
+    },
+    {
+      "place_id": 420635905,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1528580271,
+      "lat": "-22.8986736",
+      "lon": "-43.1118420",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Miguel de Frias",
+      "display_name": "Rua Miguel de Frias, Jardim Icaraí, Icaraí, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24220-401, Brasil",
+      "boundingbox": [
+        "-22.8987001",
+        "-22.8986472",
+        "-43.1118502",
+        "-43.1118338"
+      ]
+    }
+  ],
+  "Avenida Visconde do Rio Branco, 731, Centro, Niterói, Brasil": [
+    {
+      "place_id": 10482105,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183021481,
+      "lat": "-22.8907308",
+      "lon": "-43.1240791",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-002, Brasil",
+      "boundingbox": [
+        "-22.8914181",
+        "-22.8900421",
+        "-43.1242235",
+        "-43.1239273"
+      ]
+    },
+    {
+      "place_id": 10519096,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 676938995,
+      "lat": "-22.8848958",
+      "lon": "-43.1258998",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24030-030, Brasil",
+      "boundingbox": [
+        "-22.8851641",
+        "-22.8846643",
+        "-43.1262633",
+        "-43.1255624"
+      ]
+    },
+    {
+      "place_id": 10544266,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 119702281,
+      "lat": "-22.8959800",
+      "lon": "-43.1251965",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-140, Brasil",
+      "boundingbox": [
+        "-22.8963372",
+        "-22.8959193",
+        "-43.1256656",
+        "-43.1248838"
+      ]
+    },
+    {
+      "place_id": 10506019,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 269063947,
+      "lat": "-22.8881082",
+      "lon": "-43.1244482",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24030-078, Brasil",
+      "boundingbox": [
+        "-22.8886161",
+        "-22.8876018",
+        "-43.1245726",
+        "-43.1243299"
+      ]
+    },
+    {
+      "place_id": 10505586,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 737756347,
+      "lat": "-22.8941844",
+      "lon": "-43.1238939",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Avenida Visconde do Rio Branco",
+      "display_name": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-080, Brasil",
+      "boundingbox": [
+        "-22.8945145",
+        "-22.8938530",
+        "-43.1239594",
+        "-43.1238358"
+      ]
+    }
+  ],
+  "Rua Simon Bolívar, 105, Camboinhas, Niterói, Brasil": [
+    {
+      "place_id": 10632658,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29150891,
+      "lat": "-22.9580805",
+      "lon": "-43.0651303",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Rua Simon Bolivar",
+      "display_name": "Rua Simon Bolivar, Camboinhas, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24346-030, Brasil",
+      "boundingbox": [
+        "-22.9585537",
+        "-22.9576074",
+        "-43.0652722",
+        "-43.0649885"
+      ]
+    }
+  ],
+  "Rua Doutor Celso Dias Gomes, 171, Piratininga, Niterói, Brasil": [
+    {
+      "place_id": 10356361,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29153832,
+      "lat": "-22.9519255",
+      "lon": "-43.0916502",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Doutor Celso Dias Gomes",
+      "display_name": "Rua Doutor Celso Dias Gomes, Piratininga, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24358-120, Brasil",
+      "boundingbox": [
+        "-22.9534936",
+        "-22.9503550",
+        "-43.0918782",
+        "-43.0914392"
+      ]
+    }
+  ],
+  "Rua Professor Otacílio, 133, Santa Rosa, Niterói, Brasil": [
+    {
+      "place_id": 10521216,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 33637703,
+      "lat": "-22.8988535",
+      "lon": "-43.0995984",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Professor Otacílio",
+      "display_name": "Rua Professor Otacílio, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-660, Brasil",
+      "boundingbox": [
+        "-22.9005731",
+        "-22.8967985",
+        "-43.0996093",
+        "-43.0986065"
+      ]
+    }
+  ],
+  "Estrada Pacheco de Carvalho, 1251, Maceió, Niterói, Brasil": [
+    {
+      "place_id": 10529990,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 629276629,
+      "lat": "-22.9233799",
+      "lon": "-43.0665915",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Pacheco de Carvalho",
+      "display_name": "Estrada Pacheco de Carvalho, Morro do Caniçal, Cafubá, Região Oceânica, Niterói, Rio de Janeiro, Região Sudeste, 24350-130, Brasil",
+      "boundingbox": [
+        "-22.9276143",
+        "-22.9182821",
+        "-43.0666798",
+        "-43.0627906"
+      ]
+    },
+    {
+      "place_id": 10592229,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 527671257,
+      "lat": "-22.9155257",
+      "lon": "-43.0646932",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Pacheco de Carvalho",
+      "display_name": "Estrada Pacheco de Carvalho, Maceió, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24310-005, Brasil",
+      "boundingbox": [
+        "-22.9182821",
+        "-22.9129475",
+        "-43.0670240",
+        "-43.0642712"
+      ]
+    },
+    {
+      "place_id": 10471494,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 527671270,
+      "lat": "-22.9125756",
+      "lon": "-43.0674061",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Estrada Pacheco de Carvalho",
+      "display_name": "Estrada Pacheco de Carvalho, Largo da Batalha, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24310-005, Brasil",
+      "boundingbox": [
+        "-22.9129475",
+        "-22.9120547",
+        "-43.0674878",
+        "-43.0670240"
+      ]
+    }
+  ],
+  "Madre Mary Marcelline, Niterói, Brasil": [],
+  "Velha de Maricá, Niterói, Brasil": [
+    {
+      "place_id": 10383242,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123122548,
+      "lat": "-22.8761296",
+      "lon": "-43.0326749",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Estrada Velha de Maricá",
+      "display_name": "Estrada Velha de Maricá, Maria Paula, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24754-210, Brasil",
+      "boundingbox": [
+        "-22.8771622",
+        "-22.8755670",
+        "-43.0342617",
+        "-43.0308226"
+      ]
+    },
+    {
+      "place_id": 10426891,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 993168292,
+      "lat": "-22.8767119",
+      "lon": "-43.0274178",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Estrada Velha de Maricá",
+      "display_name": "Estrada Velha de Maricá, Maria Paula, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24754-520, Brasil",
+      "boundingbox": [
+        "-22.8772153",
+        "-22.8762070",
+        "-43.0277285",
+        "-43.0271045"
+      ]
+    },
+    {
+      "place_id": 10408743,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 154713131,
+      "lat": "-22.8786305",
+      "lon": "-43.0266573",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Estrada Velha de Maricá",
+      "display_name": "Estrada Velha de Maricá, Maria Paula, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24325-090, Brasil",
+      "boundingbox": [
+        "-22.8787694",
+        "-22.8784572",
+        "-43.0267373",
+        "-43.0265285"
+      ]
+    },
+    {
+      "place_id": 10367009,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 993168293,
+      "lat": "-22.8784950",
+      "lon": "-43.0257616",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Estrada Velha de Maricá",
+      "display_name": "Estrada Velha de Maricá, Maria Paula, Região Pendotiba, Niterói, Rio de Janeiro, Região Sudeste, 24756-280, Brasil",
+      "boundingbox": [
+        "-22.8786192",
+        "-22.8783709",
+        "-43.0258606",
+        "-43.0256626"
+      ]
+    },
+    {
+      "place_id": 10448892,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1466508341,
+      "lat": "-22.9073407",
+      "lon": "-42.9789807",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0533963752193484,
+      "addresstype": "road",
+      "name": "Avenida Plínio Gomes de Matos Filho",
+      "display_name": "Avenida Plínio Gomes de Matos Filho, Buraco Quente, Várzea das Moças, Região Leste, Ipiiba, São Gonçalo, Rio de Janeiro, Região Sudeste, 24753-500, Brasil",
+      "boundingbox": [
+        "-22.9088189",
+        "-22.9061746",
+        "-42.9800595",
+        "-42.9775178"
+      ]
+    }
+  ],
+  "Jaime Bittencourt, Niterói, Brasil": [],
+  "Santa Cândida, Niterói, Brasil": [
+    {
+      "place_id": 10400939,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 262544435,
+      "lat": "-22.9329948",
+      "lon": "-43.0980176",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Travessa Santa Cândida",
+      "display_name": "Travessa Santa Cândida, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "boundingbox": [
+        "-22.9334374",
+        "-22.9324567",
+        "-43.0984259",
+        "-43.0974756"
+      ]
+    },
+    {
+      "place_id": 10390212,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 917979380,
+      "lat": "-22.9332700",
+      "lon": "-43.0968935",
+      "category": "highway",
+      "type": "path",
+      "place_rank": 27,
+      "importance": 0.040081526665140754,
+      "addresstype": "road",
+      "name": "Travessa Santa Cândida",
+      "display_name": "Travessa Santa Cândida, Comunidade do Preventório, Charitas, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24370-001, Brasil",
+      "boundingbox": [
+        "-22.9336353",
+        "-22.9328945",
+        "-43.0972095",
+        "-43.0965913"
+      ]
+    }
+  ],
+  "Newton Prado, Niterói, Brasil": [
+    {
+      "place_id": 10503445,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 182642934,
+      "lat": "-22.8983730",
+      "lon": "-43.1017377",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341485999847406,
+      "addresstype": "road",
+      "name": "Rua Newton Prado",
+      "display_name": "Rua Newton Prado, Santa Rosa, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24240-185, Brasil",
+      "boundingbox": [
+        "-22.8989948",
+        "-22.8977521",
+        "-43.1029130",
+        "-43.1005620"
+      ]
+    }
+  ],
+  "Jornalista Prudêncio Luís Ferreira, Niterói, Brasil": [],
+  "dos Pavões, Niterói, Brasil": []
+}
