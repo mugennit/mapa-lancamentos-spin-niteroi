@@ -541,7 +541,6 @@
     ],
     "availableUnits": [
       "201",
-      "202",
       "204",
       "205",
       "206",
@@ -579,7 +578,8 @@
       "801",
       "803"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026",
+    "availabilityCheckedAt": "2026-10-05"
   },
   "reserva-sao-francisco": {
     "typologies": [
@@ -595,46 +595,55 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/reserva-sao-francisco-apartamentos-e-coberturas-niteroi-2-a-3-quartos-64-a-179-m/23343034-SETV",
     "availableUnits": [
-      "201",
-      "202",
-      "203",
-      "204",
-      "205",
-      "206",
-      "207",
-      "301",
-      "302",
-      "303",
-      "308",
-      "401",
-      "407",
-      "408",
-      "501",
-      "504",
-      "506",
-      "507",
-      "601",
-      "604",
-      "605",
-      "606",
-      "607",
-      "23",
-      "703",
-      "208",
-      "304",
-      "403",
-      "404",
-      "502",
-      "503",
-      "508",
-      "602",
-      "603",
-      "608",
-      "19",
-      "701",
-      "702"
+      "Solis 201",
+      "Solis 202",
+      "Solis 203",
+      "Solis 204",
+      "Solis 205",
+      "Solis 206",
+      "Solis 207",
+      "Solis 301",
+      "Solis 303",
+      "Solis 308",
+      "Solis 401",
+      "Solis 407",
+      "Solis 408",
+      "Solis 501",
+      "Solis 504",
+      "Solis 506",
+      "Solis 507",
+      "Solis 601",
+      "Solis 604",
+      "Solis 605",
+      "Solis 606",
+      "Solis 607",
+      "Solis Cobertura 703",
+      "Gaia 201",
+      "Gaia 202",
+      "Gaia 204",
+      "Gaia 205",
+      "Gaia 208",
+      "Gaia 301",
+      "Gaia 302",
+      "Gaia 303",
+      "Gaia 304",
+      "Gaia 403",
+      "Gaia 404",
+      "Gaia 502",
+      "Gaia 503",
+      "Gaia 504",
+      "Gaia 508",
+      "Gaia 602",
+      "Gaia 603",
+      "Gaia 604",
+      "Gaia 608",
+      "Gaia Cobertura 701",
+      "Gaia Cobertura 702",
+      "Loja 1",
+      "Loja 2"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026",
+    "availabilityCheckedAt": "2026-10-05"
   },
   "green-open": {
     "typologies": [
@@ -2141,7 +2150,8 @@
       "1306",
       "1406"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Setembro 2026",
+    "availabilityCheckedAt": "2026-10-05"
   },
   "vila-gaudi": {
     "typologies": [
@@ -2466,7 +2476,8 @@
       "102",
       "103"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026",
+    "availabilityCheckedAt": "2026-10-05"
   },
   "calle-sardegna": {
     "typologies": [

@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-05",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "catalogCount": 112,
+  "newProjects": [],
+  "removedProjects": [],
+  "tablesUpdated": [
+    {
+      "id": "reserva-sao-francisco",
+      "oldName": "Tabela de Vendas Reserva São Francisco - Setembro 2026.pdf",
+      "newName": "Tabela de Vendas Reserva São Francisco - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk",
+      "commercialDate": "2026-10-01",
+      "sha256": "003f404d2e9c02371a44f2a6b45987174884163962625a5793cc21073742d729",
+      "listedUnits": 46,
+      "dateConflict": null,
+      "availabilityNote": "Reserva: identificação por torre, coberturas e lojas; retirados números de subtotais indevidamente tratados como unidades."
+    },
+    {
+      "id": "neo-design-icarai",
+      "oldName": "Tabela de Vendas Neo Design - Setembro 2026.pdf",
+      "newName": "Tabela de Vendas Neo Design - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0/view?usp=drivesdk",
+      "commercialDate": "2026-09-01",
+      "sha256": "07213359146ad7cf6dd3055092c4829af96b2b072b2346db81fbdc149c3d97ae",
+      "listedUnits": 21,
+      "dateConflict": "Tabela publicada com nome Outubro 2026, mas o rodapé informa 01/09/2026. Data comercial mantida em setembro; divergência na fonte.",
+      "availabilityNote": null
+    },
+    {
+      "id": "upside-charitas",
+      "oldName": "Tabela de vendas Upside - Setembro 2026.pdf",
+      "newName": "Tabela de Vendas Upside - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1JmZPfIJGqIdZ4QmK7sP5h3ZTfSy-R6iH/view?usp=drivesdk",
+      "commercialDate": "2026-10-01",
+      "sha256": "384b01b09d3d4c35735a66155a9d39723a5577e5bd17a6dfa8a37c54c6459f6d",
+      "listedUnits": 37,
+      "dateConflict": null,
+      "availabilityNote": null
+    },
+    {
+      "id": "maris",
+      "oldName": "Tabela de Vendas Maris - Setembro 2026.pdf",
+      "newName": "Tabela de Vendas Maris - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk",
+      "commercialDate": "2026-10-01",
+      "sha256": "cfd216231a3b02acbac66a33871cf47a86e69e359a0945e4d2d463c2919c93b2",
+      "listedUnits": 50,
+      "dateConflict": null,
+      "availabilityNote": null
+    }
+  ],
+  "driveValidation": {
+    "projectFolders": 81,
+    "oneTablePerProject": true,
+    "remainingTablesFolderFiles": 9,
+    "publicReaderFileIdsVerified": 217
+  },
+  "bookScan": {
+    "rootFolders": 40,
+    "nestedFolders": 2,
+    "downloadEntries": 130,
+    "pdfFiles": 129,
+    "note": "Inventário público e download completo verificados. Não houve inclusão de empreendimento. Cópia de Cascais também presente em JPR; book Jardim Itacoá com nome explícito já estava atualizado no catálogo e no Drive."
+  },
+  "sourceCounts": {
+    "tableFiles": 141,
+    "tableGroups": 44,
+    "bookGroupsIncludingNested": 42
+  }
+}
