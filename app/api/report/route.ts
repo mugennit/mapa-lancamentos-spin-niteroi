@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isValidSiteSession } from "@/lib/site-auth";
 
-const json = (body: Record<string, unknown>, status = 200) =>
-  NextResponse.json(body, { status });
+const json = (body: Record<string, unknown>, status = 200, headers?: HeadersInit) =>
+  NextResponse.json(body, { status, headers });
 
-export async function POST(request: NextRequest) {
+export async function GET(request: NextRequest) {
   const secret = process.env.SITE_SESSION_SECRET;
   const session = request.cookies.get("spinmap_session")?.value;
   if (!secret || !(await isValidSiteSession(session, secret))) {
@@ -15,65 +15,9 @@ export async function POST(request: NextRequest) {
   if (!recipient) {
     return json({ error: "O envio por e-mail ainda não foi configurado." }, 503);
   }
-
-  let body: Record<string, unknown>;
-  try {
-    body = await request.json();
-  } catch {
-    return json({ error: "Não foi possível ler o reporte." }, 400);
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(recipient)) {
+    return json({ error: "O endereço de destino do reporte está inválido." }, 503);
   }
 
-  const clean = (value: unknown, max: number) =>
-    typeof value === "string" ? value.trim().slice(0, max) : "";
-  const name = clean(body.name, 120);
-  const neighborhood = clean(body.neighborhood, 100);
-  const address = clean(body.address, 250);
-  const issue = clean(body.issue, 2000);
-  if (!name || !issue) {
-    return json({ error: "Informe o lançamento e descreva o problema." }, 400);
-  }
-
-  const message = [
-    "Reporte do Mapa de Lançamentos SPIN Niterói",
-    `Empreendimento: ${name}`,
-    `Bairro: ${neighborhood || "não informado"}`,
-    `Endereço exibido: ${address || "não informado"}`,
-    "",
-    "Problema ou correção:",
-    issue,
-  ].join("\n");
-
-  try {
-    const upstream = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(recipient)}`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        name: "Mapa de Lançamentos SPIN Niterói",
-        message,
-        _subject: `Reporte no mapa: ${name}`,
-        _template: "table",
-        _honey: "",
-      }),
-    });
-    const responseText = await upstream.text();
-    let result: { success?: boolean | string; message?: string };
-    try {
-      result = JSON.parse(responseText) as { success?: boolean | string; message?: string };
-    } catch {
-      return json({ error: `O serviço de e-mail respondeu de forma inesperada (HTTP ${upstream.status}).` }, 502);
-    }
-    const accepted = result.success === true || result.success === "true";
-    if (!upstream.ok || !accepted) {
-      const detail = typeof result.message === "string" ? result.message.trim().slice(0, 240) : "";
-      return json({
-        error: detail || `O serviço de e-mail não confirmou o envio (HTTP ${upstream.status}).`,
-      }, 502);
-    }
-    return json({ ok: true });
-  } catch {
-    return json({ error: "Não foi possível conectar ao serviço de e-mail." }, 502);
-  }
+  return json({ recipient }, 200, { "Cache-Control": "no-store" });
 }
