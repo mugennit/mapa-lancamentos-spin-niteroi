@@ -1312,5 +1312,17 @@
     "group": "",
     "type": "Book",
     "url": "https://drive.google.com/file/d/17Pq1gbbX7fm0AGCRYXBHMUvmq60rbRAr/view?usp=drivesdk"
+  },
+  {
+    "name": "Tabela de Vendas Baume - Outubro 2026.pdf",
+    "group": "CEU",
+    "type": "Tabela",
+    "url": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk"
+  },
+  {
+    "name": "Book Baume - CEU.pdf",
+    "group": "CEU",
+    "type": "Book",
+    "url": "https://drive.google.com/file/d/1NKkjcF56w2T-xuKerwEsRCewDryyhm7R/view?usp=drivesdk"
   }
 ]
