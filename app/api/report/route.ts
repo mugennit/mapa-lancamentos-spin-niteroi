@@ -58,9 +58,19 @@ export async function POST(request: NextRequest) {
         _honey: "",
       }),
     });
-    const result = await upstream.json().catch(() => ({})) as { success?: boolean | string; message?: string };
-    if (!upstream.ok || result.success === false || result.success === "false") {
-      return json({ error: "O serviço de e-mail não aceitou o reporte. Tente novamente." }, 502);
+    const responseText = await upstream.text();
+    let result: { success?: boolean | string; message?: string };
+    try {
+      result = JSON.parse(responseText) as { success?: boolean | string; message?: string };
+    } catch {
+      return json({ error: `O serviço de e-mail respondeu de forma inesperada (HTTP ${upstream.status}).` }, 502);
+    }
+    const accepted = result.success === true || result.success === "true";
+    if (!upstream.ok || !accepted) {
+      const detail = typeof result.message === "string" ? result.message.trim().slice(0, 240) : "";
+      return json({
+        error: detail || `O serviço de e-mail não confirmou o envio (HTTP ${upstream.status}).`,
+      }, 502);
     }
     return json({ ok: true });
   } catch {
