@@ -86,5 +86,7 @@
   "recordsWithAddress": 113,
   "confirmedAddresses": 98,
   "needsSupport": 15,
-  "withMapPin": 65
+  "withMapPin": 82,
+  "mapPinCountReconciledAt": "2026-10-08",
+  "mapPinCountNote": "Contagem reconciliada com o catálogo completo publicado: 82 lançamentos têm book, tabela, endereço conferido e coordenadas."
 }
