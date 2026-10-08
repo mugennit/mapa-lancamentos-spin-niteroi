@@ -4302,7 +4302,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": null,
+    "price": 890000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4342,7 +4342,7 @@
         "date": "Agosto 2026"
       }
     ],
-    "price": null,
+    "price": 200000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4379,7 +4379,7 @@
         "date": "Abril 2026"
       }
     ],
-    "price": null,
+    "price": 996,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4401,7 +4401,8 @@
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.zapimoveis.com.br/condominio/rj-niteroi-icarai-edificio-comercial-unic-icarai-id-2f0a188a-35ae/",
     "addressReviewStatus": "Precisa de apoio",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-05",
+    "priceLabel": "Aluguel mensal a partir de"
   },
   {
     "id": "reserva-natural",
@@ -4417,7 +4418,7 @@
         "date": "Setembro 2026"
       }
     ],
-    "price": null,
+    "price": 320000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4457,7 +4458,7 @@
         "date": "Junho 2026"
       }
     ],
-    "price": null,
+    "price": 765000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4494,7 +4495,7 @@
         "date": "Março 2026"
       }
     ],
-    "price": null,
+    "price": 641350,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4531,7 +4532,7 @@
         "date": "Março 2026"
       }
     ],
-    "price": null,
+    "price": 135000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4568,7 +4569,7 @@
         "date": "Julho 2026"
       }
     ],
-    "price": null,
+    "price": 287000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4605,7 +4606,7 @@
         "date": "Setembro 2026"
       }
     ],
-    "price": null,
+    "price": 1699000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
