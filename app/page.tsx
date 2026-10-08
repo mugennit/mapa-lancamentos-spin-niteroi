@@ -38,7 +38,7 @@ const filtered=useMemo(()=>completeCatalog.filter(p=>{
 const price=typeof p.price==='number'?p.price:null;
 const comparablePrice=price!==null&&!p.priceLabel?.toLowerCase().startsWith('aluguel');
 const hasPriceRange=minPrice!==''||maxPrice!=='';
-const matchesPrice=!hasPriceRange||(comparablePrice&&(minPrice===''||price!>=Number(minPrice))&&(maxPrice===''||price!<=Number(maxPrice)));
+const matchesPrice=!hasPriceRange||(price!==null&&comparablePrice&&(minPrice===''||price>=Number(minPrice))&&(maxPrice===''||price<=Number(maxPrice)));
 return normalize(`${p.name} ${p.company} ${p.neighborhood} ${p.address}`).includes(normalize(query))&&(hood==='all'||p.neighborhood===hood)&&(company==='all'||p.company===company)&&(typology==='all'||p.typologies?.includes(typology))&&features.every(feature=>p.features?.includes(feature))&&(location==='all'||(location==='No mapa'?mapIds.has(p.id):!mapIds.has(p.id)))&&matchesPrice;
 }),[query,hood,company,typology,features,location,minPrice,maxPrice]);const mapFiltered=useMemo(()=>filtered.filter(p=>mapIds.has(p.id)),[filtered]);const located=mapFiltered.length;
 const pick=(p:Project)=>{setSelected(p);setAddressCopied(false);setDetail(true)};const copyAddress=async()=>{if(!selected?.address)return;try{await navigator.clipboard.writeText(selected.address);setAddressCopied(true);setTimeout(()=>setAddressCopied(false),1800)}catch{setAddressCopied(false)}};const toggleFeature=(v:string)=>setFeatures(current=>current.includes(v)?current.filter(x=>x!==v):[...current,v]);const clear=()=>{setQuery('');setHood('all');setCompany('all');setTypology('all');setFeatures([]);setLocation('all');setMinPrice('');setMaxPrice('')};
