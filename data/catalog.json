@@ -4626,5 +4626,45 @@
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.905833,-43.107068",
     "materialsCheckedAt": "2026-10-05"
+  },
+  {
+    "id": "baume",
+    "name": "Baume",
+    "company": "CEU",
+    "neighborhood": "Jardim Icaraí",
+    "address": "Rua Dr. Herotides de Oliveira, 18",
+    "book": {
+      "name": "Book Baume - CEU.pdf",
+      "url": "https://drive.google.com/file/d/1NKkjcF56w2T-xuKerwEsRCewDryyhm7R/view?usp=drivesdk"
+    },
+    "tables": [
+      {
+        "name": "Tabela de Vendas Baume - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": 835000,
+    "minArea": 79.97,
+    "maxArea": 276.41,
+    "rooms": [
+      2,
+      3,
+      4
+    ],
+    "delivery": "Março 2030",
+    "status": "Lançamento",
+    "lat": -22.9029875,
+    "lng": -43.1065078,
+    "precision": "exact",
+    "photo": null,
+    "checkedAt": "2026-10-08",
+    "notes": [],
+    "locationStatus": "Ponto exato confirmado no Google Maps",
+    "addressReview": null,
+    "locationCheckedAt": "2026-10-08",
+    "addressSource": "https://drive.google.com/file/d/1NKkjcF56w2T-xuKerwEsRCewDryyhm7R/view?usp=drivesdk",
+    "addressReviewStatus": "Conferido",
+    "locationSource": "https://www.google.com/maps/place/R.+Dr.+Herotides+de+Oliveira,+18+-+Icara%C3%AD,+Niter%C3%B3i+-+RJ,+24230-230,+Brasil/@-22.9029875,-43.1065078,17z/data=!3m1!4b1!4m6!3m5!1s0x9983fac95da6c9:0x4a545f92f33877a5!8m2!3d-22.9029875!4d-43.1065078!16s%2Fg%2F11np3g9trv?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D"
   }
 ]
