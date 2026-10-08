@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-09-30",
-  "checked": 112,
+  "checkedAt": "2026-10-08",
+  "checked": 113,
   "batches": [
     {
       "from": 1,
@@ -73,10 +73,18 @@
       "to": 112,
       "checked": 2,
       "withAddress": 2
+    },
+    {
+      "from": 113,
+      "to": 113,
+      "checked": 1,
+      "withAddress": 1,
+      "withMapPin": 1,
+      "note": "Baume — endereço e ponto confirmados com book e Google Maps."
     }
   ],
-  "recordsWithAddress": 112,
-  "confirmedAddresses": 97,
+  "recordsWithAddress": 113,
+  "confirmedAddresses": 98,
   "needsSupport": 15,
-  "withMapPin": 64
+  "withMapPin": 65
 }
