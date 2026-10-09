@@ -221,8 +221,7 @@
     "availableUnits": [
       "1403",
       "1205",
-      "1405",
-      "1407"
+      "1405"
     ],
     "availabilityTableDate": "Setembro 2026"
   },
@@ -243,7 +242,7 @@
     "availableUnits": [
       "604"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "maria-maria": {
     "typologies": [
@@ -253,11 +252,11 @@
       "209",
       "212",
       "214",
-      "02",
-      "03",
-      "04",
-      "05",
-      "07"
+      "cob 02",
+      "cob 03",
+      "cob 04",
+      "cob 05",
+      "cob 07"
     ],
     "availabilityTableDate": "Setembro 2026"
   },
@@ -269,7 +268,23 @@
     "features": [
       "Piscina"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/conviva-camboinhas-apartamentos-e-coberturas-niteroi-1-a-2-quartos-1-a-69-m/18940767-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/conviva-camboinhas-apartamentos-e-coberturas-niteroi-1-a-2-quartos-1-a-69-m/18940767-SETV",
+    "availableUnits": [
+      "205 — Bloco 1",
+      "209 — Bloco 1",
+      "409 — Bloco 1",
+      "401 — Bloco 1",
+      "212 — Bloco 1",
+      "312 — Bloco 2",
+      "309 — Bloco 2",
+      "403 — Bloco 2",
+      "404 — Bloco 2",
+      "512 — Bloco 2",
+      "603 — Bloco 2",
+      "605 — Bloco 2",
+      "701 — Bloco 2"
+    ],
+    "availabilityTableDate": "Outubro 2026"
   },
   "conviva-charitas": {
     "typologies": [
@@ -305,7 +320,7 @@
       "710",
       "801"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "nice-camboinhas": {
     "typologies": [
@@ -318,11 +333,10 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/tresor-nice-niteroi/23411351-SETV",
     "availableUnits": [
-      "101",
-      "106",
-      "107"
+      "106 — Bloco 1",
+      "107 — Bloco 1"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "brise-by-conviva": {
     "typologies": [
@@ -335,9 +349,27 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/brise-by-conviva-apartamentos-e-coberturas-niteroi-1-a-2-quartos-38-a-95-m/22423394-SETV",
     "availableUnits": [
-      "02"
+      "103 — Bloco 1",
+      "104 — Bloco 1",
+      "105 — Bloco 1",
+      "106 — Bloco 1",
+      "107 — Bloco 1",
+      "108 — Bloco 1",
+      "109 — Bloco 1",
+      "110 — Bloco 1",
+      "203 — Bloco 1",
+      "207 — Bloco 1",
+      "208 — Bloco 1",
+      "COB 02 — Bloco 1",
+      "104 — Bloco 2",
+      "107 — Bloco 2",
+      "108 — Bloco 2",
+      "109 — Bloco 2",
+      "209 — Bloco 2",
+      "210 — Bloco 2",
+      "COB 02 — Bloco 2"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "conviva-life-camboinhas": {
     "typologies": [
@@ -351,27 +383,27 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/conviva-life-camboinhas-apartamentos-coberturas-e-studios-niteroi-1-a-3-quartos-37-a-124-m/21505470-SETV",
     "availableUnits": [
-      "206",
-      "212",
-      "307",
-      "312",
-      "406",
-      "407",
-      "505",
-      "507",
-      "508",
-      "606",
-      "201",
-      "207",
-      "306",
-      "401",
-      "501",
-      "502",
-      "503",
-      "602",
-      "603"
+      "206 — Bloco 1",
+      "212 — Bloco 1",
+      "307 — Bloco 1",
+      "401 — Bloco 1",
+      "406 — Bloco 1",
+      "407 — Bloco 1",
+      "505 — Bloco 1",
+      "507 — Bloco 1",
+      "508 — Bloco 1",
+      "606 — Bloco 1",
+      "201 — Bloco 2",
+      "206 — Bloco 2",
+      "207 — Bloco 2",
+      "212 — Bloco 2",
+      "306 — Bloco 2",
+      "502 — Bloco 2",
+      "503 — Bloco 2",
+      "602 — Bloco 2",
+      "603 — Bloco 2"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "conviva-life-inga": {
     "typologies": [
@@ -413,7 +445,7 @@
       "1402",
       "1602"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "conviva-icarai": {
     "typologies": [
@@ -443,9 +475,10 @@
       "608",
       "705",
       "708",
-      "805"
+      "805",
+      "1108"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "conviva-itacoa": {
     "typologies": [
@@ -465,6 +498,8 @@
       "109",
       "110",
       "111",
+      "201",
+      "202",
       "205",
       "210",
       "211",
@@ -472,7 +507,7 @@
       "311",
       "603"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "caminhos-da-guanabara": {
     "typologies": [
@@ -1040,7 +1075,6 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/np38-apartamentos-e-coberturas-niteroi-1-a-22-quartos-37-a-111-m/23322936-SETV",
     "availableUnits": [
-      "201",
       "1001",
       "1101",
       "1201",
@@ -1067,9 +1101,9 @@
       "1106",
       "1206",
       "1306",
-      "1402"
+      "Cob 1402"
     ],
-    "availabilityTableDate": "Agosto 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "jardim-dos-manacas": {
     "typologies": [
@@ -1140,7 +1174,6 @@
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/gael-residence-apartamentos-e-coberturas-niteroi-2-a-3-quartos-73-a-137-m/22885202-SETV",
     "availableUnits": [
       "101",
-      "102",
       "103",
       "107",
       "201",
@@ -1161,10 +1194,10 @@
       "505",
       "506",
       "508",
-      "01",
-      "02"
+      "Cob 01",
+      "Cob 02"
     ],
-    "availabilityTableDate": "Agosto 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "giardino-di-verona": {
     "typologies": [
@@ -1424,17 +1457,20 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/apartamento%2Bpredio/niteroi/camboinhas",
     "availableUnits": [
-      "101",
-      "201",
-      "202",
-      "401",
-      "402",
-      "502",
-      "602",
-      "102",
-      "C01"
+      "101 — Bloco 1",
+      "201 — Bloco 1",
+      "202 — Bloco 1",
+      "401 — Bloco 1",
+      "402 — Bloco 1",
+      "502 — Bloco 1",
+      "602 — Bloco 1",
+      "102 — Bloco 2",
+      "404 — Bloco 2",
+      "504 — Bloco 2",
+      "601 — Bloco 2",
+      "604 — Bloco 2"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "tao": {
     "typologies": [
@@ -1447,10 +1483,11 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/tao-piratininga-apartamentos-e-coberturas-niteroi-2-a-4-quartos-112-a-265-m/22094475-SETV",
     "availableUnits": [
+      "502",
       "304",
-      "03"
+      "cob 03"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "in-icarai": {
     "typologies": [
@@ -1482,7 +1519,7 @@
       "104",
       "503"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "serena": {
     "typologies": [
@@ -1505,7 +1542,7 @@
       "504",
       "506"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "wind-piratininga": {
     "typologies": [
@@ -1785,9 +1822,12 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/niteroi/icarai%2Bjardim-icarai",
     "availableUnits": [
-      "507"
+      "507",
+      "Cob 1601",
+      "Cob 1606",
+      "Cob 1702"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "pulse": {
     "typologies": [
@@ -1800,12 +1840,14 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/pulse-by-soter-apartamentos-coberturas-apartamentos-duplex-e-apartamentos-garden-niteroi-2-a-4-quartos-90-a-275-m/24326001-SETV",
     "availableUnits": [
-      "301",
       "601",
       "502",
-      "1006"
+      "1006",
+      "507",
+      "1107",
+      "Cob 1404"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "attrium-icarai": {
     "typologies": [
@@ -1817,10 +1859,9 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/attrium-icarai-apartamentos-coberturas-e-lojas-niteroi-4-quartos-43-a-224-m/18588850-SETV",
     "availableUnits": [
-      "1301",
       "1204"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "maestro": {
     "typologies": [
@@ -1833,14 +1874,12 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/maestro-apartamentos-coberturas-e-apartamentos-garden-niteroi-3-a-4-quartos-121-a-242-m/22585015-SETV",
     "availableUnits": [
-      "201",
-      "402",
       "303",
-      "1303",
+      "1403",
       "804",
       "1304"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "clarice": {
     "typologies": [
@@ -1861,6 +1900,7 @@
       "1404",
       "806",
       "1306",
+      "507",
       "1107",
       "301",
       "601",
@@ -1870,7 +1910,7 @@
       "1105",
       "1405"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "origem": {
     "typologies": [
@@ -1882,10 +1922,31 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/origem-residencial-icarai-apartamentos-garden-apartamentos-coberturas-e-lojas-niteroi-3-quartos-43-a-179-m/23427403-SETV",
     "availableUnits": [
-      "101",
-      "102"
+      "ALMA         1201",
+      "ALMA          304",
+      "ALMA         1305",
+      "ALMA         1108",
+      "ESSÊNCIA        613",
+      "ESSÊNCIA        1508",
+      "ESSÊNCIA        509",
+      "ESSÊNCIA        1109",
+      "ESSÊNCIA        1409",
+      "ESSÊNCIA        910",
+      "ESSÊNCIA        1310",
+      "ESSÊNCIA        411",
+      "ESSÊNCIA        1211",
+      "ESSÊNCIA        814",
+      "ESSÊNCIA        1114",
+      "ESSÊNCIA        315",
+      "ESSÊNCIA        415",
+      "ESSÊNCIA        1015",
+      "ESSÊNCIA        1415",
+      "ESSÊNCIA        816",
+      "ESSÊNCIA        1416",
+      "Loja 101",
+      "Loja 102"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "duetto": {
     "typologies": [
@@ -1894,8 +1955,9 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/imoveis/apartamento/niteroi/duetto",
     "availableUnits": [
-      "1702",
-      "1703"
+      "1702 — Bloco 01",
+      "1703 — Bloco 01",
+      "1801 — Bloco 01"
     ],
     "availabilityTableDate": "Outubro 2026"
   },
@@ -1911,7 +1973,6 @@
       "403",
       "404",
       "405",
-      "408",
       "409",
       "411",
       "412",
@@ -1928,7 +1989,6 @@
       "601",
       "602",
       "603",
-      "604",
       "605",
       "607",
       "608",
@@ -1942,7 +2002,6 @@
       "704",
       "705",
       "708",
-      "711",
       "712",
       "713",
       "801",
@@ -1973,7 +2032,6 @@
       "1011",
       "1012",
       "1013",
-      "1101",
       "1102",
       "1103",
       "1104",
@@ -1989,7 +2047,6 @@
       "1205",
       "1206",
       "1207",
-      "1208",
       "1211",
       "1212",
       "1213",
@@ -1997,7 +2054,6 @@
       "1302",
       "1303",
       "1304",
-      "1305",
       "1306",
       "1307",
       "1308",
@@ -2042,7 +2098,6 @@
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/althea-apartamentos-e-coberturas-niteroi-1-a-2-quartos-35-a-122-m/24557039-SETV",
     "availableUnits": [
       "1001",
-      "1201",
       "502",
       "1002",
       "1202",
@@ -2075,21 +2130,33 @@
       "1206",
       "1306",
       "1406",
-      "1502"
+      "Cob 1502"
     ],
-    "availabilityTableDate": "Agosto 2026"
+    "availabilityTableDate": "Setembro 2026"
   },
   "tresor-dior": {
     "typologies": [
       "4 quartos"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/apartamento%2Bpredio/niteroi/camboinhas"
+    "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/apartamento%2Bpredio/niteroi/camboinhas",
+    "availableUnits": [
+      "101",
+      "102",
+      "201"
+    ],
+    "availabilityTableDate": "Outubro 2026"
   },
   "conviva-piratininga": {
     "typologies": [
       "1 quarto"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/niteroi/piratininga"
+    "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/niteroi/piratininga",
+    "availableUnits": [
+      "102",
+      "206",
+      "207"
+    ],
+    "availabilityTableDate": "Agosto 2026"
   },
   "m-48": {
     "typologies": [
@@ -2198,7 +2265,13 @@
       "3 quartos",
       "4 quartos"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/triunfo-apartamentos-e-coberturas-niteroi-3-a-4-quartos-146-a-323-m/12927415-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/triunfo-apartamentos-e-coberturas-niteroi-3-a-4-quartos-146-a-323-m/12927415-SETV",
+    "availableUnits": [
+      "B2-102",
+      "B2-204",
+      "B4-201"
+    ],
+    "availabilityTableDate": "Outubro 2026"
   },
   "arend": {
     "typologies": [
@@ -2572,9 +2645,39 @@
     "features": [],
     "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/apartamento%2Bpredio",
     "availableUnits": [
-      "05"
+      "101",
+      "102",
+      "103",
+      "106",
+      "107",
+      "108",
+      "109",
+      "202",
+      "206",
+      "207",
+      "208",
+      "209",
+      "302",
+      "303",
+      "306",
+      "307",
+      "308",
+      "309",
+      "403",
+      "407",
+      "408",
+      "409",
+      "410",
+      "502",
+      "503",
+      "506",
+      "507",
+      "508",
+      "COB 01",
+      "COB 02",
+      "COB 05"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "up-icarai": {
     "typologies": [
@@ -2763,47 +2866,48 @@
     "sourceUrl": "https://www.soter.com.br/portfolio/the-grove",
     "availableUnits": [
       "401",
-      "701",
-      "1101",
-      "1401",
+      "501",
       "1601",
-      "1801",
-      "502",
-      "1202",
+      "702",
       "1502",
       "1802",
       "1902",
-      "803",
+      "603",
       "1403",
       "1503",
-      "1903",
+      "1803",
       "604",
-      "804",
-      "1104",
       "1204",
+      "1504",
       "1804",
+      "405",
       "705",
       "1005",
       "1405",
-      "1605",
       "1905",
+      "606",
       "1206",
       "1406",
-      "1606",
       "1806",
       "1201",
+      "1501",
       "1701",
-      "1901",
       "402",
-      "602",
-      "1302",
+      "802",
+      "1102",
       "1402",
+      "1802",
       "1004",
       "1704",
+      "1804",
+      "803",
+      "1403",
       "1803",
-      "1705"
+      "1505",
+      "1705",
+      "1905"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "home-boutique": {
     "typologies": [
@@ -2848,7 +2952,79 @@
       "3 quartos"
     ],
     "features": [],
-    "sourceUrl": "https://lrm.com.br/"
+    "sourceUrl": "https://lrm.com.br/",
+    "availableUnits": [
+      "201",
+      "202",
+      "301",
+      "302",
+      "401",
+      "402",
+      "501",
+      "502",
+      "701",
+      "702",
+      "901",
+      "902",
+      "1001",
+      "1002",
+      "1101",
+      "1102",
+      "1201",
+      "1202",
+      "1301",
+      "1302",
+      "1401",
+      "1402",
+      "1501",
+      "1502",
+      "303",
+      "306",
+      "403",
+      "406",
+      "506",
+      "603",
+      "606",
+      "703",
+      "706",
+      "903",
+      "906",
+      "1003",
+      "1006",
+      "1103",
+      "1106",
+      "1203",
+      "1206",
+      "1303",
+      "1306",
+      "1403",
+      "1406",
+      "1503",
+      "1504",
+      "304",
+      "305",
+      "404",
+      "405",
+      "504",
+      "505",
+      "604",
+      "605",
+      "704",
+      "705",
+      "904",
+      "905",
+      "1004",
+      "1005",
+      "1104",
+      "1105",
+      "1204",
+      "1205",
+      "1304",
+      "1305",
+      "1404",
+      "1405"
+    ],
+    "availabilityTableDate": "Setembro 2026"
   },
   "vina-del-mar": {
     "typologies": [
@@ -2916,7 +3092,12 @@
       "4 quartos"
     ],
     "features": [],
-    "sourceUrl": "https://falvesinc.com.br/empreendimentos/davinci-residence"
+    "sourceUrl": "https://falvesinc.com.br/empreendimentos/davinci-residence",
+    "availableUnits": [
+      "301",
+      "501"
+    ],
+    "availabilityTableDate": "Outubro 2026"
   },
   "mediterraneo": {
     "typologies": [
@@ -3003,6 +3184,14 @@
       "COB 01",
       "COB 02",
       "COB 03"
+    ],
+    "availabilityTableDate": "Outubro 2026"
+  },
+  "business": {
+    "availableUnits": [
+      "1013",
+      "1501",
+      "1908"
     ],
     "availabilityTableDate": "Outubro 2026"
   }

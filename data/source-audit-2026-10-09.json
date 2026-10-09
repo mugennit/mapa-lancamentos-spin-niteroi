@@ -1,0 +1,356 @@
+{
+  "checkedAt": "2026-10-09",
+  "navigation": "Linktree > Tabelas de Vendas / Books dos Lançamentos, public shared-session browser navigation",
+  "counts": {
+    "tableFolders": 44,
+    "tableFiles": 142,
+    "bookRootFolders": 40,
+    "bookNestedFolders": 2,
+    "bookFiles": 130,
+    "catalog": 113,
+    "completeCards": 83,
+    "mapPoints": 82
+  },
+  "tablesReplaced": [
+    {
+      "id": "141-living",
+      "old": "Tabela de Vendas 141 Living - Setembro 2026.pdf",
+      "new": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
+      "driveId": "1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS",
+      "sha256": "bf3bbcae8db7755571b766bc9abdd7d896887cdf9956880fc3a4f13635804a26",
+      "commercialMonth": "Setembro 2026",
+      "price": 519000.0,
+      "units": 3
+    },
+    {
+      "id": "nomad",
+      "old": "Tabela de Vendas Nomad - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Nomad - Outubro 2026.pdf",
+      "driveId": "1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2",
+      "sha256": "71f729ff1b9724e5c1e805cc35a3d73de123a9578612f23032bd476fc5713408",
+      "commercialMonth": "Outubro 2026",
+      "price": 1300000.0,
+      "units": 1
+    },
+    {
+      "id": "maria-maria",
+      "old": "Tabela de Vendas Maria Maria - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
+      "driveId": "1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ",
+      "sha256": "af435f2cad0c63f274f85e99879b88ea05bd1d992b529236ffa14822740d9079",
+      "commercialMonth": "Setembro 2026",
+      "price": 710000.0,
+      "units": 8
+    },
+    {
+      "id": "tao",
+      "old": "Tabela de Vendas Tao - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Tao - Outubro 2026.pdf",
+      "driveId": "1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ",
+      "sha256": "bc9a0ca432ff1e2bbfff052733c3d45561451d6689f3cf6369b20ba400ba4c59",
+      "commercialMonth": "Outubro 2026",
+      "price": 1550000.0,
+      "units": 3
+    },
+    {
+      "id": "conviva-camboinhas",
+      "old": "Tabela de Vendas Conviva Camboinhas - Setembro 2026 (2).pdf",
+      "new": "Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
+      "driveId": "1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf",
+      "sha256": "ed3061bd489b1aa84cc4be16ec85060086f81b0fb10eedefad917a2b9ed570fb",
+      "commercialMonth": "Outubro 2026",
+      "price": 629900.0,
+      "units": 13
+    },
+    {
+      "id": "conviva-charitas",
+      "old": "Tabela de Vendas Conviva Charitas - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
+      "driveId": "1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb",
+      "sha256": "8c97051597a9cdd5052fefd4df587e318dcc34059970d125a514b71668d90e07",
+      "commercialMonth": "Outubro 2026",
+      "price": 499875.0,
+      "units": 22
+    },
+    {
+      "id": "nice-camboinhas",
+      "old": "Tabela de Vendas Nice - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
+      "driveId": "1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh",
+      "sha256": "89b596ca1884819c9864a9eaf4d6c8b0d3490f6eb651d138bd168878adf0e875",
+      "commercialMonth": "Outubro 2026",
+      "price": 1160390.0,
+      "units": 2
+    },
+    {
+      "id": "brise-by-conviva",
+      "old": "Tabela de Vendas Brise By Conviva - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
+      "driveId": "15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_",
+      "sha256": "6da800b8f13a1c9fe7adb3956f2fc3b0c0c7439d3bf398da02111b3f1dccef1d",
+      "commercialMonth": "Outubro 2026",
+      "price": 699900.0,
+      "units": 19
+    },
+    {
+      "id": "conviva-life-camboinhas",
+      "old": "Tabela de Vendas Conviva Life Camboinhas - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
+      "driveId": "1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna",
+      "sha256": "7560af101d6a76c0fb8af967dd2da50f1e4ea90c9805ca30d9a97b6c303f840f",
+      "commercialMonth": "Outubro 2026",
+      "price": 799900.0,
+      "units": 19
+    },
+    {
+      "id": "conviva-life-inga",
+      "old": "Tabela de Vendas Conviva Life Ingá - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
+      "driveId": "1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV",
+      "sha256": "ca94751162f40ff0131ff9c2af243c319fc0a1304bc63db0eb9b42b76dc24f45",
+      "commercialMonth": "Outubro 2026",
+      "price": 444900.0,
+      "units": 28
+    },
+    {
+      "id": "conviva-icarai",
+      "old": "Tabela de Vendas Conviva Icaraí - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
+      "driveId": "1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr",
+      "sha256": "faaa2c970a14a37c9c568e5722990b7178c9ec679d9237a75efe6b15827a8f4d",
+      "commercialMonth": "Outubro 2026",
+      "price": 594900.0,
+      "units": 19
+    },
+    {
+      "id": "conviva-itacoa",
+      "old": "Tabela de Vendas Conviva Itacoa - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
+      "driveId": "1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y",
+      "sha256": "9d2afa0b398b2c3aa67f819e307048fe14c5e028407d6e6f1f99092edd027310",
+      "commercialMonth": "Outubro 2026",
+      "price": 549900.0,
+      "units": 17
+    },
+    {
+      "id": "duetto",
+      "old": "Tabela de Vendas Duetto - Outubro 2026.pdf",
+      "new": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
+      "driveId": "1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS",
+      "sha256": "3d4d1d6c7627bddfe76fd2851e1e6e067fc41fe643c56283b46a37803de0de26",
+      "commercialMonth": "Outubro 2026",
+      "price": 907991.0,
+      "units": 3
+    },
+    {
+      "id": "ile",
+      "old": "Tabela de Vendas Íle - Outubro 2026.pdf",
+      "new": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
+      "driveId": "1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS",
+      "sha256": "45cc3e4b429360a2a656c8d11584c0e2b8fdb96bfe6ef8bbce2dfef3d1915cb1",
+      "commercialMonth": "Outubro 2026",
+      "price": 446467.0,
+      "units": 116
+    },
+    {
+      "id": "marina",
+      "old": "Tabela de Vendas Marina - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Marina - Outubro 2026.pdf",
+      "driveId": "1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh",
+      "sha256": "83d1d0c33b931f9a401c447f3a2d1cf0bb2cfc72d491d799f9cd1fac3ec18f8d",
+      "commercialMonth": "Outubro 2026",
+      "price": 1190000.0,
+      "units": 3
+    },
+    {
+      "id": "triunfo",
+      "old": "Tabela de Vendas Triunfo - Agosto 2026.pdf",
+      "new": "Tabela de Vendas Triunfo - Outubro 2026.pdf",
+      "driveId": "1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21",
+      "sha256": "ec34b0d136f9f92874008600e6dfb3c592ec4a12a63c6dd1819b547dd5869996",
+      "commercialMonth": "Outubro 2026",
+      "price": 2550000.0,
+      "units": 3
+    },
+    {
+      "id": "serena",
+      "old": "Tabela de Vendas Serena - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Serena - Outubro 2026.pdf",
+      "driveId": "1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O",
+      "sha256": "961ad02baf6f4a8886abfa7b3fee83ac1d6ba6e66722e4666c0d5f9e66330113",
+      "commercialMonth": "Outubro 2026",
+      "price": 1230000.0,
+      "units": 8
+    },
+    {
+      "id": "althea",
+      "old": "Tabela de Vendas Althea - Agosto 2026.pdf",
+      "new": "Tabela de Vendas Althea - Outubro 2026.pdf",
+      "driveId": "1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5",
+      "sha256": "0b38570475f060823088655c9bf350de66a49e273d303a360c9072ff29988313",
+      "commercialMonth": "Setembro 2026",
+      "price": 500000.0,
+      "units": 34
+    },
+    {
+      "id": "np38",
+      "old": "Tabela de Vendas NP38 - Agosto 2026 (1).pdf",
+      "new": "Tabela de Vendas NP38 - Outubro 2026.pdf",
+      "driveId": "1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9",
+      "sha256": "dc8ea870de1e10c73a33543b9b7b2a0d696b9127c01f86df24d9c698625df9e5",
+      "commercialMonth": "Outubro 2026",
+      "price": 655000.0,
+      "units": 27
+    },
+    {
+      "id": "monier",
+      "old": "Tabela de Vendas Monier - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Monier - Outubro 2026.pdf",
+      "driveId": "1WfGNg0IX0jDxAHTu9zzUSfZ5yNmPqRM_",
+      "sha256": "300ac77a1873a025b8b2b640933418a25b98b47f237a04df4117e91c50b0317a",
+      "commercialMonth": "Outubro 2026",
+      "price": 641948.93,
+      "units": 31
+    },
+    {
+      "id": "gael",
+      "old": "Tabela de Vendas Gael - Agosto 2026.pdf",
+      "new": "Tabela de Vendas Gael - Outubro 2026.pdf",
+      "driveId": "1kPz2vVDJeqMWB4b-fojLixAbXwf0vVbQ",
+      "sha256": "b370a3e3318e48c83a1c342078372c960e633da6db29e25a96447413b727fbab",
+      "commercialMonth": "Outubro 2026",
+      "price": 771677.0,
+      "units": 23
+    },
+    {
+      "id": "attrium-icarai",
+      "old": "Tabela de Vendas Attrium Icaraí - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Attrium Icaraí - Outubro 2026.pdf",
+      "driveId": "1VuvjYNxUP6iAIolXEA4Ut0pVUwDqd5-p",
+      "sha256": "d4a1b8d6e73627b67e2c62afc8ffa4d00a7be41c1bb3ad5e3d1bbc0f6e267e1c",
+      "commercialMonth": "Outubro 2026",
+      "price": 1849000.0,
+      "units": 1
+    },
+    {
+      "id": "ion-icarai",
+      "old": "Tabela de Vendas Ion Icarai - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Ion Icarai - Outubro 2026.pdf",
+      "driveId": "1HYjSrxFrYisBMyuYTrOG2mhJMJrqwTcp",
+      "sha256": "2b3a1fcf2234184a434175caf3a331c5e3240cbc1e7151258bbb2afd19dd71f8",
+      "commercialMonth": "Outubro 2026",
+      "price": 679000.0,
+      "units": 4
+    },
+    {
+      "id": "maestro",
+      "old": "Tabela de Vendas Maestro - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Maestro - Outubro 2026.pdf",
+      "driveId": "1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY",
+      "sha256": "98d8bfc43a637a5280093b460005ad33feae715938c20430ec142e78597f89f4",
+      "commercialMonth": "Outubro 2026",
+      "price": 1749000.0,
+      "units": 4
+    },
+    {
+      "id": "clarice",
+      "old": "Tabela de Vendas Clarice - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Clarice - Outubro 2026.pdf",
+      "driveId": "1NybBWiY1UGsJd_dFHMJIPhN_Bkl5xcNw",
+      "sha256": "25b3f7e742d7e8a883985ad90e72ed3620dec46cbccd369c76d85fbdc7dd5a2f",
+      "commercialMonth": "Outubro 2026",
+      "price": 1199000.0,
+      "units": 16
+    },
+    {
+      "id": "pulse",
+      "old": "Tabela de Vendas Pulse - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Pulse - Outubro 2026.pdf",
+      "driveId": "1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw",
+      "sha256": "5680a7b268b1435c41496a3946d31f2f04950d790f2aab173d0e2b8230376606",
+      "commercialMonth": "Outubro 2026",
+      "price": 2699000.0,
+      "units": 6
+    },
+    {
+      "id": "origem",
+      "old": "Tabela de Vendas Origem - Setembro 2026 (2).pdf",
+      "new": "Tabela de Vendas Origem - Outubro 2026.pdf",
+      "driveId": "1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c",
+      "sha256": "3784b1a54057cdb6eb47325e064d0e23fe38a44c79eea023afa49dc88620ad97",
+      "commercialMonth": "Outubro 2026",
+      "price": 619000.0,
+      "units": 23
+    },
+    {
+      "id": "the-grove",
+      "old": "Tabela de Vendas The Grove - Setembro 2026.pdf",
+      "new": "Tabela de Vendas The Grove - Outubro 2026.pdf",
+      "driveId": "14AW8PVp0xTFEZlvcaAifRcsFy6_t-nxm",
+      "sha256": "881d6256ee7e8b9813f24ad61c00c6649e72d581e603be293471a3cc53f3e273",
+      "commercialMonth": "Outubro 2026",
+      "price": 1179000.0,
+      "units": 41
+    },
+    {
+      "id": "tropico-camboinhas",
+      "old": "Tabela de venda - Trópico Camboinhas - Set_2026.pdf",
+      "new": "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
+      "driveId": "1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM",
+      "sha256": "275ce4a8fcb07ffaa0e606faae5e26e94945dd0cc2ef27b7dd8b3ae202f92587",
+      "commercialMonth": "Outubro 2026",
+      "price": 1299000.0,
+      "units": 12
+    },
+    {
+      "id": "tresor-dior",
+      "old": "Tabela de Vendas Tresor Dior - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
+      "driveId": "1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To",
+      "sha256": "6be19c6834601d6c5436dda4a84d09c876f42d3a40627bfb3a61980ffd5543ea",
+      "commercialMonth": "Outubro 2026",
+      "price": 4510000.0,
+      "units": 3
+    },
+    {
+      "id": "conviva-piratininga",
+      "old": "Tabela de Vendas Conviva Piratininga - Setembro 2026.pdf",
+      "new": "Tabela de Vendas Conviva Piratininga - Outubro 2026.pdf",
+      "driveId": "1oST13WgpeRVGfHyU7RimlSWxvKEtEFpH",
+      "sha256": "2cda426daf725e68b0f68902939e4265a7908c9b47f5abc3d3ef67beebb83b1d",
+      "commercialMonth": "Agosto 2026",
+      "price": 599900.0,
+      "units": 3
+    },
+    {
+      "id": "business",
+      "old": "Tabela de Vendas Business - Agosto 2026.pdf",
+      "new": "Tabela de Vendas Business - Outubro 2026.pdf",
+      "driveId": "1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4",
+      "sha256": "8fe4bef3c14cf0e96fb9c928d92713861ae39e31b31467b60fed86b4c635eea4",
+      "commercialMonth": "Outubro 2026",
+      "price": 200000.0,
+      "units": 3
+    },
+    {
+      "id": "davinci",
+      "old": "Tabela de venda - DaVinci - Set_2026.pdf",
+      "new": "Tabela de Vendas DaVinci - Outubro 2026.pdf",
+      "driveId": "1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY",
+      "sha256": "a7006ffe99f271d97859eaa89865cdc05172c79f7bf8c3c913f58df1ac00a8e3",
+      "commercialMonth": "Outubro 2026",
+      "price": 1699000.0,
+      "units": 2
+    }
+  ],
+  "completedExistingLaunch": "Solo",
+  "baume": "Book fornecido pelo proprietário e tabela mantidos em MAPA SITE/Baume; nenhum book oficial em Books/CEU (9 itens).",
+  "limitations": [
+    "Todas as listagens foram percorridas; a comparação binária de conteúdo dos books e dos arquivos com nomes inalterados não foi concluída: download de Books expirou e as URLs de download dos arquivos antigos do Drive retornaram 403. Nenhuma conclusão de conteúdo inalterado foi feita para esses itens."
+  ],
+  "scopeNotes": [
+    "Duetto V.61 principal mantida; tabela Diretor Vinicius possui estoque/condições separados. SD40 Diretor também não substituiu arbitrariamente a tabela principal.",
+    "Empreendimentos fora de Niterói permanecem fora do catálogo.",
+    "Datas comerciais lidas no PDF; datas de modificação SharePoint não usadas como validade comercial."
+  ]
+}
