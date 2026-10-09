@@ -1,0 +1,538 @@
+{
+  "tables": {
+    "Smart Ville": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de venda - Smart Ville Maricá - Fase 2 - Jun_2024.pdf25 de junhoSecretaria de Vendas400 KBShared"
+    ],
+    "Fazenda Fillomena": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Fazenda Fillomena VR2 - Outubro 2026.pdf1 de outubroSecretaria de Vendas1.16 MBShared",
+      "Promocional - Tabela de Vendas Fazenda Filomena - Anasa - Setembro 2026.pdf16 de setembroSecretaria de Vendas350 KBShared"
+    ],
+    "Golden Realty": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Velas ao Vento - Junho 2026.pdf18 de junhoSecretaria de Vendas24.0 MBShared"
+    ],
+    "Unic Icaraí": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Unic - Abril 2026.pdf7 de abrilSecretaria de Vendas286 KBShared"
+    ],
+    "JM": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas JM - 141 Living - Fev_2026.pdf4 de fevereiroSecretaria de Vendas31.2 KBShared"
+    ],
+    "EQUIPE": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Mare Blu - Setembro 2026.pdf3 de setembroSecretaria de Vendas291 KBShared"
+    ],
+    "Vila Moura": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Vila Moura - Março 2026.pdf19 de marçoSecretaria de Vendas55.4 KBShared"
+    ],
+    "NATUS": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Venda - Golden Ville Residence - Julho_2026.pdf6 de julhoSecretaria de Vendas16.8 KBShared"
+    ],
+    "FEFM": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Santa Bárbara - Março 2026.pdf19 de marçoSecretaria de Vendas563 KBShared"
+    ],
+    "GPCON": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Green Open - Julho 2026.pdf16 de julhoSecretaria de Vendas919 KBShared",
+      "Tabela de Vendas Niterói Open - Fevereiro 2026.pdf11 de fevereiroSecretaria de Vendas902 KBSharedSamantha Cândido shared this fileMar 2"
+    ],
+    "PA5": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Monier - Outubro 2026.pdfsegunda-feira at 11:09 AMSecretaria de Vendas76.7 KBShared",
+      "Tabela de Vendas Gael - Outubro 2026.pdfsegunda-feira at 6:32 AMSecretaria de Vendas576 KBShared"
+    ],
+    "4MX": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Jardin Di Grazielle - Agosto 2026 (2).pdf5 de agostoSecretaria de Vendas352 KBShared"
+    ],
+    "SELLING": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Selling - Viva Búzios 2 - Set_2026.pdf21 de setembroSecretaria de Vendas124 KBShared",
+      "Tabela de Vendas Selling - Jardim Itacoa - Set_2026.pdf21 de setembroSecretaria de Vendas137 KBShared",
+      "Tabela de Vendas Selling - Oka Icarai _ Set_2026.pdf21 de setembroSecretaria de Vendas141 KBShared",
+      "Tabela de Vendas Selling - Living 141 - Set_2026.pdf21 de setembroSecretaria de Vendas78.9 KBShared",
+      "Tabela de Vendas Selling - Reserva Natural - Set_2026.pdf21 de setembroSecretaria de Vendas81.5 KBShared",
+      "Tabela de Vendas Selling - Flua - Set_2026.pdf21 de setembroSecretaria de Vendas110 KBShared",
+      "Tabela de Vendas Selling - Jardim Ubá Maricá - Set_2026.pdf21 de setembroSecretaria de Vendas107 KBShared"
+    ],
+    "ARETÊ BUZIOS": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Toriba Norte e Toriba Sul - Abril 2026.pdf22 de abrilSecretaria de Vendas221 KBShared",
+      "Tabela de Vendas Marina Lotes Q72 e 76 - Abril 2026.pdf22 de abrilSecretaria de Vendas72.5 KBShared",
+      "Tabela de Vendas Ybirá e Vista Ybirá - Abril 2026.pdf22 de abrilSecretaria de Vendas254 KBShared",
+      "Tabela de Vendas Arandu Lotes Fase 1 e Fase 2 - Abril 2026.pdf22 de abrilSecretaria de Vendas229 KBShared"
+    ],
+    "MEDEIROS": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf5 de agostoSecretaria de Vendas507 KBShared"
+    ],
+    "RJ ENGENHARIA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Dianthus - Setembro 2026 (Atualizada).pdf29 de setembroSecretaria de Vendas139 KBShared",
+      "Tabela de Vendas Giardino Di Verona - Agosto 2026.pdf21 de agostoSecretaria de Vendas165 KBShared",
+      "Tabela de Vendas Dahlia - Agosto 2026.pdf21 de agostoSecretaria de Vendas246 KBShared",
+      "Tabela de Vendas Violeta - Maio 2026.pdf25 de maioSecretaria de Vendas52.6 KBShared",
+      "Tabela de Vendas Flores de Maio - Maio 2026.pdf25 de maioSecretaria de Vendas63.5 KBShared",
+      "Tabela de Vendas Hortensia - Maio 2026.pdf25 de maioSecretaria de Vendas59.1 KBShared",
+      "Tabela de Vendas Lirios do Vale - Maio 2026.pdf25 de maioSecretaria de Vendas54.3 KBShared",
+      "Tabela de Vendas Bougainvillea - Maio 2026.pdf25 de maioSecretaria de Vendas53.5 KBShared",
+      "Tabela de Vendas Florescer - Maio 2026.pdf25 de maioSecretaria de Vendas63.0 KBShared"
+    ],
+    "MRC": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas 115 Tapuias - Abril 2026.pdf20 de abrilSecretaria de Vendas206 KBShared"
+    ],
+    "Pró-Lotes": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Solaris - Agosto 2026.pdf7 de agostoSecretaria de Vendas254 KBShared",
+      "Tabela de Vendas Way Promocional - Agosto 2026.pdf7 de agostoSecretaria de Vendas536 KBShared",
+      "Tabela de Vendas Way última fase - Agosto 2026.pdf7 de agostoSecretaria de Vendas676 KBShared",
+      "Tabela de Vendas Oceanica Promocional - Agosto 2026.pdf7 de agostoSecretaria de Vendas518 KBShared",
+      "Tabela de Vendas Oceanica - Agosto 2026.pdf7 de agostoSecretaria de Vendas949 KBShared",
+      "Tabela de Vendas Experience - Agosto 2026.pdf7 de agostoSecretaria de Vendas600 KBShared",
+      "Tabela de Vendas Holiday - Junho 2026.pdf10 de junhoSecretaria de Vendas433 KBShared"
+    ],
+    "JOAMA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas NP38 - Outubro 2026.pdfsegunda-feira at 11:48 AMSecretaria de Vendas314 KBShared",
+      "Tabela de Vendas Althea - Outubro 2026.pdfsegunda-feira at 11:46 AMSecretaria de Vendas325 KBShared"
+    ],
+    "Meu Crescer": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Meu Crescer Niterói - Junho 2026.pdf17 de junhoSecretaria de Vendas177 KBShared"
+    ],
+    "MRV": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas estoque geral - MRV - Março 2026.pdf17 de marçoSecretaria de Vendas1.21 MBShared",
+      "Tabela de Vendas Bosque das Amendoeiras - Março 2026.pdf17 de marçoSecretaria de Vendas430 KBShared",
+      "Tabela de Vendas Império do Ouro - Março 2026.pdf17 de marçoSecretaria de Vendas445 KBShared",
+      "Tabela de Vendas Mar de Trindade - Março 2026.pdf17 de marçoSecretaria de Vendas440 KBShared"
+    ],
+    "METTA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Wind Oceanica - Setembro 2026.pdf17 de setembroSecretaria de Vendas819 KBShared",
+      "Tabela de Vendas Wind Itacoatiara - Março 2026.pdf12 de marçoSecretaria de Vendas698 KBShared"
+    ],
+    "CHEADE": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas In Icaraí Cheade - Junho 2026 - Com Logo.pdf10 de junhoSecretaria de Vendas611 KBShared"
+    ],
+    "CONVIVA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdfterça-feira at 10:19 AMSecretaria de Vendas147 KBShared",
+      "Tabela de Vendas Conviva Charitas - Outubro 2026.pdfterça-feira at 8:16 AMSecretaria de Vendas198 KBShared",
+      "Tabela de Vendas Tresor Dior - Outubro 2026.pdfterça-feira at 8:16 AMSecretaria de Vendas161 KBShared",
+      "Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdfterça-feira at 8:07 AMSecretaria de Vendas163 KBShared",
+      "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdfterça-feira at 8:04 AMSecretaria de Vendas302 KBShared",
+      "Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdfterça-feira at 7:52 AMSecretaria de Vendas154 KBShared",
+      "Tabela de Vendas Brise by Conviva - Outubro 2026.pdfterça-feira at 7:45 AMSecretaria de Vendas109 KBShared",
+      "Tabela de Vendas Conviva Icaraí - Outubro 2026.pdfterça-feira at 7:37 AMSecretaria de Vendas496 KBShared",
+      "Tabela de Vendas Conviva Piratininga - Outubro 2026.pdfterça-feira at 7:33 AMSecretaria de Vendas151 KBShared",
+      "Tabela de Vendas Nice Camboinhas - Outubro 2026.pdfterça-feira at 7:24 AMSecretaria de Vendas111 KBShared"
+    ],
+    "TEGRA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Península - Singular - Julho 2026.pdf7 de julhoSecretaria de Vendas462 KBShared",
+      "Tabela de Vendas Península - Gran Thai - Julho 2026.pdf7 de julhoSecretaria de Vendas723 KBShared",
+      "Tabela de Vendas  Gaea - Julho 2026.pdf7 de julhoSecretaria de Vendas1.84 MBShared",
+      "Tabela de Vendas Claris - Julho 2026.pdf7 de julhoSecretaria de Vendas1.16 MBShared",
+      "Tabela de Vendas East Side Méier - Junho 2026.pdf8 de junhoSecretaria de Vendas805 KBShared",
+      "Tabela de Vendas Flua permutante - Janeiro 2026.pdf22 de janeiroSecretaria de Vendas69.0 KBShared"
+    ],
+    "TECCONSTRU": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Viva Búzios 2 - Outubro 2026 (2).pdfYesterday at 12:47 PMSecretaria de Vendas493 KBShared",
+      "Tabela de Vendas Orla Bardot - Outubro 2026.pdfsegunda-feira at 12:13 PMSecretaria de Vendas164 KBShared",
+      "Tabela de Vendas DaVinci - Outubro 2026.pdfsegunda-feira at 12:10 PMSecretaria de Vendas465 KBShared",
+      "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdfsegunda-feira at 11:57 AMSecretaria de Vendas316 KBShared"
+    ],
+    "SOTER": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Pulse - Outubro 2026.pdfYesterday at 5:43 AMSecretaria de Vendas276 KBShared",
+      "Tabela de Vendas The Grove - Outubro 2026.pdfYesterday at 5:43 AMSecretaria de Vendas379 KBShared",
+      "Tabela de Vendas Origem - Outubro 2026.pdfYesterday at 5:43 AMSecretaria de Vendas645 KBShared",
+      "Tabela de Vendas Maestro - Outubro 2026.pdfYesterday at 5:41 AMSecretaria de Vendas424 KBShared",
+      "Tabela de Vendas Ion Icarai - Outubro 2026.pdfYesterday at 5:38 AMSecretaria de Vendas584 KBShared",
+      "Tabela de Vendas Clarice - Outubro 2026.pdfYesterday at 5:36 AMSecretaria de Vendas241 KBShared",
+      "Tabela de Vendas Attrium Icaraí - Outubro 2026.pdfYesterday at 5:33 AMSecretaria de Vendas548 KBShared",
+      "Tabela de Vendas Visi - Julho 2026.pdf7 de julhoSecretaria de Vendas558 KBShared"
+    ],
+    "RDR": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Sun In - Setembro 2026.pdf22 de setembroSecretaria de Vendas259 KBShared"
+    ],
+    "RAMABE": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Maren By RAMABE - Outubro 2026.pdf1 de outubroSecretaria de Vendas341 KBShared"
+    ],
+    "PROART": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Sunset - Setembro 2026.pdf2 de setembroSecretaria de Vendas291 KBShared",
+      "Tabela de Vendas Nirvana - Setembro 2026.pdf2 de setembroSecretaria de Vendas251 KBShared",
+      "Tabela de Vendas Up Icaraí - Setembro 2026.pdf2 de setembroSecretaria de Vendas257 KBShared",
+      "Tabela de Vendas Soma - Setembro 2026.pdf2 de setembroSecretaria de Vendas504 KBShared",
+      "Tabela de Vendas Jardim dos Manacás - Setembro 2026.pdf2 de setembroSecretaria de Vendas558 KBShared",
+      "Tabela de Vendas Stage (Financiado) - Setembro 2026.pdf2 de setembroSecretaria de Vendas563 KBShared",
+      "Tabela de Vendas Stage (100% na Obra) - Setembro 2026.pdf2 de setembroSecretaria de Vendas561 KBShared"
+    ],
+    "PINTO DE ALMEIDA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Eldorado II - Outubro 2026.pdf29 de setembroSecretaria de Vendas185 KBShared"
+    ],
+    "HABITARE": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf26 de setembroSecretaria de Vendas435 KBShared",
+      "Tabela de Vendas Sou Mais+ Wellness Charitas - Agosto 2026.pdf25 de agostoSecretaria de Vendas210 KBShared",
+      "Tabela de Vendas Sou Mais+ Itacoa - Agosto 2026.pdf21 de agostoSecretaria de Vendas246 KBShared",
+      "Tabela de Vendas Sou Mais Charitas - Agosto 2026.pdf21 de agostoSecretaria de Vendas130 KBShared",
+      "Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf2 de junhoSecretaria de Vendas477 KBShared"
+    ],
+    "NOVOLAR": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Green Life - Agosto 2026.pdf20 de agostoSecretaria de Vendas937 KBShared",
+      "Simulador Novolar Green Life Torre 3 - Março 26.xlsx24 de abrilPatricia Porto138 KBShared",
+      "Simulador Novolar Green Life Torre 4 - Março 26.xlsx11 de marçoSecretaria de Vendas139 KBShared",
+      "Simulador Novolar Green Life 1 e 2  Março 26 (2).xlsx11 de marçoSecretaria de Vendas168 KBShared"
+    ],
+    "LRM": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Solo - Outubro 2026.pdfYesterday at 12:42 PMSecretaria de Vendas306 KBShared",
+      "Tabela de Vendas Scenarium - Setembro 2026.pdf22 de setembroSecretaria de Vendas291 KBShared",
+      "Tabela de Vendas Calle Sardegna - Julho 2026.pdf6 de julhoSecretaria de Vendas288 KBShared"
+    ],
+    "JPR": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de vendas - Uni Home Studio - Set_2026.pdf2 de setembroSecretaria de Vendas67.7 KBShared"
+    ],
+    "JOÃO FORTES": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Terramarine - Setembro 2026.pdf1 de setembroSecretaria de Vendas468 KBShared"
+    ],
+    "ITAUBA": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Marina - Outubro 2026.pdfsegunda-feira at 12:35 PMSecretaria de Vendas265 KBShared",
+      "Tabela de Vendas Triunfo - Outubro 2026.pdfsegunda-feira at 12:26 PMSecretaria de Vendas319 KBShared",
+      "Tabela de Vendas Business - Outubro 2026.pdfsegunda-feira at 12:22 PMSecretaria de Vendas173 KBShared",
+      "Tabela de Vendas Serena - Outubro 2026.pdfsegunda-feira at 6:48 AMSecretaria de Vendas268 KBShared"
+    ],
+    "FERNANDES MACIEL": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdfquarta-feira at 6:28 AMSecretaria de Vendas648 KBShared",
+      "Tabela de Vendas SD40 - Diretor Vinicius - Outubro 2026.pdfquarta-feira at 6:13 AMSecretaria de Vendas132 KBShared",
+      "Tabela de Vendas Duetto - Diretor Vinicius - Outubro 2026.pdfquarta-feira at 6:13 AMSecretaria de Vendas130 KBShared",
+      "Tabela de Vendas Fazenda Fillomena (VR2) - Outubro 2026.pdfterça-feira at 1:11 PMSecretaria de Vendas1.16 MBShared",
+      "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdfterça-feira at 1:03 PMSecretaria de Vendas1.11 MBShared",
+      "Tabela de Vendas SD40 - Outubro 2026.pdf1 de outubroSecretaria de Vendas863 KBShared",
+      "Tabela de Vendas Arend - Outubro 2026.pdf1 de outubroSecretaria de Vendas1.51 MBShared"
+    ],
+    "FALVES": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas  Mok 132 - Agosto 2026.pdf11 de agostoSecretaria de Vendas625 KBShared",
+      "Tabela de Vendas Trend By Falves - Maio 2026 (Lançamento).pdf14 de maioSecretaria de Vendas279 KBShared",
+      "Tabela de Vendas Namas - Março 2026.pdf12 de marçoSecretaria de Vendas416 KBShared",
+      "Tabela de Vendas Cascais - Março 2026 (1).pdf12 de marçoSecretaria de Vendas276 KBShared"
+    ],
+    "ELVAS": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Reserva São Francisco - Outubro 2026.pdf2 de outubroSecretaria de Vendas639 KBShared",
+      "Tabela de Vendas Upside - Outubro 2026.pdf2 de outubroSecretaria de Vendas483 KBShared",
+      "Tabela de Vendas Maris - Outubro 2026.pdf2 de outubroSecretaria de Vendas561 KBShared",
+      "Tabela de Vendas Neo Design - Outubro 2026.pdf2 de outubroSecretaria de Vendas483 KBShared"
+    ],
+    "DIRECIONAL": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Conquista Oceânica - Abril 2026.pdf20 de abrilSecretaria de Vendas281 KBShared"
+    ],
+    "CURY": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf14 de setembroSecretaria de Vendas545 KBShared",
+      "Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf14 de setembroSecretaria de Vendas236 KBShared",
+      "Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf21 de agostoSecretaria de Vendas958 KBShared"
+    ],
+    "CEU": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela de Vendas 141 Living - Outubro 2026.pdfquarta-feira at 10:52 AMSecretaria de Vendas412 KBShared",
+      "Tabela de Vendas Tao - Outubro 2026.pdfquarta-feira at 10:52 AMSecretaria de Vendas527 KBShared",
+      "Tabela de Vendas Nomad - Outubro 2026.pdfquarta-feira at 10:10 AMSecretaria de Vendas411 KBShared",
+      "Tabela de Vendas Maria Maria - Outubro 2026.pdfquarta-feira at 10:06 AMSecretaria de Vendas378 KBShared",
+      "Tabela de Vendas Bäume - Outubro 2026.pdfterça-feira at 6:53 AMSecretaria de Vendas409 KBShared",
+      "Tabela de Vendas 141 Living (Permutante) - Junho 2026.pdf26 de junhoSecretaria de Vendas61.0 KBShared"
+    ],
+    "BACOS": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Tabela Pebê 74 Agosto_2026.pdf30 de setembroSecretaria de Vendas284 KBShared",
+      "Tabela de Vendas Singular - Setembro 2026.pdf4 de setembroSecretaria de Vendas263 KBShared",
+      "Tabela de Vendas Oka Icaraí - Agosto 2026.pdf10 de agostoSecretaria de Vendas321 KBShared",
+      "Tabela Singular AGO 2026 Lançamento.pdf5 de agostoAndrea Costa351 KBShared",
+      "Tabela de Vendas Seven Avenue - Junho 2026.pdf17 de junhoSecretaria de Vendas112 KBShared",
+      "Tabela de Vendas Style - Junho 2026.pdf17 de junhoSecretaria de Vendas311 KBShared",
+      "Tabela de Vendas Oka São Francisco - Junho 2026.pdf17 de junhoSecretaria de Vendas321 KBShared"
+    ]
+  },
+  "books": {
+    "Krion": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "BOOK TÉCNICO Maris_Spin.pdf16 de julhoAlicia Mendonça65.9 MBShared"
+    ],
+    "Nexis": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Spin_295A_BOOK_M48_DIGITAL_RED.pdf10 de abrilAlicia Mendonça67.7 MBShared"
+    ],
+    "VL Construtora": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Mare Blu.pdf22 de fevereiro de 2024Larine  Gomes Barboza19.1 MBShared"
+    ],
+    "Soter": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Clarice16 de marçoFabson Cabral7 itemsShared",
+      "The Grove Spin - Book.pdf12 de agostoAlicia Mendonça38.9 MBShared",
+      "Clarice_Book Spin.pdf16 de marçoAlicia Mendonça15.1 MBShared",
+      "Pulse by Soter - Book.pdf19 de novembro de 2025Alicia Mendonça32.8 MBShared",
+      "SPIN Origem - Minibook.pdf14 de agosto de 2025Larine  Gomes Barboza66.0 MBShared",
+      "Book Maestro.pdf14 de março de 2025Larine  Gomes Barboza56.0 MBSharedJulia Bandeira shared this fileAug 3",
+      "Book Íon Icaraí.pdf22 de agosto de 2024Larine  Gomes Barboza33.6 MBShared",
+      "Book The Edge.pdf14 de março de 2024Larine  Gomes Barboza19.2 MBShared",
+      "Attrium Icaraí - Minibook_compressed.pdf22 de fevereiro de 2024Larine  Gomes Barboza28.1 MBShared",
+      "Attrium Icaraí - Minibook.pdf22 de fevereiro de 2024Larine  Gomes Barboza45.9 MBShared",
+      "Book Mediterraneo SPIN.pdf22 de fevereiro de 2024Larine  Gomes Barboza4.36 MBShared",
+      "Book MUD 333.pdf22 de fevereiro de 2024Larine  Gomes Barboza14.2 MBShared",
+      "Apresentação Tarsila final.pdf22 de fevereiro de 2024Larine  Gomes Barboza19.0 MBShared"
+    ],
+    "Tecconstru": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Trópico Camboinhas.pdf24 de outubro de 2024Larine  Gomes Barboza115 MBShared"
+    ],
+    "Tegra": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Digital Flua.pdf22 de fevereiro de 2024Larine  Gomes Barboza10.3 MBShared",
+      "Book Home Boutique.pdf22 de fevereiro de 2024Larine  Gomes Barboza4.61 MBShared"
+    ],
+    "Tresor": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "União Contruções11 de agostoRaffael Cupello1 itemShared",
+      "Spin - Nice - Conviva.pdf23 de outubro de 2025Alicia Mendonça80.0 MBShared",
+      "Spin - Nice - Book - 2.pdf17 de outubro de 2025Alicia Mendonça22.8 MBShared",
+      "Book provisório Nice Trésor.pdf21 de julho de 2025Larine  Gomes Barboza21.0 MBShared",
+      "BooK Digital Tresor Dior.pdf23 de janeiro de 2025Larine  Gomes Barboza231 MBShared"
+    ],
+    "JPR": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "SPIN Book - CASCAIS - Estrada Fróes.pdf28 de dezembro de 2024Alicia Mendonça262 MBShared",
+      "SPIN BOOK DIGITAL UNI HOME STUDIOS - JPR_21.06.pdf22 de fevereiro de 2024Larine  Gomes Barboza96.1 MBShared",
+      "BOOK UNIHOME SPIN.pdf22 de fevereiro de 2024Larine  Gomes Barboza23.5 MBShared"
+    ],
+    "LRM": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Spin Digital_Solo_LRM_1920_x_1080px[1].pdf24 de setembroAlicia Mendonça26.0 MBShared",
+      "SPIN BOOK DIGITAL SCENARIUM PIRATININGA.pdf22 de fevereiro de 2024Larine  Gomes Barboza26.8 MBShared",
+      "Book Calle Sardegna SPIN.pdf22 de fevereiro de 2024Larine  Gomes Barboza7.80 MBSharedAlicia Mendonça shared with Larine  Gomes BarbozaJun 10"
+    ],
+    "Medeiros": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "SPIN Apresentação_Book Jardim Itacoa.pdf2 de julho de 2025Alicia Mendonça12.3 MBShared",
+      "Book - TRE AMICI_Final_compressed.pdf22 de fevereiro de 2024Larine  Gomes Barboza11.5 MBShared"
+    ],
+    "Metta": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "WIND PIRATININGA BOOK.pdf8 de setembro de 2025Larine  Gomes Barboza11.6 MBShared",
+      "SPIN WIND OCEÂNICA_BOOK- VS 2.pdf13 de agosto de 2025Larine  Gomes Barboza17.1 MBShared",
+      "SPIN WIND OCEÂNICA_BOOK-D.pdf7 de agosto de 2025Larine  Gomes Barboza17.4 MBShared",
+      "Book Wind Itacoatiara.pdf22 de fevereiro de 2024Larine  Gomes Barboza9.43 MBShared"
+    ],
+    "Mhor": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Bettina SPIN.pdf22 de fevereiro de 2024Larine  Gomes Barboza10.0 MBShared"
+    ],
+    "MRC": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "SPIN 115 Tapuias - Book Digital.pdf19 de maio de 2025Larine  Gomes Barboza17.9 MBShared"
+    ],
+    "Novolar": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Green Life.pdf19 de junho de 2024Larine  Gomes Barboza23.6 MBShared"
+    ],
+    "PA5": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book_Monier_PA5_vFinal 2.pdf14 de abrilLarine  Gomes Barboza9.37 MBShared",
+      "Pré-Lançamento _ Monier _ PA5 Empreendimentos Spin.pdf9 de janeiroAlicia Mendonça50.6 MBSharedPatrícia Guimarães shared with Patrícia GuimarãesJan 14",
+      "SPIN Gael Book_V25.pdf4 de agosto de 2025Larine  Gomes Barboza53.5 MBShared"
+    ],
+    "Proart": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Soma-SpinBookDigital.pdf27 de maioAlicia Mendonça48.6 MBSharedAlexandre Dias shared this fileJun 23",
+      "Book STAGE.pdf30 de setembro de 2025Tamiris Mendes8.28 MBShared",
+      "Mini Book Provisório - Stage.pdf24 de setembro de 2025Alicia Mendonça5.03 MBShared",
+      "Book digital Up Icaraí.pdf8 de setembro de 2025Larine  Gomes Barboza2.69 MBShared",
+      "Book digital Jardim dos Manacás.pdf26 de setembro de 2024Larine  Gomes Barboza50.7 MBShared",
+      "Book Nirvana.pdf22 de fevereiro de 2024Larine  Gomes Barboza17.2 MBShared",
+      "BOOK SUNSET.pdf22 de fevereiro de 2024Larine  Gomes Barboza12.8 MBShared"
+    ],
+    "Pró-lotes": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "SPIN Apresentação Ocêanica Green Club Prolotes.pdf30 de abril de 2025Larine  Gomes Barboza13.6 MBShared"
+    ],
+    "RAMABE": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Maren - Digital.pdf11 de fevereiro de 2025Larine  Gomes Barboza34.1 MBSharedCaroline Rodrigues shared this fileSep 24",
+      "Book Vila Santo Antônio SPIN.pdf22 de fevereiro de 2024Larine  Gomes Barboza7.68 MBShared",
+      "Book FINAL Viña Del Mar.pdf22 de fevereiro de 2024Larine  Gomes Barboza2.73 MBShared"
+    ],
+    "RDR": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Soul Fonseca.pdf8 de setembro de 2025Larine  Gomes Barboza2.70 MBShared",
+      "Book SUN IN.pdf21 de maio de 2025Larine  Gomes Barboza13.1 MBShared"
+    ],
+    "RJ Engenharia": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Helianthus - book Spin.pdf23 de junhoAlicia Mendonça41.5 MBShared",
+      "Spin_Book Dahlia Residence.pdf27 de fevereiroAlicia Mendonça64.5 MBShared",
+      "Book Dahlia Residence.pdf27 de fevereiroLarine  Gomes Barboza312 MBShared",
+      "Book - Giardino Di Verona - online.pdf24 de outubro de 2025Alicia Mendonça20.2 MBShared",
+      "Book digital DIANTHUS.pdf8 de setembro de 2025Larine  Gomes Barboza3.16 MBShared"
+    ],
+    "Itauba": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Spin Book SERENA - Itaúba.pdf30 de janeiroAlicia Mendonça80.2 MBShared",
+      "Book Triunfo SPIN.pdf5 de setembro de 2025Larine  Gomes Barboza2.40 MBShared",
+      "Book RAVELLO Residenziale - ITAÚBA-Reduzido.pdf5 de setembro de 2025Larine  Gomes Barboza7.44 MBShared",
+      "Book Marina.pdf22 de fevereiro de 2024Larine  Gomes Barboza4.62 MBShared"
+    ],
+    "Joama": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Spin_NP38-EBook - Final.pdf13 de marçoAlicia Mendonça70.2 MBSharedFernando Jandi shared this fileApr 1",
+      "Spin_Book Althea 10.03 LOW.pdf13 de marçoAlicia Mendonça223 MBShared"
+    ],
+    "João Fortes": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Convenção Terramarine - SPIN.pdf4 de outubro de 2024Larine  Gomes Barboza14.8 MBShared"
+    ],
+    "Habitare": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book LAZULI.pdf15 de setembroAlicia Mendonça191 MBSharedCaroline Rodrigues shared this fileSep 24",
+      "Ficha_de_Interesse_Lazuli_Spin.pdf9 de setembroSecretaria de Vendas109 KBShared",
+      "Spin_book - sou+ wellness charitas.pdf18 de setembro de 2025Alicia Mendonça94.1 MBShared",
+      "SPIN Book de Vendas_Sou Itacoa.pdf3 de julho de 2025Larine  Gomes Barboza144 MBSharedRogerio Cunha shared this fileFeb 22",
+      "SPIN Book de Vendas_Sou+ Charitas.pdf18 de outubro de 2024Larine  Gomes Barboza131 MBShared",
+      "Sou Mais+Icarai.pdf22 de fevereiro de 2024Larine  Gomes Barboza11.0 MBShared"
+    ],
+    "Fernandes Maciel": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book ÍLE.pdf26 de agostoAlicia Mendonça29.0 MBShared",
+      "AREND Residencial book.pdf3 de junho de 2025Larine  Gomes Barboza50.5 MBShared",
+      "Book SD40.pdf22 de fevereiro de 2024Larine  Gomes Barboza25.8 MBShared",
+      "Book Duetto.pdf22 de fevereiro de 2024Larine  Gomes Barboza4.02 MBShared"
+    ],
+    "GPCON": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "BOOK GREEN OPEN.pdf10 de outubro de 2025Alicia Mendonça105 MBShared",
+      "BOOK OPEN SANTA ROSA.pdf22 de fevereiro de 2024Larine  Gomes Barboza572 KBShared"
+    ],
+    "Falves": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Spin_Book - Trend - Digital-3.pdf12 de maioAlicia Mendonça34.1 MBShared",
+      "Namas SmartLiving.pdf5 de setembro de 2025Larine  Gomes Barboza20.5 MBShared",
+      "Apresentação - Pré-Lançamento MOK.pdf19 de fevereiro de 2025Larine  Gomes Barboza99.1 MBShared",
+      "SPIN Book - CASCAIS - Estrada Fróes.pdf28 de dezembro de 2024Alicia Mendonça262 MBShared",
+      "Book MB Loft SPIN.pdf22 de fevereiro de 2024Larine  Gomes Barboza15.9 MBShared"
+    ],
+    "Equipe": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Vila Gaudi.pdf22 de fevereiro de 2024Larine  Gomes Barboza10.2 MBShared"
+    ],
+    "CYCOHRP Engenharia": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Alto do Ingá.pdf22 de fevereiro de 2024Larine  Gomes Barboza20.6 MBShared"
+    ],
+    "Direcional": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Conquista Oceânica.pdf5 de setembro de 2025Larine  Gomes Barboza8.53 MBShared"
+    ],
+    "Elvas": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Reserva São Francisco Elvas.pdf13 de marçoAlicia Mendonça449 MBShared",
+      "SPIN Mini Book Corretor_Upside Charitas.pdf15 de maio de 2025Larine  Gomes Barboza22.3 MBShared",
+      "SPIN Book_Upside Charitas.pdf15 de maio de 2025Larine  Gomes Barboza87.1 MBShared",
+      "SPIN Book Digital_Neo Design Icaraí.pdf8 de novembro de 2024Larine  Gomes Barboza22.9 MBSharedLuis Pimentel shared this fileAug 18"
+    ],
+    "Crescer": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Bosque Residence.pdf12 de fevereiro de 2025Larine  Gomes Barboza9.29 MBShared"
+    ],
+    "Cury": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Spin_Book_Digital_Orla_Central_V4.pdf30 de abrilAlicia Mendonça37.4 MBSharedCaroline Rodrigues shared this fileSep 24",
+      "Orla Central Clientes_Spin.pdf30 de abrilAlicia Mendonça64.4 MBShared",
+      "RIO BRANCO 220.pdf5 de setembro de 2025Larine  Gomes Barboza13.3 MBShared",
+      "Book Digital Caminhos da Guanabara.pdf3 de abril de 2025Larine  Gomes Barboza49.5 MBSharedMurilo Rodrigues shared this fileAug 23",
+      "ThePier_BookDigital SPIN.pdf6 de setembro de 2024Larine  Gomes Barboza56.4 MBShared",
+      "Flow Santa Rosa SPIN Prévia.pdf22 de fevereiro de 2024Alicia Mendonça5.72 MBShared"
+    ],
+    "CAC": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Acqua SPIN.pdf14 de março de 2024Larine  Gomes Barboza15.1 MBShared"
+    ],
+    "CEU": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Spin Mobile - Maria Maria.pdf2 de julhoAlicia Mendonça18.5 MBShared",
+      "Book Spin PC - Maria Maria.pdf2 de julhoAlicia Mendonça18.6 MBShared",
+      "Book Nomad.pdf28 de abrilLarine  Gomes Barboza215 MBShared",
+      "Spin - Book - Tao.pdf12 de novembro de 2025Alicia Mendonça15.3 MBShared",
+      "ficha técnica NOMAD.pdf23 de outubro de 2025Alicia Mendonça302 KBShared",
+      "BOOK Mobile TAO.pdf24 de março de 2025Larine  Gomes Barboza3.37 MBShared",
+      "TAO book horizontal.pdf30 de janeiro de 2025Larine  Gomes Barboza11.2 MBShared",
+      "BOOK IT CAMBOINHAS (1).pdf22 de fevereiro de 2024Larine  Gomes Barboza17.1 MBShared",
+      "Book 141.pdf22 de fevereiro de 2024Larine  Gomes Barboza23.9 MBShared"
+    ],
+    "Cheade": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "SPIN In Icaraí Book VS 1.pdf16 de outubro de 2024Larine  Gomes Barboza36.1 MBShared"
+    ],
+    "Conviva": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book Nice - Digital Spin.pdf21 de julhoAlicia Mendonça78.9 MBShared",
+      "Spin_Book Provisório - Conviva Itacoa - Antecipe-se ao lançamento.pdf19 de maioAlicia Mendonça47.8 MBShared",
+      "Book Conviva Charitas.pdf24 de abrilLarine  Gomes Barboza53.9 MBShared",
+      "Spin Book - Conviva Icarai - Antecipe-se ao lançamento.pdf8 de abrilAlicia Mendonça39.7 MBShared",
+      "Brise by Conviva.pdf27 de fevereiro de 2025Larine  Gomes Barboza24.0 MBShared",
+      "Conviva Camboinhas Life.pdf20 de janeiro de 2025Larine  Gomes Barboza175 MBShared",
+      "Conviva Life Ingá finalizado.pdf20 de janeiro de 2025Larine  Gomes Barboza167 MBShared",
+      "Book Conviva Camboinhas_ver4.pdf13 de janeiro de 2025Larine  Gomes Barboza161 MBShared"
+    ],
+    "Anasa": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book_Fazenda Fillomena SPIN.pdf25 de janeiro de 2024Larine  Gomes Barboza56.2 MBShared"
+    ],
+    "Bacos": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "Book _ Singular _ BacosSignature _Spin.pdf3 de setembroAlicia Mendonça116 MBSharedAlexandre Dias shared this fileSep 13",
+      "Book _ PEBÊ 74 _ Bacos Signature.pdf29 de abrilAlicia Mendonça56.1 MBShared",
+      "Book Style.pdf1 de setembro de 2025Larine  Gomes Barboza38.9 MBShared",
+      "OKA STUDIOS ICARAÍ - BOOK.pdf25 de junho de 2025Larine  Gomes Barboza52.9 MBShared",
+      "OKA STUDIOS RESIDENCIAIS BOOK SPIN.pdf28 de março de 2024Larine  Gomes Barboza62.8 MBShared"
+    ],
+    "4MX": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "SPIN JARDIN DI GRAZIELLE - BOOK DIGITAL - Wide.pdf21 de julho de 2025Larine  Gomes Barboza186 MBShared"
+    ],
+    "Soter/Clarice": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "20260317_010744000_iOS.MP416 de marçoFabson Cabral78.2 MBShared",
+      "Clarice_Book Spin.pdf16 de marçoFabson Cabral15.1 MBShared",
+      "Apresentação de Plantas - 3 quartos.pdf16 de marçoFabson Cabral2.20 MBShared",
+      "Apresentação de Plantas - Coberturas.pdf16 de marçoFabson Cabral2.22 MBShared",
+      "Clarice - Linha de valores.pdf16 de marçoFabson Cabral691 KBShared",
+      "Clarice - Ficha técnica.pdf16 de marçoFabson Cabral1.56 MBShared",
+      "Apresentação de plantas - 2 quartos.pdf16 de marçoFabson Cabral2.00 MBShared"
+    ],
+    "Tresor/União Contruções": [
+      "NomeModificado(UTC-08:00) Hora do Pacífico (EUA e Canadá)Modificado porFile sizeCompartilhamentoActivity",
+      "BOOK LAZULI.pdf22 de fevereiro de 2024Larine  Gomes Barboza42.1 MBShared"
+    ]
+  }
+}

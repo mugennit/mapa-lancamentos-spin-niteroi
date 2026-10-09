@@ -315,12 +315,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas 141 Living - Setembro 2026.pdf",
+        "name": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
         "date": "Setembro 2026"
       }
     ],
-    "price": 519000,
+    "price": 519000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -330,9 +330,10 @@
     "lng": -43.109361,
     "precision": "exact",
     "photo": "/empreendimentos/141-living.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes.",
+      "O nome do arquivo indica Outubro 2026, mas a data comercial impressa no documento é Setembro 2026."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -347,7 +348,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9024801,-43.109361",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "it-camboinhas",
@@ -394,12 +395,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Nomad - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Nomad - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1300000,
+    "price": 1300000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -409,7 +410,7 @@
     "lng": -43.0859276,
     "precision": "exact",
     "photo": "/empreendimentos/nomad.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -424,7 +425,7 @@
     "addressSource": null,
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9536354,-43.0859276",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "maria-maria",
@@ -438,12 +439,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Maria Maria - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
         "date": "Setembro 2026"
       }
     ],
-    "price": 710000,
+    "price": 710000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -453,15 +454,17 @@
     "lng": -43.0547843,
     "precision": "exact",
     "photo": "/empreendimentos/maria-maria.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [],
+    "checkedAt": "2026-10-09",
+    "notes": [
+      "O nome do arquivo indica Outubro 2026, mas a data comercial impressa no documento é Setembro 2026."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://cidadedeniteroi.com/morar-e-investir/maria-maria-o-charme-do-sul-da-italia-encontra-o-melhor-de-camboinhas/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.961083,-43.0547843",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "tao",
@@ -475,12 +478,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Tao - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Tao - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1550000,
+    "price": 1550000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -490,7 +493,7 @@
     "lng": -43.086274,
     "precision": "exact",
     "photo": "/empreendimentos/tao.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -505,7 +508,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.954021,-43.086274",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "in-icarai",
@@ -559,12 +562,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Camboinhas - Setembro 2026 (2).pdf",
+        "name": "Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 629900,
+    "price": 629900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -574,7 +577,7 @@
     "lng": -43.0519581,
     "precision": null,
     "photo": "/empreendimentos/conviva-camboinhas.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
       "Endereço em conferência nos materiais."
     ],
@@ -584,7 +587,7 @@
     "addressSource": null,
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9574267,-43.0519581",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "conviva-charitas",
@@ -598,12 +601,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Charitas - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 499875,
+    "price": 499875.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -613,7 +616,7 @@
     "lng": -43.097067,
     "precision": "exact",
     "photo": "/empreendimentos/conviva-charitas.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -628,7 +631,7 @@
     "addressSource": null,
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.931802,-43.097067",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "nice-camboinhas",
@@ -642,12 +645,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Nice - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1160390,
+    "price": 1160390.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -657,7 +660,7 @@
     "lng": -43.055176,
     "precision": "exact",
     "photo": "/empreendimentos/nice-camboinhas.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -672,7 +675,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.96066,-43.055176",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "brise-by-conviva",
@@ -686,12 +689,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Brise By Conviva - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 699900,
+    "price": 699900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -701,7 +704,7 @@
     "lng": -43.0510671,
     "precision": null,
     "photo": "/empreendimentos/brise-by-conviva.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
       "Endereço em conferência nos materiais."
     ],
@@ -711,7 +714,7 @@
     "addressSource": null,
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9615888,-43.0510671",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "conviva-life-camboinhas",
@@ -725,12 +728,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Life Camboinhas - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 799900,
+    "price": 799900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -740,7 +743,7 @@
     "lng": -43.0521726,
     "precision": "exact",
     "photo": "/empreendimentos/conviva-life-camboinhas.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
       "Endereço em conferência nos materiais."
     ],
@@ -750,7 +753,7 @@
     "addressSource": null,
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9572371,-43.0521726",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "conviva-life-inga",
@@ -764,12 +767,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Life Ingá - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 444900,
+    "price": 444900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -779,7 +782,7 @@
     "lng": -43.1219927,
     "precision": "exact",
     "photo": "/empreendimentos/conviva-life-inga.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -794,7 +797,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9030786,-43.1219927",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "conviva-icarai",
@@ -808,12 +811,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Icaraí - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 594900,
+    "price": 594900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -823,7 +826,7 @@
     "lng": -43.1088218,
     "precision": "exact",
     "photo": "/empreendimentos/conviva-icarai.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -838,7 +841,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9103174,-43.1088218",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "conviva-itacoa",
@@ -852,12 +855,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Itacoa - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 549900,
+    "price": 549900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -867,7 +870,7 @@
     "lng": -43.034869,
     "precision": "exact",
     "photo": "/empreendimentos/conviva-itacoa.jpg",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -875,7 +878,7 @@
     "addressSource": "https://convivaengenharia.com.br/conviva-itacoa/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://maps.app.goo.gl/CGvyAbwskYpaHLj8A",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "caminhos-da-guanabara",
@@ -1585,12 +1588,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Duetto - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
         "url": "https://drive.google.com/file/d/1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS/view?usp=drivesdk",
         "date": "Outubro 2026"
       }
     ],
-    "price": 907991,
+    "price": 907991.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1600,7 +1603,7 @@
     "lng": -43.1021411,
     "precision": "exact",
     "photo": "/empreendimentos/duetto.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
       "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
     ],
@@ -1617,7 +1620,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.8998004,-43.1021411",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "ile",
@@ -1631,12 +1634,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Íle - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
         "url": "https://drive.google.com/file/d/1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS/view?usp=drivesdk",
         "date": "Outubro 2026"
       }
     ],
-    "price": 433200,
+    "price": 446467.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1646,7 +1649,7 @@
     "lng": -43.103472,
     "precision": "exact",
     "photo": "/empreendimentos/ile.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -1661,7 +1664,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9054152,-43.103472",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "sd40",
@@ -2028,12 +2031,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Marina - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Marina - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1190000,
+    "price": 1190000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2043,7 +2046,7 @@
     "lng": -43.078711,
     "precision": null,
     "photo": "/empreendimentos/marina.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
       "Endereço em conferência nos materiais."
     ],
@@ -2053,7 +2056,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/marina-apartamentos-e-coberturas-niteroi-2-a-4-quartos-89-a-267-m/19382823-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9548681,-43.078711",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "ravello-residenziale",
@@ -2106,12 +2109,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Triunfo - Agosto 2026.pdf",
+        "name": "Tabela de Vendas Triunfo - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 2550000,
+    "price": 2550000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2121,9 +2124,8 @@
     "lng": -43.0529928,
     "precision": null,
     "photo": "/empreendimentos/triunfo.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -2132,7 +2134,7 @@
     "addressSource": "https://www.waze.com/live-map/directions/br/rj/triunfo-camboinhas?to=place.ChIJLypqfieHmQARR595hwW1nu8",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9613629,-43.0529928",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "serena",
@@ -2146,12 +2148,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Serena - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Serena - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1230000,
+    "price": 1230000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2161,7 +2163,7 @@
     "lng": -43.074585,
     "precision": "exact",
     "photo": "/empreendimentos/serena.jpg",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -2169,7 +2171,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/serena-apartamentos-coberturas-e-apartamentos-garden-niteroi-2-a-4-quartos-91-a-266-m/24550694-SETV?from=sale",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://maps.app.goo.gl/wC5WJpW9PnowpNVQA",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "althea",
@@ -2183,12 +2185,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Althea - Agosto 2026.pdf",
+        "name": "Tabela de Vendas Althea - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Setembro 2026"
       }
     ],
-    "price": 500000,
+    "price": 500000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2198,10 +2200,10 @@
     "lng": -43.1049866,
     "precision": null,
     "photo": "/empreendimentos/althea.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "O nome do arquivo indica Outubro 2026, mas a data comercial impressa no documento é Setembro 2026."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -2209,7 +2211,7 @@
     "addressSource": "https://joama.com.br/althea/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8997767,-43.1049866",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "np38",
@@ -2223,12 +2225,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas NP38 - Agosto 2026 (1).pdf",
+        "name": "Tabela de Vendas NP38 - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 655000,
+    "price": 655000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2238,17 +2240,15 @@
     "lng": -43.102034,
     "precision": null,
     "photo": "/empreendimentos/np38.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
-    ],
+    "checkedAt": "2026-10-09",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://joama.com.br/np38/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8986219,-43.102034",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "terramarine",
@@ -2436,13 +2436,19 @@
     "name": "Solo",
     "company": "LRM",
     "neighborhood": "Icaraí",
-    "address": "Rua Dom Bosco — Jardim Icaraí",
+    "address": "Rua Dom Bosco, 104 — Jardim Icaraí",
     "book": {
       "name": "Book Spin Digital_Solo_LRM_1920_x_1080px[1].pdf",
       "url": "https://drive.google.com/file/d/1oDNu2BpbPqUZEehQiVpZUDLXDMRCiCvM/view?usp=drivesdk"
     },
-    "tables": [],
-    "price": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Solo - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1TBOsaFUDNSnQXol6WbC3vZXFc7yZGDeC/view?usp=drivesdk",
+        "date": "Setembro 2026"
+      }
+    ],
+    "price": 749000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2452,9 +2458,10 @@
     "lng": null,
     "precision": "street",
     "photo": "/empreendimentos/solo.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+      "O arquivo indica Outubro 2026 no nome; a data comercial impressa é 08/09/2026.",
+      "Endereço confirmado na tabela; ponto exato no mapa pendente."
     ],
     "locationStatus": "Endereço conferido; ponto exato pendente",
     "geocoding": {
@@ -2468,7 +2475,7 @@
     "addressSource": "https://apto.vc/br/rj/niteroi/icarai/solo-jardim-icarai",
     "addressReviewStatus": "Conferido",
     "addressReview": null,
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "scenarium-piratininga",
@@ -2900,12 +2907,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Monier - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Monier - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1WfGNg0IX0jDxAHTu9zzUSfZ5yNmPqRM_/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 620000,
+    "price": 641948.93,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2915,7 +2922,7 @@
     "lng": -43.0918896,
     "precision": "exact",
     "photo": "/empreendimentos/monier.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -2930,7 +2937,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.952344,-43.0918896",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "gael",
@@ -2944,12 +2951,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Gael - Agosto 2026.pdf",
+        "name": "Tabela de Vendas Gael - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1kPz2vVDJeqMWB4b-fojLixAbXwf0vVbQ/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 760235,
+    "price": 771677.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2959,9 +2966,8 @@
     "lng": -43.0717201,
     "precision": null,
     "photo": "/empreendimentos/gael.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -2970,7 +2976,7 @@
     "addressSource": "https://www.pa5.com.br/empreendimento/gael",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9554166,-43.0717201",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "jardim-dos-manacas",
@@ -3641,12 +3647,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Attrium Icaraí - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Attrium Icaraí - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1VuvjYNxUP6iAIolXEA4Ut0pVUwDqd5-p/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1849000,
+    "price": 1849000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -3656,7 +3662,7 @@
     "lng": -43.1086789,
     "precision": "exact",
     "photo": "/empreendimentos/attrium-icarai.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3671,7 +3677,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9022277,-43.1086789",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "ion-icarai",
@@ -3685,12 +3691,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Ion Icarai - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Ion Icarai - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1HYjSrxFrYisBMyuYTrOG2mhJMJrqwTcp/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 679000,
+    "price": 679000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -3700,7 +3706,7 @@
     "lng": -43.1105638,
     "precision": "exact",
     "photo": "/empreendimentos/ion-icarai.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3715,7 +3721,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9047619,-43.1105638",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "maestro",
@@ -3729,12 +3735,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Maestro - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Maestro - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1749000,
+    "price": 1749000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -3744,7 +3750,7 @@
     "lng": -43.106622,
     "precision": "exact",
     "photo": "/empreendimentos/maestro.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3759,7 +3765,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.902618,-43.106622",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "mediterraneo",
@@ -3880,12 +3886,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Clarice - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Clarice - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1NybBWiY1UGsJd_dFHMJIPhN_Bkl5xcNw/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1199000,
+    "price": 1199000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -3895,7 +3901,7 @@
     "lng": -43.1044631,
     "precision": "exact",
     "photo": "/empreendimentos/clarice.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3910,7 +3916,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9033625,-43.1044631",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "pulse",
@@ -3924,12 +3930,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Pulse - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Pulse - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 3049000,
+    "price": 2699000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -3939,7 +3945,7 @@
     "lng": -43.1114485,
     "precision": "exact",
     "photo": "/empreendimentos/pulse.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3954,7 +3960,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9049237,-43.1114485",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "origem",
@@ -3968,12 +3974,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Origem - Setembro 2026 (2).pdf",
+        "name": "Tabela de Vendas Origem - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 3199000,
+    "price": 619000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -3983,7 +3989,7 @@
     "lng": -43.1117591,
     "precision": "exact",
     "photo": "/empreendimentos/origem.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3998,7 +4004,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9012651,-43.1117591",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "the-grove",
@@ -4012,12 +4018,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas The Grove - Setembro 2026.pdf",
+        "name": "Tabela de Vendas The Grove - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/14AW8PVp0xTFEZlvcaAifRcsFy6_t-nxm/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1249000,
+    "price": 1179000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4027,7 +4033,7 @@
     "lng": -43.1117832,
     "precision": "exact",
     "photo": "/empreendimentos/the-grove.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -4042,7 +4048,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.8993345,-43.1117832",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "tropico-camboinhas",
@@ -4056,12 +4062,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de venda - Trópico Camboinhas - Set_2026.pdf",
+        "name": "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1249000,
+    "price": 1299000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4071,7 +4077,7 @@
     "lng": -43.0523467,
     "precision": "exact",
     "photo": "/empreendimentos/tropico-camboinhas.jpg",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -4079,7 +4085,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/tropico-camboinhas-apartamentos-e-coberturas-niteroi-4-quartos-110-a-313-m/18866010-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://maps.app.goo.gl/s7HbvKYdw47MDhHU7",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "flua",
@@ -4173,12 +4179,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Tresor Dior - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 4510000,
+    "price": 4510000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4188,7 +4194,7 @@
     "lng": -43.0650595,
     "precision": "exact",
     "photo": "/empreendimentos/tresor-dior.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -4203,7 +4209,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9585007,-43.0650595",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "mare-blu",
@@ -4261,12 +4267,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Conviva Piratininga - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Conviva Piratininga - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1oST13WgpeRVGfHyU7RimlSWxvKEtEFpH/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Agosto 2026"
       }
     ],
-    "price": 599900,
+    "price": 599900.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4276,9 +4282,10 @@
     "lng": -43.0771678,
     "precision": "exact",
     "photo": null,
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "O nome do arquivo indica Outubro 2026, mas a data comercial impressa no documento é Agosto 2026."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -4286,7 +4293,7 @@
     "addressSource": "https://www.conviva.com.br/empreendimento/conviva-piratininga/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.954119,-43.0771678",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "eldorado-ii",
@@ -4337,12 +4344,12 @@
     "book": null,
     "tables": [
       {
-        "name": "Tabela de Vendas Business - Agosto 2026.pdf",
+        "name": "Tabela de Vendas Business - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 200000,
+    "price": 200000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4352,9 +4359,8 @@
     "lng": null,
     "precision": null,
     "photo": null,
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais.",
       "Validação pendente: A Itaúba tem um empreendimento chamado Quality Business neste endereço, mas a tabela base informa apenas “Business”. Confirmar se é o mesmo empreendimento."
     ],
@@ -4363,7 +4369,7 @@
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.itauba.com.br/imovel/quality-business.html",
     "addressReviewStatus": "Precisa de apoio",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "unic-icarai",
@@ -4601,12 +4607,12 @@
     "book": null,
     "tables": [
       {
-        "name": "Tabela de venda - DaVinci - Set_2026.pdf",
+        "name": "Tabela de Vendas DaVinci - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1699000,
+    "price": 1699000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4616,7 +4622,7 @@
     "lng": -43.107068,
     "precision": null,
     "photo": null,
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-09",
     "notes": [
       "Endereço em conferência nos materiais."
     ],
@@ -4626,7 +4632,7 @@
     "addressSource": "https://falvesinc.com.br/empreendimentos/davinci-residence",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.905833,-43.107068",
-    "materialsCheckedAt": "2026-10-05"
+    "materialsCheckedAt": "2026-10-09"
   },
   {
     "id": "baume",
