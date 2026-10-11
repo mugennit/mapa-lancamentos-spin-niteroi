@@ -25,3 +25,39 @@
 
 .brand-logo{width:88px;height:58px;object-fit:contain;background:#fff;border-radius:6px;padding:5px;flex:none}
 @media(max-width:640px){.brand-logo{width:74px;height:48px;padding:4px}}
+
+/* Refinamento visual: identidade Spin, filtros compactos e cards mais legíveis. */
+:root{--primary:#126184;--ring:#126184;--accent:#eaf4f8;--accent-foreground:#105a78}
+.controls{padding:16px 18px 12px;background:#f8fafc}
+.search-wrap input{height:42px;background:#fff;font-size:14px}
+.filters{gap:8px;margin-top:9px}
+.filter-label{font-size:12px;font-weight:600}
+.filter-trigger{height:36px;font-size:13px}
+.price-range-filter{margin-top:9px}
+.price-input-wrap{height:36px}
+.filter-toggle{margin-top:10px}
+.count-row{padding:12px 18px 8px}
+.project-card{border-radius:10px;margin:8px 0 10px;box-shadow:0 2px 8px #18374d0c}
+.card-main{gap:11px;padding:12px 12px 9px}
+.card-thumb,.no-photo{width:72px;height:76px;border-radius:7px}
+.card-copy .eyebrow{font-size:10px;font-weight:700;letter-spacing:.055em;color:#527991}
+.card-copy h2{font-size:16px;line-height:1.25;margin-bottom:5px}
+.card-location{font-size:13px}
+.card-price{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:7px;padding:7px 9px;border-radius:6px;background:#eef6fa;color:#587184;font-size:11px}
+.card-price strong{color:#105e80;font-size:15px;white-space:nowrap}
+.card-availability{font-size:11.5px;line-height:1.4;margin-top:6px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.card-footer{background:#fbfcfd;padding:8px 12px}
+.material-link{border-radius:6px}
+.table-date{font-size:11px}
+.pin{padding:3px 5px;max-width:108px;font-size:9px;border-width:1px;box-shadow:0 1px 5px #16354c30}
+.pin::after{width:6px;height:6px;bottom:-4px;border-width:1px}
+.pin-dot{width:12px;height:12px;min-width:12px;min-height:12px;padding:0;border:2px solid #fff;border-radius:50%;background:#176582;box-shadow:0 1px 5px #102d4370}
+.pin-dot::after{display:none}
+.pin-active{background:#f0aa52;color:#102d43;border-color:#fff}
+.pin-cluster{min-width:25px;min-height:25px;font-size:10px;background:#164f72;color:#fff;border:2px solid #fff}
+@media(max-width:640px){
+ .controls{padding:12px 14px 10px}
+ .count-row{padding:10px 14px 6px}
+ .card-main{padding:11px 10px 8px}
+ .card-price strong{font-size:14px}
+}
