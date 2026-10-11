@@ -7,9 +7,9 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
   return (
     <main className="login-page">
       <section className="login-card" aria-labelledby="login-title">
-        <span className="login-brand">spin</span>
+        <img className="login-brand-logo" src="/spin-logo.svg" alt="Spin Inovações Imobiliárias" />
         <p className="login-eyebrow">Acesso da equipe</p>
-        <h1 id="login-title">Mapa de empreendimentos</h1>
+        <h1 id="login-title">Mapa de Empreendimentos</h1>
         <p className="login-intro">Digite a senha compartilhada para consultar os lançamentos.</p>
         <LoginForm erro={Boolean(erro)} />
       </section>
