@@ -22,3 +22,6 @@
 .sidebar{overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable}
 .controls,.count-row,.catalog-foot{flex-shrink:0}
 .results{flex:0 0 auto;overflow:visible}
+
+.brand-logo{width:88px;height:58px;object-fit:contain;background:#fff;border-radius:6px;padding:5px;flex:none}
+@media(max-width:640px){.brand-logo{width:74px;height:48px;padding:4px}}
