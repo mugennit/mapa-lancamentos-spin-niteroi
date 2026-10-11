@@ -61,3 +61,31 @@
  .card-main{padding:11px 10px 8px}
  .card-price strong{font-size:14px}
 }
+/* Chips de filtros e tipologias dos cards. */
+.active-filters{display:flex;flex-wrap:wrap;gap:6px;padding:10px 18px 0}
+.active-filter{display:inline-flex;align-items:center;gap:5px;max-width:100%;border:1px solid #c9dce6;border-radius:999px;background:#edf6fa;color:#174f6a;padding:5px 9px;font-size:11px;line-height:1.25}
+.active-filter:hover{background:#dfeef5;border-color:#9ebdce}
+.active-filter svg{flex:none}
+.card-typologies{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.card-typologies span{display:inline-flex;align-items:center;border:1px solid #d8e7ee;border-radius:999px;background:#f2f7fa;color:#365e73;padding:3px 7px;font-size:10px;line-height:1.2}
+@media(max-width:640px){
+ .app-header{height:62px;padding:0 13px}
+ .brand{gap:9px}
+ .brand-logo{width:62px;height:41px;padding:3px}
+ .brand h1{font-size:15px;line-height:1.15}
+ .brand p{margin-top:2px;font-size:11px}
+ .workspace{height:calc(100dvh - 112px)}
+ .card-thumb,.no-photo{width:62px;height:66px}
+ .card-main{gap:9px;padding:10px 9px 8px}
+ .card-copy h2{font-size:15px}
+ .card-location{font-size:12px}
+ .card-typologies{gap:3px;margin-top:5px}
+ .card-typologies span{font-size:9px;padding:3px 6px}
+ .card-price{padding:6px 8px;font-size:10px}
+ .card-price strong{font-size:13px}
+ .card-availability{font-size:10.5px}
+ .card-footer{padding:7px 9px}
+ .material-link{font-size:12px;padding:5px 7px}
+ .active-filters{gap:5px;padding:8px 14px 0}
+ .active-filter{font-size:10px;padding:5px 8px}
+}
