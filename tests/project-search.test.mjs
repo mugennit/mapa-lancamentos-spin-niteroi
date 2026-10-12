@@ -10,9 +10,10 @@ assert.equal(matchesBudget(p,undefined,'all','','700000'),true);
 assert.equal(matchesBudget({...p,priceLabel:'Aluguel'},data.baume,'3 quartos','','2000000'),false);
 assert.equal(matchingOffers(data.maren,'1 quarto','','700000')[0].unit,'104');
 assert.equal(matchingOffers(data.maren,'2 quartos','','700000').length,0);
+assert.ok(data['maria-maria'].offers.filter(o=>o.unit.toLowerCase().startsWith('cob')).every(o=>o.typology==='1 quarto'));
 const allowed=new Set(['baume','maren','gael','monier']);
 assert.deepEqual(parseSelection('#selecao=baume%2Cmaren%2Cfake%2Cgael%2Cmonier',allowed),['baume','maren','gael']);
 assert.deepEqual(validIds(['baume','baume',null,'fake'],allowed),['baume']);
 assert.deepEqual(parseSelection('#selecao=unknown',allowed),[]);
 for(const [id,t] of Object.entries(data)){assert.ok(t.tableUrl.startsWith('https://drive.google.com/'));for(const o of t.offers){assert.ok(o.price>=100000&&o.price<20000000,`${id}/${o.unit}`);assert.ok(['Studio','1 quarto','2 quartos','3 quartos','4 quartos'].includes(o.typology))}}
-console.log('10 behavior assertions and 534 unit rows passed');
+console.log('11 behavior assertions and 534 unit rows passed');
