@@ -91,6 +91,10 @@ export default defineConfig(async ({ command }) => {
       ];
 
   return {
+    // Use native ESM helpers to avoid a tslib CommonJS default-import failure in SSR.
+    resolve: {
+      alias: [{ find: /^tslib$/, replacement: "tslib/tslib.es6.mjs" }],
+    },
     server: {
       ...(managedLinux
         ? { host: "0.0.0.0", allowedHosts: ["terminal.local"] }
