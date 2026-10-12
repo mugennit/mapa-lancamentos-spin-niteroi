@@ -1,0 +1,2872 @@
+{
+  "141-living": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "1403",
+        "typology": "Studio",
+        "price": 609000.0
+      },
+      {
+        "unit": "1205",
+        "typology": "Studio",
+        "price": 519000.0
+      },
+      {
+        "unit": "1405",
+        "typology": "Studio",
+        "price": 540000.0
+      }
+    ]
+  },
+  "maria-maria": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "209",
+        "typology": "Studio",
+        "price": 739000.0
+      },
+      {
+        "unit": "212",
+        "typology": "Studio",
+        "price": 710000.0
+      },
+      {
+        "unit": "214",
+        "typology": "Studio",
+        "price": 737000.0
+      },
+      {
+        "unit": "cob 02",
+        "typology": "2 quartos",
+        "price": 2260000.0
+      },
+      {
+        "unit": "cob 03",
+        "typology": "3 quartos",
+        "price": 1629000.0
+      },
+      {
+        "unit": "cob 04",
+        "typology": "4 quartos",
+        "price": 1455000.0
+      },
+      {
+        "unit": "cob 05",
+        "typology": "1 quarto",
+        "price": 1277000.0
+      },
+      {
+        "unit": "cob 07",
+        "typology": "1 quarto",
+        "price": 1877000.0
+      }
+    ]
+  },
+  "conviva-camboinhas": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "205",
+        "typology": "1 quarto",
+        "price": 639900.0
+      },
+      {
+        "unit": "209",
+        "typology": "1 quarto",
+        "price": 629900.0
+      },
+      {
+        "unit": "409",
+        "typology": "1 quarto",
+        "price": 639900.0
+      },
+      {
+        "unit": "COB 1",
+        "typology": "1 quarto",
+        "price": 1499900.0
+      },
+      {
+        "unit": "212",
+        "typology": "1 quarto",
+        "price": 629900.0
+      },
+      {
+        "unit": "312",
+        "typology": "1 quarto",
+        "price": 634900.0
+      },
+      {
+        "unit": "309",
+        "typology": "1 quarto",
+        "price": 629900.0
+      },
+      {
+        "unit": "403",
+        "typology": "1 quarto",
+        "price": 639900.0
+      },
+      {
+        "unit": "404",
+        "typology": "1 quarto",
+        "price": 649900.0
+      },
+      {
+        "unit": "512",
+        "typology": "1 quarto",
+        "price": 644900.0
+      },
+      {
+        "unit": "603",
+        "typology": "1 quarto",
+        "price": 649900.0
+      },
+      {
+        "unit": "605",
+        "typology": "1 quarto",
+        "price": 665000.0
+      }
+    ]
+  },
+  "conviva-charitas": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "106",
+        "typology": "Studio",
+        "price": 799900.0
+      },
+      {
+        "unit": "107",
+        "typology": "Studio",
+        "price": 799900.0
+      },
+      {
+        "unit": "201",
+        "typology": "Studio",
+        "price": 718593.75
+      },
+      {
+        "unit": "202",
+        "typology": "Studio",
+        "price": 499875.0
+      },
+      {
+        "unit": "203",
+        "typology": "Studio",
+        "price": 499875.0
+      },
+      {
+        "unit": "204",
+        "typology": "Studio",
+        "price": 512375.0
+      },
+      {
+        "unit": "210",
+        "typology": "Studio",
+        "price": 599875.0
+      },
+      {
+        "unit": "301",
+        "typology": "Studio",
+        "price": 574875.0
+      },
+      {
+        "unit": "302",
+        "typology": "Studio",
+        "price": 499875.0
+      },
+      {
+        "unit": "303",
+        "typology": "Studio",
+        "price": 499875.0
+      },
+      {
+        "unit": "304",
+        "typology": "Studio",
+        "price": 512375.0
+      },
+      {
+        "unit": "310",
+        "typology": "Studio",
+        "price": 599875.0
+      },
+      {
+        "unit": "401",
+        "typology": "Studio",
+        "price": 574875.0
+      },
+      {
+        "unit": "402",
+        "typology": "Studio",
+        "price": 499875.0
+      },
+      {
+        "unit": "410",
+        "typology": "Studio",
+        "price": 599875.0
+      },
+      {
+        "unit": "601",
+        "typology": "Studio",
+        "price": 574875.0
+      },
+      {
+        "unit": "610",
+        "typology": "Studio",
+        "price": 599875.0
+      },
+      {
+        "unit": "701",
+        "typology": "Studio",
+        "price": 574875.0
+      },
+      {
+        "unit": "702",
+        "typology": "Studio",
+        "price": 499875.0
+      },
+      {
+        "unit": "704",
+        "typology": "Studio",
+        "price": 512375.0
+      },
+      {
+        "unit": "710",
+        "typology": "Studio",
+        "price": 599875.0
+      },
+      {
+        "unit": "801",
+        "typology": "Studio",
+        "price": 574875.0
+      }
+    ]
+  },
+  "nice-camboinhas": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "106",
+        "typology": "3 quartos",
+        "price": 1319890.0
+      },
+      {
+        "unit": "107",
+        "typology": "2 quartos",
+        "price": 1160390.0
+      }
+    ]
+  },
+  "conviva-life-camboinhas": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "206",
+        "typology": "2 quartos",
+        "price": 799900.0
+      },
+      {
+        "unit": "212",
+        "typology": "2 quartos",
+        "price": 799900.0
+      },
+      {
+        "unit": "307",
+        "typology": "2 quartos",
+        "price": 804900.0
+      },
+      {
+        "unit": "401",
+        "typology": "2 quartos",
+        "price": 809900.0
+      },
+      {
+        "unit": "406",
+        "typology": "2 quartos",
+        "price": 809900.0
+      },
+      {
+        "unit": "407",
+        "typology": "2 quartos",
+        "price": 809900.0
+      },
+      {
+        "unit": "505",
+        "typology": "2 quartos",
+        "price": 814900.0
+      },
+      {
+        "unit": "507",
+        "typology": "3 quartos",
+        "price": 1049900.0
+      },
+      {
+        "unit": "508",
+        "typology": "2 quartos",
+        "price": 814900.0
+      },
+      {
+        "unit": "606",
+        "typology": "3 quartos",
+        "price": 1099900.0
+      },
+      {
+        "unit": "201",
+        "typology": "2 quartos",
+        "price": 799900.0
+      },
+      {
+        "unit": "206",
+        "typology": "2 quartos",
+        "price": 799900.0
+      },
+      {
+        "unit": "207",
+        "typology": "2 quartos",
+        "price": 799900.0
+      },
+      {
+        "unit": "212",
+        "typology": "2 quartos",
+        "price": 799900.0
+      },
+      {
+        "unit": "306",
+        "typology": "2 quartos",
+        "price": 804900.0
+      },
+      {
+        "unit": "502",
+        "typology": "3 quartos",
+        "price": 1049900.0
+      },
+      {
+        "unit": "503",
+        "typology": "3 quartos",
+        "price": 1049900.0
+      },
+      {
+        "unit": "602",
+        "typology": "3 quartos",
+        "price": 1099900.0
+      },
+      {
+        "unit": "603",
+        "typology": "3 quartos",
+        "price": 1099900.0
+      }
+    ]
+  },
+  "conviva-life-inga": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "202",
+        "typology": "2 quartos",
+        "price": 729900.0
+      },
+      {
+        "unit": "208",
+        "typology": "Studio",
+        "price": 444900.0
+      },
+      {
+        "unit": "209",
+        "typology": "Studio",
+        "price": 444900.0
+      },
+      {
+        "unit": "302",
+        "typology": "2 quartos",
+        "price": 734900.0
+      },
+      {
+        "unit": "306",
+        "typology": "2 quartos",
+        "price": 679900.0
+      },
+      {
+        "unit": "308",
+        "typology": "Studio",
+        "price": 449900.0
+      },
+      {
+        "unit": "309",
+        "typology": "Studio",
+        "price": 449900.0
+      },
+      {
+        "unit": "402",
+        "typology": "2 quartos",
+        "price": 739900.0
+      },
+      {
+        "unit": "602",
+        "typology": "2 quartos",
+        "price": 749900.0
+      },
+      {
+        "unit": "702",
+        "typology": "2 quartos",
+        "price": 754900.0
+      },
+      {
+        "unit": "802",
+        "typology": "2 quartos",
+        "price": 759900.0
+      },
+      {
+        "unit": "808",
+        "typology": "Studio",
+        "price": 464900.0
+      },
+      {
+        "unit": "809",
+        "typology": "Studio",
+        "price": 464900.0
+      },
+      {
+        "unit": "901",
+        "typology": "2 quartos",
+        "price": 949900.0
+      },
+      {
+        "unit": "902",
+        "typology": "2 quartos",
+        "price": 764900.0
+      },
+      {
+        "unit": "1006",
+        "typology": "2 quartos",
+        "price": 714900.0
+      },
+      {
+        "unit": "1008",
+        "typology": "Studio",
+        "price": 484900.0
+      },
+      {
+        "unit": "1009",
+        "typology": "Studio",
+        "price": 484900.0
+      },
+      {
+        "unit": "1102",
+        "typology": "2 quartos",
+        "price": 774900.0
+      },
+      {
+        "unit": "1105",
+        "typology": "1 quarto",
+        "price": 494900.0
+      },
+      {
+        "unit": "1108",
+        "typology": "Studio",
+        "price": 489900.0
+      },
+      {
+        "unit": "1109",
+        "typology": "Studio",
+        "price": 489900.0
+      },
+      {
+        "unit": "1202",
+        "typology": "2 quartos",
+        "price": 779900.0
+      },
+      {
+        "unit": "1302",
+        "typology": "2 quartos",
+        "price": 784900.0
+      },
+      {
+        "unit": "1308",
+        "typology": "Studio",
+        "price": 499900.0
+      },
+      {
+        "unit": "1309",
+        "typology": "Studio",
+        "price": 499900.0
+      },
+      {
+        "unit": "1402",
+        "typology": "2 quartos",
+        "price": 789900.0
+      },
+      {
+        "unit": "1602",
+        "typology": "2 quartos",
+        "price": 799900.0
+      }
+    ]
+  },
+  "conviva-icarai": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "201",
+        "typology": "Studio",
+        "price": 644900.0
+      },
+      {
+        "unit": "202",
+        "typology": "Studio",
+        "price": 594900.0
+      },
+      {
+        "unit": "203",
+        "typology": "Studio",
+        "price": 594900.0
+      },
+      {
+        "unit": "204",
+        "typology": "Studio",
+        "price": 599900.0
+      },
+      {
+        "unit": "302",
+        "typology": "Studio",
+        "price": 599900.0
+      },
+      {
+        "unit": "303",
+        "typology": "Studio",
+        "price": 599900.0
+      },
+      {
+        "unit": "304",
+        "typology": "Studio",
+        "price": 649900.0
+      },
+      {
+        "unit": "305",
+        "typology": "Studio",
+        "price": 624900.0
+      },
+      {
+        "unit": "306",
+        "typology": "Studio",
+        "price": 599900.0
+      },
+      {
+        "unit": "308",
+        "typology": "Studio",
+        "price": 654900.0
+      },
+      {
+        "unit": "406",
+        "typology": "Studio",
+        "price": 604900.0
+      },
+      {
+        "unit": "408",
+        "typology": "Studio",
+        "price": 659900.0
+      },
+      {
+        "unit": "508",
+        "typology": "Studio",
+        "price": 664900.0
+      },
+      {
+        "unit": "605",
+        "typology": "Studio",
+        "price": 639900.0
+      },
+      {
+        "unit": "608",
+        "typology": "Studio",
+        "price": 669900.0
+      },
+      {
+        "unit": "705",
+        "typology": "Studio",
+        "price": 644900.0
+      },
+      {
+        "unit": "708",
+        "typology": "Studio",
+        "price": 674900.0
+      },
+      {
+        "unit": "805",
+        "typology": "Studio",
+        "price": 649900.0
+      },
+      {
+        "unit": "1108",
+        "typology": "Studio",
+        "price": 694900.0
+      }
+    ]
+  },
+  "conviva-itacoa": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "101",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "102",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "105",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "106",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "107",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "108",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "109",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "110",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "111",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "201",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "202",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "205",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "210",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "211",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "212",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "311",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "603",
+        "typology": "1 quarto",
+        "price": 549900.0
+      },
+      {
+        "unit": "Cob 3",
+        "typology": "1 quarto",
+        "price": 699900.0
+      }
+    ]
+  },
+  "lazuli": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1m2rHn8l9763aR_V-H5hWW3xTNcvVZK1l/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "401",
+        "typology": "4 quartos",
+        "price": 2899000.0
+      },
+      {
+        "unit": "402",
+        "typology": "4 quartos",
+        "price": 2899000.0
+      },
+      {
+        "unit": "404",
+        "typology": "4 quartos",
+        "price": 2901000.0
+      },
+      {
+        "unit": "405",
+        "typology": "4 quartos",
+        "price": 3250000.0
+      },
+      {
+        "unit": "502",
+        "typology": "4 quartos",
+        "price": 2934000.0
+      },
+      {
+        "unit": "601",
+        "typology": "4 quartos",
+        "price": 2969000.0
+      },
+      {
+        "unit": "603",
+        "typology": "3 quartos",
+        "price": 2159000.0
+      },
+      {
+        "unit": "604",
+        "typology": "4 quartos",
+        "price": 2971000.0
+      },
+      {
+        "unit": "701",
+        "typology": "4 quartos",
+        "price": 3004000.0
+      },
+      {
+        "unit": "702",
+        "typology": "4 quartos",
+        "price": 3004000.0
+      },
+      {
+        "unit": "703",
+        "typology": "3 quartos",
+        "price": 2199000.0
+      },
+      {
+        "unit": "705",
+        "typology": "4 quartos",
+        "price": 3513000.0
+      },
+      {
+        "unit": "802",
+        "typology": "4 quartos",
+        "price": 3039000.0
+      },
+      {
+        "unit": "803",
+        "typology": "3 quartos",
+        "price": 2239000.0
+      },
+      {
+        "unit": "806",
+        "typology": "3 quartos",
+        "price": 1922000.0
+      },
+      {
+        "unit": "903",
+        "typology": "3 quartos",
+        "price": 2279000.0
+      },
+      {
+        "unit": "904",
+        "typology": "4 quartos",
+        "price": 3075000.0
+      },
+      {
+        "unit": "905",
+        "typology": "4 quartos",
+        "price": 3654000.0
+      },
+      {
+        "unit": "1004",
+        "typology": "4 quartos",
+        "price": 3110000.0
+      },
+      {
+        "unit": "1006",
+        "typology": "3 quartos",
+        "price": 2450000.0
+      },
+      {
+        "unit": "402",
+        "typology": "3 quartos",
+        "price": 2240000.0
+      },
+      {
+        "unit": "405",
+        "typology": "4 quartos",
+        "price": 3652000.0
+      },
+      {
+        "unit": "501",
+        "typology": "3 quartos",
+        "price": 2399000.0
+      },
+      {
+        "unit": "502",
+        "typology": "3 quartos",
+        "price": 2284000.0
+      },
+      {
+        "unit": "503",
+        "typology": "4 quartos",
+        "price": 3017000.0
+      },
+      {
+        "unit": "504",
+        "typology": "4 quartos",
+        "price": 3116000.0
+      },
+      {
+        "unit": "505",
+        "typology": "4 quartos",
+        "price": 3784000.0
+      },
+      {
+        "unit": "603",
+        "typology": "4 quartos",
+        "price": 3053000.0
+      },
+      {
+        "unit": "701",
+        "typology": "3 quartos",
+        "price": 2491000.0
+      },
+      {
+        "unit": "704",
+        "typology": "4 quartos",
+        "price": 3170000.0
+      },
+      {
+        "unit": "705",
+        "typology": "4 quartos",
+        "price": 3828000.0
+      },
+      {
+        "unit": "803",
+        "typology": "4 quartos",
+        "price": 3124000.0
+      },
+      {
+        "unit": "804",
+        "typology": "4 quartos",
+        "price": 3188000.0
+      },
+      {
+        "unit": "901",
+        "typology": "3 quartos",
+        "price": 2583000.0
+      },
+      {
+        "unit": "903",
+        "typology": "4 quartos",
+        "price": 3159000.0
+      },
+      {
+        "unit": "904",
+        "typology": "4 quartos",
+        "price": 3224000.0
+      },
+      {
+        "unit": "1001",
+        "typology": "3 quartos",
+        "price": 2629000.0
+      },
+      {
+        "unit": "1002",
+        "typology": "3 quartos",
+        "price": 2504000.0
+      },
+      {
+        "unit": "1003",
+        "typology": "4 quartos",
+        "price": 3195000.0
+      },
+      {
+        "unit": "1005",
+        "typology": "4 quartos",
+        "price": 3917000.0
+      },
+      {
+        "unit": "402",
+        "typology": "4 quartos",
+        "price": 4662000.0
+      },
+      {
+        "unit": "404",
+        "typology": "4 quartos",
+        "price": 4713000.0
+      },
+      {
+        "unit": "501",
+        "typology": "4 quartos",
+        "price": 4813000.0
+      },
+      {
+        "unit": "502",
+        "typology": "4 quartos",
+        "price": 4760000.0
+      },
+      {
+        "unit": "503",
+        "typology": "4 quartos",
+        "price": 4760000.0
+      },
+      {
+        "unit": "504",
+        "typology": "4 quartos",
+        "price": 4813000.0
+      },
+      {
+        "unit": "602",
+        "typology": "4 quartos",
+        "price": 4810000.0
+      },
+      {
+        "unit": "603",
+        "typology": "4 quartos",
+        "price": 4810000.0
+      },
+      {
+        "unit": "702",
+        "typology": "4 quartos",
+        "price": 4907000.0
+      },
+      {
+        "unit": "703",
+        "typology": "4 quartos",
+        "price": 4907000.0
+      },
+      {
+        "unit": "704",
+        "typology": "4 quartos",
+        "price": 4962000.0
+      },
+      {
+        "unit": "803",
+        "typology": "4 quartos",
+        "price": 5006000.0
+      },
+      {
+        "unit": "804",
+        "typology": "4 quartos",
+        "price": 5061000.0
+      },
+      {
+        "unit": "902",
+        "typology": "4 quartos",
+        "price": 5104000.0
+      },
+      {
+        "unit": "904",
+        "typology": "4 quartos",
+        "price": 5160000.0
+      },
+      {
+        "unit": "1002",
+        "typology": "4 quartos",
+        "price": 5202000.0
+      },
+      {
+        "unit": "1003",
+        "typology": "4 quartos",
+        "price": 5202000.0
+      }
+    ]
+  },
+  "sou-charitas": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1ujNZRqo7cihmcd-y3EYJQGKj-mak0ZvE/view?usp=drivesdk",
+    "tableDate": "Agosto 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "209",
+        "typology": "2 quartos",
+        "price": 1332160.06
+      },
+      {
+        "unit": "309",
+        "typology": "2 quartos",
+        "price": 1366912.07
+      },
+      {
+        "unit": "409",
+        "typology": "2 quartos",
+        "price": 1401664.07
+      },
+      {
+        "unit": "609",
+        "typology": "2 quartos",
+        "price": 1471168.07
+      },
+      {
+        "unit": "109",
+        "typology": "2 quartos",
+        "price": 1312722.12
+      },
+      {
+        "unit": "201",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "202",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "203",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "204",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "205",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "211",
+        "typology": "Studio",
+        "price": 474944.03
+      },
+      {
+        "unit": "212",
+        "typology": "Studio",
+        "price": 498112.02
+      },
+      {
+        "unit": "301",
+        "typology": "Studio",
+        "price": 532864.03
+      },
+      {
+        "unit": "302",
+        "typology": "Studio",
+        "price": 532864.03
+      },
+      {
+        "unit": "303",
+        "typology": "Studio",
+        "price": 532864.03
+      },
+      {
+        "unit": "304",
+        "typology": "Studio",
+        "price": 532864.03
+      },
+      {
+        "unit": "310",
+        "typology": "Studio",
+        "price": 451776.02
+      },
+      {
+        "unit": "311",
+        "typology": "Studio",
+        "price": 474944.03
+      },
+      {
+        "unit": "312",
+        "typology": "Studio",
+        "price": 498112.02
+      },
+      {
+        "unit": "401",
+        "typology": "Studio",
+        "price": 544448.02
+      },
+      {
+        "unit": "402",
+        "typology": "Studio",
+        "price": 544448.02
+      },
+      {
+        "unit": "411",
+        "typology": "Studio",
+        "price": 474944.03
+      },
+      {
+        "unit": "412",
+        "typology": "Studio",
+        "price": 498112.02
+      },
+      {
+        "unit": "501",
+        "typology": "Studio",
+        "price": 556032.03
+      },
+      {
+        "unit": "511",
+        "typology": "Studio",
+        "price": 486528.03
+      },
+      {
+        "unit": "612",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "711",
+        "typology": "Studio",
+        "price": 509696.03
+      },
+      {
+        "unit": "712",
+        "typology": "Studio",
+        "price": 532864.03
+      },
+      {
+        "unit": "810",
+        "typology": "Studio",
+        "price": 521280.03
+      },
+      {
+        "unit": "811",
+        "typology": "Studio",
+        "price": 544448.02
+      },
+      {
+        "unit": "812",
+        "typology": "Studio",
+        "price": 567616.03
+      }
+    ]
+  },
+  "sou-wellness-charitas": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1kqtlLIbqQyg2zRUtl5PdDDj8ood9y2V-/view?usp=drivesdk",
+    "tableDate": "Agosto 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "201",
+        "typology": "1 quarto",
+        "price": 655389.0
+      },
+      {
+        "unit": "301",
+        "typology": "1 quarto",
+        "price": 666312.15
+      },
+      {
+        "unit": "319",
+        "typology": "1 quarto",
+        "price": 577835.14
+      },
+      {
+        "unit": "320",
+        "typology": "1 quarto",
+        "price": 577835.14
+      },
+      {
+        "unit": "405",
+        "typology": "1 quarto",
+        "price": 605142.51
+      },
+      {
+        "unit": "413",
+        "typology": "1 quarto",
+        "price": 605142.51
+      },
+      {
+        "unit": "419",
+        "typology": "1 quarto",
+        "price": 594219.36
+      },
+      {
+        "unit": "420",
+        "typology": "1 quarto",
+        "price": 594219.36
+      },
+      {
+        "unit": "421",
+        "typology": "1 quarto",
+        "price": 594219.36
+      },
+      {
+        "unit": "502",
+        "typology": "1 quarto",
+        "price": 588758.29
+      },
+      {
+        "unit": "504",
+        "typology": "1 quarto",
+        "price": 610604.59
+      },
+      {
+        "unit": "513",
+        "typology": "1 quarto",
+        "price": 621527.74
+      },
+      {
+        "unit": "601",
+        "typology": "1 quarto",
+        "price": 699081.6
+      },
+      {
+        "unit": "602",
+        "typology": "1 quarto",
+        "price": 605142.51
+      },
+      {
+        "unit": "603",
+        "typology": "1 quarto",
+        "price": 616065.66
+      },
+      {
+        "unit": "604",
+        "typology": "1 quarto",
+        "price": 626988.81
+      },
+      {
+        "unit": "613",
+        "typology": "1 quarto",
+        "price": 637911.96
+      },
+      {
+        "unit": "619",
+        "typology": "1 quarto",
+        "price": 626988.81
+      },
+      {
+        "unit": "620",
+        "typology": "1 quarto",
+        "price": 626988.81
+      },
+      {
+        "unit": "621",
+        "typology": "1 quarto",
+        "price": 626988.81
+      },
+      {
+        "unit": "701",
+        "typology": "1 quarto",
+        "price": 710004.75
+      },
+      {
+        "unit": "702",
+        "typology": "1 quarto",
+        "price": 621527.74
+      },
+      {
+        "unit": "703",
+        "typology": "1 quarto",
+        "price": 632450.89
+      },
+      {
+        "unit": "704",
+        "typology": "1 quarto",
+        "price": 643374.04
+      },
+      {
+        "unit": "709",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "710",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "711",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "712",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "713",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "714",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "715",
+        "typology": "1 quarto",
+        "price": 708912.94
+      },
+      {
+        "unit": "719",
+        "typology": "1 quarto",
+        "price": 643374.04
+      },
+      {
+        "unit": "720",
+        "typology": "1 quarto",
+        "price": 643374.04
+      },
+      {
+        "unit": "721",
+        "typology": "1 quarto",
+        "price": 643374.04
+      },
+      {
+        "unit": "802",
+        "typology": "1 quarto",
+        "price": 637911.96
+      },
+      {
+        "unit": "803",
+        "typology": "1 quarto",
+        "price": 648835.11
+      },
+      {
+        "unit": "804",
+        "typology": "1 quarto",
+        "price": 659758.26
+      },
+      {
+        "unit": "810",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "811",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "812",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "813",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "814",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "819",
+        "typology": "1 quarto",
+        "price": 659758.26
+      },
+      {
+        "unit": "820",
+        "typology": "1 quarto",
+        "price": 659758.26
+      },
+      {
+        "unit": "821",
+        "typology": "1 quarto",
+        "price": 659758.26
+      },
+      {
+        "unit": "210",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "211",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "212",
+        "typology": "1 quarto",
+        "price": 710004.75
+      },
+      {
+        "unit": "213",
+        "typology": "1 quarto",
+        "price": 710004.75
+      },
+      {
+        "unit": "214",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "215",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "218",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "219",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "220",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "221",
+        "typology": "1 quarto",
+        "price": 730759.24
+      },
+      {
+        "unit": "901",
+        "typology": "1 quarto",
+        "price": 983083.5
+      },
+      {
+        "unit": "905",
+        "typology": "1 quarto",
+        "price": 983083.5
+      },
+      {
+        "unit": "906",
+        "typology": "1 quarto",
+        "price": 819236.25
+      },
+      {
+        "unit": "907",
+        "typology": "1 quarto",
+        "price": 819236.25
+      },
+      {
+        "unit": "908",
+        "typology": "1 quarto",
+        "price": 819236.25
+      },
+      {
+        "unit": "207",
+        "typology": "2 quartos",
+        "price": 1256162.25
+      },
+      {
+        "unit": "307",
+        "typology": "2 quartos",
+        "price": 1310778.0
+      },
+      {
+        "unit": "308",
+        "typology": "2 quartos",
+        "price": 1256162.25
+      },
+      {
+        "unit": "317",
+        "typology": "2 quartos",
+        "price": 992914.84
+      },
+      {
+        "unit": "407",
+        "typology": "2 quartos",
+        "price": 1365393.75
+      },
+      {
+        "unit": "408",
+        "typology": "2 quartos",
+        "price": 1310778.0
+      },
+      {
+        "unit": "416",
+        "typology": "2 quartos",
+        "price": 971068.54
+      },
+      {
+        "unit": "417",
+        "typology": "2 quartos",
+        "price": 1003837.99
+      },
+      {
+        "unit": "508",
+        "typology": "2 quartos",
+        "price": 1365393.75
+      },
+      {
+        "unit": "516",
+        "typology": "2 quartos",
+        "price": 1003837.99
+      },
+      {
+        "unit": "517",
+        "typology": "2 quartos",
+        "price": 1058453.74
+      },
+      {
+        "unit": "608",
+        "typology": "2 quartos",
+        "price": 1474625.25
+      },
+      {
+        "unit": "616",
+        "typology": "2 quartos",
+        "price": 1103238.15
+      },
+      {
+        "unit": "617",
+        "typology": "2 quartos",
+        "price": 1091223.19
+      },
+      {
+        "unit": "708",
+        "typology": "2 quartos",
+        "price": 1529241.0
+      },
+      {
+        "unit": "716",
+        "typology": "2 quartos",
+        "price": 1310778.0
+      },
+      {
+        "unit": "717",
+        "typology": "2 quartos",
+        "price": 1256162.25
+      },
+      {
+        "unit": "807",
+        "typology": "2 quartos",
+        "price": 1583856.75
+      },
+      {
+        "unit": "808",
+        "typology": "2 quartos",
+        "price": 1583856.75
+      },
+      {
+        "unit": "816",
+        "typology": "2 quartos",
+        "price": 1365393.75
+      },
+      {
+        "unit": "817",
+        "typology": "2 quartos",
+        "price": 1256162.25
+      },
+      {
+        "unit": "208",
+        "typology": "2 quartos",
+        "price": 1747704.0
+      },
+      {
+        "unit": "216",
+        "typology": "2 quartos",
+        "price": 1582764.94
+      },
+      {
+        "unit": "217",
+        "typology": "2 quartos",
+        "price": 1691996.44
+      },
+      {
+        "unit": "902",
+        "typology": "2 quartos",
+        "price": 1310778.0
+      },
+      {
+        "unit": "903",
+        "typology": "2 quartos",
+        "price": 1365393.75
+      },
+      {
+        "unit": "904",
+        "typology": "2 quartos",
+        "price": 1747704.0
+      }
+    ]
+  },
+  "marina": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "101",
+        "typology": "3 quartos",
+        "price": 2680000.0
+      },
+      {
+        "unit": "104",
+        "typology": "2 quartos",
+        "price": 1190000.0
+      },
+      {
+        "unit": "503",
+        "typology": "3 quartos",
+        "price": 3690000.0
+      }
+    ]
+  },
+  "serena": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "204",
+        "typology": "2 quartos",
+        "price": 1590000.0
+      },
+      {
+        "unit": "303",
+        "typology": "3 quartos",
+        "price": 1540000.0
+      },
+      {
+        "unit": "304",
+        "typology": "2 quartos",
+        "price": 1230000.0
+      },
+      {
+        "unit": "306",
+        "typology": "3 quartos",
+        "price": 1820000.0
+      },
+      {
+        "unit": "406",
+        "typology": "3 quartos",
+        "price": 1920000.0
+      },
+      {
+        "unit": "503",
+        "typology": "3 quartos",
+        "price": 1840000.0
+      },
+      {
+        "unit": "504",
+        "typology": "2 quartos",
+        "price": 1350000.0
+      },
+      {
+        "unit": "506",
+        "typology": "3 quartos",
+        "price": 2190000.0
+      }
+    ]
+  },
+  "althea": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "1001",
+        "typology": "2 quartos",
+        "price": 1000000.0
+      },
+      {
+        "unit": "502",
+        "typology": "2 quartos",
+        "price": 900000.0
+      },
+      {
+        "unit": "1002",
+        "typology": "2 quartos",
+        "price": 970000.0
+      },
+      {
+        "unit": "1202",
+        "typology": "2 quartos",
+        "price": 990000.0
+      },
+      {
+        "unit": "1402",
+        "typology": "2 quartos",
+        "price": 1200000.0
+      },
+      {
+        "unit": "603",
+        "typology": "2 quartos",
+        "price": 720000.0
+      },
+      {
+        "unit": "903",
+        "typology": "2 quartos",
+        "price": 750000.0
+      },
+      {
+        "unit": "1003",
+        "typology": "2 quartos",
+        "price": 760000.0
+      },
+      {
+        "unit": "1103",
+        "typology": "2 quartos",
+        "price": 770000.0
+      },
+      {
+        "unit": "1203",
+        "typology": "2 quartos",
+        "price": 780000.0
+      },
+      {
+        "unit": "1303",
+        "typology": "2 quartos",
+        "price": 790000.0
+      },
+      {
+        "unit": "1403",
+        "typology": "2 quartos",
+        "price": 800000.0
+      },
+      {
+        "unit": "304",
+        "typology": "1 quarto",
+        "price": 510000.0
+      },
+      {
+        "unit": "604",
+        "typology": "1 quarto",
+        "price": 520000.0
+      },
+      {
+        "unit": "804",
+        "typology": "1 quarto",
+        "price": 530000.0
+      },
+      {
+        "unit": "904",
+        "typology": "1 quarto",
+        "price": 540000.0
+      },
+      {
+        "unit": "1004",
+        "typology": "1 quarto",
+        "price": 550000.0
+      },
+      {
+        "unit": "1104",
+        "typology": "1 quarto",
+        "price": 600000.0
+      },
+      {
+        "unit": "1204",
+        "typology": "1 quarto",
+        "price": 610000.0
+      },
+      {
+        "unit": "1304",
+        "typology": "1 quarto",
+        "price": 620000.0
+      },
+      {
+        "unit": "1404",
+        "typology": "1 quarto",
+        "price": 630000.0
+      },
+      {
+        "unit": "305",
+        "typology": "1 quarto",
+        "price": 500000.0
+      },
+      {
+        "unit": "805",
+        "typology": "1 quarto",
+        "price": 540000.0
+      },
+      {
+        "unit": "905",
+        "typology": "1 quarto",
+        "price": 550000.0
+      },
+      {
+        "unit": "1005",
+        "typology": "1 quarto",
+        "price": 560000.0
+      },
+      {
+        "unit": "1205",
+        "typology": "1 quarto",
+        "price": 610000.0
+      },
+      {
+        "unit": "1305",
+        "typology": "1 quarto",
+        "price": 620000.0
+      },
+      {
+        "unit": "306",
+        "typology": "2 quartos",
+        "price": 750000.0
+      },
+      {
+        "unit": "406",
+        "typology": "2 quartos",
+        "price": 760000.0
+      },
+      {
+        "unit": "506",
+        "typology": "2 quartos",
+        "price": 770000.0
+      },
+      {
+        "unit": "1206",
+        "typology": "2 quartos",
+        "price": 830000.0
+      },
+      {
+        "unit": "1306",
+        "typology": "2 quartos",
+        "price": 840000.0
+      },
+      {
+        "unit": "1406",
+        "typology": "2 quartos",
+        "price": 850000.0
+      },
+      {
+        "unit": "Cob 1502",
+        "typology": "1 quarto",
+        "price": 1900000.0
+      }
+    ]
+  },
+  "np38": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "1001",
+        "typology": "2 quartos",
+        "price": 855000.0
+      },
+      {
+        "unit": "1101",
+        "typology": "2 quartos",
+        "price": 875000.0
+      },
+      {
+        "unit": "1201",
+        "typology": "2 quartos",
+        "price": 895000.0
+      },
+      {
+        "unit": "1301",
+        "typology": "2 quartos",
+        "price": 915000.0
+      },
+      {
+        "unit": "902",
+        "typology": "2 quartos",
+        "price": 775000.0
+      },
+      {
+        "unit": "1002",
+        "typology": "2 quartos",
+        "price": 785000.0
+      },
+      {
+        "unit": "1102",
+        "typology": "2 quartos",
+        "price": 795000.0
+      },
+      {
+        "unit": "1202",
+        "typology": "2 quartos",
+        "price": 805000.0
+      },
+      {
+        "unit": "303",
+        "typology": "2 quartos",
+        "price": 665000.0
+      },
+      {
+        "unit": "503",
+        "typology": "2 quartos",
+        "price": 715000.0
+      },
+      {
+        "unit": "1003",
+        "typology": "2 quartos",
+        "price": 775000.0
+      },
+      {
+        "unit": "1103",
+        "typology": "2 quartos",
+        "price": 785000.0
+      },
+      {
+        "unit": "1203",
+        "typology": "2 quartos",
+        "price": 795000.0
+      },
+      {
+        "unit": "1303",
+        "typology": "2 quartos",
+        "price": 870000.0
+      },
+      {
+        "unit": "204",
+        "typology": "2 quartos",
+        "price": 655000.0
+      },
+      {
+        "unit": "304",
+        "typology": "2 quartos",
+        "price": 665000.0
+      },
+      {
+        "unit": "904",
+        "typology": "2 quartos",
+        "price": 765000.0
+      },
+      {
+        "unit": "1004",
+        "typology": "2 quartos",
+        "price": 775000.0
+      },
+      {
+        "unit": "1104",
+        "typology": "2 quartos",
+        "price": 785000.0
+      },
+      {
+        "unit": "1204",
+        "typology": "2 quartos",
+        "price": 795000.0
+      },
+      {
+        "unit": "1304",
+        "typology": "2 quartos",
+        "price": 870000.0
+      },
+      {
+        "unit": "406",
+        "typology": "2 quartos",
+        "price": 765000.0
+      },
+      {
+        "unit": "906",
+        "typology": "2 quartos",
+        "price": 855000.0
+      },
+      {
+        "unit": "1106",
+        "typology": "2 quartos",
+        "price": 875000.0
+      },
+      {
+        "unit": "1206",
+        "typology": "2 quartos",
+        "price": 895000.0
+      },
+      {
+        "unit": "1306",
+        "typology": "2 quartos",
+        "price": 915000.0
+      },
+      {
+        "unit": "Cob 1402",
+        "typology": "1 quarto",
+        "price": 1500000.0
+      }
+    ]
+  },
+  "jardim-itacoa": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1pyQdpbCX_TWmU5EF-TD3-rOTgDs-kSKe/view?usp=drivesdk",
+    "tableDate": "Agosto 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "502",
+        "typology": "1 quarto",
+        "price": 492500.0
+      },
+      {
+        "unit": "609",
+        "typology": "2 quartos",
+        "price": 672000.0
+      },
+      {
+        "unit": "709",
+        "typology": "2 quartos",
+        "price": 693000.0
+      },
+      {
+        "unit": "801",
+        "typology": "2 quartos",
+        "price": 714000.0
+      },
+      {
+        "unit": "804",
+        "typology": "2 quartos",
+        "price": 714000.0
+      },
+      {
+        "unit": "809",
+        "typology": "2 quartos",
+        "price": 724500.0
+      },
+      {
+        "unit": "812",
+        "typology": "1 quarto",
+        "price": 555500.0
+      }
+    ]
+  },
+  "wind-itacoatiara": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk",
+    "tableDate": "Março 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "111",
+        "typology": "2 quartos",
+        "price": 789000.0
+      },
+      {
+        "unit": "202",
+        "typology": "2 quartos",
+        "price": 799000.0
+      },
+      {
+        "unit": "204",
+        "typology": "1 quarto",
+        "price": 579000.0
+      },
+      {
+        "unit": "209",
+        "typology": "2 quartos",
+        "price": 859000.0
+      }
+    ]
+  },
+  "wind-oceanica": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "101",
+        "typology": "2 quartos",
+        "price": 899000.0
+      },
+      {
+        "unit": "103",
+        "typology": "2 quartos",
+        "price": 909000.0
+      },
+      {
+        "unit": "206",
+        "typology": "1 quarto",
+        "price": 859000.0
+      },
+      {
+        "unit": "207",
+        "typology": "2 quartos",
+        "price": 889000.0
+      },
+      {
+        "unit": "306",
+        "typology": "1 quarto",
+        "price": 899000.0
+      },
+      {
+        "unit": "307",
+        "typology": "2 quartos",
+        "price": 929000.0
+      },
+      {
+        "unit": "406",
+        "typology": "1 quarto",
+        "price": 929000.0
+      },
+      {
+        "unit": "505",
+        "typology": "2 quartos",
+        "price": 989000.0
+      },
+      {
+        "unit": "506",
+        "typology": "1 quarto",
+        "price": 959000.0
+      },
+      {
+        "unit": "507",
+        "typology": "2 quartos",
+        "price": 989000.0
+      },
+      {
+        "unit": "601",
+        "typology": "3 quartos",
+        "price": 2499000.0
+      },
+      {
+        "unit": "602",
+        "typology": "3 quartos",
+        "price": 2599000.0
+      }
+    ]
+  },
+  "monier": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1WfGNg0IX0jDxAHTu9zzUSfZ5yNmPqRM_/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "101",
+        "typology": "2 quartos",
+        "price": 827285.8
+      },
+      {
+        "unit": "102",
+        "typology": "2 quartos",
+        "price": 790311.2
+      },
+      {
+        "unit": "103",
+        "typology": "2 quartos",
+        "price": 745091.83
+      },
+      {
+        "unit": "106",
+        "typology": "2 quartos",
+        "price": 760507.53
+      },
+      {
+        "unit": "107",
+        "typology": "2 quartos",
+        "price": 697629.73
+      },
+      {
+        "unit": "108",
+        "typology": "2 quartos",
+        "price": 707754.98
+      },
+      {
+        "unit": "109",
+        "typology": "2 quartos",
+        "price": 749268.5
+      },
+      {
+        "unit": "202",
+        "typology": "2 quartos",
+        "price": 812887.57
+      },
+      {
+        "unit": "206",
+        "typology": "2 quartos",
+        "price": 783009.57
+      },
+      {
+        "unit": "207",
+        "typology": "2 quartos",
+        "price": 717880.23
+      },
+      {
+        "unit": "208",
+        "typology": "2 quartos",
+        "price": 728005.48
+      },
+      {
+        "unit": "209",
+        "typology": "2 quartos",
+        "price": 771438.0
+      },
+      {
+        "unit": "302",
+        "typology": "2 quartos",
+        "price": 831419.72
+      },
+      {
+        "unit": "303",
+        "typology": "2 quartos",
+        "price": 831419.72
+      },
+      {
+        "unit": "306",
+        "typology": "2 quartos",
+        "price": 811893.17
+      },
+      {
+        "unit": "307",
+        "typology": "2 quartos",
+        "price": 738130.73
+      },
+      {
+        "unit": "308",
+        "typology": "2 quartos",
+        "price": 748255.98
+      },
+      {
+        "unit": "309",
+        "typology": "2 quartos",
+        "price": 799894.75
+      },
+      {
+        "unit": "403",
+        "typology": "2 quartos",
+        "price": 865431.63
+      },
+      {
+        "unit": "407",
+        "typology": "2 quartos",
+        "price": 778631.73
+      },
+      {
+        "unit": "408",
+        "typology": "2 quartos",
+        "price": 788756.98
+      },
+      {
+        "unit": "409",
+        "typology": "2 quartos",
+        "price": 832341.0
+      },
+      {
+        "unit": "410",
+        "typology": "1 quarto",
+        "price": 641948.93
+      },
+      {
+        "unit": "502",
+        "typology": "2 quartos",
+        "price": 895309.63
+      },
+      {
+        "unit": "503",
+        "typology": "2 quartos",
+        "price": 895309.63
+      },
+      {
+        "unit": "506",
+        "typology": "2 quartos",
+        "price": 943996.5
+      },
+      {
+        "unit": "507",
+        "typology": "2 quartos",
+        "price": 819132.73
+      },
+      {
+        "unit": "508",
+        "typology": "2 quartos",
+        "price": 829257.98
+      },
+      {
+        "unit": "COB 01",
+        "typology": "3 quartos",
+        "price": 1450000.0
+      },
+      {
+        "unit": "COB 02",
+        "typology": "3 quartos",
+        "price": 1500000.0
+      },
+      {
+        "unit": "COB 05",
+        "typology": "3 quartos",
+        "price": 1400000.0
+      }
+    ]
+  },
+  "gael": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1kPz2vVDJeqMWB4b-fojLixAbXwf0vVbQ/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "101",
+        "typology": "2 quartos",
+        "price": 926218.0
+      },
+      {
+        "unit": "103",
+        "typology": "2 quartos",
+        "price": 905612.0
+      },
+      {
+        "unit": "107",
+        "typology": "2 quartos",
+        "price": 775516.0
+      },
+      {
+        "unit": "201",
+        "typology": "2 quartos",
+        "price": 957126.0
+      },
+      {
+        "unit": "204",
+        "typology": "2 quartos",
+        "price": 771677.0
+      },
+      {
+        "unit": "303",
+        "typology": "2 quartos",
+        "price": 957126.0
+      },
+      {
+        "unit": "304",
+        "typology": "2 quartos",
+        "price": 802585.0
+      },
+      {
+        "unit": "308",
+        "typology": "2 quartos",
+        "price": 843796.0
+      },
+      {
+        "unit": "401",
+        "typology": "2 quartos",
+        "price": 995854.0
+      },
+      {
+        "unit": "402",
+        "typology": "2 quartos",
+        "price": 957126.0
+      },
+      {
+        "unit": "403",
+        "typology": "2 quartos",
+        "price": 985577.0
+      },
+      {
+        "unit": "404",
+        "typology": "2 quartos",
+        "price": 831420.0
+      },
+      {
+        "unit": "407",
+        "typology": "2 quartos",
+        "price": 905612.0
+      },
+      {
+        "unit": "408",
+        "typology": "2 quartos",
+        "price": 872528.0
+      },
+      {
+        "unit": "501",
+        "typology": "2 quartos",
+        "price": 1057221.0
+      },
+      {
+        "unit": "502",
+        "typology": "2 quartos",
+        "price": 978252.0
+      },
+      {
+        "unit": "503",
+        "typology": "2 quartos",
+        "price": 1016520.0
+      },
+      {
+        "unit": "504",
+        "typology": "2 quartos",
+        "price": 914766.0
+      },
+      {
+        "unit": "505",
+        "typology": "2 quartos",
+        "price": 968051.0
+      },
+      {
+        "unit": "506",
+        "typology": "2 quartos",
+        "price": 876244.0
+      },
+      {
+        "unit": "508",
+        "typology": "2 quartos",
+        "price": 955468.0
+      },
+      {
+        "unit": "Cob 01",
+        "typology": "3 quartos",
+        "price": 2151790.0
+      },
+      {
+        "unit": "Cob 02",
+        "typology": "3 quartos",
+        "price": 2049275.0
+      }
+    ]
+  },
+  "maren": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1SwzmO762LF1NW-dURK55elt-S2VH8RTX/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "104",
+        "typology": "1 quarto",
+        "price": 690000
+      },
+      {
+        "unit": "204",
+        "typology": "2 quartos",
+        "price": 880000
+      },
+      {
+        "unit": "205",
+        "typology": "2 quartos",
+        "price": 860000
+      },
+      {
+        "unit": "206",
+        "typology": "2 quartos",
+        "price": 805000
+      },
+      {
+        "unit": "305",
+        "typology": "2 quartos",
+        "price": 880000
+      },
+      {
+        "unit": "306",
+        "typology": "2 quartos",
+        "price": 825000
+      },
+      {
+        "unit": "405",
+        "typology": "2 quartos",
+        "price": 905000
+      },
+      {
+        "unit": "406",
+        "typology": "2 quartos",
+        "price": 850000
+      }
+    ]
+  },
+  "dianthus": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1_MhHPxQ2odEov9llMZ_JfLdA4ZqkDcGg/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "102",
+        "typology": "1 quarto",
+        "price": 593589.0
+      },
+      {
+        "unit": "201",
+        "typology": "2 quartos",
+        "price": 886830.0
+      },
+      {
+        "unit": "203",
+        "typology": "2 quartos",
+        "price": 899000.0
+      },
+      {
+        "unit": "204",
+        "typology": "2 quartos",
+        "price": 790000.0
+      },
+      {
+        "unit": "205",
+        "typology": "2 quartos",
+        "price": 849000.0
+      },
+      {
+        "unit": "301",
+        "typology": "2 quartos",
+        "price": 924000.0
+      },
+      {
+        "unit": "303",
+        "typology": "2 quartos",
+        "price": 999000.0
+      },
+      {
+        "unit": "304",
+        "typology": "2 quartos",
+        "price": 929000.0
+      },
+      {
+        "unit": "305",
+        "typology": "2 quartos",
+        "price": 949000.0
+      }
+    ]
+  },
+  "mare-blu": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1glKT_A9ThKKwIOfz6kN3DCAO7neUpjpf/view?usp=drivesdk",
+    "tableDate": "Setembro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "203",
+        "typology": "3 quartos",
+        "price": 1102000.0
+      },
+      {
+        "unit": "204",
+        "typology": "2 quartos",
+        "price": 945000.0
+      }
+    ]
+  },
+  "baume": {
+    "checkedAt": "2026-10-12",
+    "tableUrl": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "partial",
+    "offers": [
+      {
+        "unit": "301",
+        "typology": "3 quartos",
+        "price": 1720000.0
+      },
+      {
+        "unit": "401",
+        "typology": "3 quartos",
+        "price": 1750000.0
+      },
+      {
+        "unit": "501",
+        "typology": "3 quartos",
+        "price": 1780000.0
+      },
+      {
+        "unit": "601",
+        "typology": "3 quartos",
+        "price": 1810000.0
+      },
+      {
+        "unit": "701",
+        "typology": "3 quartos",
+        "price": 1840000.0
+      },
+      {
+        "unit": "1201",
+        "typology": "3 quartos",
+        "price": 1990000.0
+      },
+      {
+        "unit": "1301",
+        "typology": "3 quartos",
+        "price": 2020000.0
+      },
+      {
+        "unit": "1401",
+        "typology": "3 quartos",
+        "price": 2050000.0
+      },
+      {
+        "unit": "302",
+        "typology": "3 quartos",
+        "price": 1595000.0
+      },
+      {
+        "unit": "402",
+        "typology": "3 quartos",
+        "price": 1625000.0
+      },
+      {
+        "unit": "502",
+        "typology": "3 quartos",
+        "price": 1655000.0
+      },
+      {
+        "unit": "602",
+        "typology": "3 quartos",
+        "price": 1685000.0
+      },
+      {
+        "unit": "702",
+        "typology": "3 quartos",
+        "price": 1715000.0
+      },
+      {
+        "unit": "802",
+        "typology": "3 quartos",
+        "price": 1745000.0
+      },
+      {
+        "unit": "1202",
+        "typology": "3 quartos",
+        "price": 1865000.0
+      },
+      {
+        "unit": "1302",
+        "typology": "3 quartos",
+        "price": 1895000.0
+      },
+      {
+        "unit": "1402",
+        "typology": "3 quartos",
+        "price": 1925000.0
+      },
+      {
+        "unit": "303",
+        "typology": "3 quartos",
+        "price": 1670000.0
+      },
+      {
+        "unit": "403",
+        "typology": "3 quartos",
+        "price": 1700000.0
+      },
+      {
+        "unit": "503",
+        "typology": "3 quartos",
+        "price": 1730000.0
+      },
+      {
+        "unit": "603",
+        "typology": "3 quartos",
+        "price": 1760000.0
+      },
+      {
+        "unit": "703",
+        "typology": "3 quartos",
+        "price": 1790000.0
+      },
+      {
+        "unit": "803",
+        "typology": "3 quartos",
+        "price": 1820000.0
+      },
+      {
+        "unit": "1203",
+        "typology": "3 quartos",
+        "price": 1940000.0
+      },
+      {
+        "unit": "1303",
+        "typology": "3 quartos",
+        "price": 1970000.0
+      },
+      {
+        "unit": "1403",
+        "typology": "3 quartos",
+        "price": 2000000.0
+      },
+      {
+        "unit": "404",
+        "typology": "3 quartos",
+        "price": 1390000.0
+      },
+      {
+        "unit": "504",
+        "typology": "3 quartos",
+        "price": 1420000.0
+      },
+      {
+        "unit": "604",
+        "typology": "3 quartos",
+        "price": 1450000.0
+      },
+      {
+        "unit": "704",
+        "typology": "3 quartos",
+        "price": 1480000.0
+      },
+      {
+        "unit": "804",
+        "typology": "3 quartos",
+        "price": 1510000.0
+      },
+      {
+        "unit": "1204",
+        "typology": "3 quartos",
+        "price": 1630000.0
+      },
+      {
+        "unit": "1304",
+        "typology": "3 quartos",
+        "price": 1660000.0
+      },
+      {
+        "unit": "1404",
+        "typology": "3 quartos",
+        "price": 1690000.0
+      },
+      {
+        "unit": "405",
+        "typology": "2 quartos",
+        "price": 899000.0
+      },
+      {
+        "unit": "505",
+        "typology": "2 quartos",
+        "price": 970000.0
+      },
+      {
+        "unit": "605",
+        "typology": "2 quartos",
+        "price": 995000.0
+      },
+      {
+        "unit": "705",
+        "typology": "2 quartos",
+        "price": 1020000.0
+      },
+      {
+        "unit": "805",
+        "typology": "2 quartos",
+        "price": 1045000.0
+      },
+      {
+        "unit": "1305",
+        "typology": "2 quartos",
+        "price": 1170000.0
+      },
+      {
+        "unit": "1405",
+        "typology": "2 quartos",
+        "price": 1295000.0
+      },
+      {
+        "unit": "406",
+        "typology": "2 quartos",
+        "price": 835000.0
+      },
+      {
+        "unit": "506",
+        "typology": "2 quartos",
+        "price": 899000.0
+      },
+      {
+        "unit": "606",
+        "typology": "2 quartos",
+        "price": 935000.0
+      },
+      {
+        "unit": "706",
+        "typology": "2 quartos",
+        "price": 960000.0
+      },
+      {
+        "unit": "806",
+        "typology": "2 quartos",
+        "price": 985000.0
+      },
+      {
+        "unit": "1206",
+        "typology": "2 quartos",
+        "price": 1085000.0
+      },
+      {
+        "unit": "1306",
+        "typology": "2 quartos",
+        "price": 1110000.0
+      },
+      {
+        "unit": "1406",
+        "typology": "2 quartos",
+        "price": 1235000.0
+      },
+      {
+        "unit": "407",
+        "typology": "3 quartos",
+        "price": 1420000.0
+      },
+      {
+        "unit": "507",
+        "typology": "3 quartos",
+        "price": 1445000.0
+      },
+      {
+        "unit": "607",
+        "typology": "3 quartos",
+        "price": 1470000.0
+      },
+      {
+        "unit": "707",
+        "typology": "3 quartos",
+        "price": 1495000.0
+      },
+      {
+        "unit": "807",
+        "typology": "3 quartos",
+        "price": 1520000.0
+      },
+      {
+        "unit": "1207",
+        "typology": "3 quartos",
+        "price": 1620000.0
+      },
+      {
+        "unit": "1307",
+        "typology": "3 quartos",
+        "price": 1645000.0
+      },
+      {
+        "unit": "1407",
+        "typology": "3 quartos",
+        "price": 1670000.0
+      },
+      {
+        "unit": "COB 01",
+        "typology": "4 quartos",
+        "price": 4800000.0
+      },
+      {
+        "unit": "COB 02",
+        "typology": "3 quartos",
+        "price": 4150000.0
+      },
+      {
+        "unit": "COB 03",
+        "typology": "4 quartos",
+        "price": 4500000.0
+      }
+    ]
+  }
+}

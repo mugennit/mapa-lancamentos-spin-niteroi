@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {matchesBudget,parseSelection,validIds,matchingOffers} from '../lib/project-search.ts';
+const data=JSON.parse(readFileSync(new URL('../data/unit-offers.json',import.meta.url)));
+const p={price:500000};
+assert.equal(matchesBudget(p,data.baume,'3 quartos','','700000'),false);
+assert.equal(matchesBudget(p,data.baume,'3 quartos','','1600000'),true);
+assert.equal(matchesBudget(p,undefined,'3 quartos','','700000'),false);
+assert.equal(matchesBudget(p,undefined,'all','','700000'),true);
+assert.equal(matchesBudget({...p,priceLabel:'Aluguel'},data.baume,'3 quartos','','2000000'),false);
+assert.equal(matchingOffers(data.maren,'1 quarto','','700000')[0].unit,'104');
+assert.equal(matchingOffers(data.maren,'2 quartos','','700000').length,0);
+const allowed=new Set(['baume','maren','gael','monier']);
+assert.deepEqual(parseSelection('#selecao=baume%2Cmaren%2Cfake%2Cgael%2Cmonier',allowed),['baume','maren','gael']);
+assert.deepEqual(validIds(['baume','baume',null,'fake'],allowed),['baume']);
+assert.deepEqual(parseSelection('#selecao=unknown',allowed),[]);
+for(const [id,t] of Object.entries(data)){assert.ok(t.tableUrl.startsWith('https://drive.google.com/'));for(const o of t.offers){assert.ok(o.price>=100000&&o.price<20000000,`${id}/${o.unit}`);assert.ok(['Studio','1 quarto','2 quartos','3 quartos','4 quartos'].includes(o.typology))}}
+console.log('10 behavior assertions and 534 unit rows passed');
