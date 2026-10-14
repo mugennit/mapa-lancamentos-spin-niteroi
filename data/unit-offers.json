@@ -8,17 +8,17 @@
       {
         "unit": "1403",
         "typology": "Studio",
-        "price": 609000.0
+        "price": 609000
       },
       {
         "unit": "1205",
         "typology": "Studio",
-        "price": 519000.0
+        "price": 519000
       },
       {
         "unit": "1405",
         "typology": "Studio",
-        "price": 540000.0
+        "price": 540000
       }
     ]
   },
@@ -31,42 +31,50 @@
       {
         "unit": "209",
         "typology": "Studio",
-        "price": 739000.0
+        "price": 739000,
+        "parkingSpaces": 0
       },
       {
         "unit": "212",
         "typology": "Studio",
-        "price": 710000.0
+        "price": 710000,
+        "parkingSpaces": 0
       },
       {
         "unit": "214",
         "typology": "Studio",
-        "price": 737000.0
+        "price": 737000,
+        "parkingSpaces": 0
       },
       {
         "unit": "cob 02",
         "typology": "1 quarto",
-        "price": 2260000.0
+        "price": 2260000,
+        "parkingSpaces": 1
       },
       {
         "unit": "cob 03",
         "typology": "1 quarto",
-        "price": 1629000.0
+        "price": 1629000,
+        "parkingSpaces": 1
       },
       {
         "unit": "cob 04",
         "typology": "1 quarto",
-        "price": 1455000.0
+        "price": 1455000,
+        "parkingSpaces": 1
       },
       {
         "unit": "cob 05",
         "typology": "1 quarto",
-        "price": 1277000.0
+        "price": 1277000,
+        "parkingSpaces": 1
       },
       {
         "unit": "cob 07",
         "typology": "1 quarto",
-        "price": 1877000.0
+        "price": 1877000,
+        "parkingSpaces": 1
       }
     ]
   },
@@ -79,62 +87,62 @@
       {
         "unit": "205",
         "typology": "1 quarto",
-        "price": 639900.0
+        "price": 639900
       },
       {
         "unit": "209",
         "typology": "1 quarto",
-        "price": 629900.0
+        "price": 629900
       },
       {
         "unit": "409",
         "typology": "1 quarto",
-        "price": 639900.0
+        "price": 639900
       },
       {
         "unit": "COB 1",
         "typology": "1 quarto",
-        "price": 1499900.0
+        "price": 1499900
       },
       {
         "unit": "212",
         "typology": "1 quarto",
-        "price": 629900.0
+        "price": 629900
       },
       {
         "unit": "312",
         "typology": "1 quarto",
-        "price": 634900.0
+        "price": 634900
       },
       {
         "unit": "309",
         "typology": "1 quarto",
-        "price": 629900.0
+        "price": 629900
       },
       {
         "unit": "403",
         "typology": "1 quarto",
-        "price": 639900.0
+        "price": 639900
       },
       {
         "unit": "404",
         "typology": "1 quarto",
-        "price": 649900.0
+        "price": 649900
       },
       {
         "unit": "512",
         "typology": "1 quarto",
-        "price": 644900.0
+        "price": 644900
       },
       {
         "unit": "603",
         "typology": "1 quarto",
-        "price": 649900.0
+        "price": 649900
       },
       {
         "unit": "605",
         "typology": "1 quarto",
-        "price": 665000.0
+        "price": 665000
       }
     ]
   },
@@ -147,12 +155,12 @@
       {
         "unit": "106",
         "typology": "Studio",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "107",
         "typology": "Studio",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "201",
@@ -162,97 +170,97 @@
       {
         "unit": "202",
         "typology": "Studio",
-        "price": 499875.0
+        "price": 499875
       },
       {
         "unit": "203",
         "typology": "Studio",
-        "price": 499875.0
+        "price": 499875
       },
       {
         "unit": "204",
         "typology": "Studio",
-        "price": 512375.0
+        "price": 512375
       },
       {
         "unit": "210",
         "typology": "Studio",
-        "price": 599875.0
+        "price": 599875
       },
       {
         "unit": "301",
         "typology": "Studio",
-        "price": 574875.0
+        "price": 574875
       },
       {
         "unit": "302",
         "typology": "Studio",
-        "price": 499875.0
+        "price": 499875
       },
       {
         "unit": "303",
         "typology": "Studio",
-        "price": 499875.0
+        "price": 499875
       },
       {
         "unit": "304",
         "typology": "Studio",
-        "price": 512375.0
+        "price": 512375
       },
       {
         "unit": "310",
         "typology": "Studio",
-        "price": 599875.0
+        "price": 599875
       },
       {
         "unit": "401",
         "typology": "Studio",
-        "price": 574875.0
+        "price": 574875
       },
       {
         "unit": "402",
         "typology": "Studio",
-        "price": 499875.0
+        "price": 499875
       },
       {
         "unit": "410",
         "typology": "Studio",
-        "price": 599875.0
+        "price": 599875
       },
       {
         "unit": "601",
         "typology": "Studio",
-        "price": 574875.0
+        "price": 574875
       },
       {
         "unit": "610",
         "typology": "Studio",
-        "price": 599875.0
+        "price": 599875
       },
       {
         "unit": "701",
         "typology": "Studio",
-        "price": 574875.0
+        "price": 574875
       },
       {
         "unit": "702",
         "typology": "Studio",
-        "price": 499875.0
+        "price": 499875
       },
       {
         "unit": "704",
         "typology": "Studio",
-        "price": 512375.0
+        "price": 512375
       },
       {
         "unit": "710",
         "typology": "Studio",
-        "price": 599875.0
+        "price": 599875
       },
       {
         "unit": "801",
         "typology": "Studio",
-        "price": 574875.0
+        "price": 574875
       }
     ]
   },
@@ -265,12 +273,12 @@
       {
         "unit": "106",
         "typology": "3 quartos",
-        "price": 1319890.0
+        "price": 1319890
       },
       {
         "unit": "107",
         "typology": "2 quartos",
-        "price": 1160390.0
+        "price": 1160390
       }
     ]
   },
@@ -283,97 +291,97 @@
       {
         "unit": "206",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "212",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "307",
         "typology": "2 quartos",
-        "price": 804900.0
+        "price": 804900
       },
       {
         "unit": "401",
         "typology": "2 quartos",
-        "price": 809900.0
+        "price": 809900
       },
       {
         "unit": "406",
         "typology": "2 quartos",
-        "price": 809900.0
+        "price": 809900
       },
       {
         "unit": "407",
         "typology": "2 quartos",
-        "price": 809900.0
+        "price": 809900
       },
       {
         "unit": "505",
         "typology": "2 quartos",
-        "price": 814900.0
+        "price": 814900
       },
       {
         "unit": "507",
         "typology": "3 quartos",
-        "price": 1049900.0
+        "price": 1049900
       },
       {
         "unit": "508",
         "typology": "2 quartos",
-        "price": 814900.0
+        "price": 814900
       },
       {
         "unit": "606",
         "typology": "3 quartos",
-        "price": 1099900.0
+        "price": 1099900
       },
       {
         "unit": "201",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "206",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "207",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "212",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       },
       {
         "unit": "306",
         "typology": "2 quartos",
-        "price": 804900.0
+        "price": 804900
       },
       {
         "unit": "502",
         "typology": "3 quartos",
-        "price": 1049900.0
+        "price": 1049900
       },
       {
         "unit": "503",
         "typology": "3 quartos",
-        "price": 1049900.0
+        "price": 1049900
       },
       {
         "unit": "602",
         "typology": "3 quartos",
-        "price": 1099900.0
+        "price": 1099900
       },
       {
         "unit": "603",
         "typology": "3 quartos",
-        "price": 1099900.0
+        "price": 1099900
       }
     ]
   },
@@ -386,142 +394,142 @@
       {
         "unit": "202",
         "typology": "2 quartos",
-        "price": 729900.0
+        "price": 729900
       },
       {
         "unit": "208",
         "typology": "Studio",
-        "price": 444900.0
+        "price": 444900
       },
       {
         "unit": "209",
         "typology": "Studio",
-        "price": 444900.0
+        "price": 444900
       },
       {
         "unit": "302",
         "typology": "2 quartos",
-        "price": 734900.0
+        "price": 734900
       },
       {
         "unit": "306",
         "typology": "2 quartos",
-        "price": 679900.0
+        "price": 679900
       },
       {
         "unit": "308",
         "typology": "Studio",
-        "price": 449900.0
+        "price": 449900
       },
       {
         "unit": "309",
         "typology": "Studio",
-        "price": 449900.0
+        "price": 449900
       },
       {
         "unit": "402",
         "typology": "2 quartos",
-        "price": 739900.0
+        "price": 739900
       },
       {
         "unit": "602",
         "typology": "2 quartos",
-        "price": 749900.0
+        "price": 749900
       },
       {
         "unit": "702",
         "typology": "2 quartos",
-        "price": 754900.0
+        "price": 754900
       },
       {
         "unit": "802",
         "typology": "2 quartos",
-        "price": 759900.0
+        "price": 759900
       },
       {
         "unit": "808",
         "typology": "Studio",
-        "price": 464900.0
+        "price": 464900
       },
       {
         "unit": "809",
         "typology": "Studio",
-        "price": 464900.0
+        "price": 464900
       },
       {
         "unit": "901",
         "typology": "2 quartos",
-        "price": 949900.0
+        "price": 949900
       },
       {
         "unit": "902",
         "typology": "2 quartos",
-        "price": 764900.0
+        "price": 764900
       },
       {
         "unit": "1006",
         "typology": "2 quartos",
-        "price": 714900.0
+        "price": 714900
       },
       {
         "unit": "1008",
         "typology": "Studio",
-        "price": 484900.0
+        "price": 484900
       },
       {
         "unit": "1009",
         "typology": "Studio",
-        "price": 484900.0
+        "price": 484900
       },
       {
         "unit": "1102",
         "typology": "2 quartos",
-        "price": 774900.0
+        "price": 774900
       },
       {
         "unit": "1105",
         "typology": "1 quarto",
-        "price": 494900.0
+        "price": 494900
       },
       {
         "unit": "1108",
         "typology": "Studio",
-        "price": 489900.0
+        "price": 489900
       },
       {
         "unit": "1109",
         "typology": "Studio",
-        "price": 489900.0
+        "price": 489900
       },
       {
         "unit": "1202",
         "typology": "2 quartos",
-        "price": 779900.0
+        "price": 779900
       },
       {
         "unit": "1302",
         "typology": "2 quartos",
-        "price": 784900.0
+        "price": 784900
       },
       {
         "unit": "1308",
         "typology": "Studio",
-        "price": 499900.0
+        "price": 499900
       },
       {
         "unit": "1309",
         "typology": "Studio",
-        "price": 499900.0
+        "price": 499900
       },
       {
         "unit": "1402",
         "typology": "2 quartos",
-        "price": 789900.0
+        "price": 789900
       },
       {
         "unit": "1602",
         "typology": "2 quartos",
-        "price": 799900.0
+        "price": 799900
       }
     ]
   },
@@ -534,97 +542,97 @@
       {
         "unit": "201",
         "typology": "Studio",
-        "price": 644900.0
+        "price": 644900
       },
       {
         "unit": "202",
         "typology": "Studio",
-        "price": 594900.0
+        "price": 594900
       },
       {
         "unit": "203",
         "typology": "Studio",
-        "price": 594900.0
+        "price": 594900
       },
       {
         "unit": "204",
         "typology": "Studio",
-        "price": 599900.0
+        "price": 599900
       },
       {
         "unit": "302",
         "typology": "Studio",
-        "price": 599900.0
+        "price": 599900
       },
       {
         "unit": "303",
         "typology": "Studio",
-        "price": 599900.0
+        "price": 599900
       },
       {
         "unit": "304",
         "typology": "Studio",
-        "price": 649900.0
+        "price": 649900
       },
       {
         "unit": "305",
         "typology": "Studio",
-        "price": 624900.0
+        "price": 624900
       },
       {
         "unit": "306",
         "typology": "Studio",
-        "price": 599900.0
+        "price": 599900
       },
       {
         "unit": "308",
         "typology": "Studio",
-        "price": 654900.0
+        "price": 654900
       },
       {
         "unit": "406",
         "typology": "Studio",
-        "price": 604900.0
+        "price": 604900
       },
       {
         "unit": "408",
         "typology": "Studio",
-        "price": 659900.0
+        "price": 659900
       },
       {
         "unit": "508",
         "typology": "Studio",
-        "price": 664900.0
+        "price": 664900
       },
       {
         "unit": "605",
         "typology": "Studio",
-        "price": 639900.0
+        "price": 639900
       },
       {
         "unit": "608",
         "typology": "Studio",
-        "price": 669900.0
+        "price": 669900
       },
       {
         "unit": "705",
         "typology": "Studio",
-        "price": 644900.0
+        "price": 644900
       },
       {
         "unit": "708",
         "typology": "Studio",
-        "price": 674900.0
+        "price": 674900
       },
       {
         "unit": "805",
         "typology": "Studio",
-        "price": 649900.0
+        "price": 649900
       },
       {
         "unit": "1108",
         "typology": "Studio",
-        "price": 694900.0
+        "price": 694900
       }
     ]
   },
@@ -637,92 +645,92 @@
       {
         "unit": "101",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "102",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "105",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "106",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "107",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "108",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "109",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "110",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "111",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "201",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "202",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "205",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "210",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "211",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "212",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "311",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "603",
         "typology": "1 quarto",
-        "price": 549900.0
+        "price": 549900
       },
       {
         "unit": "Cob 3",
         "typology": "1 quarto",
-        "price": 699900.0
+        "price": 699900
       }
     ]
   },
@@ -735,287 +743,344 @@
       {
         "unit": "401",
         "typology": "4 quartos",
-        "price": 2899000.0
+        "price": 2899000,
+        "parkingSpaces": 2
       },
       {
         "unit": "402",
         "typology": "4 quartos",
-        "price": 2899000.0
+        "price": 2899000,
+        "parkingSpaces": 3
       },
       {
         "unit": "404",
         "typology": "4 quartos",
-        "price": 2901000.0
+        "price": 2901000,
+        "parkingSpaces": 3
       },
       {
         "unit": "405",
         "typology": "4 quartos",
-        "price": 3250000.0
+        "price": 3250000,
+        "parkingSpaces": 2
       },
       {
         "unit": "502",
         "typology": "4 quartos",
-        "price": 2934000.0
+        "price": 2934000,
+        "parkingSpaces": 3
       },
       {
         "unit": "601",
         "typology": "4 quartos",
-        "price": 2969000.0
+        "price": 2969000,
+        "parkingSpaces": 2
       },
       {
         "unit": "603",
         "typology": "3 quartos",
-        "price": 2159000.0
+        "price": 2159000,
+        "parkingSpaces": 3
       },
       {
         "unit": "604",
         "typology": "4 quartos",
-        "price": 2971000.0
+        "price": 2971000,
+        "parkingSpaces": 2
       },
       {
         "unit": "701",
         "typology": "4 quartos",
-        "price": 3004000.0
+        "price": 3004000,
+        "parkingSpaces": 2
       },
       {
         "unit": "702",
         "typology": "4 quartos",
-        "price": 3004000.0
+        "price": 3004000,
+        "parkingSpaces": 3
       },
       {
         "unit": "703",
         "typology": "3 quartos",
-        "price": 2199000.0
+        "price": 2199000,
+        "parkingSpaces": 3
       },
       {
         "unit": "705",
         "typology": "4 quartos",
-        "price": 3513000.0
+        "price": 3513000,
+        "parkingSpaces": 2
       },
       {
         "unit": "802",
         "typology": "4 quartos",
-        "price": 3039000.0
+        "price": 3039000,
+        "parkingSpaces": 2
       },
       {
         "unit": "803",
         "typology": "3 quartos",
-        "price": 2239000.0
+        "price": 2239000,
+        "parkingSpaces": 3
       },
       {
         "unit": "806",
         "typology": "3 quartos",
-        "price": 1922000.0
+        "price": 1922000,
+        "parkingSpaces": 2
       },
       {
         "unit": "903",
         "typology": "3 quartos",
-        "price": 2279000.0
+        "price": 2279000,
+        "parkingSpaces": 2
       },
       {
         "unit": "904",
         "typology": "4 quartos",
-        "price": 3075000.0
+        "price": 3075000,
+        "parkingSpaces": 3
       },
       {
         "unit": "905",
         "typology": "4 quartos",
-        "price": 3654000.0
+        "price": 3654000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1004",
         "typology": "4 quartos",
-        "price": 3110000.0
+        "price": 3110000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1006",
         "typology": "3 quartos",
-        "price": 2450000.0
+        "price": 2450000,
+        "parkingSpaces": 2
       },
       {
         "unit": "402",
         "typology": "3 quartos",
-        "price": 2240000.0
+        "price": 2240000,
+        "parkingSpaces": 3
       },
       {
         "unit": "405",
         "typology": "4 quartos",
-        "price": 3652000.0
+        "price": 3652000,
+        "parkingSpaces": 2
       },
       {
         "unit": "501",
         "typology": "3 quartos",
-        "price": 2399000.0
+        "price": 2399000,
+        "parkingSpaces": 3
       },
       {
         "unit": "502",
         "typology": "3 quartos",
-        "price": 2284000.0
+        "price": 2284000,
+        "parkingSpaces": 3
       },
       {
         "unit": "503",
         "typology": "4 quartos",
-        "price": 3017000.0
+        "price": 3017000,
+        "parkingSpaces": 3
       },
       {
         "unit": "504",
         "typology": "4 quartos",
-        "price": 3116000.0
+        "price": 3116000,
+        "parkingSpaces": 3
       },
       {
         "unit": "505",
         "typology": "4 quartos",
-        "price": 3784000.0
+        "price": 3784000,
+        "parkingSpaces": 2
       },
       {
         "unit": "603",
         "typology": "4 quartos",
-        "price": 3053000.0
+        "price": 3053000,
+        "parkingSpaces": 3
       },
       {
         "unit": "701",
         "typology": "3 quartos",
-        "price": 2491000.0
+        "price": 2491000,
+        "parkingSpaces": 2
       },
       {
         "unit": "704",
         "typology": "4 quartos",
-        "price": 3170000.0
+        "price": 3170000,
+        "parkingSpaces": 3
       },
       {
         "unit": "705",
         "typology": "4 quartos",
-        "price": 3828000.0
+        "price": 3828000,
+        "parkingSpaces": 2
       },
       {
         "unit": "803",
         "typology": "4 quartos",
-        "price": 3124000.0
+        "price": 3124000,
+        "parkingSpaces": 3
       },
       {
         "unit": "804",
         "typology": "4 quartos",
-        "price": 3188000.0
+        "price": 3188000,
+        "parkingSpaces": 3
       },
       {
         "unit": "901",
         "typology": "3 quartos",
-        "price": 2583000.0
+        "price": 2583000,
+        "parkingSpaces": 2
       },
       {
         "unit": "903",
         "typology": "4 quartos",
-        "price": 3159000.0
+        "price": 3159000,
+        "parkingSpaces": 2
       },
       {
         "unit": "904",
         "typology": "4 quartos",
-        "price": 3224000.0
+        "price": 3224000,
+        "parkingSpaces": 3
       },
       {
         "unit": "1001",
         "typology": "3 quartos",
-        "price": 2629000.0
+        "price": 2629000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1002",
         "typology": "3 quartos",
-        "price": 2504000.0
+        "price": 2504000,
+        "parkingSpaces": 3
       },
       {
         "unit": "1003",
         "typology": "4 quartos",
-        "price": 3195000.0
+        "price": 3195000,
+        "parkingSpaces": 3
       },
       {
         "unit": "1005",
         "typology": "4 quartos",
-        "price": 3917000.0
+        "price": 3917000,
+        "parkingSpaces": 2
       },
       {
         "unit": "402",
         "typology": "4 quartos",
-        "price": 4662000.0
+        "price": 4662000,
+        "parkingSpaces": 3
       },
       {
         "unit": "404",
         "typology": "4 quartos",
-        "price": 4713000.0
+        "price": 4713000,
+        "parkingSpaces": 3
       },
       {
         "unit": "501",
         "typology": "4 quartos",
-        "price": 4813000.0
+        "price": 4813000,
+        "parkingSpaces": 3
       },
       {
         "unit": "502",
         "typology": "4 quartos",
-        "price": 4760000.0
+        "price": 4760000,
+        "parkingSpaces": 3
       },
       {
         "unit": "503",
         "typology": "4 quartos",
-        "price": 4760000.0
+        "price": 4760000,
+        "parkingSpaces": 3
       },
       {
         "unit": "504",
         "typology": "4 quartos",
-        "price": 4813000.0
+        "price": 4813000,
+        "parkingSpaces": 3
       },
       {
         "unit": "602",
         "typology": "4 quartos",
-        "price": 4810000.0
+        "price": 4810000,
+        "parkingSpaces": 3
       },
       {
         "unit": "603",
         "typology": "4 quartos",
-        "price": 4810000.0
+        "price": 4810000,
+        "parkingSpaces": 3
       },
       {
         "unit": "702",
         "typology": "4 quartos",
-        "price": 4907000.0
+        "price": 4907000,
+        "parkingSpaces": 3
       },
       {
         "unit": "703",
         "typology": "4 quartos",
-        "price": 4907000.0
+        "price": 4907000,
+        "parkingSpaces": 3
       },
       {
         "unit": "704",
         "typology": "4 quartos",
-        "price": 4962000.0
+        "price": 4962000,
+        "parkingSpaces": 3
       },
       {
         "unit": "803",
         "typology": "4 quartos",
-        "price": 5006000.0
+        "price": 5006000,
+        "parkingSpaces": 3
       },
       {
         "unit": "804",
         "typology": "4 quartos",
-        "price": 5061000.0
+        "price": 5061000,
+        "parkingSpaces": 3
       },
       {
         "unit": "902",
         "typology": "4 quartos",
-        "price": 5104000.0
+        "price": 5104000,
+        "parkingSpaces": 3
       },
       {
         "unit": "904",
         "typology": "4 quartos",
-        "price": 5160000.0
+        "price": 5160000,
+        "parkingSpaces": 3
       },
       {
         "unit": "1002",
         "typology": "4 quartos",
-        "price": 5202000.0
+        "price": 5202000,
+        "parkingSpaces": 3
       },
       {
         "unit": "1003",
         "typology": "4 quartos",
-        "price": 5202000.0
+        "price": 5202000,
+        "parkingSpaces": 3
       }
     ]
   },
@@ -1048,137 +1113,164 @@
       {
         "unit": "109",
         "typology": "2 quartos",
-        "price": 1312722.12
+        "price": 1312722.12,
+        "parkingSpaces": 1
       },
       {
         "unit": "201",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "202",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "203",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "204",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "205",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "211",
         "typology": "Studio",
-        "price": 474944.03
+        "price": 474944.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "212",
         "typology": "Studio",
-        "price": 498112.02
+        "price": 498112.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "301",
         "typology": "Studio",
-        "price": 532864.03
+        "price": 532864.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "302",
         "typology": "Studio",
-        "price": 532864.03
+        "price": 532864.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "303",
         "typology": "Studio",
-        "price": 532864.03
+        "price": 532864.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "304",
         "typology": "Studio",
-        "price": 532864.03
+        "price": 532864.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "310",
         "typology": "Studio",
-        "price": 451776.02
+        "price": 451776.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "311",
         "typology": "Studio",
-        "price": 474944.03
+        "price": 474944.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "312",
         "typology": "Studio",
-        "price": 498112.02
+        "price": 498112.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "401",
         "typology": "Studio",
-        "price": 544448.02
+        "price": 544448.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "402",
         "typology": "Studio",
-        "price": 544448.02
+        "price": 544448.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "411",
         "typology": "Studio",
-        "price": 474944.03
+        "price": 474944.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "412",
         "typology": "Studio",
-        "price": 498112.02
+        "price": 498112.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "501",
         "typology": "Studio",
-        "price": 556032.03
+        "price": 556032.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "511",
         "typology": "Studio",
-        "price": 486528.03
+        "price": 486528.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "612",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "711",
         "typology": "Studio",
-        "price": 509696.03
+        "price": 509696.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "712",
         "typology": "Studio",
-        "price": 532864.03
+        "price": 532864.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "810",
         "typology": "Studio",
-        "price": 521280.03
+        "price": 521280.03,
+        "parkingSpaces": 0
       },
       {
         "unit": "811",
         "typology": "Studio",
-        "price": 544448.02
+        "price": 544448.02,
+        "parkingSpaces": 0
       },
       {
         "unit": "812",
         "typology": "Studio",
-        "price": 567616.03
+        "price": 567616.03,
+        "parkingSpaces": 0
       }
     ]
   },
@@ -1191,7 +1283,7 @@
       {
         "unit": "201",
         "typology": "1 quarto",
-        "price": 655389.0
+        "price": 655389
       },
       {
         "unit": "301",
@@ -1496,7 +1588,7 @@
       {
         "unit": "307",
         "typology": "2 quartos",
-        "price": 1310778.0
+        "price": 1310778
       },
       {
         "unit": "308",
@@ -1516,7 +1608,7 @@
       {
         "unit": "408",
         "typology": "2 quartos",
-        "price": 1310778.0
+        "price": 1310778
       },
       {
         "unit": "416",
@@ -1561,12 +1653,12 @@
       {
         "unit": "708",
         "typology": "2 quartos",
-        "price": 1529241.0
+        "price": 1529241
       },
       {
         "unit": "716",
         "typology": "2 quartos",
-        "price": 1310778.0
+        "price": 1310778
       },
       {
         "unit": "717",
@@ -1596,7 +1688,7 @@
       {
         "unit": "208",
         "typology": "2 quartos",
-        "price": 1747704.0
+        "price": 1747704
       },
       {
         "unit": "216",
@@ -1611,7 +1703,7 @@
       {
         "unit": "902",
         "typology": "2 quartos",
-        "price": 1310778.0
+        "price": 1310778
       },
       {
         "unit": "903",
@@ -1621,7 +1713,7 @@
       {
         "unit": "904",
         "typology": "2 quartos",
-        "price": 1747704.0
+        "price": 1747704
       }
     ]
   },
@@ -1634,17 +1726,17 @@
       {
         "unit": "101",
         "typology": "3 quartos",
-        "price": 2680000.0
+        "price": 2680000
       },
       {
         "unit": "104",
         "typology": "2 quartos",
-        "price": 1190000.0
+        "price": 1190000
       },
       {
         "unit": "503",
         "typology": "3 quartos",
-        "price": 3690000.0
+        "price": 3690000
       }
     ]
   },
@@ -1657,42 +1749,42 @@
       {
         "unit": "204",
         "typology": "2 quartos",
-        "price": 1590000.0
+        "price": 1590000
       },
       {
         "unit": "303",
         "typology": "3 quartos",
-        "price": 1540000.0
+        "price": 1540000
       },
       {
         "unit": "304",
         "typology": "2 quartos",
-        "price": 1230000.0
+        "price": 1230000
       },
       {
         "unit": "306",
         "typology": "3 quartos",
-        "price": 1820000.0
+        "price": 1820000
       },
       {
         "unit": "406",
         "typology": "3 quartos",
-        "price": 1920000.0
+        "price": 1920000
       },
       {
         "unit": "503",
         "typology": "3 quartos",
-        "price": 1840000.0
+        "price": 1840000
       },
       {
         "unit": "504",
         "typology": "2 quartos",
-        "price": 1350000.0
+        "price": 1350000
       },
       {
         "unit": "506",
         "typology": "3 quartos",
-        "price": 2190000.0
+        "price": 2190000
       }
     ]
   },
@@ -1705,172 +1797,172 @@
       {
         "unit": "1001",
         "typology": "2 quartos",
-        "price": 1000000.0
+        "price": 1000000
       },
       {
         "unit": "502",
         "typology": "2 quartos",
-        "price": 900000.0
+        "price": 900000
       },
       {
         "unit": "1002",
         "typology": "2 quartos",
-        "price": 970000.0
+        "price": 970000
       },
       {
         "unit": "1202",
         "typology": "2 quartos",
-        "price": 990000.0
+        "price": 990000
       },
       {
         "unit": "1402",
         "typology": "2 quartos",
-        "price": 1200000.0
+        "price": 1200000
       },
       {
         "unit": "603",
         "typology": "2 quartos",
-        "price": 720000.0
+        "price": 720000
       },
       {
         "unit": "903",
         "typology": "2 quartos",
-        "price": 750000.0
+        "price": 750000
       },
       {
         "unit": "1003",
         "typology": "2 quartos",
-        "price": 760000.0
+        "price": 760000
       },
       {
         "unit": "1103",
         "typology": "2 quartos",
-        "price": 770000.0
+        "price": 770000
       },
       {
         "unit": "1203",
         "typology": "2 quartos",
-        "price": 780000.0
+        "price": 780000
       },
       {
         "unit": "1303",
         "typology": "2 quartos",
-        "price": 790000.0
+        "price": 790000
       },
       {
         "unit": "1403",
         "typology": "2 quartos",
-        "price": 800000.0
+        "price": 800000
       },
       {
         "unit": "304",
         "typology": "1 quarto",
-        "price": 510000.0
+        "price": 510000
       },
       {
         "unit": "604",
         "typology": "1 quarto",
-        "price": 520000.0
+        "price": 520000
       },
       {
         "unit": "804",
         "typology": "1 quarto",
-        "price": 530000.0
+        "price": 530000
       },
       {
         "unit": "904",
         "typology": "1 quarto",
-        "price": 540000.0
+        "price": 540000
       },
       {
         "unit": "1004",
         "typology": "1 quarto",
-        "price": 550000.0
+        "price": 550000
       },
       {
         "unit": "1104",
         "typology": "1 quarto",
-        "price": 600000.0
+        "price": 600000
       },
       {
         "unit": "1204",
         "typology": "1 quarto",
-        "price": 610000.0
+        "price": 610000
       },
       {
         "unit": "1304",
         "typology": "1 quarto",
-        "price": 620000.0
+        "price": 620000
       },
       {
         "unit": "1404",
         "typology": "1 quarto",
-        "price": 630000.0
+        "price": 630000
       },
       {
         "unit": "305",
         "typology": "1 quarto",
-        "price": 500000.0
+        "price": 500000
       },
       {
         "unit": "805",
         "typology": "1 quarto",
-        "price": 540000.0
+        "price": 540000
       },
       {
         "unit": "905",
         "typology": "1 quarto",
-        "price": 550000.0
+        "price": 550000
       },
       {
         "unit": "1005",
         "typology": "1 quarto",
-        "price": 560000.0
+        "price": 560000
       },
       {
         "unit": "1205",
         "typology": "1 quarto",
-        "price": 610000.0
+        "price": 610000
       },
       {
         "unit": "1305",
         "typology": "1 quarto",
-        "price": 620000.0
+        "price": 620000
       },
       {
         "unit": "306",
         "typology": "2 quartos",
-        "price": 750000.0
+        "price": 750000
       },
       {
         "unit": "406",
         "typology": "2 quartos",
-        "price": 760000.0
+        "price": 760000
       },
       {
         "unit": "506",
         "typology": "2 quartos",
-        "price": 770000.0
+        "price": 770000
       },
       {
         "unit": "1206",
         "typology": "2 quartos",
-        "price": 830000.0
+        "price": 830000
       },
       {
         "unit": "1306",
         "typology": "2 quartos",
-        "price": 840000.0
+        "price": 840000
       },
       {
         "unit": "1406",
         "typology": "2 quartos",
-        "price": 850000.0
+        "price": 850000
       },
       {
         "unit": "Cob 1502",
         "typology": "1 quarto",
-        "price": 1900000.0
+        "price": 1900000
       }
     ]
   },
@@ -1883,137 +1975,137 @@
       {
         "unit": "1001",
         "typology": "2 quartos",
-        "price": 855000.0
+        "price": 855000
       },
       {
         "unit": "1101",
         "typology": "2 quartos",
-        "price": 875000.0
+        "price": 875000
       },
       {
         "unit": "1201",
         "typology": "2 quartos",
-        "price": 895000.0
+        "price": 895000
       },
       {
         "unit": "1301",
         "typology": "2 quartos",
-        "price": 915000.0
+        "price": 915000
       },
       {
         "unit": "902",
         "typology": "2 quartos",
-        "price": 775000.0
+        "price": 775000
       },
       {
         "unit": "1002",
         "typology": "2 quartos",
-        "price": 785000.0
+        "price": 785000
       },
       {
         "unit": "1102",
         "typology": "2 quartos",
-        "price": 795000.0
+        "price": 795000
       },
       {
         "unit": "1202",
         "typology": "2 quartos",
-        "price": 805000.0
+        "price": 805000
       },
       {
         "unit": "303",
         "typology": "2 quartos",
-        "price": 665000.0
+        "price": 665000
       },
       {
         "unit": "503",
         "typology": "2 quartos",
-        "price": 715000.0
+        "price": 715000
       },
       {
         "unit": "1003",
         "typology": "2 quartos",
-        "price": 775000.0
+        "price": 775000
       },
       {
         "unit": "1103",
         "typology": "2 quartos",
-        "price": 785000.0
+        "price": 785000
       },
       {
         "unit": "1203",
         "typology": "2 quartos",
-        "price": 795000.0
+        "price": 795000
       },
       {
         "unit": "1303",
         "typology": "2 quartos",
-        "price": 870000.0
+        "price": 870000
       },
       {
         "unit": "204",
         "typology": "2 quartos",
-        "price": 655000.0
+        "price": 655000
       },
       {
         "unit": "304",
         "typology": "2 quartos",
-        "price": 665000.0
+        "price": 665000
       },
       {
         "unit": "904",
         "typology": "2 quartos",
-        "price": 765000.0
+        "price": 765000
       },
       {
         "unit": "1004",
         "typology": "2 quartos",
-        "price": 775000.0
+        "price": 775000
       },
       {
         "unit": "1104",
         "typology": "2 quartos",
-        "price": 785000.0
+        "price": 785000
       },
       {
         "unit": "1204",
         "typology": "2 quartos",
-        "price": 795000.0
+        "price": 795000
       },
       {
         "unit": "1304",
         "typology": "2 quartos",
-        "price": 870000.0
+        "price": 870000
       },
       {
         "unit": "406",
         "typology": "2 quartos",
-        "price": 765000.0
+        "price": 765000
       },
       {
         "unit": "906",
         "typology": "2 quartos",
-        "price": 855000.0
+        "price": 855000
       },
       {
         "unit": "1106",
         "typology": "2 quartos",
-        "price": 875000.0
+        "price": 875000
       },
       {
         "unit": "1206",
         "typology": "2 quartos",
-        "price": 895000.0
+        "price": 895000
       },
       {
         "unit": "1306",
         "typology": "2 quartos",
-        "price": 915000.0
+        "price": 915000
       },
       {
         "unit": "Cob 1402",
         "typology": "1 quarto",
-        "price": 1500000.0
+        "price": 1500000
       }
     ]
   },
@@ -2026,37 +2118,37 @@
       {
         "unit": "502",
         "typology": "1 quarto",
-        "price": 492500.0
+        "price": 492500
       },
       {
         "unit": "609",
         "typology": "2 quartos",
-        "price": 672000.0
+        "price": 672000
       },
       {
         "unit": "709",
         "typology": "2 quartos",
-        "price": 693000.0
+        "price": 693000
       },
       {
         "unit": "801",
         "typology": "2 quartos",
-        "price": 714000.0
+        "price": 714000
       },
       {
         "unit": "804",
         "typology": "2 quartos",
-        "price": 714000.0
+        "price": 714000
       },
       {
         "unit": "809",
         "typology": "2 quartos",
-        "price": 724500.0
+        "price": 724500
       },
       {
         "unit": "812",
         "typology": "1 quarto",
-        "price": 555500.0
+        "price": 555500
       }
     ]
   },
@@ -2069,22 +2161,22 @@
       {
         "unit": "111",
         "typology": "2 quartos",
-        "price": 789000.0
+        "price": 789000
       },
       {
         "unit": "202",
         "typology": "2 quartos",
-        "price": 799000.0
+        "price": 799000
       },
       {
         "unit": "204",
         "typology": "1 quarto",
-        "price": 579000.0
+        "price": 579000
       },
       {
         "unit": "209",
         "typology": "2 quartos",
-        "price": 859000.0
+        "price": 859000
       }
     ]
   },
@@ -2097,62 +2189,62 @@
       {
         "unit": "101",
         "typology": "2 quartos",
-        "price": 899000.0
+        "price": 899000
       },
       {
         "unit": "103",
         "typology": "2 quartos",
-        "price": 909000.0
+        "price": 909000
       },
       {
         "unit": "206",
         "typology": "1 quarto",
-        "price": 859000.0
+        "price": 859000
       },
       {
         "unit": "207",
         "typology": "2 quartos",
-        "price": 889000.0
+        "price": 889000
       },
       {
         "unit": "306",
         "typology": "1 quarto",
-        "price": 899000.0
+        "price": 899000
       },
       {
         "unit": "307",
         "typology": "2 quartos",
-        "price": 929000.0
+        "price": 929000
       },
       {
         "unit": "406",
         "typology": "1 quarto",
-        "price": 929000.0
+        "price": 929000
       },
       {
         "unit": "505",
         "typology": "2 quartos",
-        "price": 989000.0
+        "price": 989000
       },
       {
         "unit": "506",
         "typology": "1 quarto",
-        "price": 959000.0
+        "price": 959000
       },
       {
         "unit": "507",
         "typology": "2 quartos",
-        "price": 989000.0
+        "price": 989000
       },
       {
         "unit": "601",
         "typology": "3 quartos",
-        "price": 2499000.0
+        "price": 2499000
       },
       {
         "unit": "602",
         "typology": "3 quartos",
-        "price": 2599000.0
+        "price": 2599000
       }
     ]
   },
@@ -2165,157 +2257,188 @@
       {
         "unit": "101",
         "typology": "2 quartos",
-        "price": 827285.8
+        "price": 827285.8,
+        "parkingSpaces": 1
       },
       {
         "unit": "102",
         "typology": "2 quartos",
-        "price": 790311.2
+        "price": 790311.2,
+        "parkingSpaces": 1
       },
       {
         "unit": "103",
         "typology": "2 quartos",
-        "price": 745091.83
+        "price": 745091.83,
+        "parkingSpaces": 1
       },
       {
         "unit": "106",
         "typology": "2 quartos",
-        "price": 760507.53
+        "price": 760507.53,
+        "parkingSpaces": 1
       },
       {
         "unit": "107",
         "typology": "2 quartos",
-        "price": 697629.73
+        "price": 697629.73,
+        "parkingSpaces": 1
       },
       {
         "unit": "108",
         "typology": "2 quartos",
-        "price": 707754.98
+        "price": 707754.98,
+        "parkingSpaces": 1
       },
       {
         "unit": "109",
         "typology": "2 quartos",
-        "price": 749268.5
+        "price": 749268.5,
+        "parkingSpaces": 1
       },
       {
         "unit": "202",
         "typology": "2 quartos",
-        "price": 812887.57
+        "price": 812887.57,
+        "parkingSpaces": 1
       },
       {
         "unit": "206",
         "typology": "2 quartos",
-        "price": 783009.57
+        "price": 783009.57,
+        "parkingSpaces": 1
       },
       {
         "unit": "207",
         "typology": "2 quartos",
-        "price": 717880.23
+        "price": 717880.23,
+        "parkingSpaces": 1
       },
       {
         "unit": "208",
         "typology": "2 quartos",
-        "price": 728005.48
+        "price": 728005.48,
+        "parkingSpaces": 1
       },
       {
         "unit": "209",
         "typology": "2 quartos",
-        "price": 771438.0
+        "price": 771438,
+        "parkingSpaces": 1
       },
       {
         "unit": "302",
         "typology": "2 quartos",
-        "price": 831419.72
+        "price": 831419.72,
+        "parkingSpaces": 1
       },
       {
         "unit": "303",
         "typology": "2 quartos",
-        "price": 831419.72
+        "price": 831419.72,
+        "parkingSpaces": 1
       },
       {
         "unit": "306",
         "typology": "2 quartos",
-        "price": 811893.17
+        "price": 811893.17,
+        "parkingSpaces": 1
       },
       {
         "unit": "307",
         "typology": "2 quartos",
-        "price": 738130.73
+        "price": 738130.73,
+        "parkingSpaces": 1
       },
       {
         "unit": "308",
         "typology": "2 quartos",
-        "price": 748255.98
+        "price": 748255.98,
+        "parkingSpaces": 1
       },
       {
         "unit": "309",
         "typology": "2 quartos",
-        "price": 799894.75
+        "price": 799894.75,
+        "parkingSpaces": 1
       },
       {
         "unit": "403",
         "typology": "2 quartos",
-        "price": 865431.63
+        "price": 865431.63,
+        "parkingSpaces": 1
       },
       {
         "unit": "407",
         "typology": "2 quartos",
-        "price": 778631.73
+        "price": 778631.73,
+        "parkingSpaces": 1
       },
       {
         "unit": "408",
         "typology": "2 quartos",
-        "price": 788756.98
+        "price": 788756.98,
+        "parkingSpaces": 1
       },
       {
         "unit": "409",
         "typology": "2 quartos",
-        "price": 832341.0
+        "price": 832341,
+        "parkingSpaces": 1
       },
       {
         "unit": "410",
         "typology": "1 quarto",
-        "price": 641948.93
+        "price": 641948.93,
+        "parkingSpaces": 1
       },
       {
         "unit": "502",
         "typology": "2 quartos",
-        "price": 895309.63
+        "price": 895309.63,
+        "parkingSpaces": 1
       },
       {
         "unit": "503",
         "typology": "2 quartos",
-        "price": 895309.63
+        "price": 895309.63,
+        "parkingSpaces": 1
       },
       {
         "unit": "506",
         "typology": "2 quartos",
-        "price": 943996.5
+        "price": 943996.5,
+        "parkingSpaces": 1
       },
       {
         "unit": "507",
         "typology": "2 quartos",
-        "price": 819132.73
+        "price": 819132.73,
+        "parkingSpaces": 1
       },
       {
         "unit": "508",
         "typology": "2 quartos",
-        "price": 829257.98
+        "price": 829257.98,
+        "parkingSpaces": 1
       },
       {
         "unit": "COB 01",
         "typology": "3 quartos",
-        "price": 1450000.0
+        "price": 1450000,
+        "parkingSpaces": 1
       },
       {
         "unit": "COB 02",
         "typology": "3 quartos",
-        "price": 1500000.0
+        "price": 1500000,
+        "parkingSpaces": 1
       },
       {
         "unit": "COB 05",
         "typology": "3 quartos",
-        "price": 1400000.0
+        "price": 1400000,
+        "parkingSpaces": 1
       }
     ]
   },
@@ -2328,117 +2451,117 @@
       {
         "unit": "101",
         "typology": "2 quartos",
-        "price": 926218.0
+        "price": 926218
       },
       {
         "unit": "103",
         "typology": "2 quartos",
-        "price": 905612.0
+        "price": 905612
       },
       {
         "unit": "107",
         "typology": "2 quartos",
-        "price": 775516.0
+        "price": 775516
       },
       {
         "unit": "201",
         "typology": "2 quartos",
-        "price": 957126.0
+        "price": 957126
       },
       {
         "unit": "204",
         "typology": "2 quartos",
-        "price": 771677.0
+        "price": 771677
       },
       {
         "unit": "303",
         "typology": "2 quartos",
-        "price": 957126.0
+        "price": 957126
       },
       {
         "unit": "304",
         "typology": "2 quartos",
-        "price": 802585.0
+        "price": 802585
       },
       {
         "unit": "308",
         "typology": "2 quartos",
-        "price": 843796.0
+        "price": 843796
       },
       {
         "unit": "401",
         "typology": "2 quartos",
-        "price": 995854.0
+        "price": 995854
       },
       {
         "unit": "402",
         "typology": "2 quartos",
-        "price": 957126.0
+        "price": 957126
       },
       {
         "unit": "403",
         "typology": "2 quartos",
-        "price": 985577.0
+        "price": 985577
       },
       {
         "unit": "404",
         "typology": "2 quartos",
-        "price": 831420.0
+        "price": 831420
       },
       {
         "unit": "407",
         "typology": "2 quartos",
-        "price": 905612.0
+        "price": 905612
       },
       {
         "unit": "408",
         "typology": "2 quartos",
-        "price": 872528.0
+        "price": 872528
       },
       {
         "unit": "501",
         "typology": "2 quartos",
-        "price": 1057221.0
+        "price": 1057221
       },
       {
         "unit": "502",
         "typology": "2 quartos",
-        "price": 978252.0
+        "price": 978252
       },
       {
         "unit": "503",
         "typology": "2 quartos",
-        "price": 1016520.0
+        "price": 1016520
       },
       {
         "unit": "504",
         "typology": "2 quartos",
-        "price": 914766.0
+        "price": 914766
       },
       {
         "unit": "505",
         "typology": "2 quartos",
-        "price": 968051.0
+        "price": 968051
       },
       {
         "unit": "506",
         "typology": "2 quartos",
-        "price": 876244.0
+        "price": 876244
       },
       {
         "unit": "508",
         "typology": "2 quartos",
-        "price": 955468.0
+        "price": 955468
       },
       {
         "unit": "Cob 01",
         "typology": "3 quartos",
-        "price": 2151790.0
+        "price": 2151790
       },
       {
         "unit": "Cob 02",
         "typology": "3 quartos",
-        "price": 2049275.0
+        "price": 2049275
       }
     ]
   },
@@ -2499,47 +2622,56 @@
       {
         "unit": "102",
         "typology": "1 quarto",
-        "price": 593589.0
+        "price": 593589,
+        "parkingSpaces": 1
       },
       {
         "unit": "201",
         "typology": "2 quartos",
-        "price": 886830.0
+        "price": 886830,
+        "parkingSpaces": 1
       },
       {
         "unit": "203",
         "typology": "2 quartos",
-        "price": 899000.0
+        "price": 899000,
+        "parkingSpaces": 1
       },
       {
         "unit": "204",
         "typology": "2 quartos",
-        "price": 790000.0
+        "price": 790000,
+        "parkingSpaces": 1
       },
       {
         "unit": "205",
         "typology": "2 quartos",
-        "price": 849000.0
+        "price": 849000,
+        "parkingSpaces": 1
       },
       {
         "unit": "301",
         "typology": "2 quartos",
-        "price": 924000.0
+        "price": 924000,
+        "parkingSpaces": 1
       },
       {
         "unit": "303",
         "typology": "2 quartos",
-        "price": 999000.0
+        "price": 999000,
+        "parkingSpaces": 1
       },
       {
         "unit": "304",
         "typology": "2 quartos",
-        "price": 929000.0
+        "price": 929000,
+        "parkingSpaces": 1
       },
       {
         "unit": "305",
         "typology": "2 quartos",
-        "price": 949000.0
+        "price": 949000,
+        "parkingSpaces": 1
       }
     ]
   },
@@ -2552,12 +2684,12 @@
       {
         "unit": "203",
         "typology": "3 quartos",
-        "price": 1102000.0
+        "price": 1102000
       },
       {
         "unit": "204",
         "typology": "2 quartos",
-        "price": 945000.0
+        "price": 945000
       }
     ]
   },
@@ -2570,302 +2702,357 @@
       {
         "unit": "301",
         "typology": "3 quartos",
-        "price": 1720000.0
+        "price": 1720000,
+        "parkingSpaces": 2
       },
       {
         "unit": "401",
         "typology": "3 quartos",
-        "price": 1750000.0
+        "price": 1750000,
+        "parkingSpaces": 2
       },
       {
         "unit": "501",
         "typology": "3 quartos",
-        "price": 1780000.0
+        "price": 1780000,
+        "parkingSpaces": 2
       },
       {
         "unit": "601",
         "typology": "3 quartos",
-        "price": 1810000.0
+        "price": 1810000,
+        "parkingSpaces": 2
       },
       {
         "unit": "701",
         "typology": "3 quartos",
-        "price": 1840000.0
+        "price": 1840000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1201",
         "typology": "3 quartos",
-        "price": 1990000.0
+        "price": 1990000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1301",
         "typology": "3 quartos",
-        "price": 2020000.0
+        "price": 2020000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1401",
         "typology": "3 quartos",
-        "price": 2050000.0
+        "price": 2050000,
+        "parkingSpaces": 2
       },
       {
         "unit": "302",
         "typology": "3 quartos",
-        "price": 1595000.0
+        "price": 1595000,
+        "parkingSpaces": 2
       },
       {
         "unit": "402",
         "typology": "3 quartos",
-        "price": 1625000.0
+        "price": 1625000,
+        "parkingSpaces": 2
       },
       {
         "unit": "502",
         "typology": "3 quartos",
-        "price": 1655000.0
+        "price": 1655000,
+        "parkingSpaces": 2
       },
       {
         "unit": "602",
         "typology": "3 quartos",
-        "price": 1685000.0
+        "price": 1685000,
+        "parkingSpaces": 2
       },
       {
         "unit": "702",
         "typology": "3 quartos",
-        "price": 1715000.0
+        "price": 1715000,
+        "parkingSpaces": 2
       },
       {
         "unit": "802",
         "typology": "3 quartos",
-        "price": 1745000.0
+        "price": 1745000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1202",
         "typology": "3 quartos",
-        "price": 1865000.0
+        "price": 1865000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1302",
         "typology": "3 quartos",
-        "price": 1895000.0
+        "price": 1895000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1402",
         "typology": "3 quartos",
-        "price": 1925000.0
+        "price": 1925000,
+        "parkingSpaces": 2
       },
       {
         "unit": "303",
         "typology": "3 quartos",
-        "price": 1670000.0
+        "price": 1670000,
+        "parkingSpaces": 2
       },
       {
         "unit": "403",
         "typology": "3 quartos",
-        "price": 1700000.0
+        "price": 1700000,
+        "parkingSpaces": 2
       },
       {
         "unit": "503",
         "typology": "3 quartos",
-        "price": 1730000.0
+        "price": 1730000,
+        "parkingSpaces": 2
       },
       {
         "unit": "603",
         "typology": "3 quartos",
-        "price": 1760000.0
+        "price": 1760000,
+        "parkingSpaces": 2
       },
       {
         "unit": "703",
         "typology": "3 quartos",
-        "price": 1790000.0
+        "price": 1790000,
+        "parkingSpaces": 2
       },
       {
         "unit": "803",
         "typology": "3 quartos",
-        "price": 1820000.0
+        "price": 1820000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1203",
         "typology": "3 quartos",
-        "price": 1940000.0
+        "price": 1940000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1303",
         "typology": "3 quartos",
-        "price": 1970000.0
+        "price": 1970000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1403",
         "typology": "3 quartos",
-        "price": 2000000.0
+        "price": 2000000,
+        "parkingSpaces": 2
       },
       {
         "unit": "404",
         "typology": "3 quartos",
-        "price": 1390000.0
+        "price": 1390000,
+        "parkingSpaces": 2
       },
       {
         "unit": "504",
         "typology": "3 quartos",
-        "price": 1420000.0
+        "price": 1420000,
+        "parkingSpaces": 2
       },
       {
         "unit": "604",
         "typology": "3 quartos",
-        "price": 1450000.0
+        "price": 1450000,
+        "parkingSpaces": 2
       },
       {
         "unit": "704",
         "typology": "3 quartos",
-        "price": 1480000.0
+        "price": 1480000,
+        "parkingSpaces": 2
       },
       {
         "unit": "804",
         "typology": "3 quartos",
-        "price": 1510000.0
+        "price": 1510000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1204",
         "typology": "3 quartos",
-        "price": 1630000.0
+        "price": 1630000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1304",
         "typology": "3 quartos",
-        "price": 1660000.0
+        "price": 1660000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1404",
         "typology": "3 quartos",
-        "price": 1690000.0
+        "price": 1690000,
+        "parkingSpaces": 2
       },
       {
         "unit": "405",
         "typology": "2 quartos",
-        "price": 899000.0
+        "price": 899000
       },
       {
         "unit": "505",
         "typology": "2 quartos",
-        "price": 970000.0
+        "price": 970000,
+        "parkingSpaces": 1
       },
       {
         "unit": "605",
         "typology": "2 quartos",
-        "price": 995000.0
+        "price": 995000,
+        "parkingSpaces": 1
       },
       {
         "unit": "705",
         "typology": "2 quartos",
-        "price": 1020000.0
+        "price": 1020000,
+        "parkingSpaces": 1
       },
       {
         "unit": "805",
         "typology": "2 quartos",
-        "price": 1045000.0
+        "price": 1045000,
+        "parkingSpaces": 1
       },
       {
         "unit": "1305",
         "typology": "2 quartos",
-        "price": 1170000.0
+        "price": 1170000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1405",
         "typology": "2 quartos",
-        "price": 1295000.0
+        "price": 1295000,
+        "parkingSpaces": 2
       },
       {
         "unit": "406",
         "typology": "2 quartos",
-        "price": 835000.0
+        "price": 835000
       },
       {
         "unit": "506",
         "typology": "2 quartos",
-        "price": 899000.0
+        "price": 899000,
+        "parkingSpaces": 1
       },
       {
         "unit": "606",
         "typology": "2 quartos",
-        "price": 935000.0
+        "price": 935000,
+        "parkingSpaces": 1
       },
       {
         "unit": "706",
         "typology": "2 quartos",
-        "price": 960000.0
+        "price": 960000,
+        "parkingSpaces": 1
       },
       {
         "unit": "806",
         "typology": "2 quartos",
-        "price": 985000.0
+        "price": 985000,
+        "parkingSpaces": 1
       },
       {
         "unit": "1206",
         "typology": "2 quartos",
-        "price": 1085000.0
+        "price": 1085000,
+        "parkingSpaces": 1
       },
       {
         "unit": "1306",
         "typology": "2 quartos",
-        "price": 1110000.0
+        "price": 1110000,
+        "parkingSpaces": 1
       },
       {
         "unit": "1406",
         "typology": "2 quartos",
-        "price": 1235000.0
+        "price": 1235000,
+        "parkingSpaces": 2
       },
       {
         "unit": "407",
         "typology": "3 quartos",
-        "price": 1420000.0
+        "price": 1420000,
+        "parkingSpaces": 2
       },
       {
         "unit": "507",
         "typology": "3 quartos",
-        "price": 1445000.0
+        "price": 1445000,
+        "parkingSpaces": 2
       },
       {
         "unit": "607",
         "typology": "3 quartos",
-        "price": 1470000.0
+        "price": 1470000,
+        "parkingSpaces": 2
       },
       {
         "unit": "707",
         "typology": "3 quartos",
-        "price": 1495000.0
+        "price": 1495000,
+        "parkingSpaces": 2
       },
       {
         "unit": "807",
         "typology": "3 quartos",
-        "price": 1520000.0
+        "price": 1520000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1207",
         "typology": "3 quartos",
-        "price": 1620000.0
+        "price": 1620000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1307",
         "typology": "3 quartos",
-        "price": 1645000.0
+        "price": 1645000,
+        "parkingSpaces": 2
       },
       {
         "unit": "1407",
         "typology": "3 quartos",
-        "price": 1670000.0
+        "price": 1670000,
+        "parkingSpaces": 2
       },
       {
         "unit": "COB 01",
         "typology": "4 quartos",
-        "price": 4800000.0
+        "price": 4800000
       },
       {
         "unit": "COB 02",
         "typology": "3 quartos",
-        "price": 4150000.0
+        "price": 4150000
       },
       {
         "unit": "COB 03",
         "typology": "4 quartos",
-        "price": 4500000.0
+        "price": 4500000
       }
     ]
   }
