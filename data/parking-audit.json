@@ -1,0 +1,1868 @@
+{
+  "checkedAt": "2026-10-13",
+  "sourceSnapshot": "2026-10-12",
+  "tables": [
+    {
+      "id": "jardin-di-grazielle",
+      "tableUrl": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "c5ccdf4012f800c0bc5adff123fba07426f1cd2a8e3ce6549265270883fb2999",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "pebe-74",
+      "tableUrl": "https://drive.google.com/file/d/1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "fa3cca3b44972a496147a7ae07edc20faacb262bfc007f05dde5a4ad8e23ba15",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "singular",
+      "tableUrl": "https://drive.google.com/file/d/1a4UsToYzZFQg-vDHosJO_MryfvAjbQtZ/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "4cc8824f153271892d1bdd19babb001049669d168d8ffa5275e3229c61ea85e6",
+      "confirmedRows": 94,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "201 — Bloco 1",
+          "typology": "",
+          "price": 2324000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "201 Garden   2.324.000,00   2.324.000,00     2     135,68   116.200,00       48.804,00          48.804,00        9.296,00         27.888,00      1.615.180,00   2.324,00"
+        },
+        {
+          "unit": "202 — Bloco 1",
+          "typology": "",
+          "price": 2255000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "202       2.255.000,00   2.255.000,00     2     131,71   112.750,00       47.355,00          47.355,00        9.020,00         27.060,00      1.567.225,00   2.255,00"
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "tableUrl": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk",
+      "tableDate": "Junho 2026",
+      "pdfSha256": "46beea7ff69a8725087e3397e53bac22c57a808b48f5dd74bbc9b2a833bb528c",
+      "confirmedRows": 10,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "",
+          "price": 1490000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "101               1.490.000,00         143,43         2         104.300,00             59.600,00      59.600,00          13.410,00         44.700,00       1.054.920,00    1.490,00"
+        },
+        {
+          "unit": "201",
+          "typology": "",
+          "price": 1650000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "201               1.650.000,00         143,43         2         115.500,00             66.000,00      66.000,00          14.850,00         49.500,00       1.168.200,00    1.650,00"
+        }
+      ]
+    },
+    {
+      "id": "oka-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1KUVOhtq8-oO6aIg_KFVT5jDCTH2wgjiu/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "a76deba2853c21b4fb8d725300fb1e25715cf9a88ef270350a6642b4db8b21bb",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "oka-sao-francisco",
+      "tableUrl": "https://drive.google.com/file/d/1T7BX5j99jYWqt_F0gllLyXG_hnGJw8kC/view?usp=drivesdk",
+      "tableDate": "Junho 2026",
+      "pdfSha256": "2ed9519a6dbd167c039944dab1536517cd1772780ed6a8728c1c590857c282b2",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "141-living",
+      "tableUrl": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "bf3bbcae8db7755571b766bc9abdd7d896887cdf9956880fc3a4f13635804a26",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "nomad",
+      "tableUrl": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "71f729ff1b9724e5c1e805cc35a3d73de123a9578612f23032bd476fc5713408",
+      "confirmedRows": 1,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "604",
+          "typology": "",
+          "price": 1300000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "604         2            110,23          1.300.000,00    R$         156.000,00   R$              9.176,47   R$                     988.000,00"
+        }
+      ]
+    },
+    {
+      "id": "maria-maria",
+      "tableUrl": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "af435f2cad0c63f274f85e99879b88ea05bd1d992b529236ffa14822740d9079",
+      "confirmedRows": 8,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "209",
+          "typology": "Studio",
+          "price": 739000.0,
+          "parkingSpaces": 0,
+          "parkingEvidence": "209               studio                    -                    40,13         739.000,00    R$ 44.340,00    R$ 14.780,00 R$ 14.780,00 R$    5.278,57 R$        517.300,00"
+        },
+        {
+          "unit": "212",
+          "typology": "Studio",
+          "price": 710000.0,
+          "parkingSpaces": 0,
+          "parkingEvidence": "212               studio                    -                    38,54         710.000,00    R$ 42.600,00    R$ 14.200,00 R$ 14.200,00 R$    5.071,43 R$        497.000,00"
+        }
+      ]
+    },
+    {
+      "id": "tao",
+      "tableUrl": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "bc9a0ca432ff1e2bbfff052733c3d45561451d6689f3cf6369b20ba400ba4c59",
+      "confirmedRows": 3,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "502",
+          "typology": "4 quartos",
+          "price": 3300000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "502           4 quartos             2                 154,27              3.300.000,00        R$    330.000,00   R$            18.000,00   R$                   2.772.000,00"
+        },
+        {
+          "unit": "304",
+          "typology": "3 quartos",
+          "price": 1550000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "304           3 quartos             2                 116,51              1.550.000,00        R$    155.000,00   R$             8.454,55   R$                   1.302.000,00"
+        }
+      ]
+    },
+    {
+      "id": "in-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1I_8d0m8z7FxW0r_f80IvziwBJLpN_aTK/view?usp=drivesdk",
+      "tableDate": "Junho 2026",
+      "pdfSha256": "c986009aa36b731632fffdc2f4b66ad3f0d2d38c7d41b261d2baf3fedffcca94",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "conviva-camboinhas",
+      "tableUrl": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "ed3061bd489b1aa84cc4be16ec85060086f81b0fb10eedefad917a2b9ed570fb",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "conviva-charitas",
+      "tableUrl": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "8c97051597a9cdd5052fefd4df587e318dcc34059970d125a514b71668d90e07",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "nice-camboinhas",
+      "tableUrl": "https://drive.google.com/file/d/1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "89b596ca1884819c9864a9eaf4d6c8b0d3490f6eb651d138bd168878adf0e875",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "brise-by-conviva",
+      "tableUrl": "https://drive.google.com/file/d/15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "6da800b8f13a1c9fe7adb3956f2fc3b0c0c7439d3bf398da02111b3f1dccef1d",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "conviva-life-camboinhas",
+      "tableUrl": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "7560af101d6a76c0fb8af967dd2da50f1e4ea90c9805ca30d9a97b6c303f840f",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "conviva-life-inga",
+      "tableUrl": "https://drive.google.com/file/d/1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "ca94751162f40ff0131ff9c2af243c319fc0a1304bc63db0eb9b42b76dc24f45",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "conviva-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "faaa2c970a14a37c9c568e5722990b7178c9ec679d9237a75efe6b15827a8f4d",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "conviva-itacoa",
+      "tableUrl": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "9d2afa0b398b2c3aa67f819e307048fe14c5e028407d6e6f1f99092edd027310",
+      "confirmedRows": 18,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "1 quarto",
+          "price": 549900.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "101               1                 1             40,05   R$    549.900,00       27.495,00         27.495,00      5.499,00            384.930,00            3.849,30          12.831,00       -R$ 11.052"
+        },
+        {
+          "unit": "102",
+          "typology": "1 quarto",
+          "price": 549900.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "102               1                 1             39,31   R$    549.900,00       27.495,00         27.495,00      5.499,00            384.930,00            3.849,30          12.831,00       -R$ 11.052"
+        }
+      ]
+    },
+    {
+      "id": "caminhos-da-guanabara",
+      "tableUrl": "https://drive.google.com/file/d/1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "e3c21337f79b4e65dd17b309fd5521e3da93a31ac23592b1e7bbc74e68ced643",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "parking-types-without-confirmed-stock",
+      "samples": []
+    },
+    {
+      "id": "orla-central",
+      "tableUrl": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "915c83a73069bc11a671947ad77d70aa447927af201362a3eb59800a8471a61a",
+      "confirmedRows": 12,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 2° ao 5° Andar - Final 1",
+          "typology": "3 quartos",
+          "price": 810525.4,
+          "parkingSpaces": 1,
+          "parkingEvidence": "R$ 810525.40                                                                               65     R$ 275.000,00      R$ 400.000,00     R$ 600.000,00       R$ 694.000,00           4",
+          "parkingCountIsMinimum": true,
+          "offerKind": "group",
+          "availableCount": 4
+        },
+        {
+          "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 2° ao 5° Andar - Final 2",
+          "typology": "3 quartos",
+          "price": 810525.4,
+          "parkingSpaces": 1,
+          "parkingEvidence": "R$ 810525.40                                                                               65   R$ 275.000,00   R$ 400.000,00   R$ 600.000,00   R$ 697.000,00   4",
+          "parkingCountIsMinimum": true,
+          "offerKind": "group",
+          "availableCount": 4
+        }
+      ]
+    },
+    {
+      "id": "the-pier",
+      "tableUrl": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "ef1ffb6b7e91a7b165c1d5e80401a3f6a7aeffc997526ae8b3ba050830a354c6",
+      "confirmedRows": 25,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "Grupo: 3 QUARTOS SUÍTE C/ VAGA - 4º andar ao 8º",
+          "typology": "3 quartos",
+          "price": 835260.56,
+          "parkingSpaces": 1,
+          "parkingEvidence": "R$ 835260.56                            3 QUARTOS SUÍTE C/ VAGA - 4º andar ao 8º                         57,36       R$ 400.000,00           R$ 600.000,00            R$ 658.000,00                  1",
+          "parkingCountIsMinimum": true,
+          "offerKind": "group",
+          "availableCount": 1
+        },
+        {
+          "unit": "Grupo: 1 QUARTO S/ VAGA Bl.2 coluna 13 - 4º andar ao 8º",
+          "typology": "1 quarto",
+          "price": 371647.34,
+          "parkingSpaces": 0,
+          "parkingEvidence": "R$ 371647.34                         1 QUARTO S/ VAGA Bl.2 coluna 13 - 4º andar ao 8º                    28,77       R$ 287.000,00           R$ 287.000,00            R$ 287.000,00                  1",
+          "offerKind": "group",
+          "availableCount": 1
+        }
+      ]
+    },
+    {
+      "id": "conquista-oceanica",
+      "tableUrl": "https://drive.google.com/file/d/1s9AY3VrW5nUBwJ-GFEkgGwvftiKClvOJ/view?usp=drivesdk",
+      "tableDate": "Abril 2026",
+      "pdfSha256": "557ee47d903a9e9820813d04ceffed3e0e3abb95f9ec56ec296d2061dfbe84e7",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "reserva-sao-francisco",
+      "tableUrl": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "003f404d2e9c02371a44f2a6b45987174884163962625a5793cc21073742d729",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "neo-design-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "07213359146ad7cf6dd3055092c4829af96b2b072b2346db81fbdc149c3d97ae",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "upside-charitas",
+      "tableUrl": "https://drive.google.com/file/d/1JmZPfIJGqIdZ4QmK7sP5h3ZTfSy-R6iH/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "384b01b09d3d4c35735a66155a9d39723a5577e5bd17a6dfa8a37c54c6459f6d",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "mok-132",
+      "tableUrl": "https://drive.google.com/file/d/1wI6R1rrjcBi-OLQvL99UgOyE4vRyLBt3/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "dc467d7189dd2b0cd39b67861d2e1771b6472581ec4489eab32128d21d54b7cf",
+      "confirmedRows": 11,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1201",
+          "typology": "",
+          "price": 1190000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1201               90,00            1       R$       1.190.000,00   R$       95.200,00   R$       23.800,00   R$           23.800,00   R$         4.712,40   R$             18.564,00   R$        3.570,00   R$     833.000,00"
+        },
+        {
+          "unit": "1301",
+          "typology": "",
+          "price": 1230000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1301               90,00            1       R$       1.230.000,00   R$       98.400,00   R$       24.600,00   R$           24.600,00   R$         4.870,80   R$             19.188,00   R$        3.690,00   R$     861.000,00"
+        }
+      ]
+    },
+    {
+      "id": "namas-smart-living",
+      "tableUrl": "https://drive.google.com/file/d/1YXxe_9gXqzfWND-LVnZqR9tRQjuyR5gl/view?usp=drivesdk",
+      "tableDate": "Março 2026",
+      "pdfSha256": "a04a27a0b4b1970567223638ee9bccae92edaa7a614ce233f7270cead25075e7",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "cascais",
+      "tableUrl": "https://drive.google.com/file/d/1zYQzLDkhVzWmGD_160L51CsuVKrqSYA7/view?usp=drivesdk",
+      "tableDate": "Março 2026",
+      "pdfSha256": "3c22cfdfb2b8710c661cb6b4d7f83d70bd68f7d33f298b75aa2485bc2bc4847d",
+      "confirmedRows": 3,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101 — Bloco 1",
+          "typology": "",
+          "price": 3548923.67,
+          "parkingSpaces": 3,
+          "parkingEvidence": "BL 1        101             220,00               3          R$ 1.450.000,00    R$   2.098.923,67   R$    241.442,27    R$        48.536,35   R$      128.814,53   R$   3.548.923,67"
+        },
+        {
+          "unit": "102 — Bloco 1",
+          "typology": "",
+          "price": 3548923.67,
+          "parkingSpaces": 3,
+          "parkingEvidence": "BL 1        102             220,00               3          R$ 1.450.000,00    R$   2.098.923,67   R$    241.442,27    R$        48.536,35   R$      128.814,53   R$   3.548.923,67"
+        }
+      ]
+    },
+    {
+      "id": "trend-by-falves",
+      "tableUrl": "https://drive.google.com/file/d/1_ZamfspHEFHYbcaM0TfGOtrb_B7JYgZ8/view?usp=drivesdk",
+      "tableDate": "Maio 2026",
+      "pdfSha256": "1550d6221819be701085e3d03f079d19c5fd314dc1956d68fee0b0cb74b536b4",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "arend",
+      "tableUrl": "https://drive.google.com/file/d/1sipP_p9oqv24MRipbiiJgzebWmrENrFm/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "d32a2badf82181fc684db11d7fbe2f2da6e8e880cf4c3775521aa5d82733b317",
+      "confirmedRows": 92,
+      "excludedColoredUnits": [
+        "101",
+        "104",
+        "111",
+        "201 — Bloco 2",
+        "206 — Bloco 1",
+        "208 — Bloco 2",
+        "301 — Bloco 1",
+        "307 — Bloco 2",
+        "309 — Bloco 1",
+        "310 — Bloco 2",
+        "401 — Bloco 1",
+        "410 — Bloco 2",
+        "508 — Bloco 2",
+        "601 — Bloco 1",
+        "605 — Bloco 1"
+      ],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "201 — Bloco 1",
+          "typology": "",
+          "price": 860244.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "201                 86,81            1         860.244,00            9.909,50              68.819,52            17.204,88            5.914,18            25.807,32         602.170,80"
+        },
+        {
+          "unit": "501 — Bloco 1",
+          "typology": "",
+          "price": 984067.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "501                 86,81            2         984.067,00            11.335,87             78.725,36            19.681,34            6.765,46            29.522,01         688.846,90"
+        }
+      ]
+    },
+    {
+      "id": "duetto",
+      "tableUrl": "https://drive.google.com/file/d/1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "3d4d1d6c7627bddfe76fd2851e1e6e067fc41fe643c56283b46a37803de0de26",
+      "confirmedRows": 2,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1702 — Bloco 1",
+          "typology": "",
+          "price": 907991.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "1702                100,59                2               907.991,00                                    272.397,30                                                635.593,70"
+        },
+        {
+          "unit": "1703 — Bloco 1",
+          "typology": "",
+          "price": 1018167.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "1703                102,10                2              1.018.167,00                                   305.450,10                                                712.716,90"
+        }
+      ]
+    },
+    {
+      "id": "ile",
+      "tableUrl": "https://drive.google.com/file/d/1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "45cc3e4b429360a2a656c8d11584c0e2b8fdb96bfe6ef8bbce2dfef3d1915cb1",
+      "confirmedRows": 122,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "401",
+          "typology": "",
+          "price": 831654.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "401       76,11       1        831.654,00    10.927,00       83.165,40   8.316,54    8.316,54      2.558,94         12.474,81          544.733,37"
+        },
+        {
+          "unit": "402",
+          "typology": "",
+          "price": 787883.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "402       66,23       1        787.883,00    11.896,16       78.788,30   7.878,83    7.878,83      2.424,26         11.818,25          516.063,37"
+        }
+      ]
+    },
+    {
+      "id": "sd40",
+      "tableUrl": "https://drive.google.com/file/d/10NWMMbD8nlKZJNiZDh8BfuEmHhTTSoBo/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "8de623bf53941115a0cee5e29760b3265a4a200b56db61a0f73052e9df71c339",
+      "confirmedRows": 7,
+      "excludedColoredUnits": [
+        "1001",
+        "1002",
+        "1003",
+        "1004",
+        "1005",
+        "1006",
+        "1007",
+        "1008",
+        "1101",
+        "1104",
+        "1105",
+        "1107",
+        "1108",
+        "1206",
+        "1207",
+        "1208",
+        "1301",
+        "1302",
+        "1303",
+        "1304",
+        "1308",
+        "1401",
+        "1405",
+        "1406",
+        "1407",
+        "1408",
+        "1501",
+        "1502",
+        "1503",
+        "301",
+        "302",
+        "307",
+        "308",
+        "407",
+        "408",
+        "503",
+        "505",
+        "506",
+        "507",
+        "508",
+        "603",
+        "604",
+        "605",
+        "606",
+        "607",
+        "608",
+        "701",
+        "702",
+        "703",
+        "704",
+        "705",
+        "706",
+        "801",
+        "802",
+        "803",
+        "804",
+        "805",
+        "806",
+        "807",
+        "808",
+        "901",
+        "904",
+        "905",
+        "906"
+      ],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "303",
+          "typology": "",
+          "price": 1550000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "303              127,80          1        1.550.000,00              12.128,33               465.000,00        1.085.000,00"
+        },
+        {
+          "unit": "304",
+          "typology": "",
+          "price": 1233064.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "304              119,16          1        1.233.064,00              10.347,97               369.919,20         863.144,80"
+        }
+      ]
+    },
+    {
+      "id": "green-open",
+      "tableUrl": "https://drive.google.com/file/d/1FPC5D5pWDfXgL7A2fypBAk6TCnDDmvxa/view?usp=drivesdk",
+      "tableDate": "Julho 2026",
+      "pdfSha256": "90ce4931b52b4c03318bb1c81295258910a7dcfa38f69b7c214b864b7296c5cb",
+      "confirmedRows": 57,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "2 quartos",
+          "price": 374900.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "101                          90,39                        84,05                       2                    SIM      R$               590.000,00   R$     482.700,00   R$          374.900,00             Disponível",
+          "parkingCountIsMinimum": true
+        },
+        {
+          "unit": "102",
+          "typology": "2 quartos",
+          "price": 389900.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "102                          93,88                        86,70                       2                    SIM      R$               640.000,00   R$     502.900,00   R$          389.900,00             Disponível",
+          "parkingCountIsMinimum": true
+        }
+      ]
+    },
+    {
+      "id": "niteroi-open-santa-rosa",
+      "tableUrl": "https://drive.google.com/file/d/1eIWN1AwuU4-VdSdY5Wt5Xr67W-ZTSy4z/view?usp=drivesdk",
+      "tableDate": "Novembro 2025",
+      "pdfSha256": "d698f27856663e4ed02b11b7b52cf006ddac3bd0a1d493aab8113127286800c3",
+      "confirmedRows": 4,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "701",
+          "typology": "2 quartos",
+          "price": 409500.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "701        1         54,50      2    c/ Vaga    Vaga 27      SIM    RUA       T     SBPE     R$     463.250,00 R$      463.000,00    R$            463.000,00 R$    409.500,00        Disponível",
+          "parkingCountIsMinimum": true
+        },
+        {
+          "unit": "801",
+          "typology": "2 quartos",
+          "price": 413500.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "801        1         54,50      2    c/ Vaga    Vaga 13      SIM    RUA       T     SBPE     R$     463.250,00 R$      463.000,00    R$            463.000,00 R$    413.500,00        Disponível",
+          "parkingCountIsMinimum": true
+        }
+      ]
+    },
+    {
+      "id": "lazuli",
+      "tableUrl": "https://drive.google.com/file/d/1m2rHn8l9763aR_V-H5hWW3xTNcvVZK1l/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "cf5e6c54b8d404b3aa2abc8fd08a30fbc0e7af224db145008cc0e73335e086d0",
+      "confirmedRows": 62,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "401",
+          "typology": "4 quartos",
+          "price": 2899000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "401            4         2     R$          2.899.000,00     R$ 289.900,00        R$ 57.980,00      R$ 57.980,00       R$ 9.663,33    R$ 173.940,00   R$ 2.029.300,00   APARTAMENTOS   COBERTURAS"
+        },
+        {
+          "unit": "402",
+          "typology": "4 quartos",
+          "price": 2899000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "402            4         2     R$          2.899.000,00     R$ 289.900,00        R$ 57.980,00      R$ 57.980,00       R$ 9.663,33    R$ 173.940,00   R$ 2.029.300,00"
+        }
+      ]
+    },
+    {
+      "id": "sou-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1ToVWq-gwDBxpeVvIBlWAHft0NxR2ci2J/view?usp=drivesdk",
+      "tableDate": "Maio 2026",
+      "pdfSha256": "e9b6b86ee2ba99f2096c1083250c75673119193f2e91f8ba620e21cfadce7449",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "sou-itacoa",
+      "tableUrl": "https://drive.google.com/file/d/10q3tYjC_w7LWNUDZaggFLEEiz2dpFNjm/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "45f162d5892939293fb9277abc1d17ca7e3eae38406a45b186ddee56cfe1e4d0",
+      "confirmedRows": 61,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "103",
+          "typology": "",
+          "price": 803328.75,
+          "parkingSpaces": 1,
+          "parkingEvidence": "103                 1     R$    803.328,75             R$ 64.266,30   R$ 16.066,58       R$ 16.066,58       R$ 2.921,20       R$ 20.083,22        R$ 562.330,13"
+        },
+        {
+          "unit": "104",
+          "typology": "",
+          "price": 803328.75,
+          "parkingSpaces": 1,
+          "parkingEvidence": "104                 1     R$    803.328,75             R$ 64.266,30   R$ 16.066,58       R$ 16.066,58       R$ 2.921,20       R$ 20.083,22        R$ 562.330,13"
+        }
+      ]
+    },
+    {
+      "id": "sou-charitas",
+      "tableUrl": "https://drive.google.com/file/d/1ujNZRqo7cihmcd-y3EYJQGKj-mak0ZvE/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "70e749f95a4cbb4f1ca0c5fccb06776ff034c3a358b771eaf07bd636fd87bdb0",
+      "confirmedRows": 39,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "209",
+          "typology": "2 quartos",
+          "price": 1332160.06,
+          "parkingSpaces": 1,
+          "parkingEvidence": "209              2QUARTOS        87,22     1   R$       1.332.160,06    R$    133.216,01     R$       26.643,20   R$   26.643,20   R$   8.197,91   R$   57.726,94   R$   865.904,04"
+        },
+        {
+          "unit": "309",
+          "typology": "2 quartos",
+          "price": 1366912.07,
+          "parkingSpaces": 1,
+          "parkingEvidence": "309              2QUARTOS        88,85     1   R$       1.366.912,07    R$    136.691,21     R$       27.338,24   R$   27.338,24   R$   8.411,77   R$   59.232,86   R$   888.492,85"
+        }
+      ]
+    },
+    {
+      "id": "sou-wellness-charitas",
+      "tableUrl": "https://drive.google.com/file/d/1kqtlLIbqQyg2zRUtl5PdDDj8ood9y2V-/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "2246a0fb2df4c2ad3b4dd4084d121232f211ec06af686147e8ee56c23e24308f",
+      "confirmedRows": 87,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "201",
+          "typology": "1 quarto",
+          "price": 655389.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "201       Sala&Suíte                1     56,08 R$      655.389,00      R$ 39.323,34   R$ 19.661,67    R$ 19.661,67      R$ 1.941,89    R$ 16.384,73   R$ 458.772,30"
+        },
+        {
+          "unit": "301",
+          "typology": "1 quarto",
+          "price": 666312.15,
+          "parkingSpaces": 1,
+          "parkingEvidence": "301       Sala&Suíte                1     56,08 R$      666.312,15      R$ 39.978,73   R$ 19.989,36    R$ 19.989,36      R$ 1.974,26    R$ 16.657,80   R$ 466.418,51"
+        }
+      ]
+    },
+    {
+      "id": "marina",
+      "tableUrl": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "83d1d0c33b931f9a401c447f3a2d1cf0bb2cfc72d491d799f9cd1fac3ec18f8d",
+      "confirmedRows": 3,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "3 quartos",
+          "price": 2680000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "101            3 quartos sendo 1 suíte             15 - 15A                                159,18       R$     2.680.000,00    R$         938.000,00 R$                            1.742.000,00",
+          "parkingNote": "Vagas identificadas na tabela: 15 - 15A"
+        },
+        {
+          "unit": "104",
+          "typology": "2 quartos",
+          "price": 1190000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "104            2 suítes                           17                                            88,82   R$     1.190.000,00    R$         416.500,00 R$                              773.500,00",
+          "parkingNote": "Vagas identificadas na tabela: 17"
+        }
+      ]
+    },
+    {
+      "id": "triunfo",
+      "tableUrl": "https://drive.google.com/file/d/1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "ec34b0d136f9f92874008600e6dfb3c592ec4a12a63c6dd1819b547dd5869996",
+      "confirmedRows": 3,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "B2-102",
+          "typology": "4 quartos",
+          "price": 2600000.0,
+          "parkingSpaces": 3,
+          "parkingEvidence": "B2-102                      4 - Quartos               24 - 32 - 73                               145,97    2.600.000,00    1x 910.000,00    1x 1.690.000,00 R$ 1.756,23 R$     782,78",
+          "parkingNote": "Vagas identificadas na tabela: 24 - 32 - 73"
+        },
+        {
+          "unit": "B2-204",
+          "typology": "4 quartos",
+          "price": 2550000.0,
+          "parkingSpaces": 3,
+          "parkingEvidence": "B2-204                      4 - Quartos               59 - 59A - 64                              148,79    2.550.000,00    1x 892.500,00    1x 1.657.500,00 R$     1.784,28 R$    756,56",
+          "parkingNote": "Vagas identificadas na tabela: 59 - 59A - 64"
+        }
+      ]
+    },
+    {
+      "id": "serena",
+      "tableUrl": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "961ad02baf6f4a8886abfa7b3fee83ac1d6ba6e66722e4666c0d5f9e66330113",
+      "confirmedRows": 8,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "204",
+          "typology": "2 quartos",
+          "price": 1590000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "204            2 - Suítes                           22 - 22A                                    172,65            1.590.000,00             1x 143.100,00                 3x 31.800,00        25x 8.904,00          5x 19.080,00              1x 1.033.500,00",
+          "parkingNote": "Vagas identificadas na tabela: 22 - 22A"
+        },
+        {
+          "unit": "303",
+          "typology": "3 quartos",
+          "price": 1540000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "303            3 - quartos sendo 1 Suíte            13 - 13A                                    122,66            1.540.000,00             1x 138.600,00                 3x 30.800,00        25x 8.624,00          5x 18.480,00              1x 1.001.000,00",
+          "parkingNote": "Vagas identificadas na tabela: 13 - 13A"
+        }
+      ]
+    },
+    {
+      "id": "althea",
+      "tableUrl": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "0b38570475f060823088655c9bf350de66a49e273d303a360c9072ff29988313",
+      "confirmedRows": 34,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1001",
+          "typology": "2 quartos",
+          "price": 1000000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1001                     SALA + 2 QUARTOS                           71,71       1         R$ 1.000.000,00        80.000,00        20.000,00       20.000,00   20.000,00         3.235,29         10.000,00          50.000,00    650.000,00"
+        },
+        {
+          "unit": "502",
+          "typology": "2 quartos",
+          "price": 900000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "502                     SALA + 2 QUARTOS                           71,87       1          R$ 900.000,00         72.000,00        18.000,00       18.000,00   18.000,00         2.911,76          9.000,00          45.000,00    585.000,00"
+        }
+      ]
+    },
+    {
+      "id": "np38",
+      "tableUrl": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "dc8ea870de1e10c73a33543b9b7b2a0d696b9127c01f86df24d9c698625df9e5",
+      "confirmedRows": 27,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1001",
+          "typology": "2 quartos",
+          "price": 855000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1001         SALA + 2 QUARTOS               60,89      1        R$ 855.000,00     68.400,00     11.400,00         2.011,76         14.250,00          42.750,00           598.500,00"
+        },
+        {
+          "unit": "1101",
+          "typology": "2 quartos",
+          "price": 875000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1101         SALA + 2 QUARTOS               66,09      1        R$ 875.000,00     70.000,00     11.666,67         2.058,82         14.583,33          43.750,00           612.500,00"
+        }
+      ]
+    },
+    {
+      "id": "terramarine",
+      "tableUrl": "https://drive.google.com/file/d/1lCkR0QSSfaYUZlftQxM4mmrvX84cGhaQ/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "3b10ed54d45e013099ec9d19d809d7f669a4284faaea6661ffae8bf40cda9f9d",
+      "confirmedRows": 26,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "403 — Ed. Acqua - Bloco 1",
+          "typology": "2 quartos",
+          "price": 1109000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "403           Ed. Acqua - Bloco 1         2Q + Escritório                 JFE         2     102,29   178.905,00         178.905,00                 834.890,00     1.192.636,68      1.109.000,00"
+        },
+        {
+          "unit": "407 — Ed. Acqua - Bloco 1",
+          "typology": "2 quartos",
+          "price": 1024000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "407           Ed. Acqua - Bloco 1         2Q + Escritório                 JFE         1     102,29   170.769,50         170.769,50                 796.924,33     1.138.400,00      1.024.000,00"
+        }
+      ]
+    },
+    {
+      "id": "uni-home-studios",
+      "tableUrl": "https://drive.google.com/file/d/1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "974c68a8287105a12a972b7a6d790da798454f277a3e77b504a45ffd97967376",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "maris",
+      "tableUrl": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "cfd216231a3b02acbac66a33871cf47a86e69e359a0945e4d2d463c2919c93b2",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "calle-sardegna",
+      "tableUrl": "https://drive.google.com/file/d/1vw-lo6lOiz1tG7dfELQIgwwCRs7emYfh/view?usp=drivesdk",
+      "tableDate": "Julho 2026",
+      "pdfSha256": "8bac0443d498ea67506ff7d259f373aac5684d46e15413be988c5d66caf7a995",
+      "confirmedRows": 2,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "401",
+          "typology": "",
+          "price": 820000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "401                 1       81,20           820.000,00                    82.000,00                    82.000,00                     656.000,00                 10.098,52"
+        },
+        {
+          "unit": "1007",
+          "typology": "",
+          "price": 750000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1007                 1       81,73           750.000,00                    75.000,00                    75.000,00                     600.000,00                  9.176,56"
+        }
+      ]
+    },
+    {
+      "id": "solo",
+      "tableUrl": "https://drive.google.com/file/d/1TBOsaFUDNSnQXol6WbC3vZXFc7yZGDeC/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "8e02a91025870f1866f13a149f8805b4abc9ba5b4a4d0039e27d9215efea6c93",
+      "confirmedRows": 69,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "201",
+          "typology": "",
+          "price": 1239000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "201 e 202                  1        123,67        1.239.000,00        99.120,00           12.390,00           12.390,00           3.717,00          14.868,00        862.344,00     10.018,60"
+        },
+        {
+          "unit": "202",
+          "typology": "",
+          "price": 1239000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "201 e 202                  1        123,67        1.239.000,00        99.120,00           12.390,00           12.390,00           3.717,00          14.868,00        862.344,00     10.018,60"
+        }
+      ]
+    },
+    {
+      "id": "scenarium-piratininga",
+      "tableUrl": "https://drive.google.com/file/d/16OCudjv-0EeTDfaRZvUQ_wGw2RJhFxC0/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "5e69ea146e1d051ff509b3856d2a90a11c54b1d585a07f99dcb7627747ce7108",
+      "confirmedRows": 10,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "104",
+          "typology": "",
+          "price": 2500000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "104            2          198,27          2.500.000,00                          375.000,00                         375.000,00                        1.750.000,00"
+        },
+        {
+          "unit": "105",
+          "typology": "",
+          "price": 1900000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "105            2          157,72          1.900.000,00                          285.000,00                         285.000,00                        1.330.000,00"
+        }
+      ]
+    },
+    {
+      "id": "jardim-itacoa",
+      "tableUrl": "https://drive.google.com/file/d/1pyQdpbCX_TWmU5EF-TD3-rOTgDs-kSKe/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "a25f9147571931dd5c2eb268a3f53508fadf36bb3e4a89fc29c2ecf394357034",
+      "confirmedRows": 7,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "502",
+          "typology": "1 quarto",
+          "price": 492500.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "502                        1                     1                  41,34                492.500,00                    29.550,00                     9.850,00                    9.850,00                     2.462,50                   12.312,50         344.750,00"
+        },
+        {
+          "unit": "609",
+          "typology": "2 quartos",
+          "price": 672000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "609                        2                     1                  60,23                672.000,00                    40.320,00                     13.440,00                  13.440,00                     3.360,00                   16.800,00         470.400,00"
+        }
+      ]
+    },
+    {
+      "id": "wind-itacoatiara",
+      "tableUrl": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk",
+      "tableDate": "Março 2026",
+      "pdfSha256": "2bfbedad77ab27f4a43784d88e8fd98bd71f55d9c5973f426b0de855cceabea0",
+      "confirmedRows": 4,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "111",
+          "typology": "2 quartos",
+          "price": 789000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "111            2             1          92,41         789.000,00"
+        },
+        {
+          "unit": "202",
+          "typology": "2 quartos",
+          "price": 799000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "202            2             1          98,62         799.000,00"
+        }
+      ]
+    },
+    {
+      "id": "wind-oceanica",
+      "tableUrl": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "0eb6c2bdcfcb607a056e3a1360869aa883865679c14a02e6c5153ffd1573fcd0",
+      "confirmedRows": 12,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "2 quartos",
+          "price": 899000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "101             2 SUITES             1            82,73            899.000,00              44.950,00              13.485,00              13.485,00              4.944,50               32.963,33                629.300,00"
+        },
+        {
+          "unit": "103",
+          "typology": "2 quartos",
+          "price": 909000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "103             2 SUITES             1            82,73            909.000,00              45.450,00              13.635,00              13.635,00              4.999,50               33.330,00                636.300,00"
+        }
+      ]
+    },
+    {
+      "id": "115-tapuias",
+      "tableUrl": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+      "tableDate": "Abril 2026",
+      "pdfSha256": "40d5c06236281697aca34b4dd36b6fad1bc1a4621a844202daaa46c2e5894579",
+      "confirmedRows": 1,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "102",
+          "typology": "",
+          "price": 1500000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "102                 110,20            1          1.500.000             225.000              75.000              75.000              30.000               75.000              982.500                7.500"
+        }
+      ]
+    },
+    {
+      "id": "green-life",
+      "tableUrl": "https://drive.google.com/file/d/1ARkrcNKHWXfiSTV4Wr5fV7APGWAOlnrn/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "27b6d88432c4b714f7585298bd1d4f88fe61c032d0bba4b1db4b14e37f7c69c9",
+      "confirmedRows": 422,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "102 — Bloco 1",
+          "typology": "2 quartos",
+          "price": 785194.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "102         87,00      SBPE      2Q garden com vaga       785.194,00    608.000,00",
+          "parkingCountIsMinimum": true
+        },
+        {
+          "unit": "104 — Bloco 1",
+          "typology": "2 quartos",
+          "price": 663641.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "104         83,10      SBPE      2Q garden com vaga       663.641,00    608.000,00",
+          "parkingCountIsMinimum": true
+        }
+      ]
+    },
+    {
+      "id": "monier",
+      "tableUrl": "https://drive.google.com/file/d/1WfGNg0IX0jDxAHTu9zzUSfZ5yNmPqRM_/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "300ac77a1873a025b8b2b640933418a25b98b47f237a04df4117e91c50b0317a",
+      "confirmedRows": 31,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "2 quartos",
+          "price": 827285.8,
+          "parkingSpaces": 1,
+          "parkingEvidence": "Cabeçalho: 1 vaga por unidade"
+        },
+        {
+          "unit": "102",
+          "typology": "2 quartos",
+          "price": 790311.2,
+          "parkingSpaces": 1,
+          "parkingEvidence": "Cabeçalho: 1 vaga por unidade"
+        }
+      ]
+    },
+    {
+      "id": "gael",
+      "tableUrl": "https://drive.google.com/file/d/1kPz2vVDJeqMWB4b-fojLixAbXwf0vVbQ/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "b370a3e3318e48c83a1c342078372c960e633da6db29e25a96447413b727fbab",
+      "confirmedRows": 23,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "2 quartos",
+          "price": 926218.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "101                     2 quartos com 2 suítes                     1                77,57                   R$ 926.218                   74.097,43                  18.524,36              18.524,36                 4.387,35                    20.839,90                     648.352,53"
+        },
+        {
+          "unit": "103",
+          "typology": "2 quartos",
+          "price": 905612.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "103                     2 quartos com 2 suítes                     1                77,57                   R$ 905.612                   72.448,99                  18.112,25              18.112,25                 4.289,74                    20.376,28                     633.928,67"
+        }
+      ]
+    },
+    {
+      "id": "jardim-dos-manacas",
+      "tableUrl": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "45018a83cc148aa68aed5f1ccdf740eec30f0665659b2e71fa52a09be1af32c2",
+      "confirmedRows": 41,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "302",
+          "typology": "2 quartos",
+          "price": 644000.0,
+          "parkingSpaces": 0,
+          "parkingEvidence": "302     64,60 2Q - MULTI - LAV   R$      644.000    0     R$     38.600   R$     10.700   R$   2.080   R$    25.800   R$    450.980"
+        },
+        {
+          "unit": "602",
+          "typology": "2 quartos",
+          "price": 742000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "602     64,60 2Q - MULTI - LAV   R$      742.000    1     R$     44.500   R$     12.400   R$   2.400   R$    29.700   R$    519.300"
+        }
+      ]
+    },
+    {
+      "id": "up-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "8aadffb0c3cd8d22777b1c709bd9e57abb1ed107109f90413b44ae9d313acd51",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "nirvana",
+      "tableUrl": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "b2558d921586c36a78a6855cec292c8ebdeb297d61c8e4c68c53a86093641805",
+      "confirmedRows": 2,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "303",
+          "typology": "3 quartos",
+          "price": 2959600.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "303                TERRAZZAS 3 QUARTOS               181,86          2      R$               3.020.000,00 R$       2.959.600,00 R$                739.900,00 R$           2.219.700,00"
+        },
+        {
+          "unit": "503",
+          "typology": "4 quartos",
+          "price": 3459600.0,
+          "parkingSpaces": 3,
+          "parkingEvidence": "503                COBERTURA 4 QUARTOS               267,56          3      R$               3.844.000,00 R$       3.459.600,00 R$                864.900,00 R$           2.594.700,00"
+        }
+      ]
+    },
+    {
+      "id": "stage",
+      "tableUrl": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "83bc00a425cc3afa627e13ca0577fce9385a90798ce48a8c381edca661d7e959",
+      "confirmedRows": 46,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "301 — Bloco 1",
+          "typology": "2 quartos",
+          "price": 2087000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "301     1    123,29  R$    2.087.000,00   1 L SB     2Q    R$    167.000,00   R$   31.000,00   R$   5.200,00   R$    38.000,00   R$     1.460.200,00"
+        },
+        {
+          "unit": "401 — Bloco 1",
+          "typology": "2 quartos",
+          "price": 1565000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "401     1     83,87  R$    1.565.000,00     1        2Q    R$    125.000,00   R$   23.000,00   R$   3.900,00   R$    28.000,00   R$     1.098.400,00"
+        }
+      ]
+    },
+    {
+      "id": "sunset",
+      "tableUrl": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "f096c23c9856985b2c63e06d060d2ad68639a047212697b4a3938a3cbcf40629",
+      "confirmedRows": 4,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1205 — Bl - 01",
+          "typology": "3 quartos",
+          "price": 1283000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "1205           Bl - 01               3 QUARTOS                       93,17            2 vagas      R$                  1.351.000,00     R$              1.283.000,00   R$           321.000,00   R$              962.000,00"
+        },
+        {
+          "unit": "1306 — Bl - 01",
+          "typology": "3 quartos",
+          "price": 1265000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "1306           Bl - 01               3 QUARTOS                       93,27            2 vagas      R$                  1.332.000,00     R$              1.265.000,00   R$           316.000,00   R$              949.000,00"
+        }
+      ]
+    },
+    {
+      "id": "soma",
+      "tableUrl": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "3f41ebf494691a6efc9f4b9a52edbf055f4dbbed79364249fa6f9d31650d3026",
+      "confirmedRows": 71,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "401",
+          "typology": "1 quarto",
+          "price": 789000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "401     67,25   1SUITE + ESC    1               789.000       51.000      15.000      14.000      14.000          2.000         14.000           557.000"
+        },
+        {
+          "unit": "501",
+          "typology": "1 quarto",
+          "price": 810000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "501     67,25   1SUITE + ESC    1               810.000       53.000      15.000      15.000      15.000          2.000         15.000           569.000"
+        }
+      ]
+    },
+    {
+      "id": "maren",
+      "tableUrl": "https://drive.google.com/file/d/1SwzmO762LF1NW-dURK55elt-S2VH8RTX/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "6f52e483f289727367530e3cf3f79624b4827e60b551f2a81bf8c02e5cd2fc7d",
+      "confirmedRows": 8,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "104",
+          "typology": "1 quarto",
+          "price": 690000,
+          "parkingSpaces": 1,
+          "parkingEvidence": "Página 2: coluna Vagas = 1; conferência visual"
+        },
+        {
+          "unit": "204",
+          "typology": "2 quartos",
+          "price": 880000,
+          "parkingSpaces": 1,
+          "parkingEvidence": "Página 2: coluna Vagas = 1; conferência visual"
+        }
+      ]
+    },
+    {
+      "id": "sun-in",
+      "tableUrl": "https://drive.google.com/file/d/1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "6749832afb501cc2940ea6258657dc605c1fbd9bf3bccc9df52b789c0c9ce21e",
+      "confirmedRows": 49,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "409",
+          "typology": "Studio",
+          "price": 307800.0,
+          "parkingSpaces": 0,
+          "parkingEvidence": "ÚNICO     409      STUDIO                       30,46       0             30,46       MANHÃ    0     R$         19.800,00   R$          288.000,00   R$      307.800,00     R$       360.000,00"
+        },
+        {
+          "unit": "410",
+          "typology": "Studio",
+          "price": 307800.0,
+          "parkingSpaces": 0,
+          "parkingEvidence": "ÚNICO     410      STUDIO                       30,32       0             30,32       MANHÃ    0     R$         19.800,00   R$          288.000,00   R$      307.800,00     R$       360.000,00"
+        }
+      ]
+    },
+    {
+      "id": "giardino-di-verona",
+      "tableUrl": "https://drive.google.com/file/d/104RhrBieqQe4z4euI1mTIkEzkH9LjdPF/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "3eab7585c1b9ff291d447a0d9a9075c23751fecb394f97fd7f36e5dbabd3c5bf",
+      "confirmedRows": 54,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "201 — Bloco 1",
+          "typology": "3 quartos",
+          "price": 807840.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "201         89,16      81,26      3 Quartos       2        Por do Sol      R$      807.840,00    R$       64.627,20    R$    5.193,26   R$    16.156,80   R$     565.488,00   R$    16.156,80"
+        },
+        {
+          "unit": "202 — Bloco 1",
+          "typology": "3 quartos",
+          "price": 820290.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "202         89,16      81,26      3 Quartos       2       Sol da manhã     R$      820.290,00    R$       65.623,20    R$    5.273,29   R$    16.405,80   R$     574.203,00   R$    16.405,80"
+        }
+      ]
+    },
+    {
+      "id": "dahlia-residence",
+      "tableUrl": "https://drive.google.com/file/d/11m16-F_jxLyy-PH5vYT4FgbwYgwpO8r5/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "9c4c06959a543a82bfbdf8780d26afa60b967f23816f1e1885d3e229e6c7e82f",
+      "confirmedRows": 11,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101",
+          "typology": "3 quartos",
+          "price": 1015297.5,
+          "parkingSpaces": 1,
+          "parkingEvidence": "101          159,43              97,86               61,57   3 Quartos Garden    1     Sol da Tarde   R$ 1.015.297,50     R$ 81.223,80    R$ 20.305,95       R$ 710.708,25       R$ 5.922,57"
+        },
+        {
+          "unit": "103",
+          "typology": "2 quartos",
+          "price": 756700.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "103          93,23               82,25               7,98    2 Quartos Garden    1     Sol da Tarde   R$ 756.700,00       R$ 60.536,00    R$ 15.134,00       R$ 529.690,00       R$ 4.414,08"
+        }
+      ]
+    },
+    {
+      "id": "dianthus",
+      "tableUrl": "https://drive.google.com/file/d/1_MhHPxQ2odEov9llMZ_JfLdA4ZqkDcGg/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "ce81645d48bdbeb129b6a7370c5b96edd35f287372e4bf3bedc91068d93bdb09",
+      "confirmedRows": 9,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "102",
+          "typology": "1 quarto",
+          "price": 593589.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "102            56,44           Sol zero       01 Quarto          1      R$   593.589,00    R$      59.358,90   R$      59.358,90   R$      474.871,20"
+        },
+        {
+          "unit": "201",
+          "typology": "2 quartos",
+          "price": 886830.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "201            85,82        Sol da manhã      02 Quartos         1      R$   886.830,00    R$      88.683,00   R$      88.683,00   R$      709.464,00"
+        }
+      ]
+    },
+    {
+      "id": "attrium-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1VuvjYNxUP6iAIolXEA4Ut0pVUwDqd5-p/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "d4a1b8d6e73627b67e2c62afc8ffa4d00a7be41c1bb3ad5e3d1bbc0f6e267e1c",
+      "confirmedRows": 1,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1204",
+          "typology": "",
+          "price": 1849000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "1204                  124,48             2               1.849.000                       554.700                        1.294.300",
+          "parkingNote": "A tabela indica 2 vagas ou 1 vaga estendida; conferir memorial e mapa de vagas."
+        }
+      ]
+    },
+    {
+      "id": "ion-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1HYjSrxFrYisBMyuYTrOG2mhJMJrqwTcp/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "2b3a1fcf2234184a434175caf3a331c5e3240cbc1e7151258bbb2afd19dd71f8",
+      "confirmedRows": 1,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "507",
+          "typology": "Studio",
+          "price": 679000.0,
+          "parkingSpaces": 0,
+          "parkingEvidence": "507                53,55         0        679.000            81.480            13.580            13.580            4.753             23.765           476.658               3.395"
+        }
+      ]
+    },
+    {
+      "id": "maestro",
+      "tableUrl": "https://drive.google.com/file/d/1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "98d8bfc43a637a5280093b460005ad33feae715938c20430ec142e78597f89f4",
+      "confirmedRows": 4,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "303",
+          "typology": "",
+          "price": 2099000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "303          186,55        2        2.099.000        209.900          52.475           52.475           16.792           62.970         1.446.211       10.495"
+        },
+        {
+          "unit": "1403",
+          "typology": "",
+          "price": 3299000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "1403          186,45        2        3.299.000        329.900          82.475           82.475           26.392           98.970         2.273.011       16.495"
+        }
+      ]
+    },
+    {
+      "id": "clarice",
+      "tableUrl": "https://drive.google.com/file/d/1NybBWiY1UGsJd_dFHMJIPhN_Bkl5xcNw/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "25b3f7e742d7e8a883985ad90e72ed3620dec46cbccd369c76d85fbdc7dd5a2f",
+      "confirmedRows": 16,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1003",
+          "typology": "2 quartos",
+          "price": 1199000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1003             80,23       1        1.199.000          119.900            11.990             11.990             4.796             21.582            847.693               5.995"
+        },
+        {
+          "unit": "1203",
+          "typology": "2 quartos",
+          "price": 1269000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "1203             80,23       1        1.269.000          126.900            12.690             12.690             5.076             22.842            897.183               6.345"
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "tableUrl": "https://drive.google.com/file/d/1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "5680a7b268b1435c41496a3946d31f2f04950d790f2aab173d0e2b8230376606",
+      "confirmedRows": 5,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "601",
+          "typology": "4 quartos",
+          "price": 3299000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "601               4 SUÍTES        178,47        2        3.299.000            329.900          65.980           65.980           23.093            98.970          2.276.310         16.495"
+        },
+        {
+          "unit": "502",
+          "typology": "4 quartos",
+          "price": 3249000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "502               4 SUÍTES        177,31        2        3.249.000            324.900          64.980           64.980           22.743            97.470          2.241.810         16.245"
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "tableUrl": "https://drive.google.com/file/d/1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "3784b1a54057cdb6eb47325e064d0e23fe38a44c79eea023afa49dc88620ad97",
+      "confirmedRows": 23,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "ALMA — 1201",
+          "typology": "3 quartos",
+          "price": 1625000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "ALMA                 1201              106,44          1         1.625.000            162.500          32.500            32.500             6.500            40.625          1.144.000        8.125"
+        },
+        {
+          "unit": "ALMA — 304",
+          "typology": "3 quartos",
+          "price": 1799000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "ALMA                  304              123,52          2         1.799.000            179.900          35.980            35.980             7.196            44.975          1.266.496        8.995"
+        }
+      ]
+    },
+    {
+      "id": "the-grove",
+      "tableUrl": "https://drive.google.com/file/d/14AW8PVp0xTFEZlvcaAifRcsFy6_t-nxm/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "881d6256ee7e8b9813f24ad61c00c6649e72d581e603be293471a3cc53f3e273",
+      "confirmedRows": 41,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "401",
+          "typology": "4 quartos",
+          "price": 2199000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "401             155,52             2        2.199.000        219.900          21.990           21.990           6.597           32.985            1.479.927",
+          "parkingNote": "A tabela indica 2 vagas ou 1 vaga estendida; conferir memorial e mapa de vagas."
+        },
+        {
+          "unit": "501",
+          "typology": "4 quartos",
+          "price": 2249000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "501             155,52             2        2.249.000        224.900          22.490           22.490           6.747           33.735            1.513.577",
+          "parkingNote": "A tabela indica 2 vagas ou 1 vaga estendida; conferir memorial e mapa de vagas."
+        }
+      ]
+    },
+    {
+      "id": "tropico-camboinhas",
+      "tableUrl": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "275ce4a8fcb07ffaa0e606faae5e26e94945dd0cc2ef27b7dd8b3ae202f92587",
+      "confirmedRows": 12,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "101 — Bloco 1",
+          "typology": "4 quartos",
+          "price": 1490000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "101                  149,30            0,02907              4              2         R$ 1.490.000,00        R$ 149.000,00            R$ 1.341.000,00          R$ 149.000,00          R$ 1.341.000,00"
+        },
+        {
+          "unit": "201 — Bloco 1",
+          "typology": "4 quartos",
+          "price": 1690000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "201                  149,00            0,02902              4              2         R$ 1.690.000,00        R$ 169.000,00            R$ 1.521.000,00          R$ 169.000,00          R$ 1.521.000,00"
+        }
+      ]
+    },
+    {
+      "id": "flua",
+      "tableUrl": "https://drive.google.com/file/d/14BRJtaDWhO0IlTkVRYwbJZnaSr_0E9D-/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "6b558c4448eb26ecdb9dcb86532b306036530c92331a246fc6a2f61cd6a774ee",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "tresor-dior",
+      "tableUrl": "https://drive.google.com/file/d/1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "6be19c6834601d6c5436dda4a84d09c876f42d3a40627bfb3a61980ffd5543ea",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "mare-blu",
+      "tableUrl": "https://drive.google.com/file/d/1glKT_A9ThKKwIOfz6kN3DCAO7neUpjpf/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "b33fd3a3e79c6edd58378593a49782f2b0c55d803839f43b77b2cb94b342535b",
+      "confirmedRows": 2,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "203",
+          "typology": "3 quartos",
+          "price": 1102000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "203                            3                    1                                                        109,84                R$     1.102.000,00   R$      330.600,00   R$     771.400,00"
+        },
+        {
+          "unit": "204",
+          "typology": "2 quartos",
+          "price": 945000.0,
+          "parkingSpaces": 1,
+          "parkingEvidence": "204                            2                    1                                                         90,57                R$      945.000,00    R$      283.500,00   R$     661.500,00"
+        }
+      ]
+    },
+    {
+      "id": "conviva-piratininga",
+      "tableUrl": "https://drive.google.com/file/d/1oST13WgpeRVGfHyU7RimlSWxvKEtEFpH/view?usp=drivesdk",
+      "tableDate": "Agosto 2026",
+      "pdfSha256": "2cda426daf725e68b0f68902939e4265a7908c9b47f5abc3d3ef67beebb83b1d",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "eldorado-ii",
+      "tableUrl": "https://drive.google.com/file/d/158E2Sd-pSaPZWy3FyZf5gqe3I76-WQbY/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "8c27ac9d377ff079d69cf7b4705268257beb37402573c21cf6a6d5ce9f1f8e89",
+      "confirmedRows": 1,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "1303 — Bloco 2",
+          "typology": "",
+          "price": 890000,
+          "parkingSpaces": 2,
+          "parkingEvidence": "Página 1: unidade 1303, cobertura linear, piscina e 2 vagas"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "tableUrl": "https://drive.google.com/file/d/1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "8fe4bef3c14cf0e96fb9c928d92713861ae39e31b31467b60fed86b4c635eea4",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "unic-icarai",
+      "tableUrl": "https://drive.google.com/file/d/1HA3_sSHSBNH3BnBtuZHttucejDpB6d4N/view?usp=drivesdk",
+      "tableDate": "Abril 2026",
+      "pdfSha256": "a2c76ceb8d921871af480a31e156fde7096b6c3f827b48e5904cedcba8ad1d62",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "rental-without-parking",
+      "samples": []
+    },
+    {
+      "id": "reserva-natural",
+      "tableUrl": "https://drive.google.com/file/d/1CNOpi0sl9Z8bQAqUkl566IO6jEyhPGWE/view?usp=drivesdk",
+      "tableDate": "Setembro 2026",
+      "pdfSha256": "261baaa621494874bf7189b5e19133074c043692b0cba8507d5b41300662571b",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "seven-avenue",
+      "tableUrl": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk",
+      "tableDate": "Junho 2026",
+      "pdfSha256": "8fca7220481a5a9bf5c9ceaeb17b6223d4e6e7dcce9b82ab98786ce73b9e076f",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "vila-moura",
+      "tableUrl": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk",
+      "tableDate": "Março 2026",
+      "pdfSha256": "8f1699f7414cf4271d6ced9feca2dac4b0a981b25070a1f7ff497b2eab7e308b",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "santa-barbara",
+      "tableUrl": "https://drive.google.com/file/d/1nFVsH4_4k8nHJruYDjUF1iQhCwfNi_L2/view?usp=drivesdk",
+      "tableDate": "Março 2026",
+      "pdfSha256": "a620f087a000a085dfbbc7dee34b4fd68af0964d5ac291e107192fa45728f789",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "golden-ville-residence",
+      "tableUrl": "https://drive.google.com/file/d/1xrEPQ3LnwOc1nWyqQB1q42RkTEMA1fP1/view?usp=drivesdk",
+      "tableDate": "Julho 2026",
+      "pdfSha256": "1e17ad204d14d181d7e344cf6f6ee261b77d60784fde017e5a032f19a63cc3b1",
+      "confirmedRows": 0,
+      "excludedColoredUnits": [],
+      "status": "no-parking-information-in-table",
+      "samples": []
+    },
+    {
+      "id": "davinci",
+      "tableUrl": "https://drive.google.com/file/d/1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "a7006ffe99f271d97859eaa89865cdc05172c79f7bf8c3c913f58df1ac00a8e3",
+      "confirmedRows": 2,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "301",
+          "typology": "",
+          "price": 2907450.12,
+          "parkingSpaces": 2,
+          "parkingEvidence": "301                  238,34            0,09825        2       R$      600.000,00    R$   1.976.455,05   R$ 47.285,01   R$      2.907.450,12"
+        },
+        {
+          "unit": "501",
+          "typology": "",
+          "price": 1699000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "501                  159,59            0,07891        2       R$      500.000,00    R$     919.700,00   R$ 39.900,00   R$      1.699.000,00"
+        }
+      ]
+    },
+    {
+      "id": "baume",
+      "tableUrl": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
+      "tableDate": "Outubro 2026",
+      "pdfSha256": "347c9ac8e377829906c0c11db240839983f7281e59959ded45a650be6a400020",
+      "confirmedRows": 60,
+      "excludedColoredUnits": [],
+      "status": "mapped",
+      "samples": [
+        {
+          "unit": "301",
+          "typology": "3 quartos",
+          "price": 1720000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "301      3 quartos     2          114,22         1.720.000   172.000       34.400         34.400             7.242                        1.204.000"
+        },
+        {
+          "unit": "401",
+          "typology": "3 quartos",
+          "price": 1750000.0,
+          "parkingSpaces": 2,
+          "parkingEvidence": "401      3 quartos     2          113,36         1.750.000   175.000       35.000         35.000             7.368                        1.225.000"
+        }
+      ]
+    }
+  ]
+}

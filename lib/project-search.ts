@@ -1,4 +1,4 @@
-export type UnitOffer = {unit: string; typology: string; price: number; parkingSpaces?: number};
+export type UnitOffer = {unit: string; typology: string; price: number; parkingSpaces?: number; parkingCountIsMinimum?: boolean; parkingNote?: string; offerKind?: 'group'; availableCount?: number};
 export type OfferTable = {tableUrl: string; tableDate: string; checkedAt: string; coverage: string; offers: UnitOffer[]};
 export const FAVORITES_KEY = 'spinmap:favorites:v1';
 export const SHARE_KEY = 'spinmap:shared-selection:v1';
