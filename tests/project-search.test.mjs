@@ -15,5 +15,9 @@ const allowed=new Set(['baume','maren','gael','monier']);
 assert.deepEqual(parseSelection('#selecao=baume%2Cmaren%2Cfake%2Cgael%2Cmonier',allowed),['baume','maren','gael']);
 assert.deepEqual(validIds(['baume','baume',null,'fake'],allowed),['baume']);
 assert.deepEqual(parseSelection('#selecao=unknown',allowed),[]);
-for(const [id,t] of Object.entries(data)){assert.ok(t.tableUrl.startsWith('https://drive.google.com/'));for(const o of t.offers){assert.ok(o.price>=100000&&o.price<20000000,`${id}/${o.unit}`);assert.ok(['Studio','1 quarto','2 quartos','3 quartos','4 quartos'].includes(o.typology))}}
-console.log('11 behavior assertions and 534 unit rows passed');
+for(const [id,t] of Object.entries(data)){assert.ok(t.tableUrl.startsWith('https://drive.google.com/'));for(const o of t.offers){assert.ok(o.price>=100000&&o.price<20000000,`${id}/${o.unit}`);assert.ok(['','Studio','1 quarto','2 quartos','3 quartos','4 quartos','Loja','Sala comercial'].includes(o.typology))}}
+assert.ok(matchingOffers(data['conquista-oceanica'],'all','','300000','1').length>0);
+const coverage={offers:[{unit:'901',typology:'3 quartos',unitKind:'Cobertura',price:1400000,parkingSpaces:2},{unit:'902',typology:'3 quartos',price:700000,parkingSpaces:1}]};
+assert.equal(matchingOffers(coverage,'Cobertura','','1000000','1').length,0);
+assert.equal(matchingOffers(coverage,'Cobertura','','1500000','2')[0].unit,'901');
+console.log('Budget, garage, coverage, sharing and data validation passed');

@@ -1,4 +1,4 @@
-export type UnitOffer = {unit: string; typology: string; price: number; parkingSpaces?: number; parkingCountIsMinimum?: boolean; parkingNote?: string; offerKind?: 'group'; availableCount?: number};
+export type UnitOffer = {unit: string; typology: string; price: number; unitKind?: string; priceNote?: string; parkingSpaces?: number; parkingCountIsMinimum?: boolean; parkingNote?: string; offerKind?: 'group'; availableCount?: number};
 export type OfferTable = {tableUrl: string; tableDate: string; checkedAt: string; coverage: string; offers: UnitOffer[]};
 export const FAVORITES_KEY = 'spinmap:favorites:v1';
 export const SHARE_KEY = 'spinmap:shared-selection:v1';
@@ -10,7 +10,7 @@ export function parseSelection(hash: string, allowed: Set<string>): string[] {
   return validIds(raw?.split(',') || [], allowed, 3);
 }
 export function matchingOffers(table: OfferTable | undefined, typology: string, min: string, max: string, parking = 'all'): UnitOffer[] {
-  return (table?.offers || []).filter(o => (parking === 'all' || (typeof o.parkingSpaces === 'number' && (parking === 'none' ? o.parkingSpaces === 0 : o.parkingSpaces >= Number(parking)))) && (typology === 'all' || o.typology === typology) && (min === '' || o.price >= Number(min)) && (max === '' || o.price <= Number(max)));
+  return (table?.offers || []).filter(o => (parking === 'all' || (typeof o.parkingSpaces === 'number' && (parking === 'none' ? o.parkingSpaces === 0 : o.parkingSpaces >= Number(parking)))) && (typology === 'all' || (o.typology === typology || o.unitKind === typology)) && (min === '' || o.price >= Number(min)) && (max === '' || o.price <= Number(max)));
 }
 export function matchesBudget(project: {price: number | null; priceLabel?: string}, table: OfferTable | undefined, typology: string, min: string, max: string, parking = 'all'): boolean {
   if (parking !== 'all') return matchingOffers(table, typology, min, max, parking).length > 0;
