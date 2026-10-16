@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
-  "status": "complete-comparison-with-sync-pending",
+  "status": "complete",
   "entrypoint": "https://linktr.ee/corretorSPIN",
-  "method": "Complete SHA-256 hashes of every source file and all distinct Drive book references. All 755 pages of the 16 nonidentical PDFs rendered and text compared, with per-page metrics below. Byte differences alone do not establish a new commercial version.",
+  "method": "Complete SHA-256 hashes of every source file and all distinct Drive book references. All 755 pages of the 16 nonidentical PDFs rendered and text compared, with per-page metrics below. Byte differences alone do not establish a new commercial version. All 15 binary differences are now resolved: 12 existing derivatives matched every page render and extracted text after reproducible source normalization; 3 were replaced with validated complete compressed official-source PDFs and re-fetched for SHA-256 verification. Text, links, outlines, annotations, embedded files and core metadata were checked. This does not label compression differences as a new commercial release.",
   "counts": {
     "rootFolders": 40,
     "subfolders": 2,
@@ -16,7 +16,12 @@
     "pdfPagesCompared": 755,
     "byteIdenticalAfterCorrections": 112,
     "nonidenticalAfterCorrections": 15,
-    "additionalDriveBooksWithoutOfficialCounterpart": 2
+    "additionalDriveBooksWithoutOfficialCounterpart": 2,
+    "verifiedCompressedDerivatives": 15,
+    "normalizedPagesVerified": 728,
+    "existingEquivalentCopiesRetained": 12,
+    "compressedCopiesReplacedAndReadbackVerified": 3,
+    "pendingBookReplacements": 0
   },
   "corrections": [
     {
@@ -28,30 +33,33 @@
       "name": "Lazuli — União Construções",
       "action": "Incorrect alias to Habitare's 119-page book replaced with separate official 114-page PDF. Upload re-fetched and SHA-256 verified; public reader permission verified.",
       "url": "https://drive.google.com/file/d/1bz4Tb3XDe0-CVDyIJTlL5fyKvaAC4UAG/view?usp=drivesdk"
+    },
+    {
+      "name": "Book Conviva Camboinhas_ver4.pdf",
+      "action": "Replaced the existing Drive PDF with a complete validated compressed derivative of the current official source; re-fetched SHA-256, unchanged file ID and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1gnQnRPiC273s9Bxis_VLIyCBSDdkJvVN/view?usp=drivesdk",
+      "sourceSha256": "fba1db8301c637bc4b74460c7b5395d886616e695d49e35ef9c9c863373b7ec9",
+      "driveSha256": "04c0b165262eb529c9ed7b7780b2ba7acb164c390dd3a4f1f3bbfe7859abdd45",
+      "pages": 36
+    },
+    {
+      "name": "Spin_Book Althea 10.03 LOW.pdf",
+      "action": "Replaced the existing Drive PDF with a complete validated compressed derivative of the current official source; re-fetched SHA-256, unchanged file ID and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1v7dk3ucVZucumOTBW35fcu0vNIqZh806/view?usp=drivesdk",
+      "sourceSha256": "0e0df993d13ce37b41d75a6df4b443b3ce45befac80361b2649b8484814a9ced",
+      "driveSha256": "a43eb5159269cf1910b5f93f04d84e7655c3cd7d95c51aba31617f5b5a6bcc98",
+      "pages": 60
+    },
+    {
+      "name": "BooK Digital Tresor Dior.pdf",
+      "action": "Replaced the existing Drive PDF with a complete validated compressed derivative of the current official source; re-fetched SHA-256, unchanged file ID and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1t8e1RXEKQWfedIodJyfxfnyclKcRjzOR/view?usp=drivesdk",
+      "sourceSha256": "e02f90d8b4ee26a58a3133a0a9c6643ccc2b880fae1fe5298531c2e8ef005d93",
+      "driveSha256": "ffd7bd212663cb85195f18d887ff35fb2411a6120c9701a2a3e0a9b949431696",
+      "pages": 33
     }
   ],
   "limitations": [
-    {
-      "type": "replacement-limit",
-      "details": "First original replacement rejected before action: 194916154 bytes exceeds 104857600-byte connector limit. All 15 remaining nonidentical originals exceed this limit. Existing Drive copies retained; no newer version is inferred solely from binary or image compression differences.",
-      "files": [
-        "SPIN JARDIN DI GRAZIELLE - BOOK DIGITAL - Wide.pdf",
-        "Book _ Singular _ BacosSignature _Spin.pdf",
-        "Book Nomad.pdf",
-        "Book Conviva Camboinhas_ver4.pdf",
-        "Conviva Camboinhas Life.pdf",
-        "Conviva Life Ingá finalizado.pdf",
-        "Book Reserva São Francisco Elvas.pdf",
-        "SPIN Book - CASCAIS - Estrada Fróes.pdf",
-        "BOOK GREEN OPEN.pdf",
-        "SPIN Book de Vendas_Sou Itacoa.pdf",
-        "SPIN Book de Vendas_Sou+ Charitas.pdf",
-        "Spin_Book Althea 10.03 LOW.pdf",
-        "Book Dahlia Residence.pdf",
-        "Book Trópico Camboinhas.pdf",
-        "BooK Digital Tresor Dior.pdf"
-      ]
-    },
     {
       "type": "official-counterpart-not-found",
       "name": "Book Conviva Piratininga.pdf",
@@ -856,11 +864,13 @@
       "group": "4MX",
       "driveUrl": "https://drive.google.com/file/d/18Ygj0h_YxO0UkSWRDNfWP-n1RXVDn4GC/view?usp=drivesdk",
       "driveSha256": "97ae9d06783ad70f2c363939292c20462c188f543fb4876fffb7108bd25193f2",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "7b6c95730e23c264a4ebf29e7efbc1b1f7a64cc3845fb99b80a661f6422ee0a7"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "97ae9d06783ad70f2c363939292c20462c188f543fb4876fffb7108bd25193f2",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book_Fazenda Fillomena SPIN.pdf",
@@ -887,11 +897,13 @@
       "group": "Bacos",
       "driveUrl": "https://drive.google.com/file/d/1j1efLuAz--e-2dGSH0QOilPR9ekuR1jC/view?usp=drivesdk",
       "driveSha256": "860ee7c7b17923e941781ae1924a9c9be52a10033002e91e00d5a7eba0af4de1",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "243324581013a416bff52a91463d098b1f2e53290802a6f02c8ae63444381b07"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "860ee7c7b17923e941781ae1924a9c9be52a10033002e91e00d5a7eba0af4de1",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book Style.pdf",
@@ -968,11 +980,13 @@
       "group": "CEU",
       "driveUrl": "https://drive.google.com/file/d/1d5DoWZvlIGqLGBFs01S1_9CFFvb3EsOA/view?usp=drivesdk",
       "driveSha256": "ff9b35b6343eea49d61ae2d7da5d6ce6051557ba346478aecdf7ec864ff9ca61",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "7e32c797d9a5aa929f19536ce55944a42e12a3ca702a27902971be8b16e967ba"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "ff9b35b6343eea49d61ae2d7da5d6ce6051557ba346478aecdf7ec864ff9ca61",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book Spin Mobile - Maria Maria.pdf",
@@ -1038,12 +1052,14 @@
       "name": "Book Conviva Camboinhas_ver4.pdf",
       "group": "Conviva",
       "driveUrl": "https://drive.google.com/file/d/1gnQnRPiC273s9Bxis_VLIyCBSDdkJvVN/view?usp=drivesdk",
-      "driveSha256": "d2bb1a031f67c6fefa6108c3c0105e9bd5c9fae5fcd894a4a09d25cf967b395a",
-      "status": "byte-different",
+      "driveSha256": "04c0b165262eb529c9ed7b7780b2ba7acb164c390dd3a4f1f3bbfe7859abdd45",
+      "status": "replaced-and-readback-verified",
       "sourceSha256": [
         "fba1db8301c637bc4b74460c7b5395d886616e695d49e35ef9c9c863373b7ec9"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "d2bb1a031f67c6fefa6108c3c0105e9bd5c9fae5fcd894a4a09d25cf967b395a",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book Conviva Charitas.pdf",
@@ -1080,22 +1096,26 @@
       "group": "Conviva",
       "driveUrl": "https://drive.google.com/file/d/1DHgs-IZyHH3V0soqqMI0nIZNWKrSSGOC/view?usp=drivesdk",
       "driveSha256": "cec461cb9462d8c4a599626e05cc001b8d90312f519215bd578b5faebb8d47ae",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "f7e26d76a8fa3088290ba3c0499d3c6bae7cbc2e6ae642053e3a6c66f53c9733"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "cec461cb9462d8c4a599626e05cc001b8d90312f519215bd578b5faebb8d47ae",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Conviva Life Ingá finalizado.pdf",
       "group": "Conviva",
       "driveUrl": "https://drive.google.com/file/d/1vTB8zxkAPXBoCrX_Fs4KAsX7RLnqIget/view?usp=drivesdk",
       "driveSha256": "ad9fa8e1d7ea8f19e31258e89df4aa0cf30a6a94482e89171bd200896bfd1e31",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "47e03f16e7338625dbd002e8cdaf069b1bde8746745e1635567ba945d2623fd3"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "ad9fa8e1d7ea8f19e31258e89df4aa0cf30a6a94482e89171bd200896bfd1e31",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Spin Book - Conviva Icarai - Antecipe-se ao lançamento.pdf",
@@ -1202,11 +1222,13 @@
       "group": "Elvas",
       "driveUrl": "https://drive.google.com/file/d/1rCwhs6hadF73-_qMXrYAWJdKgxSo4UwJ/view?usp=drivesdk",
       "driveSha256": "f0b0f6db8d2689b52f51c1caed7cf2cd696e3162ce6fc8db367716d0735d15b6",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "90341ffd37f9948d91d49cab87c587f65e42a035852597cecd469de1b8cb835e"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "f0b0f6db8d2689b52f51c1caed7cf2cd696e3162ce6fc8db367716d0735d15b6",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "SPIN Book Digital_Neo Design Icaraí.pdf",
@@ -1283,11 +1305,13 @@
       "group": "Falves",
       "driveUrl": "https://drive.google.com/file/d/15mc-ihNweJT-lo0G0UY7pLpv-ihG_gKA/view?usp=drivesdk",
       "driveSha256": "776f007c94994a1bfd2a9175edd730aeba507281caf03289e7ab13f99f30fc08",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "4be9d9628a2aad224930f16f8e4ca4c7c011afa9696813908197da287dcc3ae7"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "776f007c94994a1bfd2a9175edd730aeba507281caf03289e7ab13f99f30fc08",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Spin_Book - Trend - Digital-3.pdf",
@@ -1344,11 +1368,13 @@
       "group": "GPCON",
       "driveUrl": "https://drive.google.com/file/d/1Iw8KV21h_czqYeCRBJAixtllYrmkbBTI/view?usp=drivesdk",
       "driveSha256": "e54afefbbab64e7e8dcffa2ba981c97ff1fbb0028dfd4276c1d18edc4edadfb7",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "f2277038513bbf24fc49dbde5657c848c33de13b7e91bbc3304a77a6a8ebf661"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "e54afefbbab64e7e8dcffa2ba981c97ff1fbb0028dfd4276c1d18edc4edadfb7",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "BOOK OPEN SANTA ROSA.pdf",
@@ -1396,22 +1422,26 @@
       "group": "Habitare",
       "driveUrl": "https://drive.google.com/file/d/1_4v3GOe0G3kk1cz6xwb2WXutm3OQUGmx/view?usp=drivesdk",
       "driveSha256": "64198ec1b485fe22747d9f5c3ba3ea6af504d3633f580fc9680131bc1877aa2f",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "51e8d7546ea869816992489e7574bf91c2a3fba40e5f7bbb8c165d443a3839ea"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "64198ec1b485fe22747d9f5c3ba3ea6af504d3633f580fc9680131bc1877aa2f",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "SPIN Book de Vendas_Sou+ Charitas.pdf",
       "group": "Habitare",
       "driveUrl": "https://drive.google.com/file/d/1qwJWD3aBcRWuwmI6Npak3bTGVtSiqarJ/view?usp=drivesdk",
       "driveSha256": "3e06dbf416848f17c76cf03348aac5ba50d8e2b0f773f6856a3fbb56db065dfd",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "2f27e8e98020023e0ef9ed0209b558be59014b147bdfda125c73f03cd7d1dec1"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "3e06dbf416848f17c76cf03348aac5ba50d8e2b0f773f6856a3fbb56db065dfd",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Spin_book - sou+ wellness charitas.pdf",
@@ -1467,12 +1497,14 @@
       "name": "Spin_Book Althea 10.03 LOW.pdf",
       "group": "Joama",
       "driveUrl": "https://drive.google.com/file/d/1v7dk3ucVZucumOTBW35fcu0vNIqZh806/view?usp=drivesdk",
-      "driveSha256": "d10d6eb34c53f534485b5c57d4bde7a421c020ef6f748d7d683c51a4820e27a7",
-      "status": "byte-different",
+      "driveSha256": "a43eb5159269cf1910b5f93f04d84e7655c3cd7d95c51aba31617f5b5a6bcc98",
+      "status": "replaced-and-readback-verified",
       "sourceSha256": [
         "0e0df993d13ce37b41d75a6df4b443b3ce45befac80361b2649b8484814a9ced"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "d10d6eb34c53f534485b5c57d4bde7a421c020ef6f748d7d683c51a4820e27a7",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Spin_NP38-EBook - Final.pdf",
@@ -1819,11 +1851,13 @@
       "group": "RJ Engenharia",
       "driveUrl": "https://drive.google.com/file/d/1ALww1J9ADI0jCp3OciDWr938Wi4t5ilt/view?usp=drivesdk",
       "driveSha256": "89bcc3cd2b107c06f213d01ff40501744f19f155971bcb3e723a9136712720e0",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "a2ececb0803ad07092d62af5f58a9cdc6583a4efd7f0bda669f827cc70b20f76"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "89bcc3cd2b107c06f213d01ff40501744f19f155971bcb3e723a9136712720e0",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book digital DIANTHUS.pdf",
@@ -2030,11 +2064,13 @@
       "group": "Tecconstru",
       "driveUrl": "https://drive.google.com/file/d/1tbm8Mdb4tO0HMUOiaR4kl9r7XmAPsypT/view?usp=drivesdk",
       "driveSha256": "c4c13c8fd53ab77b9819eda6a121bdefebac2a1a70a4ae27905f4b93d78bcf22",
-      "status": "byte-different",
+      "status": "retained-verified-compression-equivalent",
       "sourceSha256": [
         "0e1152ceccccc180d0b9e5f7cfe94e685abde4acefe42d67621eec178f8d21e2"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "c4c13c8fd53ab77b9819eda6a121bdefebac2a1a70a4ae27905f4b93d78bcf22",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book Digital Flua.pdf",
@@ -2060,12 +2096,14 @@
       "name": "BooK Digital Tresor Dior.pdf",
       "group": "Tresor",
       "driveUrl": "https://drive.google.com/file/d/1t8e1RXEKQWfedIodJyfxfnyclKcRjzOR/view?usp=drivesdk",
-      "driveSha256": "2785d52baec00b08d4037775ae0910797595c2b7f2ff441bdbf0076770447481",
-      "status": "byte-different",
+      "driveSha256": "ffd7bd212663cb85195f18d887ff35fb2411a6120c9701a2a3e0a9b949431696",
+      "status": "replaced-and-readback-verified",
       "sourceSha256": [
         "e02f90d8b4ee26a58a3133a0a9c6643ccc2b880fae1fe5298531c2e8ef005d93"
       ],
-      "originalReplacement": "blocked-100-MiB-connector-limit"
+      "priorDriveSha256": "2785d52baec00b08d4037775ae0910797595c2b7f2ff441bdbf0076770447481",
+      "contentVerifiedAt": "2026-10-16",
+      "verificationReport": "data/books-normalization-verification-2026-10-16.json"
     },
     {
       "name": "Book provisório Nice Trésor.pdf",
@@ -6857,5 +6895,9 @@
         }
       ]
     }
-  ]
+  ],
+  "resolutionDate": "2026-10-16",
+  "normalizationVerification": "data/books-normalization-verification-2026-10-16.json",
+  "representationNote": "Fifteen Drive PDFs are intentionally compressed derivatives rather than byte-for-byte original files. Their current content is verified. The upload-size limit no longer leaves any of these 15 books pending.",
+  "futureComparisonBaseline": "Use stored official-source SHA-256 and verified current Drive SHA-256 to distinguish new source content from an already validated compressed derivative."
 }

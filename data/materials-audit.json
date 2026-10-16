@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-16",
   "entrypoint": "https://linktr.ee/corretorSPIN",
-  "status": "comparison-complete-sync-pending",
+  "status": "complete",
   "scope": {
     "tableFolders": 44,
     "tableSourceFiles": 142,
@@ -20,10 +20,14 @@
     "differentTables": 8,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 84,
-    "bookComparison": "130 source files across all 40 root folders and 2 subfolders downloaded completely and hashed; 128 distinct Drive files compared; 16 nonidentical PDFs analyzed across all 755 pages. One in-place original replacement and one wrong-alias correction verified. Fifteen originals exceed the 100 MiB replacement limit.",
+    "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded and hashed. The 15 optimized-book differences are resolved across all 728 pages: 12 retained with exact normalized page-render and text equivalence, 3 replaced and re-fetched with full SHA-256 verification. Public reader permissions and stable Drive IDs were verified. Original image pixel dimensions, vector text, links and page geometry are preserved in the new Althea and Trésor Dior copies.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 1,
-    "bookContentReport": "data/books-content-comparison-2026-10-16.json"
+    "bookContentReport": "data/books-content-comparison-2026-10-16.json",
+    "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
+    "pendingBookReplacements": 0,
+    "verifiedOptimizedBooks": 15,
+    "verifiedOptimizedPages": 728
   },
   "corrections": [
     {
@@ -42,6 +46,30 @@
       "name": "Lazuli — União Construções",
       "action": "Incorrect alias to Habitare's 119-page book replaced with separate official 114-page PDF. Upload re-fetched and SHA-256 verified; public reader permission verified.",
       "url": "https://drive.google.com/file/d/1bz4Tb3XDe0-CVDyIJTlL5fyKvaAC4UAG/view?usp=drivesdk"
+    },
+    {
+      "name": "Book Conviva Camboinhas_ver4.pdf",
+      "action": "Replaced the existing Drive PDF with a complete validated compressed derivative of the current official source; re-fetched SHA-256, unchanged file ID and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1gnQnRPiC273s9Bxis_VLIyCBSDdkJvVN/view?usp=drivesdk",
+      "sourceSha256": "fba1db8301c637bc4b74460c7b5395d886616e695d49e35ef9c9c863373b7ec9",
+      "driveSha256": "04c0b165262eb529c9ed7b7780b2ba7acb164c390dd3a4f1f3bbfe7859abdd45",
+      "pages": 36
+    },
+    {
+      "name": "Spin_Book Althea 10.03 LOW.pdf",
+      "action": "Replaced the existing Drive PDF with a complete validated compressed derivative of the current official source; re-fetched SHA-256, unchanged file ID and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1v7dk3ucVZucumOTBW35fcu0vNIqZh806/view?usp=drivesdk",
+      "sourceSha256": "0e0df993d13ce37b41d75a6df4b443b3ce45befac80361b2649b8484814a9ced",
+      "driveSha256": "a43eb5159269cf1910b5f93f04d84e7655c3cd7d95c51aba31617f5b5a6bcc98",
+      "pages": 60
+    },
+    {
+      "name": "BooK Digital Tresor Dior.pdf",
+      "action": "Replaced the existing Drive PDF with a complete validated compressed derivative of the current official source; re-fetched SHA-256, unchanged file ID and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1t8e1RXEKQWfedIodJyfxfnyclKcRjzOR/view?usp=drivesdk",
+      "sourceSha256": "e02f90d8b4ee26a58a3133a0a9c6643ccc2b880fae1fe5298531c2e8ef005d93",
+      "driveSha256": "ffd7bd212663cb85195f18d887ff35fb2411a6120c9701a2a3e0a9b949431696",
+      "pages": 33
     }
   ],
   "exceptions": [
