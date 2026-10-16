@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-12",
+  "checkedAt": "2026-10-16",
   "entrypoint": "https://linktr.ee/corretorSPIN",
-  "status": "partial-book-content-comparison",
+  "status": "comparison-complete-sync-pending",
   "scope": {
     "tableFolders": 44,
     "tableSourceFiles": 142,
@@ -20,9 +20,10 @@
     "differentTables": 8,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 84,
-    "bookComparison": "All 40 folders and 2 subfolders listed and reconciled; filenames unchanged. Full-content comparison unavailable after download timeout.",
+    "bookComparison": "130 source files across all 40 root folders and 2 subfolders downloaded completely and hashed; 128 distinct Drive files compared; 16 nonidentical PDFs analyzed across all 755 pages. One in-place original replacement and one wrong-alias correction verified. Fifteen originals exceed the 100 MiB replacement limit.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 1
+    "newTables": 1,
+    "bookContentReport": "data/books-content-comparison-2026-10-16.json"
   },
   "corrections": [
     {
@@ -31,6 +32,16 @@
       "before": "Outubro 2026",
       "after": "Setembro 2026",
       "evidence": "Both PDF pages identify Setembro 2026; file name says Outubro 2026."
+    },
+    {
+      "name": "Conquista Oceânica",
+      "action": "Official original replaced in place; SHA-256 and public reader permission verified",
+      "url": "https://drive.google.com/file/d/1cljCujTNBvuBEMWlBN1NGOiJjW4UkLL3/view?usp=drivesdk"
+    },
+    {
+      "name": "Lazuli — União Construções",
+      "action": "Incorrect alias to Habitare's 119-page book replaced with separate official 114-page PDF. Upload re-fetched and SHA-256 verified; public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1bz4Tb3XDe0-CVDyIJTlL5fyKvaAC4UAG/view?usp=drivesdk"
     }
   ],
   "exceptions": [
@@ -702,5 +713,6 @@
     }
   ],
   "lastInventoryCheckedAt": "2026-10-16",
-  "lastTablesUpdatedAt": "2026-10-16"
+  "lastTablesUpdatedAt": "2026-10-16",
+  "lastBooksComparedAt": "2026-10-16"
 }

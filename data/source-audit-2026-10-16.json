@@ -31,7 +31,7 @@
         }
       ],
       "availableUnits": 14,
-      "minimumPrice": 680000.0,
+      "minimumPrice": 680000,
       "sha256": "bbbbb70eb3e0660ecaf5844a0548149ca1e37ee62555c169955d141b6f869f1f"
     },
     {
@@ -52,7 +52,7 @@
         }
       ],
       "availableUnits": 2,
-      "minimumPrice": 2959600.0,
+      "minimumPrice": 2959600,
       "sha256": "2cfdebd4e5674268a72c343ccce61e43c4b308ceeae914e00344d18a8aa10ce8"
     },
     {
@@ -73,7 +73,7 @@
         }
       ],
       "availableUnits": 39,
-      "minimumPrice": 484000.0,
+      "minimumPrice": 484000,
       "sha256": "112a16d597579720eda31c1a77c1697c427af61d82b61c5184f478e610d5d699"
     },
     {
@@ -94,7 +94,7 @@
         }
       ],
       "availableUnits": 64,
-      "minimumPrice": 430000.0,
+      "minimumPrice": 430000,
       "sha256": "d26f6c75ca86ade08b11cb8310cecb42f168edcfa4418ae570a0eb72f37e07bf"
     },
     {
@@ -115,7 +115,7 @@
         }
       ],
       "availableUnits": 46,
-      "minimumPrice": 631000.0,
+      "minimumPrice": 631000,
       "sha256": "b7bd7582067c506f27866c21688dd44e7d08804309d49b3faaa189553f771349"
     },
     {
@@ -136,7 +136,7 @@
         }
       ],
       "availableUnits": 4,
-      "minimumPrice": 1166000.0,
+      "minimumPrice": 1166000,
       "sha256": "f121a0a057391e5352fe70ab5e45a2a0e431155fd46f6c3d6610aab1f3a09333"
     },
     {
@@ -157,7 +157,7 @@
         }
       ],
       "availableUnits": 10,
-      "minimumPrice": 621300.0,
+      "minimumPrice": 621300,
       "sha256": "32e6b9f5429e3ea2b43c0f88b9ef0c9f862121efcd9a84fdde5f91a3cd9591b7"
     },
     {
@@ -178,7 +178,7 @@
         }
       ],
       "availableUnits": 43,
-      "minimumPrice": 310878.0,
+      "minimumPrice": 310878,
       "sha256": "d3f9e51d23a277281fe8c910c578a3cfc318365d8253f4d5d933317ee8056666"
     },
     {
@@ -193,7 +193,7 @@
         }
       ],
       "availableUnits": 58,
-      "minimumPrice": 293800.0,
+      "minimumPrice": 293800,
       "sha256": "6cda769ed1b369c2e046af1ef0b0c4bf2efe6e5868673b3c615bb6c821bdf5fa"
     }
   ],
@@ -297,10 +297,41 @@
       "identicalPriorTables": 84,
       "changedPriorTables": 8,
       "newTables": 1
+    },
+    "bookContentComparison": {
+      "report": "data/books-content-comparison-2026-10-16.json",
+      "rootFolders": 40,
+      "subfolders": 2,
+      "sourceFileOccurrences": 130,
+      "sourcePdfOccurrences": 129,
+      "sourceVideoOccurrences": 1,
+      "distinctSourceFiles": 128,
+      "distinctDriveFilesComparedBeforeCorrections": 128,
+      "byteIdenticalBeforeCorrectionsIncludingRenamedFlow": 110,
+      "nonidenticalPdfsCompared": 16,
+      "pdfPagesCompared": 755,
+      "byteIdenticalAfterCorrections": 112,
+      "nonidenticalAfterCorrections": 15,
+      "additionalDriveBooksWithoutOfficialCounterpart": 2
     }
   },
   "limitations": [
-    "The complete Books download exceeded the browser call timeout; content hashes for unchanged books could not be compared.",
-    "Stage uses the bank-financing table as its single main table; the alternative 100%-during-construction payment schedule remains available at the official source."
+    "Stage uses the bank-financing table as its single main table; the alternative 100%-during-construction payment schedule remains available at the official source.",
+    "replacement-limit: First original replacement rejected before action: 194916154 bytes exceeds 104857600-byte connector limit. All 15 remaining nonidentical originals exceed this limit. Existing Drive copies retained; no newer version is inferred solely from binary or image compression differences.",
+    "official-counterpart-not-found: Existing Drive copy preserved; not found in complete official Books listing.",
+    "authorized-exception: Owner-supplied book preserved as explicitly authorized.",
+    "supplementary-video: Entire source video downloaded and hashed; no Drive counterpart in materials catalog."
+  ],
+  "bookCorrections": [
+    {
+      "name": "Conquista Oceânica",
+      "action": "Official original replaced in place; SHA-256 and public reader permission verified",
+      "url": "https://drive.google.com/file/d/1cljCujTNBvuBEMWlBN1NGOiJjW4UkLL3/view?usp=drivesdk"
+    },
+    {
+      "name": "Lazuli — União Construções",
+      "action": "Incorrect alias to Habitare's 119-page book replaced with separate official 114-page PDF. Upload re-fetched and SHA-256 verified; public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1bz4Tb3XDe0-CVDyIJTlL5fyKvaAC4UAG/view?usp=drivesdk"
+    }
   ]
 }
