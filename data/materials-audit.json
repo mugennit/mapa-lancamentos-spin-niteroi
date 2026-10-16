@@ -1,27 +1,28 @@
 {
   "checkedAt": "2026-10-12",
   "entrypoint": "https://linktr.ee/corretorSPIN",
-  "status": "complete",
+  "status": "partial-book-content-comparison",
   "scope": {
     "tableFolders": 44,
-    "tableSourceFiles": 141,
+    "tableSourceFiles": 142,
     "bookRootFolders": 40,
     "bookSubfolders": 2,
     "bookSourceFiles": 130,
     "catalogProjects": 113,
-    "projectsWithBookAndTable": 83,
-    "projectsWithTable": 92,
-    "driveProjectFolders": 83,
-    "driveFilesInProjectFolders": 166
+    "projectsWithBookAndTable": 84,
+    "projectsWithTable": 93,
+    "driveProjectFolders": 84,
+    "driveFilesInProjectFolders": 168
   },
   "validation": {
-    "tableComparison": "SHA-256 of complete PDFs downloaded from Linktree and Drive",
-    "identicalTables": 92,
-    "differentTables": 0,
+    "tableComparison": "SHA-256 of complete source PDFs against the verified 2026-10-12 baseline; 8 changed PDFs replaced in Drive and metadata read back",
+    "identicalTables": 84,
+    "differentTables": 8,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 83,
-    "bookComparison": "All folders and subfolders listed; names and modification dates compared with prior inventory. Existing optimized Drive books retained.",
-    "newUncataloguedNiteroiProjects": []
+    "driveFoldersWithExactlyTwoFiles": 84,
+    "bookComparison": "All 40 folders and 2 subfolders listed and reconciled; filenames unchanged. Full-content comparison unavailable after download timeout.",
+    "newUncataloguedNiteroiProjects": [],
+    "newTables": 1
   },
   "corrections": [
     {
@@ -41,10 +42,11 @@
   "tables": [
     {
       "id": "jardin-di-grazielle",
-      "name": "Tabela de Vendas Jardin Di Grazielle - Agosto 2026 (2).pdf",
-      "sha256": "c5ccdf4012f800c0bc5adff123fba07426f1cd2a8e3ce6549265270883fb2999",
-      "bytes": 360081,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+      "sha256": "bbbbb70eb3e0660ecaf5844a0548149ca1e37ee62555c169955d141b6f869f1f",
+      "bytes": 359986,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "pebe-74",
@@ -454,45 +456,51 @@
     },
     {
       "id": "jardim-dos-manacas",
-      "name": "Tabela de Vendas Jardim dos Manacás - Setembro 2026.pdf",
-      "sha256": "45018a83cc148aa68aed5f1ccdf740eec30f0665659b2e71fa52a09be1af32c2",
-      "bytes": 571570,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
+      "sha256": "112a16d597579720eda31c1a77c1697c427af61d82b61c5184f478e610d5d699",
+      "bytes": 333578,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "up-icarai",
-      "name": "Tabela de Vendas Up Icaraí - Setembro 2026.pdf",
-      "sha256": "8aadffb0c3cd8d22777b1c709bd9e57abb1ed107109f90413b44ae9d313acd51",
-      "bytes": 263248,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
+      "sha256": "32e6b9f5429e3ea2b43c0f88b9ef0c9f862121efcd9a84fdde5f91a3cd9591b7",
+      "bytes": 252928,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "nirvana",
-      "name": "Tabela de Vendas Nirvana - Setembro 2026.pdf",
-      "sha256": "b2558d921586c36a78a6855cec292c8ebdeb297d61c8e4c68c53a86093641805",
+      "name": "Tabela  de Vendas Nirvana - Outubro 2026.pdf",
+      "sha256": "2cfdebd4e5674268a72c343ccce61e43c4b308ceeae914e00344d18a8aa10ce8",
       "bytes": 257044,
-      "driveIdentical": true
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "stage",
-      "name": "Tabela de Vendas Stage (Financiado) - Setembro 2026.pdf",
-      "sha256": "83bc00a425cc3afa627e13ca0577fce9385a90798ce48a8c381edca661d7e959",
-      "bytes": 576609,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
+      "sha256": "b7bd7582067c506f27866c21688dd44e7d08804309d49b3faaa189553f771349",
+      "bytes": 375395,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "sunset",
-      "name": "Tabela de Vendas Sunset - Setembro 2026.pdf",
-      "sha256": "f096c23c9856985b2c63e06d060d2ad68639a047212697b4a3938a3cbcf40629",
-      "bytes": 298382,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Sunset - Outubro 2026.pdf",
+      "sha256": "f121a0a057391e5352fe70ab5e45a2a0e431155fd46f6c3d6610aab1f3a09333",
+      "bytes": 296826,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "soma",
-      "name": "Tabela de Vendas Soma - Setembro 2026.pdf",
-      "sha256": "3f41ebf494691a6efc9f4b9a52edbf055f4dbbed79364249fa6f9d31650d3026",
-      "bytes": 515744,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Soma - Outubro 2026.pdf",
+      "sha256": "d26f6c75ca86ade08b11cb8310cecb42f168edcfa4418ae570a0eb72f37e07bf",
+      "bytes": 601306,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "maren",
@@ -503,10 +511,11 @@
     },
     {
       "id": "sun-in",
-      "name": "Tabela de Vendas Sun In - Setembro 2026.pdf",
-      "sha256": "6749832afb501cc2940ea6258657dc605c1fbd9bf3bccc9df52b789c0c9ce21e",
-      "bytes": 265708,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Sun In - Outubro 2026.pdf",
+      "sha256": "d3f9e51d23a277281fe8c910c578a3cfc318365d8253f4d5d933317ee8056666",
+      "bytes": 261085,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     },
     {
       "id": "giardino-di-verona",
@@ -682,6 +691,16 @@
       "sha256": "347c9ac8e377829906c0c11db240839983f7281e59959ded45a650be6a400020",
       "bytes": 418478,
       "driveIdentical": true
+    },
+    {
+      "id": "soul-fonseca",
+      "name": "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+      "sha256": "6cda769ed1b369c2e046af1ef0b0c4bf2efe6e5868673b3c615bb6c821bdf5fa",
+      "bytes": 263997,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-16"
     }
-  ]
+  ],
+  "lastInventoryCheckedAt": "2026-10-16",
+  "lastTablesUpdatedAt": "2026-10-16"
 }

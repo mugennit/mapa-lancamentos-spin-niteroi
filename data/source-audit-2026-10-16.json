@@ -1,0 +1,306 @@
+{
+  "date": "2026-10-16",
+  "access": "Linktree buttons -> shared SharePoint folders, without login",
+  "counts": {
+    "tableFolders": 44,
+    "tableFiles": 142,
+    "bookFolders": 40,
+    "bookSubfolders": 2,
+    "bookFiles": 130,
+    "catalog": 113,
+    "complete": 84,
+    "mapPins": 84,
+    "driveMapFolders": 84
+  },
+  "changes": [
+    {
+      "id": "jardin-di-grazielle",
+      "name": "Jardin di Grazielle",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Jardin Di Grazielle - Agosto 2026 (2).pdf",
+          "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
+          "date": "Agosto 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 14,
+      "minimumPrice": 680000.0,
+      "sha256": "bbbbb70eb3e0660ecaf5844a0548149ca1e37ee62555c169955d141b6f869f1f"
+    },
+    {
+      "id": "nirvana",
+      "name": "Nirvana",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Nirvana - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Nirvana - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 2,
+      "minimumPrice": 2959600.0,
+      "sha256": "2cfdebd4e5674268a72c343ccce61e43c4b308ceeae914e00344d18a8aa10ce8"
+    },
+    {
+      "id": "jardim-dos-manacas",
+      "name": "Jardim dos Manacás",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Jardim dos Manacás - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 39,
+      "minimumPrice": 484000.0,
+      "sha256": "112a16d597579720eda31c1a77c1697c427af61d82b61c5184f478e610d5d699"
+    },
+    {
+      "id": "soma",
+      "name": "Soma",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Soma - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Soma - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 64,
+      "minimumPrice": 430000.0,
+      "sha256": "d26f6c75ca86ade08b11cb8310cecb42f168edcfa4418ae570a0eb72f37e07bf"
+    },
+    {
+      "id": "stage",
+      "name": "Stage",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Stage (Financiado) - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 46,
+      "minimumPrice": 631000.0,
+      "sha256": "b7bd7582067c506f27866c21688dd44e7d08804309d49b3faaa189553f771349"
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Sunset - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Sunset - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 4,
+      "minimumPrice": 1166000.0,
+      "sha256": "f121a0a057391e5352fe70ab5e45a2a0e431155fd46f6c3d6610aab1f3a09333"
+    },
+    {
+      "id": "up-icarai",
+      "name": "Up Icaraí",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Up Icaraí - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 10,
+      "minimumPrice": 621300.0,
+      "sha256": "32e6b9f5429e3ea2b43c0f88b9ef0c9f862121efcd9a84fdde5f91a3cd9591b7"
+    },
+    {
+      "id": "sun-in",
+      "name": "Sun In",
+      "oldTables": [
+        {
+          "name": "Tabela de Vendas Sun In - Setembro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG/view?usp=drivesdk",
+          "date": "Setembro 2026"
+        }
+      ],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Sun In - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 43,
+      "minimumPrice": 310878.0,
+      "sha256": "d3f9e51d23a277281fe8c910c578a3cfc318365d8253f4d5d933317ee8056666"
+    },
+    {
+      "id": "soul-fonseca",
+      "name": "Soul Fonseca",
+      "oldTables": [],
+      "newTables": [
+        {
+          "name": "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+          "url": "https://drive.google.com/file/d/1VYKFjkrKCvXa1GOxTZk0gHC1k0DOWl8p/view?usp=drivesdk",
+          "date": "Outubro 2026"
+        }
+      ],
+      "availableUnits": 58,
+      "minimumPrice": 293800.0,
+      "sha256": "6cda769ed1b369c2e046af1ef0b0c4bf2efe6e5868673b3c615bb6c821bdf5fa"
+    }
+  ],
+  "listingChangesSince20261012": {
+    "tables": {
+      "4MX": {
+        "added": [
+          "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas Jardin Di Grazielle - Agosto 2026 (2).pdf"
+        ]
+      },
+      "Pró-Lotes": {
+        "added": [
+          "Tabela de Vendas Way Última fase  - Outubro 2026.pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas Way Última fase - Outubro 2026.pdf"
+        ]
+      },
+      "TEGRA": {
+        "added": [
+          "Tabela de Vendas  Gaea - Julho 2026.pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas Gaea - Julho 2026.pdf"
+        ]
+      },
+      "RDR": {
+        "added": [
+          "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+          "Tabela de Vendas Sun In - Outubro 2026.pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas Sun In - Setembro 2026.pdf"
+        ]
+      },
+      "PROART": {
+        "added": [
+          "Tabela  de Vendas Nirvana - Outubro 2026.pdf",
+          "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
+          "Tabela de Vendas Soma - Outubro 2026.pdf",
+          "Tabela de Vendas Stage - 100% na Obra - Outubro 2026.pdf",
+          "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
+          "Tabela de Vendas Sunset - Outubro 2026.pdf",
+          "Tabela de Vendas Up Icaraí - Outubro 2026.pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas Jardim dos Manacás - Setembro 2026.pdf",
+          "Tabela de Vendas Nirvana - Setembro 2026.pdf",
+          "Tabela de Vendas Soma - Setembro 2026.pdf",
+          "Tabela de Vendas Stage (100% na Obra) - Setembro 2026.pdf",
+          "Tabela de Vendas Stage (Financiado) - Setembro 2026.pdf",
+          "Tabela de Vendas Sunset - Setembro 2026.pdf",
+          "Tabela de Vendas Up Icaraí - Setembro 2026.pdf"
+        ]
+      },
+      "NOVOLAR": {
+        "added": [
+          "Simulador Novolar Green Life 1 e 2  Março 26 (2).xlsx"
+        ],
+        "removed": [
+          "Simulador Novolar Green Life 1 e 2 Março 26 (2).xlsx"
+        ]
+      },
+      "HABITARE": {
+        "added": [
+          "Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas - Lazuli - Setembro 2026 - .pdf"
+        ]
+      },
+      "FALVES": {
+        "added": [
+          "Tabela de Vendas  Mok 132 - Agosto 2026.pdf"
+        ],
+        "removed": [
+          "Tabela de Vendas Mok 132 - Agosto 2026.pdf"
+        ]
+      }
+    },
+    "books": {}
+  },
+  "baume": {
+    "officialBookInCEU": false,
+    "CEUBookItems": 9,
+    "ownerSuppliedBookPreserved": true,
+    "tableUnchanged": true
+  },
+  "missingCoordinates": [],
+  "verification": {
+    "allFolderListingsTraversed": true,
+    "tableZipIntegrity": "passed",
+    "driveFoldersChecked": 84,
+    "driveFoldersWithExactlyTwoFiles": 84,
+    "updatedDriveFilesPublicRead": true,
+    "tableContentComparison": {
+      "baseline": "2026-10-12 SHA-256 audit",
+      "identicalPriorTables": 84,
+      "changedPriorTables": 8,
+      "newTables": 1
+    }
+  },
+  "limitations": [
+    "The complete Books download exceeded the browser call timeout; content hashes for unchanged books could not be compared.",
+    "Stage uses the bank-financing table as its single main table; the alternative 100%-during-construction payment schedule remains available at the official source."
+  ]
+}

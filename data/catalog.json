@@ -11,14 +11,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Jardin Di Grazielle - Agosto 2026 (2).pdf",
+        "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 600000,
-    "minArea": null,
-    "maxArea": null,
+    "price": 680000.0,
+    "minArea": 75.4,
+    "maxArea": 176.08,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -26,17 +26,15 @@
     "lng": -43.0309319,
     "precision": null,
     "photo": "/empreendimentos/jardin-di-grazielle.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
-    ],
+    "checkedAt": "2026-10-16",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.spinimoveis.com/empreendimento/jardin-di-grazielle-apartamentos-e-coberturas-niteroi-2-a-3-quartos-75-a-18-367-m/23418065-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9438193,-43.0309319",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "pebe-74",
@@ -2988,14 +2986,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Jardim dos Manacás - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 479000,
-    "minArea": null,
-    "maxArea": null,
+    "price": 484000.0,
+    "minArea": 41.42,
+    "maxArea": 215.53,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3003,7 +3001,7 @@
     "lng": -43.0976362,
     "precision": "exact",
     "photo": "/empreendimentos/jardim-dos-manacas.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-16",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3018,7 +3016,7 @@
     "addressSource": "https://www.lopes.com.br/busca/lancamento/br/rj/niteroi/santa-rosa",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8986001,-43.0976362",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "up-icarai",
@@ -3032,14 +3030,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Up Icaraí - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 621300,
-    "minArea": null,
-    "maxArea": null,
+    "price": 621300.0,
+    "minArea": 32.25,
+    "maxArea": 68.02,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3047,7 +3045,7 @@
     "lng": -43.1106899,
     "precision": "exact",
     "photo": "/empreendimentos/up-icarai.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-16",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3062,7 +3060,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9042435,-43.1106899",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "nirvana",
@@ -3076,14 +3074,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Nirvana - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Nirvana - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 2959600,
-    "minArea": null,
-    "maxArea": null,
+    "price": 2959600.0,
+    "minArea": 181.86,
+    "maxArea": 267.56,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3091,7 +3089,7 @@
     "lng": -43.0833934,
     "precision": null,
     "photo": "/empreendimentos/nirvana.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-16",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -3099,7 +3097,7 @@
     "addressSource": "https://proartengenharia.com/realstates/nirvana-praia-boutique/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9538548,-43.0833934",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "stage",
@@ -3113,14 +3111,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Stage (Financiado) - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 625000,
-    "minArea": null,
-    "maxArea": null,
+    "price": 631000.0,
+    "minArea": 30.44,
+    "maxArea": 164.33,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3128,7 +3126,7 @@
     "lng": -43.1079021,
     "precision": "exact",
     "photo": "/empreendimentos/stage.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-16",
     "notes": [
       "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
     ],
@@ -3145,7 +3143,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9096818,-43.1079021",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "sunset",
@@ -3159,14 +3157,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Sunset - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Sunset - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 1166000,
-    "minArea": null,
-    "maxArea": null,
+    "price": 1166000.0,
+    "minArea": 93.17,
+    "maxArea": 189.99,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3174,7 +3172,7 @@
     "lng": -43.1072321,
     "precision": "exact",
     "photo": "/empreendimentos/sunset.jpg",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-16",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3189,7 +3187,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://maps.app.goo.gl/zDVvqy2ZyoCx9pag6",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "soma",
@@ -3203,14 +3201,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Soma - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Soma - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 426000,
-    "minArea": null,
-    "maxArea": null,
+    "price": 430000.0,
+    "minArea": 27.72,
+    "maxArea": 89.63,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3218,7 +3216,7 @@
     "lng": -43.1222477,
     "precision": "exact",
     "photo": "/empreendimentos/soma.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-16",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -3233,7 +3231,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9027344,-43.1222477",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "maren",
@@ -3363,29 +3361,32 @@
       "name": "Book Soul Fonseca.pdf",
       "url": "https://drive.google.com/file/d/1nuY0fVGRS-my6mXCIpDRikZmDHZsvtNS/view?usp=drivesdk"
     },
-    "tables": [],
-    "price": null,
-    "minArea": null,
-    "maxArea": null,
+    "tables": [
+      {
+        "name": "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1VYKFjkrKCvXa1GOxTZk0gHC1k0DOWl8p/view?usp=drivesdk",
+        "date": "Outubro 2026"
+      }
+    ],
+    "price": 293800.0,
+    "minArea": 44.76,
+    "maxArea": 57.45,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
     "lat": -22.8761346,
     "lng": -43.0973614,
-    "precision": null,
+    "precision": "exact",
     "photo": "/empreendimentos/soul-fonseca.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade.",
-      "Endereço em conferência nos materiais."
-    ],
+    "checkedAt": "2026-10-16",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.lopes.com.br/lancamento/REM24812/soul-fonseca-niteroi-fonseca",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8761346,-43.0973614",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "sun-in",
@@ -3399,14 +3400,14 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Sun In - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Sun In - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026"
       }
     ],
-    "price": 307800,
-    "minArea": null,
-    "maxArea": null,
+    "price": 310878.0,
+    "minArea": 23.92,
+    "maxArea": 25.21,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -3414,17 +3415,15 @@
     "lng": -43.1232776,
     "precision": null,
     "photo": "/empreendimentos/sun-in.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [
-      "Endereço em conferência nos materiais."
-    ],
+    "checkedAt": "2026-10-16",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.rdrengenharia.com/empreendimentos/sun-in/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8991712,-43.1232776",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-16"
   },
   {
     "id": "giardino-di-verona",
