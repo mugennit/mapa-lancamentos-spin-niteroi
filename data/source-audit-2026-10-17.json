@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-17",
+  "status": "partial",
+  "baselineDate": "2026-10-16",
+  "sourceAccess": {
+    "startedAtLinktree": true,
+    "clickedBothButtons": true,
+    "tables": {
+      "status": "blocked",
+      "retryPerformed": true,
+      "message": "Este item não está disponível. Ele pode ter sido movido, renomeado, excluído ou você não tem acesso.",
+      "loginRequested": false,
+      "correlationId": "89bb45a2-1076-a000-7989-a59913947d8c",
+      "scopeNotChecked": "Todas as pastas e arquivos de Tabelas de Vendas; inclusive versão mais recente de Baume."
+    },
+    "books": {
+      "status": "structure-and-displayed-metadata-checked",
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130,
+      "folderEntries": 2,
+      "allFoldersScrolled": true,
+      "displayedCountsReconciled": true,
+      "structureDifferences": 0,
+      "displayedMetadataDifferences": 0,
+      "contentHashesRechecked": false,
+      "limitation": "A igualdade de nomes, tamanhos e datas exibidas não foi tratada como prova de conteúdo idêntico. Comparação binária integral atual não concluída."
+    }
+  },
+  "catalog": {
+    "count": 113,
+    "completeMaterialsAndValidatedCoordinates": 84,
+    "head": "08af8bec8d0de64cbc652663fd7769a2ae438a33",
+    "priorDeploymentStatuses": [
+      "success",
+      "success"
+    ],
+    "changed": false
+  },
+  "coordinates": {
+    "spreadsheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "range": "'Lançamentos'!A1:Z969",
+    "readCurrent": true,
+    "spreadsheetModifiedTime": "2026-10-14T15:47:39.785Z",
+    "numericDifferences": 0,
+    "completeProjectsWithoutValidatedPoint": [],
+    "baumeRowMissing": true,
+    "baumeCatalogPointPreserved": true
+  },
+  "baume": {
+    "officialBooksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerAuthorizedBookAndSingleTableConfirmedInDrive": true,
+    "folderId": "1nNbgnj18Tf3aXRRbIWVlP4FM3rhLUEU8",
+    "removeFromMap": false
+  },
+  "mutations": {
+    "materialReplacements": 0,
+    "materialRemovals": 0,
+    "catalogChanges": 0
+  },
+  "notes": [
+    "Não concluída a comparação integral das duas fontes nesta execução.",
+    "Falha de carregamento da fonte não prova remoção de empreendimentos ou exigência de login.",
+    "As 15 diferenças de books resolvidas e publicadas em 16/10 não foram reabertas como pendências."
+  ]
+}
