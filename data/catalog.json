@@ -16,7 +16,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 680000.0,
+    "price": 680000,
     "minArea": 75.4,
     "maxArea": 176.08,
     "rooms": [],
@@ -48,9 +48,12 @@
     },
     "tables": [
       {
-        "name": "Tabela Pebê 74 Agosto_2026.pdf",
+        "name": "Tabela de Venda PEBE 74 - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-15",
+        "sourceFileVersion": "Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+        "checkedAt": "2026-10-18"
       }
     ],
     "price": 580000,
@@ -65,7 +68,6 @@
     "photo": "/empreendimentos/pebe-74.jpg",
     "checkedAt": "2026-09-30",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -74,7 +76,7 @@
     "addressSource": "https://www.bacosconstrutora.com.br/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9050661,-43.1116521",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-18"
   },
   {
     "id": "singular",
@@ -88,12 +90,15 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Singular - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Singular - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1a4UsToYzZFQg-vDHosJO_MryfvAjbQtZ/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-01",
+        "sourceFileVersion": "Tabela de Vendas Singular - Outubro 2026.pdf",
+        "checkedAt": "2026-10-18"
       }
     ],
-    "price": 433590,
+    "price": 484030,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -120,7 +125,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9244652,-43.0945212",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-18"
   },
   {
     "id": "style",
@@ -180,9 +185,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Oka Icaraí - Agosto 2026.pdf",
+        "name": "Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1KUVOhtq8-oO6aIg_KFVT5jDCTH2wgjiu/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-10",
+        "sourceFileVersion": "Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+        "checkedAt": "2026-10-18"
       }
     ],
     "price": 530000,
@@ -197,7 +205,6 @@
     "photo": "/empreendimentos/oka-icarai.jpg",
     "checkedAt": "2026-09-30",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -213,7 +220,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9022267,-43.1134461",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-18"
   },
   {
     "id": "oka-sao-francisco",
@@ -2348,12 +2355,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Maris - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
         "url": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk",
         "date": "Outubro 2026",
         "commercialDate": "2026-10-01",
-        "sourceFileVersion": "Outubro 2026",
-        "checkedAt": "2026-10-05"
+        "sourceFileVersion": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
+        "checkedAt": "2026-10-18"
       }
     ],
     "price": 804000,
@@ -2381,7 +2388,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9259217,-43.0948938",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-18"
   },
   {
     "id": "calle-sardegna",
@@ -2485,9 +2492,12 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Scenarium - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Scenarium - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/16OCudjv-0EeTDfaRZvUQ_wGw2RJhFxC0/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Setembro 2026",
+        "commercialDate": "2026-09-20",
+        "sourceFileVersion": "Tabela de Vendas Scenarium - Outubro 2026.pdf",
+        "checkedAt": "2026-10-18"
       }
     ],
     "price": 1440000,
@@ -2501,7 +2511,9 @@
     "precision": "exact",
     "photo": "/empreendimentos/scenarium-piratininga.jpg",
     "checkedAt": "2026-09-30",
-    "notes": [],
+    "notes": [
+      "Arquivo oficial nomeado Outubro 2026; data comercial impressa no PDF: 20/09/2026. Estoque conferido em 18/10/2026."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -2515,7 +2527,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9556353,-43.0740297",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-18"
   },
   {
     "id": "tre-amici",
@@ -2991,7 +3003,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 484000.0,
+    "price": 484000,
     "minArea": 41.42,
     "maxArea": 215.53,
     "rooms": [],
@@ -3035,7 +3047,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 621300.0,
+    "price": 621300,
     "minArea": 32.25,
     "maxArea": 68.02,
     "rooms": [],
@@ -3079,7 +3091,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 2959600.0,
+    "price": 2959600,
     "minArea": 181.86,
     "maxArea": 267.56,
     "rooms": [],
@@ -3116,7 +3128,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 631000.0,
+    "price": 631000,
     "minArea": 30.44,
     "maxArea": 164.33,
     "rooms": [],
@@ -3162,7 +3174,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 1166000.0,
+    "price": 1166000,
     "minArea": 93.17,
     "maxArea": 189.99,
     "rooms": [],
@@ -3206,7 +3218,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 430000.0,
+    "price": 430000,
     "minArea": 27.72,
     "maxArea": 89.63,
     "rooms": [],
@@ -3368,7 +3380,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 293800.0,
+    "price": 293800,
     "minArea": 44.76,
     "maxArea": 57.45,
     "rooms": [],
@@ -3405,7 +3417,7 @@
         "date": "Outubro 2026"
       }
     ],
-    "price": 310878.0,
+    "price": 310878,
     "minArea": 23.92,
     "maxArea": 25.21,
     "rooms": [],

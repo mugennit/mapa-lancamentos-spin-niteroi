@@ -3420,577 +3420,469 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "singular": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-18",
     "tableUrl": "https://drive.google.com/file/d/1a4UsToYzZFQg-vDHosJO_MryfvAjbQtZ/view?usp=drivesdk",
-    "tableDate": "Setembro 2026",
-    "coverage": "partial",
+    "tableDate": "Outubro 2026",
+    "coverage": "complete-residential-rows",
     "offers": [
       {
         "unit": "201 — Bloco 1",
         "typology": "",
         "price": 2324000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "202 — Bloco 1",
         "typology": "",
         "price": 2255000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "203 — Bloco 1",
         "typology": "",
         "price": 1737270,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "204 — Bloco 1",
         "typology": "",
         "price": 1400680,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "205 — Bloco 1",
         "typology": "",
         "price": 1239660,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "206 — Bloco 1",
         "typology": "",
         "price": 1060210,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "207 — Bloco 1",
         "typology": "",
         "price": 1060210,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "208 — Bloco 1",
-        "typology": "",
-        "price": 626620,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "209 — Bloco 1",
         "typology": "",
         "price": 613040,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "301 — Bloco 1",
         "typology": "",
         "price": 1908000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "303 — Bloco 1",
         "typology": "",
         "price": 1705260,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "304 — Bloco 1",
         "typology": "",
         "price": 1373520,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "305 — Bloco 1",
         "typology": "",
         "price": 1197950,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "306 — Bloco 1",
         "typology": "",
         "price": 792490,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "307 — Bloco 1",
         "typology": "",
         "price": 792490,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "308 — Bloco 1",
-        "typology": "",
-        "price": 562600,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "309 — Bloco 1",
-        "typology": "",
-        "price": 562600,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "401 — Bloco 1",
-        "typology": "",
-        "price": 1908000,
-        "parkingSpaces": 2
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "403 — Bloco 1",
         "typology": "",
         "price": 1705260,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "404 — Bloco 1",
         "typology": "",
         "price": 1373520,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "405 — Bloco 1",
         "typology": "",
         "price": 1197950,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "406 — Bloco 1",
         "typology": "",
         "price": 792490,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "407 — Bloco 1",
-        "typology": "",
-        "price": 792490,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "503 — Bloco 1",
         "typology": "",
         "price": 1732420,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "504 — Bloco 1",
         "typology": "",
         "price": 1400680,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "505 — Bloco 1",
         "typology": "",
         "price": 1226080,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "506 — Bloco 1",
         "typology": "",
         "price": 820620,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "507 — Bloco 1",
         "typology": "",
         "price": 820620,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "508 — Bloco 1",
-        "typology": "",
-        "price": 589760,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "509 — Bloco 1",
-        "typology": "",
-        "price": 589760,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "601 — Bloco 1",
         "typology": "",
         "price": 1957000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "603 — Bloco 1",
         "typology": "",
         "price": 1750850,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "604 — Bloco 1",
         "typology": "",
         "price": 1428810,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "605 — Bloco 1",
         "typology": "",
         "price": 1253240,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "606 — Bloco 1",
         "typology": "",
         "price": 847780,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "607 — Bloco 1",
         "typology": "",
         "price": 847780,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "608 — Bloco 1",
-        "typology": "",
-        "price": 617890,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "609 — Bloco 1",
         "typology": "",
         "price": 617890,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "703 — Bloco 1",
-        "typology": "",
-        "price": 1750850,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "704 — Bloco 1",
         "typology": "",
         "price": 1428810,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "705 — Bloco 1",
         "typology": "",
         "price": 1253240,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "706 — Bloco 1",
         "typology": "",
         "price": 847780,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "707 — Bloco 1",
         "typology": "",
         "price": 847780,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "801 — Bloco 1",
-        "typology": "",
-        "price": 2055000,
-        "parkingSpaces": 2
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "803 — Bloco 1",
         "typology": "",
         "price": 1824570,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "804 — Bloco 1",
         "typology": "",
         "price": 1455970,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "805 — Bloco 1",
         "typology": "",
         "price": 1281370,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "806 — Bloco 1",
         "typology": "",
         "price": 875910,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "807 — Bloco 1",
         "typology": "",
         "price": 875910,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "808 — Bloco 1",
         "typology": "",
         "price": 645050,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "201 — Bloco 2",
         "typology": "",
         "price": 1170790,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "202 — Bloco 2",
         "typology": "",
         "price": 1447240,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "204 — Bloco 2",
         "typology": "",
         "price": 1110650,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "205 — Bloco 2",
         "typology": "",
         "price": 824500,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "206 — Bloco 2",
         "typology": "",
         "price": 544170,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "207 — Bloco 2",
-        "typology": "",
-        "price": 557750,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "301 — Bloco 2",
         "typology": "",
         "price": 1124230,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "302 — Bloco 2",
         "typology": "",
         "price": 1124230,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "304 — Bloco 2",
-        "typology": "",
-        "price": 654750,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "305 — Bloco 2",
-        "typology": "",
-        "price": 654750,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "306 — Bloco 2",
-        "typology": "",
-        "price": 455900,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "307 — Bloco 2",
-        "typology": "",
-        "price": 433590,
-        "parkingSpaces": 0
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "401 — Bloco 2",
         "typology": "",
         "price": 1124230,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "402 — Bloco 2",
         "typology": "",
         "price": 1124230,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "404 — Bloco 2",
-        "typology": "",
-        "price": 654750,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "406 — Bloco 2",
-        "typology": "",
-        "price": 455900,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "407 — Bloco 2",
-        "typology": "",
-        "price": 470450,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "501 — Bloco 2",
         "typology": "",
         "price": 1152360,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "502 — Bloco 2",
         "typology": "",
         "price": 1152360,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "503 — Bloco 2",
-        "typology": "",
-        "price": 499000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "504 — Bloco 2",
-        "typology": "",
-        "price": 681910,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "505 — Bloco 2",
         "typology": "",
         "price": 681910,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "506 — Bloco 2",
         "typology": "",
         "price": 484030,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "507 — Bloco 2",
-        "typology": "",
-        "price": 497610,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "601 — Bloco 2",
         "typology": "",
         "price": 1152360,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "602 — Bloco 2",
         "typology": "",
         "price": 1152360,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "603 — Bloco 2",
-        "typology": "",
-        "price": 499000,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "605 — Bloco 2",
         "typology": "",
         "price": 681910,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "606 — Bloco 2",
-        "typology": "",
-        "price": 484030,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "607 — Bloco 2",
-        "typology": "",
-        "price": 497610,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "701 — Bloco 2",
         "typology": "",
         "price": 1179520,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "702 — Bloco 2",
         "typology": "",
         "price": 1179520,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "703 — Bloco 2",
-        "typology": "",
-        "price": 527000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "704 — Bloco 2",
-        "typology": "",
-        "price": 709070,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "705 — Bloco 2",
         "typology": "",
         "price": 709070,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "706 — Bloco 2",
         "typology": "",
         "price": 511190,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "707 — Bloco 2",
-        "typology": "",
-        "price": 525740,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "801 — Bloco 2",
         "typology": "",
         "price": 1207650,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "802 — Bloco 2",
         "typology": "",
         "price": 1207650,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "803 — Bloco 2",
-        "typology": "",
-        "price": 561000,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "804 — Bloco 2",
         "typology": "",
         "price": 746900,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "805 — Bloco 2",
         "typology": "",
         "price": 746900,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       },
       {
         "unit": "806 — Bloco 2",
         "typology": "",
         "price": 544170,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "807 — Bloco 2",
-        "typology": "",
-        "price": 557750,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "evidence": "PDF página 2"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-10-13",
+    "commercialDate": "2026-10-01"
   },
   "style": {
     "checkedAt": "2026-10-13",
@@ -7344,73 +7236,77 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "scenarium-piratininga": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-18",
     "tableUrl": "https://drive.google.com/file/d/16OCudjv-0EeTDfaRZvUQ_wGw2RJhFxC0/view?usp=drivesdk",
     "tableDate": "Setembro 2026",
-    "coverage": "partial",
+    "coverage": "complete-residential-rows",
     "offers": [
       {
         "unit": "104",
         "typology": "",
         "price": 2500000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "105",
         "typology": "",
         "price": 1900000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "107",
         "typology": "",
         "price": 1950000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "202",
-        "typology": "",
-        "price": 2200000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "205",
         "typology": "",
         "price": 2100000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "206",
         "typology": "",
         "price": 1440000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "305",
         "typology": "",
         "price": 2150000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "306",
         "typology": "",
         "price": 1500000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "405",
         "typology": "",
         "price": 2200000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "503",
         "typology": "",
         "price": 3300000,
-        "parkingSpaces": 3
+        "parkingSpaces": 3,
+        "evidence": "PDF página 1"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-10-13",
+    "commercialDate": "2026-09-20"
   },
   "115-tapuias": {
     "checkedAt": "2026-10-13",
@@ -10258,252 +10154,252 @@
       {
         "unit": "302",
         "typology": "2 quartos",
-        "price": 650000.0,
+        "price": 650000,
         "parkingSpaces": 0,
         "area": 64.6
       },
       {
         "unit": "603",
         "typology": "1 quarto",
-        "price": 551000.0,
+        "price": 551000,
         "parkingSpaces": 0,
         "area": 49.29
       },
       {
         "unit": "1103",
         "typology": "1 quarto",
-        "price": 625000.0,
+        "price": 625000,
         "parkingSpaces": 1,
         "area": 49.29
       },
       {
         "unit": "1203",
         "typology": "1 quarto",
-        "price": 633000.0,
+        "price": 633000,
         "parkingSpaces": 1,
         "area": 49.29
       },
       {
         "unit": "1104",
         "typology": "1 quarto",
-        "price": 625000.0,
+        "price": 625000,
         "parkingSpaces": 1,
         "area": 49.29
       },
       {
         "unit": "1204",
         "typology": "1 quarto",
-        "price": 633000.0,
+        "price": 633000,
         "parkingSpaces": 1,
         "area": 49.29
       },
       {
         "unit": "805",
         "typology": "2 quartos",
-        "price": 756000.0,
+        "price": 756000,
         "parkingSpaces": 1,
         "area": 63.57
       },
       {
         "unit": "1105",
         "typology": "2 quartos",
-        "price": 811000.0,
+        "price": 811000,
         "parkingSpaces": 1,
         "area": 66.49
       },
       {
         "unit": "307",
         "typology": "2 quartos",
-        "price": 668000.0,
+        "price": 668000,
         "parkingSpaces": 0,
         "area": 63.91
       },
       {
         "unit": "407",
         "typology": "2 quartos",
-        "price": 744000.0,
+        "price": 744000,
         "parkingSpaces": 1,
         "area": 63.91
       },
       {
         "unit": "507",
         "typology": "2 quartos",
-        "price": 753000.0,
+        "price": 753000,
         "parkingSpaces": 1,
         "area": 63.91
       },
       {
         "unit": "807",
         "typology": "2 quartos",
-        "price": 783000.0,
+        "price": 783000,
         "parkingSpaces": 1,
         "area": 63.91
       },
       {
         "unit": "1207",
         "typology": "2 quartos",
-        "price": 839000.0,
+        "price": 839000,
         "parkingSpaces": 1,
         "area": 67.41
       },
       {
         "unit": "308",
         "typology": "2 quartos",
-        "price": 650000.0,
+        "price": 650000,
         "parkingSpaces": 0,
         "area": 61.55
       },
       {
         "unit": "508",
         "typology": "2 quartos",
-        "price": 735000.0,
+        "price": 735000,
         "parkingSpaces": 1,
         "area": 61.55
       },
       {
         "unit": "708",
         "typology": "2 quartos",
-        "price": 755000.0,
+        "price": 755000,
         "parkingSpaces": 1,
         "area": 61.55
       },
       {
         "unit": "1108",
         "typology": "2 quartos",
-        "price": 792000.0,
+        "price": 792000,
         "parkingSpaces": 1,
         "area": 61.55
       },
       {
         "unit": "1208",
         "typology": "2 quartos",
-        "price": 801000.0,
+        "price": 801000,
         "parkingSpaces": 1,
         "area": 61.55
       },
       {
         "unit": "309",
         "typology": "2 quartos",
-        "price": 644000.0,
+        "price": 644000,
         "parkingSpaces": 0,
         "area": 62.01
       },
       {
         "unit": "509",
         "typology": "2 quartos",
-        "price": 720000.0,
+        "price": 720000,
         "parkingSpaces": 1,
         "area": 62.01
       },
       {
         "unit": "609",
         "typology": "2 quartos",
-        "price": 730000.0,
+        "price": 730000,
         "parkingSpaces": 1,
         "area": 62.01
       },
       {
         "unit": "809",
         "typology": "2 quartos",
-        "price": 749000.0,
+        "price": 749000,
         "parkingSpaces": 1,
         "area": 62.01
       },
       {
         "unit": "909",
         "typology": "2 quartos",
-        "price": 758000.0,
+        "price": 758000,
         "parkingSpaces": 1,
         "area": 62.01
       },
       {
         "unit": "710",
         "typology": "1 quarto",
-        "price": 484000.0,
+        "price": 484000,
         "parkingSpaces": 0,
         "area": 41.42
       },
       {
         "unit": "810",
         "typology": "1 quarto",
-        "price": 534000.0,
+        "price": 534000,
         "parkingSpaces": 1,
         "area": 41.42
       },
       {
         "unit": "1210",
         "typology": "1 quarto",
-        "price": 576000.0,
+        "price": 576000,
         "parkingSpaces": 1,
         "area": 43.48
       },
       {
         "unit": "811",
         "typology": "2 quartos",
-        "price": 693000.0,
+        "price": 693000,
         "parkingSpaces": 1,
         "area": 58.58
       },
       {
         "unit": "911",
         "typology": "2 quartos",
-        "price": 703000.0,
+        "price": 703000,
         "parkingSpaces": 1,
         "area": 58.58
       },
       {
         "unit": "1011",
         "typology": "2 quartos",
-        "price": 789000.0,
+        "price": 789000,
         "parkingSpaces": 1,
         "area": 70.28
       },
       {
         "unit": "1211",
         "typology": "2 quartos",
-        "price": 807000.0,
+        "price": 807000,
         "parkingSpaces": 1,
         "area": 70.28
       },
       {
         "unit": "312",
         "typology": "2 quartos",
-        "price": 808000.0,
+        "price": 808000,
         "parkingSpaces": 1,
         "area": 76.08
       },
       {
         "unit": "412",
         "typology": "2 quartos",
-        "price": 840000.0,
+        "price": 840000,
         "parkingSpaces": 1,
         "area": 76.08
       },
       {
         "unit": "512",
         "typology": "2 quartos",
-        "price": 851000.0,
+        "price": 851000,
         "parkingSpaces": 1,
         "area": 76.08
       },
       {
         "unit": "812",
         "typology": "2 quartos",
-        "price": 880000.0,
+        "price": 880000,
         "parkingSpaces": 1,
         "area": 76.08
       },
       {
         "unit": "1112",
         "typology": "2 quartos",
-        "price": 905000.0,
+        "price": 905000,
         "parkingSpaces": 1,
         "area": 76.08
       },
       {
         "unit": "1301",
         "typology": "2 quartos",
-        "price": 2290000.0,
+        "price": 2290000,
         "parkingSpaces": 2,
         "unitKind": "Cobertura",
         "area": 215.53
@@ -10511,7 +10407,7 @@
       {
         "unit": "1303",
         "typology": "2 quartos",
-        "price": 1544000.0,
+        "price": 1544000,
         "parkingSpaces": 1,
         "unitKind": "Cobertura",
         "area": 130.59
@@ -10519,7 +10415,7 @@
       {
         "unit": "1304",
         "typology": "2 quartos",
-        "price": 1657000.0,
+        "price": 1657000,
         "parkingSpaces": 2,
         "unitKind": "Cobertura",
         "area": 137.93
@@ -10527,7 +10423,7 @@
       {
         "unit": "1305",
         "typology": "2 quartos",
-        "price": 1782000.0,
+        "price": 1782000,
         "parkingSpaces": 2,
         "unitKind": "Cobertura",
         "area": 163.45
@@ -10544,14 +10440,14 @@
       {
         "unit": "303",
         "typology": "3 quartos",
-        "price": 2959600.0,
+        "price": 2959600,
         "parkingSpaces": 2,
         "area": 181.86
       },
       {
         "unit": "503",
         "typology": "4 quartos",
-        "price": 3459600.0,
+        "price": 3459600,
         "parkingSpaces": 3,
         "unitKind": "Cobertura",
         "area": 267.56
@@ -10568,322 +10464,322 @@
       {
         "unit": "301 / Bloco 1",
         "typology": "2 quartos",
-        "price": 2107000.0,
+        "price": 2107000,
         "parkingSpaces": 1,
         "area": 123.29
       },
       {
         "unit": "401 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1580000.0,
+        "price": 1580000,
         "parkingSpaces": 1,
         "area": 83.87
       },
       {
         "unit": "601 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1664000.0,
+        "price": 1664000,
         "parkingSpaces": 1,
         "area": 83.87
       },
       {
         "unit": "1101 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1833000.0,
+        "price": 1833000,
         "parkingSpaces": 1,
         "area": 83.87
       },
       {
         "unit": "1401 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1896000.0,
+        "price": 1896000,
         "parkingSpaces": 1,
         "area": 83.87
       },
       {
         "unit": "302 / Bloco 1",
         "typology": "1 quarto",
-        "price": 1106000.0,
+        "price": 1106000,
         "parkingSpaces": 1,
         "area": 61.85
       },
       {
         "unit": "303 / Bloco 1",
         "typology": "1 quarto",
-        "price": 1106000.0,
+        "price": 1106000,
         "parkingSpaces": 1,
         "area": 61.85
       },
       {
         "unit": "403 / Bloco 1",
         "typology": "1 quarto",
-        "price": 905000.0,
+        "price": 905000,
         "parkingSpaces": 1,
         "area": 44.23
       },
       {
         "unit": "503 / Bloco 1",
         "typology": "1 quarto",
-        "price": 926000.0,
+        "price": 926000,
         "parkingSpaces": 1,
         "area": 44.23
       },
       {
         "unit": "1403 / Bloco 1",
         "typology": "1 quarto",
-        "price": 990000.0,
+        "price": 990000,
         "parkingSpaces": 1,
         "area": 44.23
       },
       {
         "unit": "404 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1158000.0,
+        "price": 1158000,
         "parkingSpaces": 1,
         "area": 59.22
       },
       {
         "unit": "604 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1222000.0,
+        "price": 1222000,
         "parkingSpaces": 1,
         "area": 59.22
       },
       {
         "unit": "804 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1264000.0,
+        "price": 1264000,
         "parkingSpaces": 1,
         "area": 59.22
       },
       {
         "unit": "1104 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1338000.0,
+        "price": 1338000,
         "parkingSpaces": 1,
         "area": 59.22
       },
       {
         "unit": "1404 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1411000.0,
+        "price": 1411000,
         "parkingSpaces": 1,
         "area": 59.22
       },
       {
         "unit": "305 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1896000.0,
+        "price": 1896000,
         "parkingSpaces": 1,
         "area": 104.01
       },
       {
         "unit": "505 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1085000.0,
+        "price": 1085000,
         "parkingSpaces": 1,
         "area": 56.31
       },
       {
         "unit": "605 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1116000.0,
+        "price": 1116000,
         "parkingSpaces": 1,
         "area": 56.31
       },
       {
         "unit": "1005 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1222000.0,
+        "price": 1222000,
         "parkingSpaces": 1,
         "area": 56.31
       },
       {
         "unit": "1205 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1306000.0,
+        "price": 1306000,
         "parkingSpaces": 1,
         "area": 56.31
       },
       {
         "unit": "1405 / Bloco 1",
         "typology": "2 quartos",
-        "price": 1348000.0,
+        "price": 1348000,
         "parkingSpaces": 1,
         "area": 56.31
       },
       {
         "unit": "601 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1211000.0,
+        "price": 1211000,
         "parkingSpaces": 1,
         "area": 61.82
       },
       {
         "unit": "801 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1253000.0,
+        "price": 1253000,
         "parkingSpaces": 1,
         "area": 61.82
       },
       {
         "unit": "901 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1274000.0,
+        "price": 1274000,
         "parkingSpaces": 1,
         "area": 61.82
       },
       {
         "unit": "1001 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1316000.0,
+        "price": 1316000,
         "parkingSpaces": 1,
         "area": 61.82
       },
       {
         "unit": "1401 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1443000.0,
+        "price": 1443000,
         "parkingSpaces": 1,
         "area": 61.82
       },
       {
         "unit": "302 / Bloco 2",
         "typology": "Studio",
-        "price": 905000.0,
+        "price": 905000,
         "parkingSpaces": 1,
         "area": 41.31
       },
       {
         "unit": "402 / Bloco 2",
         "typology": "Studio",
-        "price": 631000.0,
+        "price": 631000,
         "parkingSpaces": 0,
         "area": 30.44
       },
       {
         "unit": "1102 / Bloco 2",
         "typology": "Studio",
-        "price": 821000.0,
+        "price": 821000,
         "parkingSpaces": 1,
         "area": 30.44
       },
       {
         "unit": "1402 / Bloco 2",
         "typology": "Studio",
-        "price": 853000.0,
+        "price": 853000,
         "parkingSpaces": 1,
         "area": 30.44
       },
       {
         "unit": "303 / Bloco 2",
         "typology": "1 quarto",
-        "price": 1085000.0,
+        "price": 1085000,
         "parkingSpaces": 1,
         "area": 61.85
       },
       {
         "unit": "603 / Bloco 2",
         "typology": "1 quarto",
-        "price": 884000.0,
+        "price": 884000,
         "parkingSpaces": 1,
         "area": 44.23
       },
       {
         "unit": "1403 / Bloco 2",
         "typology": "1 quarto",
-        "price": 979000.0,
+        "price": 979000,
         "parkingSpaces": 1,
         "area": 44.23
       },
       {
         "unit": "504 / Bloco 2",
         "typology": "Studio",
-        "price": 652000.0,
+        "price": 652000,
         "parkingSpaces": 0,
         "area": 30.6
       },
       {
         "unit": "804 / Bloco 2",
         "typology": "Studio",
-        "price": 789000.0,
+        "price": 789000,
         "parkingSpaces": 1,
         "area": 30.6
       },
       {
         "unit": "1004 / Bloco 2",
         "typology": "Studio",
-        "price": 811000.0,
+        "price": 811000,
         "parkingSpaces": 1,
         "area": 30.6
       },
       {
         "unit": "1104 / Bloco 2",
         "typology": "Studio",
-        "price": 821000.0,
+        "price": 821000,
         "parkingSpaces": 1,
         "area": 30.6
       },
       {
         "unit": "1404 / Bloco 2",
         "typology": "Studio",
-        "price": 853000.0,
+        "price": 853000,
         "parkingSpaces": 1,
         "area": 30.6
       },
       {
         "unit": "305 / Bloco 2",
         "typology": "2 quartos",
-        "price": 2735000.0,
+        "price": 2735000,
         "parkingSpaces": 1,
         "area": 164.28
       },
       {
         "unit": "405 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1053000.0,
+        "price": 1053000,
         "parkingSpaces": 1,
         "area": 58.56
       },
       {
         "unit": "1105 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1211000.0,
+        "price": 1211000,
         "parkingSpaces": 1,
         "area": 58.56
       },
       {
         "unit": "1305 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1264000.0,
+        "price": 1264000,
         "parkingSpaces": 1,
         "area": 58.56
       },
       {
         "unit": "506 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1601000.0,
+        "price": 1601000,
         "parkingSpaces": 1,
         "area": 82.42
       },
       {
         "unit": "606 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1685000.0,
+        "price": 1685000,
         "parkingSpaces": 1,
         "area": 82.42
       },
       {
         "unit": "806 / Bloco 2",
         "typology": "2 quartos",
-        "price": 1780000.0,
+        "price": 1780000,
         "parkingSpaces": 1,
         "area": 82.42
       },
       {
         "unit": "COB 1 / Bloco 1",
         "typology": "3 quartos",
-        "price": 3899000.0,
+        "price": 3899000,
         "parkingSpaces": 2,
         "unitKind": "Cobertura",
         "area": 164.33
@@ -10900,21 +10796,21 @@
       {
         "unit": "1205 / Bl - 01",
         "typology": "3 quartos",
-        "price": 1283000.0,
+        "price": 1283000,
         "parkingSpaces": 2,
         "area": 93.17
       },
       {
         "unit": "1306 / Bl - 01",
         "typology": "3 quartos",
-        "price": 1212000.0,
+        "price": 1212000,
         "parkingSpaces": 2,
         "area": 93.27
       },
       {
         "unit": "Cob 3 / Bl - 01",
         "typology": "3 quartos",
-        "price": 2854000.0,
+        "price": 2854000,
         "parkingSpaces": 2,
         "unitKind": "Cobertura",
         "area": 189.99
@@ -10922,7 +10818,7 @@
       {
         "unit": "1302 / Bl - 02",
         "typology": "3 quartos",
-        "price": 1166000.0,
+        "price": 1166000,
         "parkingSpaces": 2,
         "area": 94.81
       }
@@ -10938,441 +10834,441 @@
       {
         "unit": "501",
         "typology": "1 quarto",
-        "price": 817000.0,
+        "price": 817000,
         "parkingSpaces": 1,
         "area": 67.25
       },
       {
         "unit": "701",
         "typology": "1 quarto",
-        "price": 817000.0,
+        "price": 817000,
         "parkingSpaces": 1,
         "area": 67.25
       },
       {
         "unit": "801",
         "typology": "1 quarto",
-        "price": 850000.0,
+        "price": 850000,
         "parkingSpaces": 1,
         "area": 67.25
       },
       {
         "unit": "901",
         "typology": "1 quarto",
-        "price": 850000.0,
+        "price": 850000,
         "parkingSpaces": 1,
         "area": 67.25
       },
       {
         "unit": "1101",
         "typology": "1 quarto",
-        "price": 882000.0,
+        "price": 882000,
         "parkingSpaces": 1,
         "area": 67.25
       },
       {
         "unit": "1301",
         "typology": "1 quarto",
-        "price": 882000.0,
+        "price": 882000,
         "parkingSpaces": 1,
         "area": 67.25
       },
       {
         "unit": "1401",
         "typology": "1 quarto",
-        "price": 936000.0,
+        "price": 936000,
         "parkingSpaces": 1,
         "area": 78.36
       },
       {
         "unit": "1501",
         "typology": "1 quarto",
-        "price": 936000.0,
+        "price": 936000,
         "parkingSpaces": 1,
         "area": 78.36
       },
       {
         "unit": "402",
         "typology": "2 quartos",
-        "price": 904000.0,
+        "price": 904000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "502",
         "typology": "2 quartos",
-        "price": 936000.0,
+        "price": 936000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "602",
         "typology": "2 quartos",
-        "price": 936000.0,
+        "price": 936000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "702",
         "typology": "2 quartos",
-        "price": 936000.0,
+        "price": 936000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "1002",
         "typology": "2 quartos",
-        "price": 968000.0,
+        "price": 968000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "1102",
         "typology": "2 quartos",
-        "price": 1001000.0,
+        "price": 1001000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "1202",
         "typology": "2 quartos",
-        "price": 1001000.0,
+        "price": 1001000,
         "parkingSpaces": 1,
         "area": 66.44
       },
       {
         "unit": "1402",
         "typology": "2 quartos",
-        "price": 1184000.0,
+        "price": 1184000,
         "parkingSpaces": 1,
         "area": 86.41
       },
       {
         "unit": "403",
         "typology": "2 quartos",
-        "price": 785000.0,
+        "price": 785000,
         "parkingSpaces": 1,
         "area": 57.87
       },
       {
         "unit": "503",
         "typology": "2 quartos",
-        "price": 817000.0,
+        "price": 817000,
         "parkingSpaces": 1,
         "area": 57.87
       },
       {
         "unit": "803",
         "typology": "2 quartos",
-        "price": 850000.0,
+        "price": 850000,
         "parkingSpaces": 1,
         "area": 57.87
       },
       {
         "unit": "903",
         "typology": "2 quartos",
-        "price": 850000.0,
+        "price": 850000,
         "parkingSpaces": 1,
         "area": 57.87
       },
       {
         "unit": "1003",
         "typology": "2 quartos",
-        "price": 850000.0,
+        "price": 850000,
         "parkingSpaces": 1,
         "area": 57.87
       },
       {
         "unit": "1103",
         "typology": "2 quartos",
-        "price": 882000.0,
+        "price": 882000,
         "parkingSpaces": 1,
         "area": 57.87
       },
       {
         "unit": "1403",
         "typology": "2 quartos",
-        "price": 914000.0,
+        "price": 914000,
         "parkingSpaces": 1,
         "area": 57.86
       },
       {
         "unit": "1603",
         "typology": "2 quartos",
-        "price": 914000.0,
+        "price": 914000,
         "parkingSpaces": 1,
         "area": 57.86
       },
       {
         "unit": "1703",
         "typology": "2 quartos",
-        "price": 936000.0,
+        "price": 936000,
         "parkingSpaces": 1,
         "area": 57.86
       },
       {
         "unit": "504",
         "typology": "1 quarto",
-        "price": 602000.0,
+        "price": 602000,
         "parkingSpaces": 1,
         "area": 38.85
       },
       {
         "unit": "1104",
         "typology": "1 quarto",
-        "price": 667000.0,
+        "price": 667000,
         "parkingSpaces": 1,
         "area": 38.85
       },
       {
         "unit": "405",
         "typology": "2 quartos",
-        "price": 850000.0,
+        "price": 850000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "505",
         "typology": "2 quartos",
-        "price": 882000.0,
+        "price": 882000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "705",
         "typology": "2 quartos",
-        "price": 882000.0,
+        "price": 882000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "805",
         "typology": "2 quartos",
-        "price": 914000.0,
+        "price": 914000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "905",
         "typology": "2 quartos",
-        "price": 914000.0,
+        "price": 914000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "1005",
         "typology": "2 quartos",
-        "price": 914000.0,
+        "price": 914000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "1105",
         "typology": "2 quartos",
-        "price": 947000.0,
+        "price": 947000,
         "parkingSpaces": 1,
         "area": 67.15
       },
       {
         "unit": "1405",
         "typology": "2 quartos",
-        "price": 1130000.0,
+        "price": 1130000,
         "parkingSpaces": 1,
         "area": 86.61
       },
       {
         "unit": "1505",
         "typology": "2 quartos",
-        "price": 1130000.0,
+        "price": 1130000,
         "parkingSpaces": 1,
         "area": 86.61
       },
       {
         "unit": "506",
         "typology": "1 quarto",
-        "price": 516000.0,
+        "price": 516000,
         "parkingSpaces": 0,
         "area": 41.59
       },
       {
         "unit": "806",
         "typology": "1 quarto",
-        "price": 602000.0,
+        "price": 602000,
         "parkingSpaces": 1,
         "area": 41.59
       },
       {
         "unit": "1206",
         "typology": "1 quarto",
-        "price": 624000.0,
+        "price": 624000,
         "parkingSpaces": 1,
         "area": 41.59
       },
       {
         "unit": "1307",
         "typology": "Studio",
-        "price": 494000.0,
+        "price": 494000,
         "parkingSpaces": 0,
         "area": 33.84
       },
       {
         "unit": "1407",
         "typology": "Studio",
-        "price": 527000.0,
+        "price": 527000,
         "parkingSpaces": 0,
         "area": 33.84
       },
       {
         "unit": "1507",
         "typology": "Studio",
-        "price": 527000.0,
+        "price": 527000,
         "parkingSpaces": 0,
         "area": 33.84
       },
       {
         "unit": "1607",
         "typology": "Studio",
-        "price": 527000.0,
+        "price": 527000,
         "parkingSpaces": 0,
         "area": 33.84
       },
       {
         "unit": "808",
         "typology": "1 quarto",
-        "price": 602000.0,
+        "price": 602000,
         "parkingSpaces": 1,
         "area": 40.87
       },
       {
         "unit": "908",
         "typology": "1 quarto",
-        "price": 602000.0,
+        "price": 602000,
         "parkingSpaces": 1,
         "area": 40.87
       },
       {
         "unit": "1108",
         "typology": "1 quarto",
-        "price": 624000.0,
+        "price": 624000,
         "parkingSpaces": 1,
         "area": 40.87
       },
       {
         "unit": "1308",
         "typology": "1 quarto",
-        "price": 624000.0,
+        "price": 624000,
         "parkingSpaces": 1,
         "area": 40.87
       },
       {
         "unit": "1408",
         "typology": "1 quarto",
-        "price": 688000.0,
+        "price": 688000,
         "parkingSpaces": 1,
         "area": 56.04
       },
       {
         "unit": "1509",
         "typology": "1 quarto",
-        "price": 667000.0,
+        "price": 667000,
         "parkingSpaces": 1,
         "area": 60.83
       },
       {
         "unit": "1809",
         "typology": "1 quarto",
-        "price": 688000.0,
+        "price": 688000,
         "parkingSpaces": 1,
         "area": 60.83
       },
       {
         "unit": "1410",
         "typology": "Studio",
-        "price": 430000.0,
+        "price": 430000,
         "parkingSpaces": 0,
         "area": 27.72
       },
       {
         "unit": "1510",
         "typology": "Studio",
-        "price": 430000.0,
+        "price": 430000,
         "parkingSpaces": 0,
         "area": 27.72
       },
       {
         "unit": "1710",
         "typology": "Studio",
-        "price": 440000.0,
+        "price": 440000,
         "parkingSpaces": 0,
         "area": 27.72
       },
       {
         "unit": "1111",
         "typology": "Studio",
-        "price": 440000.0,
+        "price": 440000,
         "parkingSpaces": 0,
         "area": 32.08
       },
       {
         "unit": "1211",
         "typology": "Studio",
-        "price": 440000.0,
+        "price": 440000,
         "parkingSpaces": 0,
         "area": 32.08
       },
       {
         "unit": "1511",
         "typology": "Studio",
-        "price": 451000.0,
+        "price": 451000,
         "parkingSpaces": 0,
         "area": 32.08
       },
       {
         "unit": "1711",
         "typology": "Studio",
-        "price": 462000.0,
+        "price": 462000,
         "parkingSpaces": 0,
         "area": 32.08
       },
       {
         "unit": "1811",
         "typology": "Studio",
-        "price": 462000.0,
+        "price": 462000,
         "parkingSpaces": 0,
         "area": 32.08
       },
       {
         "unit": "1312",
         "typology": "Studio",
-        "price": 440000.0,
+        "price": 440000,
         "parkingSpaces": 0,
         "area": 31.7
       },
       {
         "unit": "1412",
         "typology": "Studio",
-        "price": 451000.0,
+        "price": 451000,
         "parkingSpaces": 0,
         "area": 31.7
       },
       {
         "unit": "1612",
         "typology": "Studio",
-        "price": 451000.0,
+        "price": 451000,
         "parkingSpaces": 0,
         "area": 31.7
       },
       {
         "unit": "1812",
         "typology": "Studio",
-        "price": 462000.0,
+        "price": 462000,
         "parkingSpaces": 0,
         "area": 31.7
       },
       {
         "unit": "1904",
         "typology": "",
-        "price": 1345000.0,
+        "price": 1345000,
         "parkingSpaces": 1,
         "unitKind": "Cobertura",
         "area": 89.63
@@ -11380,7 +11276,7 @@
       {
         "unit": "1905",
         "typology": "",
-        "price": 1291000.0,
+        "price": 1291000,
         "parkingSpaces": 1,
         "unitKind": "Cobertura",
         "area": 88.31
@@ -11397,7 +11293,7 @@
       {
         "unit": "708",
         "typology": "Studio",
-        "price": 310878.0,
+        "price": 310878,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 25.21
@@ -11405,7 +11301,7 @@
       {
         "unit": "805",
         "typology": "Studio",
-        "price": 310878.0,
+        "price": 310878,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11413,7 +11309,7 @@
       {
         "unit": "1101",
         "typology": "Studio",
-        "price": 319968.0,
+        "price": 319968,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.89
@@ -11421,7 +11317,7 @@
       {
         "unit": "1102",
         "typology": "Studio",
-        "price": 314918.0,
+        "price": 314918,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11429,7 +11325,7 @@
       {
         "unit": "1103",
         "typology": "Studio",
-        "price": 314918.0,
+        "price": 314918,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11437,7 +11333,7 @@
       {
         "unit": "1201",
         "typology": "Studio",
-        "price": 319968.0,
+        "price": 319968,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.89
@@ -11445,7 +11341,7 @@
       {
         "unit": "1202",
         "typology": "Studio",
-        "price": 314918.0,
+        "price": 314918,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11453,7 +11349,7 @@
       {
         "unit": "1205",
         "typology": "Studio",
-        "price": 319968.0,
+        "price": 319968,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11461,7 +11357,7 @@
       {
         "unit": "1206",
         "typology": "Studio",
-        "price": 319968.0,
+        "price": 319968,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 23.92
@@ -11469,7 +11365,7 @@
       {
         "unit": "1305",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11477,7 +11373,7 @@
       {
         "unit": "1401",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.89
@@ -11485,7 +11381,7 @@
       {
         "unit": "1402",
         "typology": "Studio",
-        "price": 317948.0,
+        "price": 317948,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11493,7 +11389,7 @@
       {
         "unit": "1403",
         "typology": "Studio",
-        "price": 317948.0,
+        "price": 317948,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11501,7 +11397,7 @@
       {
         "unit": "1404",
         "typology": "Studio",
-        "price": 317948.0,
+        "price": 317948,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11509,7 +11405,7 @@
       {
         "unit": "1405",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11517,7 +11413,7 @@
       {
         "unit": "1406",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 23.92
@@ -11525,7 +11421,7 @@
       {
         "unit": "1407",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.8
@@ -11533,7 +11429,7 @@
       {
         "unit": "1411",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11541,7 +11437,7 @@
       {
         "unit": "1412",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11549,7 +11445,7 @@
       {
         "unit": "1413",
         "typology": "Studio",
-        "price": 322998.0,
+        "price": 322998,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11557,7 +11453,7 @@
       {
         "unit": "1502",
         "typology": "Studio",
-        "price": 321988.0,
+        "price": 321988,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11565,7 +11461,7 @@
       {
         "unit": "1503",
         "typology": "Studio",
-        "price": 321988.0,
+        "price": 321988,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11573,7 +11469,7 @@
       {
         "unit": "1504",
         "typology": "Studio",
-        "price": 321988.0,
+        "price": 321988,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11581,7 +11477,7 @@
       {
         "unit": "1505",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11589,7 +11485,7 @@
       {
         "unit": "1506",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 23.92
@@ -11597,7 +11493,7 @@
       {
         "unit": "1507",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.8
@@ -11605,7 +11501,7 @@
       {
         "unit": "1512",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11613,7 +11509,7 @@
       {
         "unit": "1513",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11621,7 +11517,7 @@
       {
         "unit": "1602",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11629,7 +11525,7 @@
       {
         "unit": "1603",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11637,7 +11533,7 @@
       {
         "unit": "1604",
         "typology": "Studio",
-        "price": 327038.0,
+        "price": 327038,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11645,7 +11541,7 @@
       {
         "unit": "1605",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11653,7 +11549,7 @@
       {
         "unit": "1606",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 23.92
@@ -11661,7 +11557,7 @@
       {
         "unit": "1611",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11669,7 +11565,7 @@
       {
         "unit": "1612",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11677,7 +11573,7 @@
       {
         "unit": "1701",
         "typology": "Studio",
-        "price": 337138.0,
+        "price": 337138,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.89
@@ -11685,7 +11581,7 @@
       {
         "unit": "1702",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11693,7 +11589,7 @@
       {
         "unit": "1703",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.28
@@ -11701,7 +11597,7 @@
       {
         "unit": "1704",
         "typology": "Studio",
-        "price": 332088.0,
+        "price": 332088,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.21
@@ -11709,7 +11605,7 @@
       {
         "unit": "1705",
         "typology": "Studio",
-        "price": 337138.0,
+        "price": 337138,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.03
@@ -11717,7 +11613,7 @@
       {
         "unit": "1706",
         "typology": "Studio",
-        "price": 337138.0,
+        "price": 337138,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 23.92
@@ -11725,7 +11621,7 @@
       {
         "unit": "1707",
         "typology": "Studio",
-        "price": 337138.0,
+        "price": 337138,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 24.8
@@ -11733,7 +11629,7 @@
       {
         "unit": "1708",
         "typology": "Studio",
-        "price": 337138.0,
+        "price": 337138,
         "parkingSpaces": 0,
         "parkingEvidence": "0",
         "area": 25.21
@@ -12909,85 +12805,85 @@
       {
         "unit": "203",
         "typology": "",
-        "price": 680000.0,
+        "price": 680000,
         "area": 79.01
       },
       {
         "unit": "204",
         "typology": "",
-        "price": 680000.0,
+        "price": 680000,
         "area": 75.4
       },
       {
         "unit": "205",
         "typology": "",
-        "price": 680000.0,
+        "price": 680000,
         "area": 80.51
       },
       {
         "unit": "206",
         "typology": "",
-        "price": 680000.0,
+        "price": 680000,
         "area": 80.51
       },
       {
         "unit": "304",
         "typology": "",
-        "price": 690000.0,
+        "price": 690000,
         "area": 75.4
       },
       {
         "unit": "404",
         "typology": "",
-        "price": 700000.0,
+        "price": 700000,
         "area": 75.4
       },
       {
         "unit": "406",
         "typology": "",
-        "price": 700000.0,
+        "price": 700000,
         "area": 80.51
       },
       {
         "unit": "504",
         "typology": "",
-        "price": 720000.0,
+        "price": 720000,
         "area": 75.4
       },
       {
         "unit": "505",
         "typology": "",
-        "price": 720000.0,
+        "price": 720000,
         "area": 80.51
       },
       {
         "unit": "506",
         "typology": "",
-        "price": 720000.0,
+        "price": 720000,
         "area": 80.51
       },
       {
         "unit": "605",
         "typology": "",
-        "price": 735000.0,
+        "price": 735000,
         "area": 81.98
       },
       {
         "unit": "606",
         "typology": "",
-        "price": 735000.0,
+        "price": 735000,
         "area": 81.98
       },
       {
         "unit": "607",
         "typology": "",
-        "price": 790000.0,
+        "price": 790000,
         "area": 89.95
       },
       {
         "unit": "COB 03",
         "typology": "",
-        "price": 1290000.0,
+        "price": 1290000,
         "unitKind": "Cobertura",
         "area": 176.08
       }
@@ -12996,309 +12892,313 @@
   },
   "pebe-74": {
     "tableUrl": "https://drive.google.com/file/d/1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d/view?usp=drivesdk",
-    "tableDate": "Agosto 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
+    "tableDate": "Outubro 2026",
+    "checkedAt": "2026-10-18",
+    "coverage": "complete-residential-rows",
     "offers": [
       {
         "unit": "201",
         "typology": "",
         "price": 590000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "302",
         "typology": "",
         "price": 630000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "307",
         "typology": "",
         "price": 599000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "401",
         "typology": "",
         "price": 610000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "402",
         "typology": "",
         "price": 640000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "407",
         "typology": "",
         "price": 609000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "501",
         "typology": "",
         "price": 620000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "507",
         "typology": "",
         "price": 619000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "602",
         "typology": "",
         "price": 660000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "607",
         "typology": "",
         "price": 629000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "701",
         "typology": "",
         "price": 640000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "801",
         "typology": "",
         "price": 650000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "901",
         "typology": "",
         "price": 660000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "907",
         "typology": "",
         "price": 659000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
-      },
-      {
-        "unit": "1002",
-        "typology": "",
-        "price": 700000,
-        "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1007",
         "typology": "",
         "price": 669000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1105",
         "typology": "",
         "price": 580000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1204",
         "typology": "",
         "price": 590000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
-      },
-      {
-        "unit": "1205",
-        "typology": "",
-        "price": 590000,
-        "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1304",
         "typology": "",
         "price": 610000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1305",
         "typology": "",
         "price": 610000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1306",
         "typology": "",
-        "price": 619000,
+        "price": 610000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1307",
         "typology": "",
         "price": 699000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1401",
         "typology": "",
         "price": 710000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1402",
         "typology": "",
         "price": 750000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1404",
         "typology": "",
         "price": 620000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1405",
         "typology": "",
         "price": 620000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1406",
         "typology": "",
         "price": 620000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1407",
         "typology": "",
         "price": 709000,
         "unitKind": "Apartamento",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1501",
         "typology": "",
-        "price": 1100000,
+        "price": 1110000,
         "unitKind": "Cobertura",
-        "evidence": "Conferência visual da tabela, página 1"
+        "evidence": "PDF página 1"
       }
-    ]
+    ],
+    "commercialDate": "2026-10-15"
   },
   "oka-icarai": {
     "tableUrl": "https://drive.google.com/file/d/1KUVOhtq8-oO6aIg_KFVT5jDCTH2wgjiu/view?usp=drivesdk",
-    "tableDate": "Agosto 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
+    "tableDate": "Outubro 2026",
+    "checkedAt": "2026-10-18",
+    "coverage": "complete-residential-rows",
     "offers": [
       {
         "unit": "604",
         "typology": "",
-        "price": 530000
+        "price": 530000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "704",
         "typology": "",
-        "price": 530000
+        "price": 530000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1004",
         "typology": "",
-        "price": 550000
+        "price": 550000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1001",
         "typology": "",
-        "price": 680000
+        "price": 680000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1101",
         "typology": "",
-        "price": 700000
+        "price": 700000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1102",
         "typology": "",
-        "price": 550000
+        "price": 550000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1104",
         "typology": "",
-        "price": 560000
+        "price": 560000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1201",
         "typology": "",
-        "price": 700000
+        "price": 700000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1204",
         "typology": "",
-        "price": 560000
+        "price": 560000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1301",
         "typology": "",
-        "price": 720000
+        "price": 720000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1302",
         "typology": "",
-        "price": 570000
+        "price": 570000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1303",
         "typology": "",
-        "price": 530000
+        "price": 530000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1304",
         "typology": "",
-        "price": 580000
+        "price": 580000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1401",
         "typology": "",
-        "price": 720000
+        "price": 720000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1403",
         "typology": "",
-        "price": 530000
+        "price": 530000,
+        "evidence": "PDF página 1"
       },
       {
         "unit": "1404",
         "typology": "",
-        "price": 580000
+        "price": 580000,
+        "evidence": "PDF página 1"
       }
-    ]
+    ],
+    "commercialDate": "2026-10-10"
   },
   "oka-sao-francisco": {
     "tableUrl": "https://drive.google.com/file/d/1T7BX5j99jYWqt_F0gllLyXG_hnGJw8kC/view?usp=drivesdk",
@@ -14775,298 +14675,347 @@
   "maris": {
     "tableUrl": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk",
     "tableDate": "Outubro 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
+    "checkedAt": "2026-10-18",
+    "coverage": "complete-residential-rows",
     "offers": [
       {
         "unit": "203",
         "typology": "",
         "price": 1314000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "204",
         "typology": "",
         "price": 900000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "206",
         "typology": "",
         "price": 1021000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "208",
         "typology": "",
-        "price": 908000,
-        "unitKind": "Apartamento"
+        "price": 980000,
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "209",
         "typology": "",
         "price": 1512000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "301",
         "typology": "",
         "price": 1671000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "303",
         "typology": "",
         "price": 1215000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "307",
         "typology": "",
         "price": 962000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "308",
         "typology": "",
         "price": 861000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "309",
         "typology": "",
         "price": 1367000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "401",
         "typology": "",
         "price": 1722000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "402",
         "typology": "",
         "price": 1722000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "403",
         "typology": "",
         "price": 1252000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "405",
         "typology": "",
         "price": 829000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "406",
         "typology": "",
         "price": 887000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "407",
         "typology": "",
         "price": 1011000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "408",
         "typology": "",
         "price": 887000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "409",
         "typology": "",
         "price": 1409000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "501",
         "typology": "",
         "price": 1765000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "502",
         "typology": "",
         "price": 1765000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "503",
         "typology": "",
         "price": 1314000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "504",
         "typology": "",
         "price": 804000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "505",
         "typology": "",
         "price": 879000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "506",
         "typology": "",
         "price": 913000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "507",
         "typology": "",
         "price": 1036000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "508",
         "typology": "",
         "price": 909000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "509",
         "typology": "",
         "price": 1444000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "601",
         "typology": "",
         "price": 1810000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "602",
         "typology": "",
         "price": 1810000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "603",
         "typology": "",
         "price": 1446000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "604",
         "typology": "",
         "price": 900000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "605",
         "typology": "",
         "price": 967000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "606",
         "typology": "",
         "price": 941000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "607",
         "typology": "",
         "price": 1062000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "608",
         "typology": "",
         "price": 932000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "609",
         "typology": "",
         "price": 1481000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "703",
         "typology": "",
         "price": 1518000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "704",
         "typology": "",
         "price": 954000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "706",
         "typology": "",
         "price": 969000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "707",
         "typology": "",
         "price": 1089000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "708",
         "typology": "",
         "price": 955000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "802",
         "typology": "",
         "price": 1902000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "803",
         "typology": "",
         "price": 1594000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "804",
         "typology": "",
         "price": 1002000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "806",
         "typology": "",
         "price": 999000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "807",
         "typology": "",
         "price": 1111000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "808",
         "typology": "",
         "price": 974000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       },
       {
         "unit": "809",
         "typology": "",
         "price": 1548000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "evidence": "PDF página 1"
       }
-    ]
+    ],
+    "commercialDate": "2026-10-01"
   },
   "up-icarai": {
     "checkedAt": "2026-10-16",
@@ -15077,61 +15026,61 @@
       {
         "unit": "203",
         "typology": "",
-        "price": 719150.0,
+        "price": 719150,
         "area": 45.33
       },
       {
         "unit": "704",
         "typology": "",
-        "price": 633650.0,
+        "price": 633650,
         "area": 32.5
       },
       {
         "unit": "804",
         "typology": "",
-        "price": 621300.0,
+        "price": 621300,
         "area": 32.5
       },
       {
         "unit": "904",
         "typology": "",
-        "price": 627950.0,
+        "price": 627950,
         "area": 32.5
       },
       {
         "unit": "1004",
         "typology": "",
-        "price": 633650.0,
+        "price": 633650,
         "area": 32.5
       },
       {
         "unit": "1104",
         "typology": "",
-        "price": 639350.0,
+        "price": 639350,
         "area": 32.5
       },
       {
         "unit": "1304",
         "typology": "",
-        "price": 669750.0,
+        "price": 669750,
         "area": 32.5
       },
       {
         "unit": "205",
         "typology": "",
-        "price": 838850.0,
+        "price": 838850,
         "area": 68.02
       },
       {
         "unit": "905",
         "typology": "",
-        "price": 628900.0,
+        "price": 628900,
         "area": 32.25
       },
       {
         "unit": "1205",
         "typology": "A confirmar",
-        "price": 628900.0,
+        "price": 628900,
         "area": 32.25
       }
     ],
@@ -15909,7 +15858,7 @@
       {
         "unit": "702 / Bloco 1",
         "typology": "2 quartos",
-        "price": 351800.0,
+        "price": 351800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15919,7 +15868,7 @@
       {
         "unit": "703 / Bloco 1",
         "typology": "2 quartos",
-        "price": 365800.0,
+        "price": 365800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15929,7 +15878,7 @@
       {
         "unit": "802 / Bloco 1",
         "typology": "2 quartos",
-        "price": 364800.0,
+        "price": 364800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15939,7 +15888,7 @@
       {
         "unit": "803 / Bloco 1",
         "typology": "2 quartos",
-        "price": 381800.0,
+        "price": 381800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15949,7 +15898,7 @@
       {
         "unit": "904 / Bloco 1",
         "typology": "2 quartos",
-        "price": 329800.0,
+        "price": 329800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15959,7 +15908,7 @@
       {
         "unit": "905 / Bloco 1",
         "typology": "2 quartos",
-        "price": 329800.0,
+        "price": 329800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15969,7 +15918,7 @@
       {
         "unit": "906 / Bloco 1",
         "typology": "2 quartos",
-        "price": 381800.0,
+        "price": 381800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15979,7 +15928,7 @@
       {
         "unit": "1001 / Bloco 1",
         "typology": "2 quartos",
-        "price": 327800.0,
+        "price": 327800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15989,7 +15938,7 @@
       {
         "unit": "1002 / Bloco 1",
         "typology": "2 quartos",
-        "price": 369800.0,
+        "price": 369800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -15999,7 +15948,7 @@
       {
         "unit": "1003 / Bloco 1",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16009,7 +15958,7 @@
       {
         "unit": "1004 / Bloco 1",
         "typology": "2 quartos",
-        "price": 344800.0,
+        "price": 344800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16019,7 +15968,7 @@
       {
         "unit": "1005 / Bloco 1",
         "typology": "2 quartos",
-        "price": 334800.0,
+        "price": 334800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16029,7 +15978,7 @@
       {
         "unit": "1006 / Bloco 1",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16039,7 +15988,7 @@
       {
         "unit": "1102 / Bloco 1",
         "typology": "2 quartos",
-        "price": 369800.0,
+        "price": 369800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16049,7 +15998,7 @@
       {
         "unit": "1103 / Bloco 1",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16059,7 +16008,7 @@
       {
         "unit": "1104 / Bloco 1",
         "typology": "2 quartos",
-        "price": 344800.0,
+        "price": 344800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16069,7 +16018,7 @@
       {
         "unit": "1105 / Bloco 1",
         "typology": "2 quartos",
-        "price": 334800.0,
+        "price": 334800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16079,7 +16028,7 @@
       {
         "unit": "1106 / Bloco 1",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16089,7 +16038,7 @@
       {
         "unit": "1201 / Bloco 1",
         "typology": "2 quartos",
-        "price": 327800.0,
+        "price": 327800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16099,7 +16048,7 @@
       {
         "unit": "1203 / Bloco 1",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16109,7 +16058,7 @@
       {
         "unit": "1204 / Bloco 1",
         "typology": "2 quartos",
-        "price": 344800.0,
+        "price": 344800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16119,7 +16068,7 @@
       {
         "unit": "1205 / Bloco 1",
         "typology": "2 quartos",
-        "price": 334800.0,
+        "price": 334800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16129,7 +16078,7 @@
       {
         "unit": "1206 / Bloco 1",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16139,7 +16088,7 @@
       {
         "unit": "1207 / Bloco 1",
         "typology": "2 quartos",
-        "price": 372800.0,
+        "price": 372800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16149,7 +16098,7 @@
       {
         "unit": "406 / Bloco 2",
         "typology": "2 quartos",
-        "price": 360800.0,
+        "price": 360800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16159,7 +16108,7 @@
       {
         "unit": "503 / Bloco 2",
         "typology": "2 quartos",
-        "price": 363800.0,
+        "price": 363800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16169,7 +16118,7 @@
       {
         "unit": "603 / Bloco 2",
         "typology": "2 quartos",
-        "price": 360800.0,
+        "price": 360800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16179,7 +16128,7 @@
       {
         "unit": "604 / Bloco 2",
         "typology": "2 quartos",
-        "price": 293800.0,
+        "price": 293800,
         "parkingSpaces": 0,
         "parkingEvidence": "NÃO",
         "area": 44.76
@@ -16187,7 +16136,7 @@
       {
         "unit": "605 / Bloco 2",
         "typology": "2 quartos",
-        "price": 293800.0,
+        "price": 293800,
         "parkingSpaces": 0,
         "parkingEvidence": "NÃO",
         "area": 44.95
@@ -16195,7 +16144,7 @@
       {
         "unit": "706 / Bloco 2",
         "typology": "2 quartos",
-        "price": 365800.0,
+        "price": 365800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16205,7 +16154,7 @@
       {
         "unit": "802 / Bloco 2",
         "typology": "2 quartos",
-        "price": 364800.0,
+        "price": 364800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16215,7 +16164,7 @@
       {
         "unit": "803 / Bloco 2",
         "typology": "2 quartos",
-        "price": 381800.0,
+        "price": 381800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16225,7 +16174,7 @@
       {
         "unit": "804 / Bloco 2",
         "typology": "2 quartos",
-        "price": 329800.0,
+        "price": 329800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16235,7 +16184,7 @@
       {
         "unit": "806 / Bloco 2",
         "typology": "2 quartos",
-        "price": 381800.0,
+        "price": 381800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16245,7 +16194,7 @@
       {
         "unit": "807 / Bloco 2",
         "typology": "2 quartos",
-        "price": 364800.0,
+        "price": 364800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16255,7 +16204,7 @@
       {
         "unit": "902 / Bloco 2",
         "typology": "2 quartos",
-        "price": 364800.0,
+        "price": 364800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16265,7 +16214,7 @@
       {
         "unit": "903 / Bloco 2",
         "typology": "2 quartos",
-        "price": 381800.0,
+        "price": 381800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16275,7 +16224,7 @@
       {
         "unit": "904 / Bloco 2",
         "typology": "2 quartos",
-        "price": 329800.0,
+        "price": 329800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16285,7 +16234,7 @@
       {
         "unit": "905 / Bloco 2",
         "typology": "2 quartos",
-        "price": 329800.0,
+        "price": 329800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16295,7 +16244,7 @@
       {
         "unit": "906 / Bloco 2",
         "typology": "2 quartos",
-        "price": 381800.0,
+        "price": 381800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16305,7 +16254,7 @@
       {
         "unit": "1001 / Bloco 2",
         "typology": "2 quartos",
-        "price": 327800.0,
+        "price": 327800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16315,7 +16264,7 @@
       {
         "unit": "1003 / Bloco 2",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16325,7 +16274,7 @@
       {
         "unit": "1004 / Bloco 2",
         "typology": "2 quartos",
-        "price": 344800.0,
+        "price": 344800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16335,7 +16284,7 @@
       {
         "unit": "1005 / Bloco 2",
         "typology": "2 quartos",
-        "price": 334800.0,
+        "price": 334800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16345,7 +16294,7 @@
       {
         "unit": "1006 / Bloco 2",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16355,7 +16304,7 @@
       {
         "unit": "1008 / Bloco 2",
         "typology": "2 quartos",
-        "price": 317800.0,
+        "price": 317800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16365,7 +16314,7 @@
       {
         "unit": "1101 / Bloco 2",
         "typology": "2 quartos",
-        "price": 327800.0,
+        "price": 327800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16375,7 +16324,7 @@
       {
         "unit": "1104 / Bloco 2",
         "typology": "2 quartos",
-        "price": 344800.0,
+        "price": 344800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16385,7 +16334,7 @@
       {
         "unit": "1105 / Bloco 2",
         "typology": "2 quartos",
-        "price": 334800.0,
+        "price": 334800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16395,7 +16344,7 @@
       {
         "unit": "1106 / Bloco 2",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16405,7 +16354,7 @@
       {
         "unit": "1108 / Bloco 2",
         "typology": "2 quartos",
-        "price": 317800.0,
+        "price": 317800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16415,7 +16364,7 @@
       {
         "unit": "1201 / Bloco 2",
         "typology": "2 quartos",
-        "price": 327800.0,
+        "price": 327800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16425,7 +16374,7 @@
       {
         "unit": "1202 / Bloco 2",
         "typology": "2 quartos",
-        "price": 372800.0,
+        "price": 372800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16435,7 +16384,7 @@
       {
         "unit": "1203 / Bloco 2",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16445,7 +16394,7 @@
       {
         "unit": "1205 / Bloco 2",
         "typology": "2 quartos",
-        "price": 334800.0,
+        "price": 334800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16455,7 +16404,7 @@
       {
         "unit": "1206 / Bloco 2",
         "typology": "2 quartos",
-        "price": 386800.0,
+        "price": 386800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16465,7 +16414,7 @@
       {
         "unit": "1207 / Bloco 2",
         "typology": "2 quartos",
-        "price": 372800.0,
+        "price": 372800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",
@@ -16475,7 +16424,7 @@
       {
         "unit": "1208 / Bloco 2",
         "typology": "PCD",
-        "price": 337800.0,
+        "price": 337800,
         "parkingSpaces": 1,
         "parkingCountIsMinimum": true,
         "parkingNote": "Tabela confirma vaga, mas não informa quantidade; vinculação conforme convenção.",

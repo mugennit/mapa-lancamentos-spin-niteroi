@@ -89,17 +89,19 @@
     },
     {
       "id": "pebe-74",
-      "name": "Tabela Pebê 74 Agosto_2026.pdf",
-      "sha256": "fa3cca3b44972a496147a7ae07edc20faacb262bfc007f05dde5a4ad8e23ba15",
-      "bytes": 291174,
-      "driveIdentical": true
+      "name": "Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+      "sha256": "e2b3b2fe394ccdda856581219610d0f706e9c9a38d5a7f20339ab5a478472536",
+      "bytes": 187103,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-18"
     },
     {
       "id": "singular",
-      "name": "Tabela de Vendas Singular - Setembro 2026.pdf",
-      "sha256": "4cc8824f153271892d1bdd19babb001049669d168d8ffa5275e3229c61ea85e6",
-      "bytes": 269089,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Singular - Outubro 2026.pdf",
+      "sha256": "297b0033fbe35a67b9ed67bc00b3f0b8b6746ba91fb83d8db4951dd1a848ec6c",
+      "bytes": 330391,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-18"
     },
     {
       "id": "style",
@@ -110,10 +112,11 @@
     },
     {
       "id": "oka-icarai",
-      "name": "Tabela de Vendas Oka Icaraí - Agosto 2026.pdf",
-      "sha256": "a76deba2853c21b4fb8d725300fb1e25715cf9a88ef270350a6642b4db8b21bb",
-      "bytes": 328486,
-      "driveIdentical": true
+      "name": "Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+      "sha256": "342a91b77b3a8f0c1373458aec1be57f3cf71127fcfdc0d2d862f05850db62ab",
+      "bytes": 178748,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-18"
     },
     {
       "id": "oka-sao-francisco",
@@ -418,10 +421,11 @@
     },
     {
       "id": "maris",
-      "name": "Tabela de Vendas Maris - Outubro 2026.pdf",
-      "sha256": "cfd216231a3b02acbac66a33871cf47a86e69e359a0945e4d2d463c2919c93b2",
-      "bytes": 574476,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
+      "sha256": "9178852be961b5a6ec5a83e38c09300e65ce9b21fae18fd4839671b44aaa5fee",
+      "bytes": 573752,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-18"
     },
     {
       "id": "calle-sardegna",
@@ -439,10 +443,11 @@
     },
     {
       "id": "scenarium-piratininga",
-      "name": "Tabela de Vendas Scenarium - Setembro 2026.pdf",
-      "sha256": "5e69ea146e1d051ff509b3856d2a90a11c54b1d585a07f99dcb7627747ce7108",
-      "bytes": 297554,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Scenarium - Outubro 2026.pdf",
+      "sha256": "ac892ad32f015d33bd9cf9251113efe48aa2ed1e413464bf04ecde6f03301c86",
+      "bytes": 296541,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-18"
     },
     {
       "id": "jardim-itacoa",
@@ -741,6 +746,7 @@
     }
   ],
   "lastInventoryCheckedAt": "2026-10-16",
-  "lastTablesUpdatedAt": "2026-10-16",
-  "lastBooksComparedAt": "2026-10-16"
+  "lastTablesUpdatedAt": "2026-10-18",
+  "lastBooksComparedAt": "2026-10-16",
+  "lastTablesInventoryCheckedAt": "2026-10-18"
 }

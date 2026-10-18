@@ -1,0 +1,213 @@
+{
+  "checkedAt": "2026-10-18",
+  "status": "partial",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "sourceAccess": {
+    "clickedBothButtons": true,
+    "tables": {
+      "status": "all-folders-listed-and-files-downloaded",
+      "rootFolders": 44,
+      "subfolders": 0,
+      "filesListed": 142,
+      "filesDownloadedAndHashed": 142,
+      "zipIntegrity": "passed",
+      "displayedCountsReconciled": true,
+      "allFoldersScrolled": true,
+      "catalogTableBaselinesCompared": 93,
+      "identicalPriorCatalogTableHashes": 88,
+      "updatedCatalogTables": 5
+    },
+    "books": {
+      "status": "blocked",
+      "retryPerformed": true,
+      "loginRequested": false,
+      "message": "Este item não está disponível. Ele pode ter sido movido, renomeado, excluído ou você não tem acesso.",
+      "correlationId": "6f0d46a2-6047-a000-db8f-66abd261d21c",
+      "scopeNotChecked": "Toda a estrutura e conteúdo atual de Books, incluindo CEU e books correspondentes aos cinco empreendimentos com tabelas atualizadas.",
+      "lastCompleteStructureScan": "2026-10-17",
+      "lastCompleteContentComparison": "2026-10-16"
+    }
+  },
+  "tableUpdates": [
+    {
+      "id": "pebe-74",
+      "name": "Pebê 74",
+      "oldName": "Tabela Pebê 74 Agosto_2026.pdf",
+      "newName": "Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+      "commercialDate": "2026-10-15",
+      "fileId": "1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d",
+      "sha256": "e2b3b2fe394ccdda856581219610d0f706e9c9a38d5a7f20339ab5a478472536",
+      "bytes": 187103,
+      "previousOfferCount": 30,
+      "currentOfferCount": 28,
+      "price": 580000,
+      "removed": [
+        "1002",
+        "1205"
+      ],
+      "priceChanges": [
+        {
+          "unit": "1306",
+          "before": 619000,
+          "after": 610000
+        },
+        {
+          "unit": "1501",
+          "before": 1100000,
+          "after": 1110000
+        }
+      ],
+      "driveRawReadbackSha256Verified": true,
+      "sameFileId": true,
+      "publicReaderVerified": true
+    },
+    {
+      "id": "singular",
+      "name": "Singular",
+      "oldName": "Tabela de Vendas Singular - Setembro 2026.pdf",
+      "newName": "Tabela de Vendas Singular - Outubro 2026.pdf",
+      "commercialDate": "2026-10-01",
+      "fileId": "1a4UsToYzZFQg-vDHosJO_MryfvAjbQtZ",
+      "sha256": "297b0033fbe35a67b9ed67bc00b3f0b8b6746ba91fb83d8db4951dd1a848ec6c",
+      "bytes": 330391,
+      "previousOfferCount": 94,
+      "currentOfferCount": 65,
+      "price": 484030,
+      "removed": [
+        "208 — Bloco 1",
+        "308 — Bloco 1",
+        "309 — Bloco 1",
+        "401 — Bloco 1",
+        "407 — Bloco 1",
+        "508 — Bloco 1",
+        "509 — Bloco 1",
+        "608 — Bloco 1",
+        "703 — Bloco 1",
+        "801 — Bloco 1",
+        "207 — Bloco 2",
+        "304 — Bloco 2",
+        "305 — Bloco 2",
+        "306 — Bloco 2",
+        "307 — Bloco 2",
+        "404 — Bloco 2",
+        "406 — Bloco 2",
+        "407 — Bloco 2",
+        "503 — Bloco 2",
+        "504 — Bloco 2",
+        "507 — Bloco 2",
+        "603 — Bloco 2",
+        "606 — Bloco 2",
+        "607 — Bloco 2",
+        "703 — Bloco 2",
+        "704 — Bloco 2",
+        "707 — Bloco 2",
+        "803 — Bloco 2",
+        "807 — Bloco 2"
+      ],
+      "priceChanges": [],
+      "driveRawReadbackSha256Verified": true,
+      "sameFileId": true,
+      "publicReaderVerified": true
+    },
+    {
+      "id": "oka-icarai",
+      "name": "Oka Icaraí",
+      "oldName": "Tabela de Vendas Oka Icaraí - Agosto 2026.pdf",
+      "newName": "Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+      "commercialDate": "2026-10-10",
+      "fileId": "1KUVOhtq8-oO6aIg_KFVT5jDCTH2wgjiu",
+      "sha256": "342a91b77b3a8f0c1373458aec1be57f3cf71127fcfdc0d2d862f05850db62ab",
+      "bytes": 178748,
+      "previousOfferCount": 16,
+      "currentOfferCount": 16,
+      "price": 530000,
+      "removed": [],
+      "priceChanges": [],
+      "driveRawReadbackSha256Verified": true,
+      "sameFileId": true,
+      "publicReaderVerified": true
+    },
+    {
+      "id": "maris",
+      "name": "Maris",
+      "oldName": "Tabela de Vendas Maris - Outubro 2026.pdf",
+      "newName": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
+      "commercialDate": "2026-10-01",
+      "fileId": "1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8",
+      "sha256": "9178852be961b5a6ec5a83e38c09300e65ce9b21fae18fd4839671b44aaa5fee",
+      "bytes": 573752,
+      "previousOfferCount": 48,
+      "currentOfferCount": 48,
+      "price": 804000,
+      "removed": [],
+      "priceChanges": [
+        {
+          "unit": "208",
+          "before": 908000,
+          "after": 980000
+        }
+      ],
+      "driveRawReadbackSha256Verified": true,
+      "sameFileId": true,
+      "publicReaderVerified": true
+    },
+    {
+      "id": "scenarium-piratininga",
+      "name": "Scenarium Piratininga",
+      "oldName": "Tabela de Vendas Scenarium - Setembro 2026.pdf",
+      "newName": "Tabela de Vendas Scenarium - Outubro 2026.pdf",
+      "commercialDate": "2026-09-20",
+      "fileId": "16OCudjv-0EeTDfaRZvUQ_wGw2RJhFxC0",
+      "sha256": "ac892ad32f015d33bd9cf9251113efe48aa2ed1e413464bf04ecde6f03301c86",
+      "bytes": 296541,
+      "previousOfferCount": 10,
+      "currentOfferCount": 9,
+      "price": 1440000,
+      "removed": [
+        "202"
+      ],
+      "priceChanges": [],
+      "driveRawReadbackSha256Verified": true,
+      "sameFileId": true,
+      "publicReaderVerified": true
+    }
+  ],
+  "drive": {
+    "mainSalesFolderItems": 10,
+    "mapFoldersChecked": 84,
+    "mapFiles": 168,
+    "everyMapFolderHasExactlyTwoFiles": true,
+    "obsoleteMaterialCopiesDeleted": 0,
+    "inPlaceReplacements": 5
+  },
+  "catalog": {
+    "count": 113,
+    "completeMaterialsAndValidatedCoordinates": 84,
+    "removedProjects": 0,
+    "addedProjects": 0,
+    "reasonNoRemoval": "Fonte Books indisponível não foi interpretada como remoção de materiais."
+  },
+  "coordinates": {
+    "spreadsheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "readCurrent": true,
+    "readRanges": [
+      "'Lançamentos'!A1:T150",
+      "'Lançamentos'!A151:T969"
+    ],
+    "numericChanges": 0,
+    "completeProjectsMissingValidatedPoint": [],
+    "baumeMissingSpreadsheetRow": true,
+    "baumeCatalogValidatedPointPreserved": true
+  },
+  "baume": {
+    "bookAndSingleTableInDriveConfirmed": true,
+    "officialTableHashMatchesPrior": true,
+    "officialBookRecheckBlocked": true,
+    "ownerBookExceptionPreserved": true
+  },
+  "limitations": [
+    "Comparação integral das duas fontes não concluída: Books indisponível pelo botão do Linktree, inclusive após Retry.",
+    "Os 142 arquivos de Tabelas foram integralmente baixados e receberam SHA-256. Comparação com hashes anteriores cobriu as 93 tabelas associadas ao catálogo; não há hash anterior persistido para os 49 demais materiais nesta base.",
+    "Books dos cinco projetos permaneceram confirmados pelas cópias existentes no Drive; novas versões oficiais de Books não puderam ser verificadas."
+  ]
+}
