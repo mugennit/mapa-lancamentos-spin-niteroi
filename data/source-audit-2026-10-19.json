@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "partial-browser-runtime-failure",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "sourceAccess": {
+    "startedAtLinktree": true,
+    "clickedBothButtons": true,
+    "tablesOpenedWithoutLogin": true,
+    "booksOpenedWithoutLogin": true,
+    "rootCounts": {
+      "tableFolders": 44,
+      "bookFolders": 40
+    },
+    "rootPaginationLoaded": true
+  },
+  "failure": {
+    "kind": "transient-browser-transport-and-timeouts",
+    "observed": [
+      "Input.dispatchMouseEvent timed out",
+      "Runtime.evaluate timed out",
+      "CDP operation exceeded its deadline before command dispatch",
+      "Transport send error: exec-server rejected request",
+      "js execution timed out; kernel reset"
+    ],
+    "bookBulkDownloadAttempted": true,
+    "bookBulkDownloadVerified": false,
+    "fullRecursiveInventoryCompleted": false,
+    "fullContentComparisonCompleted": false,
+    "detailedPartialBrowserInventoryLostOnRuntimeReset": true
+  },
+  "countsReconciliation": {
+    "rjEngenhariaPreliminaryCount": 10,
+    "rjEngenhariaRowsWereEmptyPlaceholders": true,
+    "newFileConfirmed": false,
+    "doNotTreatPlaceholderRowsAsInventory": true
+  },
+  "catalog": {
+    "count": 113,
+    "completeMaterialsWithValidatedCoordinates": 84,
+    "materialChanges": 0,
+    "projectRemovals": 0,
+    "publicationCheckedCommit": "183d50e27eac7b683d9808885b960eb6c7b99302",
+    "deploymentStatuses": [
+      "success",
+      "success"
+    ]
+  },
+  "drive": {
+    "mapFoldersChecked": 84,
+    "mapFiles": 168,
+    "allCatalogBookAndTablePairsMatched": true,
+    "eachFolderExactlyTwoFiles": true,
+    "baumeManualBookAndSingleTablePresent": true
+  },
+  "coordinates": {
+    "spreadsheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "range": "'Lançamentos'!A1:T969",
+    "readCurrent": true,
+    "numericDifferences": 0,
+    "completeProjectsMissingLatLng": [],
+    "baumeMissingSheetRow": true,
+    "baumeValidatedCatalogPointPreserved": true
+  },
+  "limitations": [
+    "Não foi concluída a comparação integral das fontes nesta execução.",
+    "Não foram confirmadas alterações, remoções ou novas versões de Books ou Tabelas; isso não equivale a afirmar ausência de alterações.",
+    "Os materiais e a publicação atual foram preservados. Nenhuma substituição ou exclusão de material foi feita.",
+    "A falha observada foi no navegador/execução, não um pedido de login nas fontes."
+  ]
+}
