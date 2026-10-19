@@ -745,8 +745,11 @@
       "verifiedAt": "2026-10-16"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-16",
+  "lastInventoryCheckedAt": "2026-10-19",
   "lastTablesUpdatedAt": "2026-10-18",
-  "lastBooksComparedAt": "2026-10-16",
-  "lastTablesInventoryCheckedAt": "2026-10-18"
+  "lastBooksComparedAt": "2026-10-19",
+  "lastTablesInventoryCheckedAt": "2026-10-18",
+  "lastFullSourceAuditAt": "2026-10-19",
+  "lastTablesComparedAt": "2026-10-19",
+  "sourceAuditReport": "data/source-audit-2026-10-19.json"
 }

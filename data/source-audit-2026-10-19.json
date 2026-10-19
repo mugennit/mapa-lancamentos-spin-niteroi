@@ -1,70 +1,274 @@
 {
   "checkedAt": "2026-10-19",
-  "status": "partial-browser-runtime-failure",
+  "status": "complete",
+  "supersedesEarlierPartialAttempt": true,
   "entrypoint": "https://linktr.ee/corretorSPIN",
-  "sourceAccess": {
+  "method": {
     "startedAtLinktree": true,
     "clickedBothButtons": true,
-    "tablesOpenedWithoutLogin": true,
-    "booksOpenedWithoutLogin": true,
-    "rootCounts": {
-      "tableFolders": 44,
-      "bookFolders": 40
+    "loginRequired": false,
+    "allRootPagesLoaded": true,
+    "allFoldersAndSubfoldersScrolled": true,
+    "displayedItemCountsReconciled": true,
+    "checkpointsSavedAfterEachFolder": true,
+    "sourceZipIntegrityVerified": true,
+    "fullFileSha256Compared": true
+  },
+  "structure": {
+    "tables": {
+      "rootFolders": 44,
+      "subfolders": 0,
+      "files": 142,
+      "pdfs": 139,
+      "spreadsheets": 3
     },
-    "rootPaginationLoaded": true
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130,
+      "pdfs": 129,
+      "video": 1
+    },
+    "foldersAdded": [],
+    "foldersRemoved": [],
+    "filesAdded": [],
+    "filesRemoved": [],
+    "renamesOrMovesDetected": []
   },
-  "failure": {
-    "kind": "transient-browser-transport-and-timeouts",
-    "observed": [
-      "Input.dispatchMouseEvent timed out",
-      "Runtime.evaluate timed out",
-      "CDP operation exceeded its deadline before command dispatch",
-      "Transport send error: exec-server rejected request",
-      "js execution timed out; kernel reset"
-    ],
-    "bookBulkDownloadAttempted": true,
-    "bookBulkDownloadVerified": false,
-    "fullRecursiveInventoryCompleted": false,
-    "fullContentComparisonCompleted": false,
-    "detailedPartialBrowserInventoryLostOnRuntimeReset": true
-  },
-  "countsReconciliation": {
-    "rjEngenhariaPreliminaryCount": 10,
-    "rjEngenhariaRowsWereEmptyPlaceholders": true,
-    "newFileConfirmed": false,
-    "doNotTreatPlaceholderRowsAsInventory": true
+  "content": {
+    "tables": {
+      "baseline": "2026-10-18",
+      "filesCompared": 142,
+      "identicalSha256": 142,
+      "changed": 0
+    },
+    "books": {
+      "baseline": "2026-10-16",
+      "filesCompared": 130,
+      "identicalSha256": 129,
+      "binaryDifferenceWithIdenticalPdfObjects": 1,
+      "conquista": {
+        "pages": 27,
+        "allPagesIdentical": true,
+        "pagesChecked": [
+          {
+            "page": 1,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 2,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 3,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 4,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 5,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 6,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 7,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 8,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 9,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 10,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 11,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 12,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 13,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 14,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 15,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 16,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 17,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 18,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 19,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 20,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 21,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 22,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 23,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 24,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 25,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 26,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          },
+          {
+            "page": 27,
+            "sameRender": true,
+            "sameText": true,
+            "sameSize": true
+          }
+        ],
+        "sameMetadata": true,
+        "sourceSha256": "1164c8cb1bfb7233175a4b02b3dbd99aa07bf198c00c8effb3e26679e867fc50",
+        "driveSha256": "0aded498c41cb2d87d1dd4368638c45b277eb171371a45f60a676bfb8ea4b115",
+        "pdfObjectCount": 229,
+        "allPdfObjectsIdentical": true,
+        "allDecodedStreamsIdentical": true,
+        "trailerIdentical": true,
+        "action": "Mantido arquivo atual do Drive; sem mudança de conteúdo."
+      }
+    },
+    "materialsChanged": 0
   },
   "catalog": {
     "count": 113,
-    "completeMaterialsWithValidatedCoordinates": 84,
-    "materialChanges": 0,
-    "projectRemovals": 0,
-    "publicationCheckedCommit": "183d50e27eac7b683d9808885b960eb6c7b99302",
-    "deploymentStatuses": [
-      "success",
-      "success"
-    ]
+    "completeMaterialsAndValidatedCoordinates": 84,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "passwordAndSiteCodeChanged": false
   },
   "drive": {
     "mapFoldersChecked": 84,
     "mapFiles": 168,
-    "allCatalogBookAndTablePairsMatched": true,
-    "eachFolderExactlyTwoFiles": true,
-    "baumeManualBookAndSingleTablePresent": true
+    "exactlyOneBookAndOneTablePerCompleteProject": true,
+    "allCatalogMaterialPairsMatched": true,
+    "mainSalesFolderItems": 10,
+    "filesReplaced": 0,
+    "filesRemoved": 0
   },
   "coordinates": {
     "spreadsheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
     "range": "'Lançamentos'!A1:T969",
     "readCurrent": true,
-    "numericDifferences": 0,
-    "completeProjectsMissingLatLng": [],
-    "baumeMissingSheetRow": true,
-    "baumeValidatedCatalogPointPreserved": true
+    "numericChanges": 0,
+    "completeProjectsWithoutValidatedPoint": [],
+    "baumeMissingSpreadsheetRow": true,
+    "baumeCatalogPointPreserved": true
   },
+  "baume": {
+    "tablesCEUItems": 6,
+    "booksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerAuthorizedBookAndSingleOctoberTableConfirmedInDrive": true,
+    "officialTableHashUnchanged": true,
+    "preserved": true
+  },
+  "resolvedFailures": {
+    "priorBrowserTimeoutsResolved": true,
+    "booksZipInitiallyTimedOutButLaterMaterializedAndValidated": true,
+    "tablesDownloadReturnedFailureButMaterializedZipPassedFullIntegrityAndHashComparison": true,
+    "earlierRJEngenhariaPlaceholderCountDiscarded": true
+  },
+  "remainingPendingReplacements": 0,
   "limitations": [
-    "Não foi concluída a comparação integral das fontes nesta execução.",
-    "Não foram confirmadas alterações, remoções ou novas versões de Books ou Tabelas; isso não equivale a afirmar ausência de alterações.",
-    "Os materiais e a publicação atual foram preservados. Nenhuma substituição ou exclusão de material foi feita.",
-    "A falha observada foi no navegador/execução, não um pedido de login nas fontes."
+    "As cópias compactadas de books previamente validadas mantêm a equivalência documentada em data/books-normalization-verification-2026-10-16.json; não foram substituídas por diferença binária decorrente de compactação.",
+    "O book de Conviva Piratininga permanece sem contraparte na fonte Books atual, conforme exceção de material já preservado no catálogo anterior. Baume mantém a autorização expressa do proprietário."
   ]
 }
