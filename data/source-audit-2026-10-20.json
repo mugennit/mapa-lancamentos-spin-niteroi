@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-10-20",
+  "catalogCount": 113,
+  "drive": {
+    "mapFolders": 84,
+    "files": 168,
+    "allCatalogPairsMatched": true,
+    "eachFolderExactlyOneBookAndOneTable": true,
+    "allLinksAnyoneReader": true
+  },
+  "coordinates": {
+    "readCurrent": true,
+    "numericDifferences": [],
+    "completeProjectsWithoutValidatedPoint": [],
+    "rows": 113
+  },
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "method": {
+    "clickedBothLinktreeButtons": true,
+    "loginRequired": false,
+    "allRootPagesLoaded": true,
+    "allFoldersAndSubfoldersChecked": true,
+    "countsReconciled": true,
+    "fullSourceDownloadsReadAndCrcVerified": true,
+    "sha256Compared": true,
+    "baseline": "2026-10-19"
+  },
+  "structure": {
+    "tables": {
+      "rootFolders": 44,
+      "subfolders": 0,
+      "files": 142
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    },
+    "added": [],
+    "removed": [],
+    "renamedOrMoved": []
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 142,
+      "changed": 0
+    },
+    "books": {
+      "identicalSha256": 130,
+      "changed": 0
+    }
+  },
+  "catalog": {
+    "count": 113,
+    "completeWithValidatedCoordinates": 84,
+    "added": [],
+    "removed": [],
+    "materialsChanged": 0,
+    "passwordOrUiCodeChanged": false
+  },
+  "baume": {
+    "tablesCEUItems": 6,
+    "booksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerProvidedBookAndSingleOctoberTablePresent": true,
+    "preserved": true
+  },
+  "publication": {
+    "sourceCommit": "47fcc6f4de2c4735b00bfef7de7256661ada67d9",
+    "existingDeploymentSuccessVerifiedThroughGitHub": true,
+    "directVercelInspection": "403 forbidden; Vercel CLI not installed",
+    "reportAndCheckedDateUpdate": "included in the same commit as this report; deployment status is tracked by GitHub checks"
+  },
+  "limitations": [
+    "Source file hashes compared to the complete 2026-10-19 baseline; optimized Drive books were not compared byte-for-byte to the larger originals again. Their prior equivalence verification remains in effect.",
+    "Books download initially exceeded the browser timeout; the complete 6,992,616,113-byte ZIP later finished and all 130 entries were read and verified.",
+    "Baume has no row in the coordinates sheet; its previously confirmed catalog coordinates were preserved."
+  ]
+}
