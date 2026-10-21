@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-21",
+  "catalogCount": 113,
+  "drive": {
+    "mapFolders": 84,
+    "files": 168,
+    "allCatalogPairsMatched": true,
+    "eachFolderExactlyOneBookAndOneTable": true,
+    "allLinksAnyoneReader": true
+  },
+  "coordinates": {
+    "readCurrent": true,
+    "numericDifferences": [],
+    "completeProjectsWithoutValidatedPoint": [],
+    "rows": 113
+  },
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "method": {
+    "clickedBothLinktreeButtons": true,
+    "loginRequired": false,
+    "allRootPagesLoaded": true,
+    "allFoldersAndSubfoldersChecked": true,
+    "countsReconciled": true,
+    "fullSourceDownloadsReadAndCrcVerified": true,
+    "sha256Compared": true,
+    "baseline": "2026-10-20"
+  },
+  "structure": {
+    "tables": {
+      "rootFolders": 44,
+      "subfolders": 0,
+      "files": 142
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    },
+    "added": [],
+    "removed": [],
+    "renamedOrMoved": [
+      {
+        "from": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Outubro 2026.pdf",
+        "to": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+        "alsoRevised": true
+      }
+    ]
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 141,
+      "renamedAndRevised": 1,
+      "changed": 1,
+      "commercialChanges": 0
+    },
+    "books": {
+      "identicalSha256": 130,
+      "changed": 0
+    }
+  },
+  "catalog": {
+    "count": 113,
+    "completeWithValidatedCoordinates": 84,
+    "added": [],
+    "removed": [],
+    "materialsChanged": 1,
+    "passwordOrUiCodeChanged": false
+  },
+  "baume": {
+    "tablesCEUItems": 6,
+    "booksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerProvidedBookAndSingleOctoberTablePresent": true,
+    "preserved": true
+  },
+  "publication": {
+    "sourceCommit": "7c2203367b0b4f6c5bb5facfe4d1ff96cbe04123",
+    "existingDeploymentSuccessVerifiedThroughGitHub": true,
+    "directVercelInspection": "403 forbidden; Vercel CLI not installed",
+    "reportAndCheckedDateUpdate": "included in the same commit as this report; deployment status is tracked by GitHub checks"
+  },
+  "limitations": [
+    "Optimized Drive books were not re-compared byte-for-byte to the larger originals; all 130 official source files are identical to the complete 2026-10-20 baseline and prior equivalence verification remains in effect.",
+    "Baume has no row in the coordinates sheet; its previously confirmed catalog point and owner-provided book were preserved.",
+    "Direct Vercel inspection is unavailable (previous 403); deployment completion is checked through GitHub Vercel statuses."
+  ],
+  "changes": [
+    {
+      "project": "Marina",
+      "oldPath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Outubro 2026.pdf",
+      "newPath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+      "oldSha256": "83d1d0c33b931f9a401c447f3a2d1cf0bb2cfc72d491d799f9cd1fac3ec18f8d",
+      "newSha256": "b9cc66667b9c8f06e7dca368b034cc4792aff62dda39f73fdb49563a8ace50ce",
+      "sourceModifiedDisplayed": "10/20/2026 7:27 AM",
+      "commercialDatePrinted": "30/09/2026",
+      "validThroughPrinted": "31/10/2026",
+      "textIdentical": true,
+      "pixelDifferenceBoundingBoxAt144Dpi": [
+        1272,
+        244,
+        1476,
+        307
+      ],
+      "visualChange": "Spin logo only",
+      "commercialChange": false,
+      "driveFileId": "1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh",
+      "driveReFetchedSha256Verified": true,
+      "singleTableAndPublicReaderVerified": true
+    }
+  ]
+}

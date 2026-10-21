@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20",
+  "checkedAt": "2026-10-21",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -29,11 +29,13 @@
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-20",
-      "baseline": "2026-10-19",
-      "tableFilesIdenticalSha256": 142,
+      "date": "2026-10-21",
+      "baseline": "2026-10-20",
+      "tableFilesIdenticalSha256": 141,
+      "tableFilesRenamedAndRevised": 1,
       "bookFilesIdenticalSha256": 130,
-      "filesChanged": 0,
+      "filesChanged": 1,
+      "commercialChanges": 0,
       "drivePairMetadataAndPublicReaderPermissionsChecked": 168
     }
   },
@@ -78,6 +80,12 @@
       "sourceSha256": "e02f90d8b4ee26a58a3133a0a9c6643ccc2b880fae1fe5298531c2e8ef005d93",
       "driveSha256": "ffd7bd212663cb85195f18d887ff35fb2411a6120c9701a2a3e0a9b949431696",
       "pages": 33
+    },
+    {
+      "id": "marina",
+      "date": "2026-10-21",
+      "action": "Replaced and renamed in place to the latest official source revision; same commercial text, Spin logo changed. Re-fetched SHA-256, single table, stable URL and public reader permission verified.",
+      "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk"
     }
   ],
   "exceptions": [
@@ -380,10 +388,11 @@
     },
     {
       "id": "marina",
-      "name": "Tabela de Vendas Marina - Outubro 2026.pdf",
-      "sha256": "83d1d0c33b931f9a401c447f3a2d1cf0bb2cfc72d491d799f9cd1fac3ec18f8d",
-      "bytes": 271866,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+      "sha256": "b9cc66667b9c8f06e7dca368b034cc4792aff62dda39f73fdb49563a8ace50ce",
+      "bytes": 271868,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-21"
     },
     {
       "id": "triunfo",
@@ -753,11 +762,11 @@
       "verifiedAt": "2026-10-16"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-20",
-  "lastTablesUpdatedAt": "2026-10-18",
-  "lastBooksComparedAt": "2026-10-20",
-  "lastTablesInventoryCheckedAt": "2026-10-20",
-  "lastFullSourceAuditAt": "2026-10-20",
-  "lastTablesComparedAt": "2026-10-20",
-  "sourceAuditReport": "data/source-audit-2026-10-20.json"
+  "lastInventoryCheckedAt": "2026-10-21",
+  "lastTablesUpdatedAt": "2026-10-21",
+  "lastBooksComparedAt": "2026-10-21",
+  "lastTablesInventoryCheckedAt": "2026-10-21",
+  "lastFullSourceAuditAt": "2026-10-21",
+  "lastTablesComparedAt": "2026-10-21",
+  "sourceAuditReport": "data/source-audit-2026-10-21.json"
 }

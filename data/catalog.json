@@ -2036,9 +2036,11 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Marina - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
         "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Outubro 2026",
+        "sourceFileVersion": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+        "checkedAt": "2026-10-21"
       }
     ],
     "price": 1190000,
@@ -2061,7 +2063,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/marina-apartamentos-e-coberturas-niteroi-2-a-4-quartos-89-a-267-m/19382823-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9548681,-43.078711",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-21"
   },
   {
     "id": "ravello-residenziale",
