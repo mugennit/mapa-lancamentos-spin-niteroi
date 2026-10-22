@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-22",
+  "catalogCount": 113,
+  "drive": {
+    "mapFolders": 84,
+    "files": 168,
+    "allCatalogPairsMatched": true,
+    "eachFolderExactlyOneBookAndOneTable": true,
+    "allLinksAnyoneReader": true
+  },
+  "coordinates": {
+    "readCurrent": true,
+    "numericDifferences": [],
+    "completeProjectsWithoutValidatedPoint": [],
+    "rows": 113
+  },
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "method": {
+    "clickedBothLinktreeButtons": true,
+    "loginRequired": false,
+    "allRootPagesLoaded": true,
+    "allFoldersAndSubfoldersChecked": true,
+    "countsReconciled": true,
+    "fullSourceDownloadsReadAndCrcVerified": true,
+    "sha256Compared": true,
+    "baseline": "2026-10-21"
+  },
+  "structure": {
+    "tables": {
+      "rootFolders": 44,
+      "subfolders": 0,
+      "files": 142
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    },
+    "added": [],
+    "removed": [],
+    "renamedOrMoved": []
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 142,
+      "changed": 0
+    },
+    "books": {
+      "identicalSha256": 130,
+      "changed": 0
+    }
+  },
+  "catalog": {
+    "count": 113,
+    "completeWithValidatedCoordinates": 84,
+    "added": [],
+    "removed": [],
+    "materialsChanged": 0,
+    "passwordOrUiCodeChanged": false
+  },
+  "baume": {
+    "tablesCEUItems": 6,
+    "booksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerProvidedBookAndSingleOctoberTablePresent": true,
+    "preserved": true
+  },
+  "publication": {
+    "sourceCommit": "ebc8596cdcf4ec87421122bf520747586a067c84",
+    "existingDeploymentSuccessVerifiedThroughGitHub": true,
+    "directVercelInspection": "403 forbidden; Vercel CLI not installed",
+    "reportAndCheckedDateUpdate": "included in the same commit as this report; deployment status is tracked by GitHub checks",
+    "countVerification": "113 catalog entries in the source of the successful Vercel deployment; browser independently confirmed the password login page."
+  },
+  "limitations": [
+    "Optimized Drive books were not re-compared byte-for-byte to the larger originals; all 130 official source files are identical to the complete 2026-10-21 baseline and prior equivalence verification remains in effect.",
+    "Baume has no row in the coordinates sheet; its previously confirmed catalog point and owner-provided book were preserved.",
+    "Deployment completion is checked through GitHub Vercel statuses. The live browser reaches the password login page, so catalog count is confirmed from deployed source rather than the signed-in screen."
+  ],
+  "inventoryMetadataChanges": []
+}

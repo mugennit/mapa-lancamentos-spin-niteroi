@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21",
+  "checkedAt": "2026-10-22",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -29,13 +29,11 @@
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-21",
-      "baseline": "2026-10-20",
-      "tableFilesIdenticalSha256": 141,
-      "tableFilesRenamedAndRevised": 1,
+      "date": "2026-10-22",
+      "baseline": "2026-10-21",
+      "tableFilesIdenticalSha256": 142,
       "bookFilesIdenticalSha256": 130,
-      "filesChanged": 1,
-      "commercialChanges": 0,
+      "filesChanged": 0,
       "drivePairMetadataAndPublicReaderPermissionsChecked": 168
     }
   },
@@ -762,11 +760,11 @@
       "verifiedAt": "2026-10-16"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-21",
+  "lastInventoryCheckedAt": "2026-10-22",
   "lastTablesUpdatedAt": "2026-10-21",
-  "lastBooksComparedAt": "2026-10-21",
-  "lastTablesInventoryCheckedAt": "2026-10-21",
-  "lastFullSourceAuditAt": "2026-10-21",
-  "lastTablesComparedAt": "2026-10-21",
-  "sourceAuditReport": "data/source-audit-2026-10-21.json"
+  "lastBooksComparedAt": "2026-10-22",
+  "lastTablesInventoryCheckedAt": "2026-10-22",
+  "lastFullSourceAuditAt": "2026-10-22",
+  "lastTablesComparedAt": "2026-10-22",
+  "sourceAuditReport": "data/source-audit-2026-10-22.json"
 }
