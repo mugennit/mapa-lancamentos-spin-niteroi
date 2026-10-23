@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-23",
+  "catalogCount": 113,
+  "drive": {
+    "mapFolders": 84,
+    "files": 168,
+    "allCatalogPairsMatched": true,
+    "eachFolderExactlyOneBookAndOneTable": true,
+    "allLinksAnyoneReader": true
+  },
+  "coordinates": {
+    "readCurrent": true,
+    "numericDifferences": [],
+    "completeProjectsWithoutValidatedPoint": [],
+    "rows": 113
+  },
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "method": {
+    "clickedBothLinktreeButtons": true,
+    "loginRequired": false,
+    "allRootPagesLoaded": true,
+    "allFoldersAndSubfoldersChecked": true,
+    "countsReconciled": true,
+    "fullSourceDownloadsReadAndCrcVerified": true,
+    "sha256Compared": true,
+    "baseline": "2026-10-22"
+  },
+  "structure": {
+    "tables": {
+      "rootFolders": 44,
+      "subfolders": 0,
+      "files": 141
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    },
+    "added": [
+      "Tabelas de Vendas/BACOS/Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+      "Tabelas de Vendas/BACOS/Tabela de Vendas Style - Outubro 2026.pdf",
+      "Tabelas de Vendas/METTA/Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+      "Tabelas de Vendas/Smart Ville/Tabela de Vendas Smart Ville - Modulo 1  - Outubro 2026.pdf"
+    ],
+    "removed": [
+      "Tabelas de Vendas/BACOS/Tabela Singular AGO 2026 Lançamento.pdf",
+      "Tabelas de Vendas/BACOS/Tabela de Vendas Seven Avenue - Junho 2026.pdf",
+      "Tabelas de Vendas/BACOS/Tabela de Vendas Style - Junho 2026.pdf",
+      "Tabelas de Vendas/METTA/Tabela de Vendas Wind Oceanica - Setembro 2026.pdf",
+      "Tabelas de Vendas/Smart Ville/Tabela de venda - Smart Ville Maricá - Fase 2 - Jun_2024.pdf"
+    ],
+    "renamedOrMoved": []
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 137,
+      "newVersions": 4,
+      "obsoleteVersionRemoved": 1,
+      "catalogReplacements": 3
+    },
+    "books": {
+      "identicalSha256": 130,
+      "changed": 0
+    }
+  },
+  "catalog": {
+    "count": 113,
+    "completeWithValidatedCoordinates": 84,
+    "added": [],
+    "removed": [],
+    "materialsChanged": 3,
+    "passwordOrUiCodeChanged": false
+  },
+  "baume": {
+    "tablesCEUItems": 6,
+    "booksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerProvidedBookAndSingleOctoberTablePresent": true,
+    "preserved": true
+  },
+  "publication": {
+    "sourceCommit": "869c0e93f1eba42b34b91ae7828f5214c389eadf",
+    "existingDeploymentSuccessVerifiedThroughGitHub": true,
+    "directVercelInspection": "403 forbidden; Vercel CLI not installed",
+    "reportAndCheckedDateUpdate": "included in the same commit as this report; deployment status is tracked by GitHub checks",
+    "countVerification": "113 catalog entries in the source of the successful Vercel deployment; browser independently confirmed the password login page."
+  },
+  "limitations": [
+    "Optimized Drive books were not re-compared byte-for-byte to the larger originals; all 130 official source files are identical to the complete 2026-10-21 baseline and prior equivalence verification remains in effect.",
+    "Baume has no row in the coordinates sheet; its previously confirmed catalog point and owner-provided book were preserved.",
+    "Deployment completion is checked through GitHub Vercel statuses. The live browser reaches the password login page, so catalog count is confirmed from deployed source rather than the signed-in screen."
+  ],
+  "inventoryMetadataChanges": [],
+  "changes": [
+    {
+      "id": "style",
+      "name": "Style",
+      "file": "Tabela de Vendas Style - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk",
+      "previousTableDate": "Junho 2026",
+      "tableDate": "Outubro 2026",
+      "commercialDatePrinted": null,
+      "previousOffers": 10,
+      "currentOffers": 9,
+      "previousPrice": 1330000,
+      "currentPrice": 1330000,
+      "driveSha256Verified": "eb57ccec7fbcc78068f2f6b6d6b31b557a8355c896dddfa2d7eb9478b831329f",
+      "stableDriveIdAndAnyoneReaderVerified": true,
+      "singleCurrentTableVerified": true
+    },
+    {
+      "id": "seven-avenue",
+      "name": "Seven Avenue",
+      "file": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk",
+      "previousTableDate": "Junho 2026",
+      "tableDate": "Outubro 2026",
+      "commercialDatePrinted": null,
+      "previousOffers": 16,
+      "currentOffers": 5,
+      "previousPrice": 765000,
+      "currentPrice": 955000,
+      "driveSha256Verified": "66a05a2ce4cacb98d4a7dcd5c00e331de2240d393f6eb088263a40daab3cd90e",
+      "stableDriveIdAndAnyoneReaderVerified": true,
+      "singleCurrentTableVerified": true
+    },
+    {
+      "id": "wind-oceanica",
+      "name": "Wind Oceânica",
+      "file": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
+      "previousTableDate": "Setembro 2026",
+      "tableDate": "Outubro 2026",
+      "commercialDatePrinted": "22/10/2026",
+      "previousOffers": 12,
+      "currentOffers": 10,
+      "previousPrice": 859000,
+      "currentPrice": 859000,
+      "driveSha256Verified": "d6938a3ffe39200ab74d8a6c5cb5a2369d5dd6d59240678db10335aff5f69a4f",
+      "stableDriveIdAndAnyoneReaderVerified": true,
+      "singleCurrentTableVerified": true
+    }
+  ],
+  "singular": {
+    "obsoleteAugustLaunchTableRemoved": true,
+    "currentOctoberTableUnchangedAndPreserved": true
+  },
+  "outsideCatalog": [
+    {
+      "name": "Smart Ville",
+      "sourceTable": "Tabela de Vendas Smart Ville - Modulo 1  - Outubro 2026.pdf",
+      "location": "Maricá",
+      "action": "New source version recorded; not added to the Niterói catalog or map."
+    }
+  ],
+  "pendingMaterials": [
+    {
+      "id": "seven-avenue",
+      "name": "Seven Avenue",
+      "tableConfirmed": true,
+      "bookConfirmed": false,
+      "action": "Updated in general list; remains outside map and MAPA SITE material folders. All Books paths checked; no Seven Avenue book found."
+    }
+  ]
+}

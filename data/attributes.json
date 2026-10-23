@@ -178,17 +178,16 @@
       "102",
       "202",
       "103",
-      "203",
       "104",
-      "204",
       "105",
       "205",
       "303"
     ],
-    "availabilityTableDate": "Junho 2026",
+    "availabilityTableDate": "Outubro 2026",
     "delivery": "Março 2027",
     "deliveryEvidence": "5 - Previsão de entrega das chaves: MARÇO / 2027.",
-    "deliverySource": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk",
+    "deliverySourceVersion": "Tabela de Vendas Style - Junho 2026.pdf (verificação histórica; a tabela de outubro não informa entrega)"
   },
   "oka-icarai": {
     "typologies": [
@@ -1583,11 +1582,9 @@
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/wind-oceanica-apartamentos-e-coberturas-niteroi-1-a-3-quartos-53-a-201-m/23585400-SETV",
     "availableUnits": [
       "101",
-      "103",
       "206",
       "207",
       "306",
-      "307",
       "406",
       "505",
       "506",
@@ -1595,7 +1592,7 @@
       "601",
       "602"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "terramarine": {
     "typologies": [
@@ -3419,7 +3416,15 @@
       "Piscina",
       "Coworking"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/seven-avenue-apartamentos-salas-e-coberturas-niteroi-3-quartos-30-a-186-m/19583442-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/seven-avenue-apartamentos-salas-e-coberturas-niteroi-3-quartos-30-a-186-m/19583442-SETV",
+    "availableUnits": [
+      "402",
+      "1502",
+      "1602",
+      "1305",
+      "1506"
+    ],
+    "availabilityTableDate": "Outubro 2026"
   },
   "vila-moura": {
     "typologies": [

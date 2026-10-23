@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-22",
+  "checkedAt": "2026-10-23",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
     "tableFolders": 44,
-    "tableSourceFiles": 142,
+    "tableSourceFiles": 141,
     "bookRootFolders": 40,
     "bookSubfolders": 2,
     "bookSourceFiles": 130,
@@ -29,11 +29,13 @@
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-22",
-      "baseline": "2026-10-21",
-      "tableFilesIdenticalSha256": 142,
+      "date": "2026-10-23",
+      "baseline": "2026-10-22",
+      "tableFilesIdenticalSha256": 137,
       "bookFilesIdenticalSha256": 130,
-      "filesChanged": 0,
+      "newTableVersions": 4,
+      "obsoleteVersionRemoved": 1,
+      "catalogTablesReplaced": 3,
       "drivePairMetadataAndPublicReaderPermissionsChecked": 168
     }
   },
@@ -84,6 +86,24 @@
       "date": "2026-10-21",
       "action": "Replaced and renamed in place to the latest official source revision; same commercial text, Spin logo changed. Re-fetched SHA-256, single table, stable URL and public reader permission verified.",
       "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk"
+    },
+    {
+      "id": "style",
+      "date": "2026-10-23",
+      "action": "Latest official October table replaced in place; unit availability refreshed; re-fetched SHA-256, single current table and public reader verified.",
+      "url": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk"
+    },
+    {
+      "id": "seven-avenue",
+      "date": "2026-10-23",
+      "action": "Latest official October table replaced in place; unit availability refreshed; re-fetched SHA-256, single current table and public reader verified.",
+      "url": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk"
+    },
+    {
+      "id": "wind-oceanica",
+      "date": "2026-10-23",
+      "action": "Latest official October table replaced in place; unit availability refreshed; re-fetched SHA-256, single current table and public reader verified.",
+      "url": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk"
     }
   ],
   "exceptions": [
@@ -119,10 +139,11 @@
     },
     {
       "id": "style",
-      "name": "Tabela de Vendas Style - Junho 2026.pdf",
-      "sha256": "46beea7ff69a8725087e3397e53bac22c57a808b48f5dd74bbc9b2a833bb528c",
-      "bytes": 317960,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Style - Outubro 2026.pdf",
+      "sha256": "eb57ccec7fbcc78068f2f6b6d6b31b557a8355c896dddfa2d7eb9478b831329f",
+      "bytes": 154584,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-23"
     },
     {
       "id": "oka-icarai",
@@ -480,10 +501,11 @@
     },
     {
       "id": "wind-oceanica",
-      "name": "Tabela de Vendas Wind Oceanica - Setembro 2026.pdf",
-      "sha256": "0eb6c2bdcfcb607a056e3a1360869aa883865679c14a02e6c5153ffd1573fcd0",
-      "bytes": 838310,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+      "sha256": "d6938a3ffe39200ab74d8a6c5cb5a2369d5dd6d59240678db10335aff5f69a4f",
+      "bytes": 837323,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-23"
     },
     {
       "id": "115-tapuias",
@@ -711,10 +733,11 @@
     },
     {
       "id": "seven-avenue",
-      "name": "Tabela de Vendas Seven Avenue - Junho 2026.pdf",
-      "sha256": "8fca7220481a5a9bf5c9ceaeb17b6223d4e6e7dcce9b82ab98786ce73b9e076f",
-      "bytes": 114989,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+      "sha256": "66a05a2ce4cacb98d4a7dcd5c00e331de2240d393f6eb088263a40daab3cd90e",
+      "bytes": 136800,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-23"
     },
     {
       "id": "vila-moura",
@@ -760,11 +783,11 @@
       "verifiedAt": "2026-10-16"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-22",
-  "lastTablesUpdatedAt": "2026-10-21",
-  "lastBooksComparedAt": "2026-10-22",
-  "lastTablesInventoryCheckedAt": "2026-10-22",
-  "lastFullSourceAuditAt": "2026-10-22",
-  "lastTablesComparedAt": "2026-10-22",
-  "sourceAuditReport": "data/source-audit-2026-10-22.json"
+  "lastInventoryCheckedAt": "2026-10-23",
+  "lastTablesUpdatedAt": "2026-10-23",
+  "lastBooksComparedAt": "2026-10-23",
+  "lastTablesInventoryCheckedAt": "2026-10-23",
+  "lastFullSourceAuditAt": "2026-10-23",
+  "lastTablesComparedAt": "2026-10-23",
+  "sourceAuditReport": "data/source-audit-2026-10-23.json"
 }

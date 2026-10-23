@@ -2479,21 +2479,15 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "wind-oceanica": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-23",
     "tableUrl": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
-    "tableDate": "Setembro 2026",
+    "tableDate": "Outubro 2026",
     "coverage": "partial",
     "offers": [
       {
         "unit": "101",
         "typology": "2 quartos",
         "price": 899000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "103",
-        "typology": "2 quartos",
-        "price": 909000,
         "parkingSpaces": 1
       },
       {
@@ -2512,12 +2506,6 @@
         "unit": "306",
         "typology": "2 quartos",
         "price": 899000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "307",
-        "typology": "2 quartos",
-        "price": 929000,
         "parkingSpaces": 1
       },
       {
@@ -3885,9 +3873,9 @@
     "commercialDate": "2026-10-01"
   },
   "style": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-23",
     "tableUrl": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk",
-    "tableDate": "Junho 2026",
+    "tableDate": "Outubro 2026",
     "coverage": "partial",
     "offers": [
       {
@@ -3921,21 +3909,9 @@
         "parkingSpaces": 2
       },
       {
-        "unit": "203",
-        "typology": "",
-        "price": 1480000,
-        "parkingSpaces": 2
-      },
-      {
         "unit": "104",
         "typology": "",
         "price": 1490000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "204",
-        "typology": "",
-        "price": 1640000,
         "parkingSpaces": 2
       },
       {
@@ -3949,6 +3925,12 @@
         "typology": "",
         "price": 1480000,
         "parkingSpaces": 2
+      },
+      {
+        "unit": "303",
+        "typology": "",
+        "price": 3000000,
+        "unitKind": "Cobertura"
       }
     ],
     "parkingCheckedAt": "2026-10-13"
@@ -15168,69 +15150,16 @@
   },
   "seven-avenue": {
     "tableUrl": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk",
-    "tableDate": "Junho 2026",
-    "checkedAt": "2026-10-14",
+    "tableDate": "Outubro 2026",
+    "checkedAt": "2026-10-23",
     "coverage": "partial",
     "offers": [
-      {
-        "unit": "1201",
-        "typology": "3 quartos",
-        "price": 1045000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1301",
-        "typology": "3 quartos",
-        "price": 1105000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1501",
-        "typology": "3 quartos",
-        "price": 1135000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "302",
-        "typology": "3 quartos",
-        "price": 960000,
-        "unitKind": "Apartamento"
-      },
       {
         "unit": "402",
         "typology": "3 quartos",
         "price": 1590000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "702",
-        "typology": "3 quartos",
-        "price": 1020000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "802",
-        "typology": "3 quartos",
-        "price": 1035000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1002",
-        "typology": "3 quartos",
-        "price": 1065000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1102",
-        "typology": "3 quartos",
-        "price": 1080000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1302",
-        "typology": "3 quartos",
-        "price": 1110000,
-        "unitKind": "Apartamento"
+        "unitKind": "Apartamento",
+        "priceNote": "Apartamento decorado"
       },
       {
         "unit": "1502",
@@ -15245,21 +15174,9 @@
         "unitKind": "Cobertura"
       },
       {
-        "unit": "1403",
-        "typology": "2 quartos",
-        "price": 790000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1404",
-        "typology": "2 quartos",
-        "price": 765000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1505",
-        "typology": "3 quartos",
-        "price": 985000,
+        "unit": "1305",
+        "typology": "",
+        "price": 955000,
         "unitKind": "Apartamento"
       },
       {

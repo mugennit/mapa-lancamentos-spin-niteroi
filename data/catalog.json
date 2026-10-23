@@ -109,9 +109,7 @@
     "precision": "exact",
     "photo": "/empreendimentos/singular.jpg",
     "checkedAt": "2026-09-30",
-    "notes": [
-      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
-    ],
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -139,9 +137,11 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Style - Junho 2026.pdf",
+        "name": "Tabela de Vendas Style - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1AC39rZkdciQWeOvK0JdJojNvd5wet85q/view?usp=drivesdk",
-        "date": "Junho 2026"
+        "date": "Outubro 2026",
+        "sourceFileVersion": "Tabela de Vendas Style - Outubro 2026.pdf",
+        "checkedAt": "2026-10-23"
       }
     ],
     "price": 1330000,
@@ -155,9 +155,7 @@
     "precision": "exact",
     "photo": "/empreendimentos/style.jpg",
     "checkedAt": "2026-09-30",
-    "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
-    ],
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -171,7 +169,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://maps.app.goo.gl/3LkUQcygPYxq3TGh6",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-23"
   },
   {
     "id": "oka-icarai",
@@ -2675,14 +2673,17 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Wind Oceanica - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026",
+        "sourceFileVersion": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+        "checkedAt": "2026-10-23",
+        "commercialDate": "2026-10-22"
       }
     ],
     "price": 859000,
-    "minArea": null,
-    "maxArea": null,
+    "minArea": 82.58,
+    "maxArea": 201.06,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -2705,7 +2706,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9545252,-43.0758152",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-23"
   },
   {
     "id": "wind-piratininga",
@@ -4472,12 +4473,14 @@
     "book": null,
     "tables": [
       {
-        "name": "Tabela de Vendas Seven Avenue - Junho 2026.pdf",
+        "name": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk",
-        "date": "Junho 2026"
+        "date": "Outubro 2026",
+        "sourceFileVersion": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+        "checkedAt": "2026-10-23"
       }
     ],
-    "price": 765000,
+    "price": 955000,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4489,7 +4492,6 @@
     "photo": null,
     "checkedAt": "2026-09-30",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -4498,7 +4500,7 @@
     "addressSource": "https://www.bacosconstrutora.com.br/ficha-do-imovel/seven-avenue",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9075567,-43.1038154",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-23"
   },
   {
     "id": "vila-moura",
