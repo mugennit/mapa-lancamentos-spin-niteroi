@@ -601,7 +601,9 @@
       "Piscina",
       "Quadra"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/caminhos-da-guanabara-apartamentos-niteroi-1-a-2-quartos-32-a-51-m/22694088-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/caminhos-da-guanabara-apartamentos-niteroi-1-a-2-quartos-32-a-51-m/22694088-SETV",
+    "availableUnits": [],
+    "availabilityTableDate": "Outubro 2026"
   },
   "orla-central": {
     "typologies": [
@@ -618,9 +620,9 @@
     ],
     "sourceUrl": "https://curyrj.net/",
     "availableUnits": [
-      "21"
+      "227 no Bloco 2 (parcial)"
     ],
-    "availabilityTableDate": "Agosto 2026"
+    "availabilityTableDate": "Outubro 2026"
   },
   "rio-branco-220": {
     "typologies": [
@@ -631,7 +633,11 @@
       "Academia",
       "Piscina"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/rio-branco-220-rb220-apartamentos-e-apartamentos-garden-niteroi-1-a-2-quartos-73-m/18237236-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/rio-branco-220-rb220-apartamentos-e-apartamentos-garden-niteroi-1-a-2-quartos-73-m/18237236-SETV",
+    "availableUnits": [
+      "0 — tabela de outubro"
+    ],
+    "availabilityTableDate": "Outubro 2026"
   },
   "the-pier": {
     "typologies": [
@@ -649,7 +655,9 @@
       "Lavanderia",
       "Bicicletário"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/the-pier-residencial-apartamentos-niteroi-1-a-3-quartos-29-a-57-m/21429249-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/the-pier-residencial-apartamentos-niteroi-1-a-3-quartos-29-a-57-m/21429249-SETV",
+    "availableUnits": [],
+    "availabilityTableDate": "Outubro 2026"
   },
   "upside-charitas": {
     "typologies": [
@@ -1869,7 +1877,9 @@
       "1 quarto",
       "2 quartos"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/conquista-oceanica-apartamentos-e-apartamentos-garden-sao-goncalo-1-a-2-quartos-36-a-51-m/18694531-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/conquista-oceanica-apartamentos-e-apartamentos-garden-sao-goncalo-1-a-2-quartos-36-a-51-m/18694531-SETV",
+    "availableUnits": [],
+    "availabilityTableDate": null
   },
   "alto-do-inga": {
     "typologies": [
@@ -2903,10 +2913,8 @@
     ],
     "features": [],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/115-tapuias-residences-apartamentos-e-coberturas-niteroi-3-a-4-quartos-110-a-232-m/22961413-SETV",
-    "availableUnits": [
-      "102"
-    ],
-    "availabilityTableDate": "Abril 2026",
+    "availableUnits": [],
+    "availabilityTableDate": null,
     "delivery": "Setembro 2026",
     "deliveryEvidence": "4- Data prevista para conclusão da obra: 20/09/2026.",
     "deliverySource": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk"
@@ -3434,7 +3442,9 @@
     "sourceUrl": "https://www.spinimoveis.com/condominio/vila-moura-casas-niteroi-3-quartos-97-m/23314976-SETV",
     "delivery": "Abril 2026 (previsão da tabela)",
     "deliveryEvidence": "Página 1: término previsto em 15/04/2026; etapa atual a confirmar",
-    "deliverySource": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk",
+    "availableUnits": [],
+    "availabilityTableDate": null
   },
   "golden-ville-residence": {
     "typologies": [
@@ -3558,6 +3568,9 @@
     ],
     "availabilityTableDate": "Outubro 2026"
   },
-  "unic-icarai": {},
+  "unic-icarai": {
+    "availableUnits": [],
+    "availabilityTableDate": null
+  },
   "santa-barbara": {}
 }

@@ -3979,331 +3979,433 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "orla-central": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-10-25",
     "tableUrl": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
-    "tableDate": "Agosto 2026",
+    "tableDate": "Outubro 2026",
     "coverage": "partial",
     "offers": [
       {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 2° ao 5° Andar - Final 1",
-        "typology": "3 quartos",
-        "price": 810525.4,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 2° ao 5° Andar - Final 2",
-        "typology": "3 quartos",
-        "price": 810525.4,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 6° ao 9° Andar - Final 1",
-        "typology": "3 quartos",
-        "price": 813582.07,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 14° ao 16° Andar - Final 1",
-        "typology": "3 quartos",
-        "price": 819695.4,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 10° ao 13° Andar - Final 1",
-        "typology": "3 quartos",
-        "price": 816638.73,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 6° ao 9° Andar - Final 2",
-        "typology": "3 quartos",
-        "price": 813582.07,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 10° ao 13° Andar - Final 2",
-        "typology": "3 quartos",
-        "price": 816638.73,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 14° ao 16° Andar - Final 2",
-        "typology": "3 quartos",
-        "price": 819695.4,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 2° ao 5° Andar - Final 3",
-        "typology": "3 quartos",
-        "price": 810525.4,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 6° ao 9° Andar - Final 3",
-        "typology": "3 quartos",
-        "price": 813582.07,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 1 - 3 QUARTOS SUÍTE COM VAGA (VISTA BAÍA) - 10° ao 13° Andar - Final 3",
-        "typology": "3 quartos",
-        "price": 816638.73,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 02 - 2QTS SUÍTE E VAGA (VISTA BAIA) Final 29 - 3º AO 5º ANDAR -",
-        "typology": "2 quartos",
-        "price": 671956.64,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 1
-      }
-    ],
-    "parkingCheckedAt": "2026-10-13"
-  },
-  "the-pier": {
-    "checkedAt": "2026-10-13",
-    "tableUrl": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk",
-    "tableDate": "Setembro 2026",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "Grupo: 3 QUARTOS SUÍTE C/ VAGA - 4º andar ao 8º",
-        "typology": "3 quartos",
-        "price": 835260.56,
-        "parkingSpaces": 1,
-        "parkingCountIsMinimum": true,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Bl.2 coluna 13 - 4º andar ao 8º",
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º AO 5º - Final 28",
         "typology": "1 quarto",
-        "price": 371647.34,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 2 Quartos Com Suite Sem Vaga bl.2 Coluna 02 - 9º andar ao 12º",
-        "typology": "2 quartos",
-        "price": 556854.96,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 2 Quartos Com Suite Sem Vaga bl.2 Coluna 02 - 4º andar ao 8º",
-        "typology": "2 quartos",
-        "price": 556854.96,
-        "parkingSpaces": 0,
+        "price": 332260.75,
+        "area": 31.0,
         "offerKind": "group",
         "availableCount": 2
       },
       {
-        "unit": "Grupo: 2 Quartos Com Suite Sem Vaga bl.2 Colunas 01 e 16 - 9º andar ao 12º",
-        "typology": "2 quartos",
-        "price": 556854.96,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º AO 5º - Finais 24, 25 (+221)",
+        "typology": "1 quarto",
+        "price": 332260.75,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 2
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 3º AO 5º - Finais 19, 26",
+        "typology": "1 quarto",
+        "price": 332260.75,
+        "area": 31.0,
         "offerKind": "group",
         "availableCount": 1
       },
       {
-        "unit": "Grupo: 2 Quartos Com Suite Sem Vaga bl.2 Colunas 01 e 16 - 4º andar ao 8º",
-        "typology": "2 quartos",
-        "price": 556854.96,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 7
-      },
-      {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 2 e BL2 Final 10 - 20º andar ao 22º",
-        "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º - Final 23",
+        "typology": "1 quarto",
+        "price": 332260.75,
+        "area": 31.0,
         "offerKind": "group",
         "availableCount": 1
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 2 e BL2 Final 10 - 13º andar ao 16º",
-        "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º - Final 20",
+        "typology": "1 quarto",
+        "price": 332260.75,
+        "area": 36.0,
         "offerKind": "group",
-        "availableCount": 4
+        "availableCount": 1
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 2 e BL2 Final 10 - 9º andar ao 12º",
-        "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 6º AO 9º - Finais 19, 26",
+        "typology": "1 quarto",
+        "price": 335356.36,
+        "area": 31.0,
         "offerKind": "group",
         "availableCount": 3
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 2 e BL2 Final 10 - 4º andar ao 8º",
-        "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 10º AO 13º - Final 28",
+        "typology": "1 quarto",
+        "price": 338451.97,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 3
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 2º AO 5º - Final 07",
+        "typology": "1 quarto",
+        "price": 339483.84,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 3
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 14º AO 16º- Final 28",
+        "typology": "1 quarto",
+        "price": 341547.57,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 1
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 6º AO 9º - Final 07",
+        "typology": "1 quarto",
+        "price": 342579.44,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 3
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 10º AO 13º - Final 07",
+        "typology": "1 quarto",
+        "price": 345675.05,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 14º AO 16º - Final 07",
+        "typology": "1 quarto",
+        "price": 348770.66,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 3
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 2º AO 5º - Finais 02, 03",
+        "typology": "1 quarto",
+        "price": 349287.62,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 2º AO 5º - Final 01",
+        "typology": "1 quarto",
+        "price": 349287.62,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 3
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 17 AO 18º - Final 07",
+        "typology": "1 quarto",
+        "price": 351866.26,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 2
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 6º AO 9º - Finais 02, 03",
+        "typology": "1 quarto",
+        "price": 352383.23,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 6º AO 9º - Final 01",
+        "typology": "1 quarto",
+        "price": 352383.23,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 10º AO 13º - Finais 02, 03",
+        "typology": "1 quarto",
+        "price": 355478.84,
+        "area": 31.0,
         "offerKind": "group",
         "availableCount": 6
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 1 e BL2 Final 11 -17º andar ao 19º",
-        "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 1 e BL2 Final 11 - 9º andar ao 12º",
-        "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 10º AO 13º - Final 01",
+        "typology": "1 quarto",
+        "price": 355478.84,
+        "area": 31.0,
         "offerKind": "group",
         "availableCount": 2
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 1 e BL2 Final 11 - 4º andar ao 8º",
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 14º AO 16º - Finais 02, 03",
+        "typology": "1 quarto",
+        "price": 358574.44,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 6
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 14º AO 16º - Final 01",
+        "typology": "1 quarto",
+        "price": 358574.44,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 1
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 17 AO 18º - Finais 02, 03",
+        "typology": "1 quarto",
+        "price": 361670.05,
+        "area": 31.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 2º AO 5º - Final 18, 27",
         "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "price": 380243.69,
+        "area": 36.0,
         "offerKind": "group",
-        "availableCount": 2
+        "availableCount": 4
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 16 e BL2 Final 12 - 9º andar ao 12º",
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 2º AO 5º - Finais 16, 17, 20, 23",
         "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "price": 380243.69,
+        "area": 36.0,
         "offerKind": "group",
-        "availableCount": 1
+        "availableCount": 4
       },
       {
-        "unit": "Grupo: 2 QUARTOS SEM VAGA - BL1 Final 16 e BL2 Final 12 - 4º andar ao 8º",
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 2º AO 5º - Finais 21, 22, 15",
         "typology": "2 quartos",
-        "price": 476989.21,
-        "parkingSpaces": 0,
+        "price": 380243.69,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 2º AO 5º - Finais 10, 11, 14",
+        "typology": "2 quartos",
+        "price": 381791.49,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 11
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 2º AO 5º - Finais 08, 09",
+        "typology": "2 quartos",
+        "price": 381791.49,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 7
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 2º AO 5º - Finais 12, 13",
+        "typology": "2 quartos",
+        "price": 381791.49,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 6º AO 9º - Finais 16, 17, 20, 23",
+        "typology": "2 quartos",
+        "price": 383339.3,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 1
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 6º AO 9º - Finais 08, 09",
+        "typology": "2 quartos",
+        "price": 384887.1,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 6º AO 9º - Finais 10, 11, 14",
+        "typology": "2 quartos",
+        "price": 384887.1,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 10
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 6º AO 9º - Finais 12, 13",
+        "typology": "2 quartos",
+        "price": 384887.1,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 10º AO 13º - Final 18, 27",
+        "typology": "2 quartos",
+        "price": 386434.9,
+        "area": 36.0,
         "offerKind": "group",
         "availableCount": 2
       },
       {
-        "unit": "Grupo: 1 QUARTO S/ VAGA BL.1 Colunas 09 e 13 - 13º andar ao 16º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 10º AO 13º - Finais 12, 13",
+        "typology": "2 quartos",
+        "price": 387982.71,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 7
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 10º AO 13º - Finais 08, 09",
+        "typology": "2 quartos",
+        "price": 387982.71,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 10º AO 13º - Finais 10, 11, 14",
+        "typology": "2 quartos",
+        "price": 387982.71,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 14º AO 16º - Finais 08, 09",
+        "typology": "2 quartos",
+        "price": 391078.31,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 6
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 14º AO 16º - Finais 12, 13",
+        "typology": "2 quartos",
+        "price": 391078.31,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 6
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 14º AO 16º - Finais 10, 11, 14",
+        "typology": "2 quartos",
+        "price": 391078.31,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 7
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 17 AO 18º - Finais 12, 13",
+        "typology": "2 quartos",
+        "price": 394173.92,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 17 AO 18º - Finais 08, 09",
+        "typology": "2 quartos",
+        "price": 394173.92,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 3
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 17 AO 18º - Finais 10, 11, 14",
+        "typology": "2 quartos",
+        "price": 394173.92,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 2º AO 5º - Final 04",
+        "typology": "2 quartos",
+        "price": 397785.46,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 2º AO 5º - Finais 05, 06, 32",
+        "typology": "2 quartos",
+        "price": 397785.46,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 7
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 2º - Final 27",
+        "typology": "2 quartos",
+        "price": 397785.46,
+        "area": 36.0,
         "offerKind": "group",
         "availableCount": 1
       },
       {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Maior Bl.2 Coluna 06 - 4º andar ao 8º",
-        "typology": "1 quarto",
-        "price": 466746.53,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 6º AO 9º - Final 04",
+        "typology": "2 quartos",
+        "price": 400881.07,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 4
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 6º AO 9º - Finais 05, 06, 32",
+        "typology": "2 quartos",
+        "price": 400881.07,
+        "area": 36.0,
+        "offerKind": "group",
+        "availableCount": 8
+      },
+      {
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 10º AO 13º - Final 04",
+        "typology": "2 quartos",
+        "price": 403976.67,
+        "area": 36.0,
         "offerKind": "group",
         "availableCount": 1
       },
       {
-        "unit": "Grupo: 1 QUARTO S/ VAGA BL.1 Colunas 07, 08 - 20º andar ao 22º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 10º AO 13º - Finais 05, 06, 32",
+        "typology": "2 quartos",
+        "price": 403976.67,
+        "area": 36.0,
         "offerKind": "group",
-        "availableCount": 1
+        "availableCount": 7
       },
       {
-        "unit": "Grupo: 1 QUARTO S/ VAGA BL.1 Colunas 07, 08 - 13º andar ao 16º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 14º AO 16º - Finais 05, 06, 32",
+        "typology": "2 quartos",
+        "price": 407072.28,
+        "area": 36.0,
         "offerKind": "group",
-        "availableCount": 1
+        "availableCount": 3
       },
       {
-        "unit": "Grupo: 1 QUARTO S/ VAGA BL.1 Colunas 07, 08 - 4º andar ao 8º",
-        "typology": "1 quarto",
-        "price": 371647.35,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Bl.1 Final 03 e 05 e BL 2 Final 09 e 07 - 9º andar ao 12º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Bl.1 FInal 04 e BL.2 Final 08 - 20º andar ao 22º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Bl.1 FInal 04 e BL.2 Final 08 - 5º andar ao 8º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Bl.2 Final 03 e 15 -5º andar ao 8º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: 1 QUARTO S/ VAGA Bl.2 - Final 04 e 05 - 9º andar ao 12º",
-        "typology": "1 quarto",
-        "price": 371647.8,
-        "parkingSpaces": 0,
+        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 17º AO 18º - Finais 05, 06, 32",
+        "typology": "2 quartos",
+        "price": 410167.89,
+        "area": 36.0,
         "offerKind": "group",
         "availableCount": 1
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "notes": [
+      "227 unidades confirmadas no Bloco 2; Bloco 1 sem coluna de quantidade. Não representa o estoque total do empreendimento."
+    ]
+  },
+  "the-pier": {
+    "checkedAt": "2026-10-25",
+    "tableUrl": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "unavailable",
+    "offers": [],
+    "notes": [
+      "Tabela por tipologia sem quantitativo de unidades; disponibilidade precisa ser confirmada."
+    ]
   },
   "mok-132": {
     "checkedAt": "2026-10-13",
@@ -7289,21 +7391,6 @@
     ],
     "parkingCheckedAt": "2026-10-13",
     "commercialDate": "2026-09-20"
-  },
-  "115-tapuias": {
-    "checkedAt": "2026-10-13",
-    "tableUrl": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
-    "tableDate": "Abril 2026",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "102",
-        "typology": "",
-        "price": 1500000,
-        "parkingSpaces": 1
-      }
-    ],
-    "parkingCheckedAt": "2026-10-13"
   },
   "green-life": {
     "checkedAt": "2026-10-13",
@@ -13373,161 +13460,6 @@
       }
     ]
   },
-  "conquista-oceanica": {
-    "tableUrl": "https://drive.google.com/file/d/1s9AY3VrW5nUBwJ-GFEkgGwvftiKClvOJ/view?usp=drivesdk",
-    "tableDate": "Abril 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "BL02-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-02   BL02-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL03-0101",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-03   BL03-0101   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL03-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-03   BL03-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL04-0103",
-        "typology": "",
-        "price": 232502.64,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-04   BL04-0103   50.81   dez./25     1     PCD/PNE   R$ 254.000,00        R$ 232.502,64     248.665,92"
-      },
-      {
-        "unit": "BL04-0104",
-        "typology": "",
-        "price": 232502.64,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-04   BL04-0104   50.81   dez./25     1     PCD/PNE   R$ 254.000,00        R$ 232.502,64     248.665,92"
-      },
-      {
-        "unit": "BL06-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-06   BL06-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL06-0402",
-        "typology": "",
-        "price": 212000,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-06   BL06-0402   36.24   dez./25     1     -         R$ 230.000,00        R$ 212.000,00     226.737,97"
-      },
-      {
-        "unit": "BL07-0103",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-07   BL07-0103   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL07-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-07   BL07-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL07-0403",
-        "typology": "",
-        "price": 212000,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-07   BL07-0403   36.24   dez./25     1     -         R$ 230.000,00        R$ 212.000,00     226.737,97"
-      },
-      {
-        "unit": "BL08-0101",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-08   BL08-0101   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL08-0102",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-08   BL08-0102   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL08-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-08   BL08-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL08-0402",
-        "typology": "",
-        "price": 212000,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-08   BL08-0402   36.24   dez./25     1     -         R$ 230.000,00        R$ 212.000,00     226.737,97"
-      },
-      {
-        "unit": "BL09-0102",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-09   BL09-0102   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL13-0101",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-13   BL13-0101   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL13-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-13   BL13-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL14-0101",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-14   BL14-0101   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL14-0104",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-14   BL14-0104   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL15-0101",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-15   BL15-0101   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      },
-      {
-        "unit": "BL15-0102",
-        "typology": "",
-        "price": 245582.73,
-        "parkingSpaces": 1,
-        "parkingEvidence": "Conquista Oceânica BL-15   BL15-0102   50.81   dez./25     1     -         R$ 254.000,00        R$ 245.582,73     262.655,33"
-      }
-    ]
-  },
   "reserva-sao-francisco": {
     "tableUrl": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk",
     "tableDate": "Outubro 2026",
@@ -15187,26 +15119,6 @@
       }
     ]
   },
-  "vila-moura": {
-    "tableUrl": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk",
-    "tableDate": "Março 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "4",
-        "typology": "",
-        "price": 641350,
-        "evidence": "Página 1: unidade 4 verde, em finalização; desconto de março vencido"
-      },
-      {
-        "unit": "5",
-        "typology": "",
-        "price": 646400,
-        "evidence": "Página 1: unidade 5 branca, sem marcação de reserva ou venda; desconto de março vencido"
-      }
-    ]
-  },
   "santa-barbara": {
     "tableUrl": "https://drive.google.com/file/d/1nFVsH4_4k8nHJruYDjUF1iQhCwfNi_L2/view?usp=drivesdk",
     "tableDate": "Março 2026",
@@ -16350,5 +16262,25 @@
       }
     ],
     "parkingCheckedAt": "2026-10-16"
+  },
+  "caminhos-da-guanabara": {
+    "checkedAt": "2026-10-25",
+    "tableUrl": "https://drive.google.com/file/d/1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "unavailable",
+    "offers": [],
+    "notes": [
+      "Tabela por tipologia sem quantitativo de unidades; disponibilidade precisa ser confirmada."
+    ]
+  },
+  "rio-branco-220": {
+    "checkedAt": "2026-10-25",
+    "tableUrl": "https://drive.google.com/file/d/1OLMmbqrqJhYJwCLOfA1G3W_Qxa_9R351/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "complete-residential-rows",
+    "offers": [],
+    "notes": [
+      "Todas as quantidades da tabela são zero. Não anunciar os preços das linhas sem disponibilidade."
+    ]
   }
 }

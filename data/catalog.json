@@ -895,12 +895,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf",
+        "name": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-06",
+        "validUntil": "03/11/2026",
+        "sourceFileVersion": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+        "checkedAt": "2026-10-25"
       }
     ],
-    "price": 332656.85,
+    "price": 334852.39,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -910,9 +914,11 @@
     "lng": -43.126432,
     "precision": "exact",
     "photo": "/empreendimentos/caminhos-da-guanabara.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-25",
     "notes": [
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 03/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Tabela por tipologia sem quantitativo: preço de referência, disponibilidade a confirmar. As ofertas da tabela anterior não foram transportadas."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -920,7 +926,7 @@
     "addressSource": "https://niteroi.curyapartamentosrj.com.br/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.886865,-43.126432",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "orla-central",
@@ -934,12 +940,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf",
+        "name": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
-        "date": "Agosto 2026"
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-06",
+        "validUntil": "02/11/2026",
+        "sourceFileVersion": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
+        "checkedAt": "2026-10-25"
       }
     ],
-    "price": 344893.59,
+    "price": 332260.75,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -949,10 +959,12 @@
     "lng": -43.1253427,
     "precision": "exact",
     "photo": "/empreendimentos/orla-central.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-25",
     "notes": [
       "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 02/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "227 unidades confirmadas no Bloco 2; a tabela não informa a quantidade disponível do Bloco 1. Estoque total não confirmado."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -960,7 +972,7 @@
     "addressSource": "https://curyconstrutoras.com.br/empreendimentos/orla-central/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8893326,-43.1253427",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "rio-branco-220",
@@ -972,20 +984,34 @@
       "name": "RIO BRANCO 220.pdf",
       "url": "https://drive.google.com/file/d/1zipmuzH2rH-fL9HiOpWekfIynfL7jrtM/view?usp=drivesdk"
     },
-    "tables": [],
+    "tables": [
+      {
+        "name": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1OLMmbqrqJhYJwCLOfA1G3W_Qxa_9R351/view?usp=drivesdk",
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-06",
+        "validUntil": "02/11/2026",
+        "sourceFileVersion": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+        "checkedAt": "2026-10-25"
+      }
+    ],
     "price": null,
-    "minArea": null,
-    "maxArea": null,
-    "rooms": [],
+    "minArea": 28.65,
+    "maxArea": 73.03,
+    "rooms": [
+      1,
+      2
+    ],
     "delivery": null,
     "status": "A confirmar",
     "lat": null,
     "lng": null,
     "precision": "street",
     "photo": "/empreendimentos/rio-branco-220.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-25",
     "notes": [
-      "Tabela de vendas não localizada na pasta consultada. A existência de um book não confirma disponibilidade."
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 02/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Todas as quantidades da tabela são zero. Ponto exato pendente na linha 74 da planilha; manter fora do mapa."
     ],
     "locationStatus": "Endereço conferido; ponto exato pendente",
     "geocoding": {
@@ -999,7 +1025,7 @@
     "addressSource": "https://apecury.com.br/bora-de-ape/",
     "addressReviewStatus": "Conferido",
     "addressReview": null,
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "the-pier",
@@ -1013,12 +1039,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf",
+        "name": "Tabela de Vendas The Pier - Outubro 2026.pdf",
         "url": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-06",
+        "validUntil": "03/11/2026",
+        "sourceFileVersion": "Tabela de Vendas The Pier - Outubro 2026.pdf",
+        "checkedAt": "2026-10-25"
       }
     ],
-    "price": 371647.34,
+    "price": 374100.22,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1028,9 +1058,11 @@
     "lng": -43.1269739,
     "precision": "exact",
     "photo": "/empreendimentos/the-pier.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-25",
     "notes": [
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 03/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Tabela por tipologia sem quantitativo: preço de referência, disponibilidade a confirmar. As ofertas da tabela anterior não foram transportadas."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -1038,7 +1070,7 @@
     "addressSource": "https://apecury.com.br/niteroi/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8893997,-43.1269739",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "flow-santa-rosa",
@@ -1123,14 +1155,8 @@
       "name": "Book Conquista Oceânica.pdf",
       "url": "https://drive.google.com/file/d/1cljCujTNBvuBEMWlBN1NGOiJjW4UkLL3/view?usp=drivesdk"
     },
-    "tables": [
-      {
-        "name": "Tabela de Vendas Conquista Oceânica - Abril 2026.pdf",
-        "url": "https://drive.google.com/file/d/1s9AY3VrW5nUBwJ-GFEkgGwvftiKClvOJ/view?usp=drivesdk",
-        "date": "Abril 2026"
-      }
-    ],
-    "price": 212000,
+    "tables": [],
+    "price": null,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1142,7 +1168,8 @@
     "photo": "/empreendimentos/conquista-oceanica.jpg",
     "checkedAt": "2026-10-03",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "25/10/2026: tabela e pasta não constam mais em Tabelas de Vendas. Arquivo antigo preservado no histórico, sem confirmação atual; empreendimento mantido na lista e fora do mapa."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -1150,7 +1177,7 @@
     "addressSource": "https://brjimoveis.com/lancamentos/conquista-oceanica-sao-goncalo/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://maps.app.goo.gl/xkLi26uBVEoyzMBa9",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "reserva-sao-francisco",
@@ -2791,14 +2818,8 @@
       "name": "SPIN 115 Tapuias - Book Digital.pdf",
       "url": "https://drive.google.com/file/d/1ByQenh12GDrX9g6b6MdJRsuCi_4MwZAb/view?usp=drivesdk"
     },
-    "tables": [
-      {
-        "name": "Tabela de Vendas 115 Tapuias - Abril 2026.pdf",
-        "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
-        "date": "Abril 2026"
-      }
-    ],
-    "price": 1500000,
+    "tables": [],
+    "price": null,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2810,7 +2831,8 @@
     "photo": "/empreendimentos/115-tapuias.jpg",
     "checkedAt": "2026-09-30",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
+      "25/10/2026: tabela e pasta não constam mais em Tabelas de Vendas. Arquivo antigo preservado no histórico, sem confirmação atual; empreendimento mantido na lista e fora do mapa."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -2825,7 +2847,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.918477,-43.091176",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "m-48",
@@ -4392,14 +4414,8 @@
     "neighborhood": "Icaraí",
     "address": "Rua Doutor Paulo César, 63-A",
     "book": null,
-    "tables": [
-      {
-        "name": "Tabela de Vendas Unic - Abril 2026.pdf",
-        "url": "https://drive.google.com/file/d/1HA3_sSHSBNH3BnBtuZHttucejDpB6d4N/view?usp=drivesdk",
-        "date": "Abril 2026"
-      }
-    ],
-    "price": 996,
+    "tables": [],
+    "price": null,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4414,14 +4430,15 @@
       "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais.",
       "O documento disponível contém condições de locação. Não deve ser tratado como tabela de venda.",
-      "Validação pendente: Google/listagens mostram o edifício UNIC Icaraí na Rua Doutor Paulo César, 63; verificar se é o empreendimento correspondente da tabela."
+      "Validação pendente: Google/listagens mostram o edifício UNIC Icaraí na Rua Doutor Paulo César, 63; verificar se é o empreendimento correspondente da tabela.",
+      "25/10/2026: tabela e pasta não constam mais em Tabelas de Vendas. Arquivo antigo preservado no histórico, sem confirmação atual; empreendimento mantido na lista e fora do mapa."
     ],
     "locationStatus": "Precisa de apoio",
     "addressReview": "Google/listagens mostram o edifício UNIC Icaraí na Rua Doutor Paulo César, 63; verificar se é o empreendimento correspondente da tabela.",
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.zapimoveis.com.br/condominio/rj-niteroi-icarai-edificio-comercial-unic-icarai-id-2f0a188a-35ae/",
     "addressReviewStatus": "Precisa de apoio",
-    "materialsCheckedAt": "2026-10-12",
+    "materialsCheckedAt": "2026-10-25",
     "priceLabel": "Aluguel mensal a partir de"
   },
   {
@@ -4509,14 +4526,8 @@
     "neighborhood": "A confirmar",
     "address": "Rua Demócrito da Cunha Silveira, 137 — Piratininga",
     "book": null,
-    "tables": [
-      {
-        "name": "Tabela de Vendas Vila Moura - Março 2026.pdf",
-        "url": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk",
-        "date": "Março 2026"
-      }
-    ],
-    "price": 641350,
+    "tables": [],
+    "price": null,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4529,7 +4540,8 @@
     "checkedAt": "2026-09-30",
     "notes": [
       "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "25/10/2026: tabela e pasta não constam mais em Tabelas de Vendas. Arquivo antigo preservado no histórico, sem confirmação atual; empreendimento mantido na lista e fora do mapa."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -4537,7 +4549,7 @@
     "addressSource": "https://www.spinimoveis.com/condominio/vila-moura-casas-niteroi-3-quartos-97-m/23314976-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9326055,-43.0748177",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-25"
   },
   {
     "id": "santa-barbara",

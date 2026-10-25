@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-10-23",
+  "checkedAt": "2026-10-25",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
-    "tableFolders": 44,
+    "tableFolders": 40,
     "tableSourceFiles": 141,
     "bookRootFolders": 40,
     "bookSubfolders": 2,
     "bookSourceFiles": 130,
     "catalogProjects": 113,
-    "projectsWithBookAndTable": 84,
-    "projectsWithTable": 93,
-    "driveProjectFolders": 84,
-    "driveFilesInProjectFolders": 168
+    "projectsWithBookAndTable": 83,
+    "projectsWithTable": 90,
+    "driveProjectFolders": 83,
+    "driveFilesInProjectFolders": 166
   },
   "validation": {
-    "tableComparison": "SHA-256 of complete source PDFs against the verified 2026-10-12 baseline; 8 changed PDFs replaced in Drive and metadata read back",
-    "identicalTables": 84,
-    "differentTables": 8,
+    "tableComparison": "Full 141-file SHA-256 comparison against 23/10; three catalog tables replaced and one added, four retired source tables archived.",
+    "identicalTables": 130,
+    "differentTables": 3,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 84,
+    "driveFoldersWithExactlyTwoFiles": 83,
     "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded and hashed. The 15 optimized-book differences are resolved across all 728 pages: 12 retained with exact normalized page-render and text equivalence, 3 replaced and re-fetched with full SHA-256 verification. Public reader permissions and stable Drive IDs were verified. Original image pixel dimensions, vector text, links and page geometry are preserved in the new Althea and Trésor Dior copies.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 1,
@@ -29,14 +29,14 @@
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-23",
-      "baseline": "2026-10-22",
-      "tableFilesIdenticalSha256": 137,
+      "date": "2026-10-25",
+      "baseline": "2026-10-23",
+      "tableFilesIdenticalSha256": 130,
       "bookFilesIdenticalSha256": 130,
-      "newTableVersions": 4,
-      "obsoleteVersionRemoved": 1,
+      "newTableVersions": 11,
       "catalogTablesReplaced": 3,
-      "drivePairMetadataAndPublicReaderPermissionsChecked": 168
+      "newCatalogTables": 1,
+      "retiredCatalogTables": 4
     }
   },
   "corrections": [
@@ -249,27 +249,6 @@
       "name": "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
       "sha256": "9d2afa0b398b2c3aa67f819e307048fe14c5e028407d6e6f1f99092edd027310",
       "bytes": 150996,
-      "driveIdentical": true
-    },
-    {
-      "id": "caminhos-da-guanabara",
-      "name": "Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf",
-      "sha256": "e3c21337f79b4e65dd17b309fd5521e3da93a31ac23592b1e7bbc74e68ced643",
-      "bytes": 557643,
-      "driveIdentical": true
-    },
-    {
-      "id": "orla-central",
-      "name": "Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf",
-      "sha256": "915c83a73069bc11a671947ad77d70aa447927af201362a3eb59800a8471a61a",
-      "bytes": 981083,
-      "driveIdentical": true
-    },
-    {
-      "id": "the-pier",
-      "name": "Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf",
-      "sha256": "ef1ffb6b7e91a7b165c1d5e80401a3f6a7aeffc997526ae8b3ba050830a354c6",
-      "bytes": 241663,
       "driveIdentical": true
     },
     {
@@ -781,13 +760,45 @@
       "bytes": 263997,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
+    },
+    {
+      "id": "caminhos-da-guanabara",
+      "name": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "sha256": "62b351df7171c5944e94f0cc8ebbfc35f653339ecd0a12a31c349e13d55e913b",
+      "bytes": 598934,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-25"
+    },
+    {
+      "id": "orla-central",
+      "name": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "sha256": "f9c800fbc1213b7d97f2635c37627809d1d74d71e5d0e93cc627674d437d471a",
+      "bytes": 2140830,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-25"
+    },
+    {
+      "id": "the-pier",
+      "name": "Tabela de Vendas The Pier - Outubro 2026.pdf",
+      "sha256": "e3042ef3b959a8d993d4c4d6d38f0685285775732a0fbce53eccb9aff8b8c2a6",
+      "bytes": 352342,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-25"
+    },
+    {
+      "id": "rio-branco-220",
+      "name": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "sha256": "8cf63e91e090af1a046c85fde9a4673cf24cc043b1ebb5b325f4596816652a0b",
+      "bytes": 221139,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-23",
-  "lastTablesUpdatedAt": "2026-10-23",
-  "lastBooksComparedAt": "2026-10-23",
-  "lastTablesInventoryCheckedAt": "2026-10-23",
-  "lastFullSourceAuditAt": "2026-10-23",
-  "lastTablesComparedAt": "2026-10-23",
-  "sourceAuditReport": "data/source-audit-2026-10-23.json"
+  "lastInventoryCheckedAt": "2026-10-25",
+  "lastTablesUpdatedAt": "2026-10-25",
+  "lastBooksComparedAt": "2026-10-25",
+  "lastTablesInventoryCheckedAt": "2026-10-25",
+  "lastFullSourceAuditAt": "2026-10-25",
+  "lastTablesComparedAt": "2026-10-25",
+  "sourceAuditReport": "data/source-audit-2026-10-25.json"
 }

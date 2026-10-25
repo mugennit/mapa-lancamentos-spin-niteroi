@@ -1,0 +1,243 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-10-23",
+  "supersedes": [
+    "partial scan 2026-10-24",
+    "browser unavailable attempt 2026-10-25"
+  ],
+  "method": {
+    "clickedBothLinktreeButtons": true,
+    "loginRequired": false,
+    "allRootPagesLoaded": true,
+    "allFoldersAndSubfoldersChecked": true,
+    "countsReconciled": true,
+    "fullSourceDownloadsReadAndCrcVerified": true,
+    "sha256Compared": true
+  },
+  "structure": {
+    "tables": {
+      "rootFolders": 40,
+      "subfolders": 0,
+      "files": 141
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    },
+    "removedFolders": [
+      "Tabelas de Vendas/DIRECIONAL",
+      "Tabelas de Vendas/MRC",
+      "Tabelas de Vendas/Unic Icaraí",
+      "Tabelas de Vendas/Vila Moura"
+    ],
+    "addedFiles": [
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Arandu Fase 1, 2 e 3 - Outubro 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Casas Decoradas - Outubro 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Lotes Ybira - Outubro 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Marina Lotes Q72 e 76 - Outubro 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba NO Q20 - Outubro 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba Sul - Outubro 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Vista Ybira - Outubro 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas The Pier - Outubro 2026.pdf"
+    ],
+    "removedFiles": [
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Arandu Lotes Fase 1 e Fase 2 - Abril 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Marina Lotes Q72 e 76 - Abril 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba Norte e Toriba Sul - Abril 2026.pdf",
+      "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Ybirá e Vista Ybirá - Abril 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf",
+      "Tabelas de Vendas/CURY/Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf",
+      "Tabelas de Vendas/DIRECIONAL/Tabela de Vendas Conquista Oceânica - Abril 2026.pdf",
+      "Tabelas de Vendas/MRC/Tabela de Vendas 115 Tapuias - Abril 2026.pdf",
+      "Tabelas de Vendas/Unic Icaraí/Tabela de Vendas Unic - Abril 2026.pdf",
+      "Tabelas de Vendas/Vila Moura/Tabela de Vendas Vila Moura - Março 2026.pdf"
+    ]
+  },
+  "content": {
+    "tablesIdenticalSha256": 130,
+    "booksIdenticalSha256": 130,
+    "newTableFiles": 11,
+    "changedExistingFiles": 0
+  },
+  "changes": [
+    {
+      "id": "caminhos-da-guanabara",
+      "name": "Caminhos da Guanabara",
+      "table": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1/view?usp=drivesdk",
+      "previousTable": "Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf",
+      "sha256": "62b351df7171c5944e94f0cc8ebbfc35f653339ecd0a12a31c349e13d55e913b",
+      "driveReadbackSha256Verified": true,
+      "commercialValidityStart": "2026-10-06",
+      "commercialValidityEnd": "03/11/2026"
+    },
+    {
+      "id": "orla-central",
+      "name": "Orla Central",
+      "table": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
+      "previousTable": "Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf",
+      "sha256": "f9c800fbc1213b7d97f2635c37627809d1d74d71e5d0e93cc627674d437d471a",
+      "driveReadbackSha256Verified": true,
+      "commercialValidityStart": "2026-10-06",
+      "commercialValidityEnd": "02/11/2026"
+    },
+    {
+      "id": "the-pier",
+      "name": "The Pier",
+      "table": "Tabela de Vendas The Pier - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk",
+      "previousTable": "Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf",
+      "sha256": "e3042ef3b959a8d993d4c4d6d38f0685285775732a0fbce53eccb9aff8b8c2a6",
+      "driveReadbackSha256Verified": true,
+      "commercialValidityStart": "2026-10-06",
+      "commercialValidityEnd": "03/11/2026"
+    },
+    {
+      "id": "rio-branco-220",
+      "name": "Rio Branco 220",
+      "table": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "url": "https://drive.google.com/file/d/1OLMmbqrqJhYJwCLOfA1G3W_Qxa_9R351/view?usp=drivesdk",
+      "previousTable": null,
+      "sha256": "8cf63e91e090af1a046c85fde9a4673cf24cc043b1ebb5b325f4596816652a0b",
+      "driveReadbackSha256Verified": true,
+      "commercialValidityStart": "2026-10-06",
+      "commercialValidityEnd": "02/11/2026"
+    }
+  ],
+  "retiredMaterials": [
+    {
+      "id": "conquista-oceanica",
+      "name": "Conquista Oceânica",
+      "formerTables": [
+        {
+          "name": "Tabela de Vendas Conquista Oceânica - Abril 2026.pdf",
+          "url": "https://drive.google.com/file/d/1s9AY3VrW5nUBwJ-GFEkgGwvftiKClvOJ/view?usp=drivesdk",
+          "date": "Abril 2026"
+        }
+      ],
+      "reason": "Tabela e pasta retiradas da fonte pública; nenhum substituto encontrado em toda a estrutura."
+    },
+    {
+      "id": "115-tapuias",
+      "name": "115 Tapuias",
+      "formerTables": [
+        {
+          "name": "Tabela de Vendas 115 Tapuias - Abril 2026.pdf",
+          "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+          "date": "Abril 2026"
+        }
+      ],
+      "reason": "Tabela e pasta retiradas da fonte pública; nenhum substituto encontrado em toda a estrutura."
+    },
+    {
+      "id": "unic-icarai",
+      "name": "Unic Icaraí",
+      "formerTables": [
+        {
+          "name": "Tabela de Vendas Unic - Abril 2026.pdf",
+          "url": "https://drive.google.com/file/d/1HA3_sSHSBNH3BnBtuZHttucejDpB6d4N/view?usp=drivesdk",
+          "date": "Abril 2026"
+        }
+      ],
+      "reason": "Tabela e pasta retiradas da fonte pública; nenhum substituto encontrado em toda a estrutura."
+    },
+    {
+      "id": "vila-moura",
+      "name": "Vila Moura",
+      "formerTables": [
+        {
+          "name": "Tabela de Vendas Vila Moura - Março 2026.pdf",
+          "url": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk",
+          "date": "Março 2026"
+        }
+      ],
+      "reason": "Tabela e pasta retiradas da fonte pública; nenhum substituto encontrado em toda a estrutura."
+    }
+  ],
+  "outsideCatalog": [
+    {
+      "group": "ARETÊ BUZIOS",
+      "files": [
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Arandu Fase 1, 2 e 3 - Outubro 2026.pdf",
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Casas Decoradas - Outubro 2026.pdf",
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Lotes Ybira - Outubro 2026.pdf",
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Marina Lotes Q72 e 76 - Outubro 2026.pdf",
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba NO Q20 - Outubro 2026.pdf",
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba Sul - Outubro 2026.pdf",
+        "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Vista Ybira - Outubro 2026.pdf"
+      ],
+      "action": "Seven October source tables downloaded, hashed and inventoried; Búzios is outside the Niterói catalog. No Drive replacement required in the Niterói material folders."
+    }
+  ],
+  "catalog": {
+    "count": 113,
+    "completeMaterials": 83,
+    "mapEligible": 82,
+    "generalListRetainsAllProjects": true,
+    "codeAndPasswordUnchanged": true
+  },
+  "coordinates": {
+    "readCurrent": true,
+    "rows": 113,
+    "numericDifferences": [],
+    "pending": [
+      {
+        "id": "rio-branco-220",
+        "name": "Rio Branco 220",
+        "address": "Avenida Visconde do Rio Branco, 220",
+        "sheetRow": 74,
+        "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit"
+      }
+    ]
+  },
+  "drive": {
+    "mapFolders": 83,
+    "files": 166,
+    "oneBookAndOneCurrentTablePerFolder": true,
+    "newRioBrancoFolder": {
+      "success": true,
+      "id": "15tBtue6wSBBZKC-TZgN1hRw_50LMBtJm",
+      "url": "https://drive.google.com/drive/folders/15tBtue6wSBBZKC-TZgN1hRw_50LMBtJm",
+      "title": "Rio Branco 220",
+      "parent_id": "1op4B7dQy7kn4y1pcF7G5pDdybtc_SQCw"
+    },
+    "historyFolder": {
+      "success": true,
+      "id": "1cFp19ILb0TyMw4wxOemrRO9dfQhhjyeF",
+      "url": "https://drive.google.com/drive/folders/1cFp19ILb0TyMw4wxOemrRO9dfQhhjyeF",
+      "title": "SPIN — Histórico de materiais retirados das fontes",
+      "parent_id": "root"
+    },
+    "activeLinksAnyoneReader": true,
+    "newAndReplacedTablesReFetchedSha256Verified": true
+  },
+  "baume": {
+    "preserved": true,
+    "officialBooksCEUItems": 9,
+    "officialBookFound": false,
+    "ownerProvidedPairPresent": true
+  },
+  "commercialNotes": {
+    "orlaCentral": "227 confirmed units in block 2; block 1 quantity absent, total stock unknown.",
+    "rioBranco220": "All quantity cells zero; do not advertise rows as available.",
+    "caminhosAndThePier": "Typology price tables without quantities; old individual availability cleared."
+  },
+  "limitations": [
+    "Optimized Drive books retain prior equivalence verification; all 130 official source files are byte-identical to 23/10.",
+    "Baume has no row in the coordinates sheet; existing confirmed point preserved.",
+    "Rio Branco 220 lacks exact validated coordinates. No generic geocoding used."
+  ],
+  "publication": {
+    "parentCommit": "902ea22cc61a6a7dd2d1864c1576c910f189288e",
+    "method": "GitHub main → existing Vercel integration",
+    "deploymentStatus": "Check GitHub Vercel statuses for the resulting commit."
+  }
+}

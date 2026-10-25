@@ -18,12 +18,6 @@
     "url": "https://drive.google.com/file/d/1nFVsH4_4k8nHJruYDjUF1iQhCwfNi_L2/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Vila Moura - Março 2026.pdf",
-    "group": "Vila Moura",
-    "type": "Tabela",
-    "url": "https://drive.google.com/file/d/1V3M2FFGJ0-xTSkEzV1xVVRZuUcNT6srz/view?usp=drivesdk"
-  },
-  {
     "name": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
     "group": "Bacos",
     "type": "Tabela",
@@ -34,12 +28,6 @@
     "group": "Selling",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1CNOpi0sl9Z8bQAqUkl566IO6jEyhPGWE/view?usp=drivesdk"
-  },
-  {
-    "name": "Tabela de Vendas Unic - Abril 2026.pdf",
-    "group": "Unic Icaraí",
-    "type": "Tabela",
-    "url": "https://drive.google.com/file/d/1HA3_sSHSBNH3BnBtuZHttucejDpB6d4N/view?usp=drivesdk"
   },
   {
     "name": "Tabela de Vendas Business - Outubro 2026.pdf",
@@ -208,12 +196,6 @@
     "group": "Novolar",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1ARkrcNKHWXfiSTV4Wr5fV7APGWAOlnrn/view?usp=drivesdk"
-  },
-  {
-    "name": "Tabela de Vendas 115 Tapuias - Abril 2026.pdf",
-    "group": "MRC",
-    "type": "Tabela",
-    "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk"
   },
   {
     "name": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
@@ -402,25 +384,19 @@
     "url": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Conquista Oceânica - Abril 2026.pdf",
-    "group": "Direcional",
-    "type": "Tabela",
-    "url": "https://drive.google.com/file/d/1s9AY3VrW5nUBwJ-GFEkgGwvftiKClvOJ/view?usp=drivesdk"
-  },
-  {
-    "name": "Tabela de Vendas The Pier Financiada Repasse Imediato - Setembro 2026.pdf",
+    "name": "Tabela de Vendas The Pier - Outubro 2026.pdf",
     "group": "Cury",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Orla Central(Bloco 1 e 2 + Loja) - Agosto 2026.pdf",
+    "name": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
     "group": "Cury",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Caminhos da Guanabara Financiada Repasse Imediato - Setembro 2026.pdf",
+    "name": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
     "group": "Cury",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1/view?usp=drivesdk"
@@ -1336,5 +1312,11 @@
     "group": "RDR",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1VYKFjkrKCvXa1GOxTZk0gHC1k0DOWl8p/view?usp=drivesdk"
+  },
+  {
+    "name": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+    "group": "Cury",
+    "type": "Tabela",
+    "url": "https://drive.google.com/file/d/1OLMmbqrqJhYJwCLOfA1G3W_Qxa_9R351/view?usp=drivesdk"
   }
 ]
