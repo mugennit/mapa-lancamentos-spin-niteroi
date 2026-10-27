@@ -999,28 +999,29 @@
     ],
     "delivery": null,
     "status": "A confirmar",
-    "lat": null,
-    "lng": null,
-    "precision": "street",
+    "lat": -22.8893326,
+    "lng": -43.1253427,
+    "precision": "exact",
     "photo": "/empreendimentos/rio-branco-220.jpg",
     "checkedAt": "2026-10-25",
     "notes": [
       "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 02/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
-      "Todas as quantidades da tabela são zero. Ponto exato pendente na linha 74 da planilha; manter fora do mapa."
+      "Todas as quantidades da tabela são zero.",
+      "Ponto indicado por Frederico Costa em 27/10/2026. No Google Maps, o local é identificado como Rio Branco 220 Residencial — Plantão de Vendas; o pin corresponde ao plantão informado, com endereço cadastrado do empreendimento preservado."
     ],
-    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "locationStatus": "Ponto indicado por Frederico Costa — plantão de vendas",
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "osmType": "way",
-      "osmId": 183021481,
-      "displayName": "Avenida Visconde do Rio Branco, Centro, Região Praias da Baía, Niterói, Rio de Janeiro, Região Sudeste, 24020-002, Brasil",
-      "checkedAt": "2026-09-30"
+      "provider": "Google Maps — ponto compartilhado por Frederico Costa",
+      "placeId": "0x9983f0649e9843:0x1c59f82f6503b42e",
+      "displayName": "Rio Branco 220 Residencial - Plantão de Vendas",
+      "checkedAt": "2026-10-27"
     },
-    "locationCheckedAt": "2026-09-30",
+    "locationCheckedAt": "2026-10-27",
     "addressSource": "https://apecury.com.br/bora-de-ape/",
     "addressReviewStatus": "Conferido",
     "addressReview": null,
-    "materialsCheckedAt": "2026-10-25"
+    "materialsCheckedAt": "2026-10-25",
+    "locationSource": "https://maps.app.goo.gl/7UnyCUUu96a1WnLj9"
   },
   {
     "id": "the-pier",

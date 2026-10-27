@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-27",
+  "reason": "Frederico Costa provided the missing exact Google Maps link for Rio Branco 220 after the full source audit.",
+  "projectId": "rio-branco-220",
+  "mapsLink": "https://maps.app.goo.gl/7UnyCUUu96a1WnLj9",
+  "mapsPlaceName": "Rio Branco 220 Residencial - Plantão de Vendas",
+  "coordinates": {
+    "lat": -22.8893326,
+    "lng": -43.1253427
+  },
+  "coordinateKind": "Google Maps place coordinates; Street View camera coordinates were not used.",
+  "locationKind": "sales office — point explicitly supplied by owner",
+  "sheet": {
+    "id": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "tab": "Lançamentos",
+    "row": 74,
+    "coordinatesRange": "E74:F74",
+    "statusRange": "I74:K74",
+    "materialsRange": "O74:T74"
+  },
+  "materials": {
+    "bookConfirmed": true,
+    "tableConfirmed": true,
+    "bookAndTablePublicReaderVerified": true,
+    "tableVersion": "Outubro 2026",
+    "tableFileId": "1OLMmbqrqJhYJwCLOfA1G3W_Qxa_9R351"
+  },
+  "catalog": {
+    "projects": 113,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleBefore": 81,
+    "mapEligibleAfter": 82,
+    "completeProjectsPendingLocation": []
+  },
+  "preserved": [
+    "Avenida Visconde do Rio Branco, 220 — cadastral address",
+    "All other catalog entries",
+    "Existing book and table links",
+    "Zero available units from the October table",
+    "Password protection and current interface",
+    "In Icaraí remains without a current table and outside the map"
+  ],
+  "sourceAudit": "data/source-audit-2026-10-27.json"
+}

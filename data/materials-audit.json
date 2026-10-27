@@ -12,7 +12,8 @@
     "projectsWithBookAndTable": 82,
     "projectsWithTable": 89,
     "driveProjectFolders": 82,
-    "driveFilesInProjectFolders": 164
+    "driveFilesInProjectFolders": 164,
+    "mapEligibleProjects": 82
   },
   "validation": {
     "tableComparison": "All 140 current table PDFs SHA-256 matched the retained 25/10 files; the In Icaraí table was removed from the source.",
@@ -798,5 +799,7 @@
   "lastTablesInventoryCheckedAt": "2026-10-27",
   "lastFullSourceAuditAt": "2026-10-27",
   "lastTablesComparedAt": "2026-10-27",
-  "sourceAuditReport": "data/source-audit-2026-10-27.json"
+  "sourceAuditReport": "data/source-audit-2026-10-27.json",
+  "lastCoordinatesUpdatedAt": "2026-10-27",
+  "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json"
 }
