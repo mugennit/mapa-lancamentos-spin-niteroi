@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-27",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-10-25",
+  "supersedes": "data/source-audit-2026-10-25.json",
+  "method": [
+    "Opened both public folders from their Linktree buttons in the same browser session without login.",
+    "Scrolled both virtualized roots to the end and reconciled displayed folder counts.",
+    "Downloaded both complete archives, CRC-verified every entry and compared SHA-256 for every file.",
+    "Read every current coordinates-sheet row and reconciled Drive project folders, child counts and public-reader permissions."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 40,
+      "subfolders": 0,
+      "files": 140
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    }
+  },
+  "content": {
+    "tablesIdentical": 140,
+    "tablesRemoved": 1,
+    "tablesChanged": 0,
+    "booksIdentical": 130,
+    "booksChanged": 0
+  },
+  "changes": [
+    {
+      "type": "removed-table",
+      "path": "Tabelas de Vendas/CHEADE/Tabela de Vendas In Icaraí Cheade - Junho 2026 - Com Logo.pdf",
+      "project": "In Icaraí",
+      "action": "Table cleared from current catalog/materials; project retained in general list and its two-file Drive folder moved from MAPA SITE to the historical-materials archive."
+    }
+  ],
+  "catalog": {
+    "projects": 113,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 81
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "numericCoordinates": 92,
+    "mapsLinks": 93,
+    "pendingCompleteProject": {
+      "name": "Rio Branco 220",
+      "address": "Avenida Visconde do Rio Branco, 220",
+      "sheetRow": 74
+    }
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 164,
+    "foldersWithExactlyTwoFiles": 82,
+    "publicReaderFiles": 164,
+    "mainFolderFiles": 8,
+    "mainFolderPublicReaderFiles": 8
+  },
+  "baume": {
+    "officialBooksFolderContainsBaume": false,
+    "ownerProvidedBookAndCurrentTableConfirmed": true,
+    "officialBooksCEUItems": 9
+  },
+  "commercialNotes": [
+    "No SharePoint modification timestamp was treated as a commercial date."
+  ],
+  "limitations": [],
+  "publication": {
+    "required": true,
+    "reason": "In Icaraí current table was removed from the official source; site and map counts must reflect that removal."
+  }
+}

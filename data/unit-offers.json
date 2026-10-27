@@ -13312,32 +13312,6 @@
       }
     ]
   },
-  "in-icarai": {
-    "tableUrl": "https://drive.google.com/file/d/1I_8d0m8z7FxW0r_f80IvziwBJLpN_aTK/view?usp=drivesdk",
-    "tableDate": "Junho 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "804",
-        "typology": "",
-        "price": 554000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "1004",
-        "typology": "",
-        "price": 574000,
-        "unitKind": "Apartamento"
-      },
-      {
-        "unit": "Cob 02",
-        "typology": "",
-        "price": 949000,
-        "unitKind": "Cobertura"
-      }
-    ]
-  },
   "brise-by-conviva": {
     "tableUrl": "https://drive.google.com/file/d/15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_/view?usp=drivesdk",
     "tableDate": "Outubro 2026",

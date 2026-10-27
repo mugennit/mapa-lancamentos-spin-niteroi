@@ -1,42 +1,40 @@
 {
-  "checkedAt": "2026-10-25",
+  "checkedAt": "2026-10-27",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
     "tableFolders": 40,
-    "tableSourceFiles": 141,
+    "tableSourceFiles": 140,
     "bookRootFolders": 40,
     "bookSubfolders": 2,
     "bookSourceFiles": 130,
     "catalogProjects": 113,
-    "projectsWithBookAndTable": 83,
-    "projectsWithTable": 90,
-    "driveProjectFolders": 83,
-    "driveFilesInProjectFolders": 166
+    "projectsWithBookAndTable": 82,
+    "projectsWithTable": 89,
+    "driveProjectFolders": 82,
+    "driveFilesInProjectFolders": 164
   },
   "validation": {
-    "tableComparison": "Full 141-file SHA-256 comparison against 23/10; three catalog tables replaced and one added, four retired source tables archived.",
-    "identicalTables": 130,
-    "differentTables": 3,
+    "tableComparison": "All 140 current table PDFs SHA-256 matched the retained 25/10 files; the In Icaraí table was removed from the source.",
+    "identicalTables": 140,
+    "differentTables": 0,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 83,
-    "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded and hashed. The 15 optimized-book differences are resolved across all 728 pages: 12 retained with exact normalized page-render and text equivalence, 3 replaced and re-fetched with full SHA-256 verification. Public reader permissions and stable Drive IDs were verified. Original image pixel dimensions, vector text, links and page geometry are preserved in the new Althea and Trésor Dior copies.",
+    "driveFoldersWithExactlyTwoFiles": 82,
+    "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded, CRC-verified and matched SHA-256 against 25/10.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 1,
+    "newTables": 0,
     "bookContentReport": "data/books-content-comparison-2026-10-16.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-25",
-      "baseline": "2026-10-23",
-      "tableFilesIdenticalSha256": 130,
+      "date": "2026-10-27",
+      "baseline": "2026-10-25",
+      "tableFilesIdenticalSha256": 140,
       "bookFilesIdenticalSha256": 130,
-      "newTableVersions": 11,
-      "catalogTablesReplaced": 3,
-      "newCatalogTables": 1,
-      "retiredCatalogTables": 4
+      "retiredCatalogTables": 1,
+      "drivePairMetadataAndPublicReaderPermissionsChecked": 164
     }
   },
   "corrections": [
@@ -794,11 +792,11 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-25",
-  "lastTablesUpdatedAt": "2026-10-25",
-  "lastBooksComparedAt": "2026-10-25",
-  "lastTablesInventoryCheckedAt": "2026-10-25",
-  "lastFullSourceAuditAt": "2026-10-25",
-  "lastTablesComparedAt": "2026-10-25",
-  "sourceAuditReport": "data/source-audit-2026-10-25.json"
+  "lastInventoryCheckedAt": "2026-10-27",
+  "lastTablesUpdatedAt": "2026-10-27",
+  "lastBooksComparedAt": "2026-10-27",
+  "lastTablesInventoryCheckedAt": "2026-10-27",
+  "lastFullSourceAuditAt": "2026-10-27",
+  "lastTablesComparedAt": "2026-10-27",
+  "sourceAuditReport": "data/source-audit-2026-10-27.json"
 }
