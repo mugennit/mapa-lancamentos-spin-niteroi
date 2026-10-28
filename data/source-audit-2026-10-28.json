@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-28",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-10-27",
+  "method": [
+    "Opened both public folders from the Linktree buttons in the same browser session without login.",
+    "Scrolled both virtualized roots to the end, traversed all 80 root folders and 2 subfolders, and reconciled every displayed item count.",
+    "Downloaded both current complete archives, CRC-verified every entry, SHA-256 compared all 270 files, and matched every downloaded path to the UI inventory.",
+    "Read the current coordinates sheet and checked all 82 Drive project folders, 164 child files and 8 main-folder files, including public-reader permissions."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 40,
+      "subfolders": 0,
+      "files": 140
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    }
+  },
+  "content": {
+    "tablesIdentical": 140,
+    "tablesAdded": 0,
+    "tablesRemoved": 0,
+    "tablesChanged": 0,
+    "booksIdentical": 130,
+    "booksAdded": 0,
+    "booksRemoved": 0,
+    "booksChanged": 0
+  },
+  "changes": [],
+  "catalog": {
+    "projects": 113,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 82,
+    "reviewedCommit": "87d2d72e426ed1d79d21cfc6a10e309d2534bf73"
+  },
+  "coordinates": {
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:T150",
+    "projectRows": 112,
+    "newNumericCoordinates": [],
+    "newMapsLinksToResolve": [],
+    "completeProjectsPendingLocation": [],
+    "rioBranco220": {
+      "row": 74,
+      "lat": -22.8893326,
+      "lng": -43.1253427,
+      "kind": "Owner-supplied exact sales-office point; cadastral address preserved."
+    }
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 164,
+    "foldersWithExactlyTwoFiles": 82,
+    "publicReaderFiles": 164,
+    "mainFolderFiles": 8,
+    "mainFolderPublicReaderFiles": 8,
+    "replacementsRequired": 0,
+    "obsoleteCopiesRemoved": 0
+  },
+  "baume": {
+    "officialBooksFolderContainsBaume": false,
+    "officialBooksCEUItems": 9,
+    "ownerProvidedBookAndCurrentTableConfirmed": true,
+    "tableVersion": "Outubro 2026",
+    "tableContentChanged": false
+  },
+  "commercialNotes": [
+    "SharePoint modification timestamps were recorded as source metadata, never as commercial dates."
+  ],
+  "limitations": [
+    {
+      "scope": "Vercel direct deployment-details lookup",
+      "observed": "403 forbidden for the lojameubompet-8622 team scope. GitHub reports success for both Vercel checks on the reviewed commit.",
+      "impact": "The protected production catalog was not visually counted; the public page showed the existing password screen."
+    }
+  ],
+  "publication": {
+    "catalogChangesRequired": false,
+    "auditStampUpdateRequired": true,
+    "existingPasswordScreenVerified": true
+  }
+}

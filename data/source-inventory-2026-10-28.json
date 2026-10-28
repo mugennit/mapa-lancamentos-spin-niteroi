@@ -1,0 +1,2726 @@
+{
+  "checkedAt": "2026-10-28",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "roots": {
+    "tables": [
+      {
+        "name": "Smart Ville",
+        "items": 1,
+        "modified": "6/25/2026 10:21 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Fazenda Fillomena",
+        "items": 2,
+        "modified": "6/19/2026 11:35 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Golden Realty",
+        "items": 1,
+        "modified": "6/18/2026 7:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "JM",
+        "items": 1,
+        "modified": "2/4/2026 12:46 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "EQUIPE",
+        "items": 1,
+        "modified": "1/19/2026 6:29 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "NATUS",
+        "items": 1,
+        "modified": "11/3/2025 5:31 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "FEFM",
+        "items": 1,
+        "modified": "10/31/2025 11:46 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "GPCON",
+        "items": 2,
+        "modified": "10/14/2025 6:35 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "PA5",
+        "items": 2,
+        "modified": "8/4/2025 11:35 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "4MX",
+        "items": 1,
+        "modified": "7/28/2025 8:45 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "SELLING",
+        "items": 7,
+        "modified": "7/11/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "ARETÊ BUZIOS",
+        "items": 7,
+        "modified": "7/3/2025 7:26 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "MEDEIROS",
+        "items": 1,
+        "modified": "6/26/2025 11:34 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "RJ ENGENHARIA",
+        "items": 9,
+        "modified": "5/20/2025 11:04 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Pró-Lotes",
+        "items": 6,
+        "modified": "5/19/2025 6:39 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "JOAMA",
+        "items": 2,
+        "modified": "4/28/2025 6:44 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Meu Crescer",
+        "items": 1,
+        "modified": "2/13/2025 7:38 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "MRV",
+        "items": 4,
+        "modified": "1/27/2025 7:59 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "METTA",
+        "items": 2,
+        "modified": "1/13/2025 6:20 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CHEADE",
+        "items": 0,
+        "modified": "12/19/2024 6:34 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CONVIVA",
+        "items": 10,
+        "modified": "12/2/2024 6:23 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "TEGRA",
+        "items": 6,
+        "modified": "11/25/2024 12:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "TECCONSTRU",
+        "items": 4,
+        "modified": "11/25/2024 12:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "SOTER",
+        "items": 8,
+        "modified": "11/25/2024 12:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "RDR",
+        "items": 2,
+        "modified": "11/25/2024 12:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "RAMABE",
+        "items": 1,
+        "modified": "11/25/2024 12:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "PROART",
+        "items": 7,
+        "modified": "11/25/2024 12:02 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "PINTO DE ALMEIDA",
+        "items": 1,
+        "modified": "11/25/2024 12:02 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "NOVOLAR",
+        "items": 4,
+        "modified": "11/25/2024 12:02 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "LRM",
+        "items": 3,
+        "modified": "11/25/2024 12:02 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "JPR",
+        "items": 1,
+        "modified": "11/25/2024 12:01 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "JOÃO FORTES",
+        "items": 1,
+        "modified": "11/25/2024 12:01 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "ITAUBA",
+        "items": 4,
+        "modified": "11/25/2024 12:00 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "HABITARE",
+        "items": 5,
+        "modified": "11/25/2024 12:00 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "FERNANDES MACIEL",
+        "items": 7,
+        "modified": "11/25/2024 11:59 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "FALVES",
+        "items": 4,
+        "modified": "11/25/2024 11:59 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "ELVAS",
+        "items": 4,
+        "modified": "11/25/2024 11:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CURY",
+        "items": 4,
+        "modified": "11/25/2024 11:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CEU",
+        "items": 6,
+        "modified": "11/25/2024 11:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "BACOS",
+        "items": 6,
+        "modified": "11/25/2024 11:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      }
+    ],
+    "books": [
+      {
+        "name": "Krion",
+        "items": 1,
+        "modified": "7/16/2026 7:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Nexis",
+        "items": 1,
+        "modified": "4/1/2026 7:29 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "VL Construtora",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Soter",
+        "items": 13,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Tecconstru",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Tegra",
+        "items": 2,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Tresor",
+        "items": 5,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "JPR",
+        "items": 3,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "LRM",
+        "items": 3,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Medeiros",
+        "items": 2,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Metta",
+        "items": 4,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Mhor",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "MRC",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Novolar",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "PA5",
+        "items": 3,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Proart",
+        "items": 7,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Pró-lotes",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "RAMABE",
+        "items": 3,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "RDR",
+        "items": 2,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "RJ Engenharia",
+        "items": 5,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Itauba",
+        "items": 4,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Joama",
+        "items": 2,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "João Fortes",
+        "items": 1,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Habitare",
+        "items": 6,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Fernandes Maciel",
+        "items": 4,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "GPCON",
+        "items": 2,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Falves",
+        "items": 5,
+        "modified": "9/8/2025 6:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Equipe",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CYCOHRP Engenharia",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Direcional",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Elvas",
+        "items": 4,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Crescer",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Cury",
+        "items": 6,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CAC",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "CEU",
+        "items": 9,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Cheade",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Conviva",
+        "items": 8,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Anasa",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "Bacos",
+        "items": 5,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      },
+      {
+        "name": "4MX",
+        "items": 1,
+        "modified": "9/8/2025 6:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)"
+      }
+    ]
+  },
+  "rootListsScrolledToEnd": {
+    "tables": true,
+    "books": true
+  },
+  "inventory": {
+    "tables": {
+      "Smart Ville": {
+        "path": "Smart Ville",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Smart Ville - Modulo 1  - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/22/2026 11:31 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "266 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Fazenda Fillomena": {
+        "path": "Fazenda Fillomena",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Fazenda Fillomena VR2 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/1/2026 6:43 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.16 MB"
+          },
+          {
+            "name": "Promocional - Tabela de Vendas Fazenda Filomena - Anasa - Setembro 2026.pdf",
+            "kind": "file",
+            "modified": "9/16/2026 11:13 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "350 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Golden Realty": {
+        "path": "Golden Realty",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Velas ao Vento - Junho 2026.pdf",
+            "kind": "file",
+            "modified": "6/18/2026 7:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "24.0 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "JM": {
+        "path": "JM",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas JM - 141 Living - Fev_2026.pdf",
+            "kind": "file",
+            "modified": "2/4/2026 12:46 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "31.2 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "EQUIPE": {
+        "path": "EQUIPE",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Mare Blu - Setembro 2026.pdf",
+            "kind": "file",
+            "modified": "9/3/2026 10:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "291 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "NATUS": {
+        "path": "NATUS",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Venda - Golden Ville Residence - Julho_2026.pdf",
+            "kind": "file",
+            "modified": "7/6/2026 12:55 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "16.8 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "FEFM": {
+        "path": "FEFM",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Santa Bárbara - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/19/2026 11:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "563 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "GPCON": {
+        "path": "GPCON",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Green Open - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/16/2026 6:00 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "919 KB"
+          },
+          {
+            "name": "Tabela de Vendas Niterói Open - Fevereiro 2026.pdf",
+            "kind": "file",
+            "modified": "2/11/2026 12:43 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "902 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "PA5": {
+        "path": "PA5",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Monier - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 11:09 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "76.7 KB"
+          },
+          {
+            "name": "Tabela de Vendas Gael - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 6:32 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "576 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "4MX": {
+        "path": "4MX",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 12:07 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "352 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "SELLING": {
+        "path": "SELLING",
+        "expected": 7,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Selling - Viva Búzios 2 - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 12:06 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "124 KB"
+          },
+          {
+            "name": "Tabela de Vendas Selling - Jardim Itacoa - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 12:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "137 KB"
+          },
+          {
+            "name": "Tabela de Vendas Selling - Oka Icarai _ Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 12:00 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "141 KB"
+          },
+          {
+            "name": "Tabela de Vendas Selling - Living 141 - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 11:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "78.9 KB"
+          },
+          {
+            "name": "Tabela de Vendas Selling - Reserva Natural - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 11:31 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "81.5 KB"
+          },
+          {
+            "name": "Tabela de Vendas Selling - Flua - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 11:20 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "110 KB"
+          },
+          {
+            "name": "Tabela de Vendas Selling - Jardim Ubá Maricá - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/21/2026 11:17 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "107 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "ARETÊ BUZIOS": {
+        "path": "ARETÊ BUZIOS",
+        "expected": 7,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Marina Lotes Q72 e 76 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:29 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "72.9 KB"
+          },
+          {
+            "name": "Tabela de Vendas Vista Ybira - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:27 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "117 KB"
+          },
+          {
+            "name": "Tabela de Vendas Lotes Ybira - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:25 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "125 KB"
+          },
+          {
+            "name": "Tabela de Vendas Toriba NO Q20 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:24 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "145 KB"
+          },
+          {
+            "name": "Tabela de Vendas Toriba Sul - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:22 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "105 KB"
+          },
+          {
+            "name": "Tabela de Vendas Casas Decoradas - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:19 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "123 KB"
+          },
+          {
+            "name": "Tabela de Vendas Arandu Fase 1, 2 e 3 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 11:18 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "333 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "MEDEIROS": {
+        "path": "MEDEIROS",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/5/2026 11:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "507 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "RJ ENGENHARIA": {
+        "path": "RJ ENGENHARIA",
+        "expected": 9,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Dianthus - Setembro 2026 (Atualizada).pdf",
+            "kind": "file",
+            "modified": "9/29/2026 7:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "139 KB"
+          },
+          {
+            "name": "Tabela de Vendas Giardino Di Verona - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/21/2026 10:29 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "165 KB"
+          },
+          {
+            "name": "Tabela de Vendas Dahlia - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/21/2026 10:24 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "246 KB"
+          },
+          {
+            "name": "Tabela de Vendas Violeta - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "5/25/2026 9:10 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "52.6 KB"
+          },
+          {
+            "name": "Tabela de Vendas Flores de Maio - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "5/25/2026 8:46 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "63.5 KB"
+          },
+          {
+            "name": "Tabela de Vendas Hortensia - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "5/25/2026 8:17 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "59.1 KB"
+          },
+          {
+            "name": "Tabela de Vendas Lirios do Vale - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "5/25/2026 8:11 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "54.3 KB"
+          },
+          {
+            "name": "Tabela de Vendas Bougainvillea - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "5/25/2026 7:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "53.5 KB"
+          },
+          {
+            "name": "Tabela de Vendas Florescer - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "5/25/2026 7:47 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "63.0 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Pró-Lotes": {
+        "path": "Pró-Lotes",
+        "expected": 6,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Solaris - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/9/2026 7:02 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "370 KB"
+          },
+          {
+            "name": "Tabela de Vendas Oceânica Promocional - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/9/2026 6:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "518 KB"
+          },
+          {
+            "name": "Tabela de Vendas Experience - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/9/2026 6:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "605 KB"
+          },
+          {
+            "name": "Tabela de Vendas Way Última fase  - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/9/2026 6:18 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "483 KB"
+          },
+          {
+            "name": "Tabela de Vendas Oceanica - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/7/2026 11:10 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "949 KB"
+          },
+          {
+            "name": "Tabela de Vendas Holiday - Junho 2026.pdf",
+            "kind": "file",
+            "modified": "6/10/2026 1:36 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "433 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "JOAMA": {
+        "path": "JOAMA",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Tabela de Vendas NP38 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 11:48 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "314 KB"
+          },
+          {
+            "name": "Tabela de Vendas Althea - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 11:46 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "325 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Meu Crescer": {
+        "path": "Meu Crescer",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Meu Crescer Niterói - Junho 2026.pdf",
+            "kind": "file",
+            "modified": "6/17/2026 12:27 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "177 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "MRV": {
+        "path": "MRV",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas estoque geral - MRV - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/17/2026 11:39 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.21 MB"
+          },
+          {
+            "name": "Tabela de Vendas Bosque das Amendoeiras - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/17/2026 11:36 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "430 KB"
+          },
+          {
+            "name": "Tabela de Vendas Império do Ouro - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/17/2026 11:26 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "445 KB"
+          },
+          {
+            "name": "Tabela de Vendas Mar de Trindade - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/17/2026 10:47 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "440 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "METTA": {
+        "path": "METTA",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/22/2026 12:06 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "818 KB"
+          },
+          {
+            "name": "Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/12/2026 11:01 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "698 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CHEADE": {
+        "path": "CHEADE",
+        "expected": 0,
+        "rows": [],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CONVIVA": {
+        "path": "CONVIVA",
+        "expected": 10,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 10:19 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "147 KB"
+          },
+          {
+            "name": "Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 8:16 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "198 KB"
+          },
+          {
+            "name": "Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 8:16 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "161 KB"
+          },
+          {
+            "name": "Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 8:07 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "163 KB"
+          },
+          {
+            "name": "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 8:04 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "302 KB"
+          },
+          {
+            "name": "Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 7:52 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "154 KB"
+          },
+          {
+            "name": "Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 7:45 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "109 KB"
+          },
+          {
+            "name": "Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 7:37 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "496 KB"
+          },
+          {
+            "name": "Tabela de Vendas Conviva Piratininga - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 7:33 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "151 KB"
+          },
+          {
+            "name": "Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 7:24 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "111 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "TEGRA": {
+        "path": "TEGRA",
+        "expected": 6,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Península - Singular - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/7/2026 10:11 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "462 KB"
+          },
+          {
+            "name": "Tabela de Vendas Península - Gran Thai - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/7/2026 10:05 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "723 KB"
+          },
+          {
+            "name": "Tabela de Vendas  Gaea - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/7/2026 9:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.84 MB"
+          },
+          {
+            "name": "Tabela de Vendas Claris - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/7/2026 9:43 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.16 MB"
+          },
+          {
+            "name": "Tabela de Vendas East Side Méier - Junho 2026.pdf",
+            "kind": "file",
+            "modified": "6/8/2026 11:49 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "805 KB"
+          },
+          {
+            "name": "Tabela de Vendas Flua permutante - Janeiro 2026.pdf",
+            "kind": "file",
+            "modified": "1/22/2026 5:23 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "69.0 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "TECCONSTRU": {
+        "path": "TECCONSTRU",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Viva Búzios 2 - Outubro 2026 (2).pdf",
+            "kind": "file",
+            "modified": "10/8/2026 12:47 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "493 KB"
+          },
+          {
+            "name": "Tabela de Vendas Orla Bardot - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 12:13 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "164 KB"
+          },
+          {
+            "name": "Tabela de Vendas DaVinci - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 12:10 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "465 KB"
+          },
+          {
+            "name": "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 11:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "316 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "SOTER": {
+        "path": "SOTER",
+        "expected": 8,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Pulse - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:43 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "276 KB"
+          },
+          {
+            "name": "Tabela de Vendas The Grove - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:43 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "379 KB"
+          },
+          {
+            "name": "Tabela de Vendas Origem - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:43 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "645 KB"
+          },
+          {
+            "name": "Tabela de Vendas Maestro - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:41 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "424 KB"
+          },
+          {
+            "name": "Tabela de Vendas Ion Icarai - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:38 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "584 KB"
+          },
+          {
+            "name": "Tabela de Vendas Clarice - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:36 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "241 KB"
+          },
+          {
+            "name": "Tabela de Vendas Attrium Icaraí - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 5:33 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "548 KB"
+          },
+          {
+            "name": "Tabela de Vendas Visi - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/7/2026 8:25 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "558 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "RDR": {
+        "path": "RDR",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Sun In - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 10:42 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "255 KB"
+          },
+          {
+            "name": "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 7:14 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "258 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "RAMABE": {
+        "path": "RAMABE",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Maren By RAMABE - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/1/2026 10:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "341 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "PROART": {
+        "path": "PROART",
+        "expected": 7,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Sunset - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 7:08 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "290 KB"
+          },
+          {
+            "name": "Tabela  de Vendas Nirvana - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 6:50 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "251 KB"
+          },
+          {
+            "name": "Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 6:43 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "247 KB"
+          },
+          {
+            "name": "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 6:18 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "326 KB"
+          },
+          {
+            "name": "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 5:44 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "367 KB"
+          },
+          {
+            "name": "Tabela de Vendas Stage - 100% na Obra - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/15/2026 5:44 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "561 KB"
+          },
+          {
+            "name": "Tabela de Vendas Soma - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/14/2026 7:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "587 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "PINTO DE ALMEIDA": {
+        "path": "PINTO DE ALMEIDA",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Eldorado II - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "9/29/2026 6:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "185 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "NOVOLAR": {
+        "path": "NOVOLAR",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Green Life - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/20/2026 12:49 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "937 KB"
+          },
+          {
+            "name": "Simulador Novolar Green Life Torre 3 - Março 26.xlsx",
+            "kind": "file",
+            "modified": "4/24/2026 12:17 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "138 KB"
+          },
+          {
+            "name": "Simulador Novolar Green Life Torre 4 - Março 26.xlsx",
+            "kind": "file",
+            "modified": "3/11/2026 11:31 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "139 KB"
+          },
+          {
+            "name": "Simulador Novolar Green Life 1 e 2  Março 26 (2).xlsx",
+            "kind": "file",
+            "modified": "3/11/2026 11:30 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "168 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "LRM": {
+        "path": "LRM",
+        "expected": 3,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Scenarium - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/16/2026 12:00 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "290 KB"
+          },
+          {
+            "name": "Tabela de Vendas Solo - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/8/2026 12:42 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "306 KB"
+          },
+          {
+            "name": "Tabela de Vendas Calle Sardegna - Julho 2026.pdf",
+            "kind": "file",
+            "modified": "7/6/2026 1:29 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "288 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "JPR": {
+        "path": "JPR",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de vendas - Uni Home Studio - Set_2026.pdf",
+            "kind": "file",
+            "modified": "9/2/2026 10:38 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "67.7 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "ITAUBA": {
+        "path": "ITAUBA",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+            "kind": "file",
+            "modified": "10/20/2026 7:27 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "265 KB"
+          },
+          {
+            "name": "Tabela de Vendas Triunfo - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 12:26 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "319 KB"
+          },
+          {
+            "name": "Tabela de Vendas Business - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 12:22 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "173 KB"
+          },
+          {
+            "name": "Tabela de Vendas Serena - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/5/2026 6:48 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "268 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "JOÃO FORTES": {
+        "path": "JOÃO FORTES",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Terramarine - Setembro 2026.pdf",
+            "kind": "file",
+            "modified": "9/1/2026 12:43 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "468 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "HABITARE": {
+        "path": "HABITARE",
+        "expected": 5,
+        "rows": [
+          {
+            "name": "Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf",
+            "kind": "file",
+            "modified": "9/26/2026 4:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "435 KB"
+          },
+          {
+            "name": "Tabela de Vendas Sou Mais+ Wellness Charitas - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/25/2026 6:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "210 KB"
+          },
+          {
+            "name": "Tabela de Vendas Sou Mais+ Itacoa - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/21/2026 11:32 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "246 KB"
+          },
+          {
+            "name": "Tabela de Vendas Sou Mais Charitas - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/21/2026 11:12 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "130 KB"
+          },
+          {
+            "name": "Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf",
+            "kind": "file",
+            "modified": "6/2/2026 7:50 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "477 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "FERNANDES MACIEL": {
+        "path": "FERNANDES MACIEL",
+        "expected": 7,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
+            "kind": "file",
+            "modified": "10/7/2026 6:28 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "648 KB"
+          },
+          {
+            "name": "Tabela de Vendas SD40 - Diretor Vinicius - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/7/2026 6:13 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "132 KB"
+          },
+          {
+            "name": "Tabela de Vendas Duetto - Diretor Vinicius - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/7/2026 6:13 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "130 KB"
+          },
+          {
+            "name": "Tabela de Vendas Fazenda Fillomena (VR2) - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 1:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.16 MB"
+          },
+          {
+            "name": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
+            "kind": "file",
+            "modified": "10/6/2026 1:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.11 MB"
+          },
+          {
+            "name": "Tabela de Vendas SD40 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/1/2026 6:33 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "863 KB"
+          },
+          {
+            "name": "Tabela de Vendas Arend - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/1/2026 6:15 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.51 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "FALVES": {
+        "path": "FALVES",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas  Mok 132 - Agosto 2026.pdf",
+            "kind": "file",
+            "modified": "8/11/2026 7:19 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "625 KB"
+          },
+          {
+            "name": "Tabela de Vendas Trend By Falves - Maio 2026 (Lançamento).pdf",
+            "kind": "file",
+            "modified": "5/14/2026 6:52 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "279 KB"
+          },
+          {
+            "name": "Tabela de Vendas Namas - Março 2026.pdf",
+            "kind": "file",
+            "modified": "3/12/2026 9:35 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "416 KB"
+          },
+          {
+            "name": "Tabela de Vendas Cascais - Março 2026 (1).pdf",
+            "kind": "file",
+            "modified": "3/12/2026 9:22 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "276 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "ELVAS": {
+        "path": "ELVAS",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
+            "kind": "file",
+            "modified": "10/16/2026 11:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "560 KB"
+          },
+          {
+            "name": "Tabela de Vendas Reserva São Francisco - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/2/2026 2:12 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "639 KB"
+          },
+          {
+            "name": "Tabela de Vendas Upside - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/2/2026 2:10 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "483 KB"
+          },
+          {
+            "name": "Tabela de Vendas Neo Design - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/2/2026 2:00 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "483 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CURY": {
+        "path": "CURY",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Tabela de Vendas The Pier - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 7:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "344 KB"
+          },
+          {
+            "name": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 7:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "585 KB"
+          },
+          {
+            "name": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 7:35 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "216 KB"
+          },
+          {
+            "name": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/23/2026 7:21 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.04 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CEU": {
+        "path": "CEU",
+        "expected": 6,
+        "rows": [
+          {
+            "name": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/7/2026 10:52 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "412 KB"
+          },
+          {
+            "name": "Tabela de Vendas Tao - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/7/2026 10:52 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "527 KB"
+          },
+          {
+            "name": "Tabela de Vendas Nomad - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/7/2026 10:10 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "411 KB"
+          },
+          {
+            "name": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/7/2026 10:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "378 KB"
+          },
+          {
+            "name": "Tabela de Vendas Bäume - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/6/2026 6:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "409 KB"
+          },
+          {
+            "name": "Tabela de Vendas 141 Living (Permutante) - Junho 2026.pdf",
+            "kind": "file",
+            "modified": "6/26/2026 10:09 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "61.0 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "BACOS": {
+        "path": "BACOS",
+        "expected": 6,
+        "rows": [
+          {
+            "name": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/22/2026 6:22 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "134 KB"
+          },
+          {
+            "name": "Tabela de Vendas Style - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/22/2026 6:16 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "151 KB"
+          },
+          {
+            "name": "Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/16/2026 12:37 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "175 KB"
+          },
+          {
+            "name": "Tabela de Vendas Singular - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/16/2026 12:26 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "323 KB"
+          },
+          {
+            "name": "Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+            "kind": "file",
+            "modified": "10/16/2026 12:05 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "183 KB"
+          },
+          {
+            "name": "Tabela de Vendas Oka São Francisco - Junho 2026.pdf",
+            "kind": "file",
+            "modified": "6/17/2026 9:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "321 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      }
+    },
+    "books": {
+      "Krion": {
+        "path": "Krion",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "BOOK TÉCNICO Maris_Spin.pdf",
+            "kind": "file",
+            "modified": "7/16/2026 7:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "65.9 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Nexis": {
+        "path": "Nexis",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Spin_295A_BOOK_M48_DIGITAL_RED.pdf",
+            "kind": "file",
+            "modified": "4/10/2026 7:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "67.7 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "VL Construtora": {
+        "path": "VL Construtora",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Mare Blu.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "19.1 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Soter": {
+        "path": "Soter",
+        "expected": 13,
+        "rows": [
+          {
+            "name": "Clarice",
+            "kind": "folder",
+            "modified": "3/16/2026 6:10 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "7 items"
+          },
+          {
+            "name": "The Grove Spin - Book.pdf",
+            "kind": "file",
+            "modified": "8/12/2026 4:42 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "38.9 MB"
+          },
+          {
+            "name": "Clarice_Book Spin.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 12:55 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "15.1 MB"
+          },
+          {
+            "name": "Pulse by Soter - Book.pdf",
+            "kind": "file",
+            "modified": "11/19/2025 5:10 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "32.8 MB"
+          },
+          {
+            "name": "SPIN Origem - Minibook.pdf",
+            "kind": "file",
+            "modified": "8/14/2025 6:26 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "66.0 MB"
+          },
+          {
+            "name": "Book Maestro.pdf",
+            "kind": "file",
+            "modified": "3/14/2025 7:28 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "56.0 MB"
+          },
+          {
+            "name": "Book Íon Icaraí.pdf",
+            "kind": "file",
+            "modified": "8/22/2024 3:27 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "33.6 MB"
+          },
+          {
+            "name": "Book The Edge.pdf",
+            "kind": "file",
+            "modified": "3/14/2024 8:21 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "19.2 MB"
+          },
+          {
+            "name": "Attrium Icaraí - Minibook_compressed.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "28.1 MB"
+          },
+          {
+            "name": "Attrium Icaraí - Minibook.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "45.9 MB"
+          },
+          {
+            "name": "Book Mediterraneo SPIN.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:52 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "4.36 MB"
+          },
+          {
+            "name": "Book MUD 333.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "14.2 MB"
+          },
+          {
+            "name": "Apresentação Tarsila final.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "19.0 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Soter/Clarice": {
+        "path": "Soter/Clarice",
+        "expected": 7,
+        "rows": [
+          {
+            "name": "20260317_010744000_iOS.MP4",
+            "kind": "file",
+            "modified": "3/16/2026 6:12 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "78.2 MB"
+          },
+          {
+            "name": "Clarice_Book Spin.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 6:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "15.1 MB"
+          },
+          {
+            "name": "Apresentação de Plantas - 3 quartos.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 6:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.20 MB"
+          },
+          {
+            "name": "Apresentação de Plantas - Coberturas.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 6:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.22 MB"
+          },
+          {
+            "name": "Clarice - Linha de valores.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 6:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "691 KB"
+          },
+          {
+            "name": "Clarice - Ficha técnica.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 6:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1.56 MB"
+          },
+          {
+            "name": "Apresentação de plantas - 2 quartos.pdf",
+            "kind": "file",
+            "modified": "3/16/2026 6:11 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.00 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Tecconstru": {
+        "path": "Tecconstru",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Trópico Camboinhas.pdf",
+            "kind": "file",
+            "modified": "10/24/2024 6:36 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "115 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Tegra": {
+        "path": "Tegra",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Book Digital Flua.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "10.3 MB"
+          },
+          {
+            "name": "Book Home Boutique.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "4.61 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Tresor": {
+        "path": "Tresor",
+        "expected": 5,
+        "rows": [
+          {
+            "name": "União Contruções",
+            "kind": "folder",
+            "modified": "8/11/2026 11:04 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "1 item"
+          },
+          {
+            "name": "Spin - Nice - Conviva.pdf",
+            "kind": "file",
+            "modified": "10/23/2025 6:38 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "80.0 MB"
+          },
+          {
+            "name": "Spin - Nice - Book - 2.pdf",
+            "kind": "file",
+            "modified": "10/17/2025 4:48 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "22.8 MB"
+          },
+          {
+            "name": "Book provisório Nice Trésor.pdf",
+            "kind": "file",
+            "modified": "7/21/2025 4:49 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "21.0 MB"
+          },
+          {
+            "name": "BooK Digital Tresor Dior.pdf",
+            "kind": "file",
+            "modified": "1/23/2025 6:50 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "231 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Tresor/União Contruções": {
+        "path": "Tresor/União Contruções",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "BOOK LAZULI.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:50 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "42.1 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "JPR": {
+        "path": "JPR",
+        "expected": 3,
+        "rows": [
+          {
+            "name": "SPIN Book - CASCAIS - Estrada Fróes.pdf",
+            "kind": "file",
+            "modified": "12/28/2024 12:26 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "262 MB"
+          },
+          {
+            "name": "SPIN BOOK DIGITAL UNI HOME STUDIOS - JPR_21.06.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "96.1 MB"
+          },
+          {
+            "name": "BOOK UNIHOME SPIN.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "23.5 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "LRM": {
+        "path": "LRM",
+        "expected": 3,
+        "rows": [
+          {
+            "name": "Book Spin Digital_Solo_LRM_1920_x_1080px[1].pdf",
+            "kind": "file",
+            "modified": "9/24/2026 7:22 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "26.0 MB"
+          },
+          {
+            "name": "SPIN BOOK DIGITAL SCENARIUM PIRATININGA.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "26.8 MB"
+          },
+          {
+            "name": "Book Calle Sardegna SPIN.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "7.80 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Medeiros": {
+        "path": "Medeiros",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "SPIN Apresentação_Book Jardim Itacoa.pdf",
+            "kind": "file",
+            "modified": "7/2/2025 8:35 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "12.3 MB"
+          },
+          {
+            "name": "Book - TRE AMICI_Final_compressed.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "11.5 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Metta": {
+        "path": "Metta",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "WIND PIRATININGA BOOK.pdf",
+            "kind": "file",
+            "modified": "9/8/2025 5:04 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "11.6 MB"
+          },
+          {
+            "name": "SPIN WIND OCEÂNICA_BOOK- VS 2.pdf",
+            "kind": "file",
+            "modified": "8/13/2025 12:38 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "17.1 MB"
+          },
+          {
+            "name": "SPIN WIND OCEÂNICA_BOOK-D.pdf",
+            "kind": "file",
+            "modified": "8/7/2025 10:10 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "17.4 MB"
+          },
+          {
+            "name": "Book Wind Itacoatiara.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "9.43 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Mhor": {
+        "path": "Mhor",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Bettina SPIN.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "10.0 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "MRC": {
+        "path": "MRC",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "SPIN 115 Tapuias - Book Digital.pdf",
+            "kind": "file",
+            "modified": "5/19/2025 7:31 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "17.9 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Novolar": {
+        "path": "Novolar",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Green Life.pdf",
+            "kind": "file",
+            "modified": "6/19/2024 7:48 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "23.6 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "PA5": {
+        "path": "PA5",
+        "expected": 3,
+        "rows": [
+          {
+            "name": "Book_Monier_PA5_vFinal 2.pdf",
+            "kind": "file",
+            "modified": "4/14/2026 8:39 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "9.37 MB"
+          },
+          {
+            "name": "Pré-Lançamento _ Monier _ PA5 Empreendimentos Spin.pdf",
+            "kind": "file",
+            "modified": "1/9/2026 10:03 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "50.6 MB"
+          },
+          {
+            "name": "SPIN Gael Book_V25.pdf",
+            "kind": "file",
+            "modified": "8/4/2025 6:32 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "53.5 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Proart": {
+        "path": "Proart",
+        "expected": 7,
+        "rows": [
+          {
+            "name": "Soma-SpinBookDigital.pdf",
+            "kind": "file",
+            "modified": "5/27/2026 7:38 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "48.6 MB"
+          },
+          {
+            "name": "Book STAGE.pdf",
+            "kind": "file",
+            "modified": "9/30/2025 2:21 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "8.28 MB"
+          },
+          {
+            "name": "Mini Book Provisório - Stage.pdf",
+            "kind": "file",
+            "modified": "9/24/2025 6:13 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "5.03 MB"
+          },
+          {
+            "name": "Book digital Up Icaraí.pdf",
+            "kind": "file",
+            "modified": "9/8/2025 5:17 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.69 MB"
+          },
+          {
+            "name": "Book digital Jardim dos Manacás.pdf",
+            "kind": "file",
+            "modified": "9/26/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "50.7 MB"
+          },
+          {
+            "name": "Book Nirvana.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "17.2 MB"
+          },
+          {
+            "name": "BOOK SUNSET.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "12.8 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Pró-lotes": {
+        "path": "Pró-lotes",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "SPIN Apresentação Ocêanica Green Club Prolotes.pdf",
+            "kind": "file",
+            "modified": "4/30/2025 5:00 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "13.6 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "RAMABE": {
+        "path": "RAMABE",
+        "expected": 3,
+        "rows": [
+          {
+            "name": "Book Maren - Digital.pdf",
+            "kind": "file",
+            "modified": "2/11/2025 7:31 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "34.1 MB"
+          },
+          {
+            "name": "Book Vila Santo Antônio SPIN.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "7.68 MB"
+          },
+          {
+            "name": "Book FINAL Viña Del Mar.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.73 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "RDR": {
+        "path": "RDR",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Book Soul Fonseca.pdf",
+            "kind": "file",
+            "modified": "9/8/2025 5:30 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.70 MB"
+          },
+          {
+            "name": "Book SUN IN.pdf",
+            "kind": "file",
+            "modified": "5/21/2025 6:41 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "13.1 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "RJ Engenharia": {
+        "path": "RJ Engenharia",
+        "expected": 5,
+        "rows": [
+          {
+            "name": "Helianthus - book Spin.pdf",
+            "kind": "file",
+            "modified": "6/23/2026 6:10 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "41.5 MB"
+          },
+          {
+            "name": "Spin_Book Dahlia Residence.pdf",
+            "kind": "file",
+            "modified": "2/27/2026 4:57 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "64.5 MB"
+          },
+          {
+            "name": "Book Dahlia Residence.pdf",
+            "kind": "file",
+            "modified": "2/27/2026 4:45 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "312 MB"
+          },
+          {
+            "name": "Book - Giardino Di Verona - online.pdf",
+            "kind": "file",
+            "modified": "10/24/2025 6:19 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "20.2 MB"
+          },
+          {
+            "name": "Book digital DIANTHUS.pdf",
+            "kind": "file",
+            "modified": "9/8/2025 5:36 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "3.16 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Itauba": {
+        "path": "Itauba",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Spin Book SERENA - Itaúba.pdf",
+            "kind": "file",
+            "modified": "1/30/2026 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "80.2 MB"
+          },
+          {
+            "name": "Book Triunfo SPIN.pdf",
+            "kind": "file",
+            "modified": "9/5/2025 1:35 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "2.40 MB"
+          },
+          {
+            "name": "Book RAVELLO Residenziale - ITAÚBA-Reduzido.pdf",
+            "kind": "file",
+            "modified": "9/5/2025 1:33 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "7.44 MB"
+          },
+          {
+            "name": "Book Marina.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "4.62 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Joama": {
+        "path": "Joama",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "Spin_NP38-EBook - Final.pdf",
+            "kind": "file",
+            "modified": "3/13/2026 6:32 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "70.2 MB"
+          },
+          {
+            "name": "Spin_Book Althea 10.03 LOW.pdf",
+            "kind": "file",
+            "modified": "3/13/2026 6:22 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "223 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "João Fortes": {
+        "path": "João Fortes",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Convenção Terramarine - SPIN.pdf",
+            "kind": "file",
+            "modified": "10/4/2024 4:25 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "14.8 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Habitare": {
+        "path": "Habitare",
+        "expected": 6,
+        "rows": [
+          {
+            "name": "Book LAZULI.pdf",
+            "kind": "file",
+            "modified": "9/15/2026 4:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "191 MB"
+          },
+          {
+            "name": "Ficha_de_Interesse_Lazuli_Spin.pdf",
+            "kind": "file",
+            "modified": "9/9/2026 1:51 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "109 KB"
+          },
+          {
+            "name": "Spin_book - sou+ wellness charitas.pdf",
+            "kind": "file",
+            "modified": "9/18/2025 5:21 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "94.1 MB"
+          },
+          {
+            "name": "SPIN Book de Vendas_Sou Itacoa.pdf",
+            "kind": "file",
+            "modified": "7/3/2025 6:19 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "144 MB"
+          },
+          {
+            "name": "SPIN Book de Vendas_Sou+ Charitas.pdf",
+            "kind": "file",
+            "modified": "10/18/2024 4:18 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "131 MB"
+          },
+          {
+            "name": "Sou Mais+Icarai.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:51 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "11.0 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Fernandes Maciel": {
+        "path": "Fernandes Maciel",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Book ÍLE.pdf",
+            "kind": "file",
+            "modified": "8/26/2026 1:03 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "29.0 MB"
+          },
+          {
+            "name": "AREND Residencial book.pdf",
+            "kind": "file",
+            "modified": "6/3/2025 11:09 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "50.5 MB"
+          },
+          {
+            "name": "Book SD40.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "25.8 MB"
+          },
+          {
+            "name": "Book Duetto.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "4.02 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "GPCON": {
+        "path": "GPCON",
+        "expected": 2,
+        "rows": [
+          {
+            "name": "BOOK GREEN OPEN.pdf",
+            "kind": "file",
+            "modified": "10/10/2025 10:40 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "105 MB"
+          },
+          {
+            "name": "BOOK OPEN SANTA ROSA.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "572 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Falves": {
+        "path": "Falves",
+        "expected": 5,
+        "rows": [
+          {
+            "name": "Spin_Book - Trend - Digital-3.pdf",
+            "kind": "file",
+            "modified": "5/12/2026 1:05 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "34.1 MB"
+          },
+          {
+            "name": "Namas SmartLiving.pdf",
+            "kind": "file",
+            "modified": "9/5/2025 1:19 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "20.5 MB"
+          },
+          {
+            "name": "Apresentação - Pré-Lançamento MOK.pdf",
+            "kind": "file",
+            "modified": "2/19/2025 9:34 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "99.1 MB"
+          },
+          {
+            "name": "SPIN Book - CASCAIS - Estrada Fróes.pdf",
+            "kind": "file",
+            "modified": "12/28/2024 12:26 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "262 MB"
+          },
+          {
+            "name": "Book MB Loft SPIN.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "15.9 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Equipe": {
+        "path": "Equipe",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Vila Gaudi.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "10.2 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CYCOHRP Engenharia": {
+        "path": "CYCOHRP Engenharia",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Alto do Ingá.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "20.6 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Direcional": {
+        "path": "Direcional",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Conquista Oceânica.pdf",
+            "kind": "file",
+            "modified": "9/5/2025 1:06 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "8.53 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Elvas": {
+        "path": "Elvas",
+        "expected": 4,
+        "rows": [
+          {
+            "name": "Book Reserva São Francisco Elvas.pdf",
+            "kind": "file",
+            "modified": "3/13/2026 5:59 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "449 MB"
+          },
+          {
+            "name": "SPIN Mini Book Corretor_Upside Charitas.pdf",
+            "kind": "file",
+            "modified": "5/15/2025 10:49 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "22.3 MB"
+          },
+          {
+            "name": "SPIN Book_Upside Charitas.pdf",
+            "kind": "file",
+            "modified": "5/15/2025 10:41 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "87.1 MB"
+          },
+          {
+            "name": "SPIN Book Digital_Neo Design Icaraí.pdf",
+            "kind": "file",
+            "modified": "11/8/2024 7:55 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "22.9 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Crescer": {
+        "path": "Crescer",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Bosque Residence.pdf",
+            "kind": "file",
+            "modified": "2/12/2025 10:05 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "9.29 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Cury": {
+        "path": "Cury",
+        "expected": 6,
+        "rows": [
+          {
+            "name": "Spin_Book_Digital_Orla_Central_V4.pdf",
+            "kind": "file",
+            "modified": "4/30/2026 10:06 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "37.4 MB"
+          },
+          {
+            "name": "Orla Central Clientes_Spin.pdf",
+            "kind": "file",
+            "modified": "4/30/2026 8:47 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "64.4 MB"
+          },
+          {
+            "name": "RIO BRANCO 220.pdf",
+            "kind": "file",
+            "modified": "9/5/2025 12:58 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "13.3 MB"
+          },
+          {
+            "name": "Book Digital Caminhos da Guanabara.pdf",
+            "kind": "file",
+            "modified": "4/3/2025 7:26 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "49.5 MB"
+          },
+          {
+            "name": "ThePier_BookDigital SPIN.pdf",
+            "kind": "file",
+            "modified": "9/6/2024 11:14 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "56.4 MB"
+          },
+          {
+            "name": "Flow Santa Rosa SPIN Prévia.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:54 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "5.72 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CAC": {
+        "path": "CAC",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book Acqua SPIN.pdf",
+            "kind": "file",
+            "modified": "3/14/2024 1:20 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "15.1 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "CEU": {
+        "path": "CEU",
+        "expected": 9,
+        "rows": [
+          {
+            "name": "Book Spin Mobile - Maria Maria.pdf",
+            "kind": "file",
+            "modified": "7/2/2026 10:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "18.5 MB"
+          },
+          {
+            "name": "Book Spin PC - Maria Maria.pdf",
+            "kind": "file",
+            "modified": "7/2/2026 10:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "18.6 MB"
+          },
+          {
+            "name": "Book Nomad.pdf",
+            "kind": "file",
+            "modified": "4/28/2026 11:58 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "215 MB"
+          },
+          {
+            "name": "Spin - Book - Tao.pdf",
+            "kind": "file",
+            "modified": "11/12/2025 12:57 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "15.3 MB"
+          },
+          {
+            "name": "ficha técnica NOMAD.pdf",
+            "kind": "file",
+            "modified": "10/23/2025 10:16 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "302 KB"
+          },
+          {
+            "name": "BOOK Mobile TAO.pdf",
+            "kind": "file",
+            "modified": "3/24/2025 10:02 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "3.37 MB"
+          },
+          {
+            "name": "TAO book horizontal.pdf",
+            "kind": "file",
+            "modified": "1/30/2025 10:16 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "11.2 MB"
+          },
+          {
+            "name": "BOOK IT CAMBOINHAS (1).pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "17.1 MB"
+          },
+          {
+            "name": "Book 141.pdf",
+            "kind": "file",
+            "modified": "2/22/2024 10:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "23.9 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Cheade": {
+        "path": "Cheade",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "SPIN In Icaraí Book VS 1.pdf",
+            "kind": "file",
+            "modified": "10/16/2024 5:16 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "36.1 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Conviva": {
+        "path": "Conviva",
+        "expected": 8,
+        "rows": [
+          {
+            "name": "Book Nice - Digital Spin.pdf",
+            "kind": "file",
+            "modified": "7/21/2026 1:33 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "78.9 MB"
+          },
+          {
+            "name": "Spin_Book Provisório - Conviva Itacoa - Antecipe-se ao lançamento.pdf",
+            "kind": "file",
+            "modified": "5/19/2026 6:41 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "47.8 MB"
+          },
+          {
+            "name": "Book Conviva Charitas.pdf",
+            "kind": "file",
+            "modified": "4/24/2026 8:33 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "53.9 MB"
+          },
+          {
+            "name": "Spin Book - Conviva Icarai - Antecipe-se ao lançamento.pdf",
+            "kind": "file",
+            "modified": "4/8/2026 10:33 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "39.7 MB"
+          },
+          {
+            "name": "Brise by Conviva.pdf",
+            "kind": "file",
+            "modified": "2/27/2025 8:17 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "24.0 MB"
+          },
+          {
+            "name": "Conviva Camboinhas Life.pdf",
+            "kind": "file",
+            "modified": "1/20/2025 6:22 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "175 MB"
+          },
+          {
+            "name": "Conviva Life Ingá finalizado.pdf",
+            "kind": "file",
+            "modified": "1/20/2025 6:15 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "167 MB"
+          },
+          {
+            "name": "Book Conviva Camboinhas_ver4.pdf",
+            "kind": "file",
+            "modified": "1/13/2025 3:56 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "161 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Anasa": {
+        "path": "Anasa",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "Book_Fazenda Fillomena SPIN.pdf",
+            "kind": "file",
+            "modified": "1/25/2024 6:01 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "56.2 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "Bacos": {
+        "path": "Bacos",
+        "expected": 5,
+        "rows": [
+          {
+            "name": "Book _ Singular _ BacosSignature _Spin.pdf",
+            "kind": "file",
+            "modified": "9/3/2026 9:36 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "116 MB"
+          },
+          {
+            "name": "Book _ PEBÊ 74 _ Bacos Signature.pdf",
+            "kind": "file",
+            "modified": "4/29/2026 10:23 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "56.1 MB"
+          },
+          {
+            "name": "Book Style.pdf",
+            "kind": "file",
+            "modified": "9/1/2025 7:36 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "38.9 MB"
+          },
+          {
+            "name": "OKA STUDIOS ICARAÍ - BOOK.pdf",
+            "kind": "file",
+            "modified": "6/25/2025 7:27 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "52.9 MB"
+          },
+          {
+            "name": "OKA STUDIOS RESIDENCIAIS BOOK SPIN.pdf",
+            "kind": "file",
+            "modified": "3/28/2024 12:45 PM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "62.8 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      },
+      "4MX": {
+        "path": "4MX",
+        "expected": 1,
+        "rows": [
+          {
+            "name": "SPIN JARDIN DI GRAZIELLE - BOOK DIGITAL - Wide.pdf",
+            "kind": "file",
+            "modified": "7/21/2025 7:26 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+            "sizeOrItems": "186 MB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": []
+      }
+    }
+  },
+  "reconciliation": {
+    "tables": {
+      "rootFolders": 40,
+      "subfolders": 0,
+      "listedFiles": 140,
+      "downloadedFiles": 140,
+      "uiZipPathDifferences": []
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "listedFiles": 130,
+      "downloadedFiles": 130,
+      "uiZipPathDifferences": []
+    }
+  },
+  "addedFolders": [],
+  "removedFolders": [],
+  "renamedOrMovedFiles": []
+}
