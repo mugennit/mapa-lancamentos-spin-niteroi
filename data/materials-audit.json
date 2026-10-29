@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28",
+  "checkedAt": "2026-10-29",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,12 +16,12 @@
     "mapEligibleProjects": 82
   },
   "validation": {
-    "tableComparison": "All 140 official table files matched the current 27/10 source inventory and SHA-256; no added, removed or changed files.",
+    "tableComparison": "All 140 official table files matched the 28/10 source inventory, modification metadata and SHA-256; no added, removed or changed files.",
     "identicalTables": 140,
     "differentTables": 0,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded, CRC-verified and SHA-256 matched against 27/10.",
+    "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded, CRC-verified, SHA-256 matched and source metadata compared against 28/10.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 0,
     "bookContentReport": "data/books-content-comparison-2026-10-16.json",
@@ -30,13 +30,16 @@
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-28",
-      "baseline": "2026-10-27",
+      "date": "2026-10-29",
+      "baseline": "2026-10-28",
       "tableFilesIdenticalSha256": 140,
       "bookFilesIdenticalSha256": 130,
+      "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
       "drivePairMetadataAndPublicReaderPermissionsChecked": 164,
-      "mainFolderMetadataAndPublicReaderPermissionsChecked": 8
+      "mainFolderMetadataAndPublicReaderPermissionsChecked": 8,
+      "additionalPublicBookFilesChecked": 46,
+      "allReferencedUniqueFilesWithPublicReader": 218
     }
   },
   "corrections": [
@@ -794,13 +797,13 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-28",
+  "lastInventoryCheckedAt": "2026-10-29",
   "lastTablesUpdatedAt": "2026-10-27",
-  "lastBooksComparedAt": "2026-10-28",
-  "lastTablesInventoryCheckedAt": "2026-10-28",
-  "lastFullSourceAuditAt": "2026-10-28",
-  "lastTablesComparedAt": "2026-10-28",
-  "sourceAuditReport": "data/source-audit-2026-10-28.json",
+  "lastBooksComparedAt": "2026-10-29",
+  "lastTablesInventoryCheckedAt": "2026-10-29",
+  "lastFullSourceAuditAt": "2026-10-29",
+  "lastTablesComparedAt": "2026-10-29",
+  "sourceAuditReport": "data/source-audit-2026-10-29.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
   "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json"
 }
