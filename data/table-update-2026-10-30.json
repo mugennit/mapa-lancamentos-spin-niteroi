@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-30",
+  "projectId": "115-tapuias",
+  "change": "Official MRC table folder returned after being absent on 29/10; project can return to the map.",
+  "officialSource": {
+    "path": "Tabelas de Vendas/MRC/Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+    "sharePointModificationDisplayed": "10/29/2026 6:44 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+    "commercialDatePrinted": "29/10/2026",
+    "commercialDate": "2026-10-29",
+    "bytes": 208642,
+    "sha256": "7242a76d7cc0d868b56b7de52c5f7228d4dfa04ae3a5306344daccfc879053d7"
+  },
+  "drive": {
+    "folderId": "1nAOQWe01YHKmjI3EXPUaeOlsMq70XHGn",
+    "folderRestoredFromHistory": true,
+    "tableFileId": "1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA",
+    "previousTable": "Abril 2026",
+    "replacedInPlace": true,
+    "tableRedownloadSha256Verified": true,
+    "bookFileId": "1ByQenh12GDrX9g6b6MdJRsuCi_4MwZAb",
+    "bookMovedIntoProjectFolder": true,
+    "bookSha256": "c65760e73204f8756c19054bac18be1dcb6be3f9f8d984766d5084d895f93cde",
+    "bookMatchesOfficialSourceBaseline": true,
+    "bookAndTablePublicReaderVerified": true,
+    "currentTableCount": 1
+  },
+  "coordinates": {
+    "source": "Current owner coordinates sheet",
+    "sheetRow": 2,
+    "lat": -22.918477,
+    "lng": -43.091176,
+    "status": "Conferido / Confirmado",
+    "changed": false
+  },
+  "sheetUpdate": {
+    "tab": "Lançamentos",
+    "ranges": [
+      "P2",
+      "R2"
+    ],
+    "tableVersion": "Outubro 2026",
+    "materialsCheckedAt": "2026-10-30",
+    "valuesAndNativeFormatsReadBack": true
+  },
+  "availableUnits": [
+    {
+      "unit": "101",
+      "area": 132.46,
+      "bedrooms": 3,
+      "suites": 3,
+      "parkingSpaces": 1,
+      "price": 1500000
+    },
+    {
+      "unit": "102",
+      "area": 110.2,
+      "bedrooms": 3,
+      "suites": 3,
+      "parkingSpaces": 1,
+      "price": 1350000
+    }
+  ],
+  "bookEvidence": "Official book pages 11, 12 and 19: first-floor apartments have 3 suites; areas match units 101 and 102.",
+  "constructionEvidence": "October table states that the Aceite de Obras was granted on 07/08/2026. The old planned September delivery was removed; no handover date was estimated.",
+  "preserved": [
+    "All other catalog projects",
+    "Current password and interface improvements",
+    "Existing Drive file IDs and URLs",
+    "Owner-confirmed coordinates",
+    "General-list project count of 113"
+  ]
+}

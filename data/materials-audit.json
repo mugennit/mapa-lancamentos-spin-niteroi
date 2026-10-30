@@ -1,45 +1,46 @@
 {
-  "checkedAt": "2026-10-29",
+  "checkedAt": "2026-10-30",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
-    "tableFolders": 40,
-    "tableSourceFiles": 140,
+    "tableFolders": 41,
+    "tableSourceFiles": 141,
     "bookRootFolders": 40,
     "bookSubfolders": 2,
     "bookSourceFiles": 130,
     "catalogProjects": 113,
-    "projectsWithBookAndTable": 82,
-    "projectsWithTable": 89,
-    "driveProjectFolders": 82,
-    "driveFilesInProjectFolders": 164,
-    "mapEligibleProjects": 82
+    "projectsWithBookAndTable": 83,
+    "projectsWithTable": 90,
+    "driveProjectFolders": 83,
+    "driveFilesInProjectFolders": 166,
+    "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "All 140 official table files matched the 28/10 source inventory, modification metadata and SHA-256; no added, removed or changed files.",
+    "tableComparison": "140 official table files matched 29/10 SHA-256 and source metadata. The MRC folder returned with the new October 115 Tapuias table.",
     "identicalTables": 140,
     "differentTables": 0,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "All 130 official source files across 40 root folders and 2 subfolders were downloaded, CRC-verified, SHA-256 matched and source metadata compared against 28/10.",
+    "driveFoldersWithExactlyTwoFiles": 83,
+    "bookComparison": "All 130 official book-source files were downloaded, CRC-verified and SHA-256 matched against 29/10; all source paths and metadata reconciled.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 0,
+    "newTables": 1,
     "bookContentReport": "data/books-content-comparison-2026-10-16.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-29",
-      "baseline": "2026-10-28",
+      "date": "2026-10-30",
+      "baseline": "2026-10-29",
       "tableFilesIdenticalSha256": 140,
+      "tableFilesAdded": 1,
       "bookFilesIdenticalSha256": 130,
       "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
-      "drivePairMetadataAndPublicReaderPermissionsChecked": 164,
+      "drivePairMetadataAndPublicReaderPermissionsChecked": 166,
       "mainFolderMetadataAndPublicReaderPermissionsChecked": 8,
-      "additionalPublicBookFilesChecked": 46,
-      "allReferencedUniqueFilesWithPublicReader": 218
+      "additionalPublicBookFilesChecked": 45,
+      "allReferencedUniqueFilesWithPublicReader": 219
     }
   },
   "corrections": [
@@ -107,6 +108,13 @@
       "date": "2026-10-23",
       "action": "Latest official October table replaced in place; unit availability refreshed; re-fetched SHA-256, single current table and public reader verified.",
       "url": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk"
+    },
+    {
+      "id": "115-tapuias",
+      "date": "2026-10-30",
+      "action": "Replaced April table with the official October table in place; stable URL; downloaded-back SHA-256 verified; restored the complete public-reader pair and exact pin.",
+      "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+      "sourceSha256": "7242a76d7cc0d868b56b7de52c5f7228d4dfa04ae3a5306344daccfc879053d7"
     }
   ],
   "exceptions": [
@@ -491,10 +499,11 @@
     },
     {
       "id": "115-tapuias",
-      "name": "Tabela de Vendas 115 Tapuias - Abril 2026.pdf",
-      "sha256": "40d5c06236281697aca34b4dd36b6fad1bc1a4621a844202daaa46c2e5894579",
-      "bytes": 211356,
-      "driveIdentical": true
+      "name": "Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+      "sha256": "7242a76d7cc0d868b56b7de52c5f7228d4dfa04ae3a5306344daccfc879053d7",
+      "bytes": 208642,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-30"
     },
     {
       "id": "green-life",
@@ -797,13 +806,13 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-29",
-  "lastTablesUpdatedAt": "2026-10-27",
-  "lastBooksComparedAt": "2026-10-29",
-  "lastTablesInventoryCheckedAt": "2026-10-29",
-  "lastFullSourceAuditAt": "2026-10-29",
-  "lastTablesComparedAt": "2026-10-29",
-  "sourceAuditReport": "data/source-audit-2026-10-29.json",
+  "lastInventoryCheckedAt": "2026-10-30",
+  "lastTablesUpdatedAt": "2026-10-30",
+  "lastBooksComparedAt": "2026-10-30",
+  "lastTablesInventoryCheckedAt": "2026-10-30",
+  "lastFullSourceAuditAt": "2026-10-30",
+  "lastTablesComparedAt": "2026-10-30",
+  "sourceAuditReport": "data/source-audit-2026-10-30.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
   "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json"
 }

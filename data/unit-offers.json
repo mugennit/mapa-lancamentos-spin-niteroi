@@ -16256,5 +16256,25 @@
     "notes": [
       "Todas as quantidades da tabela são zero. Não anunciar os preços das linhas sem disponibilidade."
     ]
+  },
+  "115-tapuias": {
+    "checkedAt": "2026-10-30",
+    "tableUrl": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "complete",
+    "offers": [
+      {
+        "unit": "101",
+        "typology": "3 quartos",
+        "price": 1500000,
+        "parkingSpaces": 1
+      },
+      {
+        "unit": "102",
+        "typology": "3 quartos",
+        "price": 1350000,
+        "parkingSpaces": 1
+      }
+    ]
   }
 }

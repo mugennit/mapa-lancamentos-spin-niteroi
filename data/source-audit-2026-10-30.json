@@ -1,0 +1,153 @@
+{
+  "checkedAt": "2026-10-30",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-10-29",
+  "method": [
+    "Opened both public folders from the Linktree buttons in the same browser session without login.",
+    "Scrolled both virtualized roots to the end, traversed all 81 root folders and 2 subfolders, and reconciled every displayed item count.",
+    "Downloaded both current complete archives, CRC-verified every entry, SHA-256 compared all 271 files and matched every downloaded path to the UI inventory.",
+    "Compared names, displayed sizes, item counts and exact source modification tooltips with 29/10; MRC returned with one new official October table; all other source metadata and bytes unchanged.",
+    "Read the current coordinates sheet, matched all 83 Drive pairs to the complete catalog and verified public-reader permissions for all 219 unique referenced files.",
+    "Rendered and inspected the new table and the official book technical sheet; replaced April bytes in place, re-downloaded and SHA-256 verified the October table."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "files": 141
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    }
+  },
+  "content": {
+    "tablesIdentical": 140,
+    "tablesAdded": 1,
+    "tablesRemoved": 0,
+    "tablesChanged": 0,
+    "booksIdentical": 130,
+    "booksAdded": 0,
+    "booksRemoved": 0,
+    "booksChanged": 0,
+    "sourceModificationMetadataChanges": 0
+  },
+  "changes": [
+    {
+      "type": "restored-table-and-map-project",
+      "projectId": "115-tapuias",
+      "name": "115 Tapuias",
+      "sourcePath": "Tabelas de Vendas/MRC/Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+      "commercialDatePrinted": "29/10/2026",
+      "action": "Replaced the old April file in place, restored the project folder to MAPA SITE and moved the confirmed official book into it. Retained file IDs and URLs; one current table; both files are public-reader. Restored the project to the map using its existing confirmed point; updated availability and removed the superseded planned delivery.",
+      "details": "data/table-update-2026-10-30.json"
+    }
+  ],
+  "catalog": {
+    "projects": 113,
+    "projectsWithBookAndTable": 83,
+    "mapEligibleProjects": 83,
+    "previousCompleteAndMapEligibleProjects": 82,
+    "basedOnCommit": "07175bb3e8c9804fc78270cfb09efb466f808d96"
+  },
+  "coordinates": {
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:T150",
+    "projectRows": 112,
+    "newNumericCoordinates": [],
+    "newMapsLinksToResolve": [],
+    "completeProjectsPendingLocation": [],
+    "rioBranco220": {
+      "row": 74,
+      "lat": -22.8893326,
+      "lng": -43.1253427,
+      "kind": "Owner-supplied exact sales-office point; cadastral address preserved."
+    },
+    "restoredProject": {
+      "id": "115-tapuias",
+      "sheetRow": 2,
+      "lat": -22.918477,
+      "lng": -43.091176,
+      "changed": false
+    }
+  },
+  "drive": {
+    "mapSiteFolders": 83,
+    "filesInMapSite": 166,
+    "foldersWithExactlyTwoFiles": 83,
+    "publicReaderFiles": 166,
+    "mainFolderFiles": 8,
+    "mainFolderPublicReaderFiles": 8,
+    "replacementsRequired": 1,
+    "obsoleteCopiesRemoved": 0,
+    "additionalBookFilesOutsideMapFolders": 45,
+    "uniqueReferencedFiles": 219,
+    "referencedFilesWithPublicReader": 219,
+    "allManifestLinksVerified": true,
+    "allMapFolderPairsMatchedToCatalog": true,
+    "projectsWithMultipleCurrentTables": [],
+    "tablesReplacedInPlace": 1,
+    "foldersRestoredFromHistory": [
+      "115 Tapuias"
+    ]
+  },
+  "baume": {
+    "officialBooksFolderContainsBaume": false,
+    "officialBooksCEUItems": 9,
+    "ownerProvidedBookAndCurrentTableConfirmed": true,
+    "tableVersion": "Outubro 2026",
+    "tableContentChanged": false
+  },
+  "commercialNotes": [
+    "The new table is dated 29/10/2026 in its printed content; the SharePoint modification timestamp was not used as its commercial date.",
+    "The October table states that Aceite de Obras was granted on 07/08/2026. The superseded September delivery forecast was removed; no handover date was estimated."
+  ],
+  "limitations": [
+    {
+      "scope": "Vercel direct deployment-details lookup",
+      "observed": "403 forbidden for the lojameubompet-8622 team scope. GitHub reports success for both Vercel checks on the reviewed commit.",
+      "impact": "The protected production catalog was not visually counted; the public page showed the existing password screen."
+    }
+  ],
+  "publication": {
+    "catalogChangesRequired": true,
+    "reason": "Restore 115 Tapuias with its new official October table, stock and validated exact point.",
+    "existingPasswordScreenVerified": true,
+    "productionLoginUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login"
+  },
+  "sheetMaterialsUpdate": {
+    "tab": "Lançamentos",
+    "ranges": [
+      "P2",
+      "R2"
+    ],
+    "tableVersion": "Outubro 2026",
+    "materialsCheckedAt": "2026-10-30",
+    "otherCellValuesUnchanged": true,
+    "nativeFormatsReadBack": true,
+    "nativeVisualCheck": "Not authenticated in the browser; verified target and neighbor cell values and native formats through the Sheets API."
+  },
+  "validation": {
+    "focusedTapuiasStockBudgetParkingDatesLinksAndCoordinates": "passed",
+    "parkingSearchTestsPassed": 4,
+    "generalSearchSuite": {
+      "status": "pre-existing fixture-validation failure",
+      "unchangedBaselineRecords": [
+        {
+          "id": "up-icarai",
+          "unit": "1205",
+          "typology": "A confirmar"
+        },
+        {
+          "id": "soul-fonseca",
+          "unit": "1208 / Bloco 2",
+          "typology": "PCD"
+        }
+      ],
+      "reason": "The existing test whitelist rejects these same two values in both baseline and working data. No unrelated catalog records or tests were modified."
+    }
+  }
+}

@@ -2909,11 +2909,16 @@
     ],
     "features": [],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/115-tapuias-residences-apartamentos-e-coberturas-niteroi-3-a-4-quartos-110-a-232-m/22961413-SETV",
-    "availableUnits": [],
-    "availabilityTableDate": null,
-    "delivery": "Setembro 2026",
-    "deliveryEvidence": "4- Data prevista para conclusão da obra: 20/09/2026.",
-    "deliverySource": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk"
+    "availableUnits": [
+      "101",
+      "102"
+    ],
+    "availabilityTableDate": "Outubro 2026",
+    "delivery": null,
+    "deliveryEvidence": "O Aceite de Obras foi concedido em: 07/08/2026.",
+    "deliverySource": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+    "deliveryStatus": "Pronto",
+    "deliveryStatusEvidence": "O Aceite de Obras foi concedido em: 07/08/2026."
   },
   "monier": {
     "typologies": [

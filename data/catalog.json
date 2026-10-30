@@ -2814,21 +2814,34 @@
       "name": "SPIN 115 Tapuias - Book Digital.pdf",
       "url": "https://drive.google.com/file/d/1ByQenh12GDrX9g6b6MdJRsuCi_4MwZAb/view?usp=drivesdk"
     },
-    "tables": [],
-    "price": null,
-    "minArea": null,
-    "maxArea": null,
-    "rooms": [],
+    "tables": [
+      {
+        "name": "Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+        "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-29",
+        "sourceFileVersion": "Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+        "checkedAt": "2026-10-30"
+      }
+    ],
+    "price": 1350000,
+    "minArea": 110.2,
+    "maxArea": 132.46,
+    "rooms": [
+      3,
+      4
+    ],
     "delivery": null,
-    "status": "A confirmar",
+    "status": "Pronto",
     "lat": -22.918477,
     "lng": -43.091176,
     "precision": "exact",
     "photo": "/empreendimentos/115-tapuias.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-30",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
-      "25/10/2026: tabela e pasta não constam mais em Tabelas de Vendas. Arquivo antigo preservado no histórico, sem confirmação atual; empreendimento mantido na lista e fora do mapa."
+      "Tabela oficial de 29/10/2026 com duas unidades na disponibilidade: 101 e 102.",
+      "Áreas e preços atuais correspondem às unidades 101 e 102 da tabela de outubro.",
+      "Aceite de obras concedido em 07/08/2026, conforme tabela oficial."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -2843,7 +2856,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.918477,-43.091176",
-    "materialsCheckedAt": "2026-10-25"
+    "materialsCheckedAt": "2026-10-30"
   },
   {
     "id": "m-48",

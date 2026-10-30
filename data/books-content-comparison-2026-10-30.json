@@ -1,0 +1,662 @@
+{
+  "checkedAt": "2026-10-30",
+  "baseline": "2026-10-29",
+  "status": "complete",
+  "allZipEntriesReadAndCrcVerified": true,
+  "sourceFiles": [
+    {
+      "path": "4MX/SPIN JARDIN DI GRAZIELLE - BOOK DIGITAL - Wide.pdf",
+      "bytes": 194916154,
+      "sha256": "7b6c95730e23c264a4ebf29e7efbc1b1f7a64cc3845fb99b80a661f6422ee0a7"
+    },
+    {
+      "path": "Anasa/Book_Fazenda Fillomena SPIN.pdf",
+      "bytes": 58918854,
+      "sha256": "e23d765bf9fe36cb9234b96829e52485be6001ecc5a2d26df07e1aa0f6720f71"
+    },
+    {
+      "path": "Bacos/Book _ PEBÊ 74 _ Bacos Signature.pdf",
+      "bytes": 58829260,
+      "sha256": "cfa69cdebd8b9d823051f5dde558d9386974c056bac0ee253251905d05b3ebc0"
+    },
+    {
+      "path": "Bacos/Book _ Singular _ BacosSignature _Spin.pdf",
+      "bytes": 121805742,
+      "sha256": "243324581013a416bff52a91463d098b1f2e53290802a6f02c8ae63444381b07"
+    },
+    {
+      "path": "Bacos/Book Style.pdf",
+      "bytes": 40746421,
+      "sha256": "99bda203cb3d1820e9c75c84f5f5fe789ae2c72d551c21f19aabe8bd36502a97"
+    },
+    {
+      "path": "Bacos/OKA STUDIOS ICARAÍ - BOOK.pdf",
+      "bytes": 55514595,
+      "sha256": "aa3dd1bd0cdcbb4e41ba8810e2fb5f148b9969caf1af8dd58480ef96cc30b490"
+    },
+    {
+      "path": "Bacos/OKA STUDIOS RESIDENCIAIS BOOK SPIN.pdf",
+      "bytes": 65884275,
+      "sha256": "98a5062d4cd2d0bc957947251ed759348f8a9c53b99a6062c343ef0777095e19"
+    },
+    {
+      "path": "CAC/Book Acqua SPIN.pdf",
+      "bytes": 15855991,
+      "sha256": "4364e52ab34e9461454b16cf0fd65487403334780b149d38ecea4612c154aead"
+    },
+    {
+      "path": "CEU/Book 141.pdf",
+      "bytes": 25055619,
+      "sha256": "6b9e07fb9f9ee9ba0619534ce86766343c3f5c05bb9d59f66a9a66788e171b77"
+    },
+    {
+      "path": "CEU/BOOK IT CAMBOINHAS (1).pdf",
+      "bytes": 17982215,
+      "sha256": "1db958dcb5158f038dc1452025d8df43eea57677904e44d317b15daf18416f93"
+    },
+    {
+      "path": "CEU/BOOK Mobile TAO.pdf",
+      "bytes": 3537194,
+      "sha256": "cb023ce920f6279b349679d6319d4076703dc596daced3a44fdeaa1854cdb7dd"
+    },
+    {
+      "path": "CEU/Book Nomad.pdf",
+      "bytes": 225123926,
+      "sha256": "7e32c797d9a5aa929f19536ce55944a42e12a3ca702a27902971be8b16e967ba"
+    },
+    {
+      "path": "CEU/Book Spin Mobile - Maria Maria.pdf",
+      "bytes": 19362750,
+      "sha256": "35fb81c7c80fee956eb5ba612a1ce98797e732144fcdff7d4b44b37a8602632a"
+    },
+    {
+      "path": "CEU/Book Spin PC - Maria Maria.pdf",
+      "bytes": 19539001,
+      "sha256": "7826af186c996ac488c09641a4d4f00f31372fbe79de5b2912521e712ec7219a"
+    },
+    {
+      "path": "CEU/ficha técnica NOMAD.pdf",
+      "bytes": 309454,
+      "sha256": "d9c514cf410f9096e845fb7e4bfe6d956e01bcb69c8ff15a6650c416b5ed0aac"
+    },
+    {
+      "path": "CEU/Spin - Book - Tao.pdf",
+      "bytes": 16041001,
+      "sha256": "a8143203de7526f13edbae574ef6908c025f93c21909ceeb9ae4af09fda8aa8d"
+    },
+    {
+      "path": "CEU/TAO book horizontal.pdf",
+      "bytes": 11706149,
+      "sha256": "16b94e8cece43f4fc358ca353c93c50fa205dbad9c700a5808915ec4f7b74312"
+    },
+    {
+      "path": "Cheade/SPIN In Icaraí Book VS 1.pdf",
+      "bytes": 37869200,
+      "sha256": "8a2da9c8d418f56c63851d0bc11d28b9a25475d9b7ceceb54274806297245acd"
+    },
+    {
+      "path": "Conviva/Book Conviva Camboinhas_ver4.pdf",
+      "bytes": 168882324,
+      "sha256": "fba1db8301c637bc4b74460c7b5395d886616e695d49e35ef9c9c863373b7ec9"
+    },
+    {
+      "path": "Conviva/Book Conviva Charitas.pdf",
+      "bytes": 56528148,
+      "sha256": "070aa22963bd5c7d76395b8847e396e0be3d5a31090ca8c83b0bc98f490ef44b"
+    },
+    {
+      "path": "Conviva/Book Nice - Digital Spin.pdf",
+      "bytes": 82750244,
+      "sha256": "fe0f2e800c91d9f3985c8c1ff2cc3cf82ab8eabeb19d1622e3cb0f1a29e41faf"
+    },
+    {
+      "path": "Conviva/Brise by Conviva.pdf",
+      "bytes": 25169384,
+      "sha256": "ac0740809e4b748a8564b77db79e18d83981d77016efa3b0b47db72c904b042e"
+    },
+    {
+      "path": "Conviva/Conviva Camboinhas Life.pdf",
+      "bytes": 183420817,
+      "sha256": "f7e26d76a8fa3088290ba3c0499d3c6bae7cbc2e6ae642053e3a6c66f53c9733"
+    },
+    {
+      "path": "Conviva/Conviva Life Ingá finalizado.pdf",
+      "bytes": 175163207,
+      "sha256": "47e03f16e7338625dbd002e8cdaf069b1bde8746745e1635567ba945d2623fd3"
+    },
+    {
+      "path": "Conviva/Spin Book - Conviva Icarai - Antecipe-se ao lançamento.pdf",
+      "bytes": 41638137,
+      "sha256": "e1536fe7a5cf316b86c024ba46d1d8273458859b9cfea8135741d3e7066cf004"
+    },
+    {
+      "path": "Conviva/Spin_Book Provisório - Conviva Itacoa - Antecipe-se ao lançamento.pdf",
+      "bytes": 50122978,
+      "sha256": "245c5abcd26dba122f8487feaa56bf87d4fc6e1fc6db0bf31f092535eee62768"
+    },
+    {
+      "path": "Crescer/Bosque Residence.pdf",
+      "bytes": 9739900,
+      "sha256": "1411dd3d38d89bfa437be3c1a0b8b5be5416c0e79e453656efc08d3abf6297c7"
+    },
+    {
+      "path": "Cury/Book Digital Caminhos da Guanabara.pdf",
+      "bytes": 51944962,
+      "sha256": "1f443c4b6052d6678d3fa2c3d01000f0fc61fa4ae87bb84190b9743b089e2306"
+    },
+    {
+      "path": "Cury/Flow Santa Rosa SPIN Prévia.pdf",
+      "bytes": 6002798,
+      "sha256": "e7a08c52b9a66557bf9eec614f494c57c1e56c3cb4644de495c6f5b4f200c47f"
+    },
+    {
+      "path": "Cury/Orla Central Clientes_Spin.pdf",
+      "bytes": 67498106,
+      "sha256": "d3dbf3d71b4b3e9ffc2f6de239948c3f921d97c44076bd159c82c9193c029652"
+    },
+    {
+      "path": "Cury/RIO BRANCO 220.pdf",
+      "bytes": 13987474,
+      "sha256": "080bc1a5f41891437efeae16a10dadf59df9427d9b18fb51e3bee61d9abc4bb4"
+    },
+    {
+      "path": "Cury/Spin_Book_Digital_Orla_Central_V4.pdf",
+      "bytes": 39174256,
+      "sha256": "b702a6e3d1a50cf45883fa42688c1c9ac7e02e475d9508499954f461fc101a44"
+    },
+    {
+      "path": "Cury/ThePier_BookDigital SPIN.pdf",
+      "bytes": 59143775,
+      "sha256": "0b72d14433a23d6088d71ee0a9fdfba14b919ca18149974c393e58f2b4ae4468"
+    },
+    {
+      "path": "CYCOHRP Engenharia/Book Alto do Ingá.pdf",
+      "bytes": 21572876,
+      "sha256": "3b05ab5f4a3d14e096be442ec715699dbb83da6f47da2b9954befb19c6eb98a0"
+    },
+    {
+      "path": "Direcional/Book Conquista Oceânica.pdf",
+      "bytes": 8944369,
+      "sha256": "1164c8cb1bfb7233175a4b02b3dbd99aa07bf198c00c8effb3e26679e867fc50"
+    },
+    {
+      "path": "Elvas/Book Reserva São Francisco Elvas.pdf",
+      "bytes": 470410466,
+      "sha256": "90341ffd37f9948d91d49cab87c587f65e42a035852597cecd469de1b8cb835e"
+    },
+    {
+      "path": "Elvas/SPIN Book Digital_Neo Design Icaraí.pdf",
+      "bytes": 24051047,
+      "sha256": "406f51d58859e16243111e501a3f15a43a9c9b52efdd1a3d092c5729f462a8a0"
+    },
+    {
+      "path": "Elvas/SPIN Book_Upside Charitas.pdf",
+      "bytes": 91360150,
+      "sha256": "b578b55cac5330605525a769e8cca6bdfeb829e36e2f22a74ddde92cf3725256"
+    },
+    {
+      "path": "Elvas/SPIN Mini Book Corretor_Upside Charitas.pdf",
+      "bytes": 23377103,
+      "sha256": "d8b148ac6c2bb7a7cb61651c43b8925f1067990e6856304ae689ba476f289e23"
+    },
+    {
+      "path": "Equipe/Book Vila Gaudi.pdf",
+      "bytes": 10645103,
+      "sha256": "73ad292e2d8344f8af2c475add073a365861116a55aab0b9ce0b5fb16965137c"
+    },
+    {
+      "path": "Falves/Apresentação - Pré-Lançamento MOK.pdf",
+      "bytes": 103904228,
+      "sha256": "7f104648d60283e56942c1ac3309d1242246a753ed5e88a26359c5ccbe157d15"
+    },
+    {
+      "path": "Falves/Book MB Loft SPIN.pdf",
+      "bytes": 16622020,
+      "sha256": "ce99ea152f3bd71a294755f2639807288657d49a778664cc3cc7616271fb8daf"
+    },
+    {
+      "path": "Falves/Namas SmartLiving.pdf",
+      "bytes": 21447135,
+      "sha256": "baba8d3a6c68e4fa49a76433fd63f8db57163bd0111ae415c5ad25018173d4b6"
+    },
+    {
+      "path": "Falves/SPIN Book - CASCAIS - Estrada Fróes.pdf",
+      "bytes": 274632346,
+      "sha256": "4be9d9628a2aad224930f16f8e4ca4c7c011afa9696813908197da287dcc3ae7"
+    },
+    {
+      "path": "Falves/Spin_Book - Trend - Digital-3.pdf",
+      "bytes": 35750781,
+      "sha256": "5f6b1e89415607c45f32e8abad2debb113d4bd538ae79c7536305a538698b42b"
+    },
+    {
+      "path": "Fernandes Maciel/AREND Residencial book.pdf",
+      "bytes": 52985783,
+      "sha256": "fee4e990a5605db5b4fa029ddaa317baa04da6054900c0edd5b874b15c0dbdd8"
+    },
+    {
+      "path": "Fernandes Maciel/Book Duetto.pdf",
+      "bytes": 4219211,
+      "sha256": "2e05020fa56b8aaa89d3fc3332b5361d6c952cf8e12cbd4b93aa3d4c193bd674"
+    },
+    {
+      "path": "Fernandes Maciel/Book ÍLE.pdf",
+      "bytes": 30365726,
+      "sha256": "c64c083df9a8e43fd16cfc2a93b39a2f983e2b44ef9b44028dfdbd399f0ae342"
+    },
+    {
+      "path": "Fernandes Maciel/Book SD40.pdf",
+      "bytes": 27098785,
+      "sha256": "21d2209e8d736bfb720a40e72467029441cc0140ff63ad91c328cb09f58f2c9b"
+    },
+    {
+      "path": "GPCON/BOOK GREEN OPEN.pdf",
+      "bytes": 110044933,
+      "sha256": "f2277038513bbf24fc49dbde5657c848c33de13b7e91bbc3304a77a6a8ebf661"
+    },
+    {
+      "path": "GPCON/BOOK OPEN SANTA ROSA.pdf",
+      "bytes": 585739,
+      "sha256": "426a503e60bb6551546f3d204193d781088ffe1e248b392436c2b8be0c6fada4"
+    },
+    {
+      "path": "Habitare/Book LAZULI.pdf",
+      "bytes": 200328445,
+      "sha256": "fcbcca6a9397de8716db9bb01b5ea7e2deef656834ba3ac44aa248830a20e1e2"
+    },
+    {
+      "path": "Habitare/Ficha_de_Interesse_Lazuli_Spin.pdf",
+      "bytes": 111939,
+      "sha256": "1f29749ec2c9518b09f3b1f260b8c8239dc85eb7b883d150d9e8086f044cca61"
+    },
+    {
+      "path": "Habitare/Sou Mais+Icarai.pdf",
+      "bytes": 11582574,
+      "sha256": "44a838027a12f087f7767b3b84d5eeb5947230bd781265971e5bc17b3f9c38fe"
+    },
+    {
+      "path": "Habitare/SPIN Book de Vendas_Sou Itacoa.pdf",
+      "bytes": 151211532,
+      "sha256": "51e8d7546ea869816992489e7574bf91c2a3fba40e5f7bbb8c165d443a3839ea"
+    },
+    {
+      "path": "Habitare/SPIN Book de Vendas_Sou+ Charitas.pdf",
+      "bytes": 137774226,
+      "sha256": "2f27e8e98020023e0ef9ed0209b558be59014b147bdfda125c73f03cd7d1dec1"
+    },
+    {
+      "path": "Habitare/Spin_book - sou+ wellness charitas.pdf",
+      "bytes": 98721764,
+      "sha256": "db81670ebcdf1c1b1384f1c414411e9bf7525f9e08c11d2e9775ac82fa3b753c"
+    },
+    {
+      "path": "Itauba/Book Marina.pdf",
+      "bytes": 4840768,
+      "sha256": "ea24e94e1e48559bdf513cb4d6b0f737b579ec0dbeaf22f7d95ff56dda3ff55a"
+    },
+    {
+      "path": "Itauba/Book RAVELLO Residenziale - ITAÚBA-Reduzido.pdf",
+      "bytes": 7806516,
+      "sha256": "8c1ea28a51173428059bf77f8c54c1340f22fc1a898a33ff5e3a510e4a0c3180"
+    },
+    {
+      "path": "Itauba/Book Triunfo SPIN.pdf",
+      "bytes": 2517288,
+      "sha256": "fce28904e6cec7b3bf08b18f0564e4fda7e459488d509e7fd88c0b5d55ce86ea"
+    },
+    {
+      "path": "Itauba/Spin Book SERENA - Itaúba.pdf",
+      "bytes": 84081946,
+      "sha256": "fffd8ab9559e1f75d6b62e47a2d805f5cb7f8b8c90243abacc62ac59e5e11991"
+    },
+    {
+      "path": "Joama/Spin_Book Althea 10.03 LOW.pdf",
+      "bytes": 233698911,
+      "sha256": "0e0df993d13ce37b41d75a6df4b443b3ce45befac80361b2649b8484814a9ced"
+    },
+    {
+      "path": "Joama/Spin_NP38-EBook - Final.pdf",
+      "bytes": 73632841,
+      "sha256": "08b68b86b9b96715a89b51aaf30e4a85e9a3b85118e9288754d16c0ae64e8c27"
+    },
+    {
+      "path": "João Fortes/Convenção Terramarine - SPIN.pdf",
+      "bytes": 15565109,
+      "sha256": "5a3ceb17f19862ac8b9c1fc39675950a17614e68cf57cc7497dc1ad1cfb3929e"
+    },
+    {
+      "path": "JPR/BOOK UNIHOME SPIN.pdf",
+      "bytes": 24602996,
+      "sha256": "c6bde40c8f05c9ded4c8792c07615bba7de87be0506d72c04898e8c1675659f9"
+    },
+    {
+      "path": "JPR/SPIN Book - CASCAIS - Estrada Fróes.pdf",
+      "bytes": 274632346,
+      "sha256": "4be9d9628a2aad224930f16f8e4ca4c7c011afa9696813908197da287dcc3ae7"
+    },
+    {
+      "path": "JPR/SPIN BOOK DIGITAL UNI HOME STUDIOS - JPR_21.06.pdf",
+      "bytes": 100773210,
+      "sha256": "a2a9ff36e4a34c2f3f9dd4c71cb5be481dee5dfb1b4bf565160f06a41ce5fd8d"
+    },
+    {
+      "path": "Krion/BOOK TÉCNICO Maris_Spin.pdf",
+      "bytes": 69076207,
+      "sha256": "aa8e57e99788137fdbd90ef367fde45a8732ecb31fbdc289ab0cea72920b01cb"
+    },
+    {
+      "path": "LRM/Book Calle Sardegna SPIN.pdf",
+      "bytes": 8181619,
+      "sha256": "9536012cf8bf45a5ab84caf6420bd2a628ff2320fe43ddd2ab9f6b37b7493825"
+    },
+    {
+      "path": "LRM/Book Spin Digital_Solo_LRM_1920_x_1080px[1].pdf",
+      "bytes": 27281530,
+      "sha256": "a3712cb778db7acf07aa934bb27529eff42468b539a1c2e3042300605a50f6d5"
+    },
+    {
+      "path": "LRM/SPIN BOOK DIGITAL SCENARIUM PIRATININGA.pdf",
+      "bytes": 28082049,
+      "sha256": "187a345adcf0559ee118c28d695ac889950fd3c5fb0a3173d881a1d8bbe1981c"
+    },
+    {
+      "path": "Medeiros/Book - TRE AMICI_Final_compressed.pdf",
+      "bytes": 12053185,
+      "sha256": "fc3c1f18ff5eb37a841b6f86324fa72528be661ef2acd9e18048da3c8fc3954f"
+    },
+    {
+      "path": "Medeiros/SPIN Apresentação_Book Jardim Itacoa.pdf",
+      "bytes": 12934990,
+      "sha256": "b75af6150dcbca7f4a947fbb791ffcc93b46fed2c0dc859d0631604141b46c47"
+    },
+    {
+      "path": "Metta/Book Wind Itacoatiara.pdf",
+      "bytes": 9888680,
+      "sha256": "ae85260122e3880c8e1215e8ed32fcb834c4c0ee855c328c00b2f404731a106c"
+    },
+    {
+      "path": "Metta/SPIN WIND OCEÂNICA_BOOK- VS 2.pdf",
+      "bytes": 17895167,
+      "sha256": "44196207f8ca5f50460f9937d21ddfb1bf2ad29ecfa76f2d03c210e6485d6960"
+    },
+    {
+      "path": "Metta/SPIN WIND OCEÂNICA_BOOK-D.pdf",
+      "bytes": 18221787,
+      "sha256": "b20dda9612fb008adaf372bbf0bcadcb30747902eaf5a85f71d0af8f325ff67e"
+    },
+    {
+      "path": "Metta/WIND PIRATININGA BOOK.pdf",
+      "bytes": 12162601,
+      "sha256": "c82c3134eb0767246ed5957d5f6c937e344041ed37e1a25be070a9f2fde61544"
+    },
+    {
+      "path": "Mhor/Book Bettina SPIN.pdf",
+      "bytes": 10512591,
+      "sha256": "96bd91bade9174352b903968841e805ff178bddd5fa9e42f1758ccf052d7c5b5"
+    },
+    {
+      "path": "MRC/SPIN 115 Tapuias - Book Digital.pdf",
+      "bytes": 18811982,
+      "sha256": "c65760e73204f8756c19054bac18be1dcb6be3f9f8d984766d5084d895f93cde"
+    },
+    {
+      "path": "Nexis/Spin_295A_BOOK_M48_DIGITAL_RED.pdf",
+      "bytes": 70962772,
+      "sha256": "018a0495ff351ba86c108be8f9594bd6e6efc47825ba0e8277292c6f41e7d78a"
+    },
+    {
+      "path": "Novolar/Book Green Life.pdf",
+      "bytes": 24748296,
+      "sha256": "d36e3637ff3ca64f088a756ea2882641f14ccb134df637c01001b1ab312d8b9a"
+    },
+    {
+      "path": "PA5/Book_Monier_PA5_vFinal 2.pdf",
+      "bytes": 9829295,
+      "sha256": "2f2c877fd9342ab4dc416c7d6ac3857752336598c3f9164468aeacc36d0f05df"
+    },
+    {
+      "path": "PA5/Pré-Lançamento _ Monier _ PA5 Empreendimentos Spin.pdf",
+      "bytes": 53021780,
+      "sha256": "0b1e5edaa50b1b28a54c198d2b57d86faeac107a2a713730a3eea6ed903d3b19"
+    },
+    {
+      "path": "PA5/SPIN Gael Book_V25.pdf",
+      "bytes": 56126646,
+      "sha256": "fb25b85094ea8b2580cb5767102ec781c997c896120806560888d4b2e97497e9"
+    },
+    {
+      "path": "Proart/Book digital Jardim dos Manacás.pdf",
+      "bytes": 53121287,
+      "sha256": "71931fab986b81253cf23a624f81191c9e43db60339e371d4af88e78b815c089"
+    },
+    {
+      "path": "Proart/Book digital Up Icaraí.pdf",
+      "bytes": 2818575,
+      "sha256": "fd67da34a4091686ca53e9c1680e43c0f133e1e657795de75373a4bc33227b99"
+    },
+    {
+      "path": "Proart/Book Nirvana.pdf",
+      "bytes": 18032863,
+      "sha256": "21782fd816e8f7c72289e5897ddc42de1856828993971f94490107c776e25af2"
+    },
+    {
+      "path": "Proart/Book STAGE.pdf",
+      "bytes": 8685374,
+      "sha256": "1923ae9781f20ede348c7ffdb750daa64a2e1f261a3a0000dc9374d3f19e1fed"
+    },
+    {
+      "path": "Proart/BOOK SUNSET.pdf",
+      "bytes": 13382947,
+      "sha256": "4f7cf3d47532059e16419a0885de8ad8efcabb0df9b08f86c1a43589368fb4e1"
+    },
+    {
+      "path": "Proart/Mini Book Provisório - Stage.pdf",
+      "bytes": 5275147,
+      "sha256": "3f04061fe7a6bc966c4207af7ba3311582be85bfb6cca6083d24c581ead04256"
+    },
+    {
+      "path": "Proart/Soma-SpinBookDigital.pdf",
+      "bytes": 50996040,
+      "sha256": "2bec18868fe1dc54b2a3600a8c0d62833938758c7e017883569d4948ba728c16"
+    },
+    {
+      "path": "Pró-lotes/SPIN Apresentação Ocêanica Green Club Prolotes.pdf",
+      "bytes": 14252490,
+      "sha256": "8b2ccd5d07b33ef9666910c993bf7df36553aa4c9b6525301e7cbf23f0d39c1e"
+    },
+    {
+      "path": "RAMABE/Book FINAL Viña Del Mar.pdf",
+      "bytes": 2860265,
+      "sha256": "2d60a6fdee995902d016b75d2fe82b20d23f529c66658809c7bb31ddda4a757d"
+    },
+    {
+      "path": "RAMABE/Book Maren - Digital.pdf",
+      "bytes": 35730036,
+      "sha256": "cc37f8441152ac88800247bde63f84e297aeeec871c0888a3903a3985fa9e7f6"
+    },
+    {
+      "path": "RAMABE/Book Vila Santo Antônio SPIN.pdf",
+      "bytes": 8050264,
+      "sha256": "d4a91f0dfd18e02dd686fe6fe5ff5f158fea989c8bcb2a68d70f79e9883d8b87"
+    },
+    {
+      "path": "RDR/Book Soul Fonseca.pdf",
+      "bytes": 2834957,
+      "sha256": "6c435213d796ed601f4b113b310156469dfa1f8c71394433ef9514a2b62338d4"
+    },
+    {
+      "path": "RDR/Book SUN IN.pdf",
+      "bytes": 13719071,
+      "sha256": "1eec14a569c2f84cb076c5d7007585a1ebb8766b553d8db05019ebb801d316c1"
+    },
+    {
+      "path": "RJ Engenharia/Book - Giardino Di Verona - online.pdf",
+      "bytes": 21228974,
+      "sha256": "78687fbf64e830924c2a12349b5e1305b57c468e9146ace73038ed9e4887a561"
+    },
+    {
+      "path": "RJ Engenharia/Book Dahlia Residence.pdf",
+      "bytes": 326923867,
+      "sha256": "a2ececb0803ad07092d62af5f58a9cdc6583a4efd7f0bda669f827cc70b20f76"
+    },
+    {
+      "path": "RJ Engenharia/Book digital DIANTHUS.pdf",
+      "bytes": 3310680,
+      "sha256": "7f04e0a8d11e2273bf25bd0baa38d18dc5842b0f20aa877919c07985d72a66b9"
+    },
+    {
+      "path": "RJ Engenharia/Helianthus - book Spin.pdf",
+      "bytes": 43472065,
+      "sha256": "5ddcc392c30224178b49ce0ed2580b7735091dabdc295b8d64c39c7f37be314d"
+    },
+    {
+      "path": "RJ Engenharia/Spin_Book Dahlia Residence.pdf",
+      "bytes": 67639834,
+      "sha256": "50107a7e2427dc116885c04d1bed85ae5d3f810b52922fd7e308717cb6c38876"
+    },
+    {
+      "path": "Soter/Apresentação Tarsila final.pdf",
+      "bytes": 19920548,
+      "sha256": "23e48032b846db61b04f6b30dfbdeeffc04bd7ae620d8b2dcdaf717a7ea26936"
+    },
+    {
+      "path": "Soter/Clarice/20260317_010744000_iOS.MP4",
+      "bytes": 81988956,
+      "sha256": "4348fb70e7b2cdb080e9493ed56cb2e1cad14498b966143fa32e8247e85dc87b"
+    },
+    {
+      "path": "Soter/Clarice/Apresentação de plantas - 2 quartos.pdf",
+      "bytes": 2094476,
+      "sha256": "3201686a969f6a524f7c8f4a9e3c44f69749ab78ebe51ffdb3290e28b8f3d0ad"
+    },
+    {
+      "path": "Soter/Clarice/Apresentação de Plantas - 3 quartos.pdf",
+      "bytes": 2310247,
+      "sha256": "288f92bdfe9e34ec95d4687964725ef427c1fb36ef92dd1449891a5ec65e95f6"
+    },
+    {
+      "path": "Soter/Clarice/Apresentação de Plantas - Coberturas.pdf",
+      "bytes": 2323237,
+      "sha256": "c6841e5e1e50be999e6155828843953b129f5f6f404b6e3f51ce4064ec3c5a21"
+    },
+    {
+      "path": "Soter/Clarice/Clarice - Ficha técnica.pdf",
+      "bytes": 1635696,
+      "sha256": "5e157e563f08e75ec55929d5331c0930f95d5d3c580fb95bfa846adba2501278"
+    },
+    {
+      "path": "Soter/Clarice/Clarice - Linha de valores.pdf",
+      "bytes": 707174,
+      "sha256": "0e2468386c9ef73292f6f6dd81bd5beae10c7f56e8a1e250bde210ea0d2b9b52"
+    },
+    {
+      "path": "Soter/Clarice/Clarice_Book Spin.pdf",
+      "bytes": 15851101,
+      "sha256": "bce19a8b696d3b39ede2fce5f241eaeb60f8679f709b02923f6982aa4452576b"
+    },
+    {
+      "path": "Soter/Attrium Icaraí - Minibook.pdf",
+      "bytes": 48147262,
+      "sha256": "edfe40a57eb719b2046e52061cd8b5556723f2595b307821d060958e39831ed5"
+    },
+    {
+      "path": "Soter/Attrium Icaraí - Minibook_compressed.pdf",
+      "bytes": 29512282,
+      "sha256": "046a400d3a3c10d843732a76845bebecc996abd59fa2f5d6506c665b2e840af7"
+    },
+    {
+      "path": "Soter/Book Íon Icaraí.pdf",
+      "bytes": 35199235,
+      "sha256": "1ff702b8ae10c5a8fe05fa46f6773a296e2f1a68119e2501c95ead6ba207b767"
+    },
+    {
+      "path": "Soter/Book Maestro.pdf",
+      "bytes": 58759118,
+      "sha256": "cd179a2d28348a8180ad0ebd6ba2008f41fb5e29db09cc49e311aa05bb3acbf5"
+    },
+    {
+      "path": "Soter/Book Mediterraneo SPIN.pdf",
+      "bytes": 4575575,
+      "sha256": "26b6df700b9a9aa4b53f00adceef9ab633e1ab4e9f516cd35bdaf181383f710a"
+    },
+    {
+      "path": "Soter/Book MUD 333.pdf",
+      "bytes": 14930966,
+      "sha256": "dfba1064dbaec39592f57ca3fba694097693de44e58eeb2000a275fb66ddc47d"
+    },
+    {
+      "path": "Soter/Book The Edge.pdf",
+      "bytes": 20152147,
+      "sha256": "d362e6f3c6e57add4d6de6b3720168715f1ea9c9fe9bf25fecdd5b21ed8a21e4"
+    },
+    {
+      "path": "Soter/Clarice_Book Spin.pdf",
+      "bytes": 15851101,
+      "sha256": "bce19a8b696d3b39ede2fce5f241eaeb60f8679f709b02923f6982aa4452576b"
+    },
+    {
+      "path": "Soter/Pulse by Soter - Book.pdf",
+      "bytes": 34391569,
+      "sha256": "eb8fa3a9dc7b35862a10d1edcbaf6f24e9f24c39ffbb67df9b3ad8c992074a91"
+    },
+    {
+      "path": "Soter/SPIN Origem - Minibook.pdf",
+      "bytes": 69169696,
+      "sha256": "2c7c6d1e83568c6e44640e0c4e9095ef6a8c54ae5c848f56dc85f0c5e4cd143d"
+    },
+    {
+      "path": "Soter/The Grove Spin - Book.pdf",
+      "bytes": 40768753,
+      "sha256": "a7c3158a9ec0339f93d269906e8f7ebe140b86aae59117e30b5cac3bd12a2b46"
+    },
+    {
+      "path": "Tecconstru/Book Trópico Camboinhas.pdf",
+      "bytes": 120158899,
+      "sha256": "0e1152ceccccc180d0b9e5f7cfe94e685abde4acefe42d67621eec178f8d21e2"
+    },
+    {
+      "path": "Tegra/Book Digital Flua.pdf",
+      "bytes": 10806424,
+      "sha256": "cb5f31be57ab3519325ff372928640b89b095cd819b9040c46aae5308c185175"
+    },
+    {
+      "path": "Tegra/Book Home Boutique.pdf",
+      "bytes": 4833555,
+      "sha256": "a6ba1b0424cac4e04223a2c333bf4f8d33ccb3c1e7acc258d77365f1c19fc5ec"
+    },
+    {
+      "path": "Tresor/BooK Digital Tresor Dior.pdf",
+      "bytes": 242357924,
+      "sha256": "e02f90d8b4ee26a58a3133a0a9c6643ccc2b880fae1fe5298531c2e8ef005d93"
+    },
+    {
+      "path": "Tresor/União Contruções/BOOK LAZULI.pdf",
+      "bytes": 44114552,
+      "sha256": "dd149dafec670e813f92b9645e84fb2dc1271842d8de6819cc07db1d13349a99"
+    },
+    {
+      "path": "Tresor/Book provisório Nice Trésor.pdf",
+      "bytes": 22036661,
+      "sha256": "3282db5157c4a45970321df690c9c0b0226cc39e6eb4885fdb5594435752fbd5"
+    },
+    {
+      "path": "Tresor/Spin - Nice - Book - 2.pdf",
+      "bytes": 23865553,
+      "sha256": "684d00704280d32a1ebb8b98a532195bee774c25af3ef49aaaae0d7fa64efa14"
+    },
+    {
+      "path": "Tresor/Spin - Nice - Conviva.pdf",
+      "bytes": 83865074,
+      "sha256": "e58bd5f1fa7fc3e5cdd1efc49b4251b3d5fb8203f82ee420c8798c93b166a755"
+    },
+    {
+      "path": "VL Construtora/Book Mare Blu.pdf",
+      "bytes": 20070988,
+      "sha256": "418ec4924499b46f7d7037dd2ae73f1f1ca8765e75c35193b7886ec686285f98"
+    }
+  ],
+  "identicalSha256": 130,
+  "changed": [],
+  "added": [],
+  "removed": []
+}
