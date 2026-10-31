@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-10-31",
+  "sourceVersionReplacements": 9,
+  "catalogTablesUpdated": 6,
+  "driveReplacementsInPlace": 6,
+  "changes": [
+    {
+      "id": "arend",
+      "name": "Arend",
+      "company": "Fernandes Maciel",
+      "oldFile": "Tabela de Vendas Arend - Outubro 2026.pdf",
+      "newFile": "Tabela de Vendas Arend - Novembro 2026.pdf",
+      "driveFileId": "1sipP_p9oqv24MRipbiiJgzebWmrENrFm",
+      "url": "https://drive.google.com/file/d/1sipP_p9oqv24MRipbiiJgzebWmrENrFm/view?usp=drivesdk",
+      "sha256": "9e90abc27a9503bead8042e89629c78fa07a9a6a4b5b71ae27179055bcd0ac7e",
+      "bytes": 1588179,
+      "oldMinimumPrice": 552315,
+      "newMinimumPrice": 552315.0,
+      "pricedAvailableOffers": 99,
+      "excludedFromAvailableOffers": [
+        {
+          "unit": "310",
+          "section": 1,
+          "reason": "Not in cover availability grid"
+        },
+        {
+          "unit": "602",
+          "section": 1,
+          "reason": "Not in cover availability grid"
+        },
+        {
+          "unit": "605",
+          "section": 1,
+          "reason": "Not in cover availability grid"
+        },
+        {
+          "unit": "307",
+          "section": 2,
+          "reason": "Not in cover availability grid"
+        }
+      ],
+      "commercialDatePrinted": "2026-10-30",
+      "version": "18",
+      "versionDatePrinted": "2026-11-01",
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "duetto",
+      "name": "Duetto",
+      "company": "Fernandes Maciel",
+      "oldFile": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
+      "newFile": "Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "driveFileId": "1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS",
+      "url": "https://drive.google.com/file/d/1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS/view?usp=drivesdk",
+      "sha256": "1b74dc4399c437d29eceb3779fba43defb197e0a758e09f6c4f2b799f1a1cb59",
+      "bytes": 1456990,
+      "oldMinimumPrice": 907991,
+      "newMinimumPrice": 1018167.0,
+      "pricedAvailableOffers": 2,
+      "excludedFromAvailableOffers": [
+        {
+          "unit": "1702",
+          "reason": "Explicitly reserved on cover since 27/10/2026"
+        }
+      ],
+      "commercialDatePrinted": "2026-10-30",
+      "version": "62",
+      "versionDatePrinted": "2026-11-01",
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "ile",
+      "name": "Íle",
+      "company": "Fernandes Maciel",
+      "oldFile": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
+      "newFile": "Tabela de Vendas Íle - Novembro 2026.pdf",
+      "driveFileId": "1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS",
+      "url": "https://drive.google.com/file/d/1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS/view?usp=drivesdk",
+      "sha256": "c3600d20f725624288db490e256b8eeee4822d9a7e07f64a5ebd05b2123398a9",
+      "bytes": 648726,
+      "oldMinimumPrice": 446467,
+      "newMinimumPrice": 433200.0,
+      "pricedAvailableOffers": 116,
+      "excludedFromAvailableOffers": [
+        {
+          "unit": "604",
+          "reason": "Reserved or absent from cover availability grid"
+        }
+      ],
+      "commercialDatePrinted": "2026-10-30",
+      "version": "3.0",
+      "versionDatePrinted": "2026-11-01",
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "sd40",
+      "name": "SD40",
+      "company": "Fernandes Maciel",
+      "oldFile": "Tabela de Vendas SD40 - Outubro 2026.pdf",
+      "newFile": "Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "driveFileId": "10NWMMbD8nlKZJNiZDh8BfuEmHhTTSoBo",
+      "url": "https://drive.google.com/file/d/10NWMMbD8nlKZJNiZDh8BfuEmHhTTSoBo/view?usp=drivesdk",
+      "sha256": "c9691da9f871a566f9441762092a88ef19986f946790b2dfcef59bce8da72315",
+      "bytes": 358879,
+      "oldMinimumPrice": 856729,
+      "newMinimumPrice": 856729.0,
+      "pricedAvailableOffers": 4,
+      "excludedFromAvailableOffers": [],
+      "commercialDatePrinted": "2026-10-01",
+      "version": "44",
+      "versionDatePrinted": "2026-11-01",
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "marina",
+      "name": "Marina",
+      "company": "Itauba",
+      "oldFile": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+      "newFile": "Tabela de Vendas Marina - Novembro 2026.pdf",
+      "driveFileId": "1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh",
+      "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
+      "sha256": "886d96dc9d86efc85bc5d1d7bbbf4f6fbb1d1ab1a1a4fee233690cde0ed31369",
+      "bytes": 269562,
+      "oldMinimumPrice": 1190000,
+      "newMinimumPrice": 2680000,
+      "pricedAvailableOffers": 2,
+      "excludedFromAvailableOffers": [],
+      "commercialDatePrinted": "2026-10-30",
+      "version": null,
+      "versionDatePrinted": null,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "serena",
+      "name": "Serena",
+      "company": "Itauba",
+      "oldFile": "Tabela de Vendas Serena - Outubro 2026.pdf",
+      "newFile": "Tabela de Vendas Serena - Novembro 2026.pdf",
+      "driveFileId": "1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O",
+      "url": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
+      "sha256": "e7b1475c3ddd13a6cc3e0e3a875951e0e04d30ea0b5cd846ddc18b9311ef5134",
+      "bytes": 274154,
+      "oldMinimumPrice": 1230000,
+      "newMinimumPrice": 1230000,
+      "pricedAvailableOffers": 8,
+      "excludedFromAvailableOffers": [],
+      "commercialDatePrinted": "2026-10-30",
+      "version": null,
+      "versionDatePrinted": null,
+      "driveReDownloadedAndHashVerified": true
+    }
+  ],
+  "specialSourceTablesNotSubstitutedForStandardTables": [
+    "Tabela de Vendas Duetto - Sócio Vinicius - Novembro 2026.pdf",
+    "Tabela de Vendas SD40 - Diretor Vinicius - Novembro 2026.pdf"
+  ],
+  "outsideNiteroiCatalog": [
+    "Tabela de Vendas Fazenda Fillomena VR2 - Novembro 2026.pdf"
+  ],
+  "commercialWarnings": {
+    "arend": "Cover delivery 01/12/2027 conflicts with 01/04/2028 in the notes; delivery marked to confirm. Four priced units absent from the cover availability grid are excluded from available offers.",
+    "duetto": "1702/Bloco 1 reserved; standard price pages version 62 dated 01/11/2026, IPTU/condominium appendix still version 60 dated 01/09/2026.",
+    "sd40": "Header 01/10/2026 differs from version 44 dated 01/11/2026. Both dates retained as printed.",
+    "ile": "604 reserved, excluded from available offers."
+  },
+  "coordinates": {
+    "checkedAt": "2026-10-31",
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:T150",
+    "projectRows": 112,
+    "completeProjectsChecked": 83,
+    "newNumericCoordinates": [],
+    "newMapsLinksToResolve": [],
+    "completeProjectsPendingLocation": [],
+    "existingOwnerConfirmedPointsPreserved": [
+      "solo",
+      "baume",
+      "rio-branco-220"
+    ],
+    "sheetChangedCells": [
+      "P7",
+      "R7",
+      "P27",
+      "R27",
+      "P38",
+      "R38",
+      "P51",
+      "R51",
+      "P77",
+      "R77",
+      "P78",
+      "R78"
+    ],
+    "allOtherSheetValuesAndFormatsPreserved": true
+  },
+  "allSixDriveReplacementHashesVerified": true
+}

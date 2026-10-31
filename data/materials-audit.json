@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30",
+  "checkedAt": "2026-10-31",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,24 +16,27 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "140 official table files matched 29/10 SHA-256 and source metadata. The MRC folder returned with the new October 115 Tapuias table.",
-    "identicalTables": 140,
+    "tableComparison": "132 source tables identical to 30/10; nine official October filenames replaced by November versions. Six current catalog table files replaced in place and SHA-256 verified after downloading them back from Drive.",
+    "identicalTables": 132,
     "differentTables": 0,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 83,
-    "bookComparison": "All 130 official book-source files were downloaded, CRC-verified and SHA-256 matched against 29/10; all source paths and metadata reconciled.",
+    "bookComparison": "All 130 official source books downloaded, CRC-verified and SHA-256 matched against 30/10; full UI structure and metadata unchanged.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 1,
+    "newTables": 9,
     "bookContentReport": "data/books-content-comparison-2026-10-16.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-10-30",
-      "baseline": "2026-10-29",
-      "tableFilesIdenticalSha256": 140,
-      "tableFilesAdded": 1,
+      "date": "2026-10-31",
+      "baseline": "2026-10-30",
+      "tableFilesIdenticalSha256": 132,
+      "tableFilesAdded": 9,
+      "tableFilesRemoved": 9,
+      "sourceTableVersionReplacements": 9,
+      "catalogTablesUpdated": 6,
       "bookFilesIdenticalSha256": 130,
       "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
@@ -41,7 +44,9 @@
       "mainFolderMetadataAndPublicReaderPermissionsChecked": 8,
       "additionalPublicBookFilesChecked": 45,
       "allReferencedUniqueFilesWithPublicReader": 219
-    }
+    },
+    "sourceTableVersionReplacements": 9,
+    "catalogTablesUpdated": 6
   },
   "corrections": [
     {
@@ -115,6 +120,54 @@
       "action": "Replaced April table with the official October table in place; stable URL; downloaded-back SHA-256 verified; restored the complete public-reader pair and exact pin.",
       "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk",
       "sourceSha256": "7242a76d7cc0d868b56b7de52c5f7228d4dfa04ae3a5306344daccfc879053d7"
+    },
+    {
+      "id": "arend",
+      "date": "2026-10-31",
+      "action": "replaced-in-place",
+      "from": "Tabela de Vendas Arend - Outubro 2026.pdf",
+      "to": "Tabela de Vendas Arend - Novembro 2026.pdf",
+      "reason": "New official November version, re-downloaded from Drive and SHA-256 verified."
+    },
+    {
+      "id": "duetto",
+      "date": "2026-10-31",
+      "action": "replaced-in-place",
+      "from": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
+      "to": "Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "reason": "New official November version, re-downloaded from Drive and SHA-256 verified."
+    },
+    {
+      "id": "ile",
+      "date": "2026-10-31",
+      "action": "replaced-in-place",
+      "from": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
+      "to": "Tabela de Vendas Íle - Novembro 2026.pdf",
+      "reason": "New official November version, re-downloaded from Drive and SHA-256 verified."
+    },
+    {
+      "id": "sd40",
+      "date": "2026-10-31",
+      "action": "replaced-in-place",
+      "from": "Tabela de Vendas SD40 - Outubro 2026.pdf",
+      "to": "Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "reason": "New official November version, re-downloaded from Drive and SHA-256 verified."
+    },
+    {
+      "id": "marina",
+      "date": "2026-10-31",
+      "action": "replaced-in-place",
+      "from": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+      "to": "Tabela de Vendas Marina - Novembro 2026.pdf",
+      "reason": "New official November version, re-downloaded from Drive and SHA-256 verified."
+    },
+    {
+      "id": "serena",
+      "date": "2026-10-31",
+      "action": "replaced-in-place",
+      "from": "Tabela de Vendas Serena - Outubro 2026.pdf",
+      "to": "Tabela de Vendas Serena - Novembro 2026.pdf",
+      "reason": "New official November version, re-downloaded from Drive and SHA-256 verified."
     }
   ],
   "exceptions": [
@@ -320,31 +373,35 @@
     },
     {
       "id": "arend",
-      "name": "Tabela de Vendas Arend - Outubro 2026.pdf",
-      "sha256": "d32a2badf82181fc684db11d7fbe2f2da6e8e880cf4c3775521aa5d82733b317",
-      "bytes": 1587770,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Arend - Novembro 2026.pdf",
+      "sha256": "9e90abc27a9503bead8042e89629c78fa07a9a6a4b5b71ae27179055bcd0ac7e",
+      "bytes": 1588179,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "duetto",
-      "name": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
-      "sha256": "3d4d1d6c7627bddfe76fd2851e1e6e067fc41fe643c56283b46a37803de0de26",
-      "bytes": 1162896,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "sha256": "1b74dc4399c437d29eceb3779fba43defb197e0a758e09f6c4f2b799f1a1cb59",
+      "bytes": 1456990,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "ile",
-      "name": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
-      "sha256": "45cc3e4b429360a2a656c8d11584c0e2b8fdb96bfe6ef8bbce2dfef3d1915cb1",
-      "bytes": 663531,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Íle - Novembro 2026.pdf",
+      "sha256": "c3600d20f725624288db490e256b8eeee4822d9a7e07f64a5ebd05b2123398a9",
+      "bytes": 648726,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "sd40",
-      "name": "Tabela de Vendas SD40 - Outubro 2026.pdf",
-      "sha256": "8de623bf53941115a0cee5e29760b3265a4a200b56db61a0f73052e9df71c339",
-      "bytes": 883445,
-      "driveIdentical": true
+      "name": "Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "sha256": "c9691da9f871a566f9441762092a88ef19986f946790b2dfcef59bce8da72315",
+      "bytes": 358879,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "green-open",
@@ -397,11 +454,11 @@
     },
     {
       "id": "marina",
-      "name": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
-      "sha256": "b9cc66667b9c8f06e7dca368b034cc4792aff62dda39f73fdb49563a8ace50ce",
-      "bytes": 271868,
+      "name": "Tabela de Vendas Marina - Novembro 2026.pdf",
+      "sha256": "886d96dc9d86efc85bc5d1d7bbbf4f6fbb1d1ab1a1a4fee233690cde0ed31369",
+      "bytes": 269562,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "triunfo",
@@ -412,10 +469,11 @@
     },
     {
       "id": "serena",
-      "name": "Tabela de Vendas Serena - Outubro 2026.pdf",
-      "sha256": "961ad02baf6f4a8886abfa7b3fee83ac1d6ba6e66722e4666c0d5f9e66330113",
-      "bytes": 274600,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Serena - Novembro 2026.pdf",
+      "sha256": "e7b1475c3ddd13a6cc3e0e3a875951e0e04d30ea0b5cd846ddc18b9311ef5134",
+      "bytes": 274154,
+      "driveIdentical": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "althea",
@@ -806,13 +864,13 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-10-30",
-  "lastTablesUpdatedAt": "2026-10-30",
-  "lastBooksComparedAt": "2026-10-30",
-  "lastTablesInventoryCheckedAt": "2026-10-30",
-  "lastFullSourceAuditAt": "2026-10-30",
-  "lastTablesComparedAt": "2026-10-30",
-  "sourceAuditReport": "data/source-audit-2026-10-30.json",
+  "lastInventoryCheckedAt": "2026-10-31",
+  "lastTablesUpdatedAt": "2026-10-31",
+  "lastBooksComparedAt": "2026-10-31",
+  "lastTablesInventoryCheckedAt": "2026-10-31",
+  "lastFullSourceAuditAt": "2026-10-31",
+  "lastTablesComparedAt": "2026-10-31",
+  "sourceAuditReport": "data/source-audit-2026-10-31.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
   "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json"
 }

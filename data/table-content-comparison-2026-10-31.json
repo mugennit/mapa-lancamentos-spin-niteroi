@@ -1,0 +1,809 @@
+{
+  "checkedAt": "2026-10-31",
+  "baseline": "2026-10-30",
+  "status": "complete",
+  "allZipEntriesReadAndCrcVerified": true,
+  "files": [
+    {
+      "path": "Tabelas de Vendas/MRC/Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+      "bytes": 208642,
+      "sha256": "7242a76d7cc0d868b56b7de52c5f7228d4dfa04ae3a5306344daccfc879053d7"
+    },
+    {
+      "path": "Tabelas de Vendas/Smart Ville/Tabela de Vendas Smart Ville - Modulo 1  - Outubro 2026.pdf",
+      "bytes": 272565,
+      "sha256": "09b68b82af8033342390b89da5dfacde87f4db51c565cfe3d8f0ddcadda6fde9"
+    },
+    {
+      "path": "Tabelas de Vendas/Fazenda Fillomena/Promocional - Tabela de Vendas Fazenda Filomena - Anasa - Setembro 2026.pdf",
+      "bytes": 358659,
+      "sha256": "233b917c3835475ac5623a2c3e21d9dbf5f3f08ffa5bf7958072d70e91055f6c"
+    },
+    {
+      "path": "Tabelas de Vendas/Fazenda Fillomena/Tabela de Vendas Fazenda Fillomena VR2 - Outubro 2026.pdf",
+      "bytes": 1212398,
+      "sha256": "0c7f756581c3e4eea7b89aefc3e01f0a2e9b6a094b84d7b44c6bdceead9bc4b3"
+    },
+    {
+      "path": "Tabelas de Vendas/Golden Realty/Tabela de Vendas Velas ao Vento - Junho 2026.pdf",
+      "bytes": 25190663,
+      "sha256": "f1d744464b45c648bbc8e1a0acc23e3bde022a7c4d73515f07966526c11852f5"
+    },
+    {
+      "path": "Tabelas de Vendas/JM/Tabela de Vendas JM - 141 Living - Fev_2026.pdf",
+      "bytes": 31939,
+      "sha256": "0bab0cb75134a102c6b335c3907a260b01d96531120b1edcc65bee72da59d462"
+    },
+    {
+      "path": "Tabelas de Vendas/EQUIPE/Tabela de Vendas Mare Blu - Setembro 2026.pdf",
+      "bytes": 298240,
+      "sha256": "b33fd3a3e79c6edd58378593a49782f2b0c55d803839f43b77b2cb94b342535b"
+    },
+    {
+      "path": "Tabelas de Vendas/NATUS/Tabela de Venda - Golden Ville Residence - Julho_2026.pdf",
+      "bytes": 17219,
+      "sha256": "1e17ad204d14d181d7e344cf6f6ee261b77d60784fde017e5a032f19a63cc3b1"
+    },
+    {
+      "path": "Tabelas de Vendas/FEFM/Tabela de Vendas Santa Bárbara - Março 2026.pdf",
+      "bytes": 576853,
+      "sha256": "a620f087a000a085dfbbc7dee34b4fd68af0964d5ac291e107192fa45728f789"
+    },
+    {
+      "path": "Tabelas de Vendas/GPCON/Tabela de Vendas Green Open - Julho 2026.pdf",
+      "bytes": 940833,
+      "sha256": "90ce4931b52b4c03318bb1c81295258910a7dcfa38f69b7c214b864b7296c5cb"
+    },
+    {
+      "path": "Tabelas de Vendas/GPCON/Tabela de Vendas Niterói Open - Fevereiro 2026.pdf",
+      "bytes": 923799,
+      "sha256": "d698f27856663e4ed02b11b7b52cf006ddac3bd0a1d493aab8113127286800c3"
+    },
+    {
+      "path": "Tabelas de Vendas/PA5/Tabela de Vendas Gael - Outubro 2026.pdf",
+      "bytes": 590228,
+      "sha256": "b370a3e3318e48c83a1c342078372c960e633da6db29e25a96447413b727fbab"
+    },
+    {
+      "path": "Tabelas de Vendas/PA5/Tabela de Vendas Monier - Outubro 2026.pdf",
+      "bytes": 78527,
+      "sha256": "300ac77a1873a025b8b2b640933418a25b98b47f237a04df4117e91c50b0317a"
+    },
+    {
+      "path": "Tabelas de Vendas/4MX/Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+      "bytes": 359986,
+      "sha256": "bbbbb70eb3e0660ecaf5844a0548149ca1e37ee62555c169955d141b6f869f1f"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Flua - Set_2026.pdf",
+      "bytes": 112431,
+      "sha256": "6b558c4448eb26ecdb9dcb86532b306036530c92331a246fc6a2f61cd6a774ee"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Jardim Itacoa - Set_2026.pdf",
+      "bytes": 140103,
+      "sha256": "a79e6ce3bc1f5d0508b86eaa39b9b53ae0644b47e4f4675f759b6465e069a098"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Jardim Ubá Maricá - Set_2026.pdf",
+      "bytes": 109930,
+      "sha256": "068c5cc0a3c28a4499a00feb927ebfd32595707f6cad3b18e8017cf855bfa9f2"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Living 141 - Set_2026.pdf",
+      "bytes": 80765,
+      "sha256": "217124b64cf22a4c3120835d544ff0c570c1a09d8c7a7c8505631013cdead102"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Oka Icarai _ Set_2026.pdf",
+      "bytes": 144592,
+      "sha256": "57f5fe95981e5419fc1f8a4ed58617b37c443f6c6c8a2d56b190ebd5f9970b0c"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Reserva Natural - Set_2026.pdf",
+      "bytes": 83500,
+      "sha256": "261baaa621494874bf7189b5e19133074c043692b0cba8507d5b41300662571b"
+    },
+    {
+      "path": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Viva Búzios 2 - Set_2026.pdf",
+      "bytes": 127428,
+      "sha256": "b86e7cd9cfe8c71edf31a32b93e8c68bb1d5842fcfacc6bb6f8dffea751bb13d"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Arandu Fase 1, 2 e 3 - Outubro 2026.pdf",
+      "bytes": 340840,
+      "sha256": "610978a1dc3e4b047a8eae97194a9edcd3efc12f192c89aef39f6968fb1e738a"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Casas Decoradas - Outubro 2026.pdf",
+      "bytes": 125982,
+      "sha256": "0f3028e511f1e75f6fde7390464a27fe59bd0f71094a08efb1548c0a9cadc05a"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Lotes Ybira - Outubro 2026.pdf",
+      "bytes": 128480,
+      "sha256": "8cf84801782f11cb8bbba480f7cadfdccc5e8cd10057e3e5898c65a6dedd211f"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Marina Lotes Q72 e 76 - Outubro 2026.pdf",
+      "bytes": 74599,
+      "sha256": "a82fa59bd9e69906e0fd6ae468eda73802f05c549f77bc4526257ce751cfa0db"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba NO Q20 - Outubro 2026.pdf",
+      "bytes": 148394,
+      "sha256": "37dde523b12880227394b72d0a7e1faba7ba68e77015d74cce7d28f234e5d160"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Toriba Sul - Outubro 2026.pdf",
+      "bytes": 107896,
+      "sha256": "a44888aaf2cfe8786fc18ae98787842b9d571b08fd54c2cf877875e8769e33cd"
+    },
+    {
+      "path": "Tabelas de Vendas/ARETÊ BUZIOS/Tabela de Vendas Vista Ybira - Outubro 2026.pdf",
+      "bytes": 120308,
+      "sha256": "0ceba17b24f5389487ae1c9cc295766bdffd375108b1794149fb6298ed2a300a"
+    },
+    {
+      "path": "Tabelas de Vendas/MEDEIROS/Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf",
+      "bytes": 519638,
+      "sha256": "a25f9147571931dd5c2eb268a3f53508fadf36bb3e4a89fc29c2ecf394357034"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Bougainvillea - Maio 2026.pdf",
+      "bytes": 54789,
+      "sha256": "c65ca05bdf60a10196dcf78cae81da8699057dd83e40d84704693ea6b7a12b5a"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Dahlia - Agosto 2026.pdf",
+      "bytes": 252115,
+      "sha256": "9c4c06959a543a82bfbdf8780d26afa60b967f23816f1e1885d3e229e6c7e82f"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Dianthus - Setembro 2026 (Atualizada).pdf",
+      "bytes": 141969,
+      "sha256": "ce81645d48bdbeb129b6a7370c5b96edd35f287372e4bf3bedc91068d93bdb09"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Flores de Maio - Maio 2026.pdf",
+      "bytes": 65061,
+      "sha256": "60a371737d670f593e36f4027ae0276e6c8d41cc45fc061f9a3170829d147fbd"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Florescer - Maio 2026.pdf",
+      "bytes": 64464,
+      "sha256": "4805eeec99ed007e8b7d3c0d01ae54027e3ee376eacce9c70bc214845bbf3b9f"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Giardino Di Verona - Agosto 2026.pdf",
+      "bytes": 168930,
+      "sha256": "3eab7585c1b9ff291d447a0d9a9075c23751fecb394f97fd7f36e5dbabd3c5bf"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Hortensia - Maio 2026.pdf",
+      "bytes": 60488,
+      "sha256": "bae02c9270bb6b6412096623f2b48a9df50111c19db086c9ef52e17220dcf3cf"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Lirios do Vale - Maio 2026.pdf",
+      "bytes": 55636,
+      "sha256": "837605bab5da084a838a07092f8d77879be19b2fbff01a0c90960a191dd2a29f"
+    },
+    {
+      "path": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Violeta - Maio 2026.pdf",
+      "bytes": 53908,
+      "sha256": "39002a17af3c18bc393c26fbad9f51ff03b802078e85d866c052b5b0e829768a"
+    },
+    {
+      "path": "Tabelas de Vendas/Pró-Lotes/Tabela de Vendas Experience - Outubro 2026.pdf",
+      "bytes": 619021,
+      "sha256": "19107eaae889558b020e0a9f56169a1e2055033197bca28c509fe6ce5a86af3e"
+    },
+    {
+      "path": "Tabelas de Vendas/Pró-Lotes/Tabela de Vendas Holiday - Junho 2026.pdf",
+      "bytes": 443377,
+      "sha256": "8e0e2d9dcaa8b21112682602be8087e54d87c15900e8b90b64adbe693991ee71"
+    },
+    {
+      "path": "Tabelas de Vendas/Pró-Lotes/Tabela de Vendas Oceanica - Agosto 2026.pdf",
+      "bytes": 972004,
+      "sha256": "de191a656983ad16e15db018045fa026fd277625e6e23de301abbbd100afcab3"
+    },
+    {
+      "path": "Tabelas de Vendas/Pró-Lotes/Tabela de Vendas Oceânica Promocional - Outubro 2026.pdf",
+      "bytes": 529994,
+      "sha256": "28fd431738c9a8fccad1bc977c5de8c075f07164fd9656182a062dec62ef0ae6"
+    },
+    {
+      "path": "Tabelas de Vendas/Pró-Lotes/Tabela de Vendas Solaris - Outubro 2026.pdf",
+      "bytes": 379034,
+      "sha256": "ceed68e189a9efe537d8c49a87f1b000e116e11e65f58daf61301089cb4f8ad4"
+    },
+    {
+      "path": "Tabelas de Vendas/Pró-Lotes/Tabela de Vendas Way Última fase  - Outubro 2026.pdf",
+      "bytes": 494486,
+      "sha256": "a398cf4bc040bf00d1848b67c2dab9ca267889b203dc20ceb1c4f4cca35d56f6"
+    },
+    {
+      "path": "Tabelas de Vendas/JOAMA/Tabela de Vendas Althea - Outubro 2026.pdf",
+      "bytes": 332646,
+      "sha256": "0b38570475f060823088655c9bf350de66a49e273d303a360c9072ff29988313"
+    },
+    {
+      "path": "Tabelas de Vendas/JOAMA/Tabela de Vendas NP38 - Outubro 2026.pdf",
+      "bytes": 321678,
+      "sha256": "dc8ea870de1e10c73a33543b9b7b2a0d696b9127c01f86df24d9c698625df9e5"
+    },
+    {
+      "path": "Tabelas de Vendas/Meu Crescer/Tabela de Vendas Meu Crescer Niterói - Junho 2026.pdf",
+      "bytes": 181552,
+      "sha256": "b4cc99bf77eb7dd6f8eef7f497d3284851890b049ce8e83846a34b64add07b20"
+    },
+    {
+      "path": "Tabelas de Vendas/MRV/Tabela de Vendas Bosque das Amendoeiras - Março 2026.pdf",
+      "bytes": 440481,
+      "sha256": "6c4e458f7f6fb2a4d57a3c732a766cfcb9132be38bddbf9e896972156bc317a2"
+    },
+    {
+      "path": "Tabelas de Vendas/MRV/Tabela de Vendas estoque geral - MRV - Março 2026.pdf",
+      "bytes": 1271855,
+      "sha256": "d652277158d05aa7722bbc220a00d083c0a4a527db74426d1e589ab361a76b3b"
+    },
+    {
+      "path": "Tabelas de Vendas/MRV/Tabela de Vendas Império do Ouro - Março 2026.pdf",
+      "bytes": 455383,
+      "sha256": "1aec85ed5b9d11454e6fb52138267424ea99e720b9084376adc07a67cc96cd7c"
+    },
+    {
+      "path": "Tabelas de Vendas/MRV/Tabela de Vendas Mar de Trindade - Março 2026.pdf",
+      "bytes": 450133,
+      "sha256": "03c1da18422a71df479bcc947ca8ebfbcfd9dff157be61b29b347223e99f396f"
+    },
+    {
+      "path": "Tabelas de Vendas/METTA/Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
+      "bytes": 714566,
+      "sha256": "2bfbedad77ab27f4a43784d88e8fd98bd71f55d9c5973f426b0de855cceabea0"
+    },
+    {
+      "path": "Tabelas de Vendas/METTA/Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+      "bytes": 837323,
+      "sha256": "d6938a3ffe39200ab74d8a6c5cb5a2369d5dd6d59240678db10335aff5f69a4f"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
+      "bytes": 111581,
+      "sha256": "6da800b8f13a1c9fe7adb3956f2fc3b0c0c7439d3bf398da02111b3f1dccef1d"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
+      "bytes": 166596,
+      "sha256": "ed3061bd489b1aa84cc4be16ec85060086f81b0fb10eedefad917a2b9ed570fb"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
+      "bytes": 202660,
+      "sha256": "8c97051597a9cdd5052fefd4df587e318dcc34059970d125a514b71668d90e07"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
+      "bytes": 507512,
+      "sha256": "faaa2c970a14a37c9c568e5722990b7178c9ec679d9237a75efe6b15827a8f4d"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
+      "bytes": 150996,
+      "sha256": "9d2afa0b398b2c3aa67f819e307048fe14c5e028407d6e6f1f99092edd027310"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
+      "bytes": 309437,
+      "sha256": "7560af101d6a76c0fb8af967dd2da50f1e4ea90c9805ca30d9a97b6c303f840f"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
+      "bytes": 157848,
+      "sha256": "ca94751162f40ff0131ff9c2af243c319fc0a1304bc63db0eb9b42b76dc24f45"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Piratininga - Outubro 2026.pdf",
+      "bytes": 154349,
+      "sha256": "2cda426daf725e68b0f68902939e4265a7908c9b47f5abc3d3ef67beebb83b1d"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
+      "bytes": 113689,
+      "sha256": "89b596ca1884819c9864a9eaf4d6c8b0d3490f6eb651d138bd168878adf0e875"
+    },
+    {
+      "path": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
+      "bytes": 164678,
+      "sha256": "6be19c6834601d6c5436dda4a84d09c876f42d3a40627bfb3a61980ffd5543ea"
+    },
+    {
+      "path": "Tabelas de Vendas/TEGRA/Tabela de Vendas  Gaea - Julho 2026.pdf",
+      "bytes": 1925986,
+      "sha256": "d562f6a4952422dcd602137b30d89bc6f4f4d6fa0e863547a5eacacff9eee889"
+    },
+    {
+      "path": "Tabelas de Vendas/TEGRA/Tabela de Vendas Claris - Julho 2026.pdf",
+      "bytes": 1213673,
+      "sha256": "62c69cb2717cd1f7c44e86f4fee006cb5c3777441260db67439ca4466d0f7465"
+    },
+    {
+      "path": "Tabelas de Vendas/TEGRA/Tabela de Vendas East Side Méier - Junho 2026.pdf",
+      "bytes": 824013,
+      "sha256": "eca42bc047253da602629159098c0a79ad0897849daf1bd9b6dc00459acecab7"
+    },
+    {
+      "path": "Tabelas de Vendas/TEGRA/Tabela de Vendas Flua permutante - Janeiro 2026.pdf",
+      "bytes": 70644,
+      "sha256": "a4118bf53aff5b7744cf7b4e75b6163cf036ec129bde7f1dd7592cd58e6ecf8e"
+    },
+    {
+      "path": "Tabelas de Vendas/TEGRA/Tabela de Vendas Península - Gran Thai - Julho 2026.pdf",
+      "bytes": 740780,
+      "sha256": "bc04f2fa6f2b7596f527860f2a00cece7e87a4de291f1acf8a6d28d0cc090e35"
+    },
+    {
+      "path": "Tabelas de Vendas/TEGRA/Tabela de Vendas Península - Singular - Julho 2026.pdf",
+      "bytes": 473136,
+      "sha256": "cfc12152075a25a257611e871d2b1428241f9a18ba1d42ed23f2dd663a5fa3f1"
+    },
+    {
+      "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas DaVinci - Outubro 2026.pdf",
+      "bytes": 475674,
+      "sha256": "a7006ffe99f271d97859eaa89865cdc05172c79f7bf8c3c913f58df1ac00a8e3"
+    },
+    {
+      "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Orla Bardot - Outubro 2026.pdf",
+      "bytes": 167872,
+      "sha256": "917e1b3d36d48dce8a13a0636598eddbe0de0687d97b4fbde49ec09695da6751"
+    },
+    {
+      "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
+      "bytes": 323538,
+      "sha256": "275ce4a8fcb07ffaa0e606faae5e26e94945dd0cc2ef27b7dd8b3ae202f92587"
+    },
+    {
+      "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Viva Búzios 2 - Outubro 2026 (2).pdf",
+      "bytes": 505261,
+      "sha256": "959e9faafd67c18613fb4e30054659610fb48e6669ed1a0d0a4718e21ee0a27c"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Attrium Icaraí - Outubro 2026.pdf",
+      "bytes": 561287,
+      "sha256": "d4a1b8d6e73627b67e2c62afc8ffa4d00a7be41c1bb3ad5e3d1bbc0f6e267e1c"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Clarice - Outubro 2026.pdf",
+      "bytes": 246473,
+      "sha256": "25b3f7e742d7e8a883985ad90e72ed3620dec46cbccd369c76d85fbdc7dd5a2f"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Ion Icarai - Outubro 2026.pdf",
+      "bytes": 597934,
+      "sha256": "2b3a1fcf2234184a434175caf3a331c5e3240cbc1e7151258bbb2afd19dd71f8"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Maestro - Outubro 2026.pdf",
+      "bytes": 434153,
+      "sha256": "98d8bfc43a637a5280093b460005ad33feae715938c20430ec142e78597f89f4"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Origem - Outubro 2026.pdf",
+      "bytes": 660373,
+      "sha256": "3784b1a54057cdb6eb47325e064d0e23fe38a44c79eea023afa49dc88620ad97"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Pulse - Outubro 2026.pdf",
+      "bytes": 282961,
+      "sha256": "5680a7b268b1435c41496a3946d31f2f04950d790f2aab173d0e2b8230376606"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas The Grove - Outubro 2026.pdf",
+      "bytes": 388026,
+      "sha256": "881d6256ee7e8b9813f24ad61c00c6649e72d581e603be293471a3cc53f3e273"
+    },
+    {
+      "path": "Tabelas de Vendas/SOTER/Tabela de Vendas Visi - Julho 2026.pdf",
+      "bytes": 571242,
+      "sha256": "8b1938b8a9cf03d7f88fd6929eb35d42d44f94ccd787fd613f2317ba27a81d6b"
+    },
+    {
+      "path": "Tabelas de Vendas/RDR/Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+      "bytes": 263997,
+      "sha256": "6cda769ed1b369c2e046af1ef0b0c4bf2efe6e5868673b3c615bb6c821bdf5fa"
+    },
+    {
+      "path": "Tabelas de Vendas/RDR/Tabela de Vendas Sun In - Outubro 2026.pdf",
+      "bytes": 261085,
+      "sha256": "d3f9e51d23a277281fe8c910c578a3cfc318365d8253f4d5d933317ee8056666"
+    },
+    {
+      "path": "Tabelas de Vendas/RAMABE/Tabela de Vendas Maren By RAMABE - Outubro 2026.pdf",
+      "bytes": 349254,
+      "sha256": "6f52e483f289727367530e3cf3f79624b4827e60b551f2a81bf8c02e5cd2fc7d"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela  de Vendas Nirvana - Outubro 2026.pdf",
+      "bytes": 257044,
+      "sha256": "2cfdebd4e5674268a72c343ccce61e43c4b308ceeae914e00344d18a8aa10ce8"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
+      "bytes": 333578,
+      "sha256": "112a16d597579720eda31c1a77c1697c427af61d82b61c5184f478e610d5d699"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela de Vendas Soma - Outubro 2026.pdf",
+      "bytes": 601306,
+      "sha256": "d26f6c75ca86ade08b11cb8310cecb42f168edcfa4418ae570a0eb72f37e07bf"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela de Vendas Stage - 100% na Obra - Outubro 2026.pdf",
+      "bytes": 574192,
+      "sha256": "1b6cc4c8738b304121a94b2a8aee873da00e773fc1f1207b2f9ce261ad1acaa7"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
+      "bytes": 375395,
+      "sha256": "b7bd7582067c506f27866c21688dd44e7d08804309d49b3faaa189553f771349"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela de Vendas Sunset - Outubro 2026.pdf",
+      "bytes": 296826,
+      "sha256": "f121a0a057391e5352fe70ab5e45a2a0e431155fd46f6c3d6610aab1f3a09333"
+    },
+    {
+      "path": "Tabelas de Vendas/PROART/Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
+      "bytes": 252928,
+      "sha256": "32e6b9f5429e3ea2b43c0f88b9ef0c9f862121efcd9a84fdde5f91a3cd9591b7"
+    },
+    {
+      "path": "Tabelas de Vendas/PINTO DE ALMEIDA/Tabela de Vendas Eldorado II - Outubro 2026.pdf",
+      "bytes": 189176,
+      "sha256": "8c27ac9d377ff079d69cf7b4705268257beb37402573c21cf6a6d5ce9f1f8e89"
+    },
+    {
+      "path": "Tabelas de Vendas/NOVOLAR/Simulador Novolar Green Life 1 e 2  Março 26 (2).xlsx",
+      "bytes": 171575,
+      "sha256": "db240104197b5a41d10a69b5b4c55eae4fc13a0df2c96dcad1681e623b2596d7"
+    },
+    {
+      "path": "Tabelas de Vendas/NOVOLAR/Simulador Novolar Green Life Torre 3 - Março 26.xlsx",
+      "bytes": 141467,
+      "sha256": "14a54a2dabed9743a7ef28b54e9a4c692f967fa18464b33445b53f4f7c8b4baf"
+    },
+    {
+      "path": "Tabelas de Vendas/NOVOLAR/Simulador Novolar Green Life Torre 4 - Março 26.xlsx",
+      "bytes": 141884,
+      "sha256": "aaa8463971752c23db6235a2458176e431e520ce44b7c35b5a6f9f20a253df13"
+    },
+    {
+      "path": "Tabelas de Vendas/NOVOLAR/Tabela de Vendas Green Life - Agosto 2026.pdf",
+      "bytes": 959938,
+      "sha256": "27b6d88432c4b714f7585298bd1d4f88fe61c032d0bba4b1db4b14e37f7c69c9"
+    },
+    {
+      "path": "Tabelas de Vendas/LRM/Tabela de Vendas Calle Sardegna - Julho 2026.pdf",
+      "bytes": 294406,
+      "sha256": "8bac0443d498ea67506ff7d259f373aac5684d46e15413be988c5d66caf7a995"
+    },
+    {
+      "path": "Tabelas de Vendas/LRM/Tabela de Vendas Scenarium - Outubro 2026.pdf",
+      "bytes": 296541,
+      "sha256": "ac892ad32f015d33bd9cf9251113efe48aa2ed1e413464bf04ecde6f03301c86"
+    },
+    {
+      "path": "Tabelas de Vendas/LRM/Tabela de Vendas Solo - Outubro 2026.pdf",
+      "bytes": 313422,
+      "sha256": "8e02a91025870f1866f13a149f8805b4abc9ba5b4a4d0039e27d9215efea6c93"
+    },
+    {
+      "path": "Tabelas de Vendas/JPR/Tabela de vendas - Uni Home Studio - Set_2026.pdf",
+      "bytes": 69323,
+      "sha256": "974c68a8287105a12a972b7a6d790da798454f277a3e77b504a45ffd97967376"
+    },
+    {
+      "path": "Tabelas de Vendas/JOÃO FORTES/Tabela de Vendas Terramarine - Setembro 2026.pdf",
+      "bytes": 479019,
+      "sha256": "3b10ed54d45e013099ec9d19d809d7f669a4284faaea6661ffae8bf40cda9f9d"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Business - Outubro 2026.pdf",
+      "bytes": 176860,
+      "sha256": "8fe4bef3c14cf0e96fb9c928d92713861ae39e31b31467b60fed86b4c635eea4"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Novembro 2026.pdf",
+      "bytes": 269562,
+      "sha256": "886d96dc9d86efc85bc5d1d7bbbf4f6fbb1d1ab1a1a4fee233690cde0ed31369"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Serena - Novembro 2026.pdf",
+      "bytes": 274154,
+      "sha256": "e7b1475c3ddd13a6cc3e0e3a875951e0e04d30ea0b5cd846ddc18b9311ef5134"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Triunfo - Outubro 2026.pdf",
+      "bytes": 327132,
+      "sha256": "ec34b0d136f9f92874008600e6dfb3c592ec4a12a63c6dd1819b547dd5869996"
+    },
+    {
+      "path": "Tabelas de Vendas/HABITARE/Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf",
+      "bytes": 445272,
+      "sha256": "cf5e6c54b8d404b3aa2abc8fd08a30fbc0e7af224db145008cc0e73335e086d0"
+    },
+    {
+      "path": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais Charitas - Agosto 2026.pdf",
+      "bytes": 132731,
+      "sha256": "70e749f95a4cbb4f1ca0c5fccb06776ff034c3a358b771eaf07bd636fd87bdb0"
+    },
+    {
+      "path": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf",
+      "bytes": 488278,
+      "sha256": "e9b6b86ee2ba99f2096c1083250c75673119193f2e91f8ba620e21cfadce7449"
+    },
+    {
+      "path": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais+ Itacoa - Agosto 2026.pdf",
+      "bytes": 251539,
+      "sha256": "45f162d5892939293fb9277abc1d17ca7e3eae38406a45b186ddee56cfe1e4d0"
+    },
+    {
+      "path": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais+ Wellness Charitas - Agosto 2026.pdf",
+      "bytes": 215232,
+      "sha256": "2246a0fb2df4c2ad3b4dd4084d121232f211ec06af686147e8ee56c23e24308f"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Arend - Novembro 2026.pdf",
+      "bytes": 1588179,
+      "sha256": "9e90abc27a9503bead8042e89629c78fa07a9a6a4b5b71ae27179055bcd0ac7e"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "bytes": 1456990,
+      "sha256": "1b74dc4399c437d29eceb3779fba43defb197e0a758e09f6c4f2b799f1a1cb59"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Sócio Vinicius - Novembro 2026.pdf",
+      "bytes": 272456,
+      "sha256": "b8ab9463f156e0b1010fb3fde0ce9678650f9bc1560c0d42cece0f34d85aa52b"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Fazenda Fillomena VR2 - Novembro 2026.pdf",
+      "bytes": 1210053,
+      "sha256": "98a38cb646578032baeda10a41520fb01674cd1fca4b49be87afea1757d9cae6"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Íle - Novembro 2026.pdf",
+      "bytes": 648726,
+      "sha256": "c3600d20f725624288db490e256b8eeee4822d9a7e07f64a5ebd05b2123398a9"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Diretor Vinicius - Novembro 2026.pdf",
+      "bytes": 272858,
+      "sha256": "ce3b4edf6d4d05741203248585d93fd94086dbe3dba89b941a9aafe8811166f9"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "bytes": 358879,
+      "sha256": "c9691da9f871a566f9441762092a88ef19986f946790b2dfcef59bce8da72315"
+    },
+    {
+      "path": "Tabelas de Vendas/FALVES/Tabela de Vendas  Mok 132 - Agosto 2026.pdf",
+      "bytes": 640200,
+      "sha256": "dc467d7189dd2b0cd39b67861d2e1771b6472581ec4489eab32128d21d54b7cf"
+    },
+    {
+      "path": "Tabelas de Vendas/FALVES/Tabela de Vendas Cascais - Março 2026 (1).pdf",
+      "bytes": 282888,
+      "sha256": "3c22cfdfb2b8710c661cb6b4d7f83d70bd68f7d33f298b75aa2485bc2bc4847d"
+    },
+    {
+      "path": "Tabelas de Vendas/FALVES/Tabela de Vendas Namas - Março 2026.pdf",
+      "bytes": 426163,
+      "sha256": "a04a27a0b4b1970567223638ee9bccae92edaa7a614ce233f7270cead25075e7"
+    },
+    {
+      "path": "Tabelas de Vendas/FALVES/Tabela de Vendas Trend By Falves - Maio 2026 (Lançamento).pdf",
+      "bytes": 285750,
+      "sha256": "1550d6221819be701085e3d03f079d19c5fd314dc1956d68fee0b0cb74b536b4"
+    },
+    {
+      "path": "Tabelas de Vendas/ELVAS/Tabela de Vendas Maris - Outubro 2026 (4).pdf",
+      "bytes": 573752,
+      "sha256": "9178852be961b5a6ec5a83e38c09300e65ce9b21fae18fd4839671b44aaa5fee"
+    },
+    {
+      "path": "Tabelas de Vendas/ELVAS/Tabela de Vendas Neo Design - Outubro 2026.pdf",
+      "bytes": 494582,
+      "sha256": "07213359146ad7cf6dd3055092c4829af96b2b072b2346db81fbdc149c3d97ae"
+    },
+    {
+      "path": "Tabelas de Vendas/ELVAS/Tabela de Vendas Reserva São Francisco - Outubro 2026.pdf",
+      "bytes": 654090,
+      "sha256": "003f404d2e9c02371a44f2a6b45987174884163962625a5793cc21073742d729"
+    },
+    {
+      "path": "Tabelas de Vendas/ELVAS/Tabela de Vendas Upside - Outubro 2026.pdf",
+      "bytes": 494860,
+      "sha256": "384b01b09d3d4c35735a66155a9d39723a5577e5bd17a6dfa8a37c54c6459f6d"
+    },
+    {
+      "path": "Tabelas de Vendas/CURY/Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "bytes": 598934,
+      "sha256": "62b351df7171c5944e94f0cc8ebbfc35f653339ecd0a12a31c349e13d55e913b"
+    },
+    {
+      "path": "Tabelas de Vendas/CURY/Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "bytes": 2140830,
+      "sha256": "f9c800fbc1213b7d97f2635c37627809d1d74d71e5d0e93cc627674d437d471a"
+    },
+    {
+      "path": "Tabelas de Vendas/CURY/Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "bytes": 221139,
+      "sha256": "8cf63e91e090af1a046c85fde9a4673cf24cc043b1ebb5b325f4596816652a0b"
+    },
+    {
+      "path": "Tabelas de Vendas/CURY/Tabela de Vendas The Pier - Outubro 2026.pdf",
+      "bytes": 352342,
+      "sha256": "e3042ef3b959a8d993d4c4d6d38f0685285775732a0fbce53eccb9aff8b8c2a6"
+    },
+    {
+      "path": "Tabelas de Vendas/CEU/Tabela de Vendas 141 Living - Outubro 2026.pdf",
+      "bytes": 421897,
+      "sha256": "bf3bbcae8db7755571b766bc9abdd7d896887cdf9956880fc3a4f13635804a26"
+    },
+    {
+      "path": "Tabelas de Vendas/CEU/Tabela de Vendas 141 Living (Permutante) - Junho 2026.pdf",
+      "bytes": 62463,
+      "sha256": "eacf3fe85b3f91f9d37b9ef33177d73f3b02b20c2963e6cd9133c932730f4753"
+    },
+    {
+      "path": "Tabelas de Vendas/CEU/Tabela de Vendas Bäume - Outubro 2026.pdf",
+      "bytes": 418478,
+      "sha256": "347c9ac8e377829906c0c11db240839983f7281e59959ded45a650be6a400020"
+    },
+    {
+      "path": "Tabelas de Vendas/CEU/Tabela de Vendas Maria Maria - Outubro 2026.pdf",
+      "bytes": 386715,
+      "sha256": "af435f2cad0c63f274f85e99879b88ea05bd1d992b529236ffa14822740d9079"
+    },
+    {
+      "path": "Tabelas de Vendas/CEU/Tabela de Vendas Nomad - Outubro 2026.pdf",
+      "bytes": 421374,
+      "sha256": "71f729ff1b9724e5c1e805cc35a3d73de123a9578612f23032bd476fc5713408"
+    },
+    {
+      "path": "Tabelas de Vendas/CEU/Tabela de Vendas Tao - Outubro 2026.pdf",
+      "bytes": 539957,
+      "sha256": "bc9a0ca432ff1e2bbfff052733c3d45561451d6689f3cf6369b20ba400ba4c59"
+    },
+    {
+      "path": "Tabelas de Vendas/BACOS/Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+      "bytes": 187103,
+      "sha256": "e2b3b2fe394ccdda856581219610d0f706e9c9a38d5a7f20339ab5a478472536"
+    },
+    {
+      "path": "Tabelas de Vendas/BACOS/Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+      "bytes": 178748,
+      "sha256": "342a91b77b3a8f0c1373458aec1be57f3cf71127fcfdc0d2d862f05850db62ab"
+    },
+    {
+      "path": "Tabelas de Vendas/BACOS/Tabela de Vendas Oka São Francisco - Junho 2026.pdf",
+      "bytes": 328312,
+      "sha256": "2ed9519a6dbd167c039944dab1536517cd1772780ed6a8728c1c590857c282b2"
+    },
+    {
+      "path": "Tabelas de Vendas/BACOS/Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+      "bytes": 136800,
+      "sha256": "66a05a2ce4cacb98d4a7dcd5c00e331de2240d393f6eb088263a40daab3cd90e"
+    },
+    {
+      "path": "Tabelas de Vendas/BACOS/Tabela de Vendas Singular - Outubro 2026.pdf",
+      "bytes": 330391,
+      "sha256": "297b0033fbe35a67b9ed67bc00b3f0b8b6746ba91fb83d8db4951dd1a848ec6c"
+    },
+    {
+      "path": "Tabelas de Vendas/BACOS/Tabela de Vendas Style - Outubro 2026.pdf",
+      "bytes": 154584,
+      "sha256": "eb57ccec7fbcc78068f2f6b6d6b31b557a8355c896dddfa2d7eb9478b831329f"
+    }
+  ],
+  "identicalSha256": 132,
+  "changed": [],
+  "added": [
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Novembro 2026.pdf",
+      "bytes": 269562,
+      "sha256": "886d96dc9d86efc85bc5d1d7bbbf4f6fbb1d1ab1a1a4fee233690cde0ed31369"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "bytes": 358879,
+      "sha256": "c9691da9f871a566f9441762092a88ef19986f946790b2dfcef59bce8da72315"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Serena - Novembro 2026.pdf",
+      "bytes": 274154,
+      "sha256": "e7b1475c3ddd13a6cc3e0e3a875951e0e04d30ea0b5cd846ddc18b9311ef5134"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Íle - Novembro 2026.pdf",
+      "bytes": 648726,
+      "sha256": "c3600d20f725624288db490e256b8eeee4822d9a7e07f64a5ebd05b2123398a9"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Sócio Vinicius - Novembro 2026.pdf",
+      "bytes": 272456,
+      "sha256": "b8ab9463f156e0b1010fb3fde0ce9678650f9bc1560c0d42cece0f34d85aa52b"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "bytes": 1456990,
+      "sha256": "1b74dc4399c437d29eceb3779fba43defb197e0a758e09f6c4f2b799f1a1cb59"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Fazenda Fillomena VR2 - Novembro 2026.pdf",
+      "bytes": 1210053,
+      "sha256": "98a38cb646578032baeda10a41520fb01674cd1fca4b49be87afea1757d9cae6"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Diretor Vinicius - Novembro 2026.pdf",
+      "bytes": 272858,
+      "sha256": "ce3b4edf6d4d05741203248585d93fd94086dbe3dba89b941a9aafe8811166f9"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Arend - Novembro 2026.pdf",
+      "bytes": 1588179,
+      "sha256": "9e90abc27a9503bead8042e89629c78fa07a9a6a4b5b71ae27179055bcd0ac7e"
+    }
+  ],
+  "removed": [
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Fazenda Fillomena (VR2) - Outubro 2026.pdf",
+      "bytes": 1212397,
+      "sha256": "4cc70dfff67cd3321fbf74e14b95c4da8102757397ca7f2e5794f316498555e2"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Arend - Outubro 2026.pdf",
+      "bytes": 1587770,
+      "sha256": "d32a2badf82181fc684db11d7fbe2f2da6e8e880cf4c3775521aa5d82733b317"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
+      "bytes": 1162896,
+      "sha256": "3d4d1d6c7627bddfe76fd2851e1e6e067fc41fe643c56283b46a37803de0de26"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Diretor Vinicius - Outubro 2026.pdf",
+      "bytes": 133277,
+      "sha256": "cfe1a666d60e643b67a38bb54cd98f0f922df6443a90a20aeb0be43c9ef88c41"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Serena - Outubro 2026.pdf",
+      "bytes": 274600,
+      "sha256": "961ad02baf6f4a8886abfa7b3fee83ac1d6ba6e66722e4666c0d5f9e66330113"
+    },
+    {
+      "path": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+      "bytes": 271868,
+      "sha256": "b9cc66667b9c8f06e7dca368b034cc4792aff62dda39f73fdb49563a8ace50ce"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Diretor Vinicius - Outubro 2026.pdf",
+      "bytes": 134866,
+      "sha256": "c137e766df2fef0be13840c3d11744431dab34c891f26cdd38b675d6dec20e38"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
+      "bytes": 663531,
+      "sha256": "45cc3e4b429360a2a656c8d11584c0e2b8fdb96bfe6ef8bbce2dfef3d1915cb1"
+    },
+    {
+      "path": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Outubro 2026.pdf",
+      "bytes": 883445,
+      "sha256": "8de623bf53941115a0cee5e29760b3265a4a200b56db61a0f73052e9df71c339"
+    }
+  ]
+}

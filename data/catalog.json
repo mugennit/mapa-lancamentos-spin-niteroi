@@ -1570,12 +1570,17 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Arend - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Arend - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1sipP_p9oqv24MRipbiiJgzebWmrENrFm/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Arend - Novembro 2026.pdf",
+        "checkedAt": "2026-10-31",
+        "commercialDate": "2026-10-30",
+        "version": "18",
+        "versionDate": "2026-11-01"
       }
     ],
-    "price": 552315,
+    "price": 552315.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1585,8 +1590,11 @@
     "lng": -43.0870009,
     "precision": "exact",
     "photo": "/empreendimentos/arend.jpg",
-    "checkedAt": "2026-09-30",
-    "notes": [],
+    "checkedAt": "2026-10-31",
+    "notes": [
+      "A tabela de novembro apresenta duas previsões de entrega: 01/12/2027 na capa e 01/04/2028 nas notas. Confirmar com a incorporadora.",
+      "As unidades 310, 602 e 605 do Bloco 1 e 307 do Bloco 2 têm preços, mas não constam na grade de disponibilidade da capa; confirmar antes de oferecer."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -1600,7 +1608,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9186063,-43.0870009",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-31"
   },
   {
     "id": "duetto",
@@ -1614,12 +1622,17 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Duetto - Outubro 2026 (V. 61).pdf",
+        "name": "Tabela de Vendas Duetto - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Duetto - Novembro 2026.pdf",
+        "checkedAt": "2026-10-31",
+        "commercialDate": "2026-10-30",
+        "version": "62",
+        "versionDate": "2026-11-01"
       }
     ],
-    "price": 907991,
+    "price": 1018167.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1629,9 +1642,11 @@
     "lng": -43.1021411,
     "precision": "exact",
     "photo": "/empreendimentos/duetto.jpg",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-10-31",
     "notes": [
-      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes.",
+      "Unidade 1702 do Bloco 1 reservada na capa desde 27/10/2026; não apresentada como disponível. A tabela padrão traz preços para 1703 e cobertura 1801; as unidades do sócio Vinicius têm documento separado.",
+      "A tabela de preços é versão 62 de 01/11/2026; o anexo de IPTU e condomínio permanece identificado como versão 60 de 01/09/2026."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -1646,7 +1661,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.8998004,-43.1021411",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-31"
   },
   {
     "id": "ile",
@@ -1660,12 +1675,17 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Íle - Outubro 2026 (V. 2.0).pdf",
+        "name": "Tabela de Vendas Íle - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Íle - Novembro 2026.pdf",
+        "checkedAt": "2026-10-31",
+        "commercialDate": "2026-10-30",
+        "version": "3.0",
+        "versionDate": "2026-11-01"
       }
     ],
-    "price": 446467,
+    "price": 433200.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1675,8 +1695,10 @@
     "lng": -43.103472,
     "precision": "exact",
     "photo": "/empreendimentos/ile.jpg",
-    "checkedAt": "2026-10-09",
-    "notes": [],
+    "checkedAt": "2026-10-31",
+    "notes": [
+      "Unidade 604 reservada desde 22/10/2026; não apresentada como disponível."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -1690,7 +1712,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9054152,-43.103472",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-31"
   },
   {
     "id": "sd40",
@@ -1704,12 +1726,17 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas SD40 - Outubro 2026.pdf",
+        "name": "Tabela de Vendas SD40 - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/10NWMMbD8nlKZJNiZDh8BfuEmHhTTSoBo/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas SD40 - Novembro 2026.pdf",
+        "checkedAt": "2026-10-31",
+        "commercialDate": "2026-10-01",
+        "version": "44",
+        "versionDate": "2026-11-01"
       }
     ],
-    "price": 856729,
+    "price": 856729.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -1719,9 +1746,10 @@
     "lng": -43.1070748,
     "precision": "exact",
     "photo": "/empreendimentos/sd40.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-10-31",
     "notes": [
-      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes."
+      "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes.",
+      "A versão 44 é de 01/11/2026, mas o cabeçalho permanece com 01/10/2026. A competência de novembro vem do nome e da versão do arquivo."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -1736,7 +1764,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9000888,-43.1070748",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-31"
   },
   {
     "id": "green-open",
@@ -2057,16 +2085,18 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
+        "name": "Tabela de Vendas Marina - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
-        "date": "Outubro 2026",
-        "sourceFileVersion": "Tabela de Vendas Marina - Outubro 2026 (2).pdf",
-        "checkedAt": "2026-10-21"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Marina - Novembro 2026.pdf",
+        "checkedAt": "2026-10-31",
+        "commercialDate": "2026-10-30",
+        "validUntil": "2026-11-30"
       }
     ],
-    "price": 1190000,
-    "minArea": null,
-    "maxArea": null,
+    "price": 2680000,
+    "minArea": 159.18,
+    "maxArea": 253.43,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -2074,9 +2104,10 @@
     "lng": -43.078711,
     "precision": null,
     "photo": "/empreendimentos/marina.jpg",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-10-31",
     "notes": [
-      "Endereço em conferência nos materiais."
+      "Endereço em conferência nos materiais.",
+      "A tabela de novembro lista somente 101 e 503. A unidade 104 não consta mais; menor preço listado: R$ 2.680.000."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -2084,7 +2115,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/marina-apartamentos-e-coberturas-niteroi-2-a-4-quartos-89-a-267-m/19382823-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9548681,-43.078711",
-    "materialsCheckedAt": "2026-10-21"
+    "materialsCheckedAt": "2026-10-31"
   },
   {
     "id": "ravello-residenziale",
@@ -2176,14 +2207,18 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Serena - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Serena - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Serena - Novembro 2026.pdf",
+        "checkedAt": "2026-10-31",
+        "commercialDate": "2026-10-30",
+        "validUntil": "2026-11-30"
       }
     ],
     "price": 1230000,
-    "minArea": null,
-    "maxArea": null,
+    "minArea": 102.09,
+    "maxArea": 172.65,
     "rooms": [],
     "delivery": null,
     "status": "A confirmar",
@@ -2191,7 +2226,7 @@
     "lng": -43.074585,
     "precision": "exact",
     "photo": "/empreendimentos/serena.jpg",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-10-31",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -2199,7 +2234,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/serena-apartamentos-coberturas-e-apartamentos-garden-niteroi-2-a-4-quartos-91-a-266-m/24550694-SETV?from=sale",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://maps.app.goo.gl/wC5WJpW9PnowpNVQA",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-10-31"
   },
   {
     "id": "althea",
