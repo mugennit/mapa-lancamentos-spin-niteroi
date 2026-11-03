@@ -1,0 +1,235 @@
+{
+  "checkedAt": "2026-11-03",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-02",
+  "method": [
+    "Opened Tabelas de Vendas and Books dos Lançamentos from the public Linktree buttons in the same browser session, without login.",
+    "Scrolled both virtualized roots to their actual ends; visited all 81 root folders and both subfolders; reconciled every displayed count and explicitly confirmed empty CHEADE.",
+    "Downloaded and read all 141 table and 130 book files; every ZIP entry was CRC-verified and SHA-256 compared with 02/11, including exact path reconciliation with the full UI inventory.",
+    "Compared root and subfolder organization, filenames, sizes and exact source modification tooltips; no structural, metadata or binary content differences found in the sources.",
+    "Read the complete current coordinates sheet twice, A1:Z969, and compared all 83 complete projects with current GitHub coordinates and existing owner-confirmed Maps links.",
+    "Listed every MAPA SITE project folder and the main sales-table folder; verified all 219 referenced files, parent membership, public-reader permissions and 90 stored table byte sizes.",
+    "Re-read printed validity headers of four Cury table PDFs. Corrected Orla Central validity by section and Rio Branco 220 expiry wording, preserving source files, prices, stock, links and coordinates."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "files": 141
+    },
+    "books": {
+      "rootFolders": 40,
+      "subfolders": 2,
+      "files": 130
+    }
+  },
+  "content": {
+    "tablesIdentical": 141,
+    "tablesAdded": 0,
+    "tablesRemoved": 0,
+    "tablesChangedAtSamePath": 0,
+    "tableVersionReplacements": 0,
+    "booksIdentical": 130,
+    "booksAdded": 0,
+    "booksRemoved": 0,
+    "booksChanged": 0,
+    "sourceModificationMetadataChanges": 0
+  },
+  "changes": [
+    {
+      "id": "orla-central",
+      "name": "Orla Central",
+      "kind": "catalog-validity-metadata",
+      "description": "Replaced an inaccurate single PDF-wide expiry with printed validity by section: Bloco 1 and shops through 02/11; Bloco 2 through 03/11. Removed a stale pre-September warning from the October table."
+    },
+    {
+      "id": "rio-branco-220",
+      "name": "Rio Branco 220",
+      "kind": "catalog-validity-note",
+      "description": "Explicitly marks the printed 02/11/2026 end date as elapsed and asks for constructor confirmation before using the table."
+    }
+  ],
+  "catalog": {
+    "projects": 113,
+    "projectsWithBookAndTable": 83,
+    "mapEligibleProjects": 83,
+    "projectsWithTable": 90,
+    "addedProjects": [],
+    "removedProjects": [],
+    "pendingIncompleteProjectsRetained": 30,
+    "metadataCorrections": [
+      "orla-central",
+      "rio-branco-220"
+    ]
+  },
+  "coordinates": {
+    "checkedAt": "2026-11-03",
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:Z969",
+    "projectRows": 112,
+    "completeProjectsChecked": 83,
+    "newNumericCoordinates": [],
+    "newMapsLinksToResolve": [],
+    "completeProjectsPendingLocation": [],
+    "existingOwnerConfirmedPointsPreserved": [
+      "solo",
+      "baume",
+      "rio-branco-220"
+    ],
+    "sheetChangedCells": [],
+    "sheetReReadUnchanged": true,
+    "genericGeocodingUsed": false
+  },
+  "drive": {
+    "mapSiteFolders": 83,
+    "filesInMapSite": 166,
+    "foldersWithExactlyTwoFiles": 83,
+    "publicReaderFiles": 166,
+    "mainFolderFiles": 8,
+    "mainFolderPublicReaderFiles": 8,
+    "replacementsRequired": 0,
+    "tablesReplacedInPlace": 0,
+    "obsoleteCopiesRemoved": 0,
+    "additionalBookFilesOutsideMapFolders": 45,
+    "uniqueReferencedFiles": 219,
+    "referencedFilesWithPublicReader": 219,
+    "allManifestLinksVerified": true,
+    "allMapFolderPairsMatchedToCatalog": true,
+    "projectsWithMultipleCurrentTables": [],
+    "verificationScope": "Current folder listings, file identity, size, modification metadata, parent membership and public-reader permission metadata; unchanged Drive files were not re-downloaded today.",
+    "currentTableByteSizesChecked": 90,
+    "additionalReferencedBooksMatchedToCurrentFolderListing": 45
+  },
+  "baume": {
+    "keptInCatalogAndMap": true,
+    "ownerProvidedBookAndOctoberTablePresent": true,
+    "officialBookInCEUFound": false,
+    "officialCEUBookItemsListed": 9,
+    "tableSourceName": "Tabela de Vendas Bäume - Outubro 2026.pdf",
+    "tableSourceModifiedDisplayed": "10/6/2026 6:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+    "tableBinaryUnchanged": true
+  },
+  "downloadRecovery": {
+    "tablesDownloadMethod": "All 41 loaded root folders selected and confirmed; one complete archive downloaded and all 141 entries read and CRC-verified.",
+    "tablesDownloadRetries": 0,
+    "successfulTableArchives": 1,
+    "booksDownloadMethod": "Five batches of eight fully listed root folders; all five archives became available and were read completely.",
+    "successfulBookBatches": 5,
+    "rootFoldersPerBatch": 8,
+    "all130BookEntriesReadAndCrcVerified": true,
+    "bookSourceBytes": 6992589205,
+    "all141TableEntriesReadAndCrcVerified": true
+  },
+  "limitations": [
+    "The live Vercel page requires the existing shared password. Catalog counts are validated from the exact GitHub commit deployed through successful Vercel status checks; the post-login UI was not visually inspected.",
+    "The linked legacy Sites project remains at version 18, updated 10/10/2026. The maintained publication is the GitHub-to-Vercel project; no older Sites archive was republished."
+  ],
+  "publication": {
+    "channel": "GitHub -> Vercel",
+    "catalogChangesRequired": true,
+    "auditOnly": false,
+    "baseCommit": "222e9aa97755164dc82183a8dbdabd94b7c800a4",
+    "productionLoginUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
+    "existingPasswordScreenVerified": true,
+    "linkedLegacySiteVersion": 18,
+    "verificationMethod": "Check both Vercel statuses for the new audit commit and recheck the production password screen; final deployment outcome is reported in the conversation."
+  },
+  "validation": {
+    "sourceCountsAndArchivePathsReconciled": true,
+    "all271SourceFilesCompared": true,
+    "all219DrivePermissionReadsSucceeded": true,
+    "all83DriveFolderPairsMatchedCatalog": true,
+    "all83CompleteProjectsHaveConfirmedExactCoordinates": true,
+    "allSheetValuesAndFormatsPreserved": true,
+    "commercialDatesPreservedAsPrinted": true,
+    "catalogChangesLimitedToPrintedValidityMetadataAndPublicNotes": true,
+    "all111OtherCatalogProjectsPreserved": true,
+    "allPricesStockLinksAndCoordinatesPreserved": true,
+    "attributesOffersMaterialsAndApplicationSourceUnchanged": true,
+    "printedValiditySectionsMatchedToSourceCoverPages": true
+  },
+  "commercialValidity": {
+    "checkedAt": "2026-11-03",
+    "reviewReport": "data/table-validity-review-2026-11-03.json",
+    "expiredSections": [
+      {
+        "id": "orla-central",
+        "name": "Orla Central",
+        "periods": [
+          {
+            "section": "Bloco 1",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "sourceCoverPage": 1,
+            "stateOnAuditDate": "expired"
+          },
+          {
+            "section": "Lojas",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "sourceCoverPage": 12,
+            "stateOnAuditDate": "expired"
+          }
+        ]
+      },
+      {
+        "id": "rio-branco-220",
+        "name": "Rio Branco 220",
+        "periods": [
+          {
+            "section": "Empreendimento",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "sourceCoverPage": 1,
+            "stateOnAuditDate": "expired"
+          }
+        ]
+      }
+    ],
+    "sectionsEndingToday": [
+      {
+        "id": "caminhos-da-guanabara",
+        "name": "Caminhos da Guanabara",
+        "periods": [
+          {
+            "section": "Empreendimento",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "sourceCoverPage": 1,
+            "stateOnAuditDate": "ends-today"
+          }
+        ]
+      },
+      {
+        "id": "orla-central",
+        "name": "Orla Central",
+        "periods": [
+          {
+            "section": "Bloco 2",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "sourceCoverPage": 6,
+            "stateOnAuditDate": "ends-today"
+          }
+        ]
+      },
+      {
+        "id": "the-pier",
+        "name": "The Pier",
+        "periods": [
+          {
+            "section": "Empreendimento",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "sourceCoverPage": 1,
+            "stateOnAuditDate": "ends-today"
+          }
+        ]
+      }
+    ],
+    "newOfficialVersionsFound": false
+  }
+}

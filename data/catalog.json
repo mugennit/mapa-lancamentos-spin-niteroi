@@ -939,9 +939,28 @@
         "url": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
         "date": "Outubro 2026",
         "commercialDate": "2026-10-06",
-        "validUntil": "02/11/2026",
         "sourceFileVersion": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
-        "checkedAt": "2026-10-25"
+        "checkedAt": "2026-11-03",
+        "validityBySection": [
+          {
+            "section": "Bloco 1",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "sourceCoverPage": 1
+          },
+          {
+            "section": "Bloco 2",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "sourceCoverPage": 6
+          },
+          {
+            "section": "Lojas",
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "sourceCoverPage": 12
+          }
+        ]
       }
     ],
     "price": 332260.75,
@@ -956,9 +975,8 @@
     "photo": "/empreendimentos/orla-central.jpg",
     "checkedAt": "2026-10-25",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta.",
       "Endereço em conferência nos materiais.",
-      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 02/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Tabela de outubro de 2026 com validades por seção: Bloco 1 e lojas de 06/10/2026 a 02/11/2026; Bloco 2 de 06/10/2026 a 03/11/2026. Bloco 1 e lojas com prazo encerrado; confirme as condições com a construtora. Impressão em 23/10/2026; a impressão não é a data comercial.",
       "227 unidades confirmadas no Bloco 2; a tabela não informa a quantidade disponível do Bloco 1. Estoque total não confirmado."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -967,7 +985,7 @@
     "addressSource": "https://curyconstrutoras.com.br/empreendimentos/orla-central/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.8893326,-43.1253427",
-    "materialsCheckedAt": "2026-10-25"
+    "materialsCheckedAt": "2026-11-03"
   },
   {
     "id": "rio-branco-220",
@@ -987,7 +1005,7 @@
         "commercialDate": "2026-10-06",
         "validUntil": "02/11/2026",
         "sourceFileVersion": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
-        "checkedAt": "2026-10-25"
+        "checkedAt": "2026-11-03"
       }
     ],
     "price": null,
@@ -1005,7 +1023,7 @@
     "photo": "/empreendimentos/rio-branco-220.jpg",
     "checkedAt": "2026-10-25",
     "notes": [
-      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 02/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 02/11/2026, encerrada. Confirme as condições com a construtora antes de usar a tabela. Impressão em 23/10/2026; a impressão não é a data comercial.",
       "Todas as quantidades da tabela são zero.",
       "Ponto indicado por Frederico Costa em 27/10/2026. No Google Maps, o local é identificado como Rio Branco 220 Residencial — Plantão de Vendas; o pin corresponde ao plantão informado, com endereço cadastrado do empreendimento preservado."
     ],
@@ -1020,7 +1038,7 @@
     "addressSource": "https://apecury.com.br/bora-de-ape/",
     "addressReviewStatus": "Conferido",
     "addressReview": null,
-    "materialsCheckedAt": "2026-10-25",
+    "materialsCheckedAt": "2026-11-03",
     "locationSource": "https://maps.app.goo.gl/7UnyCUUu96a1WnLj9"
   },
   {

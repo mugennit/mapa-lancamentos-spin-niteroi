@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02",
+  "checkedAt": "2026-11-03",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,22 +16,22 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "All 141 official source tables downloaded, CRC-verified and SHA-256 identical to 01/11. No replacement required.",
+    "tableComparison": "All 141 official source tables downloaded, CRC-verified and SHA-256 identical to 02/11. No replacement required. Printed Cury validity headers rechecked separately.",
     "identicalTables": 141,
     "differentTables": 0,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 83,
-    "bookComparison": "All 130 official source books downloaded in five batches, CRC-verified and SHA-256 identical to 01/11. Full UI structure and metadata unchanged.",
+    "bookComparison": "All 130 official source books downloaded in five batches, CRC-verified and SHA-256 identical to 02/11. Full UI structure and metadata unchanged.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 0,
-    "bookContentReport": "data/books-content-comparison-2026-11-02.json",
+    "bookContentReport": "data/books-content-comparison-2026-11-03.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-11-02",
-      "baseline": "2026-11-01",
+      "date": "2026-11-03",
+      "baseline": "2026-11-02",
       "tableFilesIdenticalSha256": 141,
       "tableFilesAdded": 0,
       "tableFilesRemoved": 0,
@@ -43,10 +43,17 @@
       "drivePairMetadataAndPublicReaderPermissionsChecked": 166,
       "mainFolderMetadataAndPublicReaderPermissionsChecked": 8,
       "additionalPublicBookFilesChecked": 45,
-      "allReferencedUniqueFilesWithPublicReader": 219
+      "allReferencedUniqueFilesWithPublicReader": 219,
+      "catalogMetadataCorrections": 2,
+      "printedCommercialValidityTablesChecked": 4
     },
     "sourceTableVersionReplacements": 0,
-    "catalogTablesUpdated": 0
+    "catalogTablesUpdated": 0,
+    "catalogValidityMetadataCorrections": [
+      "orla-central",
+      "rio-branco-220"
+    ],
+    "commercialValidityReview": "data/table-validity-review-2026-11-03.json"
   },
   "corrections": [
     {
@@ -864,13 +871,14 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-02",
+  "lastInventoryCheckedAt": "2026-11-03",
   "lastTablesUpdatedAt": "2026-10-31",
-  "lastBooksComparedAt": "2026-11-02",
-  "lastTablesInventoryCheckedAt": "2026-11-02",
-  "lastFullSourceAuditAt": "2026-11-02",
-  "lastTablesComparedAt": "2026-11-02",
-  "sourceAuditReport": "data/source-audit-2026-11-02.json",
+  "lastBooksComparedAt": "2026-11-03",
+  "lastTablesInventoryCheckedAt": "2026-11-03",
+  "lastFullSourceAuditAt": "2026-11-03",
+  "lastTablesComparedAt": "2026-11-03",
+  "sourceAuditReport": "data/source-audit-2026-11-03.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
-  "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json"
+  "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-03"
 }
