@@ -2438,39 +2438,6 @@
     ],
     "parkingCheckedAt": "2026-10-13"
   },
-  "wind-itacoatiara": {
-    "checkedAt": "2026-10-12",
-    "tableUrl": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk",
-    "tableDate": "Março 2026",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "111",
-        "typology": "2 quartos",
-        "price": 789000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "202",
-        "typology": "2 quartos",
-        "price": 799000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "204",
-        "typology": "1 quarto",
-        "price": 579000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "209",
-        "typology": "2 quartos",
-        "price": 859000,
-        "parkingSpaces": 1
-      }
-    ],
-    "parkingCheckedAt": "2026-10-13"
-  },
   "wind-oceanica": {
     "checkedAt": "2026-10-23",
     "tableUrl": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk",
@@ -3972,422 +3939,13 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "orla-central": {
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-11-04",
     "tableUrl": "https://drive.google.com/file/d/16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-/view?usp=drivesdk",
     "tableDate": "Outubro 2026",
-    "coverage": "partial",
-    "offers": [
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º AO 5º - Final 28",
-        "typology": "1 quarto",
-        "price": 332260.75,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º AO 5º - Finais 24, 25 (+221)",
-        "typology": "1 quarto",
-        "price": 332260.75,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 3º AO 5º - Finais 19, 26",
-        "typology": "1 quarto",
-        "price": 332260.75,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º - Final 23",
-        "typology": "1 quarto",
-        "price": 332260.75,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 2º - Final 20",
-        "typology": "1 quarto",
-        "price": 332260.75,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 6º AO 9º - Finais 19, 26",
-        "typology": "1 quarto",
-        "price": 335356.36,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 10º AO 13º - Final 28",
-        "typology": "1 quarto",
-        "price": 338451.97,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 2º AO 5º - Final 07",
-        "typology": "1 quarto",
-        "price": 339483.84,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA INTERNA) - 14º AO 16º- Final 28",
-        "typology": "1 quarto",
-        "price": 341547.57,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 6º AO 9º - Final 07",
-        "typology": "1 quarto",
-        "price": 342579.44,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 10º AO 13º - Final 07",
-        "typology": "1 quarto",
-        "price": 345675.05,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 14º AO 16º - Final 07",
-        "typology": "1 quarto",
-        "price": 348770.66,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 2º AO 5º - Finais 02, 03",
-        "typology": "1 quarto",
-        "price": 349287.62,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 2º AO 5º - Final 01",
-        "typology": "1 quarto",
-        "price": 349287.62,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA CIDADE) - 17 AO 18º - Final 07",
-        "typology": "1 quarto",
-        "price": 351866.26,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 6º AO 9º - Finais 02, 03",
-        "typology": "1 quarto",
-        "price": 352383.23,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 6º AO 9º - Final 01",
-        "typology": "1 quarto",
-        "price": 352383.23,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 10º AO 13º - Finais 02, 03",
-        "typology": "1 quarto",
-        "price": 355478.84,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 6
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 10º AO 13º - Final 01",
-        "typology": "1 quarto",
-        "price": 355478.84,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 14º AO 16º - Finais 02, 03",
-        "typology": "1 quarto",
-        "price": 358574.44,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 6
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 14º AO 16º - Final 01",
-        "typology": "1 quarto",
-        "price": 358574.44,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 1 QUARTO (VISTA PARCIAL) - 17 AO 18º - Finais 02, 03",
-        "typology": "1 quarto",
-        "price": 361670.05,
-        "area": 31.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 2º AO 5º - Final 18, 27",
-        "typology": "2 quartos",
-        "price": 380243.69,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 2º AO 5º - Finais 16, 17, 20, 23",
-        "typology": "2 quartos",
-        "price": 380243.69,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 2º AO 5º - Finais 21, 22, 15",
-        "typology": "2 quartos",
-        "price": 380243.69,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 2º AO 5º - Finais 10, 11, 14",
-        "typology": "2 quartos",
-        "price": 381791.49,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 11
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 2º AO 5º - Finais 08, 09",
-        "typology": "2 quartos",
-        "price": 381791.49,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 7
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 2º AO 5º - Finais 12, 13",
-        "typology": "2 quartos",
-        "price": 381791.49,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 6º AO 9º - Finais 16, 17, 20, 23",
-        "typology": "2 quartos",
-        "price": 383339.3,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 6º AO 9º - Finais 08, 09",
-        "typology": "2 quartos",
-        "price": 384887.1,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 6º AO 9º - Finais 10, 11, 14",
-        "typology": "2 quartos",
-        "price": 384887.1,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 10
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 6º AO 9º - Finais 12, 13",
-        "typology": "2 quartos",
-        "price": 384887.1,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA INTERNA) - 10º AO 13º - Final 18, 27",
-        "typology": "2 quartos",
-        "price": 386434.9,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 2
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 10º AO 13º - Finais 12, 13",
-        "typology": "2 quartos",
-        "price": 387982.71,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 7
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 10º AO 13º - Finais 08, 09",
-        "typology": "2 quartos",
-        "price": 387982.71,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 10º AO 13º - Finais 10, 11, 14",
-        "typology": "2 quartos",
-        "price": 387982.71,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 14º AO 16º - Finais 08, 09",
-        "typology": "2 quartos",
-        "price": 391078.31,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 6
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 14º AO 16º - Finais 12, 13",
-        "typology": "2 quartos",
-        "price": 391078.31,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 6
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 14º AO 16º - Finais 10, 11, 14",
-        "typology": "2 quartos",
-        "price": 391078.31,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 7
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 17 AO 18º - Finais 12, 13",
-        "typology": "2 quartos",
-        "price": 394173.92,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 17 AO 18º - Finais 08, 09",
-        "typology": "2 quartos",
-        "price": 394173.92,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA CIDADE) - 17 AO 18º - Finais 10, 11, 14",
-        "typology": "2 quartos",
-        "price": 394173.92,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 2º AO 5º - Final 04",
-        "typology": "2 quartos",
-        "price": 397785.46,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 2º AO 5º - Finais 05, 06, 32",
-        "typology": "2 quartos",
-        "price": 397785.46,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 7
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 2º - Final 27",
-        "typology": "2 quartos",
-        "price": 397785.46,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 6º AO 9º - Final 04",
-        "typology": "2 quartos",
-        "price": 400881.07,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 4
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 6º AO 9º - Finais 05, 06, 32",
-        "typology": "2 quartos",
-        "price": 400881.07,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 8
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 10º AO 13º - Final 04",
-        "typology": "2 quartos",
-        "price": 403976.67,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 1
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 10º AO 13º - Finais 05, 06, 32",
-        "typology": "2 quartos",
-        "price": 403976.67,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 7
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 14º AO 16º - Finais 05, 06, 32",
-        "typology": "2 quartos",
-        "price": 407072.28,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 3
-      },
-      {
-        "unit": "Grupo: Bloco 2 - 2 QUARTOS (VISTA PARCIAL) - 17º AO 18º - Finais 05, 06, 32",
-        "typology": "2 quartos",
-        "price": 410167.89,
-        "area": 36.0,
-        "offerKind": "group",
-        "availableCount": 1
-      }
-    ],
+    "coverage": "unavailable",
+    "offers": [],
     "notes": [
-      "227 unidades confirmadas no Bloco 2; Bloco 1 sem coluna de quantidade. Não representa o estoque total do empreendimento."
+      "Validade impressa encerrada em todas as seções. Disponibilidade atual a confirmar."
     ]
   },
   "the-pier": {
@@ -12949,85 +12507,90 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "tropico-camboinhas": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-04",
     "tableUrl": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
+    "tableDate": "Novembro 2026",
     "coverage": "partial",
     "offers": [
       {
         "unit": "101 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1490000,
-        "parkingSpaces": 2
+        "price": 1490000.0,
+        "parkingSpaces": 2,
+        "area": 149.3
       },
       {
         "unit": "201 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1690000,
-        "parkingSpaces": 2
+        "price": 1690000.0,
+        "parkingSpaces": 2,
+        "area": 149.0
       },
       {
         "unit": "202 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1690000,
-        "parkingSpaces": 2
+        "price": 1690000.0,
+        "parkingSpaces": 2,
+        "area": 148.74
       },
       {
         "unit": "401 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1790000,
-        "parkingSpaces": 2
+        "price": 1790000.0,
+        "parkingSpaces": 2,
+        "area": 149.0
       },
       {
         "unit": "402 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1790000,
-        "parkingSpaces": 2
+        "price": 1790000.0,
+        "parkingSpaces": 2,
+        "area": 148.74
       },
       {
         "unit": "502 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1840000,
-        "parkingSpaces": 2
+        "price": 1840000.0,
+        "parkingSpaces": 2,
+        "area": 148.74
       },
       {
         "unit": "602 — Bloco 1",
         "typology": "4 quartos",
-        "price": 1990000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "102 — Bloco 2",
-        "typology": "4 quartos",
-        "price": 1299000,
-        "parkingSpaces": 2
+        "price": 1990000.0,
+        "parkingSpaces": 2,
+        "area": 156.69
       },
       {
         "unit": "404 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1349000,
-        "parkingSpaces": 2
+        "price": 1349000.0,
+        "parkingSpaces": 2,
+        "area": 110.44
       },
       {
         "unit": "504 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1399000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "601 — Bloco 2",
-        "typology": "4 quartos",
-        "price": 1699000,
-        "parkingSpaces": 2
+        "price": 1399000.0,
+        "parkingSpaces": 2,
+        "area": 110.44
       },
       {
         "unit": "604 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1549000,
-        "parkingSpaces": 2
+        "price": 1549000.0,
+        "parkingSpaces": 2,
+        "area": 131.54
+      },
+      {
+        "unit": "C01 — Bloco 2",
+        "typology": "4 quartos",
+        "price": 3149000.0,
+        "parkingSpaces": 3,
+        "area": 285.72
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-04"
   },
   "eldorado-ii": {
     "checkedAt": "2026-10-13",
@@ -13045,25 +12608,27 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "davinci": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-04",
     "tableUrl": "https://drive.google.com/file/d/1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
+    "tableDate": "Novembro 2026",
     "coverage": "partial",
     "offers": [
       {
         "unit": "301",
         "typology": "",
         "price": 2907450.12,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 238.34
       },
       {
         "unit": "501",
         "typology": "",
-        "price": 1699000,
-        "parkingSpaces": 2
+        "price": 1699000.0,
+        "parkingSpaces": 2,
+        "area": 159.59
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-04"
   },
   "jardin-di-grazielle": {
     "checkedAt": "2026-10-16",

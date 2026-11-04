@@ -896,7 +896,7 @@
         "commercialDate": "2026-10-06",
         "validUntil": "03/11/2026",
         "sourceFileVersion": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
-        "checkedAt": "2026-10-25"
+        "checkedAt": "2026-11-04"
       }
     ],
     "price": 334852.39,
@@ -909,10 +909,10 @@
     "lng": -43.126432,
     "precision": "exact",
     "photo": "/empreendimentos/caminhos-da-guanabara.jpg",
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-11-04",
     "notes": [
       "Endereço em conferência nos materiais.",
-      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 03/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 03/11/2026. Prazo encerrado; confirme as condições com a construtora. Impressão em 23/10/2026; a impressão não é a data comercial.",
       "Tabela por tipologia sem quantitativo: preço de referência, disponibilidade a confirmar. As ofertas da tabela anterior não foram transportadas."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -940,7 +940,7 @@
         "date": "Outubro 2026",
         "commercialDate": "2026-10-06",
         "sourceFileVersion": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
-        "checkedAt": "2026-11-03",
+        "checkedAt": "2026-11-04",
         "validityBySection": [
           {
             "section": "Bloco 1",
@@ -973,11 +973,11 @@
     "lng": -43.1253427,
     "precision": "exact",
     "photo": "/empreendimentos/orla-central.jpg",
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-11-04",
     "notes": [
       "Endereço em conferência nos materiais.",
-      "Tabela de outubro de 2026 com validades por seção: Bloco 1 e lojas de 06/10/2026 a 02/11/2026; Bloco 2 de 06/10/2026 a 03/11/2026. Bloco 1 e lojas com prazo encerrado; confirme as condições com a construtora. Impressão em 23/10/2026; a impressão não é a data comercial.",
-      "227 unidades confirmadas no Bloco 2; a tabela não informa a quantidade disponível do Bloco 1. Estoque total não confirmado."
+      "Tabela de outubro de 2026 com validades por seção: Bloco 1 e lojas de 06/10/2026 a 02/11/2026; Bloco 2 de 06/10/2026 a 03/11/2026. Todas as seções estão com prazo encerrado; confirme as condições com a construtora. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "A tabela de outubro registrava 227 unidades no Bloco 2; a tabela não informa a quantidade disponível do Bloco 1. Estoque total não confirmado."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -1059,7 +1059,7 @@
         "commercialDate": "2026-10-06",
         "validUntil": "03/11/2026",
         "sourceFileVersion": "Tabela de Vendas The Pier - Outubro 2026.pdf",
-        "checkedAt": "2026-10-25"
+        "checkedAt": "2026-11-04"
       }
     ],
     "price": 374100.22,
@@ -1072,10 +1072,10 @@
     "lng": -43.1269739,
     "precision": "exact",
     "photo": "/empreendimentos/the-pier.jpg",
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-11-04",
     "notes": [
       "Endereço em conferência nos materiais.",
-      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 03/11/2026. Impressão em 23/10/2026; a impressão não é a data comercial.",
+      "Tabela de outubro de 2026: validade impressa de 06/10/2026 a 03/11/2026. Prazo encerrado; confirme as condições com a construtora. Impressão em 23/10/2026; a impressão não é a data comercial.",
       "Tabela por tipologia sem quantitativo: preço de referência, disponibilidade a confirmar. As ofertas da tabela anterior não foram transportadas."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
@@ -2701,14 +2701,8 @@
       "name": "Book Wind Itacoatiara.pdf",
       "url": "https://drive.google.com/file/d/1KSAOdyMUe-nDJlyaJzwCAV27AJTTYEwq/view?usp=drivesdk"
     },
-    "tables": [
-      {
-        "name": "Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
-        "url": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk",
-        "date": "Março 2026"
-      }
-    ],
-    "price": 579000,
+    "tables": [],
+    "price": null,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -2718,9 +2712,9 @@
     "lng": -43.0305839,
     "precision": "exact",
     "photo": "/empreendimentos/wind-itacoatiara.jpg",
-    "checkedAt": "2026-09-30",
+    "checkedAt": "2026-11-04",
     "notes": [
-      "A tabela principal deste card é anterior a setembro de 2026. Confira a validade e as condições na tabela antes de apresentar uma proposta."
+      "A tabela de março de 2026 foi retirada da fonte oficial. O book permanece disponível; tabela atual e disponibilidade a confirmar."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -2735,7 +2729,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9625347,-43.0305839",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-04"
   },
   {
     "id": "wind-oceanica",
@@ -4160,12 +4154,17 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Trópico Camboinhas - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Trópico Camboinhas - Novembro 2026 (1).pdf",
+        "commercialDate": "2026-10-30",
+        "validFrom": "01/11/2026",
+        "validUntil": "30/11/2026",
+        "checkedAt": "2026-11-04"
       }
     ],
-    "price": 1299000,
+    "price": 1349000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4175,7 +4174,7 @@
     "lng": -43.0523467,
     "precision": "exact",
     "photo": "/empreendimentos/tropico-camboinhas.jpg",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-11-04",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
@@ -4183,7 +4182,7 @@
     "addressSource": "https://www.spinimoveis.com/empreendimento/tropico-camboinhas-apartamentos-e-coberturas-niteroi-4-quartos-110-a-313-m/18866010-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://maps.app.goo.gl/s7HbvKYdw47MDhHU7",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-04"
   },
   {
     "id": "flua",
@@ -4696,12 +4695,17 @@
     "book": null,
     "tables": [
       {
-        "name": "Tabela de Vendas DaVinci - Outubro 2026.pdf",
+        "name": "Tabela de Vendas DaVinci - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas DaVinci - Novembro 2026.pdf",
+        "commercialDate": "2026-10-30",
+        "validFrom": "01/11/2026",
+        "validUntil": "30/11/2026",
+        "checkedAt": "2026-11-04"
       }
     ],
-    "price": 1699000,
+    "price": 1699000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -4711,7 +4715,7 @@
     "lng": -43.107068,
     "precision": null,
     "photo": null,
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-11-04",
     "notes": [
       "Endereço em conferência nos materiais."
     ],
@@ -4721,7 +4725,7 @@
     "addressSource": "https://falvesinc.com.br/empreendimentos/davinci-residence",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.905833,-43.107068",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-04"
   },
   {
     "id": "baume",
@@ -4763,5 +4767,38 @@
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps/place/R.+Dr.+Herotides+de+Oliveira,+18+-+Icara%C3%AD,+Niter%C3%B3i+-+RJ,+24230-230,+Brasil/@-22.9029875,-43.1065078,17z/data=!3m1!4b1!4m6!3m5!1s0x9983fac95da6c9:0x4a545f92f33877a5!8m2!3d-22.9029875!4d-43.1065078!16s%2Fg%2F11np3g9trv?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
     "materialsCheckedAt": "2026-10-12"
+  },
+  {
+    "id": "orla-guanabara",
+    "name": "Orla Guanabara",
+    "company": "Emccamp",
+    "neighborhood": "Centro",
+    "address": "Rua Jornalista Rogério Coelho Neto, 250",
+    "book": {
+      "name": "Spin_BOOK ORLA GUANABARA - DIGITAL.pdf",
+      "url": "https://drive.google.com/file/d/1f-802S27IDa5IlYMCdChF5r1d2wcwztU/view?usp=drivesdk"
+    },
+    "tables": [],
+    "price": null,
+    "minArea": null,
+    "maxArea": null,
+    "rooms": [
+      2
+    ],
+    "delivery": null,
+    "status": "Lançamento",
+    "lat": null,
+    "lng": null,
+    "precision": null,
+    "photo": null,
+    "checkedAt": "2026-11-04",
+    "notes": [
+      "Book confirmado. Tabela de vendas não localizada no acervo da SPIN."
+    ],
+    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "addressReview": null,
+    "addressSource": "https://emccamp.com.br/empreendimento/orla-guanabara/",
+    "addressReviewStatus": "Conferido",
+    "materialsCheckedAt": "2026-11-04"
   }
 ]

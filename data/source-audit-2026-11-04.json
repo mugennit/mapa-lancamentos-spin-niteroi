@@ -1,0 +1,426 @@
+{
+  "checkedAt": "2026-11-04",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-03",
+  "method": [
+    "Opened both folders via the public Linktree buttons without login; retained the same browser session.",
+    "Scrolled both root lists to the end, opened all 82 top-level folders and all 3 nested folders, and reconciled every parent item count.",
+    "Read every available ZIP entry to EOF, verifying CRC and comparing SHA-256 and paths to the previous inventory.",
+    "Re-read printed validity and commercial dates in current PDFs and used original file hashes to verify three Drive uploads.",
+    "Read the full current coordinate sheet twice and checked all 82 eligible projects without generic geocoding."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "rootDisplayedItemTotal": 140,
+      "subfolderDisplayedItemTotal": 0,
+      "listedFiles": 140,
+      "downloadedFiles": 140,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "subfolders": 3,
+      "rootDisplayedItemTotal": 125,
+      "subfolderDisplayedItemTotal": 9,
+      "listedFiles": 131,
+      "downloadedFiles": 131,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "checkedAt": "2026-11-04",
+      "baseline": "2026-11-03",
+      "status": "complete",
+      "allZipEntriesReadAndCrcVerified": true,
+      "identicalSha256": 136,
+      "changed": [],
+      "added": [
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas DaVinci - Novembro 2026.pdf",
+          "bytes": 473294,
+          "sha256": "d99af5015b90f241f32799946ae33f96185786ab38da5b97bef874f7b44369e4"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Orla Bardot - Novembro 2026.pdf",
+          "bytes": 167382,
+          "sha256": "441f729633cf8643b0a1211d583798ac5a803bf0da938ef2eecb426c21d3517f"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Trópico Camboinhas - Novembro 2026 (1).pdf",
+          "bytes": 323252,
+          "sha256": "48f71c8eec6a0228dfdb954ffaf95a3f74c6873961f1c3bd02f8f1d43b56534b"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Viva Búzios 2 - Novembro 2026.pdf",
+          "bytes": 505273,
+          "sha256": "755fe3f7f956590b1a3cc3aba4aeddbd563bcc65f835fdb3c614fcfbd522fa65"
+        }
+      ],
+      "removed": [
+        {
+          "path": "Tabelas de Vendas/METTA/Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
+          "bytes": 714566,
+          "sha256": "2bfbedad77ab27f4a43784d88e8fd98bd71f55d9c5973f426b0de855cceabea0"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas DaVinci - Outubro 2026.pdf",
+          "bytes": 475674,
+          "sha256": "a7006ffe99f271d97859eaa89865cdc05172c79f7bf8c3c913f58df1ac00a8e3"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Orla Bardot - Outubro 2026.pdf",
+          "bytes": 167872,
+          "sha256": "917e1b3d36d48dce8a13a0636598eddbe0de0687d97b4fbde49ec09695da6751"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
+          "bytes": 323538,
+          "sha256": "275ce4a8fcb07ffaa0e606faae5e26e94945dd0cc2ef27b7dd8b3ae202f92587"
+        },
+        {
+          "path": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Viva Búzios 2 - Outubro 2026 (2).pdf",
+          "bytes": 505261,
+          "sha256": "959e9faafd67c18613fb4e30054659610fb48e6669ed1a0d0a4718e21ee0a27c"
+        }
+      ],
+      "sameHashMoves": [],
+      "successfulArchiveBatches": [
+        {
+          "archive": "OneDrive_1_04-11-2026.zip",
+          "files": 140,
+          "roots": [
+            "MRC",
+            "Smart Ville",
+            "Fazenda Fillomena",
+            "Golden Realty",
+            "JM",
+            "EQUIPE",
+            "NATUS",
+            "FEFM",
+            "GPCON",
+            "PA5",
+            "4MX",
+            "SELLING",
+            "ARETÊ BUZIOS",
+            "MEDEIROS",
+            "RJ ENGENHARIA",
+            "Pró-Lotes",
+            "JOAMA",
+            "Meu Crescer",
+            "MRV",
+            "METTA",
+            "CONVIVA",
+            "TEGRA",
+            "TECCONSTRU",
+            "SOTER",
+            "RDR",
+            "RAMABE",
+            "PROART",
+            "PINTO DE ALMEIDA",
+            "NOVOLAR",
+            "LRM",
+            "JPR",
+            "JOÃO FORTES",
+            "ITAUBA",
+            "HABITARE",
+            "FERNANDES MACIEL",
+            "FALVES",
+            "ELVAS",
+            "CURY",
+            "CEU",
+            "BACOS"
+          ]
+        }
+      ],
+      "duplicateArchiveEntries": [],
+      "uiListedFilesWithoutCurrentBinaryVerification": []
+    },
+    "books": {
+      "checkedAt": "2026-11-04",
+      "baseline": "2026-11-03",
+      "status": "complete",
+      "allZipEntriesReadAndCrcVerified": true,
+      "identicalSha256": 130,
+      "changed": [],
+      "added": [
+        {
+          "path": "EMCCAMP/Orla Guanabara/Spin_BOOK ORLA GUANABARA - DIGITAL.pdf",
+          "bytes": 33318254,
+          "sha256": "01bf30071f7865c4357daeecadfbe8c2dd966ec705d7e299c2462174c547d04d"
+        }
+      ],
+      "removed": [],
+      "sameHashMoves": [],
+      "successfulArchiveBatches": [
+        {
+          "archive": "OneDrive_1_04-11-2026 (1).zip",
+          "files": 31,
+          "roots": [
+            "EMCCAMP",
+            "Krion",
+            "Nexis",
+            "VL Construtora",
+            "Soter",
+            "Tecconstru",
+            "Tegra",
+            "Tresor"
+          ]
+        },
+        {
+          "archive": "OneDrive_1_04-11-2026 (2).zip",
+          "files": 18,
+          "roots": [
+            "JPR",
+            "LRM",
+            "Medeiros",
+            "Metta",
+            "Mhor",
+            "MRC",
+            "Novolar",
+            "PA5"
+          ]
+        },
+        {
+          "archive": "OneDrive_2_04-11-2026.zip",
+          "files": 25,
+          "roots": [
+            "Proart",
+            "Pró-lotes",
+            "RAMABE",
+            "RDR",
+            "RJ Engenharia",
+            "Itauba",
+            "Joama",
+            "João Fortes"
+          ]
+        },
+        {
+          "archive": "OneDrive_3_04-11-2026.zip",
+          "files": 24,
+          "roots": [
+            "Habitare",
+            "Fernandes Maciel",
+            "GPCON",
+            "Falves",
+            "Equipe",
+            "CYCOHRP Engenharia",
+            "Direcional",
+            "Elvas"
+          ]
+        },
+        {
+          "archive": "OneDrive_4_04-11-2026.zip",
+          "files": 33,
+          "roots": [
+            "Crescer",
+            "Cury",
+            "CAC",
+            "CEU",
+            "Cheade",
+            "Conviva",
+            "Anasa",
+            "Bacos",
+            "4MX"
+          ]
+        }
+      ],
+      "duplicateArchiveEntries": [],
+      "uiListedFilesWithoutCurrentBinaryVerification": []
+    }
+  },
+  "changes": [
+    {
+      "id": "orla-guanabara",
+      "name": "Orla Guanabara",
+      "kind": "catalog-addition-book-only",
+      "address": "Rua Jornalista Rogério Coelho Neto, 250 — Centro, Niterói",
+      "file": "EMCCAMP/Orla Guanabara/Spin_BOOK ORLA GUANABARA - DIGITAL.pdf",
+      "sourceModified": "11/3/2026 8:38 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+      "driveFileVerifiedIdentical": true,
+      "onMap": false,
+      "reason": "Tabela de vendas não localizada. Não há linha correspondente na planilha atual."
+    },
+    {
+      "id": "wind-itacoatiara",
+      "name": "Wind Itacoatiara",
+      "kind": "table-withdrawn",
+      "onMap": false,
+      "listed": true,
+      "bookStillOfficialAndReadable": true,
+      "formerTableArchived": true
+    },
+    {
+      "id": "davinci",
+      "kind": "table-replaced-in-place",
+      "printedDocumentDate": "2026-10-30",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-11-30",
+      "name": "Tabela de Vendas DaVinci - Novembro 2026.pdf",
+      "bytes": 473294,
+      "sha256": "d99af5015b90f241f32799946ae33f96185786ab38da5b97bef874f7b44369e4",
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-04"
+    },
+    {
+      "id": "tropico-camboinhas",
+      "kind": "table-replaced-in-place",
+      "printedDocumentDate": "2026-10-30",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-11-30",
+      "name": "Tabela de Vendas Trópico Camboinhas - Novembro 2026.pdf",
+      "bytes": 323252,
+      "sha256": "48f71c8eec6a0228dfdb954ffaf95a3f74c6873961f1c3bd02f8f1d43b56534b",
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-04"
+    }
+  ],
+  "outsideNiteroiUpdates": [
+    "Orla Bardot",
+    "Viva Búzios 2"
+  ],
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 82,
+    "projectsWithTable": 89,
+    "addedProjects": [
+      "orla-guanabara"
+    ],
+    "removedProjects": [],
+    "removedPins": [
+      "wind-itacoatiara"
+    ],
+    "pendingIncompleteProjectsRetained": 32,
+    "expiredValidityMetadataUpdated": [
+      "orla-central",
+      "caminhos-da-guanabara",
+      "the-pier"
+    ]
+  },
+  "coordinates": {
+    "checkedAt": "2026-11-04",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:Z969",
+    "projectRows": 112,
+    "completeProjectsChecked": 82,
+    "matchingNumericPairs": 80,
+    "matchingOwnerMapsLinks": 1,
+    "catalogException": 1,
+    "completeProjectsPendingLocation": [],
+    "coordinatesChanged": [],
+    "genericGeocodingUsed": false,
+    "sheetReReadUnchanged": true
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 164,
+    "foldersWithExactlyTwoFiles": 82,
+    "mainFolderFiles": 8,
+    "tablesReplacedInPlace": 2,
+    "newBooks": 1,
+    "removedFromMapMaterialsFolders": [
+      "wind-itacoatiara"
+    ],
+    "currentTableByteSizesChecked": 89,
+    "uniqueReferencedFiles": 219,
+    "referencedFilesWithPublicReader": 219,
+    "filesRedownloadedAndSha256Verified": 3,
+    "verificationScope": "Current listing and permissions metadata for existing files; the three new or replaced PDFs were re-downloaded and compared byte for byte."
+  },
+  "baume": {
+    "catalogIncluded": true,
+    "onMap": true,
+    "officialBookFound": false,
+    "booksCeuFilesChecked": 8,
+    "officialTable": "Tabela de Vendas Bäume - Outubro 2026.pdf",
+    "officialTableModifiedDisplay": "10/6/2026 6:53 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+    "singleDriveTableRetained": true,
+    "ownerSuppliedBookRetained": true
+  },
+  "commercialValidity": {
+    "reviewReport": "data/table-validity-review-2026-11-04.json",
+    "expired": [
+      {
+        "id": "orla-central",
+        "sourceFile": "CURY/Tabela de Vendas Orla Central - Outubro 2026.pdf",
+        "periods": [
+          {
+            "section": "Bloco 1",
+            "sourceCoverPage": 1,
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "stateOnAuditDate": "expired"
+          },
+          {
+            "section": "Bloco 2",
+            "sourceCoverPage": 6,
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "stateOnAuditDate": "expired"
+          },
+          {
+            "section": "Lojas",
+            "sourceCoverPage": 12,
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "stateOnAuditDate": "expired"
+          }
+        ]
+      },
+      {
+        "id": "caminhos-da-guanabara",
+        "sourceFile": "CURY/Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+        "periods": [
+          {
+            "section": "Empreendimento",
+            "sourceCoverPage": 1,
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "stateOnAuditDate": "expired"
+          }
+        ]
+      },
+      {
+        "id": "the-pier",
+        "sourceFile": "CURY/Tabela de Vendas The Pier - Outubro 2026.pdf",
+        "periods": [
+          {
+            "section": "Empreendimento",
+            "sourceCoverPage": 1,
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-03",
+            "stateOnAuditDate": "expired"
+          }
+        ]
+      },
+      {
+        "id": "rio-branco-220",
+        "sourceFile": "CURY/Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+        "periods": [
+          {
+            "section": "Empreendimento",
+            "sourceCoverPage": 1,
+            "validFrom": "2026-10-06",
+            "validUntil": "2026-11-02",
+            "stateOnAuditDate": "expired"
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [],
+  "publication": {
+    "channel": "GitHub -> Vercel",
+    "baseCommit": "5482e48ae14266296568bbe1b21952115a24b0a7",
+    "preservesMapSearchFix": true,
+    "productionLoginUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
+    "verificationMethod": "Check the new commit status and Vercel production alias after pushing. Read the exact deployed catalog revision for counts."
+  }
+}

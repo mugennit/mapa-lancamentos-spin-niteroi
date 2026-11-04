@@ -1,59 +1,58 @@
 {
-  "checkedAt": "2026-11-03",
+  "checkedAt": "2026-11-04",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
     "tableFolders": 41,
-    "tableSourceFiles": 141,
-    "bookRootFolders": 40,
-    "bookSubfolders": 2,
-    "bookSourceFiles": 130,
-    "catalogProjects": 113,
-    "projectsWithBookAndTable": 83,
-    "projectsWithTable": 90,
-    "driveProjectFolders": 83,
-    "driveFilesInProjectFolders": 166,
-    "mapEligibleProjects": 83
+    "tableSourceFiles": 140,
+    "bookRootFolders": 41,
+    "bookSubfolders": 3,
+    "bookSourceFiles": 131,
+    "catalogProjects": 114,
+    "projectsWithBookAndTable": 82,
+    "projectsWithTable": 89,
+    "driveProjectFolders": 82,
+    "driveFilesInProjectFolders": 164,
+    "mapEligibleProjects": 82
   },
   "validation": {
-    "tableComparison": "All 141 official source tables downloaded, CRC-verified and SHA-256 identical to 02/11. No replacement required. Printed Cury validity headers rechecked separately.",
-    "identicalTables": 141,
-    "differentTables": 0,
+    "tableComparison": "140 PDFs conferidos por SHA-256: 136 idênticos, quatro novas versões da Tecconstru e uma tabela da Metta retirada.",
+    "identicalTables": 136,
+    "differentTables": 4,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 83,
-    "bookComparison": "All 130 official source books downloaded in five batches, CRC-verified and SHA-256 identical to 02/11. Full UI structure and metadata unchanged.",
+    "driveFoldersWithExactlyTwoFiles": 82,
+    "bookComparison": "131 books listados; 131 PDFs conferidos por SHA-256. Novo book: Orla Guanabara, da Emccamp.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 0,
-    "bookContentReport": "data/books-content-comparison-2026-11-03.json",
+    "newTables": 4,
+    "bookContentReport": "data/books-content-comparison-2026-11-04.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 15,
     "verifiedOptimizedPages": 728,
     "latestSourceComparison": {
-      "date": "2026-11-03",
-      "baseline": "2026-11-02",
-      "tableFilesIdenticalSha256": 141,
-      "tableFilesAdded": 0,
-      "tableFilesRemoved": 0,
-      "sourceTableVersionReplacements": 0,
-      "catalogTablesUpdated": 0,
+      "date": "2026-11-04",
+      "baseline": "2026-11-03",
+      "tableFilesIdenticalSha256": 136,
+      "tableFilesAdded": 4,
+      "tableFilesRemoved": 5,
+      "sourceTableVersionReplacements": 4,
+      "catalogTablesUpdated": 2,
       "bookFilesIdenticalSha256": 130,
+      "bookFilesAdded": 1,
+      "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
-      "retiredCatalogTables": 0,
-      "drivePairMetadataAndPublicReaderPermissionsChecked": 166,
-      "mainFolderMetadataAndPublicReaderPermissionsChecked": 8,
-      "additionalPublicBookFilesChecked": 45,
+      "retiredCatalogTables": 1,
       "allReferencedUniqueFilesWithPublicReader": 219,
-      "catalogMetadataCorrections": 2,
       "printedCommercialValidityTablesChecked": 4
     },
-    "sourceTableVersionReplacements": 0,
-    "catalogTablesUpdated": 0,
+    "sourceTableVersionReplacements": 4,
+    "catalogTablesUpdated": 2,
     "catalogValidityMetadataCorrections": [
       "orla-central",
-      "rio-branco-220"
+      "caminhos-da-guanabara",
+      "the-pier"
     ],
-    "commercialValidityReview": "data/table-validity-review-2026-11-03.json"
+    "commercialValidityReview": "data/table-validity-review-2026-11-04.json"
   },
   "corrections": [
     {
@@ -552,7 +551,8 @@
       "name": "Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
       "sha256": "2bfbedad77ab27f4a43784d88e8fd98bd71f55d9c5973f426b0de855cceabea0",
       "bytes": 714566,
-      "driveIdentical": true
+      "driveIdentical": true,
+      "archivedOn": "2026-11-04"
     },
     {
       "id": "wind-oceanica",
@@ -726,10 +726,11 @@
     },
     {
       "id": "tropico-camboinhas",
-      "name": "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
-      "sha256": "275ce4a8fcb07ffaa0e606faae5e26e94945dd0cc2ef27b7dd8b3ae202f92587",
-      "bytes": 323538,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Trópico Camboinhas - Novembro 2026.pdf",
+      "bytes": 323252,
+      "sha256": "48f71c8eec6a0228dfdb954ffaf95a3f74c6873961f1c3bd02f8f1d43b56534b",
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-04"
     },
     {
       "id": "flua",
@@ -818,10 +819,11 @@
     },
     {
       "id": "davinci",
-      "name": "Tabela de Vendas DaVinci - Outubro 2026.pdf",
-      "sha256": "a7006ffe99f271d97859eaa89865cdc05172c79f7bf8c3c913f58df1ac00a8e3",
-      "bytes": 475674,
-      "driveIdentical": true
+      "name": "Tabela de Vendas DaVinci - Novembro 2026.pdf",
+      "bytes": 473294,
+      "sha256": "d99af5015b90f241f32799946ae33f96185786ab38da5b97bef874f7b44369e4",
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-04"
     },
     {
       "id": "baume",
@@ -871,14 +873,14 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-03",
-  "lastTablesUpdatedAt": "2026-10-31",
-  "lastBooksComparedAt": "2026-11-03",
-  "lastTablesInventoryCheckedAt": "2026-11-03",
-  "lastFullSourceAuditAt": "2026-11-03",
-  "lastTablesComparedAt": "2026-11-03",
-  "sourceAuditReport": "data/source-audit-2026-11-03.json",
+  "lastInventoryCheckedAt": "2026-11-04",
+  "lastTablesUpdatedAt": "2026-11-04",
+  "lastBooksComparedAt": "2026-11-04",
+  "lastTablesInventoryCheckedAt": "2026-11-04",
+  "lastFullSourceAuditAt": "2026-11-04",
+  "lastTablesComparedAt": "2026-11-04",
+  "sourceAuditReport": "data/source-audit-2026-11-04.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
   "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-03"
+  "lastCatalogMetadataUpdatedAt": "2026-11-04"
 }

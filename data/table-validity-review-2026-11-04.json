@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-11-04",
+  "noNewOfficialVersionsFound": true,
+  "tables": [
+    {
+      "id": "orla-central",
+      "sourceFile": "CURY/Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "periods": [
+        {
+          "section": "Bloco 1",
+          "sourceCoverPage": 1,
+          "validFrom": "2026-10-06",
+          "validUntil": "2026-11-02",
+          "stateOnAuditDate": "expired"
+        },
+        {
+          "section": "Bloco 2",
+          "sourceCoverPage": 6,
+          "validFrom": "2026-10-06",
+          "validUntil": "2026-11-03",
+          "stateOnAuditDate": "expired"
+        },
+        {
+          "section": "Lojas",
+          "sourceCoverPage": 12,
+          "validFrom": "2026-10-06",
+          "validUntil": "2026-11-02",
+          "stateOnAuditDate": "expired"
+        }
+      ]
+    },
+    {
+      "id": "caminhos-da-guanabara",
+      "sourceFile": "CURY/Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "periods": [
+        {
+          "section": "Empreendimento",
+          "sourceCoverPage": 1,
+          "validFrom": "2026-10-06",
+          "validUntil": "2026-11-03",
+          "stateOnAuditDate": "expired"
+        }
+      ]
+    },
+    {
+      "id": "the-pier",
+      "sourceFile": "CURY/Tabela de Vendas The Pier - Outubro 2026.pdf",
+      "periods": [
+        {
+          "section": "Empreendimento",
+          "sourceCoverPage": 1,
+          "validFrom": "2026-10-06",
+          "validUntil": "2026-11-03",
+          "stateOnAuditDate": "expired"
+        }
+      ]
+    },
+    {
+      "id": "rio-branco-220",
+      "sourceFile": "CURY/Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "periods": [
+        {
+          "section": "Empreendimento",
+          "sourceCoverPage": 1,
+          "validFrom": "2026-10-06",
+          "validUntil": "2026-11-02",
+          "stateOnAuditDate": "expired"
+        }
+      ]
+    }
+  ]
+}

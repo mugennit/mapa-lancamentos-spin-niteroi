@@ -1,6 +1,6 @@
 [
   {
-    "name": "Tabela de Vendas DaVinci - Outubro 2026.pdf",
+    "name": "Tabela de Vendas DaVinci - Novembro 2026.pdf",
     "group": "Tecconstru",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY/view?usp=drivesdk"
@@ -54,7 +54,7 @@
     "url": "https://drive.google.com/file/d/1glKT_A9ThKKwIOfz6kN3DCAO7neUpjpf/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Trópico Camboinhas - Outubro 2026.pdf",
+    "name": "Tabela de Vendas Trópico Camboinhas - Novembro 2026.pdf",
     "group": "Tecconstru",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk"
@@ -202,12 +202,6 @@
     "group": "Metta",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ/view?usp=drivesdk"
-  },
-  {
-    "name": "Tabela de Vendas Wind Itacoatiara - Março 2026.pdf",
-    "group": "Metta",
-    "type": "Tabela",
-    "url": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk"
   },
   {
     "name": "Tabela de Vendas Scenarium - Outubro 2026.pdf",
@@ -1318,5 +1312,11 @@
     "group": "MRC",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA/view?usp=drivesdk"
+  },
+  {
+    "name": "Spin_BOOK ORLA GUANABARA - DIGITAL.pdf",
+    "group": "Emccamp",
+    "type": "Book",
+    "url": "https://drive.google.com/file/d/1f-802S27IDa5IlYMCdChF5r1d2wcwztU/view?usp=drivesdk"
   }
 ]

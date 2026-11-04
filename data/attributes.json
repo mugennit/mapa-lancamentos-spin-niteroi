@@ -619,9 +619,7 @@
       "Coworking"
     ],
     "sourceUrl": "https://curyrj.net/",
-    "availableUnits": [
-      "227 no Bloco 2 (parcial)"
-    ],
+    "availableUnits": [],
     "availabilityTableDate": "Outubro 2026"
   },
   "rio-branco-220": {
@@ -1658,16 +1656,15 @@
       "402 — Bloco 1",
       "502 — Bloco 1",
       "602 — Bloco 1",
-      "102 — Bloco 2",
       "404 — Bloco 2",
       "504 — Bloco 2",
-      "601 — Bloco 2",
-      "604 — Bloco 2"
+      "604 — Bloco 2",
+      "C01 — Bloco 2"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "delivery": "Outubro 2026",
-    "deliveryEvidence": "5 - Data prevista para conclusão da obra: 10/2026.",
-    "deliverySource": "https://drive.google.com/file/d/1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM/view?usp=drivesdk"
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-04",
+    "deliveryStatus": "Pronto",
+    "deliveryStatusEvidence": "5 - Data prevista para conclusão da obra: Obra concluída."
   },
   "tao": {
     "typologies": [
@@ -2918,17 +2915,7 @@
       "3 quartos"
     ],
     "features": [],
-    "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/niteroi/itaipu%2Bitacoatiara",
-    "availableUnits": [
-      "111",
-      "202",
-      "204",
-      "209"
-    ],
-    "availabilityTableDate": "Março 2026",
-    "delivery": "Abril 2025",
-    "deliveryEvidence": "3 - Entrega da obra: 30/04/2025",
-    "deliverySource": "https://drive.google.com/file/d/1eorVYGIxt5Lz5lCA-nCX-qjWevS7tRZf/view?usp=drivesdk"
+    "sourceUrl": "https://www.spinimoveis.com/imoveis/novos/niteroi/itaipu%2Bitacoatiara"
   },
   "bettina": {
     "typologies": [
@@ -3503,7 +3490,8 @@
       "301",
       "501"
     ],
-    "availabilityTableDate": "Outubro 2026"
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-04"
   },
   "mediterraneo": {
     "typologies": [
