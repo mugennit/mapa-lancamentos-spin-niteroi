@@ -31,7 +31,7 @@
     "delivery": "Setembro 2027",
     "deliveryEvidence": "4 - Previsão de entrega: 09/2027",
     "deliverySource": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-05"
   },
   "pebe-74": {
     "typologies": [
@@ -271,7 +271,8 @@
       "1205",
       "1405"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Setembro 2026",
+    "availabilityCheckedAt": "2026-11-05"
   },
   "it-camboinhas": {
     "typologies": [
@@ -290,30 +291,34 @@
     "availableUnits": [
       "604"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Abril 2028",
     "deliveryEvidence": "- Previsão de entrega de chaves em Abril 2028",
-    "deliverySource": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-05"
   },
   "maria-maria": {
     "typologies": [
       "1 quarto",
-      "Cobertura"
+      "Cobertura",
+      "Studio"
     ],
     "availableUnits": [
       "209",
       "212",
-      "214",
+      "113",
+      "115",
       "cob 02",
       "cob 03",
       "cob 04",
       "cob 05",
       "cob 07"
     ],
-    "availabilityTableDate": "Setembro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Maio 2029",
     "deliveryEvidence": "Entrega prevista: Maio 2029",
-    "deliverySource": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-05"
   },
   "conviva-camboinhas": {
     "typologies": [
@@ -1685,7 +1690,8 @@
     "availabilityTableDate": "Outubro 2026",
     "delivery": "Dezembro 2027",
     "deliveryEvidence": "- Previsão de entrega de chaves em Dez 2027",
-    "deliverySource": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-05"
   },
   "in-icarai": {
     "typologies": [
@@ -3529,11 +3535,8 @@
       "1401",
       "302",
       "402",
-      "502",
       "602",
-      "702",
       "802",
-      "1202",
       "1302",
       "1402",
       "303",
@@ -3554,17 +3557,9 @@
       "1304",
       "1404",
       "405",
-      "505",
-      "605",
-      "705",
-      "805",
       "1305",
       "1405",
       "406",
-      "506",
-      "606",
-      "706",
-      "806",
       "1206",
       "1306",
       "1406",
@@ -3576,14 +3571,13 @@
       "1207",
       "1307",
       "1407",
-      "COB 01",
-      "COB 02",
-      "COB 03"
+      "COB 02"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Não informada",
     "delivery": "Março 2030",
     "deliveryEvidence": "Entrega prevista: Março 2030",
-    "deliverySource": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-05"
   },
   "business": {
     "availableUnits": [

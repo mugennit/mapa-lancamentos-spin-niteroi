@@ -11,12 +11,15 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Outubro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
+        "checkedAt": "2026-11-05"
       }
     ],
-    "price": 680000,
+    "price": 680000.0,
     "minArea": 75.4,
     "maxArea": 176.08,
     "rooms": [],
@@ -26,15 +29,19 @@
     "lng": -43.0309319,
     "precision": null,
     "photo": "/empreendimentos/jardin-di-grazielle.jpg",
-    "checkedAt": "2026-10-16",
-    "notes": [],
+    "checkedAt": "2026-11-05",
+    "notes": [
+      "O arquivo é a versão de novembro de 2026, mas o cabeçalho comercial impresso informa Outubro 2026.",
+      "Os preços com desconto são exclusivos para contratação pela CAIXA. Para venda direta, consulte a coluna PREÇO NORMAL.",
+      "As linhas 406 e COB 03 estão destacadas em amarelo sem legenda no documento; confirme a disponibilidade com a construtora."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-09-30",
     "addressSource": "https://www.spinimoveis.com/empreendimento/jardin-di-grazielle-apartamentos-e-coberturas-niteroi-2-a-3-quartos-75-a-18-367-m/23418065-SETV",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9438193,-43.0309319",
-    "materialsCheckedAt": "2026-10-16"
+    "materialsCheckedAt": "2026-11-05"
   },
   {
     "id": "pebe-74",
@@ -318,12 +325,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
+        "name": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Setembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
+        "checkedAt": "2026-11-05",
+        "commercialDate": "2026-09-30"
       }
     ],
-    "price": 519000,
+    "price": 519000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -333,10 +344,10 @@
     "lng": -43.109361,
     "precision": "exact",
     "photo": "/empreendimentos/141-living.jpg",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-11-05",
     "notes": [
       "Há tabelas de diferentes vendedores ou condições. Confira o nome e o escopo de cada documento; elas não são necessariamente equivalentes.",
-      "O nome do arquivo indica Outubro 2026, mas a data comercial impressa no documento é Setembro 2026."
+      "O arquivo é a versão de novembro de 2026, mas a data comercial impressa é 30/09/2026."
     ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -351,7 +362,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.9024801,-43.109361",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-05"
   },
   {
     "id": "it-camboinhas",
@@ -398,12 +409,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Nomad - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Nomad - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Nomad - Novembro 2026.pdf",
+        "checkedAt": "2026-11-05",
+        "commercialDate": "2026-11-03"
       }
     ],
-    "price": 1300000,
+    "price": 1300000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -413,7 +428,7 @@
     "lng": -43.0859276,
     "precision": "exact",
     "photo": "/empreendimentos/nomad.jpg",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-11-05",
     "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
@@ -428,7 +443,7 @@
     "addressSource": null,
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.9536354,-43.0859276",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-05"
   },
   {
     "id": "maria-maria",
@@ -442,12 +457,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
-        "date": "Setembro 2026"
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
+        "checkedAt": "2026-11-05",
+        "commercialDate": "2026-11-03"
       }
     ],
-    "price": 710000,
+    "price": 638000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -457,17 +476,15 @@
     "lng": -43.0547843,
     "precision": "exact",
     "photo": "/empreendimentos/maria-maria.jpg",
-    "checkedAt": "2026-10-09",
-    "notes": [
-      "O nome do arquivo indica Outubro 2026, mas a data comercial impressa no documento é Setembro 2026."
-    ],
+    "checkedAt": "2026-11-05",
+    "notes": [],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-10-03",
     "addressSource": "https://cidadedeniteroi.com/morar-e-investir/maria-maria-o-charme-do-sul-da-italia-encontra-o-melhor-de-camboinhas/",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps?q=-22.961083,-43.0547843",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-05"
   },
   {
     "id": "tao",
@@ -481,12 +498,16 @@
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Tao - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Tao - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Outubro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Tao - Novembro 2026.pdf",
+        "checkedAt": "2026-11-05",
+        "commercialDate": "2026-10-01"
       }
     ],
-    "price": 1550000,
+    "price": 1550000.0,
     "minArea": null,
     "maxArea": null,
     "rooms": [],
@@ -496,8 +517,10 @@
     "lng": -43.086274,
     "precision": "exact",
     "photo": "/empreendimentos/tao.jpg",
-    "checkedAt": "2026-10-09",
-    "notes": [],
+    "checkedAt": "2026-11-05",
+    "notes": [
+      "O arquivo é a versão de novembro de 2026, mas a data comercial impressa é 01/10/2026."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
@@ -511,7 +534,7 @@
     "addressReviewStatus": "Conferido",
     "addressReview": null,
     "locationSource": "https://www.google.com/maps?q=-22.954021,-43.086274",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-05"
   },
   {
     "id": "in-icarai",
@@ -4734,17 +4757,20 @@
     "neighborhood": "Jardim Icaraí",
     "address": "Rua Dr. Herotides de Oliveira, 18",
     "book": {
-      "name": "Book Baume - CEU.pdf",
-      "url": "https://drive.google.com/file/d/1NKkjcF56w2T-xuKerwEsRCewDryyhm7R/view?usp=drivesdk"
+      "name": "Spin_BOOK-BAUME-DIGITAL — leitura.pdf",
+      "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk"
     },
     "tables": [
       {
-        "name": "Tabela de Vendas Baume - Outubro 2026.pdf",
+        "name": "Tabela de Vendas Bäume - Novembro 2026.pdf",
         "url": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
-        "date": "Outubro 2026"
+        "date": "Não informada",
+        "fileVersionMonth": "Novembro 2026",
+        "sourceFileVersion": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+        "checkedAt": "2026-11-05"
       }
     ],
-    "price": 835000,
+    "price": 835000.0,
     "minArea": 79.97,
     "maxArea": 276.41,
     "rooms": [
@@ -4758,15 +4784,17 @@
     "lng": -43.1065078,
     "precision": "exact",
     "photo": null,
-    "checkedAt": "2026-10-08",
-    "notes": [],
+    "checkedAt": "2026-11-05",
+    "notes": [
+      "A versão do arquivo é de novembro de 2026. O documento não informa uma data comercial; Outubro 2026 aparece apenas como mês do lançamento."
+    ],
     "locationStatus": "Ponto exato confirmado no Google Maps",
     "addressReview": null,
     "locationCheckedAt": "2026-10-08",
-    "addressSource": "https://drive.google.com/file/d/1NKkjcF56w2T-xuKerwEsRCewDryyhm7R/view?usp=drivesdk",
+    "addressSource": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk",
     "addressReviewStatus": "Conferido",
     "locationSource": "https://www.google.com/maps/place/R.+Dr.+Herotides+de+Oliveira,+18+-+Icara%C3%AD,+Niter%C3%B3i+-+RJ,+24230-230,+Brasil/@-22.9029875,-43.1065078,17z/data=!3m1!4b1!4m6!3m5!1s0x9983fac95da6c9:0x4a545f92f33877a5!8m2!3d-22.9029875!4d-43.1065078!16s%2Fg%2F11np3g9trv?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
-    "materialsCheckedAt": "2026-10-12"
+    "materialsCheckedAt": "2026-11-05"
   },
   {
     "id": "orla-guanabara",

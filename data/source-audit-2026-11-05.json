@@ -1,0 +1,324 @@
+{
+  "checkedAt": "2026-11-05",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-04",
+  "method": [
+    "Opened both material folders from the Linktree buttons in the same public browser session, without login.",
+    "Scrolled both roots through all pages; visited all 82 root folders and all 3 subfolders. Explicitly confirmed empty CHEADE. Reconciled every folder item count and exact ZIP path.",
+    "Downloaded every source PDF, read every ZIP member to EOF for CRC, and SHA-256 compared all 140 tables and 132 books to 04/11.",
+    "Visually reviewed the six catalog table PDFs, read the printed dates and unit rows, and replaced six Drive tables in place.",
+    "Verified all 51 pages of the new official Baume book and an optimized reading copy; retained the owner-provided 22-page presentation.",
+    "Read the full current coordinate sheet twice; verified all 82 material-complete projects and preserved exact owner-approved points."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "rootDisplayedItemTotal": 140,
+      "subfolderDisplayedItemTotal": 0,
+      "listedFiles": 140,
+      "downloadedFiles": 140,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "subfolders": 3,
+      "rootDisplayedItemTotal": 126,
+      "subfolderDisplayedItemTotal": 9,
+      "listedFiles": 132,
+      "downloadedFiles": 132,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 133,
+      "newVersions": 7,
+      "changedSamePath": 0,
+      "removedOldVersions": 7
+    },
+    "books": {
+      "identicalSha256": 131,
+      "added": 1,
+      "changedSamePath": 0,
+      "removed": 0
+    }
+  },
+  "changes": [
+    {
+      "id": "jardin-di-grazielle",
+      "name": "Jardin di Grazielle",
+      "sourceFile": "Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
+      "oldFile": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+      "driveFileId": "1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml",
+      "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
+      "sourceSha256": "bfc0e9a96b1689fb31f2ef661f151987dd1b5d2e03da2b32d6c243c328394418",
+      "bytes": 359985,
+      "driveReDownloadedAndHashVerified": true,
+      "oldMinimumPrice": 680000,
+      "newMinimumPrice": 680000.0,
+      "commercialDatePrinted": null,
+      "commercialMonthPrinted": "Outubro 2026",
+      "filenameVersionMonth": "Novembro 2026",
+      "pricedOffers": 14,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": []
+    },
+    {
+      "id": "141-living",
+      "name": "141 Living",
+      "sourceFile": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
+      "oldFile": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
+      "driveFileId": "1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS",
+      "url": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
+      "sourceSha256": "2e9a42bd401b4bf0176cf12b40c7aa4e60bd08bb0b86775025acd903877a34a7",
+      "bytes": 421896,
+      "driveReDownloadedAndHashVerified": true,
+      "oldMinimumPrice": 519000,
+      "newMinimumPrice": 519000.0,
+      "commercialDatePrinted": "2026-09-30",
+      "commercialMonthPrinted": "Setembro 2026",
+      "filenameVersionMonth": "Novembro 2026",
+      "pricedOffers": 3,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": []
+    },
+    {
+      "id": "baume",
+      "name": "Baume",
+      "sourceFile": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+      "oldFile": "Tabela de Vendas Baume - Outubro 2026.pdf",
+      "driveFileId": "1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC",
+      "url": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
+      "sourceSha256": "7fe29fcc3d89ca1dc3107608b8c2b83159ab100dc90d5f30bf89b743f1d75e76",
+      "bytes": 415254,
+      "driveReDownloadedAndHashVerified": true,
+      "oldMinimumPrice": 835000,
+      "newMinimumPrice": 835000.0,
+      "commercialDatePrinted": null,
+      "commercialMonthPrinted": "Não informada",
+      "filenameVersionMonth": "Novembro 2026",
+      "pricedOffers": 47,
+      "removedUnits": [
+        "706",
+        "805",
+        "502",
+        "605",
+        "505",
+        "COB 03",
+        "1202",
+        "806",
+        "705",
+        "COB 01",
+        "606",
+        "702",
+        "506"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "COB 02",
+          "before": 4150000,
+          "after": 3590000.0
+        }
+      ]
+    },
+    {
+      "id": "maria-maria",
+      "name": "Maria Maria",
+      "sourceFile": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
+      "oldFile": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
+      "driveFileId": "1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ",
+      "url": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
+      "sourceSha256": "64f1459e81d3276b088d428373e3543ef95f04bdb65a68c083f61c282504f5d9",
+      "bytes": 347645,
+      "driveReDownloadedAndHashVerified": true,
+      "oldMinimumPrice": 710000,
+      "newMinimumPrice": 638000.0,
+      "commercialDatePrinted": "2026-11-03",
+      "commercialMonthPrinted": "Novembro 2026",
+      "filenameVersionMonth": "Novembro 2026",
+      "pricedOffers": 9,
+      "removedUnits": [
+        "214"
+      ],
+      "addedUnits": [
+        "113",
+        "115"
+      ],
+      "knownSameUnitPriceChanges": []
+    },
+    {
+      "id": "nomad",
+      "name": "Nomad",
+      "sourceFile": "Tabela de Vendas Nomad - Novembro 2026.pdf",
+      "oldFile": "Tabela de Vendas Nomad - Outubro 2026.pdf",
+      "driveFileId": "1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2",
+      "url": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
+      "sourceSha256": "f62f8e9e66bc13dfef5dd6165fe2fbd139a52e6c273050cc33541d3339d65fc6",
+      "bytes": 325155,
+      "driveReDownloadedAndHashVerified": true,
+      "oldMinimumPrice": 1300000,
+      "newMinimumPrice": 1300000.0,
+      "commercialDatePrinted": "2026-11-03",
+      "commercialMonthPrinted": "Novembro 2026",
+      "filenameVersionMonth": "Novembro 2026",
+      "pricedOffers": 1,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": []
+    },
+    {
+      "id": "tao",
+      "name": "Tao",
+      "sourceFile": "Tabela de Vendas Tao - Novembro 2026.pdf",
+      "oldFile": "Tabela de Vendas Tao - Outubro 2026.pdf",
+      "driveFileId": "1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ",
+      "url": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
+      "sourceSha256": "df38372d38ed536ae33af3e78456cc73e97a0263e297e6a89f71deac3f77745e",
+      "bytes": 539953,
+      "driveReDownloadedAndHashVerified": true,
+      "oldMinimumPrice": 1550000,
+      "newMinimumPrice": 1550000.0,
+      "commercialDatePrinted": "2026-10-01",
+      "commercialMonthPrinted": "Outubro 2026",
+      "filenameVersionMonth": "Novembro 2026",
+      "pricedOffers": 3,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": []
+    },
+    {
+      "id": "baume",
+      "kind": "new-official-book",
+      "sourcePath": "CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+      "sourceModifiedDisplay": "11/4/2026 10:13 AM (UTC-08:00) Hora do Pacífico (EUA e Canadá)",
+      "sourcePages": 51,
+      "catalogBookUrl": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk",
+      "normalizedReadingCopy": true,
+      "originalOwnerPresentationRetained": {
+        "name": "Book Baume - CEU.pdf",
+        "url": "https://drive.google.com/file/d/1NKkjcF56w2T-xuKerwEsRCewDryyhm7R/view?usp=drivesdk"
+      }
+    }
+  ],
+  "outsideCatalogUpdates": [
+    "Fazenda Filomena — Anasa — nova versão de novembro de 2026"
+  ],
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 82,
+    "projectsWithTable": 89,
+    "addedProjects": [],
+    "removedProjects": [],
+    "addedPins": [],
+    "removedPins": [],
+    "pendingIncompleteProjectsRetained": 32,
+    "tableContentChanges": {
+      "baume": {
+        "oldListedUnits": 60,
+        "newListedUnits": 47,
+        "cob02PriceBefore": 4150000,
+        "cob02PriceNow": 3590000
+      },
+      "maria-maria": {
+        "newStudioUnits": [
+          "113",
+          "115"
+        ],
+        "removedUnit": "214",
+        "minimumPriceBefore": 710000,
+        "minimumPriceNow": 638000
+      }
+    }
+  },
+  "coordinates": {
+    "checkedAt": "2026-11-05",
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:Z969",
+    "projectRows": 112,
+    "sheetReReadUnchanged": true,
+    "completeProjectsChecked": 82,
+    "numericPairsMatched": 80,
+    "ownerMapsLinksMatched": 1,
+    "ownerConfirmedCatalogException": 1,
+    "newNumericCoordinates": [],
+    "completeProjectsPendingLocation": [],
+    "newMapsLinksToResolve": [],
+    "genericGeocodingUsed": false
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 165,
+    "foldersWithExactlyTwoFiles": 81,
+    "foldersWithSupplementaryBooks": [
+      {
+        "id": "baume",
+        "books": 2,
+        "tables": 1,
+        "files": 3
+      }
+    ],
+    "mainFolderFiles": 8,
+    "tablesReplacedInPlace": 6,
+    "oldTableCopiesCreated": 0,
+    "newBooks": 1,
+    "sourceOriginalLargeBookBytes": 112993118,
+    "deliveredBookBytes": 92320675,
+    "uniqueReferencedFiles": 220,
+    "referencedFilesWithPublicReader": 220,
+    "currentTableByteSizesChecked": 89,
+    "uploadedFilesReDownloadedAndHashVerified": 7,
+    "verificationScope": "Current listing, membership, size, modified metadata and public-reader permissions for all referenced Drive files; the six replacement PDFs and the new book copy were re-downloaded for byte-for-byte verification."
+  },
+  "baume": {
+    "officialBookFound": true,
+    "officialBookSource": "CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "catalogIncluded": true,
+    "onMap": true,
+    "booksCeuFilesChecked": 10,
+    "singleCurrentTableInMapFolder": true,
+    "tableFilenameVersion": "Novembro 2026",
+    "printedCommercialDate": null,
+    "launchMonthPrintedIsNotTableDate": "Outubro 2026",
+    "originalOwnerBookRetainedInBaumeFolder": true,
+    "normalizationReport": "data/books-normalization-verification-2026-11-05.json"
+  },
+  "commercialDateWarnings": {
+    "141-living": "30/09/2026 impresso; arquivo de novembro.",
+    "jardin-di-grazielle": "Outubro 2026 impresso; arquivo de novembro.",
+    "tao": "01/10/2026 impresso; arquivo de novembro.",
+    "baume": "Data comercial não informada; o mês do lançamento não foi utilizado como data da tabela."
+  },
+  "downloadRecovery": {
+    "oneBookBatchRetriedAfterNoCompletedFile": true,
+    "allSourceDownloadsFinallyCompleted": true,
+    "originalOfficialBaumeBookUploadRejectedBy100MiBLimit": true,
+    "resolvedWithVisuallyVerifiedReadingCopy": true
+  },
+  "validation": {
+    "parkingFilterTestsPassed": 4,
+    "updatedOfferRegressionChecksPassed": true,
+    "catalogCountsAndMaterialLinksChecked": true,
+    "allOriginalProjectCoordinatesPreserved": true,
+    "onlyDataFilesChanged": true
+  },
+  "limitations": [],
+  "publication": {
+    "channel": "GitHub -> Vercel",
+    "baseCommit": "141109194c8de1cbe1ad133c9b7a02bf18b74216",
+    "preservesRecentSearchFix": true,
+    "linkedLegacySiteVersion": 18,
+    "legacyLastUpdated": "2026-10-10",
+    "productionLoginUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
+    "verificationMethod": "New commit status and the current password screen are checked after publishing; final result is recorded in this conversation. Counts are checked in the exact published source."
+  }
+}

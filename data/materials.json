@@ -444,25 +444,25 @@
     "url": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Tao - Outubro 2026.pdf",
+    "name": "Tabela de Vendas Tao - Novembro 2026.pdf",
     "group": "CEU",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
+    "name": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
     "group": "CEU",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Nomad - Outubro 2026.pdf",
+    "name": "Tabela de Vendas Nomad - Novembro 2026.pdf",
     "group": "CEU",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
+    "name": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
     "group": "CEU",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk"
@@ -498,7 +498,7 @@
     "url": "https://drive.google.com/file/d/1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
+    "name": "Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
     "group": "4MX",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk"
@@ -1278,7 +1278,7 @@
     "url": "https://drive.google.com/file/d/17Pq1gbbX7fm0AGCRYXBHMUvmq60rbRAr/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Baume - Outubro 2026.pdf",
+    "name": "Tabela de Vendas Bäume - Novembro 2026.pdf",
     "group": "CEU",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk"
@@ -1318,5 +1318,11 @@
     "group": "Emccamp",
     "type": "Book",
     "url": "https://drive.google.com/file/d/1f-802S27IDa5IlYMCdChF5r1d2wcwztU/view?usp=drivesdk"
+  },
+  {
+    "name": "Spin_BOOK-BAUME-DIGITAL — leitura.pdf",
+    "group": "CEU",
+    "type": "Book",
+    "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk"
   }
 ]

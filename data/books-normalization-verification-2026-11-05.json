@@ -1,0 +1,347 @@
+{
+  "checkedAt": "2026-11-05",
+  "id": "baume",
+  "status": "verified-reading-copy",
+  "officialSource": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+  "sourceBytes": 112993118,
+  "sourceSha256": "6d0bc21c204c83fdc061d02f35e7a5b0f80065bff69fa4d50058fc1cc0cbb51a",
+  "driveFileId": "1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC",
+  "driveBytes": 92320675,
+  "driveSha256": "0a169b91abbabae3cf26e090dbe8dea3a10b97ace51cf2a50ee1514d72706448",
+  "pages": 51,
+  "sourcePageGeometryPreserved": true,
+  "originalUploadLimitBytes": 104857600,
+  "method": "PyMuPDF image recompression at JPEG quality 90; images above 180 DPI reduced to 144 DPI; vector page content and geometry retained.",
+  "verification": {
+    "all51PagesRenderedAndCompared": true,
+    "comparisonRenderScale": 0.25,
+    "maxPerChannelMeanAbsoluteError": 3.0982561111450195,
+    "maxPerChannelRootMeanSquaredError": 4.818902015686035,
+    "maxFractionOfChannelsWithDifferenceAbove15": 0.0006172839506172839,
+    "visualReviewPages": [
+      1,
+      16,
+      32,
+      38,
+      40,
+      42,
+      44,
+      51
+    ],
+    "assessment": "Layout, dimensions, small labels, floorplans and technical-sheet text are legible and match the official source. Recompressed image areas have minor color differences.",
+    "driveReDownloadedAndHashVerified": true
+  },
+  "originalOwnerPresentation": {
+    "id": "1NKkjcF56w2T-xuKerwEsRCewDryyhm7R",
+    "pages": 22,
+    "retainedUnmodified": true
+  },
+  "pageComparisons": [
+    {
+      "page": 1,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 2,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 3,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 4,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 5,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 6,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 7,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 8,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 9,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 10,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 11,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 12,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 13,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 14,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 15,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 16,
+      "mae": 3.0982561111450195,
+      "rmse": 4.818902015686035,
+      "fractionDeltaOver15": 0.0006172839506172839
+    },
+    {
+      "page": 17,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 18,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 19,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 20,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 21,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 22,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 23,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 24,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 25,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 26,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 27,
+      "mae": 2.6612396240234375,
+      "rmse": 4.570986747741699,
+      "fractionDeltaOver15": 1.2860082304526749e-05
+    },
+    {
+      "page": 28,
+      "mae": 2.3986856937408447,
+      "rmse": 4.39794397354126,
+      "fractionDeltaOver15": 1.2860082304526749e-05
+    },
+    {
+      "page": 29,
+      "mae": 2.6757407188415527,
+      "rmse": 4.586634159088135,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 30,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 31,
+      "mae": 2.6302802562713623,
+      "rmse": 4.487121105194092,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 32,
+      "mae": 2.490990161895752,
+      "rmse": 4.362076759338379,
+      "fractionDeltaOver15": 1.02880658436214e-05
+    },
+    {
+      "page": 33,
+      "mae": 2.7036213874816895,
+      "rmse": 4.606963157653809,
+      "fractionDeltaOver15": 7.71604938271605e-06
+    },
+    {
+      "page": 34,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 35,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 36,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 37,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 38,
+      "mae": 2.2752187252044678,
+      "rmse": 4.219351291656494,
+      "fractionDeltaOver15": 2.8292181069958848e-05
+    },
+    {
+      "page": 39,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 40,
+      "mae": 1.640197992324829,
+      "rmse": 3.59673810005188,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 41,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 42,
+      "mae": 2.4870293140411377,
+      "rmse": 4.37835693359375,
+      "fractionDeltaOver15": 2.57201646090535e-06
+    },
+    {
+      "page": 43,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 44,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 45,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 46,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 47,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 48,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 49,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 50,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    },
+    {
+      "page": 51,
+      "mae": 0.0,
+      "rmse": 0.0,
+      "fractionDeltaOver15": 0.0
+    }
+  ]
+}

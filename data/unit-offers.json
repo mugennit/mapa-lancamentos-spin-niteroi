@@ -1,88 +1,106 @@
 {
   "141-living": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-05",
     "tableUrl": "https://drive.google.com/file/d/1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS/view?usp=drivesdk",
     "tableDate": "Setembro 2026",
-    "coverage": "partial",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "1403",
         "typology": "Studio",
-        "price": 609000
+        "area": 43.67,
+        "price": 609000.0
       },
       {
         "unit": "1205",
         "typology": "Studio",
-        "price": 519000
+        "area": 32.2,
+        "price": 519000.0
       },
       {
         "unit": "1405",
         "typology": "Studio",
-        "price": 540000
+        "area": 32.2,
+        "price": 540000.0
       }
     ]
   },
   "maria-maria": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-05",
     "tableUrl": "https://drive.google.com/file/d/1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ/view?usp=drivesdk",
-    "tableDate": "Setembro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "209",
         "typology": "Studio",
-        "price": 739000,
-        "parkingSpaces": 0
+        "parkingSpaces": 0,
+        "area": 40.13,
+        "price": 739000.0
       },
       {
         "unit": "212",
         "typology": "Studio",
-        "price": 710000,
-        "parkingSpaces": 0
+        "parkingSpaces": 0,
+        "area": 38.54,
+        "price": 710000.0
       },
       {
-        "unit": "214",
+        "unit": "113",
         "typology": "Studio",
-        "price": 737000,
-        "parkingSpaces": 0
+        "parkingSpaces": 0,
+        "area": 38.76,
+        "price": 638000.0
+      },
+      {
+        "unit": "115",
+        "typology": "Studio",
+        "parkingSpaces": 0,
+        "area": 41.95,
+        "price": 691000.0
       },
       {
         "unit": "cob 02",
         "typology": "1 quarto",
-        "price": 2260000,
         "parkingSpaces": 1,
+        "area": 113.01,
+        "price": 2260000.0,
         "unitKind": "Cobertura"
       },
       {
         "unit": "cob 03",
         "typology": "1 quarto",
-        "price": 1629000,
         "parkingSpaces": 1,
+        "area": 95.83,
+        "price": 1629000.0,
         "unitKind": "Cobertura"
       },
       {
         "unit": "cob 04",
         "typology": "1 quarto",
-        "price": 1455000,
         "parkingSpaces": 1,
+        "area": 85.6,
+        "price": 1455000.0,
         "unitKind": "Cobertura"
       },
       {
         "unit": "cob 05",
         "typology": "1 quarto",
-        "price": 1277000,
         "parkingSpaces": 1,
+        "area": 75.17,
+        "price": 1277000.0,
         "unitKind": "Cobertura"
       },
       {
         "unit": "cob 07",
         "typology": "1 quarto",
-        "price": 1877000,
         "parkingSpaces": 1,
+        "area": 93.88,
+        "price": 1877000.0,
         "unitKind": "Cobertura"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-05"
   },
   "conviva-camboinhas": {
     "checkedAt": "2026-10-12",
@@ -2996,376 +3014,343 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "baume": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-05",
     "tableUrl": "https://drive.google.com/file/d/1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Não informada",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "301",
         "typology": "3 quartos",
-        "price": 1720000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.22,
+        "price": 1720000.0
       },
       {
         "unit": "401",
         "typology": "3 quartos",
-        "price": 1750000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 1750000.0
       },
       {
         "unit": "501",
         "typology": "3 quartos",
-        "price": 1780000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 1780000.0
       },
       {
         "unit": "601",
         "typology": "3 quartos",
-        "price": 1810000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 1810000.0
       },
       {
         "unit": "701",
         "typology": "3 quartos",
-        "price": 1840000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 1840000.0
       },
       {
         "unit": "1201",
         "typology": "3 quartos",
-        "price": 1990000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 1990000.0
       },
       {
         "unit": "1301",
         "typology": "3 quartos",
-        "price": 2020000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 2020000.0
       },
       {
         "unit": "1401",
         "typology": "3 quartos",
-        "price": 2050000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.36,
+        "price": 2050000.0
       },
       {
         "unit": "302",
         "typology": "3 quartos",
-        "price": 1595000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.63,
+        "price": 1595000.0
       },
       {
         "unit": "402",
         "typology": "3 quartos",
-        "price": 1625000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "502",
-        "typology": "3 quartos",
-        "price": 1655000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.63,
+        "price": 1625000.0
       },
       {
         "unit": "602",
         "typology": "3 quartos",
-        "price": 1685000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "702",
-        "typology": "3 quartos",
-        "price": 1715000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.63,
+        "price": 1685000.0
       },
       {
         "unit": "802",
         "typology": "3 quartos",
-        "price": 1745000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "1202",
-        "typology": "3 quartos",
-        "price": 1865000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.63,
+        "price": 1745000.0
       },
       {
         "unit": "1302",
         "typology": "3 quartos",
-        "price": 1895000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.63,
+        "price": 1895000.0
       },
       {
         "unit": "1402",
         "typology": "3 quartos",
-        "price": 1925000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.63,
+        "price": 1925000.0
       },
       {
         "unit": "303",
         "typology": "3 quartos",
-        "price": 1670000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 114.31,
+        "price": 1670000.0
       },
       {
         "unit": "403",
         "typology": "3 quartos",
-        "price": 1700000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1700000.0
       },
       {
         "unit": "503",
         "typology": "3 quartos",
-        "price": 1730000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1730000.0
       },
       {
         "unit": "603",
         "typology": "3 quartos",
-        "price": 1760000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1760000.0
       },
       {
         "unit": "703",
         "typology": "3 quartos",
-        "price": 1790000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1790000.0
       },
       {
         "unit": "803",
         "typology": "3 quartos",
-        "price": 1820000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1820000.0
       },
       {
         "unit": "1203",
         "typology": "3 quartos",
-        "price": 1940000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1940000.0
       },
       {
         "unit": "1303",
         "typology": "3 quartos",
-        "price": 1970000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 1970000.0
       },
       {
         "unit": "1403",
         "typology": "3 quartos",
-        "price": 2000000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 113.45,
+        "price": 2000000.0
       },
       {
         "unit": "404",
         "typology": "3 quartos",
-        "price": 1390000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1390000.0
       },
       {
         "unit": "504",
         "typology": "3 quartos",
-        "price": 1420000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1420000.0
       },
       {
         "unit": "604",
         "typology": "3 quartos",
-        "price": 1450000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1450000.0
       },
       {
         "unit": "704",
         "typology": "3 quartos",
-        "price": 1480000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1480000.0
       },
       {
         "unit": "804",
         "typology": "3 quartos",
-        "price": 1510000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1510000.0
       },
       {
         "unit": "1204",
         "typology": "3 quartos",
-        "price": 1630000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1630000.0
       },
       {
         "unit": "1304",
         "typology": "3 quartos",
-        "price": 1660000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1660000.0
       },
       {
         "unit": "1404",
         "typology": "3 quartos",
-        "price": 1690000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1690000.0
       },
       {
         "unit": "405",
         "typology": "2 quartos",
-        "price": 899000,
-        "parkingSpaces": 0
-      },
-      {
-        "unit": "505",
-        "typology": "2 quartos",
-        "price": 970000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "605",
-        "typology": "2 quartos",
-        "price": 995000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "705",
-        "typology": "2 quartos",
-        "price": 1020000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "805",
-        "typology": "2 quartos",
-        "price": 1045000,
-        "parkingSpaces": 1
+        "parkingSpaces": 0,
+        "area": 79.97,
+        "price": 899000.0
       },
       {
         "unit": "1305",
         "typology": "2 quartos",
-        "price": 1170000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 79.97,
+        "price": 1170000.0
       },
       {
         "unit": "1405",
         "typology": "2 quartos",
-        "price": 1295000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 79.97,
+        "price": 1295000.0
       },
       {
         "unit": "406",
         "typology": "2 quartos",
-        "price": 835000,
-        "parkingSpaces": 0
-      },
-      {
-        "unit": "506",
-        "typology": "2 quartos",
-        "price": 899000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "606",
-        "typology": "2 quartos",
-        "price": 935000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "706",
-        "typology": "2 quartos",
-        "price": 960000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "806",
-        "typology": "2 quartos",
-        "price": 985000,
-        "parkingSpaces": 1
+        "parkingSpaces": 0,
+        "area": 80.03,
+        "price": 835000.0
       },
       {
         "unit": "1206",
         "typology": "2 quartos",
-        "price": 1085000,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "area": 80.03,
+        "price": 1085000.0
       },
       {
         "unit": "1306",
         "typology": "2 quartos",
-        "price": 1110000,
-        "parkingSpaces": 1
+        "parkingSpaces": 1,
+        "area": 80.03,
+        "price": 1110000.0
       },
       {
         "unit": "1406",
         "typology": "2 quartos",
-        "price": 1235000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 80.03,
+        "price": 1235000.0
       },
       {
         "unit": "407",
         "typology": "3 quartos",
-        "price": 1420000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1420000.0
       },
       {
         "unit": "507",
         "typology": "3 quartos",
-        "price": 1445000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1445000.0
       },
       {
         "unit": "607",
         "typology": "3 quartos",
-        "price": 1470000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1470000.0
       },
       {
         "unit": "707",
         "typology": "3 quartos",
-        "price": 1495000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1495000.0
       },
       {
         "unit": "807",
         "typology": "3 quartos",
-        "price": 1520000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1520000.0
       },
       {
         "unit": "1207",
         "typology": "3 quartos",
-        "price": 1620000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1620000.0
       },
       {
         "unit": "1307",
         "typology": "3 quartos",
-        "price": 1645000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 99.57,
+        "price": 1645000.0
       },
       {
         "unit": "1407",
         "typology": "3 quartos",
-        "price": 1670000,
-        "parkingSpaces": 2
-      },
-      {
-        "unit": "COB 01",
-        "typology": "4 quartos",
-        "price": 4800000,
         "parkingSpaces": 2,
-        "unitKind": "Cobertura"
+        "area": 99.57,
+        "price": 1670000.0
       },
       {
         "unit": "COB 02",
         "typology": "3 quartos",
-        "price": 4150000,
         "parkingSpaces": 2,
-        "unitKind": "Cobertura"
-      },
-      {
-        "unit": "COB 03",
-        "typology": "4 quartos",
-        "price": 4500000,
-        "parkingSpaces": 2,
+        "area": 179.9,
+        "price": 3590000.0,
         "unitKind": "Cobertura"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-05"
   },
   "singular": {
     "checkedAt": "2026-10-18",
@@ -3896,47 +3881,51 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "nomad": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-05",
     "tableUrl": "https://drive.google.com/file/d/1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "604",
         "typology": "",
-        "price": 1300000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 110.23,
+        "price": 1300000.0
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-05"
   },
   "tao": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-05",
     "tableUrl": "https://drive.google.com/file/d/1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ/view?usp=drivesdk",
     "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "502",
         "typology": "4 quartos",
-        "price": 3300000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 154.27,
+        "price": 3300000.0
       },
       {
         "unit": "304",
         "typology": "3 quartos",
-        "price": 1550000,
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "area": 116.51,
+        "price": 1550000.0
       },
       {
         "unit": "cob 03",
         "typology": "3 quartos",
-        "price": 3399000,
         "parkingSpaces": 2,
+        "area": 254.11,
+        "price": 3399000.0,
         "unitKind": "Cobertura"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-05"
   },
   "orla-central": {
     "checkedAt": "2026-11-04",
@@ -12631,7 +12620,7 @@
     "parkingCheckedAt": "2026-11-04"
   },
   "jardin-di-grazielle": {
-    "checkedAt": "2026-10-16",
+    "checkedAt": "2026-11-05",
     "tableUrl": "https://drive.google.com/file/d/1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml/view?usp=drivesdk",
     "tableDate": "Outubro 2026",
     "coverage": "complete",
@@ -12639,90 +12628,103 @@
       {
         "unit": "203",
         "typology": "",
-        "price": 680000,
-        "area": 79.01
+        "area": 79.01,
+        "price": 680000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "204",
         "typology": "",
-        "price": 680000,
-        "area": 75.4
+        "area": 75.4,
+        "price": 680000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "205",
         "typology": "",
-        "price": 680000,
-        "area": 80.51
+        "area": 80.51,
+        "price": 680000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "206",
         "typology": "",
-        "price": 680000,
-        "area": 80.51
+        "area": 80.51,
+        "price": 680000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "304",
         "typology": "",
-        "price": 690000,
-        "area": 75.4
+        "area": 75.4,
+        "price": 690000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "404",
         "typology": "",
-        "price": 700000,
-        "area": 75.4
+        "area": 75.4,
+        "price": 700000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "406",
         "typology": "",
-        "price": 700000,
-        "area": 80.51
+        "area": 80.51,
+        "price": 700000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "504",
         "typology": "",
-        "price": 720000,
-        "area": 75.4
+        "area": 75.4,
+        "price": 720000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "505",
         "typology": "",
-        "price": 720000,
-        "area": 80.51
+        "area": 80.51,
+        "price": 720000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "506",
         "typology": "",
-        "price": 720000,
-        "area": 80.51
+        "area": 80.51,
+        "price": 720000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "605",
         "typology": "",
-        "price": 735000,
-        "area": 81.98
+        "area": 81.98,
+        "price": 735000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "606",
         "typology": "",
-        "price": 735000,
-        "area": 81.98
+        "area": 81.98,
+        "price": 735000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "607",
         "typology": "",
-        "price": 790000,
-        "area": 89.95
+        "area": 89.95,
+        "price": 790000.0,
+        "priceNote": "Condição CAIXA"
       },
       {
         "unit": "COB 03",
         "typology": "",
-        "price": 1290000,
-        "unitKind": "Cobertura",
-        "area": 176.08
+        "area": 176.08,
+        "price": 1290000.0,
+        "priceNote": "Condição CAIXA",
+        "unitKind": "Cobertura"
       }
-    ],
-    "parkingCheckedAt": "2026-10-16"
+    ]
   },
   "pebe-74": {
     "tableUrl": "https://drive.google.com/file/d/1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d/view?usp=drivesdk",

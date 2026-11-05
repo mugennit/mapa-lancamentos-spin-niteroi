@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-05",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -7,52 +7,55 @@
     "tableSourceFiles": 140,
     "bookRootFolders": 41,
     "bookSubfolders": 3,
-    "bookSourceFiles": 131,
+    "bookSourceFiles": 132,
     "catalogProjects": 114,
     "projectsWithBookAndTable": 82,
     "projectsWithTable": 89,
     "driveProjectFolders": 82,
-    "driveFilesInProjectFolders": 164,
+    "driveFilesInProjectFolders": 165,
     "mapEligibleProjects": 82
   },
   "validation": {
-    "tableComparison": "140 PDFs conferidos por SHA-256: 136 idênticos, quatro novas versões da Tecconstru e uma tabela da Metta retirada.",
-    "identicalTables": 136,
-    "differentTables": 4,
+    "tableComparison": "140 source PDFs CRC/SHA-256 checked: 133 unchanged; seven source version replacements; six catalog tables replaced.",
+    "identicalTables": 133,
+    "differentTables": 7,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "131 books listados; 131 PDFs conferidos por SHA-256. Novo book: Orla Guanabara, da Emccamp.",
+    "driveFoldersWithExactlyTwoFiles": 81,
+    "bookComparison": "132 source PDFs CRC/SHA-256 checked: 131 unchanged and a new official 51-page Baume book.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 4,
-    "bookContentReport": "data/books-content-comparison-2026-11-04.json",
-    "bookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
+    "newTables": 7,
+    "bookContentReport": "data/books-content-comparison-2026-11-05.json",
+    "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
-    "verifiedOptimizedBooks": 15,
-    "verifiedOptimizedPages": 728,
+    "verifiedOptimizedBooks": 16,
+    "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-04",
-      "baseline": "2026-11-03",
-      "tableFilesIdenticalSha256": 136,
-      "tableFilesAdded": 4,
-      "tableFilesRemoved": 5,
-      "sourceTableVersionReplacements": 4,
-      "catalogTablesUpdated": 2,
-      "bookFilesIdenticalSha256": 130,
+      "date": "2026-11-05",
+      "baseline": "2026-11-04",
+      "tableFilesIdenticalSha256": 133,
+      "tableFilesAdded": 7,
+      "tableFilesRemoved": 7,
+      "sourceTableVersionReplacements": 7,
+      "catalogTablesUpdated": 6,
+      "bookFilesIdenticalSha256": 131,
       "bookFilesAdded": 1,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
-      "retiredCatalogTables": 1,
-      "allReferencedUniqueFilesWithPublicReader": 219,
-      "printedCommercialValidityTablesChecked": 4
+      "retiredCatalogTables": 0,
+      "allReferencedUniqueFilesWithPublicReader": 220,
+      "newOfficialBooks": 1,
+      "ownerSuppliedBooksPreserved": 1
     },
-    "sourceTableVersionReplacements": 4,
-    "catalogTablesUpdated": 2,
+    "sourceTableVersionReplacements": 7,
+    "catalogTablesUpdated": 6,
     "catalogValidityMetadataCorrections": [
       "orla-central",
       "caminhos-da-guanabara",
       "the-pier"
     ],
-    "commercialValidityReview": "data/table-validity-review-2026-11-04.json"
+    "commercialValidityReview": "data/table-validity-review-2026-11-04.json",
+    "driveFoldersWithSupplementaryBooks": 1,
+    "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json"
   },
   "corrections": [
     {
@@ -179,17 +182,17 @@
   "exceptions": [
     {
       "id": "baume",
-      "note": "User supplied book retained; no Baume book in Books/CEU."
+      "note": "Official 51-page book found in Books/CEU on 05/11. Visually verified reading copy is linked from the catalog; the owner-provided 22-page presentation remains alongside it and a single current sales table."
     }
   ],
   "tables": [
     {
       "id": "jardin-di-grazielle",
-      "name": "Tabela de Vendas Jardin Di Grazielle - Outubro 2026.pdf",
-      "sha256": "bbbbb70eb3e0660ecaf5844a0548149ca1e37ee62555c169955d141b6f869f1f",
-      "bytes": 359986,
+      "name": "Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
+      "sha256": "bfc0e9a96b1689fb31f2ef661f151987dd1b5d2e03da2b32d6c243c328394418",
+      "bytes": 359985,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-11-05"
     },
     {
       "id": "pebe-74",
@@ -232,31 +235,35 @@
     },
     {
       "id": "141-living",
-      "name": "Tabela de Vendas 141 Living - Outubro 2026.pdf",
-      "sha256": "bf3bbcae8db7755571b766bc9abdd7d896887cdf9956880fc3a4f13635804a26",
-      "bytes": 421897,
-      "driveIdentical": true
+      "name": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
+      "sha256": "2e9a42bd401b4bf0176cf12b40c7aa4e60bd08bb0b86775025acd903877a34a7",
+      "bytes": 421896,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-05"
     },
     {
       "id": "nomad",
-      "name": "Tabela de Vendas Nomad - Outubro 2026.pdf",
-      "sha256": "71f729ff1b9724e5c1e805cc35a3d73de123a9578612f23032bd476fc5713408",
-      "bytes": 421374,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Nomad - Novembro 2026.pdf",
+      "sha256": "f62f8e9e66bc13dfef5dd6165fe2fbd139a52e6c273050cc33541d3339d65fc6",
+      "bytes": 325155,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-05"
     },
     {
       "id": "maria-maria",
-      "name": "Tabela de Vendas Maria Maria - Outubro 2026.pdf",
-      "sha256": "af435f2cad0c63f274f85e99879b88ea05bd1d992b529236ffa14822740d9079",
-      "bytes": 386715,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
+      "sha256": "64f1459e81d3276b088d428373e3543ef95f04bdb65a68c083f61c282504f5d9",
+      "bytes": 347645,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-05"
     },
     {
       "id": "tao",
-      "name": "Tabela de Vendas Tao - Outubro 2026.pdf",
-      "sha256": "bc9a0ca432ff1e2bbfff052733c3d45561451d6689f3cf6369b20ba400ba4c59",
-      "bytes": 539957,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Tao - Novembro 2026.pdf",
+      "sha256": "df38372d38ed536ae33af3e78456cc73e97a0263e297e6a89f71deac3f77745e",
+      "bytes": 539953,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-05"
     },
     {
       "id": "in-icarai",
@@ -827,10 +834,11 @@
     },
     {
       "id": "baume",
-      "name": "Tabela de Vendas Baume - Outubro 2026.pdf",
-      "sha256": "347c9ac8e377829906c0c11db240839983f7281e59959ded45a650be6a400020",
-      "bytes": 418478,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+      "sha256": "7fe29fcc3d89ca1dc3107608b8c2b83159ab100dc90d5f30bf89b743f1d75e76",
+      "bytes": 415254,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-05"
     },
     {
       "id": "soul-fonseca",
@@ -873,14 +881,15 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-04",
-  "lastTablesUpdatedAt": "2026-11-04",
-  "lastBooksComparedAt": "2026-11-04",
-  "lastTablesInventoryCheckedAt": "2026-11-04",
-  "lastFullSourceAuditAt": "2026-11-04",
-  "lastTablesComparedAt": "2026-11-04",
-  "sourceAuditReport": "data/source-audit-2026-11-04.json",
+  "lastInventoryCheckedAt": "2026-11-05",
+  "lastTablesUpdatedAt": "2026-11-05",
+  "lastBooksComparedAt": "2026-11-05",
+  "lastTablesInventoryCheckedAt": "2026-11-05",
+  "lastFullSourceAuditAt": "2026-11-05",
+  "lastTablesComparedAt": "2026-11-05",
+  "sourceAuditReport": "data/source-audit-2026-11-05.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
   "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-04"
+  "lastCatalogMetadataUpdatedAt": "2026-11-05",
+  "lastBooksUpdatedAt": "2026-11-05"
 }
