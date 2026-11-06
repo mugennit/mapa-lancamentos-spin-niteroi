@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05",
+  "checkedAt": "2026-11-06",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,38 +16,38 @@
     "mapEligibleProjects": 82
   },
   "validation": {
-    "tableComparison": "140 source PDFs CRC/SHA-256 checked: 133 unchanged; seven source version replacements; six catalog tables replaced.",
-    "identicalTables": 133,
-    "differentTables": 7,
+    "tableComparison": "140 source PDFs CRC/SHA-256 checked: 127 unchanged, 13 version replacements; all 13 catalog tables replaced in place.",
+    "identicalTables": 127,
+    "differentTables": 13,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 81,
-    "bookComparison": "132 source PDFs CRC/SHA-256 checked: 131 unchanged and a new official 51-page Baume book.",
+    "bookComparison": "All 132 source Book PDFs CRC/SHA-256 compared and unchanged from 05/11.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 7,
-    "bookContentReport": "data/books-content-comparison-2026-11-05.json",
+    "newTables": 13,
+    "bookContentReport": "data/books-content-comparison-2026-11-06.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-05",
-      "baseline": "2026-11-04",
-      "tableFilesIdenticalSha256": 133,
-      "tableFilesAdded": 7,
-      "tableFilesRemoved": 7,
-      "sourceTableVersionReplacements": 7,
-      "catalogTablesUpdated": 6,
-      "bookFilesIdenticalSha256": 131,
-      "bookFilesAdded": 1,
+      "date": "2026-11-06",
+      "baseline": "2026-11-05",
+      "tableFilesIdenticalSha256": 127,
+      "tableFilesAdded": 13,
+      "tableFilesRemoved": 13,
+      "sourceTableVersionReplacements": 13,
+      "catalogTablesUpdated": 13,
+      "bookFilesIdenticalSha256": 132,
+      "bookFilesAdded": 0,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
       "allReferencedUniqueFilesWithPublicReader": 220,
-      "newOfficialBooks": 1,
+      "newOfficialBooks": 0,
       "ownerSuppliedBooksPreserved": 1
     },
-    "sourceTableVersionReplacements": 7,
-    "catalogTablesUpdated": 6,
+    "sourceTableVersionReplacements": 13,
+    "catalogTablesUpdated": 13,
     "catalogValidityMetadataCorrections": [
       "orla-central",
       "caminhos-da-guanabara",
@@ -63,7 +63,9 @@
       "field": "tables[0].date",
       "before": "Outubro 2026",
       "after": "Setembro 2026",
-      "evidence": "Both PDF pages identify Setembro 2026; file name says Outubro 2026."
+      "evidence": "Both PDF pages identify Setembro 2026; file name says Outubro 2026.",
+      "supersededAt": "2026-11-06",
+      "currentCommercialMonth": "Novembro 2026"
     },
     {
       "name": "Conquista Oceânica",
@@ -337,24 +339,33 @@
     },
     {
       "id": "reserva-sao-francisco",
-      "name": "Tabela de Vendas Reserva São Francisco - Outubro 2026.pdf",
-      "sha256": "003f404d2e9c02371a44f2a6b45987174884163962625a5793cc21073742d729",
-      "bytes": 654090,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Reserva São Francisco - Novembro 2026.pdf",
+      "sha256": "92b77b1f3aa6864d2e10ff7b326ebb0fe803106e275364d72b1fb38fd8c96268",
+      "bytes": 668634,
+      "driveIdentical": true,
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "neo-design-icarai",
-      "name": "Tabela de Vendas Neo Design - Outubro 2026.pdf",
-      "sha256": "07213359146ad7cf6dd3055092c4829af96b2b072b2346db81fbdc149c3d97ae",
-      "bytes": 494582,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Neo Design - Novembro 2026.pdf",
+      "sha256": "62c6f9c6fdac3556aba7336c979025e1a689d4353e08701f70e992ef0d38b64b",
+      "bytes": 492653,
+      "driveIdentical": true,
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "upside-charitas",
-      "name": "Tabela de Vendas Upside - Outubro 2026.pdf",
-      "sha256": "384b01b09d3d4c35735a66155a9d39723a5577e5bd17a6dfa8a37c54c6459f6d",
-      "bytes": 494860,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Upside Charitas - Novembro 2026.pdf",
+      "sha256": "b1daf28acd63837504534de223ee6e0c7f06425264385246f8e766b9bc5517fe",
+      "bytes": 489980,
+      "driveIdentical": true,
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "mok-132",
@@ -467,26 +478,33 @@
     },
     {
       "id": "marina",
-      "name": "Tabela de Vendas Marina - Novembro 2026.pdf",
-      "sha256": "886d96dc9d86efc85bc5d1d7bbbf4f6fbb1d1ab1a1a4fee233690cde0ed31369",
+      "name": "Tabela de Vendas Marina - Novembro 2026 (2).pdf",
+      "sha256": "cf005b078c43a67e89e0564ddf951065f0c501804eaa5a315ab1c6d5b3b9d9fd",
       "bytes": 269562,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-06",
+      "date": "Outubro 2026",
+      "checkedAt": "2026-11-06"
     },
     {
       "id": "triunfo",
-      "name": "Tabela de Vendas Triunfo - Outubro 2026.pdf",
-      "sha256": "ec34b0d136f9f92874008600e6dfb3c592ec4a12a63c6dd1819b547dd5869996",
-      "bytes": 327132,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Triunfo - Novembro 2026.pdf",
+      "sha256": "334165982caa3c00555b3abc001800040be9ec9a9853fee60092011055cf1576",
+      "bytes": 327141,
+      "driveIdentical": true,
+      "date": "Outubro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "serena",
-      "name": "Tabela de Vendas Serena - Novembro 2026.pdf",
-      "sha256": "e7b1475c3ddd13a6cc3e0e3a875951e0e04d30ea0b5cd846ddc18b9311ef5134",
-      "bytes": 274154,
+      "name": "Tabela de Vendas Serena - Novembro 2026 (3).pdf",
+      "sha256": "3daf7f237a1ea128190728499c4ee7325376d23ccb8e591f2a3a373c94054307",
+      "bytes": 274155,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-06",
+      "date": "Outubro 2026",
+      "checkedAt": "2026-11-06"
     },
     {
       "id": "althea",
@@ -504,25 +522,33 @@
     },
     {
       "id": "terramarine",
-      "name": "Tabela de Vendas Terramarine - Setembro 2026.pdf",
-      "sha256": "3b10ed54d45e013099ec9d19d809d7f669a4284faaea6661ffae8bf40cda9f9d",
-      "bytes": 479019,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Terramarine - Novembro 2026.pdf",
+      "sha256": "567294873d791fe3411c70b69adf220c71dd26baca9ca0e661dbd81724a2d263",
+      "bytes": 477819,
+      "driveIdentical": true,
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "uni-home-studios",
-      "name": "Tabela de vendas - Uni Home Studio - Set_2026.pdf",
-      "sha256": "974c68a8287105a12a972b7a6d790da798454f277a3e77b504a45ffd97967376",
+      "name": "Tabela de Vendas Uni Home Studio - Novembro 2026.pdf",
+      "sha256": "ddbee7efd4c34318225e8a6a6a5debd7a2648fa382467fb45e8e652f1447ea12",
       "bytes": 69323,
-      "driveIdentical": true
+      "driveIdentical": true,
+      "date": "Agosto 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "maris",
-      "name": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
-      "sha256": "9178852be961b5a6ec5a83e38c09300e65ce9b21fae18fd4839671b44aaa5fee",
-      "bytes": 573752,
+      "name": "Tabela de Vendas Maris - Novembro 2026.pdf",
+      "sha256": "7ca91f13e5a057c8365c186ea9761145c58f6337d8379a2817e72438b1c965b3",
+      "bytes": 571479,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-18"
+      "verifiedAt": "2026-11-06",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06"
     },
     {
       "id": "calle-sardegna",
@@ -648,18 +674,23 @@
     },
     {
       "id": "maren",
-      "name": "Tabela de Vendas Maren By RAMABE - Outubro 2026.pdf",
-      "sha256": "6f52e483f289727367530e3cf3f79624b4827e60b551f2a81bf8c02e5cd2fc7d",
-      "bytes": 349254,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Maren By RAMABE - Novembro 2026.pdf",
+      "sha256": "91b362022cc260e02be7ae8e78d39ea95f988eb0cf9706201ce03e44e2e5a4da",
+      "bytes": 658399,
+      "driveIdentical": true,
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "sun-in",
-      "name": "Tabela de Vendas Sun In - Outubro 2026.pdf",
-      "sha256": "d3f9e51d23a277281fe8c910c578a3cfc318365d8253f4d5d933317ee8056666",
-      "bytes": 261085,
+      "name": "Tabela de Vendas Sun In - Novembro 2026.pdf",
+      "sha256": "147dd3390532ec19693f8dc9d7f67f577897d941790e9ad10da53e1c0b05d575",
+      "bytes": 261162,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-11-06",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06"
     },
     {
       "id": "giardino-di-verona",
@@ -776,10 +807,13 @@
     },
     {
       "id": "business",
-      "name": "Tabela de Vendas Business - Outubro 2026.pdf",
-      "sha256": "8fe4bef3c14cf0e96fb9c928d92713861ae39e31b31467b60fed86b4c635eea4",
-      "bytes": 176860,
-      "driveIdentical": true
+      "name": "Tabela de Vendas Business - Novembro 2026.pdf",
+      "sha256": "11665764a114aa124e805c2ea27db53947d862a6ff5cb0038ee3309fc0692de6",
+      "bytes": 171388,
+      "driveIdentical": true,
+      "date": "Outubro 2026",
+      "checkedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06"
     },
     {
       "id": "unic-icarai",
@@ -842,11 +876,13 @@
     },
     {
       "id": "soul-fonseca",
-      "name": "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
-      "sha256": "6cda769ed1b369c2e046af1ef0b0c4bf2efe6e5868673b3c615bb6c821bdf5fa",
-      "bytes": 263997,
+      "name": "Tabela de Vendas Soul Fonseca - Novembro 2026.pdf",
+      "sha256": "ea2066ec1d52dcb3cf5424c32bee590e5532054cfb2b0707a9e1ca4a3d063e76",
+      "bytes": 262785,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-11-06",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-06"
     },
     {
       "id": "caminhos-da-guanabara",
@@ -881,15 +917,15 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-05",
-  "lastTablesUpdatedAt": "2026-11-05",
-  "lastBooksComparedAt": "2026-11-05",
-  "lastTablesInventoryCheckedAt": "2026-11-05",
-  "lastFullSourceAuditAt": "2026-11-05",
-  "lastTablesComparedAt": "2026-11-05",
-  "sourceAuditReport": "data/source-audit-2026-11-05.json",
+  "lastInventoryCheckedAt": "2026-11-06",
+  "lastTablesUpdatedAt": "2026-11-06",
+  "lastBooksComparedAt": "2026-11-06",
+  "lastTablesInventoryCheckedAt": "2026-11-06",
+  "lastFullSourceAuditAt": "2026-11-06",
+  "lastTablesComparedAt": "2026-11-06",
+  "sourceAuditReport": "data/source-audit-2026-11-06.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
-  "coordinatesAuditReport": "data/coordinate-update-2026-10-27.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-05",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-06.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-06",
   "lastBooksUpdatedAt": "2026-11-05"
 }

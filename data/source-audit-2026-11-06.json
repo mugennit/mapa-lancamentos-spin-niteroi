@@ -1,0 +1,1239 @@
+{
+  "checkedAt": "2026-11-06",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-05",
+  "method": [
+    "Opened both folders through the Linktree buttons in the same public browser session, without login.",
+    "Scrolled both paginated roots to the end; visited every one of 82 root folders and all three subfolders. Reconciled all 140 table files and 132 Book files against exact archive paths.",
+    "Read every downloaded ZIP member to EOF for CRC and SHA-256 compared all 272 PDFs with 05/11.",
+    "Visually inspected all 13 replacement table PDFs; used printed dates, the POR sales-price column for Terramarine and VALOR DE VENDA for RDR. Replaced the 13 Drive PDFs in place and re-downloaded each for SHA-256 verification.",
+    "Read the current coordinate sheet twice, compared 80 numeric pairs, the Solo owner point and the Baume owner-confirmed catalog exception."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "rootDisplayedItemTotal": 140,
+      "subfolderDisplayedItemTotal": 0,
+      "listedFiles": 140,
+      "downloadedFiles": 140,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "subfolders": 3,
+      "rootDisplayedItemTotal": 126,
+      "subfolderDisplayedItemTotal": 9,
+      "listedFiles": 132,
+      "downloadedFiles": 132,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 127,
+      "newVersions": 13,
+      "changedSamePath": 0,
+      "removedOldVersions": 13
+    },
+    "books": {
+      "identicalSha256": 132,
+      "added": 0,
+      "changedSamePath": 0,
+      "removed": 0
+    }
+  },
+  "changes": [
+    {
+      "sourcePath": "Tabelas de Vendas/RDR/Tabela de Vendas Soul Fonseca - Novembro 2026.pdf",
+      "id": "soul-fonseca",
+      "name": "Soul Fonseca",
+      "driveFileId": "1VYKFjkrKCvXa1GOxTZk0gHC1k0DOWl8p",
+      "url": "https://drive.google.com/file/d/1VYKFjkrKCvXa1GOxTZk0gHC1k0DOWl8p/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Soul Fonseca - Outubro 2026.pdf",
+      "oldMinimumPrice": 293800,
+      "newMinimumPrice": 293800.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "dateEvidence": "Novembro de 2026 impresso no conteúdo; dia não informado"
+      },
+      "sourceSha256": "ea2066ec1d52dcb3cf5424c32bee590e5532054cfb2b0707a9e1ca4a3d063e76",
+      "bytes": 262785,
+      "removedUnits": [
+        "1008 / Bloco 2",
+        "1108 / Bloco 2",
+        "802 / Bloco 1"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 55,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/RDR/Tabela de Vendas Sun In - Novembro 2026.pdf",
+      "id": "sun-in",
+      "name": "Sun In",
+      "driveFileId": "1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG",
+      "url": "https://drive.google.com/file/d/1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Sun In - Outubro 2026.pdf",
+      "oldMinimumPrice": 310878,
+      "newMinimumPrice": 310878.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "dateEvidence": "Novembro de 2026 impresso no conteúdo; dia não informado"
+      },
+      "sourceSha256": "147dd3390532ec19693f8dc9d7f67f577897d941790e9ad10da53e1c0b05d575",
+      "bytes": 261162,
+      "removedUnits": [
+        "1404",
+        "708"
+      ],
+      "addedUnits": [
+        "1610"
+      ],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 42,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/RAMABE/Tabela de Vendas Maren By RAMABE - Novembro 2026.pdf",
+      "id": "maren",
+      "name": "Maren",
+      "driveFileId": "1SwzmO762LF1NW-dURK55elt-S2VH8RTX",
+      "url": "https://drive.google.com/file/d/1SwzmO762LF1NW-dURK55elt-S2VH8RTX/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Maren By RAMABE - Outubro 2026.pdf",
+      "oldMinimumPrice": 690000,
+      "newMinimumPrice": 805500,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "dateEvidence": "Novembro de 2026 impresso no conteúdo; dia não informado"
+      },
+      "sourceSha256": "91b362022cc260e02be7ae8e78d39ea95f988eb0cf9706201ce03e44e2e5a4da",
+      "bytes": 658399,
+      "removedUnits": [
+        "104"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "206",
+          "before": 805000,
+          "after": 805500
+        },
+        {
+          "unit": "405",
+          "before": 905000,
+          "after": 905500
+        },
+        {
+          "unit": "406",
+          "before": 850000,
+          "after": 850500
+        },
+        {
+          "unit": "306",
+          "before": 825000,
+          "after": 825500
+        }
+      ],
+      "pricedOffers": 7,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/JPR/Tabela de Vendas Uni Home Studio - Novembro 2026.pdf",
+      "id": "uni-home-studios",
+      "name": "Uni Home Studios",
+      "driveFileId": "1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp",
+      "url": "https://drive.google.com/file/d/1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp/view?usp=drivesdk",
+      "oldFile": "Tabela de vendas - Uni Home Studio - Set_2026.pdf",
+      "oldMinimumPrice": 550000,
+      "newMinimumPrice": 550000,
+      "dateInfo": {
+        "date": "Agosto 2026",
+        "commercialDate": "2026-08-11",
+        "dateEvidence": "Rodapé 11-ago-26",
+        "dateConflict": "O arquivo foi disponibilizado como Novembro 2026, mas o rodapé da tabela informa 11/08/2026. A data comercial foi mantida conforme o conteúdo."
+      },
+      "sourceSha256": "ddbee7efd4c34318225e8a6a6a5debd7a2648fa382467fb45e8e652f1447ea12",
+      "bytes": 69323,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 3,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/JOÃO FORTES/Tabela de Vendas Terramarine - Novembro 2026.pdf",
+      "id": "terramarine",
+      "name": "Terramarine",
+      "driveFileId": "1lCkR0QSSfaYUZlftQxM4mmrvX84cGhaQ",
+      "url": "https://drive.google.com/file/d/1lCkR0QSSfaYUZlftQxM4mmrvX84cGhaQ/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Terramarine - Setembro 2026.pdf",
+      "oldMinimumPrice": 857400,
+      "newMinimumPrice": 710000.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "dateEvidence": "Novembro de 2026 impresso no conteúdo; dia não informado"
+      },
+      "sourceSha256": "567294873d791fe3411c70b69adf220c71dd26baca9ca0e661dbd81724a2d263",
+      "bytes": 477819,
+      "removedUnits": [
+        "403 — Ed. Acqua - Bloco 1",
+        "604 — Ed. Mare - Bloco 2",
+        "706 — Ed. Acqua - Bloco 1",
+        "807 — Ed. Mare - Bloco 2",
+        "904 — Ed. Acqua - Bloco 1",
+        "910 — Ed. Acqua - Bloco 1"
+      ],
+      "addedUnits": [
+        "610 — Ed. Acqua - Bloco 1",
+        "803 — Ed. Acqua - Bloco 1",
+        "806 — Ed. Mare - Bloco 2",
+        "810 — Ed. Mare - Bloco 2"
+      ],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 24,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Business - Novembro 2026.pdf",
+      "id": "business",
+      "name": "Business",
+      "driveFileId": "1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4",
+      "url": "https://drive.google.com/file/d/1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Business - Outubro 2026.pdf",
+      "oldMinimumPrice": 200000,
+      "newMinimumPrice": 200000,
+      "dateInfo": {
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-30",
+        "dateEvidence": "Emitida em 30/10/2026; validade em novembro de 2026",
+        "validityMonth": "Novembro 2026"
+      },
+      "sourceSha256": "11665764a114aa124e805c2ea27db53947d862a6ff5cb0038ee3309fc0692de6",
+      "bytes": 171388,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 3,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Novembro 2026 (2).pdf",
+      "id": "marina",
+      "name": "Marina",
+      "driveFileId": "1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh",
+      "url": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Marina - Novembro 2026.pdf",
+      "oldMinimumPrice": 2680000,
+      "newMinimumPrice": 2680000,
+      "dateInfo": {
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-30",
+        "dateEvidence": "Emitida em 30/10/2026; validade em novembro de 2026",
+        "validityMonth": "Novembro 2026",
+        "validUntil": "2026-11-30"
+      },
+      "sourceSha256": "cf005b078c43a67e89e0564ddf951065f0c501804eaa5a315ab1c6d5b3b9d9fd",
+      "bytes": 269562,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 2,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Serena - Novembro 2026 (3).pdf",
+      "id": "serena",
+      "name": "Serena",
+      "driveFileId": "1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O",
+      "url": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Serena - Novembro 2026.pdf",
+      "oldMinimumPrice": 1230000,
+      "newMinimumPrice": 1230000,
+      "dateInfo": {
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-30",
+        "dateEvidence": "Emitida em 30/10/2026; validade em novembro de 2026",
+        "validityMonth": "Novembro 2026",
+        "validUntil": "2026-11-30"
+      },
+      "sourceSha256": "3daf7f237a1ea128190728499c4ee7325376d23ccb8e591f2a3a373c94054307",
+      "bytes": 274155,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 8,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Triunfo - Novembro 2026.pdf",
+      "id": "triunfo",
+      "name": "Triunfo",
+      "driveFileId": "1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21",
+      "url": "https://drive.google.com/file/d/1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Triunfo - Outubro 2026.pdf",
+      "oldMinimumPrice": 2550000,
+      "newMinimumPrice": 2550000,
+      "dateInfo": {
+        "date": "Outubro 2026",
+        "commercialDate": "2026-10-30",
+        "dateEvidence": "Emitida em 30/10/2026; validade em novembro de 2026",
+        "validityMonth": "Novembro 2026",
+        "validUntil": "2026-11-30"
+      },
+      "sourceSha256": "334165982caa3c00555b3abc001800040be9ec9a9853fee60092011055cf1576",
+      "bytes": 327141,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 3,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Maris - Novembro 2026.pdf",
+      "id": "maris",
+      "name": "Maris",
+      "driveFileId": "1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8",
+      "url": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Maris - Outubro 2026 (4).pdf",
+      "oldMinimumPrice": 804000,
+      "newMinimumPrice": 806000.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "commercialDate": "2026-11-01",
+        "dateEvidence": "Niterói, 01 de novembro de 2026"
+      },
+      "sourceSha256": "7ca91f13e5a057c8365c186ea9761145c58f6337d8379a2817e72438b1c965b3",
+      "bytes": 571479,
+      "removedUnits": [
+        "203",
+        "405"
+      ],
+      "addedUnits": [
+        "LOJA 102",
+        "LOJA 103"
+      ],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "603",
+          "before": 1446000,
+          "after": 1449000.0
+        },
+        {
+          "unit": "707",
+          "before": 1089000,
+          "after": 1091000.0
+        },
+        {
+          "unit": "506",
+          "before": 913000,
+          "after": 915000.0
+        },
+        {
+          "unit": "609",
+          "before": 1481000,
+          "after": 1484000.0
+        },
+        {
+          "unit": "509",
+          "before": 1444000,
+          "after": 1447000.0
+        },
+        {
+          "unit": "409",
+          "before": 1409000,
+          "after": 1412000.0
+        },
+        {
+          "unit": "502",
+          "before": 1765000,
+          "after": 1769000.0
+        },
+        {
+          "unit": "206",
+          "before": 1021000,
+          "after": 1023000.0
+        },
+        {
+          "unit": "704",
+          "before": 954000,
+          "after": 956000.0
+        },
+        {
+          "unit": "403",
+          "before": 1252000,
+          "after": 1254000.0
+        },
+        {
+          "unit": "402",
+          "before": 1722000,
+          "after": 1725000.0
+        },
+        {
+          "unit": "505",
+          "before": 879000,
+          "after": 881000.0
+        },
+        {
+          "unit": "601",
+          "before": 1810000,
+          "after": 1814000.0
+        },
+        {
+          "unit": "604",
+          "before": 900000,
+          "after": 902000.0
+        },
+        {
+          "unit": "605",
+          "before": 967000,
+          "after": 969000.0
+        },
+        {
+          "unit": "608",
+          "before": 932000,
+          "after": 934000.0
+        },
+        {
+          "unit": "408",
+          "before": 887000,
+          "after": 889000.0
+        },
+        {
+          "unit": "602",
+          "before": 1810000,
+          "after": 1814000.0
+        },
+        {
+          "unit": "606",
+          "before": 941000,
+          "after": 943000.0
+        },
+        {
+          "unit": "806",
+          "before": 999000,
+          "after": 1001000.0
+        },
+        {
+          "unit": "802",
+          "before": 1902000,
+          "after": 1906000.0
+        },
+        {
+          "unit": "703",
+          "before": 1518000,
+          "after": 1521000.0
+        },
+        {
+          "unit": "309",
+          "before": 1367000,
+          "after": 1370000.0
+        },
+        {
+          "unit": "507",
+          "before": 1036000,
+          "after": 1038000.0
+        },
+        {
+          "unit": "708",
+          "before": 955000,
+          "after": 957000.0
+        },
+        {
+          "unit": "301",
+          "before": 1671000,
+          "after": 1675000.0
+        },
+        {
+          "unit": "809",
+          "before": 1548000,
+          "after": 1552000.0
+        },
+        {
+          "unit": "803",
+          "before": 1594000,
+          "after": 1597000.0
+        },
+        {
+          "unit": "208",
+          "before": 980000,
+          "after": 982000.0
+        },
+        {
+          "unit": "503",
+          "before": 1314000,
+          "after": 1317000.0
+        },
+        {
+          "unit": "303",
+          "before": 1215000,
+          "after": 1218000.0
+        },
+        {
+          "unit": "308",
+          "before": 861000,
+          "after": 863000.0
+        },
+        {
+          "unit": "406",
+          "before": 887000,
+          "after": 889000.0
+        },
+        {
+          "unit": "204",
+          "before": 900000,
+          "after": 902000.0
+        },
+        {
+          "unit": "508",
+          "before": 909000,
+          "after": 911000.0
+        },
+        {
+          "unit": "501",
+          "before": 1765000,
+          "after": 1769000.0
+        },
+        {
+          "unit": "804",
+          "before": 1002000,
+          "after": 1004000.0
+        },
+        {
+          "unit": "607",
+          "before": 1062000,
+          "after": 1065000.0
+        },
+        {
+          "unit": "209",
+          "before": 1512000,
+          "after": 1515000.0
+        },
+        {
+          "unit": "706",
+          "before": 969000,
+          "after": 971000.0
+        },
+        {
+          "unit": "808",
+          "before": 974000,
+          "after": 976000.0
+        },
+        {
+          "unit": "807",
+          "before": 1111000,
+          "after": 1113000.0
+        },
+        {
+          "unit": "504",
+          "before": 804000,
+          "after": 806000.0
+        },
+        {
+          "unit": "407",
+          "before": 1011000,
+          "after": 1013000.0
+        },
+        {
+          "unit": "401",
+          "before": 1722000,
+          "after": 1725000.0
+        },
+        {
+          "unit": "307",
+          "before": 962000,
+          "after": 964000.0
+        }
+      ],
+      "pricedOffers": 48,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Neo Design - Novembro 2026.pdf",
+      "id": "neo-design-icarai",
+      "name": "Neo Design Icaraí",
+      "driveFileId": "1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0",
+      "url": "https://drive.google.com/file/d/1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Neo Design - Outubro 2026.pdf",
+      "oldMinimumPrice": 534000,
+      "newMinimumPrice": 535000.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "commercialDate": "2026-11-01",
+        "dateEvidence": "Niterói, 01 de novembro de 2026"
+      },
+      "sourceSha256": "62c6f9c6fdac3556aba7336c979025e1a689d4353e08701f70e992ef0d38b64b",
+      "bytes": 492653,
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "1105",
+          "before": 574000,
+          "after": 576000.0
+        },
+        {
+          "unit": "1205",
+          "before": 580000,
+          "after": 581000.0
+        },
+        {
+          "unit": "603",
+          "before": 585000,
+          "after": 586000.0
+        },
+        {
+          "unit": "201",
+          "before": 546000,
+          "after": 547000.0
+        },
+        {
+          "unit": "506",
+          "before": 572000,
+          "after": 573000.0
+        },
+        {
+          "unit": "1201",
+          "before": 615000,
+          "after": 616000.0
+        },
+        {
+          "unit": "502",
+          "before": 653000,
+          "after": 655000.0
+        },
+        {
+          "unit": "505",
+          "before": 534000,
+          "after": 535000.0
+        },
+        {
+          "unit": "601",
+          "before": 580000,
+          "after": 581000.0
+        },
+        {
+          "unit": "1101",
+          "before": 609000,
+          "after": 611000.0
+        },
+        {
+          "unit": "1206",
+          "before": 617000,
+          "after": 619000.0
+        },
+        {
+          "unit": "602",
+          "before": 659000,
+          "after": 660000.0
+        },
+        {
+          "unit": "1305",
+          "before": 586000,
+          "after": 587000.0
+        },
+        {
+          "unit": "1406",
+          "before": 626000,
+          "after": 628000.0
+        },
+        {
+          "unit": "1304",
+          "before": 601000,
+          "after": 602000.0
+        },
+        {
+          "unit": "1103",
+          "before": 585000,
+          "after": 587000.0
+        },
+        {
+          "unit": "406",
+          "before": 560000,
+          "after": 562000.0
+        },
+        {
+          "unit": "1306",
+          "before": 623000,
+          "after": 624000.0
+        },
+        {
+          "unit": "202",
+          "before": 720000,
+          "after": 722000.0
+        },
+        {
+          "unit": "504",
+          "before": 548000,
+          "after": 549000.0
+        },
+        {
+          "unit": "1301",
+          "before": 621000,
+          "after": 622000.0
+        }
+      ],
+      "pricedOffers": 21,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Reserva São Francisco - Novembro 2026.pdf",
+      "id": "reserva-sao-francisco",
+      "name": "Reserva São Francisco",
+      "driveFileId": "1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7",
+      "url": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Reserva São Francisco - Outubro 2026.pdf",
+      "oldMinimumPrice": 716000,
+      "newMinimumPrice": 717000.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "commercialDate": "2026-11-01",
+        "dateEvidence": "Niterói, 01 de novembro de 2026"
+      },
+      "sourceSha256": "92b77b1f3aa6864d2e10ff7b326ebb0fe803106e275364d72b1fb38fd8c96268",
+      "bytes": 668634,
+      "removedUnits": [
+        "22 — Bloco Solis"
+      ],
+      "addedUnits": [
+        "LOJA 1",
+        "LOJA 2"
+      ],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "605 — Bloco Solis",
+          "before": 885000,
+          "after": 887000.0
+        },
+        {
+          "unit": "201 — Bloco Gaia",
+          "before": 868000,
+          "after": 870000.0
+        },
+        {
+          "unit": "506 — Bloco Solis",
+          "before": 832000,
+          "after": 834000.0
+        },
+        {
+          "unit": "507 — Bloco Solis",
+          "before": 777000,
+          "after": 779000.0
+        },
+        {
+          "unit": "403 — Bloco Gaia",
+          "before": 776000,
+          "after": 778000.0
+        },
+        {
+          "unit": "206 — Bloco Solis",
+          "before": 765000,
+          "after": 767000.0
+        },
+        {
+          "unit": "302 — Bloco Gaia",
+          "before": 775000,
+          "after": 777000.0
+        },
+        {
+          "unit": "407 — Bloco Solis",
+          "before": 759000,
+          "after": 760000.0
+        },
+        {
+          "unit": "503 — Bloco Gaia",
+          "before": 796000,
+          "after": 798000.0
+        },
+        {
+          "unit": "608 — Bloco Gaia",
+          "before": 974000,
+          "after": 976000.0
+        },
+        {
+          "unit": "208 — Bloco Gaia",
+          "before": 830000,
+          "after": 832000.0
+        },
+        {
+          "unit": "606 — Bloco Solis",
+          "before": 854000,
+          "after": 855000.0
+        },
+        {
+          "unit": "504 — Bloco Solis",
+          "before": 1052000,
+          "after": 1055000.0
+        },
+        {
+          "unit": "303 — Bloco Solis",
+          "before": 1301000,
+          "after": 1304000.0
+        },
+        {
+          "unit": "604 — Bloco Solis",
+          "before": 1078000,
+          "after": 1080000.0
+        },
+        {
+          "unit": "308 — Bloco Solis",
+          "before": 1033000,
+          "after": 1035000.0
+        },
+        {
+          "unit": "504 — Bloco Gaia",
+          "before": 991000,
+          "after": 994000.0
+        },
+        {
+          "unit": "303 — Bloco Gaia",
+          "before": 756000,
+          "after": 757000.0
+        },
+        {
+          "unit": "203 — Bloco Solis",
+          "before": 1209000,
+          "after": 1211000.0
+        },
+        {
+          "unit": "202 — Bloco Solis",
+          "before": 1230000,
+          "after": 1233000.0
+        },
+        {
+          "unit": "301 — Bloco Gaia",
+          "before": 895000,
+          "after": 897000.0
+        },
+        {
+          "unit": "404 — Bloco Gaia",
+          "before": 967000,
+          "after": 969000.0
+        },
+        {
+          "unit": "COB 702 — Bloco Gaia",
+          "before": 2005000,
+          "after": 2009000.0
+        },
+        {
+          "unit": "201 — Bloco Solis",
+          "before": 1092000,
+          "after": 1095000.0
+        },
+        {
+          "unit": "205 — Bloco Gaia",
+          "before": 1081000,
+          "after": 1083000.0
+        },
+        {
+          "unit": "204 — Bloco Gaia",
+          "before": 912000,
+          "after": 914000.0
+        },
+        {
+          "unit": "502 — Bloco Gaia",
+          "before": 819000,
+          "after": 820000.0
+        },
+        {
+          "unit": "COB 703 — Bloco Solis",
+          "before": 2227000,
+          "after": 2232000.0
+        },
+        {
+          "unit": "508 — Bloco Gaia",
+          "before": 950000,
+          "after": 952000.0
+        },
+        {
+          "unit": "408 — Bloco Solis",
+          "before": 1064000,
+          "after": 1066000.0
+        },
+        {
+          "unit": "401 — Bloco Solis",
+          "before": 1159000,
+          "after": 1162000.0
+        },
+        {
+          "unit": "207 — Bloco Solis",
+          "before": 716000,
+          "after": 717000.0
+        },
+        {
+          "unit": "501 — Bloco Solis",
+          "before": 1188000,
+          "after": 1191000.0
+        },
+        {
+          "unit": "304 — Bloco Gaia",
+          "before": 939000,
+          "after": 941000.0
+        },
+        {
+          "unit": "COB 701 — Bloco Gaia",
+          "before": 2052000,
+          "after": 2056000.0
+        },
+        {
+          "unit": "204 — Bloco Solis",
+          "before": 967000,
+          "after": 969000.0
+        },
+        {
+          "unit": "602 — Bloco Gaia",
+          "before": 839000,
+          "after": 841000.0
+        },
+        {
+          "unit": "607 — Bloco Solis",
+          "before": 797000,
+          "after": 799000.0
+        },
+        {
+          "unit": "301 — Bloco Solis",
+          "before": 1125000,
+          "after": 1128000.0
+        },
+        {
+          "unit": "604 — Bloco Gaia",
+          "before": 1016000,
+          "after": 1018000.0
+        },
+        {
+          "unit": "202 — Bloco Gaia",
+          "before": 753000,
+          "after": 754000.0
+        },
+        {
+          "unit": "603 — Bloco Gaia",
+          "before": 815000,
+          "after": 817000.0
+        },
+        {
+          "unit": "601 — Bloco Solis",
+          "before": 1217000,
+          "after": 1220000.0
+        },
+        {
+          "unit": "205 — Bloco Solis",
+          "before": 771000,
+          "after": 773000.0
+        }
+      ],
+      "pricedOffers": 46,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Upside Charitas - Novembro 2026.pdf",
+      "id": "upside-charitas",
+      "name": "Upside Charitas",
+      "driveFileId": "1JmZPfIJGqIdZ4QmK7sP5h3ZTfSy-R6iH",
+      "url": "https://drive.google.com/file/d/1JmZPfIJGqIdZ4QmK7sP5h3ZTfSy-R6iH/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Upside - Outubro 2026.pdf",
+      "oldMinimumPrice": 816000,
+      "newMinimumPrice": 818000.0,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "commercialDate": "2026-11-01",
+        "dateEvidence": "Niterói, 01 de novembro de 2026"
+      },
+      "sourceSha256": "b1daf28acd63837504534de223ee6e0c7f06425264385246f8e766b9bc5517fe",
+      "bytes": 489980,
+      "removedUnits": [
+        "707"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "205",
+          "before": 1205000,
+          "after": 1208000.0
+        },
+        {
+          "unit": "201",
+          "before": 1258000,
+          "after": 1261000.0
+        },
+        {
+          "unit": "506",
+          "before": 886000,
+          "after": 888000.0
+        },
+        {
+          "unit": "206",
+          "before": 816000,
+          "after": 818000.0
+        },
+        {
+          "unit": "502",
+          "before": 909000,
+          "after": 911000.0
+        },
+        {
+          "unit": "403",
+          "before": 918000,
+          "after": 920000.0
+        },
+        {
+          "unit": "402",
+          "before": 886000,
+          "after": 888000.0
+        },
+        {
+          "unit": "505",
+          "before": 1313000,
+          "after": 1316000.0
+        },
+        {
+          "unit": "601",
+          "before": 1403000,
+          "after": 1406000.0
+        },
+        {
+          "unit": "605",
+          "before": 1345000,
+          "after": 1348000.0
+        },
+        {
+          "unit": "608",
+          "before": 1191000,
+          "after": 1194000.0
+        },
+        {
+          "unit": "801",
+          "before": 2464000,
+          "after": 2469000.0
+        },
+        {
+          "unit": "408",
+          "before": 1134000,
+          "after": 1136000.0
+        },
+        {
+          "unit": "606",
+          "before": 909000,
+          "after": 911000.0
+        },
+        {
+          "unit": "305",
+          "before": 1242000,
+          "after": 1245000.0
+        },
+        {
+          "unit": "304",
+          "before": 1478000,
+          "after": 1481000.0
+        },
+        {
+          "unit": "507",
+          "before": 886000,
+          "after": 888000.0
+        },
+        {
+          "unit": "708",
+          "before": 1215000,
+          "after": 1218000.0
+        },
+        {
+          "unit": "301",
+          "before": 1296000,
+          "after": 1299000.0
+        },
+        {
+          "unit": "705",
+          "before": 1373000,
+          "after": 1376000.0
+        },
+        {
+          "unit": "803",
+          "before": 2752000,
+          "after": 2758000.0
+        },
+        {
+          "unit": "208",
+          "before": 1068000,
+          "after": 1071000.0
+        },
+        {
+          "unit": "404",
+          "before": 1522000,
+          "after": 1525000.0
+        },
+        {
+          "unit": "503",
+          "before": 941000,
+          "after": 943000.0
+        },
+        {
+          "unit": "406",
+          "before": 865000,
+          "after": 867000.0
+        },
+        {
+          "unit": "308",
+          "before": 1100000,
+          "after": 1103000.0
+        },
+        {
+          "unit": "204",
+          "before": 1435000,
+          "after": 1438000.0
+        },
+        {
+          "unit": "508",
+          "before": 1161000,
+          "after": 1164000.0
+        },
+        {
+          "unit": "501",
+          "before": 1368000,
+          "after": 1372000.0
+        },
+        {
+          "unit": "607",
+          "before": 909000,
+          "after": 911000.0
+        },
+        {
+          "unit": "504",
+          "before": 1559000,
+          "after": 1563000.0
+        },
+        {
+          "unit": "405",
+          "before": 1280000,
+          "after": 1283000.0
+        },
+        {
+          "unit": "407",
+          "before": 865000,
+          "after": 867000.0
+        },
+        {
+          "unit": "401",
+          "before": 1335000,
+          "after": 1338000.0
+        },
+        {
+          "unit": "306",
+          "before": 840000,
+          "after": 842000.0
+        },
+        {
+          "unit": "307",
+          "before": 840000,
+          "after": 842000.0
+        }
+      ],
+      "pricedOffers": 36,
+      "driveReDownloadedAndHashVerified": true
+    }
+  ],
+  "outsideCatalogUpdates": [],
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 82,
+    "projectsWithTable": 89,
+    "addedProjects": [],
+    "removedProjects": [],
+    "addedPins": [],
+    "removedPins": [],
+    "pendingIncompleteProjectsRetained": 32
+  },
+  "coordinates": {
+    "checkedAt": "2026-11-06",
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:Z969",
+    "projectRows": 112,
+    "completeProjectsChecked": 82,
+    "numericPairsMatched": 80,
+    "ownerMapsLinksMatched": 1,
+    "ownerConfirmedCatalogException": 1,
+    "completeProjectsPendingLocation": [],
+    "newNumericCoordinates": [],
+    "genericGeocodingUsed": false,
+    "sheetReReadUnchanged": true
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 165,
+    "foldersWithExactlyTwoFiles": 81,
+    "foldersWithSupplementaryBooks": [
+      {
+        "id": "baume",
+        "books": 2,
+        "tables": 1,
+        "files": 3
+      }
+    ],
+    "mainFolderFiles": 8,
+    "tablesReplacedInPlace": 13,
+    "oldTableCopiesCreated": 0,
+    "newBooks": 0,
+    "uniqueReferencedFiles": 220,
+    "referencedFilesWithPublicReader": 220,
+    "currentTableByteSizesChecked": 89,
+    "uploadedFilesReDownloadedAndHashVerified": 13,
+    "verificationScope": "All referenced metadata, permissions, folder membership and table sizes checked; every replacement re-downloaded and SHA-256 compared. Unchanged Drive books were not re-downloaded."
+  },
+  "baume": {
+    "officialBookFound": true,
+    "officialBookSource": "CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "officialSourceBookUnchangedSha256": true,
+    "catalogIncluded": true,
+    "onMap": true,
+    "booksCeuFilesChecked": 10,
+    "singleCurrentTableInMapFolder": true,
+    "tableFilenameVersion": "Novembro 2026",
+    "tableSourceUnchangedSha256": true,
+    "printedCommercialDate": null,
+    "originalOwnerBookRetainedInBaumeFolder": true
+  },
+  "commercialDateWarnings": {
+    "uni-home-studios": "Filename says Novembro 2026; printed footer is 11/08/2026. August commercial date retained.",
+    "business": "Printed issue date 30/10/2026; validity month Novembro 2026.",
+    "marina": "Printed issue date 30/10/2026; valid through 30/11/2026.",
+    "serena": "Printed issue date 30/10/2026; valid through 30/11/2026.",
+    "triunfo": "Printed issue date 30/10/2026; valid through 30/11/2026.",
+    "terramarine": "November/2026 validity appears together with a legacy Super Chance note from 25/04/2015; conflict recorded."
+  },
+  "downloadRecovery": {
+    "initialBookBatchesWithoutArchive": [
+      3,
+      5
+    ],
+    "retriedOnceAndRecovered": true,
+    "allRequiredSourceFilesVerified": true,
+    "tableArchiveReDownloadedAndVerified": true
+  },
+  "validation": {
+    "inventoryCounts": true,
+    "uiArchiveExactPaths": true,
+    "sourceCrcAndSha256": true,
+    "allReplacementDriveSha256": true,
+    "currentSheetRead": true,
+    "coordinatesMissingForCompleteProjects": [],
+    "dataInvariants": true,
+    "sourceCodeUnchanged": true,
+    "searchAndParkingTestsPassed": true,
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs",
+    "testFixtureUpdate": "Replaced obsolete live-price dependencies for Maren and Conquista with an isolated typology/parking fixture; accepted the existing A confirmar sentinel."
+  },
+  "limitations": [
+    "Counts are verified from deployed source data; the password-protected interior is not visually inspected without an authenticated session."
+  ],
+  "publication": {
+    "mode": "GitHub → Vercel",
+    "baseCommit": "30e23c485e5d7b300ab28cda7ba95468d03bf6b3",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
+    "verification": "Deployment checks are attached to the audit commit; the final response reports the observed publication outcome."
+  }
+}

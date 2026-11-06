@@ -701,13 +701,12 @@
       "607",
       "608",
       "705",
-      "707",
       "708",
       "801",
       "803"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "availabilityCheckedAt": "2026-10-05"
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "reserva-sao-francisco": {
     "typologies": [
@@ -724,55 +723,55 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/reserva-sao-francisco-apartamentos-e-coberturas-niteroi-2-a-3-quartos-64-a-179-m/23343034-SETV",
     "availableUnits": [
-      "Solis 201",
-      "Solis 202",
-      "Solis 203",
-      "Solis 204",
-      "Solis 205",
-      "Solis 206",
-      "Solis 207",
-      "Solis 301",
-      "Solis 303",
-      "Solis 308",
-      "Solis 401",
-      "Solis 407",
-      "Solis 408",
-      "Solis 501",
-      "Solis 504",
-      "Solis 506",
-      "Solis 507",
-      "Solis 601",
-      "Solis 604",
-      "Solis 605",
-      "Solis 606",
-      "Solis 607",
-      "Solis Cobertura 703",
-      "Gaia 201",
-      "Gaia 202",
-      "Gaia 204",
-      "Gaia 205",
-      "Gaia 208",
-      "Gaia 301",
-      "Gaia 302",
-      "Gaia 303",
-      "Gaia 304",
-      "Gaia 403",
-      "Gaia 404",
-      "Gaia 502",
-      "Gaia 503",
-      "Gaia 504",
-      "Gaia 508",
-      "Gaia 602",
-      "Gaia 603",
-      "Gaia 604",
-      "Gaia 608",
-      "Gaia Cobertura 701",
-      "Gaia Cobertura 702",
-      "Loja 1",
-      "Loja 2"
+      "201 — Bloco Solis",
+      "202 — Bloco Solis",
+      "203 — Bloco Solis",
+      "204 — Bloco Solis",
+      "205 — Bloco Solis",
+      "206 — Bloco Solis",
+      "207 — Bloco Solis",
+      "301 — Bloco Solis",
+      "303 — Bloco Solis",
+      "308 — Bloco Solis",
+      "401 — Bloco Solis",
+      "407 — Bloco Solis",
+      "408 — Bloco Solis",
+      "501 — Bloco Solis",
+      "504 — Bloco Solis",
+      "506 — Bloco Solis",
+      "507 — Bloco Solis",
+      "601 — Bloco Solis",
+      "604 — Bloco Solis",
+      "605 — Bloco Solis",
+      "606 — Bloco Solis",
+      "607 — Bloco Solis",
+      "COB 703 — Bloco Solis",
+      "201 — Bloco Gaia",
+      "202 — Bloco Gaia",
+      "204 — Bloco Gaia",
+      "205 — Bloco Gaia",
+      "208 — Bloco Gaia",
+      "301 — Bloco Gaia",
+      "302 — Bloco Gaia",
+      "303 — Bloco Gaia",
+      "304 — Bloco Gaia",
+      "403 — Bloco Gaia",
+      "404 — Bloco Gaia",
+      "502 — Bloco Gaia",
+      "503 — Bloco Gaia",
+      "504 — Bloco Gaia",
+      "508 — Bloco Gaia",
+      "602 — Bloco Gaia",
+      "603 — Bloco Gaia",
+      "604 — Bloco Gaia",
+      "608 — Bloco Gaia",
+      "COB 701 — Bloco Gaia",
+      "COB 702 — Bloco Gaia",
+      "LOJA 1",
+      "LOJA 2"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "availabilityCheckedAt": "2026-10-05",
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06",
     "delivery": "Julho 2028",
     "deliveryEvidence": "5 - Data prevista para conclusão da obra: 31/07/2028.",
     "deliverySource": "https://drive.google.com/file/d/1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7/view?usp=drivesdk"
@@ -1412,7 +1411,21 @@
     "features": [
       "Academia"
     ],
-    "sourceUrl": "https://www.spinimoveis.com/empreendimento/maren-by-ramabe-apartamentos-coberturas-e-apartamentos-garden-niteroi-1-a-2-quartos-37-a-105-m/22375692-SETV"
+    "sourceUrl": "https://www.spinimoveis.com/empreendimento/maren-by-ramabe-apartamentos-coberturas-e-apartamentos-garden-niteroi-1-a-2-quartos-37-a-105-m/22375692-SETV",
+    "delivery": "Fevereiro 2028",
+    "deliveryEvidence": "Previsão entrega das chaves em Fev/28.",
+    "deliverySource": "https://drive.google.com/file/d/1SwzmO762LF1NW-dURK55elt-S2VH8RTX/view?usp=drivesdk",
+    "availableUnits": [
+      "204",
+      "205",
+      "206",
+      "305",
+      "306",
+      "405",
+      "406"
+    ],
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "soul-fonseca": {
     "typologies": [
@@ -1427,7 +1440,6 @@
     "availableUnits": [
       "702 / Bloco 1",
       "703 / Bloco 1",
-      "802 / Bloco 1",
       "803 / Bloco 1",
       "904 / Bloco 1",
       "905 / Bloco 1",
@@ -1470,12 +1482,10 @@
       "1004 / Bloco 2",
       "1005 / Bloco 2",
       "1006 / Bloco 2",
-      "1008 / Bloco 2",
       "1101 / Bloco 2",
       "1104 / Bloco 2",
       "1105 / Bloco 2",
       "1106 / Bloco 2",
-      "1108 / Bloco 2",
       "1201 / Bloco 2",
       "1202 / Bloco 2",
       "1203 / Bloco 2",
@@ -1484,8 +1494,8 @@
       "1207 / Bloco 2",
       "1208 / Bloco 2"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "availabilityCheckedAt": "2026-10-16",
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06",
     "parkingEvidence": "A tabela indica SIM/NÃO por unidade, sem quantificar vagas."
   },
   "stage": {
@@ -1615,33 +1625,33 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/terramarine-icarai-residence-club-apartamentos-e-coberturas-niteroi-2-a-3-quartos-71-a-220-m/21511422-SETV",
     "availableUnits": [
-      "403",
-      "407",
-      "607",
-      "608",
-      "702",
-      "703",
-      "706",
-      "707",
-      "710",
-      "802",
-      "807",
-      "808",
-      "810",
-      "902",
-      "904",
-      "910",
-      "1007",
-      "1107",
-      "1203",
-      "1207",
-      "1306",
-      "1307",
-      "1406",
-      "604",
-      "1505"
+      "407 — Ed. Acqua - Bloco 1",
+      "607 — Ed. Acqua - Bloco 1",
+      "608 — Ed. Acqua - Bloco 1",
+      "610 — Ed. Acqua - Bloco 1",
+      "702 — Ed. Acqua - Bloco 1",
+      "703 — Ed. Acqua - Bloco 1",
+      "707 — Ed. Acqua - Bloco 1",
+      "710 — Ed. Acqua - Bloco 1",
+      "802 — Ed. Acqua - Bloco 1",
+      "803 — Ed. Acqua - Bloco 1",
+      "807 — Ed. Acqua - Bloco 1",
+      "808 — Ed. Acqua - Bloco 1",
+      "810 — Ed. Acqua - Bloco 1",
+      "902 — Ed. Acqua - Bloco 1",
+      "1007 — Ed. Acqua - Bloco 1",
+      "1107 — Ed. Acqua - Bloco 1",
+      "1203 — Ed. Acqua - Bloco 1",
+      "1207 — Ed. Acqua - Bloco 1",
+      "1306 — Ed. Acqua - Bloco 1",
+      "1307 — Ed. Acqua - Bloco 1",
+      "1406 — Ed. Acqua - Bloco 1",
+      "806 — Ed. Mare - Bloco 2",
+      "810 — Ed. Mare - Bloco 2",
+      "1505 — Ed. Mare - Bloco 2"
     ],
-    "availabilityTableDate": "Setembro 2026"
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "tropico-camboinhas": {
     "typologies": [
@@ -1722,11 +1732,11 @@
       "101",
       "503"
     ],
-    "availabilityTableDate": "Novembro 2026",
+    "availabilityTableDate": "Outubro 2026",
     "delivery": "Novembro 2026",
     "deliveryEvidence": "2- Previsão de entrega da obra: nov/2026",
     "deliverySource": "https://drive.google.com/file/d/1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-31"
+    "availabilityCheckedAt": "2026-11-06"
   },
   "serena": {
     "typologies": [
@@ -1749,11 +1759,11 @@
       "504",
       "506"
     ],
-    "availabilityTableDate": "Novembro 2026",
+    "availabilityTableDate": "Outubro 2026",
     "delivery": "Fevereiro 2029",
     "deliveryEvidence": "2- Previsão de entrega da obra: Fevereiro de 2029",
     "deliverySource": "https://drive.google.com/file/d/1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-31"
+    "availabilityCheckedAt": "2026-11-06"
   },
   "wind-piratininga": {
     "typologies": [
@@ -1968,10 +1978,11 @@
       "1010",
       "1005"
     ],
-    "availabilityTableDate": "Setembro 2026",
+    "availabilityTableDate": "Agosto 2026",
     "deliveryStatus": "Pronto",
     "deliveryStatusEvidence": "3 - Unidades Entregues",
-    "deliverySource": "https://drive.google.com/file/d/1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "tarsila": {
     "typologies": [
@@ -2475,8 +2486,8 @@
       "1306",
       "1406"
     ],
-    "availabilityTableDate": "Setembro 2026",
-    "availabilityCheckedAt": "2026-10-05",
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06",
     "delivery": "Maio 2027",
     "deliveryEvidence": "5 - Data prevista para conclusão da obra: 31/05/2027.",
     "deliverySource": "https://drive.google.com/file/d/1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0/view?usp=drivesdk"
@@ -2535,7 +2546,8 @@
       "B2-204",
       "B4-201"
     ],
-    "availabilityTableDate": "Outubro 2026"
+    "availabilityTableDate": "Outubro 2026",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "arend": {
     "typologies": [
@@ -2808,7 +2820,6 @@
     "features": [],
     "sourceUrl": "https://www.lopesniteroi.com.br/imoveis/novos/niteroi/charitas",
     "availableUnits": [
-      "203",
       "204",
       "206",
       "208",
@@ -2821,7 +2832,6 @@
       "401",
       "402",
       "403",
-      "405",
       "406",
       "407",
       "408",
@@ -2855,10 +2865,12 @@
       "806",
       "807",
       "808",
-      "809"
+      "809",
+      "LOJA 102",
+      "LOJA 103"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "availabilityCheckedAt": "2026-10-18",
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06",
     "delivery": "Abril 2029",
     "deliveryEvidence": "5 - Data prevista para conclusão da obra: 30/04/2029.",
     "deliverySource": "https://drive.google.com/file/d/1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8/view?usp=drivesdk"
@@ -3157,7 +3169,6 @@
     "features": [],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/sun-in-studio-design-apartamentos-niteroi-1-quarto-24-a-30-m/22480649-SETV",
     "availableUnits": [
-      "708",
       "805",
       "1101",
       "1102",
@@ -3170,7 +3181,6 @@
       "1401",
       "1402",
       "1403",
-      "1404",
       "1405",
       "1406",
       "1407",
@@ -3190,6 +3200,7 @@
       "1604",
       "1605",
       "1606",
+      "1610",
       "1611",
       "1612",
       "1701",
@@ -3201,8 +3212,8 @@
       "1707",
       "1708"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "dianthus": {
     "typologies": [
@@ -3585,7 +3596,8 @@
       "1501",
       "1908"
     ],
-    "availabilityTableDate": "Outubro 2026"
+    "availabilityTableDate": "Outubro 2026",
+    "availabilityCheckedAt": "2026-11-06"
   },
   "unic-icarai": {
     "availableUnits": [],
