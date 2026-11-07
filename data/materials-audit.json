@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06",
+  "checkedAt": "2026-11-07",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,27 +16,27 @@
     "mapEligibleProjects": 82
   },
   "validation": {
-    "tableComparison": "140 source PDFs CRC/SHA-256 checked: 127 unchanged, 13 version replacements; all 13 catalog tables replaced in place.",
-    "identicalTables": 127,
-    "differentTables": 13,
+    "tableComparison": "140 source PDFs CRC/SHA-256 checked: 131 unchanged and nine source version replacements for eight projects; all eight catalog tables replaced in place. Stage financing retained as the one current table; 100% na obra documented as a separate payment condition.",
+    "identicalTables": 131,
+    "differentTables": 9,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 81,
-    "bookComparison": "All 132 source Book PDFs CRC/SHA-256 compared and unchanged from 05/11.",
+    "bookComparison": "All 132 source Book PDFs CRC/SHA-256 compared and unchanged from 06/11.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 13,
-    "bookContentReport": "data/books-content-comparison-2026-11-06.json",
+    "newTables": 9,
+    "bookContentReport": "data/books-content-comparison-2026-11-07.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-06",
-      "baseline": "2026-11-05",
-      "tableFilesIdenticalSha256": 127,
-      "tableFilesAdded": 13,
-      "tableFilesRemoved": 13,
-      "sourceTableVersionReplacements": 13,
-      "catalogTablesUpdated": 13,
+      "date": "2026-11-07",
+      "baseline": "2026-11-06",
+      "tableFilesIdenticalSha256": 131,
+      "tableFilesAdded": 9,
+      "tableFilesRemoved": 9,
+      "sourceTableVersionReplacements": 9,
+      "catalogTablesUpdated": 8,
       "bookFilesIdenticalSha256": 132,
       "bookFilesAdded": 0,
       "bookFilesUnverified": 0,
@@ -46,12 +46,10 @@
       "newOfficialBooks": 0,
       "ownerSuppliedBooksPreserved": 1
     },
-    "sourceTableVersionReplacements": 13,
-    "catalogTablesUpdated": 13,
+    "sourceTableVersionReplacements": 9,
+    "catalogTablesUpdated": 8,
     "catalogValidityMetadataCorrections": [
-      "orla-central",
-      "caminhos-da-guanabara",
-      "the-pier"
+      "up-icarai"
     ],
     "commercialValidityReview": "data/table-validity-review-2026-11-04.json",
     "driveFoldersWithSupplementaryBooks": 1,
@@ -917,15 +915,15 @@
       "verifiedAt": "2026-10-25"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-06",
-  "lastTablesUpdatedAt": "2026-11-06",
-  "lastBooksComparedAt": "2026-11-06",
-  "lastTablesInventoryCheckedAt": "2026-11-06",
-  "lastFullSourceAuditAt": "2026-11-06",
-  "lastTablesComparedAt": "2026-11-06",
-  "sourceAuditReport": "data/source-audit-2026-11-06.json",
+  "lastInventoryCheckedAt": "2026-11-07",
+  "lastTablesUpdatedAt": "2026-11-07",
+  "lastBooksComparedAt": "2026-11-07",
+  "lastTablesInventoryCheckedAt": "2026-11-07",
+  "lastFullSourceAuditAt": "2026-11-07",
+  "lastTablesComparedAt": "2026-11-07",
+  "sourceAuditReport": "data/source-audit-2026-11-07.json",
   "lastCoordinatesUpdatedAt": "2026-10-27",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-06.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-06",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-07.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-07",
   "lastBooksUpdatedAt": "2026-11-05"
 }

@@ -1,0 +1,2018 @@
+{
+  "checkedAt": "2026-11-07",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-06",
+  "method": [
+    "Opened Tabelas de Vendas and Books dos Lançamentos from the Linktree buttons in the same public browser session without login.",
+    "Scrolled both virtualized roots to the end and visited all 82 root folders and three subfolders; reconciled every displayed folder count against 140 table and 132 Book paths.",
+    "Read every ZIP member to EOF for CRC and compared SHA-256 for all 272 PDFs.",
+    "Visually inspected all pages of the nine new source tables; replaced eight current Drive tables in place and re-downloaded every replacement for SHA-256 verification.",
+    "Read the full current coordinate sheet twice; matched 80 numeric pairs, Solo owner point and the owner-confirmed Baume catalog exception."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "rootDisplayedItemTotal": 140,
+      "subfolderDisplayedItemTotal": 0,
+      "listedFiles": 140,
+      "downloadedFiles": 140,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "subfolders": 3,
+      "rootDisplayedItemTotal": 126,
+      "subfolderDisplayedItemTotal": 9,
+      "listedFiles": 132,
+      "downloadedFiles": 132,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 131,
+      "newVersions": 9,
+      "changedSamePath": 0,
+      "removedOldVersions": 9
+    },
+    "books": {
+      "identicalSha256": 132,
+      "added": 0,
+      "changedSamePath": 0,
+      "removed": 0
+    }
+  },
+  "changes": [
+    {
+      "id": "althea",
+      "name": "Althea",
+      "sourcePath": "Tabelas de Vendas/JOAMA/Tabela de Vendas Althea - Novembro 2026.pdf",
+      "driveFileId": "1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5",
+      "url": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Althea - Outubro 2026.pdf",
+      "oldMinimumPrice": 500000,
+      "newMinimumPrice": 500000.0,
+      "sourceSha256": "44b1ae180dbce7977e2287c36a95ae82d8eb0d3b1173b723496b050ad5f17eca",
+      "bytes": 334322,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "commercialDate": "2026-11-03",
+        "dateEvidence": "Niteroi, 03 de Novembro de 2026, no rodapé do documento."
+      },
+      "removedUnits": [
+        "1002",
+        "306",
+        "603"
+      ],
+      "addedUnits": [
+        "1106"
+      ],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "1001",
+          "before": 1000000,
+          "after": 1080000.0
+        },
+        {
+          "unit": "1003",
+          "before": 760000,
+          "after": 790000.0
+        },
+        {
+          "unit": "1103",
+          "before": 770000,
+          "after": 800000.0
+        },
+        {
+          "unit": "1202",
+          "before": 990000,
+          "after": 1080000.0
+        },
+        {
+          "unit": "1203",
+          "before": 780000,
+          "after": 810000.0
+        },
+        {
+          "unit": "1303",
+          "before": 790000,
+          "after": 820000.0
+        },
+        {
+          "unit": "1402",
+          "before": 1200000,
+          "after": 1250000.0
+        },
+        {
+          "unit": "1403",
+          "before": 800000,
+          "after": 830000.0
+        },
+        {
+          "unit": "502",
+          "before": 900000,
+          "after": 990000.0
+        },
+        {
+          "unit": "903",
+          "before": 750000,
+          "after": 780000.0
+        }
+      ],
+      "pricedOffers": 32,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "np38",
+      "name": "NP38",
+      "sourcePath": "Tabelas de Vendas/JOAMA/Tabela de Vendas NP38 - Novembro 2026.pdf",
+      "driveFileId": "1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9",
+      "url": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas NP38 - Outubro 2026.pdf",
+      "oldMinimumPrice": 655000,
+      "newMinimumPrice": 655000.0,
+      "sourceSha256": "78b81f4bf4c5b4fc27e6ad22cf2ed09b6cdd49adeb3e96c93a46e28e495a9149",
+      "bytes": 322326,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "commercialDate": "2026-11-03",
+        "dateEvidence": "Niteroi, 03 de Novembro de 2026, no rodapé do documento."
+      },
+      "removedUnits": [
+        "1001"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "1201",
+          "before": 895000,
+          "after": 900000.0
+        },
+        {
+          "unit": "1202",
+          "before": 805000,
+          "after": 820000.0
+        },
+        {
+          "unit": "1203",
+          "before": 795000,
+          "after": 800000.0
+        },
+        {
+          "unit": "1204",
+          "before": 795000,
+          "after": 800000.0
+        },
+        {
+          "unit": "1206",
+          "before": 895000,
+          "after": 900000.0
+        },
+        {
+          "unit": "1301",
+          "before": 915000,
+          "after": 925000.0
+        },
+        {
+          "unit": "1306",
+          "before": 915000,
+          "after": 925000.0
+        }
+      ],
+      "pricedOffers": 26,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "jardim-dos-manacas",
+      "name": "Jardim dos Manacás",
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Jardim dos Manacás - Novembro 2026.pdf",
+      "driveFileId": "1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD",
+      "url": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
+      "oldMinimumPrice": 484000,
+      "newMinimumPrice": 485000.0,
+      "sourceSha256": "d8bd3c3b82129c214af4f35a6134fa671ff4b1ca9e7f9efc4c3d20f071186829",
+      "bytes": 333608,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "validUntil": "2026-11-30",
+        "dateEvidence": "Validade até 30/11/2026 impressa no PDF; dia de emissão não informado."
+      },
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "1011",
+          "before": 789000,
+          "after": 791000.0
+        },
+        {
+          "unit": "1103",
+          "before": 625000,
+          "after": 627000.0
+        },
+        {
+          "unit": "1104",
+          "before": 625000,
+          "after": 627000.0
+        },
+        {
+          "unit": "1105",
+          "before": 811000,
+          "after": 814000.0
+        },
+        {
+          "unit": "1108",
+          "before": 792000,
+          "after": 795000.0
+        },
+        {
+          "unit": "1112",
+          "before": 905000,
+          "after": 908000.0
+        },
+        {
+          "unit": "1203",
+          "before": 633000,
+          "after": 635000.0
+        },
+        {
+          "unit": "1204",
+          "before": 633000,
+          "after": 635000.0
+        },
+        {
+          "unit": "1207",
+          "before": 839000,
+          "after": 841000.0
+        },
+        {
+          "unit": "1208",
+          "before": 801000,
+          "after": 804000.0
+        },
+        {
+          "unit": "1210",
+          "before": 576000,
+          "after": 578000.0
+        },
+        {
+          "unit": "1211",
+          "before": 807000,
+          "after": 809000.0
+        },
+        {
+          "unit": "1301",
+          "before": 2290000,
+          "after": 2297000.0
+        },
+        {
+          "unit": "1303",
+          "before": 1544000,
+          "after": 1549000.0
+        },
+        {
+          "unit": "1304",
+          "before": 1657000,
+          "after": 1662000.0
+        },
+        {
+          "unit": "1305",
+          "before": 1782000,
+          "after": 1788000.0
+        },
+        {
+          "unit": "302",
+          "before": 650000,
+          "after": 652000.0
+        },
+        {
+          "unit": "307",
+          "before": 668000,
+          "after": 670000.0
+        },
+        {
+          "unit": "308",
+          "before": 650000,
+          "after": 652000.0
+        },
+        {
+          "unit": "309",
+          "before": 644000,
+          "after": 646000.0
+        },
+        {
+          "unit": "312",
+          "before": 808000,
+          "after": 811000.0
+        },
+        {
+          "unit": "407",
+          "before": 744000,
+          "after": 747000.0
+        },
+        {
+          "unit": "412",
+          "before": 840000,
+          "after": 843000.0
+        },
+        {
+          "unit": "507",
+          "before": 753000,
+          "after": 756000.0
+        },
+        {
+          "unit": "508",
+          "before": 735000,
+          "after": 737000.0
+        },
+        {
+          "unit": "509",
+          "before": 720000,
+          "after": 723000.0
+        },
+        {
+          "unit": "512",
+          "before": 851000,
+          "after": 854000.0
+        },
+        {
+          "unit": "603",
+          "before": 551000,
+          "after": 553000.0
+        },
+        {
+          "unit": "609",
+          "before": 730000,
+          "after": 732000.0
+        },
+        {
+          "unit": "708",
+          "before": 755000,
+          "after": 757000.0
+        },
+        {
+          "unit": "710",
+          "before": 484000,
+          "after": 485000.0
+        },
+        {
+          "unit": "805",
+          "before": 756000,
+          "after": 758000.0
+        },
+        {
+          "unit": "807",
+          "before": 783000,
+          "after": 785000.0
+        },
+        {
+          "unit": "809",
+          "before": 749000,
+          "after": 751000.0
+        },
+        {
+          "unit": "810",
+          "before": 534000,
+          "after": 535000.0
+        },
+        {
+          "unit": "811",
+          "before": 693000,
+          "after": 695000.0
+        },
+        {
+          "unit": "812",
+          "before": 880000,
+          "after": 882000.0
+        },
+        {
+          "unit": "909",
+          "before": 758000,
+          "after": 760000.0
+        },
+        {
+          "unit": "911",
+          "before": 703000,
+          "after": 706000.0
+        }
+      ],
+      "pricedOffers": 39,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "nirvana",
+      "name": "Nirvana",
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Nirvana - Novembro 2026.pdf",
+      "driveFileId": "1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp",
+      "url": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Nirvana - Outubro 2026.pdf",
+      "oldMinimumPrice": 2959600,
+      "newMinimumPrice": 2959600.0,
+      "sourceSha256": "2f2d55391d9f7ed20aef27d518e1fde0eb8a538b853242e984f5bf2b5f43eff9",
+      "bytes": 257042,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "validUntil": "2026-11-30",
+        "dateEvidence": "Validade até 30/11/2026 impressa no PDF; dia de emissão não informado."
+      },
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 2,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "soma",
+      "name": "Soma",
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Soma - Novembro 2026.pdf",
+      "driveFileId": "19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW",
+      "url": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Soma - Outubro 2026.pdf",
+      "oldMinimumPrice": 430000,
+      "newMinimumPrice": 431000.0,
+      "sourceSha256": "af430602fb4174c8694c03e0f2975fd466f0dc0bece7b0041f574d230d14104e",
+      "bytes": 600106,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "validUntil": "2026-11-30",
+        "dateEvidence": "Validade até 30/11/2026 impressa no PDF; dia de emissão não informado."
+      },
+      "removedUnits": [
+        "506"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "1002",
+          "before": 968000,
+          "after": 970000.0
+        },
+        {
+          "unit": "1003",
+          "before": 850000,
+          "after": 852000.0
+        },
+        {
+          "unit": "1005",
+          "before": 914000,
+          "after": 916000.0
+        },
+        {
+          "unit": "1101",
+          "before": 882000,
+          "after": 884000.0
+        },
+        {
+          "unit": "1102",
+          "before": 1001000,
+          "after": 1003000.0
+        },
+        {
+          "unit": "1103",
+          "before": 882000,
+          "after": 884000.0
+        },
+        {
+          "unit": "1104",
+          "before": 667000,
+          "after": 668000.0
+        },
+        {
+          "unit": "1105",
+          "before": 947000,
+          "after": 949000.0
+        },
+        {
+          "unit": "1108",
+          "before": 624000,
+          "after": 625000.0
+        },
+        {
+          "unit": "1111",
+          "before": 440000,
+          "after": 442000.0
+        },
+        {
+          "unit": "1202",
+          "before": 1001000,
+          "after": 1003000.0
+        },
+        {
+          "unit": "1206",
+          "before": 624000,
+          "after": 625000.0
+        },
+        {
+          "unit": "1211",
+          "before": 440000,
+          "after": 442000.0
+        },
+        {
+          "unit": "1301",
+          "before": 882000,
+          "after": 884000.0
+        },
+        {
+          "unit": "1307",
+          "before": 494000,
+          "after": 495000.0
+        },
+        {
+          "unit": "1308",
+          "before": 624000,
+          "after": 625000.0
+        },
+        {
+          "unit": "1312",
+          "before": 440000,
+          "after": 442000.0
+        },
+        {
+          "unit": "1401",
+          "before": 936000,
+          "after": 938000.0
+        },
+        {
+          "unit": "1402",
+          "before": 1184000,
+          "after": 1186000.0
+        },
+        {
+          "unit": "1403",
+          "before": 914000,
+          "after": 916000.0
+        },
+        {
+          "unit": "1405",
+          "before": 1130000,
+          "after": 1132000.0
+        },
+        {
+          "unit": "1407",
+          "before": 527000,
+          "after": 528000.0
+        },
+        {
+          "unit": "1408",
+          "before": 688000,
+          "after": 690000.0
+        },
+        {
+          "unit": "1410",
+          "before": 430000,
+          "after": 431000.0
+        },
+        {
+          "unit": "1412",
+          "before": 451000,
+          "after": 452000.0
+        },
+        {
+          "unit": "1501",
+          "before": 936000,
+          "after": 938000.0
+        },
+        {
+          "unit": "1505",
+          "before": 1130000,
+          "after": 1132000.0
+        },
+        {
+          "unit": "1507",
+          "before": 527000,
+          "after": 528000.0
+        },
+        {
+          "unit": "1509",
+          "before": 667000,
+          "after": 668000.0
+        },
+        {
+          "unit": "1510",
+          "before": 430000,
+          "after": 431000.0
+        },
+        {
+          "unit": "1511",
+          "before": 451000,
+          "after": 452000.0
+        },
+        {
+          "unit": "1603",
+          "before": 914000,
+          "after": 916000.0
+        },
+        {
+          "unit": "1607",
+          "before": 527000,
+          "after": 528000.0
+        },
+        {
+          "unit": "1612",
+          "before": 451000,
+          "after": 452000.0
+        },
+        {
+          "unit": "1703",
+          "before": 936000,
+          "after": 938000.0
+        },
+        {
+          "unit": "1710",
+          "before": 440000,
+          "after": 442000.0
+        },
+        {
+          "unit": "1711",
+          "before": 462000,
+          "after": 463000.0
+        },
+        {
+          "unit": "1809",
+          "before": 688000,
+          "after": 690000.0
+        },
+        {
+          "unit": "1811",
+          "before": 462000,
+          "after": 463000.0
+        },
+        {
+          "unit": "1812",
+          "before": 462000,
+          "after": 463000.0
+        },
+        {
+          "unit": "1904",
+          "before": 1345000,
+          "after": 1348000.0
+        },
+        {
+          "unit": "1905",
+          "before": 1291000,
+          "after": 1294000.0
+        },
+        {
+          "unit": "402",
+          "before": 904000,
+          "after": 906000.0
+        },
+        {
+          "unit": "403",
+          "before": 785000,
+          "after": 787000.0
+        },
+        {
+          "unit": "405",
+          "before": 850000,
+          "after": 852000.0
+        },
+        {
+          "unit": "501",
+          "before": 817000,
+          "after": 819000.0
+        },
+        {
+          "unit": "502",
+          "before": 936000,
+          "after": 938000.0
+        },
+        {
+          "unit": "503",
+          "before": 817000,
+          "after": 819000.0
+        },
+        {
+          "unit": "504",
+          "before": 602000,
+          "after": 603000.0
+        },
+        {
+          "unit": "505",
+          "before": 882000,
+          "after": 884000.0
+        },
+        {
+          "unit": "602",
+          "before": 936000,
+          "after": 938000.0
+        },
+        {
+          "unit": "701",
+          "before": 817000,
+          "after": 819000.0
+        },
+        {
+          "unit": "702",
+          "before": 936000,
+          "after": 938000.0
+        },
+        {
+          "unit": "705",
+          "before": 882000,
+          "after": 884000.0
+        },
+        {
+          "unit": "801",
+          "before": 850000,
+          "after": 852000.0
+        },
+        {
+          "unit": "803",
+          "before": 850000,
+          "after": 852000.0
+        },
+        {
+          "unit": "805",
+          "before": 914000,
+          "after": 916000.0
+        },
+        {
+          "unit": "806",
+          "before": 602000,
+          "after": 603000.0
+        },
+        {
+          "unit": "808",
+          "before": 602000,
+          "after": 603000.0
+        },
+        {
+          "unit": "901",
+          "before": 850000,
+          "after": 852000.0
+        },
+        {
+          "unit": "903",
+          "before": 850000,
+          "after": 852000.0
+        },
+        {
+          "unit": "905",
+          "before": 914000,
+          "after": 916000.0
+        },
+        {
+          "unit": "908",
+          "before": 602000,
+          "after": 603000.0
+        }
+      ],
+      "pricedOffers": 63,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "stage",
+      "name": "Stage",
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Stage - Financiamento - Novembro 2026.pdf",
+      "driveFileId": "1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf",
+      "url": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
+      "oldMinimumPrice": 631000,
+      "newMinimumPrice": 633000.0,
+      "sourceSha256": "0c5ce33ce5260afa38a3485bbfafcf7c69baafc3a77d56ac5924e0cbe7c98cff",
+      "bytes": 375395,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "validUntil": "2026-11-30",
+        "dateEvidence": "Validade até 30/11/2026 impressa no PDF; dia de emissão não informado."
+      },
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [
+        {
+          "unit": "1001 / Bloco 2",
+          "before": 1316000,
+          "after": 1320000.0
+        },
+        {
+          "unit": "1004 / Bloco 2",
+          "before": 811000,
+          "after": 812000.0
+        },
+        {
+          "unit": "1005 / Bloco 1",
+          "before": 1222000,
+          "after": 1224000.0
+        },
+        {
+          "unit": "1101 / Bloco 1",
+          "before": 1833000,
+          "after": 1837000.0
+        },
+        {
+          "unit": "1102 / Bloco 2",
+          "before": 821000,
+          "after": 823000.0
+        },
+        {
+          "unit": "1104 / Bloco 1",
+          "before": 1338000,
+          "after": 1341000.0
+        },
+        {
+          "unit": "1104 / Bloco 2",
+          "before": 821000,
+          "after": 823000.0
+        },
+        {
+          "unit": "1105 / Bloco 2",
+          "before": 1211000,
+          "after": 1214000.0
+        },
+        {
+          "unit": "1205 / Bloco 1",
+          "before": 1306000,
+          "after": 1309000.0
+        },
+        {
+          "unit": "1305 / Bloco 2",
+          "before": 1264000,
+          "after": 1267000.0
+        },
+        {
+          "unit": "1401 / Bloco 1",
+          "before": 1896000,
+          "after": 1901000.0
+        },
+        {
+          "unit": "1401 / Bloco 2",
+          "before": 1443000,
+          "after": 1446000.0
+        },
+        {
+          "unit": "1402 / Bloco 2",
+          "before": 853000,
+          "after": 855000.0
+        },
+        {
+          "unit": "1403 / Bloco 1",
+          "before": 990000,
+          "after": 992000.0
+        },
+        {
+          "unit": "1403 / Bloco 2",
+          "before": 979000,
+          "after": 981000.0
+        },
+        {
+          "unit": "1404 / Bloco 1",
+          "before": 1411000,
+          "after": 1415000.0
+        },
+        {
+          "unit": "1404 / Bloco 2",
+          "before": 853000,
+          "after": 855000.0
+        },
+        {
+          "unit": "1405 / Bloco 1",
+          "before": 1348000,
+          "after": 1351000.0
+        },
+        {
+          "unit": "301 / Bloco 1",
+          "before": 2107000,
+          "after": 2112000.0
+        },
+        {
+          "unit": "302 / Bloco 1",
+          "before": 1106000,
+          "after": 1108000.0
+        },
+        {
+          "unit": "302 / Bloco 2",
+          "before": 905000,
+          "after": 908000.0
+        },
+        {
+          "unit": "303 / Bloco 1",
+          "before": 1106000,
+          "after": 1108000.0
+        },
+        {
+          "unit": "303 / Bloco 2",
+          "before": 1085000,
+          "after": 1087000.0
+        },
+        {
+          "unit": "305 / Bloco 1",
+          "before": 1896000,
+          "after": 1901000.0
+        },
+        {
+          "unit": "305 / Bloco 2",
+          "before": 2735000,
+          "after": 2742000.0
+        },
+        {
+          "unit": "401 / Bloco 1",
+          "before": 1580000,
+          "after": 1584000.0
+        },
+        {
+          "unit": "402 / Bloco 2",
+          "before": 631000,
+          "after": 633000.0
+        },
+        {
+          "unit": "403 / Bloco 1",
+          "before": 905000,
+          "after": 908000.0
+        },
+        {
+          "unit": "404 / Bloco 1",
+          "before": 1158000,
+          "after": 1161000.0
+        },
+        {
+          "unit": "405 / Bloco 2",
+          "before": 1053000,
+          "after": 1055000.0
+        },
+        {
+          "unit": "503 / Bloco 1",
+          "before": 926000,
+          "after": 929000.0
+        },
+        {
+          "unit": "504 / Bloco 2",
+          "before": 652000,
+          "after": 654000.0
+        },
+        {
+          "unit": "505 / Bloco 1",
+          "before": 1085000,
+          "after": 1087000.0
+        },
+        {
+          "unit": "506 / Bloco 2",
+          "before": 1601000,
+          "after": 1605000.0
+        },
+        {
+          "unit": "601 / Bloco 1",
+          "before": 1664000,
+          "after": 1668000.0
+        },
+        {
+          "unit": "601 / Bloco 2",
+          "before": 1211000,
+          "after": 1214000.0
+        },
+        {
+          "unit": "603 / Bloco 2",
+          "before": 884000,
+          "after": 886000.0
+        },
+        {
+          "unit": "604 / Bloco 1",
+          "before": 1222000,
+          "after": 1224000.0
+        },
+        {
+          "unit": "605 / Bloco 1",
+          "before": 1116000,
+          "after": 1119000.0
+        },
+        {
+          "unit": "606 / Bloco 2",
+          "before": 1685000,
+          "after": 1689000.0
+        },
+        {
+          "unit": "801 / Bloco 2",
+          "before": 1253000,
+          "after": 1256000.0
+        },
+        {
+          "unit": "804 / Bloco 1",
+          "before": 1264000,
+          "after": 1267000.0
+        },
+        {
+          "unit": "804 / Bloco 2",
+          "before": 789000,
+          "after": 791000.0
+        },
+        {
+          "unit": "806 / Bloco 2",
+          "before": 1780000,
+          "after": 1784000.0
+        },
+        {
+          "unit": "901 / Bloco 2",
+          "before": 1274000,
+          "after": 1277000.0
+        },
+        {
+          "unit": "COB 1 / Bloco 1",
+          "before": 3899000,
+          "after": 3908000.0
+        }
+      ],
+      "pricedOffers": 46,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset",
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Sunset - Novembro 2026.pdf",
+      "driveFileId": "1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi",
+      "url": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Sunset - Outubro 2026.pdf",
+      "oldMinimumPrice": 1166000,
+      "newMinimumPrice": 1212000.0,
+      "sourceSha256": "db549cd6497f38d481c62e99b7c324aadf406b6093b2def6d26d4582d947817f",
+      "bytes": 296236,
+      "dateInfo": {
+        "date": "Novembro 2026",
+        "fileVersionMonth": "Novembro 2026",
+        "validUntil": "2026-11-30",
+        "dateEvidence": "Validade até 30/11/2026 impressa no PDF; dia de emissão não informado."
+      },
+      "removedUnits": [
+        "1302 / Bl - 02"
+      ],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 3,
+      "driveReDownloadedAndHashVerified": true
+    },
+    {
+      "id": "up-icarai",
+      "name": "Up Icaraí",
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Up Icaraí - Novembro 2026.pdf",
+      "driveFileId": "1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R",
+      "url": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
+      "oldFile": "Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
+      "oldMinimumPrice": 621300,
+      "newMinimumPrice": 621300,
+      "sourceSha256": "d04b2d5a1f87dffc73a572ee8ef498d3f94eab3ea3c88b4e1f9fce2c700a6fac",
+      "bytes": 251895,
+      "dateInfo": {
+        "date": "Não informada",
+        "fileVersionMonth": "Novembro 2026",
+        "printedValidity": "31/11/2026",
+        "validityRequiresConfirmation": true,
+        "dateEvidence": "Data de emissão não informada. A única validade impressa é 31/11/2026, uma data inexistente.",
+        "dateConflict": "A tabela informa validade até 31/11/2026, data inexistente. A validade precisa ser confirmada com a construtora; não foi presumido outro dia."
+      },
+      "removedUnits": [],
+      "addedUnits": [],
+      "knownSameUnitPriceChanges": [],
+      "pricedOffers": 10,
+      "driveReDownloadedAndHashVerified": true
+    }
+  ],
+  "alternativePaymentConditions": [
+    {
+      "sourceFile": "Tabela de Vendas Stage - 100% na Obra - Novembro 2026.pdf",
+      "source": {
+        "path": "Tabelas de Vendas/PROART/Tabela de Vendas Stage - 100% na Obra - Novembro 2026.pdf",
+        "bytes": 374630,
+        "sha256": "73a6048c2708a4743de36fa14e573e5f47215fee180b2deaf7bd4d4e3840f867"
+      },
+      "paymentCondition": "100% na obra",
+      "sameUnitsAsFinancing": true,
+      "offers": [
+        {
+          "unit": "301 / Bloco 1",
+          "area": 123.29,
+          "price": 1880000.0,
+          "listPrice": 2112000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "401 / Bloco 1",
+          "area": 83.87,
+          "price": 1410000.0,
+          "listPrice": 1584000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "601 / Bloco 1",
+          "area": 83.87,
+          "price": 1485000.0,
+          "listPrice": 1668000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1101 / Bloco 1",
+          "area": 83.87,
+          "price": 1635000.0,
+          "listPrice": 1837000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1401 / Bloco 1",
+          "area": 83.87,
+          "price": 1692000.0,
+          "listPrice": 1901000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "302 / Bloco 1",
+          "area": 61.85,
+          "price": 986000.0,
+          "listPrice": 1108000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "303 / Bloco 1",
+          "area": 61.85,
+          "price": 986000.0,
+          "listPrice": 1108000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "403 / Bloco 1",
+          "area": 44.23,
+          "price": 808000.0,
+          "listPrice": 908000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "503 / Bloco 1",
+          "area": 44.23,
+          "price": 827000.0,
+          "listPrice": 929000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1403 / Bloco 1",
+          "area": 44.23,
+          "price": 883000.0,
+          "listPrice": 992000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "404 / Bloco 1",
+          "area": 59.22,
+          "price": 1033000.0,
+          "listPrice": 1161000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "604 / Bloco 1",
+          "area": 59.22,
+          "price": 1089000.0,
+          "listPrice": 1224000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "804 / Bloco 1",
+          "area": 59.22,
+          "price": 1128000.0,
+          "listPrice": 1267000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1104 / Bloco 1",
+          "area": 59.22,
+          "price": 1193000.0,
+          "listPrice": 1341000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1404 / Bloco 1",
+          "area": 59.22,
+          "price": 1259000.0,
+          "listPrice": 1415000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "305 / Bloco 1",
+          "area": 104.01,
+          "price": 1692000.0,
+          "listPrice": 1901000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "505 / Bloco 1",
+          "area": 56.31,
+          "price": 967000.0,
+          "listPrice": 1087000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "605 / Bloco 1",
+          "area": 56.31,
+          "price": 996000.0,
+          "listPrice": 1119000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1005 / Bloco 1",
+          "area": 56.31,
+          "price": 1089000.0,
+          "listPrice": 1224000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1205 / Bloco 1",
+          "area": 56.31,
+          "price": 1165000.0,
+          "listPrice": 1309000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1405 / Bloco 1",
+          "area": 56.31,
+          "price": 1202000.0,
+          "listPrice": 1351000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "601 / Bloco 2",
+          "area": 61.82,
+          "price": 1080000.0,
+          "listPrice": 1214000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "801 / Bloco 2",
+          "area": 61.82,
+          "price": 1118000.0,
+          "listPrice": 1256000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "901 / Bloco 2",
+          "area": 61.82,
+          "price": 1137000.0,
+          "listPrice": 1277000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1001 / Bloco 2",
+          "area": 61.82,
+          "price": 1175000.0,
+          "listPrice": 1320000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1401 / Bloco 2",
+          "area": 61.82,
+          "price": 1287000.0,
+          "listPrice": 1446000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "302 / Bloco 2",
+          "area": 41.31,
+          "price": 808000.0,
+          "listPrice": 908000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "402 / Bloco 2",
+          "area": 30.44,
+          "price": 563000.0,
+          "listPrice": 633000.0,
+          "typology": "Studio",
+          "parkingSpaces": 0,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1102 / Bloco 2",
+          "area": 30.44,
+          "price": 732000.0,
+          "listPrice": 823000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1402 / Bloco 2",
+          "area": 30.44,
+          "price": 761000.0,
+          "listPrice": 855000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "303 / Bloco 2",
+          "area": 61.85,
+          "price": 967000.0,
+          "listPrice": 1087000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "603 / Bloco 2",
+          "area": 44.23,
+          "price": 789000.0,
+          "listPrice": 886000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1403 / Bloco 2",
+          "area": 44.23,
+          "price": 873000.0,
+          "listPrice": 981000.0,
+          "typology": "1 quarto",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "504 / Bloco 2",
+          "area": 30.6,
+          "price": 582000.0,
+          "listPrice": 654000.0,
+          "typology": "Studio",
+          "parkingSpaces": 0,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "804 / Bloco 2",
+          "area": 30.6,
+          "price": 704000.0,
+          "listPrice": 791000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1004 / Bloco 2",
+          "area": 30.6,
+          "price": 723000.0,
+          "listPrice": 812000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1104 / Bloco 2",
+          "area": 30.6,
+          "price": 732000.0,
+          "listPrice": 823000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1404 / Bloco 2",
+          "area": 30.6,
+          "price": 761000.0,
+          "listPrice": 855000.0,
+          "typology": "Studio",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "305 / Bloco 2",
+          "area": 164.28,
+          "price": 2440000.0,
+          "listPrice": 2742000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "405 / Bloco 2",
+          "area": 58.56,
+          "price": 939000.0,
+          "listPrice": 1055000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1105 / Bloco 2",
+          "area": 58.56,
+          "price": 1080000.0,
+          "listPrice": 1214000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "1305 / Bloco 2",
+          "area": 58.56,
+          "price": 1128000.0,
+          "listPrice": 1267000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "506 / Bloco 2",
+          "area": 82.42,
+          "price": 1428000.0,
+          "listPrice": 1605000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "606 / Bloco 2",
+          "area": 82.42,
+          "price": 1503000.0,
+          "listPrice": 1689000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "806 / Bloco 2",
+          "area": 82.42,
+          "price": 1588000.0,
+          "listPrice": 1784000.0,
+          "typology": "2 quartos",
+          "parkingSpaces": 1,
+          "paymentCondition": "100% na obra"
+        },
+        {
+          "unit": "COB 1 / Bloco 1",
+          "area": 164.33,
+          "price": 3478000.0,
+          "listPrice": 3908000.0,
+          "typology": "3 quartos",
+          "parkingSpaces": 2,
+          "paymentCondition": "100% na obra"
+        }
+      ],
+      "chosenCatalogPaymentCondition": "Financiamento",
+      "selectionReason": "Mantida a modalidade de financiamento já usada no catálogo; as duas fontes são de novembro com a mesma validade. São condições de pagamento distintas, não versões ordenadas pela data de modificação do SharePoint."
+    }
+  ],
+  "outsideCatalogUpdates": [],
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 82,
+    "projectsWithTable": 89,
+    "addedProjects": [],
+    "removedProjects": [],
+    "addedPins": [],
+    "removedPins": [],
+    "pendingIncompleteProjectsRetained": 32
+  },
+  "coordinates": {
+    "checkedAt": "2026-11-07",
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:Z969",
+    "projectRows": 112,
+    "completeProjectsChecked": 82,
+    "numericPairsMatched": 80,
+    "ownerMapsLinksMatched": 1,
+    "ownerConfirmedCatalogException": 1,
+    "completeProjectsPendingLocation": [],
+    "newNumericCoordinates": [],
+    "genericGeocodingUsed": false,
+    "sheetReReadUnchanged": true,
+    "matched": [
+      {
+        "id": "jardin-di-grazielle",
+        "row": 44,
+        "kind": "numeric"
+      },
+      {
+        "id": "pebe-74",
+        "row": 69,
+        "kind": "numeric"
+      },
+      {
+        "id": "singular",
+        "row": 80,
+        "kind": "numeric"
+      },
+      {
+        "id": "style",
+        "row": 89,
+        "kind": "numeric"
+      },
+      {
+        "id": "oka-icarai",
+        "row": 65,
+        "kind": "numeric"
+      },
+      {
+        "id": "oka-sao-francisco",
+        "row": 66,
+        "kind": "numeric"
+      },
+      {
+        "id": "141-living",
+        "row": 3,
+        "kind": "numeric"
+      },
+      {
+        "id": "nomad",
+        "row": 63,
+        "kind": "numeric"
+      },
+      {
+        "id": "maria-maria",
+        "row": 50,
+        "kind": "numeric"
+      },
+      {
+        "id": "tao",
+        "row": 92,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-camboinhas",
+        "row": 17,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-charitas",
+        "row": 18,
+        "kind": "numeric"
+      },
+      {
+        "id": "nice-camboinhas",
+        "row": 60,
+        "kind": "numeric"
+      },
+      {
+        "id": "brise-by-conviva",
+        "row": 10,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-life-camboinhas",
+        "row": 21,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-life-inga",
+        "row": 22,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-icarai",
+        "row": 19,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-itacoa",
+        "row": 20,
+        "kind": "numeric"
+      },
+      {
+        "id": "caminhos-da-guanabara",
+        "row": 13,
+        "kind": "numeric"
+      },
+      {
+        "id": "orla-central",
+        "row": 68,
+        "kind": "numeric"
+      },
+      {
+        "id": "rio-branco-220",
+        "row": 74,
+        "kind": "numeric"
+      },
+      {
+        "id": "the-pier",
+        "row": 97,
+        "kind": "numeric"
+      },
+      {
+        "id": "reserva-sao-francisco",
+        "row": 73,
+        "kind": "numeric"
+      },
+      {
+        "id": "neo-design-icarai",
+        "row": 59,
+        "kind": "numeric"
+      },
+      {
+        "id": "upside-charitas",
+        "row": 106,
+        "kind": "numeric"
+      },
+      {
+        "id": "mok-132",
+        "row": 55,
+        "kind": "numeric"
+      },
+      {
+        "id": "namas-smart-living",
+        "row": 58,
+        "kind": "numeric"
+      },
+      {
+        "id": "cascais",
+        "row": 14,
+        "kind": "numeric"
+      },
+      {
+        "id": "trend-by-falves",
+        "row": 99,
+        "kind": "numeric"
+      },
+      {
+        "id": "arend",
+        "row": 7,
+        "kind": "numeric"
+      },
+      {
+        "id": "duetto",
+        "row": 27,
+        "kind": "numeric"
+      },
+      {
+        "id": "ile",
+        "row": 38,
+        "kind": "numeric"
+      },
+      {
+        "id": "sd40",
+        "row": 77,
+        "kind": "numeric"
+      },
+      {
+        "id": "green-open",
+        "row": 35,
+        "kind": "numeric"
+      },
+      {
+        "id": "niteroi-open-santa-rosa",
+        "row": 62,
+        "kind": "numeric"
+      },
+      {
+        "id": "lazuli",
+        "row": 45,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-icarai",
+        "row": 84,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-itacoa",
+        "row": 85,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-charitas",
+        "row": 83,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-wellness-charitas",
+        "row": 86,
+        "kind": "numeric"
+      },
+      {
+        "id": "marina",
+        "row": 51,
+        "kind": "numeric"
+      },
+      {
+        "id": "triunfo",
+        "row": 101,
+        "kind": "numeric"
+      },
+      {
+        "id": "serena",
+        "row": 78,
+        "kind": "numeric"
+      },
+      {
+        "id": "althea",
+        "row": 5,
+        "kind": "numeric"
+      },
+      {
+        "id": "np38",
+        "row": 64,
+        "kind": "numeric"
+      },
+      {
+        "id": "terramarine",
+        "row": 94,
+        "kind": "numeric"
+      },
+      {
+        "id": "uni-home-studios",
+        "row": 103,
+        "kind": "numeric"
+      },
+      {
+        "id": "maris",
+        "row": 52,
+        "kind": "numeric"
+      },
+      {
+        "id": "calle-sardegna",
+        "row": 12,
+        "kind": "numeric"
+      },
+      {
+        "id": "solo",
+        "row": 81,
+        "kind": "ownerMapsLink"
+      },
+      {
+        "id": "scenarium-piratininga",
+        "row": 76,
+        "kind": "numeric"
+      },
+      {
+        "id": "jardim-itacoa",
+        "row": 43,
+        "kind": "numeric"
+      },
+      {
+        "id": "wind-oceanica",
+        "row": 112,
+        "kind": "numeric"
+      },
+      {
+        "id": "115-tapuias",
+        "row": 2,
+        "kind": "numeric"
+      },
+      {
+        "id": "green-life",
+        "row": 34,
+        "kind": "numeric"
+      },
+      {
+        "id": "monier",
+        "row": 56,
+        "kind": "numeric"
+      },
+      {
+        "id": "gael",
+        "row": 31,
+        "kind": "numeric"
+      },
+      {
+        "id": "jardim-dos-manacas",
+        "row": 42,
+        "kind": "numeric"
+      },
+      {
+        "id": "up-icarai",
+        "row": 105,
+        "kind": "numeric"
+      },
+      {
+        "id": "nirvana",
+        "row": 61,
+        "kind": "numeric"
+      },
+      {
+        "id": "stage",
+        "row": 88,
+        "kind": "numeric"
+      },
+      {
+        "id": "sunset",
+        "row": 91,
+        "kind": "numeric"
+      },
+      {
+        "id": "soma",
+        "row": 82,
+        "kind": "numeric"
+      },
+      {
+        "id": "maren",
+        "row": 49,
+        "kind": "numeric"
+      },
+      {
+        "id": "soul-fonseca",
+        "row": 87,
+        "kind": "numeric"
+      },
+      {
+        "id": "sun-in",
+        "row": 90,
+        "kind": "numeric"
+      },
+      {
+        "id": "giardino-di-verona",
+        "row": 32,
+        "kind": "numeric"
+      },
+      {
+        "id": "dahlia-residence",
+        "row": 24,
+        "kind": "numeric"
+      },
+      {
+        "id": "dianthus",
+        "row": 26,
+        "kind": "numeric"
+      },
+      {
+        "id": "attrium-icarai",
+        "row": 8,
+        "kind": "numeric"
+      },
+      {
+        "id": "ion-icarai",
+        "row": 40,
+        "kind": "numeric"
+      },
+      {
+        "id": "maestro",
+        "row": 47,
+        "kind": "numeric"
+      },
+      {
+        "id": "clarice",
+        "row": 15,
+        "kind": "numeric"
+      },
+      {
+        "id": "pulse",
+        "row": 70,
+        "kind": "numeric"
+      },
+      {
+        "id": "origem",
+        "row": 67,
+        "kind": "numeric"
+      },
+      {
+        "id": "the-grove",
+        "row": 96,
+        "kind": "numeric"
+      },
+      {
+        "id": "tropico-camboinhas",
+        "row": 102,
+        "kind": "numeric"
+      },
+      {
+        "id": "flua",
+        "row": 30,
+        "kind": "numeric"
+      },
+      {
+        "id": "tresor-dior",
+        "row": 100,
+        "kind": "numeric"
+      },
+      {
+        "id": "mare-blu",
+        "row": 48,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-piratininga",
+        "row": 23,
+        "kind": "numeric"
+      },
+      {
+        "id": "baume",
+        "kind": "ownerConfirmedCatalogException"
+      }
+    ]
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 165,
+    "foldersWithExactlyTwoFiles": 81,
+    "foldersWithSupplementaryBooks": [
+      {
+        "id": "baume",
+        "books": 2,
+        "tables": 1,
+        "files": 3
+      }
+    ],
+    "mainFolderFiles": 8,
+    "tablesReplacedInPlace": 8,
+    "oldTableCopiesCreated": 0,
+    "newBooks": 0,
+    "uniqueReferencedFiles": 220,
+    "referencedFilesWithPublicReader": 220,
+    "currentTableByteSizesChecked": 89,
+    "uploadedFilesReDownloadedAndHashVerified": 8,
+    "verificationScope": "All 220 referenced Drive files: fresh metadata and anyone/reader permission; all 82 map folders fully listed; all 89 table sizes matched to current source. Every replacement was re-downloaded and SHA-256 verified. Unchanged Drive books were not downloaded again."
+  },
+  "baume": {
+    "officialBookFound": true,
+    "officialBookSource": "CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "officialSourceBookUnchangedSha256": true,
+    "catalogIncluded": true,
+    "onMap": true,
+    "booksCeuFilesChecked": 10,
+    "singleCurrentTableInMapFolder": true,
+    "tableFilenameVersion": "Novembro 2026",
+    "tableSourceUnchangedSha256": true,
+    "printedCommercialDate": null,
+    "originalOwnerBookRetainedInBaumeFolder": true
+  },
+  "commercialDateWarnings": {
+    "up-icarai": "The PDF prints validity through 31/11/2026, an impossible date. No issue date or corrected expiry was inferred; filename month retained separately and visible catalog warning added."
+  },
+  "downloadRecovery": {
+    "initialBookBatchesWithoutArchive": [
+      2,
+      5
+    ],
+    "recoveredIntermediateBatch": true,
+    "finalBatchSplitIntoSmallerDownloads": true,
+    "successfulArchiveBatches": 6,
+    "allRequiredSourceFilesVerified": true,
+    "browserDownloadEvents": "Several waitForEvent calls timed out; success was counted only after actual ZIP arrival, complete CRC reads and exact UI-path reconciliation."
+  },
+  "validation": {
+    "inventoryCounts": true,
+    "uiArchiveExactPaths": true,
+    "sourceCrcAndSha256": true,
+    "allReplacementDriveSha256": true,
+    "currentSheetRead": true,
+    "coordinatesMissingForCompleteProjects": [],
+    "dataInvariants": true,
+    "sourceCodeUnchanged": true,
+    "searchAndParkingTestsPassed": true,
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs"
+  },
+  "limitations": [
+    "Counts verified from published source data and deployment checks; the password-protected interior is not visually inspected without an authenticated session."
+  ],
+  "publication": {
+    "mode": "GitHub → Vercel",
+    "baseCommit": "a894b98c1b41844a67e86aef25de8c789b2a7d81",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
+    "verification": "Deployment checks are attached to the audit commit; the final response reports the observed publication outcome."
+  }
+}

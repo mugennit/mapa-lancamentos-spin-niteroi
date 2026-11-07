@@ -1182,7 +1182,6 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/np38-apartamentos-e-coberturas-niteroi-1-a-22-quartos-37-a-111-m/23322936-SETV",
     "availableUnits": [
-      "1001",
       "1101",
       "1201",
       "1301",
@@ -1210,10 +1209,11 @@
       "1306",
       "Cob 1402"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Abril 2028",
     "deliveryEvidence": "6 - Data prevista para conclusão da obra: Abril/2028",
-    "deliverySource": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-07"
   },
   "jardim-dos-manacas": {
     "typologies": [
@@ -1268,11 +1268,11 @@
       "1304",
       "1305"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Novembro 2027",
-    "deliveryEvidence": "6- Previsão conclusão da obra: NOVEMBRO/ 2027.",
+    "deliveryEvidence": "Previsão de conclusão impressa na tabela de novembro/2026.",
     "deliverySource": "https://drive.google.com/file/d/1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-07"
   },
   "gael": {
     "typologies": [
@@ -1558,11 +1558,11 @@
       "806 / Bloco 2",
       "COB 1 / Bloco 1"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Agosto 2029",
-    "deliveryEvidence": "6- Previsão conclusão da obra: AGOSTO/ 2029",
+    "deliveryEvidence": "Previsão de conclusão impressa na tabela de novembro/2026.",
     "deliverySource": "https://drive.google.com/file/d/1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-07"
   },
   "dahlia-residence": {
     "typologies": [
@@ -2358,10 +2358,8 @@
     "availableUnits": [
       "1001",
       "502",
-      "1002",
       "1202",
       "1402",
-      "603",
       "903",
       "1003",
       "1103",
@@ -2383,18 +2381,19 @@
       "1005",
       "1205",
       "1305",
-      "306",
       "406",
       "506",
+      "1106",
       "1206",
       "1306",
       "1406",
       "Cob 1502"
     ],
-    "availabilityTableDate": "Setembro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Abril 2029",
     "deliveryEvidence": "6 - Data prevista para conclusão da obra: Abril/2029",
-    "deliverySource": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-07"
   },
   "tresor-dior": {
     "typologies": [
@@ -3029,11 +3028,11 @@
       "905",
       "1205"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Não informada",
     "delivery": "Outubro 2026",
     "deliveryEvidence": "6- Previsão conclusão da obra: OUTUBRO/ 2026.",
     "deliverySource": "https://drive.google.com/file/d/1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-07"
   },
   "nirvana": {
     "typologies": [
@@ -3047,11 +3046,11 @@
       "303",
       "503"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "deliveryStatus": "Pronto",
     "deliveryStatusEvidence": "3- Habite-se emitido",
     "deliverySource": "https://drive.google.com/file/d/1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-07"
   },
   "sunset": {
     "typologies": [
@@ -3066,14 +3065,13 @@
     "availableUnits": [
       "1205 / Bl - 01",
       "1306 / Bl - 01",
-      "Cob 3 / Bl - 01",
-      "1302 / Bl - 02"
+      "Cob 3 / Bl - 01"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "deliveryStatus": "Pronto",
     "deliveryStatusEvidence": "5- HABITE-SE EMITIDO",
     "deliverySource": "https://drive.google.com/file/d/1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-07"
   },
   "soma": {
     "typologies": [
@@ -3127,7 +3125,6 @@
       "1105",
       "1405",
       "1505",
-      "506",
       "806",
       "1206",
       "1307",
@@ -3156,11 +3153,11 @@
       "1904",
       "1905"
     ],
-    "availabilityTableDate": "Outubro 2026",
-    "delivery": "Julho 2029",
-    "deliveryEvidence": "6- Previsão conclusão da obra: JULHO/ 2029",
+    "availabilityTableDate": "Novembro 2026",
+    "delivery": "Abril 2029",
+    "deliveryEvidence": "Previsão de conclusão impressa na tabela de novembro/2026.",
     "deliverySource": "https://drive.google.com/file/d/19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW/view?usp=drivesdk",
-    "availabilityCheckedAt": "2026-10-16"
+    "availabilityCheckedAt": "2026-11-07"
   },
   "sun-in": {
     "typologies": [
