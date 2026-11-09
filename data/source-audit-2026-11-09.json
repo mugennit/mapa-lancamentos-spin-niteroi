@@ -1,0 +1,556 @@
+{
+  "checkedAt": "2026-11-09",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-08",
+  "method": [
+    "Opened both folders from the Linktree buttons in the same public browser session without login.",
+    "Scrolled both virtualized roots to their end and visited all 82 root folders and all three subfolders, reconciling every displayed count and exact path.",
+    "Read every ZIP member to EOF for CRC and compared SHA-256 for all 272 source PDFs with 08/11; all source PDFs are identical.",
+    "Read current metadata and reading permissions for all 220 referenced Drive files and every child of the 82 map folders; compared all 89 current table byte sizes to unchanged sources.",
+    "Read the full current coordinate sheet twice, matching 80 numeric pairs, the Solo owner Maps link and the owner-confirmed Baume catalog exception."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 41,
+      "subfolders": 0,
+      "rootDisplayedItemTotal": 140,
+      "subfolderDisplayedItemTotal": 0,
+      "listedFiles": 140,
+      "downloadedFiles": 140,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "subfolders": 3,
+      "rootDisplayedItemTotal": 126,
+      "subfolderDisplayedItemTotal": 9,
+      "listedFiles": 132,
+      "downloadedFiles": 132,
+      "allFolderCountsMatched": true,
+      "uiZipPathDifferences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "identicalSha256": 140,
+      "newVersions": 0,
+      "changedSamePath": 0,
+      "removedOldVersions": 0
+    },
+    "books": {
+      "identicalSha256": 132,
+      "added": 0,
+      "changedSamePath": 0,
+      "removed": 0
+    }
+  },
+  "changes": [],
+  "outsideCatalogUpdates": [],
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 82,
+    "mapEligibleProjects": 82,
+    "projectsWithTable": 89,
+    "addedProjects": [],
+    "removedProjects": [],
+    "addedPins": [],
+    "removedPins": [],
+    "pendingIncompleteProjectsRetained": 32
+  },
+  "coordinates": {
+    "checkedAt": "2026-11-09",
+    "sheetId": "11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit",
+    "tab": "Lançamentos",
+    "rangeRead": "A1:Z969",
+    "projectRows": 112,
+    "completeProjectsChecked": 82,
+    "numericPairsMatched": 80,
+    "ownerMapsLinksMatched": 1,
+    "ownerConfirmedCatalogException": 1,
+    "completeProjectsPendingLocation": [],
+    "newNumericCoordinates": [],
+    "genericGeocodingUsed": false,
+    "sheetReReadUnchanged": true,
+    "matched": [
+      {
+        "id": "jardin-di-grazielle",
+        "row": 44,
+        "kind": "numeric"
+      },
+      {
+        "id": "pebe-74",
+        "row": 69,
+        "kind": "numeric"
+      },
+      {
+        "id": "singular",
+        "row": 80,
+        "kind": "numeric"
+      },
+      {
+        "id": "style",
+        "row": 89,
+        "kind": "numeric"
+      },
+      {
+        "id": "oka-icarai",
+        "row": 65,
+        "kind": "numeric"
+      },
+      {
+        "id": "oka-sao-francisco",
+        "row": 66,
+        "kind": "numeric"
+      },
+      {
+        "id": "141-living",
+        "row": 3,
+        "kind": "numeric"
+      },
+      {
+        "id": "nomad",
+        "row": 63,
+        "kind": "numeric"
+      },
+      {
+        "id": "maria-maria",
+        "row": 50,
+        "kind": "numeric"
+      },
+      {
+        "id": "tao",
+        "row": 92,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-camboinhas",
+        "row": 17,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-charitas",
+        "row": 18,
+        "kind": "numeric"
+      },
+      {
+        "id": "nice-camboinhas",
+        "row": 60,
+        "kind": "numeric"
+      },
+      {
+        "id": "brise-by-conviva",
+        "row": 10,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-life-camboinhas",
+        "row": 21,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-life-inga",
+        "row": 22,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-icarai",
+        "row": 19,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-itacoa",
+        "row": 20,
+        "kind": "numeric"
+      },
+      {
+        "id": "caminhos-da-guanabara",
+        "row": 13,
+        "kind": "numeric"
+      },
+      {
+        "id": "orla-central",
+        "row": 68,
+        "kind": "numeric"
+      },
+      {
+        "id": "rio-branco-220",
+        "row": 74,
+        "kind": "numeric"
+      },
+      {
+        "id": "the-pier",
+        "row": 97,
+        "kind": "numeric"
+      },
+      {
+        "id": "reserva-sao-francisco",
+        "row": 73,
+        "kind": "numeric"
+      },
+      {
+        "id": "neo-design-icarai",
+        "row": 59,
+        "kind": "numeric"
+      },
+      {
+        "id": "upside-charitas",
+        "row": 106,
+        "kind": "numeric"
+      },
+      {
+        "id": "mok-132",
+        "row": 55,
+        "kind": "numeric"
+      },
+      {
+        "id": "namas-smart-living",
+        "row": 58,
+        "kind": "numeric"
+      },
+      {
+        "id": "cascais",
+        "row": 14,
+        "kind": "numeric"
+      },
+      {
+        "id": "trend-by-falves",
+        "row": 99,
+        "kind": "numeric"
+      },
+      {
+        "id": "arend",
+        "row": 7,
+        "kind": "numeric"
+      },
+      {
+        "id": "duetto",
+        "row": 27,
+        "kind": "numeric"
+      },
+      {
+        "id": "ile",
+        "row": 38,
+        "kind": "numeric"
+      },
+      {
+        "id": "sd40",
+        "row": 77,
+        "kind": "numeric"
+      },
+      {
+        "id": "green-open",
+        "row": 35,
+        "kind": "numeric"
+      },
+      {
+        "id": "niteroi-open-santa-rosa",
+        "row": 62,
+        "kind": "numeric"
+      },
+      {
+        "id": "lazuli",
+        "row": 45,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-icarai",
+        "row": 84,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-itacoa",
+        "row": 85,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-charitas",
+        "row": 83,
+        "kind": "numeric"
+      },
+      {
+        "id": "sou-wellness-charitas",
+        "row": 86,
+        "kind": "numeric"
+      },
+      {
+        "id": "marina",
+        "row": 51,
+        "kind": "numeric"
+      },
+      {
+        "id": "triunfo",
+        "row": 101,
+        "kind": "numeric"
+      },
+      {
+        "id": "serena",
+        "row": 78,
+        "kind": "numeric"
+      },
+      {
+        "id": "althea",
+        "row": 5,
+        "kind": "numeric"
+      },
+      {
+        "id": "np38",
+        "row": 64,
+        "kind": "numeric"
+      },
+      {
+        "id": "terramarine",
+        "row": 94,
+        "kind": "numeric"
+      },
+      {
+        "id": "uni-home-studios",
+        "row": 103,
+        "kind": "numeric"
+      },
+      {
+        "id": "maris",
+        "row": 52,
+        "kind": "numeric"
+      },
+      {
+        "id": "calle-sardegna",
+        "row": 12,
+        "kind": "numeric"
+      },
+      {
+        "id": "solo",
+        "row": 81,
+        "kind": "ownerMapsLink"
+      },
+      {
+        "id": "scenarium-piratininga",
+        "row": 76,
+        "kind": "numeric"
+      },
+      {
+        "id": "jardim-itacoa",
+        "row": 43,
+        "kind": "numeric"
+      },
+      {
+        "id": "wind-oceanica",
+        "row": 112,
+        "kind": "numeric"
+      },
+      {
+        "id": "115-tapuias",
+        "row": 2,
+        "kind": "numeric"
+      },
+      {
+        "id": "green-life",
+        "row": 34,
+        "kind": "numeric"
+      },
+      {
+        "id": "monier",
+        "row": 56,
+        "kind": "numeric"
+      },
+      {
+        "id": "gael",
+        "row": 31,
+        "kind": "numeric"
+      },
+      {
+        "id": "jardim-dos-manacas",
+        "row": 42,
+        "kind": "numeric"
+      },
+      {
+        "id": "up-icarai",
+        "row": 105,
+        "kind": "numeric"
+      },
+      {
+        "id": "nirvana",
+        "row": 61,
+        "kind": "numeric"
+      },
+      {
+        "id": "stage",
+        "row": 88,
+        "kind": "numeric"
+      },
+      {
+        "id": "sunset",
+        "row": 91,
+        "kind": "numeric"
+      },
+      {
+        "id": "soma",
+        "row": 82,
+        "kind": "numeric"
+      },
+      {
+        "id": "maren",
+        "row": 49,
+        "kind": "numeric"
+      },
+      {
+        "id": "soul-fonseca",
+        "row": 87,
+        "kind": "numeric"
+      },
+      {
+        "id": "sun-in",
+        "row": 90,
+        "kind": "numeric"
+      },
+      {
+        "id": "giardino-di-verona",
+        "row": 32,
+        "kind": "numeric"
+      },
+      {
+        "id": "dahlia-residence",
+        "row": 24,
+        "kind": "numeric"
+      },
+      {
+        "id": "dianthus",
+        "row": 26,
+        "kind": "numeric"
+      },
+      {
+        "id": "attrium-icarai",
+        "row": 8,
+        "kind": "numeric"
+      },
+      {
+        "id": "ion-icarai",
+        "row": 40,
+        "kind": "numeric"
+      },
+      {
+        "id": "maestro",
+        "row": 47,
+        "kind": "numeric"
+      },
+      {
+        "id": "clarice",
+        "row": 15,
+        "kind": "numeric"
+      },
+      {
+        "id": "pulse",
+        "row": 70,
+        "kind": "numeric"
+      },
+      {
+        "id": "origem",
+        "row": 67,
+        "kind": "numeric"
+      },
+      {
+        "id": "the-grove",
+        "row": 96,
+        "kind": "numeric"
+      },
+      {
+        "id": "tropico-camboinhas",
+        "row": 102,
+        "kind": "numeric"
+      },
+      {
+        "id": "flua",
+        "row": 30,
+        "kind": "numeric"
+      },
+      {
+        "id": "tresor-dior",
+        "row": 100,
+        "kind": "numeric"
+      },
+      {
+        "id": "mare-blu",
+        "row": 48,
+        "kind": "numeric"
+      },
+      {
+        "id": "conviva-piratininga",
+        "row": 23,
+        "kind": "numeric"
+      },
+      {
+        "id": "baume",
+        "kind": "ownerConfirmedCatalogException"
+      }
+    ]
+  },
+  "drive": {
+    "mapSiteFolders": 82,
+    "filesInMapSite": 165,
+    "foldersWithExactlyTwoFiles": 81,
+    "foldersWithSupplementaryBooks": [
+      {
+        "id": "baume",
+        "books": 2,
+        "tables": 1,
+        "files": 3
+      }
+    ],
+    "mainFolderFiles": 8,
+    "tablesReplacedInPlace": 0,
+    "oldTableCopiesCreated": 0,
+    "newBooks": 0,
+    "uniqueReferencedFiles": 220,
+    "referencedFilesWithPublicReader": 220,
+    "currentTableByteSizesChecked": 89,
+    "uploadedFilesReDownloadedAndHashVerified": 0,
+    "verificationScope": "Fresh metadata and anyone/reader permission for all 220 referenced files; all 82 map folders listed and all 89 current table byte sizes matched to unchanged source files. No replacement needed. Unchanged Drive PDFs were not downloaded again."
+  },
+  "baume": {
+    "officialBookFound": true,
+    "officialBookSource": "CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "officialSourceBookUnchangedSha256": true,
+    "catalogIncluded": true,
+    "onMap": true,
+    "booksCeuFilesChecked": 10,
+    "singleCurrentTableInMapFolder": true,
+    "tableFilenameVersion": "Novembro 2026",
+    "tableSourceUnchangedSha256": true,
+    "printedCommercialDate": null,
+    "originalOwnerBookRetainedInBaumeFolder": true
+  },
+  "existingCommercialDateWarningsPreserved": [
+    "up-icarai"
+  ],
+  "downloadRecovery": {
+    "requiredDownloadsRecovered": true,
+    "successfulTableArchives": 1,
+    "successfulBookArchives": 11,
+    "allRequiredSourceFilesVerified": true,
+    "observation": "Download event waits, temporary artifact paths and browser interaction timeouts were not treated as completed transfers. Only received archives with complete CRC/SHA-256 reads and exact UI-path reconciliation count as verified; the remaining transfers were recovered in smaller groups. Three repeated Equipe entries have identical SHA-256 and are counted once.",
+    "duplicateBookEntriesVerifiedIdentical": 3
+  },
+  "validation": {
+    "inventoryCounts": true,
+    "uiArchiveExactPaths": true,
+    "sourceCrcAndSha256": true,
+    "currentSheetRead": true,
+    "coordinatesMissingForCompleteProjects": [],
+    "dataInvariants": true,
+    "sourceCodeUnchanged": true,
+    "searchAndParkingTestsPassed": true,
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs"
+  },
+  "limitations": [
+    "The Vercel deployment API returned HTTP 403 for the project team scope. Publication is checked through the deployment statuses attached to the GitHub audit commit and the production login page.",
+    "Counts are verified from the published source data and deployment checks; the password-protected interior is not visually inspected without an authenticated session."
+  ],
+  "publication": {
+    "mode": "GitHub → Vercel",
+    "baseCommit": "72c20c9d5ff0fd52b6e6af7509488d77a3a72f19",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
+    "verification": "Deployment checks are attached to the audit commit; the final response reports the observed publication outcome."
+  }
+}
