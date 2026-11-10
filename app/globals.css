@@ -51,7 +51,7 @@
 .table-date{font-size:11px}
 .pin{padding:3px 5px;max-width:108px;font-size:9px;border-width:1px;box-shadow:0 1px 5px #16354c30}
 .pin::after{width:6px;height:6px;bottom:-4px;border-width:1px}
-.pin-dot{width:12px;height:12px;min-width:12px;min-height:12px;padding:0;border:2px solid #fff;border-radius:50%;background:#176582;box-shadow:0 1px 5px #102d4370}
+.pin-dot{display:block;width:18px;height:18px;min-width:18px;min-height:18px;padding:0;border:2px solid #fff;border-radius:50%;background:#0b5b7f;box-shadow:0 0 0 1px #0b5b7f,0 2px 6px #102d4370}
 .pin-dot::after{display:none}
 .pin-active{background:#f0aa52;color:#102d43;border-color:#fff}
 .pin-cluster{min-width:25px;min-height:25px;font-size:10px;background:#164f72;color:#fff;border:2px solid #fff}
