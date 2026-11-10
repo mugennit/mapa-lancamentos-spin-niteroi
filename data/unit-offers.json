@@ -4124,31 +4124,20 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "cascais": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-10",
     "tableUrl": "https://drive.google.com/file/d/1zYQzLDkhVzWmGD_160L51CsuVKrqSYA7/view?usp=drivesdk",
-    "tableDate": "Março 2026",
-    "coverage": "partial",
+    "tableDate": "Não informada",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "101 — Bloco 1",
         "typology": "",
-        "price": 3548923.67,
-        "parkingSpaces": 3
-      },
-      {
-        "unit": "102 — Bloco 1",
-        "typology": "",
-        "price": 3548923.67,
-        "parkingSpaces": 3
-      },
-      {
-        "unit": "201 — Bloco 2",
-        "typology": "",
-        "price": 3548923.67,
-        "parkingSpaces": 3
+        "price": 3791035.08,
+        "parkingSpaces": 3,
+        "priceNote": "Custo total de terreno e obra; correções e despesas conforme a tabela."
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-10"
   },
   "arend": {
     "checkedAt": "2026-10-31",
@@ -16687,5 +16676,4914 @@
         "parkingSpaces": 1
       }
     ]
+  },
+  "orla-guanabara": {
+    "checkedAt": "2026-11-10",
+    "tableUrl": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk",
+    "tableDate": "Outubro 2026",
+    "coverage": "complete-table-preliminary-availability",
+    "offers": [
+      {
+        "unit": "101 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 302500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "102 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 299000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "103 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "104 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "105 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 299000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "106 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 302500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "108 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 301800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "109 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 299000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "110 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "111 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "112 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 303200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "201 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 332700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "202 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 328900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "203 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "204 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "205 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "206 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "207 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "208 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "209 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "210 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 382500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "211 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 382500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "212 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 328900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "213 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 328900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "214 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 333400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "301 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 334800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "302 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 330800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "303 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 394200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "304 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 394200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "305 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 353900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "306 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "307 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "308 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 353900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "309 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 353900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "310 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "311 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "312 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 330800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "313 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 330800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "314 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 335400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "401 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 336700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "402 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 332800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "403 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 395200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "404 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 395200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "405 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "406 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 360200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "407 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 361000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "408 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "409 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "410 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 384800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "411 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 384800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "412 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 332800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "413 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 332800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "414 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 337400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "501 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 338700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "502 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 334800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "503 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "504 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "505 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "506 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 362400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "507 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 363200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "508 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "509 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "510 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 385900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "511 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 385900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "512 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 334800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "513 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 334800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "514 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 339400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "601 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "602 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 336700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "603 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 397500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "604 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 397500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "605 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 360200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "606 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "607 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 365300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "608 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 360200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "609 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 360200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "610 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "611 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "612 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 336700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "613 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 336700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "614 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 341400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "701 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 342700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "702 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 338700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "703 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 398600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "704 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 398600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "705 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 362400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "706 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 366700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "707 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 367400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "708 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 362400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "709 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 362400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "710 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 388000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "711 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 388000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "712 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 338700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "713 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 338700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "714 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 343400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "801 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 344700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "802 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "803 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 399700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "804 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 399700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "805 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "806 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "807 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 369600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "808 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "809 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 364500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "810 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 389000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "811 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 389000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "812 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "813 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "814 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 345400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "901 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 346700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "902 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "903 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 426600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "904 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 426600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "905 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 366700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "906 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 371000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "907 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 371700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "908 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 366700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "909 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 366700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "910 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 390100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "911 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 390100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "912 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "913 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "914 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 347400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1001 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 348800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1002 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 344600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1003 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 429100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1004 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 429100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1005 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1006 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 373100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1007 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 373800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1008 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1009 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1010 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 391200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1011 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 391200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1012 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 344600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1013 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 344600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1014 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 349400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1101 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 350700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1102 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 346600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1103 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 431600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1104 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 431600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1105 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 370800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1106 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 375200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1107 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 375600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1108 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 370800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1109 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 370800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1110 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 392200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1111 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 392200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1112 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 346600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1113 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 346600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1114 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1201 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 352700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1202 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 348500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1203 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 434000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1204 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 434000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1205 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 373000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1206 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 376500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1207 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1208 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 373000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1209 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 373000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1210 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1211 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1212 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 348500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1213 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 348500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1214 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 353400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1301 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1302 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1303 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 438100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1304 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 438100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1305 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 376000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1306 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 378800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1307 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 379200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1308 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 376000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1309 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 376000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1310 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 395000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1311 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 395000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1312 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1313 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1314 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 356700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1401 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 359300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1402 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1403 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 442300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1404 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 442300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1405 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 378200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1406 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 381000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1407 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 381600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1408 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 378200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1409 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 378200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1410 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 396700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1411 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 396700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1412 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1413 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1414 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 360000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1501 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 362600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1502 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1503 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 446300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1504 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 446300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1505 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 380400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1506 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 383300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1507 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 383700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1508 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 380400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1509 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 380400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1510 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 398500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1511 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 398500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1512 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1513 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 358400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1514 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 363400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1601 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 366100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1602 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 361700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1603 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 450500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1604 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 450500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1605 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1606 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 385100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1607 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 385400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1608 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1609 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1610 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 425400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1611 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 425400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1612 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 361700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1613 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 361700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1614 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 366800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1701 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 369400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1702 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 365000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1703 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 454500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1704 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 454500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1705 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 384600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1706 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 386800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1707 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 387200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1708 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 384600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1709 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 384600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1710 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 429200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1711 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 429200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1712 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 365000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1713 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 365000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1714 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 370100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1801 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 372700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1802 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1803 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 458700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1804 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 458700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1805 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 386300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1806 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 388500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1807 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 388900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1808 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 386300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1809 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 386300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1810 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 433200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1811 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 433200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1812 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1813 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 368300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1814 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 373400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1901 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 375600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1902 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 371500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1903 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 517700.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1904 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 517700.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1905 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 387900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1906 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 390200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1907 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 390600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1908 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 387900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1909 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 387900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1910 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 437000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1911 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 437000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1912 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 371500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1913 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 371500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1914 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 376100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2001 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 377700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2002 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 374900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2003 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 521800.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2004 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 521800.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2005 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2006 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 391900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2007 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 392300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2008 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2009 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2010 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 440800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2011 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 440800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2012 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 374900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2013 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 374900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2014 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 378200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2101 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 379800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2102 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2103 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 525900.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2104 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 525900.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2105 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 391400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2106 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2107 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 394100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2108 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 391400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2109 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 391400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2110 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 444800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2111 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 444800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2112 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2113 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2114 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 380400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2201 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 381900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2202 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 379100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2203 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 530000.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2204 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 530000.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2205 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2206 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 395400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2207 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 395800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2208 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2209 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2210 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 448600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2211 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 448600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2212 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 379100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2213 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 379100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2214 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 382500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2301 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 384000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2302 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 381200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2303 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 534100.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2304 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 534100.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2305 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 394800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2306 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 397100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2307 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 384500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2308 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 381900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2309 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 381900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2310 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2311 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2312 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 365500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2313 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 365500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2314 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 370600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2401 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 387500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2406 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 399900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2407 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 384500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2408 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 381900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2409 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 381900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2410 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2411 — Bloco 1",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2412 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 365500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2413 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 365500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2414 — Bloco 1",
+        "typology": "1 quarto",
+        "price": 370600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "101 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 317100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "102 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 301800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "103 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 299000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "104 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 369500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "111 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 303200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "112 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 369500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "114 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 317100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "201 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 336600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "202 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 331900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "203 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 328900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "204 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "205 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "206 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "207 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "208 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "209 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "210 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "211 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "212 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "213 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "214 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 328900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "215 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 331900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "216 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 336600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "301 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 338600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "302 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 333900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "303 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 330800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "304 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "305 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "306 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 378500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "307 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 380700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "308 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "309 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "310 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 380700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "311 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 378500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "312 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "313 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "314 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 330800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "315 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 333900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "316 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 338600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "401 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "402 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 335900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "403 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 332800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "404 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "405 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "406 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "407 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "408 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "409 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "410 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "411 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "412 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "413 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "414 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 332800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "415 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 335900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "416 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "501 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "502 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 337900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "503 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 334800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "504 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "505 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "506 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 381400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "507 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "508 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "509 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "510 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "511 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 381400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "512 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "513 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "514 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 334800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "515 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 337900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "516 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "601 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 344700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "602 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 339800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "603 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 336700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "604 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "605 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "606 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "607 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "608 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "609 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "610 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "611 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "612 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "613 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "614 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 336700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "615 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 339800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "616 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 344700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "701 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 346700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "702 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 341800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "703 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 338700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "704 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "705 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "706 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "707 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "708 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "709 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "710 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "711 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "712 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "713 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "714 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 338700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "715 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 341800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "716 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 346700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "801 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 348800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "802 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 343900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "803 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "804 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "805 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "806 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "807 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "808 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "809 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "810 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "811 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "812 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 399700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "813 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 399700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "814 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 340700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "815 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 343900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "816 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 348800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "901 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 350700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "902 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 345900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "903 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "904 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "905 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "906 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "907 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "908 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "909 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "910 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "911 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "912 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 426600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "913 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 426600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "914 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 342600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "915 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 345900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "916 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 350700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1001 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 352800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1002 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 347800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1003 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 344600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1004 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1005 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1006 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1007 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1008 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1009 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1010 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1011 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 385500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1012 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 429100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1013 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 429100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1014 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 344600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1015 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 347800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1016 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 352800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1101 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 354800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1102 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 349800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1103 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 346600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1104 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1105 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1106 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1107 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1108 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1109 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1110 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1111 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1112 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 431600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1113 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 431600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1114 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 346600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1115 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 349800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1116 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 354800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1201 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 356800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1202 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1203 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 348500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1204 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1205 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1206 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1207 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1208 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1209 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1210 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1211 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1212 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 434000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1213 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 434000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1214 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 348500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1215 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1216 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 356800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1301 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 360100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1302 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1303 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1304 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1305 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1306 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1307 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1308 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1309 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1310 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1311 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 387700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1312 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 438100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1313 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 438100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1314 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 351900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1315 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1316 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 360100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1401 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 363600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1402 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 358500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1403 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1404 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1405 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1406 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1407 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1408 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1409 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1410 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1411 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 388600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1412 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 442300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1413 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 442300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1414 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 355200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1415 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 358500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1416 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 363600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1501 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 366900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1502 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 361800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1503 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 358400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1504 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1505 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1506 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1507 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1508 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1509 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1510 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1511 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 389600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1512 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 446300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1513 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 446300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1514 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 358400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1515 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 361800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1516 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 366900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1601 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 370300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1602 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 365100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1603 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 361700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1604 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 425400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1605 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 425400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1606 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1607 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1608 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1609 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1610 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1611 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 390500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1612 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 450500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1613 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 450500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1614 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 361700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1615 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 365100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1616 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 370300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1701 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 373600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1702 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 368400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1703 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 365000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1704 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 429200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1705 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 429200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1706 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1707 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1708 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1709 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1710 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1711 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 391500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1712 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 454500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1713 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 454500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1714 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 365000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1715 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 368400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1716 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 373600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1801 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 376300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1802 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 371700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1803 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 368300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1804 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 433200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1805 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 433200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1806 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1807 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1808 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1809 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1810 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1811 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 392400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1812 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 458700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1813 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 458700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1814 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 368300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1815 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 371700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1816 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 376300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1901 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 378400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1902 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 375000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1903 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 371500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1904 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 437000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1905 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 437000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1906 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1907 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1908 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1909 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1910 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1911 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 393400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1912 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 517700.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1913 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 517700.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1914 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 371500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1915 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 375000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "1916 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 378400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2001 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 380600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2002 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 377100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2003 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 374900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2004 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 440800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2005 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 440800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2006 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2007 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2008 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2009 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2010 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2011 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 394400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2012 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 521800.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2013 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 521800.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2014 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 374900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2015 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 377100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2016 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 380600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2101 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2102 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2103 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2104 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 444800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2105 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 444800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2106 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2107 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2108 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2109 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2110 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2111 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 395300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2112 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 525900.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2113 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 525900.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2114 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 377000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2115 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2116 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 382700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2201 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2202 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 381400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2203 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2204 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 448600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2205 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 448600.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2206 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2207 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2208 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2209 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2210 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2211 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 396300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2212 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 530000.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2213 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 530000.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2214 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 379100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2215 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 381400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2216 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 384800.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2301 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 374100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2302 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 369000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2303 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 365500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2304 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2305 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2306 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 384200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2307 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 385200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2308 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 386700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2309 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 399900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2310 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 398300.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2311 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 397200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2312 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 534100.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2313 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 534100.0,
+        "parkingSpaces": 1,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2314 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 381200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2315 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 383500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2316 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2401 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 374100.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2402 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 369000.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2403 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 365500.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2404 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2405 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 452400.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2406 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 384200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2407 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 385200.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2408 — Bloco 2",
+        "typology": "1 quarto",
+        "price": 386700.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas. Unidade PcD."
+      },
+      {
+        "unit": "2409 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 399900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2410 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 399900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2415 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      },
+      {
+        "unit": "2416 — Bloco 2",
+        "typology": "2 quartos",
+        "price": 386900.0,
+        "parkingSpaces": 0,
+        "priceNote": "Tabela preliminar; confirme disponibilidade no espelho de vendas."
+      }
+    ],
+    "parkingCheckedAt": "2026-11-10"
   }
 }

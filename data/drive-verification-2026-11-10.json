@@ -1,0 +1,1610 @@
+{
+  "checkedAt": "2026-11-10",
+  "uniqueReferencedFiles": 221,
+  "allReferencedPublicReader": true,
+  "currentTableByteSizeChecks": [
+    {
+      "projectId": "jardin-di-grazielle",
+      "driveFileId": "1YBUP9nODkjPmA0p5d20eoO6Tx3_omRml",
+      "name": "Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
+      "bytes": 359985,
+      "sourcePath": "Tabelas de Vendas/4MX/Tabela de Vendas Jardin Di Grazielle - Novembro 2026.pdf",
+      "sourceSha256": "bfc0e9a96b1689fb31f2ef661f151987dd1b5d2e03da2b32d6c243c328394418",
+      "modifiedTime": "2026-11-05T11:10:52.073Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "pebe-74",
+      "driveFileId": "1Y3zslQjof8oltCRLuMFRDckhpfbGUu3d",
+      "name": "pebe-74 — Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+      "bytes": 187103,
+      "sourcePath": "Tabelas de Vendas/BACOS/Tabela de Venda PEBE 74 - Outubro 2026.pdf",
+      "sourceSha256": "e2b3b2fe394ccdda856581219610d0f706e9c9a38d5a7f20339ab5a478472536",
+      "modifiedTime": "2026-10-18T11:06:41.540Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "singular",
+      "driveFileId": "1a4UsToYzZFQg-vDHosJO_MryfvAjbQtZ",
+      "name": "singular — Tabela de Vendas Singular - Outubro 2026.pdf",
+      "bytes": 330391,
+      "sourcePath": "Tabelas de Vendas/BACOS/Tabela de Vendas Singular - Outubro 2026.pdf",
+      "sourceSha256": "297b0033fbe35a67b9ed67bc00b3f0b8b6746ba91fb83d8db4951dd1a848ec6c",
+      "modifiedTime": "2026-10-18T11:06:44.655Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "style",
+      "driveFileId": "1AC39rZkdciQWeOvK0JdJojNvd5wet85q",
+      "name": "Tabela de Vendas Style - Outubro 2026.pdf",
+      "bytes": 154584,
+      "sourcePath": "Tabelas de Vendas/BACOS/Tabela de Vendas Style - Outubro 2026.pdf",
+      "sourceSha256": "eb57ccec7fbcc78068f2f6b6d6b31b557a8355c896dddfa2d7eb9478b831329f",
+      "modifiedTime": "2026-10-23T11:08:44.431Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "oka-icarai",
+      "driveFileId": "1KUVOhtq8-oO6aIg_KFVT5jDCTH2wgjiu",
+      "name": "oka-icarai — Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+      "bytes": 178748,
+      "sourcePath": "Tabelas de Vendas/BACOS/Tabela de Vendas  Oka Icarai - Outubro 2026.pdf",
+      "sourceSha256": "342a91b77b3a8f0c1373458aec1be57f3cf71127fcfdc0d2d862f05850db62ab",
+      "modifiedTime": "2026-10-18T11:06:47.718Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "oka-sao-francisco",
+      "driveFileId": "1T7BX5j99jYWqt_F0gllLyXG_hnGJw8kC",
+      "name": "oka-sao-francisco — Tabela de Vendas Oka São Francisco - Junho 2026.pdf",
+      "bytes": 328312,
+      "sourcePath": "Tabelas de Vendas/BACOS/Tabela de Vendas Oka São Francisco - Junho 2026.pdf",
+      "sourceSha256": "2ed9519a6dbd167c039944dab1536517cd1772780ed6a8728c1c590857c282b2",
+      "modifiedTime": "2026-10-02T01:30:27.949Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "141-living",
+      "driveFileId": "1oKBDSB6KD2BgHPtQpyw7KLuhO88T4KiS",
+      "name": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
+      "bytes": 421896,
+      "sourcePath": "Tabelas de Vendas/CEU/Tabela de Vendas 141 Living - Novembro 2026.pdf",
+      "sourceSha256": "2e9a42bd401b4bf0176cf12b40c7aa4e60bd08bb0b86775025acd903877a34a7",
+      "modifiedTime": "2026-11-05T11:10:41.491Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "nomad",
+      "driveFileId": "1QBzDIsNXs7B4as2AUqnNyAjFweykXAQ2",
+      "name": "Tabela de Vendas Nomad - Novembro 2026.pdf",
+      "bytes": 325155,
+      "sourcePath": "Tabelas de Vendas/CEU/Tabela de Vendas Nomad - Novembro 2026.pdf",
+      "sourceSha256": "f62f8e9e66bc13dfef5dd6165fe2fbd139a52e6c273050cc33541d3339d65fc6",
+      "modifiedTime": "2026-11-05T11:11:00.137Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "maria-maria",
+      "driveFileId": "1N1bCflKILHfgzU-YFh5kdovvvsw8S8fQ",
+      "name": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
+      "bytes": 347645,
+      "sourcePath": "Tabelas de Vendas/CEU/Tabela de Vendas Maria Maria - Novembro 2026.pdf",
+      "sourceSha256": "64f1459e81d3276b088d428373e3543ef95f04bdb65a68c083f61c282504f5d9",
+      "modifiedTime": "2026-11-05T11:10:47.936Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "tao",
+      "driveFileId": "1Rp-M44KRpPYdqMPv2dQZgVNk9E8ik2NQ",
+      "name": "Tabela de Vendas Tao - Novembro 2026.pdf",
+      "bytes": 539953,
+      "sourcePath": "Tabelas de Vendas/CEU/Tabela de Vendas Tao - Novembro 2026.pdf",
+      "sourceSha256": "df38372d38ed536ae33af3e78456cc73e97a0263e297e6a89f71deac3f77745e",
+      "modifiedTime": "2026-11-05T11:10:44.955Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-camboinhas",
+      "driveFileId": "1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf",
+      "name": "Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
+      "bytes": 166596,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
+      "sourceSha256": "ed3061bd489b1aa84cc4be16ec85060086f81b0fb10eedefad917a2b9ed570fb",
+      "modifiedTime": "2026-10-09T11:16:24.643Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-charitas",
+      "driveFileId": "1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb",
+      "name": "Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
+      "bytes": 202660,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
+      "sourceSha256": "8c97051597a9cdd5052fefd4df587e318dcc34059970d125a514b71668d90e07",
+      "modifiedTime": "2026-10-09T11:16:26.987Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "nice-camboinhas",
+      "driveFileId": "1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh",
+      "name": "Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
+      "bytes": 113689,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
+      "sourceSha256": "89b596ca1884819c9864a9eaf4d6c8b0d3490f6eb651d138bd168878adf0e875",
+      "modifiedTime": "2026-10-09T11:16:29.962Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "brise-by-conviva",
+      "driveFileId": "15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_",
+      "name": "Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
+      "bytes": 111581,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
+      "sourceSha256": "6da800b8f13a1c9fe7adb3956f2fc3b0c0c7439d3bf398da02111b3f1dccef1d",
+      "modifiedTime": "2026-10-09T11:16:32.485Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-life-camboinhas",
+      "driveFileId": "1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna",
+      "name": "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
+      "bytes": 309437,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
+      "sourceSha256": "7560af101d6a76c0fb8af967dd2da50f1e4ea90c9805ca30d9a97b6c303f840f",
+      "modifiedTime": "2026-10-09T11:16:35.260Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-life-inga",
+      "driveFileId": "1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV",
+      "name": "Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
+      "bytes": 157848,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
+      "sourceSha256": "ca94751162f40ff0131ff9c2af243c319fc0a1304bc63db0eb9b42b76dc24f45",
+      "modifiedTime": "2026-10-09T11:16:37.794Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-icarai",
+      "driveFileId": "1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr",
+      "name": "Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
+      "bytes": 507512,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
+      "sourceSha256": "faaa2c970a14a37c9c568e5722990b7178c9ec679d9237a75efe6b15827a8f4d",
+      "modifiedTime": "2026-10-09T11:16:40.363Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-itacoa",
+      "driveFileId": "1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y",
+      "name": "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
+      "bytes": 150996,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
+      "sourceSha256": "9d2afa0b398b2c3aa67f819e307048fe14c5e028407d6e6f1f99092edd027310",
+      "modifiedTime": "2026-10-09T11:16:42.765Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "caminhos-da-guanabara",
+      "driveFileId": "1_wAuvbPM7QNPMyuvJxj8kbru-O4cXbf1",
+      "name": "Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "bytes": 598934,
+      "sourcePath": "Tabelas de Vendas/CURY/Tabela de Vendas Caminhos da Guanabara - Outubro 2026.pdf",
+      "sourceSha256": "62b351df7171c5944e94f0cc8ebbfc35f653339ecd0a12a31c349e13d55e913b",
+      "modifiedTime": "2026-10-25T13:06:52.522Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "orla-central",
+      "driveFileId": "16UdfuWAiS5vtXPQXxH6pgO-HikaX6Hy-",
+      "name": "Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "bytes": 2140830,
+      "sourcePath": "Tabelas de Vendas/CURY/Tabela de Vendas Orla Central - Outubro 2026.pdf",
+      "sourceSha256": "f9c800fbc1213b7d97f2635c37627809d1d74d71e5d0e93cc627674d437d471a",
+      "modifiedTime": "2026-10-25T13:07:00.926Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "rio-branco-220",
+      "driveFileId": "1OLMmbqrqJhYJwCLOfA1G3W_Qxa_9R351",
+      "name": "Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "bytes": 221139,
+      "sourcePath": "Tabelas de Vendas/CURY/Tabela de Vendas Rio Branco 220 - Outubro 2026.pdf",
+      "sourceSha256": "8cf63e91e090af1a046c85fde9a4673cf24cc043b1ebb5b325f4596816652a0b",
+      "modifiedTime": "2026-10-25T13:07:33.095Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "the-pier",
+      "driveFileId": "1FhhAzbumTNXtc8K8JK1_4-iyFLS1DPbO",
+      "name": "Tabela de Vendas The Pier - Outubro 2026.pdf",
+      "bytes": 352342,
+      "sourcePath": "Tabelas de Vendas/CURY/Tabela de Vendas The Pier - Outubro 2026.pdf",
+      "sourceSha256": "e3042ef3b959a8d993d4c4d6d38f0685285775732a0fbce53eccb9aff8b8c2a6",
+      "modifiedTime": "2026-10-25T13:06:56.416Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "reserva-sao-francisco",
+      "driveFileId": "1R6ctsGXaEEEbabm-4naMsOJ6415fGV_7",
+      "name": "Tabela de Vendas Reserva São Francisco - Novembro 2026.pdf",
+      "bytes": 668634,
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Reserva São Francisco - Novembro 2026.pdf",
+      "sourceSha256": "92b77b1f3aa6864d2e10ff7b326ebb0fe803106e275364d72b1fb38fd8c96268",
+      "modifiedTime": "2026-11-06T11:26:05.354Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "neo-design-icarai",
+      "driveFileId": "1IiEZlVby-xPJ4nuUuAm3tsd9xMcy9BG0",
+      "name": "Tabela de Vendas Neo Design - Novembro 2026.pdf",
+      "bytes": 492653,
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Neo Design - Novembro 2026.pdf",
+      "sourceSha256": "62c6f9c6fdac3556aba7336c979025e1a689d4353e08701f70e992ef0d38b64b",
+      "modifiedTime": "2026-11-06T11:26:02.364Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "upside-charitas",
+      "driveFileId": "1JmZPfIJGqIdZ4QmK7sP5h3ZTfSy-R6iH",
+      "name": "Tabela de Vendas Upside Charitas - Novembro 2026.pdf",
+      "bytes": 489980,
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Upside Charitas - Novembro 2026.pdf",
+      "sourceSha256": "b1daf28acd63837504534de223ee6e0c7f06425264385246f8e766b9bc5517fe",
+      "modifiedTime": "2026-11-06T11:26:07.947Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "mok-132",
+      "driveFileId": "1wI6R1rrjcBi-OLQvL99UgOyE4vRyLBt3",
+      "name": "mok-132 — Tabela de Vendas  Mok 132 - Agosto 2026.pdf",
+      "bytes": 640200,
+      "sourcePath": "Tabelas de Vendas/FALVES/Tabela de Vendas  Mok 132 - Agosto 2026.pdf",
+      "sourceSha256": "dc467d7189dd2b0cd39b67861d2e1771b6472581ec4489eab32128d21d54b7cf",
+      "modifiedTime": "2026-10-02T01:33:49.949Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "namas-smart-living",
+      "driveFileId": "1YXxe_9gXqzfWND-LVnZqR9tRQjuyR5gl",
+      "name": "namas-smart-living — Tabela de Vendas Namas - Março 2026.pdf",
+      "bytes": 426163,
+      "sourcePath": "Tabelas de Vendas/FALVES/Tabela de Vendas Namas - Março 2026.pdf",
+      "sourceSha256": "a04a27a0b4b1970567223638ee9bccae92edaa7a614ce233f7270cead25075e7",
+      "modifiedTime": "2026-10-02T01:33:58.555Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "cascais",
+      "driveFileId": "1zYQzLDkhVzWmGD_160L51CsuVKrqSYA7",
+      "name": "Tabela de Vendas Cascais Estrada Froes - Novembro 2026.pdf",
+      "bytes": 635500,
+      "sourcePath": "Tabelas de Vendas/FALVES/Tabela de Vendas Cascais Estrada Froes - Novembro 2026.pdf",
+      "sourceSha256": "d565e62b01148b6743195207270519e9c30d32da7cb222891f2b5dc6d4f55357",
+      "modifiedTime": "2026-11-10T11:26:25.112Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": true
+    },
+    {
+      "projectId": "trend-by-falves",
+      "driveFileId": "1_ZamfspHEFHYbcaM0TfGOtrb_B7JYgZ8",
+      "name": "trend-by-falves — Tabela de Vendas Trend By Falves - Maio 2026 (Lançamento).pdf",
+      "bytes": 285750,
+      "sourcePath": "Tabelas de Vendas/FALVES/Tabela de Vendas Trend By Falves - Maio 2026 (Lançamento).pdf",
+      "sourceSha256": "1550d6221819be701085e3d03f079d19c5fd314dc1956d68fee0b0cb74b536b4",
+      "modifiedTime": "2026-10-02T01:34:17.649Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "arend",
+      "driveFileId": "1sipP_p9oqv24MRipbiiJgzebWmrENrFm",
+      "name": "Tabela de Vendas Arend - Novembro 2026.pdf",
+      "bytes": 1588179,
+      "sourcePath": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Arend - Novembro 2026.pdf",
+      "sourceSha256": "9e90abc27a9503bead8042e89629c78fa07a9a6a4b5b71ae27179055bcd0ac7e",
+      "modifiedTime": "2026-10-31T11:23:41.783Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "duetto",
+      "driveFileId": "1lTTMt4XScV4tb1d-y4RPej-Z67poy-qS",
+      "name": "Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "bytes": 1456990,
+      "sourcePath": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Duetto - Novembro 2026.pdf",
+      "sourceSha256": "1b74dc4399c437d29eceb3779fba43defb197e0a758e09f6c4f2b799f1a1cb59",
+      "modifiedTime": "2026-10-31T11:23:48.456Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "ile",
+      "driveFileId": "1-My6KLwGL-a8tJbLJDxfvn_hUr4BevLS",
+      "name": "Tabela de Vendas Íle - Novembro 2026.pdf",
+      "bytes": 648726,
+      "sourcePath": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas Íle - Novembro 2026.pdf",
+      "sourceSha256": "c3600d20f725624288db490e256b8eeee4822d9a7e07f64a5ebd05b2123398a9",
+      "modifiedTime": "2026-10-31T11:23:45.128Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sd40",
+      "driveFileId": "10NWMMbD8nlKZJNiZDh8BfuEmHhTTSoBo",
+      "name": "Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "bytes": 358879,
+      "sourcePath": "Tabelas de Vendas/FERNANDES MACIEL/Tabela de Vendas SD40 - Novembro 2026.pdf",
+      "sourceSha256": "c9691da9f871a566f9441762092a88ef19986f946790b2dfcef59bce8da72315",
+      "modifiedTime": "2026-10-31T11:23:51.410Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "green-open",
+      "driveFileId": "1FPC5D5pWDfXgL7A2fypBAk6TCnDDmvxa",
+      "name": "green-open — Tabela de Vendas Green Open - Julho 2026.pdf",
+      "bytes": 940833,
+      "sourcePath": "Tabelas de Vendas/GPCON/Tabela de Vendas Green Open - Julho 2026.pdf",
+      "sourceSha256": "90ce4931b52b4c03318bb1c81295258910a7dcfa38f69b7c214b864b7296c5cb",
+      "modifiedTime": "2026-10-02T01:35:28.049Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "niteroi-open-santa-rosa",
+      "driveFileId": "1eIWN1AwuU4-VdSdY5Wt5Xr67W-ZTSy4z",
+      "name": "niteroi-open-santa-rosa — Tabela de Vendas Niterói Open - Fevereiro 2026.pdf",
+      "bytes": 923799,
+      "sourcePath": "Tabelas de Vendas/GPCON/Tabela de Vendas Niterói Open - Fevereiro 2026.pdf",
+      "sourceSha256": "d698f27856663e4ed02b11b7b52cf006ddac3bd0a1d493aab8113127286800c3",
+      "modifiedTime": "2026-10-02T01:35:38.707Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "lazuli",
+      "driveFileId": "1m2rHn8l9763aR_V-H5hWW3xTNcvVZK1l",
+      "name": "lazuli — Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf",
+      "bytes": 445272,
+      "sourcePath": "Tabelas de Vendas/HABITARE/Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf",
+      "sourceSha256": "cf5e6c54b8d404b3aa2abc8fd08a30fbc0e7af224db145008cc0e73335e086d0",
+      "modifiedTime": "2026-10-02T01:35:57.948Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sou-icarai",
+      "driveFileId": "1ToVWq-gwDBxpeVvIBlWAHft0NxR2ci2J",
+      "name": "sou-icarai — Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf",
+      "bytes": 488278,
+      "sourcePath": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf",
+      "sourceSha256": "e9b6b86ee2ba99f2096c1083250c75673119193f2e91f8ba620e21cfadce7449",
+      "modifiedTime": "2026-10-02T01:35:48.327Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sou-itacoa",
+      "driveFileId": "10q3tYjC_w7LWNUDZaggFLEEiz2dpFNjm",
+      "name": "sou-itacoa — Tabela de Vendas Sou Mais+ Itacoa - Agosto 2026.pdf",
+      "bytes": 251539,
+      "sourcePath": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais+ Itacoa - Agosto 2026.pdf",
+      "sourceSha256": "45f162d5892939293fb9277abc1d17ca7e3eae38406a45b186ddee56cfe1e4d0",
+      "modifiedTime": "2026-10-02T01:36:06.883Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sou-charitas",
+      "driveFileId": "1ujNZRqo7cihmcd-y3EYJQGKj-mak0ZvE",
+      "name": "sou-charitas — Tabela de Vendas Sou Mais Charitas - Agosto 2026.pdf",
+      "bytes": 132731,
+      "sourcePath": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais Charitas - Agosto 2026.pdf",
+      "sourceSha256": "70e749f95a4cbb4f1ca0c5fccb06776ff034c3a358b771eaf07bd636fd87bdb0",
+      "modifiedTime": "2026-10-02T01:36:15.720Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sou-wellness-charitas",
+      "driveFileId": "1kqtlLIbqQyg2zRUtl5PdDDj8ood9y2V-",
+      "name": "sou-wellness-charitas — Tabela de Vendas Sou Mais+ Wellness Charitas - Agosto 2026.pdf",
+      "bytes": 215232,
+      "sourcePath": "Tabelas de Vendas/HABITARE/Tabela de Vendas Sou Mais+ Wellness Charitas - Agosto 2026.pdf",
+      "sourceSha256": "2246a0fb2df4c2ad3b4dd4084d121232f211ec06af686147e8ee56c23e24308f",
+      "modifiedTime": "2026-10-02T01:36:24.951Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "marina",
+      "driveFileId": "1DvBUtPq3WRDOOeENxZiQYN4duoqIEpDh",
+      "name": "Tabela de Vendas Marina - Novembro 2026 (2).pdf",
+      "bytes": 269562,
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Marina - Novembro 2026 (2).pdf",
+      "sourceSha256": "cf005b078c43a67e89e0564ddf951065f0c501804eaa5a315ab1c6d5b3b9d9fd",
+      "modifiedTime": "2026-11-06T11:24:59.367Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "triunfo",
+      "driveFileId": "1OQlPPL6l9fF6PA2_Lg5dw6HL0FyS0p21",
+      "name": "Tabela de Vendas Triunfo - Novembro 2026.pdf",
+      "bytes": 327141,
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Triunfo - Novembro 2026.pdf",
+      "sourceSha256": "334165982caa3c00555b3abc001800040be9ec9a9853fee60092011055cf1576",
+      "modifiedTime": "2026-11-06T11:25:05.714Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "serena",
+      "driveFileId": "1-yR6UgPvOq6aR_xojjuWHMp5wUTWiI8O",
+      "name": "Tabela de Vendas Serena - Novembro 2026 (3).pdf",
+      "bytes": 274155,
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Serena - Novembro 2026 (3).pdf",
+      "sourceSha256": "3daf7f237a1ea128190728499c4ee7325376d23ccb8e591f2a3a373c94054307",
+      "modifiedTime": "2026-11-06T11:25:02.224Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "althea",
+      "driveFileId": "1TV1b5yWb86LlnwLJDXdRkxR3hBU9WaH5",
+      "name": "Tabela de Vendas Althea - Novembro 2026.pdf",
+      "bytes": 334322,
+      "sourcePath": "Tabelas de Vendas/JOAMA/Tabela de Vendas Althea - Novembro 2026.pdf",
+      "sourceSha256": "44b1ae180dbce7977e2287c36a95ae82d8eb0d3b1173b723496b050ad5f17eca",
+      "modifiedTime": "2026-11-07T11:32:05.578Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "np38",
+      "driveFileId": "1205gg1kbS2OJPr3V19T64A8Wu0dxLVX9",
+      "name": "Tabela de Vendas NP38 - Novembro 2026.pdf",
+      "bytes": 322326,
+      "sourcePath": "Tabelas de Vendas/JOAMA/Tabela de Vendas NP38 - Novembro 2026.pdf",
+      "sourceSha256": "78b81f4bf4c5b4fc27e6ad22cf2ed09b6cdd49adeb3e96c93a46e28e495a9149",
+      "modifiedTime": "2026-11-07T11:32:08.245Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "terramarine",
+      "driveFileId": "1lCkR0QSSfaYUZlftQxM4mmrvX84cGhaQ",
+      "name": "Tabela de Vendas Terramarine - Novembro 2026.pdf",
+      "bytes": 477819,
+      "sourcePath": "Tabelas de Vendas/JOÃO FORTES/Tabela de Vendas Terramarine - Novembro 2026.pdf",
+      "sourceSha256": "567294873d791fe3411c70b69adf220c71dd26baca9ca0e661dbd81724a2d263",
+      "modifiedTime": "2026-11-06T11:24:10.566Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "uni-home-studios",
+      "driveFileId": "1HLI8HZsSfLByI6Th3wkhRGcA5zHtc1jp",
+      "name": "Tabela de Vendas Uni Home Studio - Novembro 2026.pdf",
+      "bytes": 69323,
+      "sourcePath": "Tabelas de Vendas/JPR/Tabela de Vendas Uni Home Studio - Novembro 2026.pdf",
+      "sourceSha256": "ddbee7efd4c34318225e8a6a6a5debd7a2648fa382467fb45e8e652f1447ea12",
+      "modifiedTime": "2026-11-06T11:24:07.899Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "maris",
+      "driveFileId": "1mbvW0ToHYf7ErGkweRdge99lA1vIKyi8",
+      "name": "Tabela de Vendas Maris - Novembro 2026.pdf",
+      "bytes": 571479,
+      "sourcePath": "Tabelas de Vendas/ELVAS/Tabela de Vendas Maris - Novembro 2026.pdf",
+      "sourceSha256": "7ca91f13e5a057c8365c186ea9761145c58f6337d8379a2817e72438b1c965b3",
+      "modifiedTime": "2026-11-06T11:25:59.190Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "calle-sardegna",
+      "driveFileId": "1vw-lo6lOiz1tG7dfELQIgwwCRs7emYfh",
+      "name": "calle-sardegna — Tabela de Vendas Calle Sardegna - Julho 2026.pdf",
+      "bytes": 294406,
+      "sourcePath": "Tabelas de Vendas/LRM/Tabela de Vendas Calle Sardegna - Julho 2026.pdf",
+      "sourceSha256": "8bac0443d498ea67506ff7d259f373aac5684d46e15413be988c5d66caf7a995",
+      "modifiedTime": "2026-10-02T01:37:58.013Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "solo",
+      "driveFileId": "1TBOsaFUDNSnQXol6WbC3vZXFc7yZGDeC",
+      "name": "Tabela de Vendas Solo - Outubro 2026.pdf",
+      "bytes": 313422,
+      "sourcePath": "Tabelas de Vendas/LRM/Tabela de Vendas Solo - Outubro 2026.pdf",
+      "sourceSha256": "8e02a91025870f1866f13a149f8805b4abc9ba5b4a4d0039e27d9215efea6c93",
+      "modifiedTime": "2026-10-09T11:15:09.210Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "scenarium-piratininga",
+      "driveFileId": "16OCudjv-0EeTDfaRZvUQ_wGw2RJhFxC0",
+      "name": "scenarium-piratininga — Tabela de Vendas Scenarium - Outubro 2026.pdf",
+      "bytes": 296541,
+      "sourcePath": "Tabelas de Vendas/LRM/Tabela de Vendas Scenarium - Outubro 2026.pdf",
+      "sourceSha256": "ac892ad32f015d33bd9cf9251113efe48aa2ed1e413464bf04ecde6f03301c86",
+      "modifiedTime": "2026-10-18T11:06:53.607Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "jardim-itacoa",
+      "driveFileId": "1pyQdpbCX_TWmU5EF-TD3-rOTgDs-kSKe",
+      "name": "jardim-itacoa — Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf",
+      "bytes": 519638,
+      "sourcePath": "Tabelas de Vendas/MEDEIROS/Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf",
+      "sourceSha256": "a25f9147571931dd5c2eb268a3f53508fadf36bb3e4a89fc29c2ecf394357034",
+      "modifiedTime": "2026-10-02T01:38:07.676Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "wind-oceanica",
+      "driveFileId": "1Xf2t3K88yps5lTXOhD3tETm3Mq-RDKsQ",
+      "name": "Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+      "bytes": 837323,
+      "sourcePath": "Tabelas de Vendas/METTA/Tabela de Vendas Wind Oceânica - Outubro 2026.pdf",
+      "sourceSha256": "d6938a3ffe39200ab74d8a6c5cb5a2369d5dd6d59240678db10335aff5f69a4f",
+      "modifiedTime": "2026-10-23T11:08:50.848Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "115-tapuias",
+      "driveFileId": "1nbbfAzSWnMjGvzeAhFeSU2m1qMCFuPUA",
+      "name": "Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+      "bytes": 208642,
+      "sourcePath": "Tabelas de Vendas/MRC/Tabela de Vendas 115 Tapuias - Outubro 2026.pdf",
+      "sourceSha256": "7242a76d7cc0d868b56b7de52c5f7228d4dfa04ae3a5306344daccfc879053d7",
+      "modifiedTime": "2026-10-30T11:06:37.109Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "green-life",
+      "driveFileId": "1ARkrcNKHWXfiSTV4Wr5fV7APGWAOlnrn",
+      "name": "green-life — Tabela de Vendas Green Life - Agosto 2026.pdf",
+      "bytes": 959938,
+      "sourcePath": "Tabelas de Vendas/NOVOLAR/Tabela de Vendas Green Life - Agosto 2026.pdf",
+      "sourceSha256": "27b6d88432c4b714f7585298bd1d4f88fe61c032d0bba4b1db4b14e37f7c69c9",
+      "modifiedTime": "2026-10-02T01:38:57.228Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "monier",
+      "driveFileId": "1WfGNg0IX0jDxAHTu9zzUSfZ5yNmPqRM_",
+      "name": "Tabela de Vendas Monier - Outubro 2026.pdf",
+      "bytes": 78527,
+      "sourcePath": "Tabelas de Vendas/PA5/Tabela de Vendas Monier - Outubro 2026.pdf",
+      "sourceSha256": "300ac77a1873a025b8b2b640933418a25b98b47f237a04df4117e91c50b0317a",
+      "modifiedTime": "2026-10-09T11:17:06.007Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "gael",
+      "driveFileId": "1kPz2vVDJeqMWB4b-fojLixAbXwf0vVbQ",
+      "name": "Tabela de Vendas Gael - Outubro 2026.pdf",
+      "bytes": 590228,
+      "sourcePath": "Tabelas de Vendas/PA5/Tabela de Vendas Gael - Outubro 2026.pdf",
+      "sourceSha256": "b370a3e3318e48c83a1c342078372c960e633da6db29e25a96447413b727fbab",
+      "modifiedTime": "2026-10-09T11:17:08.722Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "jardim-dos-manacas",
+      "driveFileId": "1y56Th9ZzUPkh59FNWbpyM3jUD7hfQAeD",
+      "name": "Tabela de Vendas Jardim dos Manacás - Novembro 2026.pdf",
+      "bytes": 333608,
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Jardim dos Manacás - Novembro 2026.pdf",
+      "sourceSha256": "d8bd3c3b82129c214af4f35a6134fa671ff4b1ca9e7f9efc4c3d20f071186829",
+      "modifiedTime": "2026-11-07T11:32:10.656Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "up-icarai",
+      "driveFileId": "1KX6S-UB-lufFuR1mGtTN038SoAWjgD6R",
+      "name": "Tabela de Vendas Up Icaraí - Novembro 2026.pdf",
+      "bytes": 251895,
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Up Icaraí - Novembro 2026.pdf",
+      "sourceSha256": "d04b2d5a1f87dffc73a572ee8ef498d3f94eab3ea3c88b4e1f9fce2c700a6fac",
+      "modifiedTime": "2026-11-07T11:32:25.058Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "nirvana",
+      "driveFileId": "1ocOO14aLVLpGR6cKJIgxz6BH5QtefzKp",
+      "name": "Tabela de Vendas Nirvana - Novembro 2026.pdf",
+      "bytes": 257042,
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Nirvana - Novembro 2026.pdf",
+      "sourceSha256": "2f2d55391d9f7ed20aef27d518e1fde0eb8a538b853242e984f5bf2b5f43eff9",
+      "modifiedTime": "2026-11-07T11:32:13.910Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "stage",
+      "driveFileId": "1eCTCNsVxt5dkaPS22s521bYJ9jK6U1Kf",
+      "name": "Tabela de Vendas Stage - Financiamento - Novembro 2026.pdf",
+      "bytes": 375395,
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Stage - Financiamento - Novembro 2026.pdf",
+      "sourceSha256": "0c5ce33ce5260afa38a3485bbfafcf7c69baafc3a77d56ac5924e0cbe7c98cff",
+      "modifiedTime": "2026-11-07T11:32:18.849Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sunset",
+      "driveFileId": "1QNpQwQEHVnmrsD9FxiWw4aYUS1fiE1Qi",
+      "name": "Tabela de Vendas Sunset - Novembro 2026.pdf",
+      "bytes": 296236,
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Sunset - Novembro 2026.pdf",
+      "sourceSha256": "db549cd6497f38d481c62e99b7c324aadf406b6093b2def6d26d4582d947817f",
+      "modifiedTime": "2026-11-07T11:32:22.222Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "soma",
+      "driveFileId": "19TQG3m2y1S2OCqn_dsiNS0esrUeLV1MW",
+      "name": "Tabela de Vendas Soma - Novembro 2026.pdf",
+      "bytes": 600106,
+      "sourcePath": "Tabelas de Vendas/PROART/Tabela de Vendas Soma - Novembro 2026.pdf",
+      "sourceSha256": "af430602fb4174c8694c03e0f2975fd466f0dc0bece7b0041f574d230d14104e",
+      "modifiedTime": "2026-11-07T11:32:16.372Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "maren",
+      "driveFileId": "1SwzmO762LF1NW-dURK55elt-S2VH8RTX",
+      "name": "Tabela de Vendas Maren By RAMABE - Novembro 2026.pdf",
+      "bytes": 658399,
+      "sourcePath": "Tabelas de Vendas/RAMABE/Tabela de Vendas Maren By RAMABE - Novembro 2026.pdf",
+      "sourceSha256": "91b362022cc260e02be7ae8e78d39ea95f988eb0cf9706201ce03e44e2e5a4da",
+      "modifiedTime": "2026-11-06T11:24:04.645Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "soul-fonseca",
+      "driveFileId": "1VYKFjkrKCvXa1GOxTZk0gHC1k0DOWl8p",
+      "name": "Tabela de Vendas Soul Fonseca - Novembro 2026.pdf",
+      "bytes": 262785,
+      "sourcePath": "Tabelas de Vendas/RDR/Tabela de Vendas Soul Fonseca - Novembro 2026.pdf",
+      "sourceSha256": "ea2066ec1d52dcb3cf5424c32bee590e5532054cfb2b0707a9e1ca4a3d063e76",
+      "modifiedTime": "2026-11-06T11:23:58.616Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "sun-in",
+      "driveFileId": "1lHibm7bG2KMgSTDPUjpWAeY_lLBxLiVG",
+      "name": "Tabela de Vendas Sun In - Novembro 2026.pdf",
+      "bytes": 261162,
+      "sourcePath": "Tabelas de Vendas/RDR/Tabela de Vendas Sun In - Novembro 2026.pdf",
+      "sourceSha256": "147dd3390532ec19693f8dc9d7f67f577897d941790e9ad10da53e1c0b05d575",
+      "modifiedTime": "2026-11-06T11:24:01.789Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "giardino-di-verona",
+      "driveFileId": "104RhrBieqQe4z4euI1mTIkEzkH9LjdPF",
+      "name": "giardino-di-verona — Tabela de Vendas Giardino Di Verona - Agosto 2026.pdf",
+      "bytes": 168930,
+      "sourcePath": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Giardino Di Verona - Agosto 2026.pdf",
+      "sourceSha256": "3eab7585c1b9ff291d447a0d9a9075c23751fecb394f97fd7f36e5dbabd3c5bf",
+      "modifiedTime": "2026-10-02T01:40:52.136Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "dahlia-residence",
+      "driveFileId": "11m16-F_jxLyy-PH5vYT4FgbwYgwpO8r5",
+      "name": "dahlia-residence — Tabela de Vendas Dahlia - Agosto 2026.pdf",
+      "bytes": 252115,
+      "sourcePath": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Dahlia - Agosto 2026.pdf",
+      "sourceSha256": "9c4c06959a543a82bfbdf8780d26afa60b967f23816f1e1885d3e229e6c7e82f",
+      "modifiedTime": "2026-10-02T01:41:01.159Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "dianthus",
+      "driveFileId": "1_MhHPxQ2odEov9llMZ_JfLdA4ZqkDcGg",
+      "name": "dianthus — Tabela de Vendas Dianthus - Setembro 2026 (Atualizada).pdf",
+      "bytes": 141969,
+      "sourcePath": "Tabelas de Vendas/RJ ENGENHARIA/Tabela de Vendas Dianthus - Setembro 2026 (Atualizada).pdf",
+      "sourceSha256": "ce81645d48bdbeb129b6a7370c5b96edd35f287372e4bf3bedc91068d93bdb09",
+      "modifiedTime": "2026-10-02T01:41:20.208Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "attrium-icarai",
+      "driveFileId": "1VuvjYNxUP6iAIolXEA4Ut0pVUwDqd5-p",
+      "name": "Tabela de Vendas Attrium Icaraí - Outubro 2026.pdf",
+      "bytes": 561287,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas Attrium Icaraí - Outubro 2026.pdf",
+      "sourceSha256": "d4a1b8d6e73627b67e2c62afc8ffa4d00a7be41c1bb3ad5e3d1bbc0f6e267e1c",
+      "modifiedTime": "2026-10-09T11:17:11.449Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "ion-icarai",
+      "driveFileId": "1HYjSrxFrYisBMyuYTrOG2mhJMJrqwTcp",
+      "name": "Tabela de Vendas Ion Icarai - Outubro 2026.pdf",
+      "bytes": 597934,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas Ion Icarai - Outubro 2026.pdf",
+      "sourceSha256": "2b3a1fcf2234184a434175caf3a331c5e3240cbc1e7151258bbb2afd19dd71f8",
+      "modifiedTime": "2026-10-09T11:19:19.794Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "maestro",
+      "driveFileId": "1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY",
+      "name": "Tabela de Vendas Maestro - Outubro 2026.pdf",
+      "bytes": 434153,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas Maestro - Outubro 2026.pdf",
+      "sourceSha256": "98d8bfc43a637a5280093b460005ad33feae715938c20430ec142e78597f89f4",
+      "modifiedTime": "2026-10-09T11:19:22.827Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "clarice",
+      "driveFileId": "1NybBWiY1UGsJd_dFHMJIPhN_Bkl5xcNw",
+      "name": "Tabela de Vendas Clarice - Outubro 2026.pdf",
+      "bytes": 246473,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas Clarice - Outubro 2026.pdf",
+      "sourceSha256": "25b3f7e742d7e8a883985ad90e72ed3620dec46cbccd369c76d85fbdc7dd5a2f",
+      "modifiedTime": "2026-10-09T11:19:25.535Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "pulse",
+      "driveFileId": "1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw",
+      "name": "Tabela de Vendas Pulse - Outubro 2026.pdf",
+      "bytes": 282961,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas Pulse - Outubro 2026.pdf",
+      "sourceSha256": "5680a7b268b1435c41496a3946d31f2f04950d790f2aab173d0e2b8230376606",
+      "modifiedTime": "2026-10-09T11:19:28.530Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "origem",
+      "driveFileId": "1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c",
+      "name": "Tabela de Vendas Origem - Outubro 2026.pdf",
+      "bytes": 660373,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas Origem - Outubro 2026.pdf",
+      "sourceSha256": "3784b1a54057cdb6eb47325e064d0e23fe38a44c79eea023afa49dc88620ad97",
+      "modifiedTime": "2026-10-09T11:19:31.472Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "the-grove",
+      "driveFileId": "14AW8PVp0xTFEZlvcaAifRcsFy6_t-nxm",
+      "name": "Tabela de Vendas The Grove - Outubro 2026.pdf",
+      "bytes": 388026,
+      "sourcePath": "Tabelas de Vendas/SOTER/Tabela de Vendas The Grove - Outubro 2026.pdf",
+      "sourceSha256": "881d6256ee7e8b9813f24ad61c00c6649e72d581e603be293471a3cc53f3e273",
+      "modifiedTime": "2026-10-09T11:19:34.978Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "tropico-camboinhas",
+      "driveFileId": "1_kOO_JMmfSa779-qQNO85wzvf1qz7PdM",
+      "name": "Tabela de Vendas Trópico Camboinhas - Novembro 2026.pdf",
+      "bytes": 323252,
+      "sourcePath": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas Trópico Camboinhas - Novembro 2026 (1).pdf",
+      "sourceSha256": "48f71c8eec6a0228dfdb954ffaf95a3f74c6873961f1c3bd02f8f1d43b56534b",
+      "modifiedTime": "2026-11-04T11:10:06.966Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "flua",
+      "driveFileId": "14BRJtaDWhO0IlTkVRYwbJZnaSr_0E9D-",
+      "name": "flua — Tabela de Vendas Selling - Flua - Set_2026.pdf",
+      "bytes": 112431,
+      "sourcePath": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Flua - Set_2026.pdf",
+      "sourceSha256": "6b558c4448eb26ecdb9dcb86532b306036530c92331a246fc6a2f61cd6a774ee",
+      "modifiedTime": "2026-10-02T01:42:37.333Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "tresor-dior",
+      "driveFileId": "1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To",
+      "name": "Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
+      "bytes": 164678,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
+      "sourceSha256": "6be19c6834601d6c5436dda4a84d09c876f42d3a40627bfb3a61980ffd5543ea",
+      "modifiedTime": "2026-10-09T11:19:40.052Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "mare-blu",
+      "driveFileId": "1glKT_A9ThKKwIOfz6kN3DCAO7neUpjpf",
+      "name": "mare-blu — Tabela de Vendas Mare Blu - Setembro 2026.pdf",
+      "bytes": 298240,
+      "sourcePath": "Tabelas de Vendas/EQUIPE/Tabela de Vendas Mare Blu - Setembro 2026.pdf",
+      "sourceSha256": "b33fd3a3e79c6edd58378593a49782f2b0c55d803839f43b77b2cb94b342535b",
+      "modifiedTime": "2026-10-02T21:09:24.607Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "conviva-piratininga",
+      "driveFileId": "1oST13WgpeRVGfHyU7RimlSWxvKEtEFpH",
+      "name": "Tabela de Vendas Conviva Piratininga - Outubro 2026.pdf",
+      "bytes": 154349,
+      "sourcePath": "Tabelas de Vendas/CONVIVA/Tabela de Vendas Conviva Piratininga - Outubro 2026.pdf",
+      "sourceSha256": "2cda426daf725e68b0f68902939e4265a7908c9b47f5abc3d3ef67beebb83b1d",
+      "modifiedTime": "2026-10-09T11:19:42.419Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "eldorado-ii",
+      "driveFileId": "158E2Sd-pSaPZWy3FyZf5gqe3I76-WQbY",
+      "name": "eldorado-ii — Tabela de Vendas Eldorado II - Outubro 2026.pdf",
+      "bytes": 189176,
+      "sourcePath": "Tabelas de Vendas/PINTO DE ALMEIDA/Tabela de Vendas Eldorado II - Outubro 2026.pdf",
+      "sourceSha256": "8c27ac9d377ff079d69cf7b4705268257beb37402573c21cf6a6d5ce9f1f8e89",
+      "modifiedTime": "2026-10-02T21:09:44.680Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "business",
+      "driveFileId": "1D808AQHFwhhUYlOaGeLNfc7wnfnQgiw4",
+      "name": "Tabela de Vendas Business - Novembro 2026.pdf",
+      "bytes": 171388,
+      "sourcePath": "Tabelas de Vendas/ITAUBA/Tabela de Vendas Business - Novembro 2026.pdf",
+      "sourceSha256": "11665764a114aa124e805c2ea27db53947d862a6ff5cb0038ee3309fc0692de6",
+      "modifiedTime": "2026-11-06T11:24:56.542Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "reserva-natural",
+      "driveFileId": "1CNOpi0sl9Z8bQAqUkl566IO6jEyhPGWE",
+      "name": "reserva-natural — Tabela de Vendas Selling - Reserva Natural - Set_2026.pdf",
+      "bytes": 83500,
+      "sourcePath": "Tabelas de Vendas/SELLING/Tabela de Vendas Selling - Reserva Natural - Set_2026.pdf",
+      "sourceSha256": "261baaa621494874bf7189b5e19133074c043692b0cba8507d5b41300662571b",
+      "modifiedTime": "2026-10-02T21:10:15.302Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "seven-avenue",
+      "driveFileId": "1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v",
+      "name": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+      "bytes": 136800,
+      "sourcePath": "Tabelas de Vendas/BACOS/Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
+      "sourceSha256": "66a05a2ce4cacb98d4a7dcd5c00e331de2240d393f6eb088263a40daab3cd90e",
+      "modifiedTime": "2026-10-23T11:08:47.456Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "santa-barbara",
+      "driveFileId": "1nFVsH4_4k8nHJruYDjUF1iQhCwfNi_L2",
+      "name": "santa-barbara — Tabela de Vendas Santa Bárbara - Março 2026.pdf",
+      "bytes": 576853,
+      "sourcePath": "Tabelas de Vendas/FEFM/Tabela de Vendas Santa Bárbara - Março 2026.pdf",
+      "sourceSha256": "a620f087a000a085dfbbc7dee34b4fd68af0964d5ac291e107192fa45728f789",
+      "modifiedTime": "2026-10-02T21:10:40.624Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "golden-ville-residence",
+      "driveFileId": "1xrEPQ3LnwOc1nWyqQB1q42RkTEMA1fP1",
+      "name": "golden-ville-residence — Tabela de Venda - Golden Ville Residence - Julho_2026.pdf",
+      "bytes": 17219,
+      "sourcePath": "Tabelas de Vendas/NATUS/Tabela de Venda - Golden Ville Residence - Julho_2026.pdf",
+      "sourceSha256": "1e17ad204d14d181d7e344cf6f6ee261b77d60784fde017e5a032f19a63cc3b1",
+      "modifiedTime": "2026-10-02T21:10:49.075Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "davinci",
+      "driveFileId": "1bPydbMAmX32fcmnDQ3Ed6KoYYtTrOAlY",
+      "name": "Tabela de Vendas DaVinci - Novembro 2026.pdf",
+      "bytes": 473294,
+      "sourcePath": "Tabelas de Vendas/TECCONSTRU/Tabela de Vendas DaVinci - Novembro 2026.pdf",
+      "sourceSha256": "d99af5015b90f241f32799946ae33f96185786ab38da5b97bef874f7b44369e4",
+      "modifiedTime": "2026-11-04T11:10:03.626Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "baume",
+      "driveFileId": "1aL3kDI-OL_mTL7p0QgJQ2cwJLsGNYiCC",
+      "name": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+      "bytes": 415254,
+      "sourcePath": "Tabelas de Vendas/CEU/Tabela de Vendas Bäume - Novembro 2026.pdf",
+      "sourceSha256": "7fe29fcc3d89ca1dc3107608b8c2b83159ab100dc90d5f30bf89b743f1d75e76",
+      "modifiedTime": "2026-11-05T11:10:56.967Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": false
+    },
+    {
+      "projectId": "orla-guanabara",
+      "driveFileId": "1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J",
+      "name": "Tabela de Vendas Orla Guanabara - Novembro 2026 - Lançamento.pdf",
+      "bytes": 730250,
+      "sourcePath": "Tabelas de Vendas/Emccamp/Tabela de Vendas Orla Guanabara - Novembro 2026 - Lançamento.pdf",
+      "sourceSha256": "9bcb5229781ac4cc314111f353d28586858b896303da7d68e406b34309231825",
+      "modifiedTime": "2026-11-10T11:27:47.687Z",
+      "publicReader": true,
+      "reDownloadedAndHashVerified": true
+    }
+  ],
+  "updatedFilesSha256Verified": 2,
+  "mapProjectFolders": 83,
+  "mapProjectFiles": 167,
+  "foldersWithExactlyTwoFiles": 82,
+  "baumeSupplementaryOwnerBookPreserved": true,
+  "foldersWithMultipleCurrentTables": [],
+  "postUpdateFoldersRelisted": [
+    "cascais",
+    "orla-guanabara"
+  ],
+  "mapFolderInventory": [
+    {
+      "id": "15tBtue6wSBBZKC-TZgN1hRw_50LMBtJm",
+      "name": "Rio Branco 220",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "12_97FGE0glb5_w4gJuKQMuufdWcB4HOE",
+      "name": "Soul Fonseca",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1t2etFYzBn6N-mRyFecIm_HMZFE01jICf",
+      "name": "Solo",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1nNbgnj18Tf3aXRRbIWVlP4FM3rhLUEU8",
+      "name": "Baume",
+      "tables": 1,
+      "books": 2,
+      "files": 3
+    },
+    {
+      "id": "1f-tr7uHyTlepzJLxmnuQDYX085V1hbSA",
+      "name": "Conviva Piratininga",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1yH0aXJw4C8GjJGwfD4QVuK-NIlnJ_XrM",
+      "name": "Mare Blu",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "16ru0BFnMr020LmEC5NuQiTxz6xzsRq8B",
+      "name": "Trésor Dior",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1JlYlvkPR8FRsDu4B7mJySxm_YRZobRd_",
+      "name": "Flua",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "14G5mrHjLqJgRSYrX87W-yW_KZgQNjexE",
+      "name": "Trópico Camboinhas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1E4tVcmwOfBZ7WBbOFaLkZrMsBmB_W5Kp",
+      "name": "The Grove",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "13WHgV5-n3Vr3c3VrOkix7ffhEVM3baiW",
+      "name": "Origem",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1Tg6PqYROopgydUHkzoTbB45-8cZrvpdK",
+      "name": "Pulse",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1RPlg2rGL228IJiY7jLrkt4XeIiHwukW7",
+      "name": "Clarice",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1U_lskyTit5MJ7ZLghcV_zaIs9UQKjN-I",
+      "name": "Maestro",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "18v3zhNRdsBwrJlhuHWZcMAnLKRxVdG7f",
+      "name": "Attrium Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1uh50F_jkXzlE3WTQXjKX049ugbhgvY-c",
+      "name": "Íon Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1katGHHtN41lajuUDzoIB7VRfa23GbfG3",
+      "name": "Giardino di Verona",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1w4ZuAqeE5FoJV-iONcewXlXnSPEb6ILu",
+      "name": "Dianthus",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "10DQ43ZUoNipywCtt2Hp_0qLDA4pYnIbc",
+      "name": "Dahlia Residence",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1QrCuc7N1h-QoNrSeD1XDX6oZvkeXWyFw",
+      "name": "Maren",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1T8gQ4nWZpqCifyHi_uphSw7UYNsyGfGC",
+      "name": "Sun In",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1DsRxOSJqox0BEALsiqvZee8_uliNgY5z",
+      "name": "Soma",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1E6CIsSV_uUTU29tDWNUas4zT_tM097DL",
+      "name": "Sunset",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1jL8QqZAtyOLxeX3h-iHHiBRcfbdI4SUe",
+      "name": "Stage",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1KyO5dxDUrV5EhWxY4WDCQnvAJa8nBNos",
+      "name": "Up Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1FnfzsQlpYIMMfbJ4-yGCBqADenqRwh9h",
+      "name": "Nirvana",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1pwNL-ubBexUADhZOar4GTsGS64wggEIY",
+      "name": "Jardim dos Manacás",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1EUIGkR1Pvm4t-E3EUONbDJaiph-Nn55H",
+      "name": "Gael",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1ricRGOuu6DNb7ykNPhadfekJQ3H_j9Ne",
+      "name": "Monier",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "14Fnzo772hwKiSO54T3b3yhmklLD1eHGS",
+      "name": "Green Life",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1nAOQWe01YHKmjI3EXPUaeOlsMq70XHGn",
+      "name": "115 Tapuias",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1c0cg70elNFlOM4z1fp2KyIyGRd5kZwm-",
+      "name": "Wind Oceânica",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "13pMxyaqi6hqDe00YQbwYKOXnQm3_Kjye",
+      "name": "Jardim Itacoá",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1RttDs4cANsRCaebv69r2BYY0AXZqnc94",
+      "name": "Calle Sardegna",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1XpsFTSyyxGp94ENu3l1F2uHu1FgUGypV",
+      "name": "Scenarium Piratininga",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1Q2Fx98sbBzFUZJhhd48RFKy9pvO-oLMg",
+      "name": "Maris",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1EgzpQ6-Dc_c0sZJ9HmMw5DpU7sVFoxVA",
+      "name": "Uni Home Studios",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1DkGUq5PC1LfmM2DqovNhSitIoQCBxbFD",
+      "name": "Terramarine",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1w_MOkzfYZdoF-JVzQrILPyHZ5f-PDkgm",
+      "name": "Althea",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1YRaIACjQpx2iETQn-JvUN8sDoMjWo-qH",
+      "name": "NP38",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1pzqSfqH6foiIoCbodwqN8WA-rSpZ1hXA",
+      "name": "Triunfo",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1fMXnZNsH8fWY1YPeHLOFH97-Jgy5SPVU",
+      "name": "Serena",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "10thifrrKN02sDyQi-ksFXJeCz8CLaGHL",
+      "name": "Marina",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "11q1-0kfAOC0JXL5NFQp4mT4Zm2GFkmJj",
+      "name": "Sou + Wellness Charitas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1Ia1Q-7U1GAndn6bPFs_PFKMug_j8V7DO",
+      "name": "Sou + Charitas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "12U8VzFAvXACTyoVgaZOuv9x91OjzEGzO",
+      "name": "Sou + Itacoá",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1xd0TC_6VKc-ExGs_x-rIBd-TeMMEmdU5",
+      "name": "Sou + Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1MBfQSrHfABi2O_C6Sjalnt22haCMUHYc",
+      "name": "Lazuli",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1AX9pLWLCLqBggg6joUGysZxU3u8qQZD2",
+      "name": "Green Open",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1I_Bcsh4pUG9xiNxcoCIzAi52cG1-I9mS",
+      "name": "Niterói Open Santa Rosa",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1Ml0xH8jTwdNKckQirA8pC5bW4tm5rO5-",
+      "name": "SD40",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1woUTbSZn2GztdNR9te_UHAPYb6H_7t5H",
+      "name": "Íle",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1rVmUpozELRS80LsMgdSmzHqBzw-HWhGB",
+      "name": "Duetto",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "19c0OYFdCuDKMG5lVuQ1_DOfNqF69iD2E",
+      "name": "Arend",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1keQsiCszWk5RU426YlL9VJqXGAEVqOcK",
+      "name": "Trend by Falves",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1T1RIFqSCvOgf7p_7cARDov-L68xkNHAu",
+      "name": "Cascais",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1U3rtpPdV961BYmzcNX4sro7tNQWUNrcK",
+      "name": "Namas Smart Living",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1IPiBDCcPdhuJuDsNx9aI0a0DuDfNktnk",
+      "name": "Mok 132",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1QwZ1gCR1-GobCwiZxqAdil5WGTe6-14y",
+      "name": "Upside Charitas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1hUM01-IElydHTllHbkBGV7cHcWyrBa8d",
+      "name": "Neo Design Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1Rg9lS7tAa0JLLtXS5dNfkov314Xl3L4A",
+      "name": "Reserva São Francisco",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1MG6Cfb24dw_zzkAxb3id86ZTLIDHEHc2",
+      "name": "The Pier",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1inVX8yH8C-ItHAWMCZW0Qi4HVDYpkSWz",
+      "name": "Orla Central",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1-G-K6alFPcFJjB4KrWF43FxjG4DoB1GS",
+      "name": "Caminhos da Guanabara",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "12kOdYYr5UaO77udaU8Wht2vHNBpDgSHG",
+      "name": "Conviva Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1m0uLTccomsqoOPZFFEy8OrEZkmWDW8S1",
+      "name": "Conviva Life Ingá",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1lAZ5fenc0pUek6vcPuYgXMvPjBMHTti9",
+      "name": "Conviva Itacoá",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1pK2E75pFA4jlMkV36d0CyrN5LBPXDK8q",
+      "name": "Tao",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1CTE29HvFkPJC0Lqkg64bFWBoZN3FhmoO",
+      "name": "Brise by Conviva",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "19TdWYR1YPAHvV25rWBk_ilj1aSdVzyLM",
+      "name": "Conviva Life Camboinhas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1-Y1Jv-sVbcKgjxpf13xC1vdOLyhcP3_m",
+      "name": "Nice Camboinhas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1UlNBJ-0S0rmBrjbWBKQVOCTr97lm1Aq0",
+      "name": "Conviva Charitas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1_u7z0oPdeKor7WuWyd7pc9OYuZL30Yh8",
+      "name": "Conviva Camboinhas",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1qvZ7MaekNqiApNsXqS7mIpZd13V1-ALv",
+      "name": "Maria Maria",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1CdqE7IEbAFy3syGb_uxQwvzSQkpSbDQs",
+      "name": "Nomad",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1fFC7t35sDtGM5RGQbSj0tftqzYkbexj6",
+      "name": "141 Living",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "13FO2myal1G2r1ZMH_XKyjRCsx21k824h",
+      "name": "Oka São Francisco",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1rN-cGuvcMVmde3G8UBz6NPBb6qbuWT5e",
+      "name": "Oka Icaraí",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1oHyG3cpQUvxcKbRSbZH4lR5lJh8p8mMc",
+      "name": "Style",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1GotTbcBDI4JBIimdNgjTHt3p-7XvB0Qb",
+      "name": "Pebê 74",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1cxKcitk6rog_nCelueKz6raDAF8kl---",
+      "name": "Singular",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1n6TId9zWXQQAQiZImQsz6FrbKZjvv8_G",
+      "name": "Jardin di Grazielle",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    },
+    {
+      "id": "1UuiouqqMn3fmqmTpjaAtZcsxcHEwJQ3s",
+      "name": "Orla Guanabara",
+      "tables": 1,
+      "books": 1,
+      "files": 2
+    }
+  ],
+  "mainFolderFiles": 8,
+  "outsideMapBooksRootItems": 56,
+  "verificationScope": "Fresh current metadata/public reader for all 221 unique referenced files; all 83 map folders enumerated; all 90 table byte sizes matched to current SHA-verified sources. Both changed/new tables downloaded back and SHA-256 matched. Other unchanged Drive PDFs were not re-downloaded.",
+  "changes": [
+    {
+      "id": "cascais",
+      "action": "replaced-in-place",
+      "stableUrl": true
+    },
+    {
+      "id": "orla-guanabara",
+      "action": "created-material-folder-and-table-moved-existing-book",
+      "folderId": "1UuiouqqMn3fmqmTpjaAtZcsxcHEwJQ3s",
+      "publicReaderVerified": true,
+      "duplicateEspelhoOmittedBecauseIncludedInTablePages": [
+        22,
+        23
+      ]
+    }
+  ]
+}

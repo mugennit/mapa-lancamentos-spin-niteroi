@@ -348,7 +348,7 @@
     "url": "https://drive.google.com/file/d/1_ZamfspHEFHYbcaM0TfGOtrb_B7JYgZ8/view?usp=drivesdk"
   },
   {
-    "name": "Tabela de Vendas Cascais - Março 2026 (1).pdf",
+    "name": "Tabela de Vendas Cascais Estrada Froes - Novembro 2026.pdf",
     "group": "Falves",
     "type": "Tabela",
     "url": "https://drive.google.com/file/d/1zYQzLDkhVzWmGD_160L51CsuVKrqSYA7/view?usp=drivesdk"
@@ -1324,5 +1324,11 @@
     "group": "CEU",
     "type": "Book",
     "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk"
+  },
+  {
+    "name": "Tabela de Vendas Orla Guanabara - Novembro 2026 - Lançamento.pdf",
+    "group": "Emccamp",
+    "type": "Tabela",
+    "url": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk"
   }
 ]

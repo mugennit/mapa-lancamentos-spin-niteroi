@@ -3600,5 +3600,12 @@
     "availableUnits": [],
     "availabilityTableDate": null
   },
-  "santa-barbara": {}
+  "santa-barbara": {},
+  "orla-guanabara": {
+    "typologies": [
+      "1 quarto",
+      "2 quartos"
+    ],
+    "sourceUrl": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk"
+  }
 }
