@@ -4921,21 +4921,23 @@
     ],
     "delivery": null,
     "status": "Lançamento",
-    "lat": null,
-    "lng": null,
-    "precision": null,
+    "lat": -22.886341,
+    "lng": -43.127997,
+    "precision": "exact",
     "photo": null,
     "checkedAt": "2026-11-10",
     "notes": [
       "Arquivo de novembro de 2026; a tabela impressa informa base de preços de outubro de 2026 e versão de 28/10/2026.",
       "Tabela preliminar com 700 unidades. Confirme a disponibilidade no espelho de vendas antes da proposta.",
       "As unidades de 1 quarto são identificadas como PcD. A tabela indica 680 unidades sem vaga de automóvel e 20 com uma vaga.",
-      "Book e tabela confirmados. Falta confirmar o ponto exato no Google Maps para exibir o pin."
+      "Ponto exato fornecido por Frederico Costa em 10/11/2026 e conferido no link do Google Maps."
     ],
-    "locationStatus": "Endereço conferido; ponto exato pendente",
+    "locationStatus": "Ponto exato fornecido e confirmado por Frederico Costa no Google Maps",
     "addressReview": null,
     "addressSource": "https://emccamp.com.br/empreendimento/orla-guanabara/",
     "addressReviewStatus": "Conferido",
-    "materialsCheckedAt": "2026-11-10"
+    "materialsCheckedAt": "2026-11-10",
+    "locationSource": "https://maps.app.goo.gl/9XTgRqQXzm4Sc9FUA",
+    "locationCheckedAt": "2026-11-10"
   }
 ]

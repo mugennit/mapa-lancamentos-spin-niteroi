@@ -13,7 +13,7 @@
     "projectsWithTable": 90,
     "driveProjectFolders": 83,
     "driveFilesInProjectFolders": 167,
-    "mapEligibleProjects": 82
+    "mapEligibleProjects": 83
   },
   "validation": {
     "tableComparison": "All 142 current source table PDFs fully CRC/SHA-256 verified against 09/11; 135 identical, five version replacements and two new Orla Guanabara files.",
@@ -44,7 +44,8 @@
       "retiredCatalogTables": 0,
       "allReferencedUniqueFilesWithPublicReader": 221,
       "newOfficialBooks": 0,
-      "ownerSuppliedBooksPreserved": 1
+      "ownerSuppliedBooksPreserved": 1,
+      "ownerProvidedExactPointsIncorporated": 1
     },
     "sourceTableVersionReplacements": 5,
     "catalogTablesUpdated": 2,
@@ -950,7 +951,7 @@
   "lastFullSourceAuditAt": "2026-11-10",
   "lastTablesComparedAt": "2026-11-10",
   "sourceAuditReport": "data/source-audit-2026-11-10.json",
-  "lastCoordinatesUpdatedAt": "2026-10-27",
+  "lastCoordinatesUpdatedAt": "2026-11-10",
   "coordinatesAuditReport": "data/coordinates-audit-2026-11-10.json",
   "lastCatalogMetadataUpdatedAt": "2026-11-10",
   "lastBooksUpdatedAt": "2026-11-05"

@@ -7,7 +7,8 @@
     "Opened both source folders through the Linktree buttons in the public shared session.",
     "Scrolled both virtualized roots and every folder/subfolder to the end; reconciled displayed counts with exact Unicode-normalized downloaded paths.",
     "Read all 274 source PDFs to EOF, verifying ZIP CRC and SHA-256 against 09/11.",
-    "Read all current Drive permissions/metadata, all project-folder children, and the entire current coordinate sheet; re-downloaded both written tables and verified hashes."
+    "Read all current Drive permissions/metadata, all project-folder children, and the entire current coordinate sheet; re-downloaded both written tables and verified hashes.",
+    "After the full scan, Frederico Costa supplied the exact Orla Guanabara Maps point. The link resolved to the explicit numeric pair -22.886341, -43.127997; the current catalog was updated and the owner-confirmed pin added."
   ],
   "structure": {
     "tables": {
@@ -50,8 +51,11 @@
       "id": "orla-guanabara",
       "action": "added-first-confirmed-table",
       "driveUrl": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk",
-      "mapPinAdded": false,
-      "reason": "Exact coordinates pending; retained in general list with book and table."
+      "mapPinAdded": true,
+      "reason": "Frederico Costa supplied the exact Maps point during the execution; book, table and exact coordinates are confirmed.",
+      "locationSource": "https://maps.app.goo.gl/9XTgRqQXzm4Sc9FUA",
+      "lat": -22.886341,
+      "lng": -43.127997
     },
     {
       "id": "cascais",
@@ -102,11 +106,13 @@
   "catalog": {
     "projects": 114,
     "projectsWithBookAndTable": 83,
-    "mapEligibleProjects": 82,
+    "mapEligibleProjects": 83,
     "projectsWithTable": 90,
     "addedProjects": [],
     "removedProjects": [],
-    "addedPins": [],
+    "addedPins": [
+      "orla-guanabara"
+    ],
     "removedPins": [],
     "pendingIncompleteProjectsRetained": 31
   },
@@ -119,20 +125,19 @@
     "projectRows": 112,
     "completeProjectsChecked": 83,
     "numericPairsMatched": 80,
-    "ownerMapsLinksMatched": 1,
+    "ownerMapsLinksMatched": 2,
     "ownerConfirmedCatalogException": 1,
-    "completeProjectsPendingLocation": [
+    "completeProjectsPendingLocation": [],
+    "newNumericCoordinates": [
       {
         "id": "orla-guanabara",
-        "name": "Orla Guanabara",
-        "address": "Rua Jornalista Rogério Coelho Neto, 250 — Centro, Niterói/RJ",
-        "row": null,
-        "reason": "No row or exact owner-confirmed numeric point/Maps link in the current sheet",
-        "requiredAction": "Frederico Costa: add numeric coordinates or a link to the exact Maps point.",
-        "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit"
+        "lat": -22.886341,
+        "lng": -43.127997,
+        "sourceUrl": "https://maps.app.goo.gl/9XTgRqQXzm4Sc9FUA",
+        "kind": "owner-supplied-exact-Maps-point",
+        "sheetRow": null
       }
     ],
-    "newNumericCoordinates": [],
     "genericGeocodingUsed": false,
     "sheetReReadUnchanged": true,
     "matched": [
@@ -544,8 +549,20 @@
       {
         "id": "baume",
         "kind": "ownerConfirmedCatalogException"
+      },
+      {
+        "id": "orla-guanabara",
+        "row": null,
+        "kind": "ownerMapsLink",
+        "source": "User supplied the exact point in this execution",
+        "sourceUrl": "https://maps.app.goo.gl/9XTgRqQXzm4Sc9FUA",
+        "lat": -22.886341,
+        "lng": -43.127997
       }
-    ]
+    ],
+    "ownerMapsLinksProvidedInConversation": 1,
+    "sheetWritePerformed": false,
+    "note": "The current sheet still has 112 project rows and no Orla Guanabara row. The exact numeric point was supplied directly by Frederico Costa during this execution, expanded from his Maps link and incorporated into the current catalog. No generic geocoding or spreadsheet write was used."
   },
   "drive": {
     "mapSiteFolders": 83,
@@ -599,9 +616,7 @@
     "uiArchiveExactPaths": true,
     "sourceCrcAndSha256": true,
     "currentSheetRead": true,
-    "coordinatesMissingForCompleteProjects": [
-      "orla-guanabara"
-    ],
+    "coordinatesMissingForCompleteProjects": [],
     "dataInvariants": true,
     "sourceCodeUnchanged": true,
     "searchAndParkingTestsPassed": true,
@@ -613,11 +628,12 @@
   ],
   "publication": {
     "method": "GitHub main → Vercel",
-    "baseCommit": "f678e12dec6a06fe944c98f176101cba39b5121e",
+    "baseCommit": "c2959edae14e40100a09f30b135d8758a56ab8af",
     "status": "ready-to-publish",
     "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app/login",
     "passwordProtectionPreserved": true,
     "completionVerification": "Deployment statuses for the new GitHub commit and the live production login are checked after publication; the execution response records the observed result.",
-    "previousPublishedCommitVerified": "f678e12dec6a06fe944c98f176101cba39b5121e"
+    "previousPublishedCommitVerified": "f678e12dec6a06fe944c98f176101cba39b5121e",
+    "materialAuditCommitVerifiedDeployed": "c2959edae14e40100a09f30b135d8758a56ab8af"
   }
 }

@@ -7,20 +7,19 @@
   "projectRows": 112,
   "completeProjectsChecked": 83,
   "numericPairsMatched": 80,
-  "ownerMapsLinksMatched": 1,
+  "ownerMapsLinksMatched": 2,
   "ownerConfirmedCatalogException": 1,
-  "completeProjectsPendingLocation": [
+  "completeProjectsPendingLocation": [],
+  "newNumericCoordinates": [
     {
       "id": "orla-guanabara",
-      "name": "Orla Guanabara",
-      "address": "Rua Jornalista Rogério Coelho Neto, 250 — Centro, Niterói/RJ",
-      "row": null,
-      "reason": "No row or exact owner-confirmed numeric point/Maps link in the current sheet",
-      "requiredAction": "Frederico Costa: add numeric coordinates or a link to the exact Maps point.",
-      "sheetUrl": "https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit"
+      "lat": -22.886341,
+      "lng": -43.127997,
+      "sourceUrl": "https://maps.app.goo.gl/9XTgRqQXzm4Sc9FUA",
+      "kind": "owner-supplied-exact-Maps-point",
+      "sheetRow": null
     }
   ],
-  "newNumericCoordinates": [],
   "genericGeocodingUsed": false,
   "sheetReReadUnchanged": true,
   "matched": [
@@ -432,6 +431,18 @@
     {
       "id": "baume",
       "kind": "ownerConfirmedCatalogException"
+    },
+    {
+      "id": "orla-guanabara",
+      "row": null,
+      "kind": "ownerMapsLink",
+      "source": "User supplied the exact point in this execution",
+      "sourceUrl": "https://maps.app.goo.gl/9XTgRqQXzm4Sc9FUA",
+      "lat": -22.886341,
+      "lng": -43.127997
     }
-  ]
+  ],
+  "ownerMapsLinksProvidedInConversation": 1,
+  "sheetWritePerformed": false,
+  "note": "The current sheet still has 112 project rows and no Orla Guanabara row. The exact numeric point was supplied directly by Frederico Costa during this execution, expanded from his Maps link and incorporated into the current catalog. No generic geocoding or spreadsheet write was used."
 }
