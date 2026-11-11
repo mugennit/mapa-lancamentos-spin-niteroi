@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-11-11",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-10",
+  "method": [
+    "Opened Linktree and clicked both required source buttons in the public shared session; no sign-in required.",
+    "Scrolled every root, folder and subfolder to the end; reconciled displayed child counts with all downloaded archive paths.",
+    "Read all 273 main-source files to EOF, checking ZIP CRC and SHA-256; additionally read all 71 supplemental Orla files.",
+    "Re-read the current entire coordinate sheet and matched every complete project.",
+    "Re-read all referenced Drive permissions/metadata and all map folder children. Re-downloaded all four replacements and verified SHA-256."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "subfolders": 0,
+      "filesListed": 141,
+      "archiveFiles": 141,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "subfolders": 3,
+      "filesListed": 132,
+      "archiveFiles": 132,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 141,
+      "identical": 137,
+      "newVersionFiles": 4,
+      "removedOldPaths": 5,
+      "unchangedPathContentChanges": 0
+    },
+    "books": {
+      "files": 132,
+      "pdfs": 131,
+      "mp4": 1,
+      "identical": 132,
+      "new": 0,
+      "removed": 0
+    },
+    "supplementalOrla": {
+      "folders": 8,
+      "files": 71,
+      "commercialTablesOrBooks": 0
+    }
+  },
+  "changes": {
+    "tablesUpdated": [
+      {
+        "id": "brise-by-conviva",
+        "sourceFile": "Tabela de Vendas Brise - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 699900,
+        "afterPrice": 749900.0,
+        "beforeOffers": 19,
+        "afterOffers": 19
+      },
+      {
+        "id": "conviva-icarai",
+        "sourceFile": "Tabela de Vendas Conviva Icaraí - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 594900,
+        "afterPrice": 664900.0,
+        "beforeOffers": 19,
+        "afterOffers": 18
+      },
+      {
+        "id": "conviva-life-inga",
+        "sourceFile": "Tabela de Vendas Conviva Life Ingá - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 444900,
+        "afterPrice": 489900.0,
+        "beforeOffers": 28,
+        "afterOffers": 27
+      },
+      {
+        "id": "nice-camboinhas",
+        "sourceFile": "Tabela de Vendas Nice Camboinhas - Novembro 2026.pdf",
+        "commercialDate": "09/11/2026",
+        "beforePrice": 1160390,
+        "afterPrice": 1229900.0,
+        "beforeOffers": 2,
+        "afterOffers": 3
+      }
+    ],
+    "retiredTables": [
+      "eldorado-ii"
+    ],
+    "projectsAdded": [],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": [],
+    "foldersRemoved": [],
+    "metadataOnlyChanges": []
+  },
+  "catalog": {
+    "projects": 114,
+    "completePairs": 83,
+    "mapPins": 83,
+    "projectsWithCurrentTable": 89,
+    "incompleteProjectsPreserved": 31
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 83,
+    "newPoints": [],
+    "pending": [],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 221,
+    "uniqueReferencedFiles": 220,
+    "allReferencedPublicReader": true,
+    "mapFolders": 83,
+    "mapFiles": 167,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 4,
+    "retiredEldoradoFile": "Preserved as HISTÓRICO outside Tabelas de Vendas SPIN; no active link or offer remains."
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true
+  },
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "3c3b1a19a1d0d79560e05df2004439dd3f9d2a22",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "This source record is written before its containing commit exists. Verify the containing commit deployment status for completed publication."
+  }
+}

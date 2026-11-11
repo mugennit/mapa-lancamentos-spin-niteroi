@@ -1,59 +1,56 @@
 {
-  "checkedAt": "2026-11-10",
+  "checkedAt": "2026-11-11",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
     "tableFolders": 42,
-    "tableSourceFiles": 142,
+    "tableSourceFiles": 141,
     "bookRootFolders": 41,
     "bookSubfolders": 3,
     "bookSourceFiles": 132,
     "catalogProjects": 114,
     "projectsWithBookAndTable": 83,
-    "projectsWithTable": 90,
+    "projectsWithTable": 89,
     "driveProjectFolders": 83,
     "driveFilesInProjectFolders": 167,
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "All 142 current source table PDFs fully CRC/SHA-256 verified against 09/11; 135 identical, five version replacements and two new Orla Guanabara files.",
-    "identicalTables": 135,
-    "differentTables": 5,
+    "tableComparison": "All 141 current source table PDFs fully read to EOF and CRC/SHA-256 verified against 10/11: 137 identical, four version replacements, Eldorado II table removed.",
+    "identicalTables": 137,
+    "differentTables": 4,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "All 132 source Book PDFs fully CRC/SHA-256 identical to 09/11.",
+    "bookComparison": "All 132 source Book-folder files (131 PDFs and one MP4) fully CRC/SHA-256 identical to 10/11.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 1,
-    "bookContentReport": "data/books-content-comparison-2026-11-10.json",
+    "newTables": 0,
+    "bookContentReport": "data/books-content-comparison-2026-11-11.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-10",
-      "baseline": "2026-11-09",
-      "tableFilesIdenticalSha256": 135,
-      "tableFilesAdded": 7,
+      "date": "2026-11-11",
+      "baseline": "2026-11-10",
+      "tableFilesIdenticalSha256": 137,
+      "tableFilesAdded": 4,
       "tableFilesRemoved": 5,
-      "sourceTableVersionReplacements": 5,
-      "catalogTablesUpdated": 2,
+      "sourceTableVersionReplacements": 4,
+      "catalogTablesUpdated": 4,
       "bookFilesIdenticalSha256": 132,
       "bookFilesAdded": 0,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
-      "retiredCatalogTables": 0,
-      "allReferencedUniqueFilesWithPublicReader": 221,
+      "retiredCatalogTables": 1,
+      "allReferencedUniqueFilesWithPublicReader": 220,
       "newOfficialBooks": 0,
       "ownerSuppliedBooksPreserved": 1,
-      "ownerProvidedExactPointsIncorporated": 1
+      "ownerProvidedExactPointsIncorporated": 0
     },
-    "sourceTableVersionReplacements": 5,
-    "catalogTablesUpdated": 2,
-    "catalogValidityMetadataCorrections": [
-      "cascais",
-      "orla-guanabara"
-    ],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-10.json",
+    "sourceTableVersionReplacements": 4,
+    "catalogTablesUpdated": 4,
+    "catalogValidityMetadataCorrections": [],
+    "commercialValidityReview": "data/table-commercial-review-2026-11-11.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json"
   },
@@ -303,38 +300,10 @@
       "driveIdentical": true
     },
     {
-      "id": "nice-camboinhas",
-      "name": "Tabela de Vendas Nice Camboinhas - Outubro 2026.pdf",
-      "sha256": "89b596ca1884819c9864a9eaf4d6c8b0d3490f6eb651d138bd168878adf0e875",
-      "bytes": 113689,
-      "driveIdentical": true
-    },
-    {
-      "id": "brise-by-conviva",
-      "name": "Tabela de Vendas Brise by Conviva - Outubro 2026.pdf",
-      "sha256": "6da800b8f13a1c9fe7adb3956f2fc3b0c0c7439d3bf398da02111b3f1dccef1d",
-      "bytes": 111581,
-      "driveIdentical": true
-    },
-    {
       "id": "conviva-life-camboinhas",
       "name": "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
       "sha256": "7560af101d6a76c0fb8af967dd2da50f1e4ea90c9805ca30d9a97b6c303f840f",
       "bytes": 309437,
-      "driveIdentical": true
-    },
-    {
-      "id": "conviva-life-inga",
-      "name": "Tabela de Vendas Conviva Life Ingá - Outubro 2026.pdf",
-      "sha256": "ca94751162f40ff0131ff9c2af243c319fc0a1304bc63db0eb9b42b76dc24f45",
-      "bytes": 157848,
-      "driveIdentical": true
-    },
-    {
-      "id": "conviva-icarai",
-      "name": "Tabela de Vendas Conviva Icaraí - Outubro 2026.pdf",
-      "sha256": "faaa2c970a14a37c9c568e5722990b7178c9ec679d9237a75efe6b15827a8f4d",
-      "bytes": 507512,
       "driveIdentical": true
     },
     {
@@ -816,13 +785,6 @@
       "driveIdentical": true
     },
     {
-      "id": "eldorado-ii",
-      "name": "Tabela de Vendas Eldorado II - Outubro 2026.pdf",
-      "sha256": "8c27ac9d377ff079d69cf7b4705268257beb37402573c21cf6a6d5ce9f1f8e89",
-      "bytes": 189176,
-      "driveIdentical": true
-    },
-    {
       "id": "business",
       "name": "Tabela de Vendas Business - Novembro 2026.pdf",
       "sha256": "11665764a114aa124e805c2ea27db53947d862a6ff5cb0038ee3309fc0692de6",
@@ -942,17 +904,57 @@
       "verifiedAt": "2026-11-10",
       "date": "Outubro 2026",
       "checkedAt": "2026-11-10"
+    },
+    {
+      "id": "nice-camboinhas",
+      "name": "Tabela de Vendas Nice Camboinhas - Novembro 2026.pdf",
+      "sha256": "75022be39e9260dc5ea5ede64af044e8534d59f5e326ea26b20c9539e88e09e4",
+      "bytes": 113206,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-11",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-11"
+    },
+    {
+      "id": "brise-by-conviva",
+      "name": "Tabela de Vendas Brise - Novembro 2026.pdf",
+      "sha256": "21b212020b1e8e900edf3704a5589a017e446e5e874290e80aa483bcfba2a61c",
+      "bytes": 156991,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-11",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-11"
+    },
+    {
+      "id": "conviva-life-inga",
+      "name": "Tabela de Vendas Conviva Life Ingá - Novembro 2026.pdf",
+      "sha256": "7025ef7655c3812f65bdb387534a062e5211c9b9366efae9daed27a58ea04a07",
+      "bytes": 157653,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-11",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-11"
+    },
+    {
+      "id": "conviva-icarai",
+      "name": "Tabela de Vendas Conviva Icaraí - Novembro 2026.pdf",
+      "sha256": "30eff76665c99b664fc9fdb862603b4ebf63a569be95ebe4f74440d3fc9401f3",
+      "bytes": 494510,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-11",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-11"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-10",
-  "lastTablesUpdatedAt": "2026-11-10",
-  "lastBooksComparedAt": "2026-11-10",
-  "lastTablesInventoryCheckedAt": "2026-11-10",
-  "lastFullSourceAuditAt": "2026-11-10",
-  "lastTablesComparedAt": "2026-11-10",
-  "sourceAuditReport": "data/source-audit-2026-11-10.json",
+  "lastInventoryCheckedAt": "2026-11-11",
+  "lastTablesUpdatedAt": "2026-11-11",
+  "lastBooksComparedAt": "2026-11-11",
+  "lastTablesInventoryCheckedAt": "2026-11-11",
+  "lastFullSourceAuditAt": "2026-11-11",
+  "lastTablesComparedAt": "2026-11-11",
+  "sourceAuditReport": "data/source-audit-2026-11-11.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-10.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-10",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-11.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-11",
   "lastBooksUpdatedAt": "2026-11-05"
 }

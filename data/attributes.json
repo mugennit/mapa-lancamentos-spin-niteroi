@@ -392,7 +392,9 @@
   "nice-camboinhas": {
     "typologies": [
       "2 quartos",
-      "3 quartos"
+      "3 quartos",
+      "4 quartos",
+      "Cobertura"
     ],
     "features": [
       "Academia",
@@ -401,12 +403,14 @@
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/tresor-nice-niteroi/23411351-SETV",
     "availableUnits": [
       "106 — Bloco 1",
-      "107 — Bloco 1"
+      "205 — Bloco 1",
+      "cob 1 — Bloco 1"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Agosto 2029",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: AGOSTO/2029 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1_uxci3s9JmL2CVpfR8iZtjAGfRCZkPwh/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-11"
   },
   "brise-by-conviva": {
     "typologies": [
@@ -440,10 +444,11 @@
       "210 — Bloco 2",
       "COB 02 — Bloco 2"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Março 2028",
     "deliveryEvidence": "3- A data prevista para a conclusão da obra: março/2028 (podendo ser prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/15V6YkKGI1OU-fGzuBungO2JG__Z9ONn_/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-11"
   },
   "conviva-life-camboinhas": {
     "typologies": [
@@ -512,7 +517,6 @@
       "1008",
       "1009",
       "1102",
-      "1105",
       "1108",
       "1109",
       "1202",
@@ -522,10 +526,11 @@
       "1402",
       "1602"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Maio 2028",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: MAIO/2028 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1k0z7Su4Ac3rykKW_406DtqF_ZM8zVqoV/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-11"
   },
   "conviva-icarai": {
     "typologies": [
@@ -542,7 +547,6 @@
       "202",
       "203",
       "204",
-      "302",
       "303",
       "304",
       "305",
@@ -558,10 +562,11 @@
       "805",
       "1108"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Outubro 2028",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: OUT/2028 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1C4l4zpx1OO_9DPG1xXJ99Wp83S88mmPr/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-11"
   },
   "conviva-itacoa": {
     "typologies": [
