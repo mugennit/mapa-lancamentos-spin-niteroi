@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11",
+  "checkedAt": "2026-11-12",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -7,7 +7,7 @@
     "tableSourceFiles": 141,
     "bookRootFolders": 41,
     "bookSubfolders": 3,
-    "bookSourceFiles": 132,
+    "bookSourceFiles": 133,
     "catalogProjects": 114,
     "projectsWithBookAndTable": 83,
     "projectsWithTable": 89,
@@ -16,41 +16,41 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "All 141 current source table PDFs fully read to EOF and CRC/SHA-256 verified against 10/11: 137 identical, four version replacements, Eldorado II table removed.",
-    "identicalTables": 137,
-    "differentTables": 4,
+    "tableComparison": "All 141 source table PDFs fully CRC/SHA-256 verified: 131 unchanged, nine version replacements, new Kronos table and removed East Side Meier table.",
+    "identicalTables": 131,
+    "differentTables": 10,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "All 132 source Book-folder files (131 PDFs and one MP4) fully CRC/SHA-256 identical to 10/11.",
+    "bookComparison": "All 132 existing Book-folder files identical; one blank Documento.docx added at root.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 0,
-    "bookContentReport": "data/books-content-comparison-2026-11-11.json",
+    "bookContentReport": "data/books-content-comparison-2026-11-12.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-11",
-      "baseline": "2026-11-10",
-      "tableFilesIdenticalSha256": 137,
-      "tableFilesAdded": 4,
-      "tableFilesRemoved": 5,
-      "sourceTableVersionReplacements": 4,
-      "catalogTablesUpdated": 4,
+      "date": "2026-11-12",
+      "baseline": "2026-11-11",
+      "tableFilesIdenticalSha256": 131,
+      "tableFilesAdded": 10,
+      "tableFilesRemoved": 10,
+      "sourceTableVersionReplacements": 9,
+      "catalogTablesUpdated": 5,
       "bookFilesIdenticalSha256": 132,
-      "bookFilesAdded": 0,
+      "bookFilesAdded": 1,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
-      "retiredCatalogTables": 1,
+      "retiredCatalogTables": 0,
       "allReferencedUniqueFilesWithPublicReader": 220,
       "newOfficialBooks": 0,
       "ownerSuppliedBooksPreserved": 1,
       "ownerProvidedExactPointsIncorporated": 0
     },
-    "sourceTableVersionReplacements": 4,
-    "catalogTablesUpdated": 4,
+    "sourceTableVersionReplacements": 9,
+    "catalogTablesUpdated": 5,
     "catalogValidityMetadataCorrections": [],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-11.json",
+    "commercialValidityReview": "data/table-commercial-review-2026-11-12.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json"
   },
@@ -283,34 +283,6 @@
       "name": "Tabela de Vendas In Icaraí Cheade - Junho 2026 - Com Logo.pdf",
       "sha256": "c986009aa36b731632fffdc2f4b66ad3f0d2d38c7d41b261d2baf3fedffcca94",
       "bytes": 625326,
-      "driveIdentical": true
-    },
-    {
-      "id": "conviva-camboinhas",
-      "name": "Tabela de Vendas Conviva Camboinhas - Outubro 2026.pdf",
-      "sha256": "ed3061bd489b1aa84cc4be16ec85060086f81b0fb10eedefad917a2b9ed570fb",
-      "bytes": 166596,
-      "driveIdentical": true
-    },
-    {
-      "id": "conviva-charitas",
-      "name": "Tabela de Vendas Conviva Charitas - Outubro 2026.pdf",
-      "sha256": "8c97051597a9cdd5052fefd4df587e318dcc34059970d125a514b71668d90e07",
-      "bytes": 202660,
-      "driveIdentical": true
-    },
-    {
-      "id": "conviva-life-camboinhas",
-      "name": "Tabela de Vendas Conviva Life Camboinhas - Outubro 2026.pdf",
-      "sha256": "7560af101d6a76c0fb8af967dd2da50f1e4ea90c9805ca30d9a97b6c303f840f",
-      "bytes": 309437,
-      "driveIdentical": true
-    },
-    {
-      "id": "conviva-itacoa",
-      "name": "Tabela de Vendas Conviva Itacoa - Outubro 2026.pdf",
-      "sha256": "9d2afa0b398b2c3aa67f819e307048fe14c5e028407d6e6f1f99092edd027310",
-      "bytes": 150996,
       "driveIdentical": true
     },
     {
@@ -764,13 +736,6 @@
       "driveIdentical": true
     },
     {
-      "id": "tresor-dior",
-      "name": "Tabela de Vendas Tresor Dior - Outubro 2026.pdf",
-      "sha256": "6be19c6834601d6c5436dda4a84d09c876f42d3a40627bfb3a61980ffd5543ea",
-      "bytes": 164678,
-      "driveIdentical": true
-    },
-    {
       "id": "mare-blu",
       "name": "Tabela de Vendas Mare Blu - Setembro 2026.pdf",
       "sha256": "b33fd3a3e79c6edd58378593a49782f2b0c55d803839f43b77b2cb94b342535b",
@@ -944,17 +909,67 @@
       "verifiedAt": "2026-11-11",
       "date": "Novembro 2026",
       "checkedAt": "2026-11-11"
+    },
+    {
+      "id": "conviva-camboinhas",
+      "name": "Tabela de Vendas Conviva Camboinhas - Novembro 2026.pdf",
+      "sha256": "58bf69eadfb74ad71a779359f5cc816ef959220890d6ae7ce97f61019e0706e6",
+      "bytes": 166599,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-12",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-12"
+    },
+    {
+      "id": "conviva-charitas",
+      "name": "Tabela de Vendas Conviva Charitas - Novembro 2026.pdf",
+      "sha256": "734970c8228a0f56525933e3678919ba47022045b684e0d01d929558e7aff0dc",
+      "bytes": 202760,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-12",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-12"
+    },
+    {
+      "id": "conviva-life-camboinhas",
+      "name": "Tabela de Vendas Conviva Life Camboinhas - Novembro 2026.pdf",
+      "sha256": "5d276e6a0172f59cc4bde10509de7830d98d330e01c81754dc5e9784c877f52a",
+      "bytes": 310120,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-12",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-12"
+    },
+    {
+      "id": "conviva-itacoa",
+      "name": "Tabela de Vendas Conviva Itacoa - Novembro 2026.pdf",
+      "sha256": "6d84768bb9bdedfeb47dbdef42c2752c5e077ab6b1268d46ac2d4a20341460c7",
+      "bytes": 151093,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-12",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-12"
+    },
+    {
+      "id": "tresor-dior",
+      "name": "Tabela de Vendas Tresor Dior - Novembro 2026.pdf",
+      "sha256": "6ab015b57bdfb1fcb1eb56b96798dee67903d30fe4cdb6158939b41a6ae0bad7",
+      "bytes": 165250,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-12",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-12"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-11",
-  "lastTablesUpdatedAt": "2026-11-11",
-  "lastBooksComparedAt": "2026-11-11",
-  "lastTablesInventoryCheckedAt": "2026-11-11",
-  "lastFullSourceAuditAt": "2026-11-11",
-  "lastTablesComparedAt": "2026-11-11",
-  "sourceAuditReport": "data/source-audit-2026-11-11.json",
+  "lastInventoryCheckedAt": "2026-11-12",
+  "lastTablesUpdatedAt": "2026-11-12",
+  "lastBooksComparedAt": "2026-11-12",
+  "lastTablesInventoryCheckedAt": "2026-11-12",
+  "lastFullSourceAuditAt": "2026-11-12",
+  "lastTablesComparedAt": "2026-11-12",
+  "sourceAuditReport": "data/source-audit-2026-11-12.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-11.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-11",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-12.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-12",
   "lastBooksUpdatedAt": "2026-11-05"
 }

@@ -1,0 +1,232 @@
+{
+  "checkedAt": "2026-11-12",
+  "status": "complete",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "baseline": "2026-11-11",
+  "method": [
+    "Opened Linktree and clicked both required source buttons in the public shared session; no sign-in required.",
+    "Scrolled every root, folder and subfolder to the end; reconciled displayed child counts with all downloaded archive paths.",
+    "Read all 274 main-source files to EOF, checking ZIP CRC and SHA-256, plus all 70 supplemental Orla files.",
+    "Re-read the current entire coordinate sheet and matched every complete project.",
+    "Re-read all referenced Drive permissions/metadata and all map folder children. Re-downloaded all five replacements and verified SHA-256."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "rootFiles": 0,
+      "subfolders": 0,
+      "filesListed": 141,
+      "archiveFiles": 141,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "rootFiles": 1,
+      "subfolders": 3,
+      "filesListed": 133,
+      "archiveFiles": 133,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 141,
+      "identical": 131,
+      "newVersionFiles": 10,
+      "removedOldPaths": 10,
+      "versionReplacements": 9,
+      "newProjectTables": [
+        "Kronos By Tegra"
+      ],
+      "removedProjectTables": [
+        "East Side Méier"
+      ],
+      "unchangedPathContentChanges": 0
+    },
+    "books": {
+      "files": 133,
+      "pdfs": 131,
+      "mp4": 1,
+      "docx": 1,
+      "identical": 132,
+      "newRootFiles": [
+        "Documento.docx"
+      ],
+      "removed": 0
+    },
+    "supplementalOrla": {
+      "folders": 8,
+      "files": 70,
+      "identical": 70,
+      "added": [],
+      "removed": [
+        "Orla Guanabara/Vídeos/Corretores/roberta guida.mp4"
+      ],
+      "changed": []
+    }
+  },
+  "changes": {
+    "tablesUpdated": [
+      {
+        "id": "conviva-camboinhas",
+        "sourceFile": "Tabela de Vendas Conviva Camboinhas - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 629900,
+        "afterPrice": 629900.0,
+        "beforeOffers": 12,
+        "afterOffers": 14
+      },
+      {
+        "id": "conviva-charitas",
+        "sourceFile": "Tabela de Vendas Conviva Charitas - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 499875,
+        "afterPrice": 499900.0,
+        "beforeOffers": 22,
+        "afterOffers": 21
+      },
+      {
+        "id": "conviva-itacoa",
+        "sourceFile": "Tabela de Vendas Conviva Itacoa - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 549900,
+        "afterPrice": 589900.0,
+        "beforeOffers": 18,
+        "afterOffers": 18
+      },
+      {
+        "id": "conviva-life-camboinhas",
+        "sourceFile": "Tabela de Vendas Conviva Life Camboinhas - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 799900,
+        "afterPrice": 839900.0,
+        "beforeOffers": 19,
+        "afterOffers": 19
+      },
+      {
+        "id": "tresor-dior",
+        "sourceFile": "Tabela de Vendas Tresor Dior - Novembro 2026.pdf",
+        "commercialDate": "Novembro 2026",
+        "beforePrice": 4510000,
+        "afterPrice": 4690000.0,
+        "beforeOffers": 3,
+        "afterOffers": 3
+      }
+    ],
+    "retiredTables": [],
+    "projectsAdded": [],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": [],
+    "foldersRemoved": [],
+    "metadataOnlyChanges": []
+  },
+  "catalog": {
+    "projects": 114,
+    "completePairs": 83,
+    "mapPins": 83,
+    "projectsWithCurrentTable": 89,
+    "incompleteProjectsPreserved": 31
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 83,
+    "newPoints": [],
+    "pending": [],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 221,
+    "uniqueReferencedFiles": 220,
+    "allReferencedPublicReader": true,
+    "mapFolders": 83,
+    "mapFiles": 167,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 5
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true
+  },
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "ee1cab8f0cbd9cf2ae29e62df46c104356315f62",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "This source record is written before its containing commit exists. Verify the containing commit deployment status for completed publication."
+  },
+  "outsideCatalogUpdates": [
+    {
+      "name": "Claris",
+      "sourceFile": "Tabela de Vendas Claris - Novembro 2026.pdf",
+      "bookFoundInCompleteBooksScan": false,
+      "action": "Recorded outside Niteroi catalog. Not a complete material pair; no map pin.",
+      "region": "Barra da Tijuca, Rio de Janeiro",
+      "officialScopeSources": [
+        "https://www.tegraincorporadora.com.br/rj/rio-de-janeiro/oeste/barra-da-tijuca",
+        "https://www.tegraincorporadora.com.br/lp/podeescolher-rj"
+      ],
+      "dateWarning": "Legacy JANEIRO/25 header persists on early pages; cover and current unit table identify NOVEMBRO/26. No fabricated day assigned."
+    },
+    {
+      "name": "Gaea",
+      "sourceFile": "Tabela de Vendas Gaea - Novembro 2026.pdf",
+      "bookFoundInCompleteBooksScan": false,
+      "action": "Recorded outside Niteroi catalog. Not a complete material pair; no map pin.",
+      "region": "Barra da Tijuca, Rio de Janeiro",
+      "officialScopeSources": [
+        "https://www.tegraincorporadora.com.br/rj/rio-de-janeiro/oeste/barra-da-tijuca",
+        "https://www.tegraincorporadora.com.br/lp/podeescolher-rj"
+      ]
+    },
+    {
+      "name": "Kronos By Tegra",
+      "sourceFile": "Tabela de Vendas Kronos By Tegra - Novembro 2026.pdf",
+      "bookFoundInCompleteBooksScan": false,
+      "action": "Recorded outside Niteroi catalog. Not a complete material pair; no map pin.",
+      "region": "Barra da Tijuca, Rio de Janeiro",
+      "officialScopeSources": [
+        "https://www.tegraincorporadora.com.br/rj/rio-de-janeiro/oeste/barra-da-tijuca",
+        "https://www.tegraincorporadora.com.br/lp/podeescolher-rj"
+      ]
+    },
+    {
+      "name": "Península Gran Thai",
+      "sourceFile": "Tabela de Vendas Península Gran Thai - Novembro 2026.pdf",
+      "bookFoundInCompleteBooksScan": false,
+      "action": "Recorded outside Niteroi catalog. Not a complete material pair; no map pin.",
+      "region": "Barra da Tijuca, Rio de Janeiro",
+      "officialScopeSources": [
+        "https://www.tegraincorporadora.com.br/rj/rio-de-janeiro/oeste/barra-da-tijuca",
+        "https://www.tegraincorporadora.com.br/lp/podeescolher-rj"
+      ]
+    },
+    {
+      "name": "Península Singular",
+      "sourceFile": "Tabela de Vendas Península Singular - Novembro 2026.pdf",
+      "bookFoundInCompleteBooksScan": false,
+      "action": "Recorded outside Niteroi catalog. Not a complete material pair; no map pin.",
+      "region": "Barra da Tijuca, Rio de Janeiro",
+      "officialScopeSources": [
+        "https://www.tegraincorporadora.com.br/rj/rio-de-janeiro/oeste/barra-da-tijuca",
+        "https://www.tegraincorporadora.com.br/lp/podeescolher-rj"
+      ]
+    }
+  ]
+}

@@ -335,7 +335,8 @@
       "209 — Bloco 1",
       "409 — Bloco 1",
       "401 — Bloco 1",
-      "212 — Bloco 1",
+      "COB 1 — Bloco 1",
+      "212 — Bloco 2",
       "312 — Bloco 2",
       "309 — Bloco 2",
       "403 — Bloco 2",
@@ -345,10 +346,11 @@
       "605 — Bloco 2",
       "701 — Bloco 2"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Setembro 2026",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: SET/2026 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-12"
   },
   "conviva-charitas": {
     "typologies": [
@@ -381,13 +383,13 @@
       "701",
       "702",
       "704",
-      "710",
-      "801"
+      "710"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Outubro 2028",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: OUT/2028 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-12"
   },
   "nice-camboinhas": {
     "typologies": [
@@ -482,10 +484,11 @@
       "602 — Bloco 2",
       "603 — Bloco 2"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Setembro 2027",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: SET/2027 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-12"
   },
   "conviva-life-inga": {
     "typologies": [
@@ -594,12 +597,14 @@
       "211",
       "212",
       "311",
-      "603"
+      "603",
+      "Cob 3"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Maio 2029",
     "deliveryEvidence": "6. A data prevista para a conclusão da obra: maio/2029 (prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-12"
   },
   "caminhos-da-guanabara": {
     "typologies": [
@@ -2410,10 +2415,11 @@
       "102",
       "201"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Fevereiro 2028",
     "deliveryEvidence": "2. A data prevista para a conclusão da obra: fev/2028 (podendo ser prorrogável por mais 180 dias)",
-    "deliverySource": "https://drive.google.com/file/d/1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To/view?usp=drivesdk"
+    "deliverySource": "https://drive.google.com/file/d/1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-12"
   },
   "conviva-piratininga": {
     "typologies": [

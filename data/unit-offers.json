@@ -103,189 +103,233 @@
     "parkingCheckedAt": "2026-11-05"
   },
   "conviva-camboinhas": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-12",
     "tableUrl": "https://drive.google.com/file/d/1zhIcVmyzwIthC6Pvp3K-MWySvdOEIauf/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
-        "unit": "205",
+        "unit": "205 — Bloco 1",
         "typology": "1 quarto",
-        "price": 639900
+        "area": 45.8,
+        "price": 639900.0
       },
       {
-        "unit": "209",
+        "unit": "209 — Bloco 1",
         "typology": "1 quarto",
-        "price": 629900
+        "area": 41.55,
+        "price": 629900.0
       },
       {
-        "unit": "409",
+        "unit": "409 — Bloco 1",
         "typology": "1 quarto",
-        "price": 639900
+        "area": 41.55,
+        "price": 639900.0
       },
       {
-        "unit": "COB 1",
+        "unit": "401 — Bloco 1",
+        "typology": "",
+        "area": 68.95,
+        "price": 949900.0,
+        "unitKind": "Double",
+        "priceNote": "A tabela identifica DOUBLE; quantidade de quartos a confirmar. Oferta de repasse conforme tabela; confirmar condições."
+      },
+      {
+        "unit": "COB 1 — Bloco 1",
         "typology": "1 quarto",
-        "price": 1499900,
+        "area": 105.93,
+        "price": 1499900.0,
         "unitKind": "Cobertura"
       },
       {
-        "unit": "212",
+        "unit": "212 — Bloco 2",
         "typology": "1 quarto",
-        "price": 629900
+        "area": 41.55,
+        "price": 629900.0
       },
       {
-        "unit": "312",
+        "unit": "312 — Bloco 2",
         "typology": "1 quarto",
-        "price": 634900
+        "area": 41.55,
+        "price": 634900.0
       },
       {
-        "unit": "309",
+        "unit": "309 — Bloco 2",
         "typology": "1 quarto",
-        "price": 629900
+        "area": 41.55,
+        "price": 629900.0
       },
       {
-        "unit": "403",
+        "unit": "403 — Bloco 2",
         "typology": "1 quarto",
-        "price": 639900
+        "area": 41.55,
+        "price": 639900.0
       },
       {
-        "unit": "404",
+        "unit": "404 — Bloco 2",
         "typology": "1 quarto",
-        "price": 649900
+        "area": 45.8,
+        "price": 649900.0
       },
       {
-        "unit": "512",
+        "unit": "512 — Bloco 2",
         "typology": "1 quarto",
-        "price": 644900
+        "area": 41.55,
+        "price": 644900.0
       },
       {
-        "unit": "603",
+        "unit": "603 — Bloco 2",
         "typology": "1 quarto",
-        "price": 649900
+        "area": 41.55,
+        "price": 649900.0
       },
       {
-        "unit": "605",
+        "unit": "605 — Bloco 2",
         "typology": "1 quarto",
-        "price": 665000
+        "area": 41.8,
+        "price": 665000.0,
+        "priceNote": "Oferta de repasse conforme tabela; confirmar condições."
+      },
+      {
+        "unit": "701 — Bloco 2",
+        "typology": "",
+        "area": 105.93,
+        "price": 1399000.0,
+        "unitKind": "Cobertura"
       }
     ]
   },
   "conviva-charitas": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-12",
     "tableUrl": "https://drive.google.com/file/d/1zQP0aM600YHIIqzTu6VXOBMTNLJ2kDEb/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "106",
         "typology": "Studio",
-        "price": 799900
+        "area": 67.34,
+        "price": 849900.0
       },
       {
         "unit": "107",
         "typology": "Studio",
-        "price": 799900
+        "area": 67.47,
+        "price": 849900.0
       },
       {
         "unit": "201",
         "typology": "Studio",
-        "price": 718593.75
+        "area": 46.46,
+        "price": 564900.0
       },
       {
         "unit": "202",
         "typology": "Studio",
-        "price": 499875
+        "area": 40.84,
+        "price": 499900.0
       },
       {
         "unit": "203",
         "typology": "Studio",
-        "price": 499875
+        "area": 40.84,
+        "price": 499900.0
       },
       {
         "unit": "204",
         "typology": "Studio",
-        "price": 512375
+        "area": 41.31,
+        "price": 499900.0
       },
       {
         "unit": "210",
         "typology": "Studio",
-        "price": 599875
+        "area": 48.67,
+        "price": 574900.0
       },
       {
         "unit": "301",
         "typology": "Studio",
-        "price": 574875
+        "area": 46.46,
+        "price": 569900.0
       },
       {
         "unit": "302",
         "typology": "Studio",
-        "price": 499875
+        "area": 40.84,
+        "price": 504900.0
       },
       {
         "unit": "303",
         "typology": "Studio",
-        "price": 499875
+        "area": 40.84,
+        "price": 504900.0
       },
       {
         "unit": "304",
         "typology": "Studio",
-        "price": 512375
+        "area": 41.31,
+        "price": 504900.0
       },
       {
         "unit": "310",
         "typology": "Studio",
-        "price": 599875
+        "area": 48.67,
+        "price": 579900.0
       },
       {
         "unit": "401",
         "typology": "Studio",
-        "price": 574875
+        "area": 46.46,
+        "price": 574900.0
       },
       {
         "unit": "402",
         "typology": "Studio",
-        "price": 499875
+        "area": 40.84,
+        "price": 509900.0
       },
       {
         "unit": "410",
         "typology": "Studio",
-        "price": 599875
+        "area": 48.67,
+        "price": 584900.0
       },
       {
         "unit": "601",
         "typology": "Studio",
-        "price": 574875
+        "area": 46.46,
+        "price": 584900.0
       },
       {
         "unit": "610",
         "typology": "Studio",
-        "price": 599875
+        "area": 48.67,
+        "price": 594900.0
       },
       {
         "unit": "701",
         "typology": "Studio",
-        "price": 574875
+        "area": 46.46,
+        "price": 589900.0
       },
       {
         "unit": "702",
         "typology": "Studio",
-        "price": 499875
+        "area": 40.84,
+        "price": 524900.0
       },
       {
         "unit": "704",
         "typology": "Studio",
-        "price": 512375
+        "area": 41.31,
+        "price": 524900.0
       },
       {
         "unit": "710",
         "typology": "Studio",
-        "price": 599875
-      },
-      {
-        "unit": "801",
-        "typology": "Studio",
-        "price": 574875
+        "area": 48.67,
+        "price": 599900.0
       }
     ]
   },
@@ -317,105 +361,124 @@
     ]
   },
   "conviva-life-camboinhas": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-12",
     "tableUrl": "https://drive.google.com/file/d/1Mh4rLa2xExJgNioZ0PCapHF5jNMyWmna/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
-        "unit": "206",
+        "unit": "206 — Bloco 1",
         "typology": "2 quartos",
-        "price": 799900
+        "area": 58.13,
+        "price": 839900.0
       },
       {
-        "unit": "212",
+        "unit": "212 — Bloco 1",
         "typology": "2 quartos",
-        "price": 799900
+        "area": 58.13,
+        "price": 839900.0
       },
       {
-        "unit": "307",
+        "unit": "307 — Bloco 1",
         "typology": "2 quartos",
-        "price": 804900
+        "area": 58.13,
+        "price": 849900.0
       },
       {
-        "unit": "401",
+        "unit": "401 — Bloco 1",
         "typology": "2 quartos",
-        "price": 809900
+        "area": 58.13,
+        "price": 854900.0
       },
       {
-        "unit": "406",
+        "unit": "406 — Bloco 1",
         "typology": "2 quartos",
-        "price": 809900
+        "area": 58.13,
+        "price": 854900.0
       },
       {
-        "unit": "407",
+        "unit": "407 — Bloco 1",
         "typology": "2 quartos",
-        "price": 809900
+        "area": 58.13,
+        "price": 854900.0
       },
       {
-        "unit": "505",
+        "unit": "505 — Bloco 1",
         "typology": "2 quartos",
-        "price": 814900
+        "area": 58.08,
+        "price": 859900.0
       },
       {
-        "unit": "507",
+        "unit": "507 — Bloco 1",
         "typology": "3 quartos",
-        "price": 1049900
+        "area": 79.02,
+        "price": 1099900.0
       },
       {
-        "unit": "508",
+        "unit": "508 — Bloco 1",
         "typology": "2 quartos",
-        "price": 814900
+        "area": 58.08,
+        "price": 859900.0
       },
       {
-        "unit": "606",
+        "unit": "606 — Bloco 1",
         "typology": "3 quartos",
-        "price": 1099900
+        "area": 82.57,
+        "price": 1149900.0
       },
       {
-        "unit": "201",
+        "unit": "201 — Bloco 2",
         "typology": "2 quartos",
-        "price": 799900
+        "area": 58.13,
+        "price": 839900.0
       },
       {
-        "unit": "206",
+        "unit": "206 — Bloco 2",
         "typology": "2 quartos",
-        "price": 799900
+        "area": 58.13,
+        "price": 839900.0
       },
       {
-        "unit": "207",
+        "unit": "207 — Bloco 2",
         "typology": "2 quartos",
-        "price": 799900
+        "area": 58.13,
+        "price": 839900.0
       },
       {
-        "unit": "212",
+        "unit": "212 — Bloco 2",
         "typology": "2 quartos",
-        "price": 799900
+        "area": 58.13,
+        "price": 839900.0
       },
       {
-        "unit": "306",
+        "unit": "306 — Bloco 2",
         "typology": "2 quartos",
-        "price": 804900
+        "area": 58.13,
+        "price": 849900.0
       },
       {
-        "unit": "502",
+        "unit": "502 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1049900
+        "area": 79.02,
+        "price": 1099900.0
       },
       {
-        "unit": "503",
+        "unit": "503 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1049900
+        "area": 79.02,
+        "price": 1099900.0
       },
       {
-        "unit": "602",
+        "unit": "602 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1099900
+        "area": 82.57,
+        "price": 1149900.0
       },
       {
-        "unit": "603",
+        "unit": "603 — Bloco 2",
         "typology": "3 quartos",
-        "price": 1099900
+        "area": 82.57,
+        "price": 1149900.0
       }
     ]
   },
@@ -706,122 +769,140 @@
     ]
   },
   "conviva-itacoa": {
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-11-12",
     "tableUrl": "https://drive.google.com/file/d/1o0nDAH2dEWX-M2kzmhWBKy-sr-z9nI1y/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "101",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 40.05,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "102",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.31,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "105",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 40.32,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "106",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 41.09,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "107",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 40.42,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "108",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 40.32,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "109",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.7,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "110",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.03,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "111",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.66,
+        "price": 589900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "201",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.44,
+        "price": 594900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "202",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.44,
+        "price": 594900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "205",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 40.32,
+        "price": 594900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "210",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.03,
+        "price": 594900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "211",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.14,
+        "price": 594900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "212",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.44,
+        "price": 594900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "311",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.14,
+        "price": 599900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "603",
         "typology": "1 quarto",
-        "price": 549900,
+        "area": 39.03,
+        "price": 599900.0,
         "parkingSpaces": 1
       },
       {
         "unit": "Cob 3",
         "typology": "1 quarto",
-        "price": 699900,
+        "area": 56.76,
+        "price": 849900.0,
         "parkingSpaces": 1,
         "unitKind": "Cobertura"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-12"
   },
   "lazuli": {
     "checkedAt": "2026-10-12",
@@ -15467,27 +15548,30 @@
     ]
   },
   "tresor-dior": {
+    "checkedAt": "2026-11-12",
     "tableUrl": "https://drive.google.com/file/d/1zwlzyaYFjUt0sCHaRF6MADFegzsfl5To/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "checkedAt": "2026-10-14",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "101",
         "typology": "",
-        "price": 4510000,
+        "area": 202.35,
+        "price": 4690000.0,
         "unitKind": "Apartamento"
       },
       {
         "unit": "102",
         "typology": "",
-        "price": 4510000,
+        "area": 202.35,
+        "price": 4690000.0,
         "unitKind": "Apartamento"
       },
       {
         "unit": "201",
         "typology": "",
-        "price": 4690000,
+        "area": 210.52,
+        "price": 4875000.0,
         "unitKind": "Apartamento"
       }
     ]
