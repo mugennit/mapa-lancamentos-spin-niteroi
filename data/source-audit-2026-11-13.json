@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-11-13",
+  "baseline": "2026-11-12",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "status": "complete",
+  "method": [
+    "Clicked both public Linktree buttons in the same browser session, without login.",
+    "Scrolled all root lists and every folder/subfolder to the end; reconciled displayed direct-item counts with actual UI rows and complete ZIP contents.",
+    "Read all 344 downloaded source files to EOF, validating ZIP CRC and SHA-256; compared against the previous audit.",
+    "Rendered and visually checked all four pages of the three updated Soter tables.",
+    "Read current Sheet metadata and bounded ranges, all referenced Drive permissions/metadata and all map material folders; verified replacements by download hash."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "rootFiles": 0,
+      "subfolders": 0,
+      "filesListed": 141,
+      "archiveFiles": 141,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "rootFiles": 1,
+      "subfolders": 3,
+      "filesListed": 133,
+      "archiveFiles": 133,
+      "divergences": []
+    },
+    "orla": {
+      "rootFolders": 5,
+      "rootFiles": 0,
+      "subfolders": 3,
+      "filesListed": 70,
+      "archiveFiles": 70,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 141,
+      "identical": 138,
+      "newVersionFiles": 3,
+      "removedOldPaths": 3,
+      "versionReplacements": 3,
+      "newProjectTables": [],
+      "removedProjectTables": [],
+      "unchangedPathContentChanges": 0
+    },
+    "books": {
+      "files": 133,
+      "pdfs": 131,
+      "mp4": 1,
+      "docx": 1,
+      "identical": 133,
+      "added": 0,
+      "removed": 0
+    },
+    "supplementalOrla": {
+      "files": 70,
+      "folders": 8,
+      "identical": 70,
+      "added": [],
+      "removed": [],
+      "changed": []
+    }
+  },
+  "changes": {
+    "tablesUpdated": [
+      {
+        "id": "maestro",
+        "sourceFile": "Tabela de Vendas Maestro - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 1749000,
+        "afterPrice": 1749000.0,
+        "beforeOffers": 4,
+        "afterOffers": 5
+      },
+      {
+        "id": "origem",
+        "sourceFile": "Tabela de Vendas Origem - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 619000,
+        "afterPrice": 659000.0,
+        "beforeOffers": 23,
+        "afterOffers": 21
+      },
+      {
+        "id": "pulse",
+        "sourceFile": "Tabela de Vendas Pulse - Novembro 2026.pdf",
+        "commercialDate": "01/11/2026",
+        "beforePrice": 2699000,
+        "afterPrice": 2849000.0,
+        "beforeOffers": 5,
+        "afterOffers": 6
+      }
+    ],
+    "retiredTables": [],
+    "projectsAdded": [],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "foldersRemoved": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "metadataOnlyChanges": []
+  },
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 83,
+    "mapEligibleProjects": 83,
+    "projectsWithCurrentTable": 89,
+    "incompleteProjectsPreserved": 31
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 83,
+    "newPoints": [],
+    "pending": [],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 221,
+    "uniqueReferencedFiles": 220,
+    "allReferencedPublicReader": true,
+    "mapFolders": 83,
+    "mapFiles": 167,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 3
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true
+  },
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "052f221e6ba32c8359f75843c731d775f62f3d43",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "This record precedes its containing commit. Verify the containing commit deployment status for completed publication."
+  }
+}

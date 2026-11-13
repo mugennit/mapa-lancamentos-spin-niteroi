@@ -12399,37 +12399,48 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "maestro": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-13",
     "tableUrl": "https://drive.google.com/file/d/1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "303",
         "typology": "",
-        "price": 2099000,
+        "area": 186.55,
+        "price": 2099000.0,
+        "parkingSpaces": 2
+      },
+      {
+        "unit": "403",
+        "typology": "",
+        "area": 186.55,
+        "price": 2549000.0,
         "parkingSpaces": 2
       },
       {
         "unit": "1403",
         "typology": "",
-        "price": 3299000,
+        "area": 186.45,
+        "price": 3299000.0,
         "parkingSpaces": 2
       },
       {
         "unit": "804",
         "typology": "",
-        "price": 1749000,
+        "area": 121.34,
+        "price": 1749000.0,
         "parkingSpaces": 2
       },
       {
         "unit": "1304",
         "typology": "",
-        "price": 1899000,
+        "area": 121.34,
+        "price": 1899000.0,
         "parkingSpaces": 2
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-13"
   },
   "clarice": {
     "checkedAt": "2026-10-13",
@@ -12537,190 +12548,235 @@
     "parkingCheckedAt": "2026-10-13"
   },
   "pulse": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-13",
     "tableUrl": "https://drive.google.com/file/d/1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "601",
         "typology": "4 quartos",
-        "price": 3299000,
-        "parkingSpaces": 2
+        "area": 178.47,
+        "price": 3299000.0,
+        "parkingSpaces": 2,
+        "priceNote": "4 suítes, conforme tabela."
       },
       {
         "unit": "502",
         "typology": "4 quartos",
-        "price": 3249000,
-        "parkingSpaces": 2
+        "area": 177.31,
+        "price": 3249000.0,
+        "parkingSpaces": 2,
+        "priceNote": "4 suítes, conforme tabela."
       },
       {
         "unit": "1006",
         "typology": "4 quartos",
-        "price": 3049000,
-        "parkingSpaces": 2
+        "area": 177.45,
+        "price": 3049000.0,
+        "parkingSpaces": 2,
+        "priceNote": "4 suítes, conforme tabela."
       },
       {
-        "unit": "507",
+        "unit": "707",
         "typology": "4 quartos",
-        "price": 2699000,
-        "parkingSpaces": 2
+        "area": 166.08,
+        "price": 2849000.0,
+        "parkingSpaces": 2,
+        "priceNote": "4 suítes, conforme tabela."
       },
       {
         "unit": "1107",
         "typology": "4 quartos",
-        "price": 3049000,
-        "parkingSpaces": 2
+        "area": 166.08,
+        "price": 3049000.0,
+        "parkingSpaces": 2,
+        "priceNote": "4 suítes, conforme tabela."
+      },
+      {
+        "unit": "Cob. Duplex 1404",
+        "typology": "3 quartos",
+        "area": 232.37,
+        "price": 4199000.0,
+        "parkingSpaces": 2,
+        "priceNote": "3 suítes, conforme tabela.",
+        "unitKind": "Cobertura duplex"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-13"
   },
   "origem": {
-    "checkedAt": "2026-10-13",
+    "checkedAt": "2026-11-13",
     "tableUrl": "https://drive.google.com/file/d/1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "coverage": "partial",
+    "tableDate": "Novembro 2026",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "ALMA — 1201",
         "typology": "3 quartos",
-        "price": 1625000,
+        "area": 106.44,
+        "price": 1625000.0,
         "parkingSpaces": 1
       },
       {
         "unit": "ALMA — 304",
         "typology": "3 quartos",
-        "price": 1799000,
+        "area": 123.52,
+        "price": 1799000.0,
         "parkingSpaces": 2
       },
       {
         "unit": "ALMA — 1305",
         "typology": "3 quartos",
-        "price": 1999000,
+        "area": 123.52,
+        "price": 1999000.0,
         "parkingSpaces": 2
       },
       {
         "unit": "ALMA — 1108",
         "typology": "3 quartos",
-        "price": 1629000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "ESSÊNCIA — 613",
-        "typology": "3 quartos",
-        "price": 1399000,
+        "area": 106.44,
+        "price": 1629000.0,
         "parkingSpaces": 1
       },
       {
         "unit": "ESSÊNCIA — 1508",
         "typology": "",
-        "price": 2949000,
-        "parkingSpaces": 2
+        "area": 163.32,
+        "price": 2949000.0,
+        "parkingSpaces": 2,
+        "unitKind": "Cobertura"
       },
       {
         "unit": "ESSÊNCIA — 509",
         "typology": "1 quarto",
-        "price": 749000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "ESSÊNCIA — 1109",
-        "typology": "1 quarto",
-        "price": 809000,
-        "parkingSpaces": 1
+        "area": 45.03,
+        "price": 749000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1409",
         "typology": "1 quarto",
-        "price": 859000,
-        "parkingSpaces": 1
+        "area": 45.03,
+        "price": 859000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Convencional"
+      },
+      {
+        "unit": "ESSÊNCIA — 310",
+        "typology": "1 quarto",
+        "area": 42.9,
+        "price": 699000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 910",
         "typology": "1 quarto",
-        "price": 779000,
-        "parkingSpaces": 1
+        "area": 42.9,
+        "price": 779000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1310",
         "typology": "1 quarto",
-        "price": 849000,
-        "parkingSpaces": 1
+        "area": 42.9,
+        "price": 849000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Convencional"
       },
       {
         "unit": "ESSÊNCIA — 411",
         "typology": "1 quarto",
-        "price": 739000,
-        "parkingSpaces": 1
+        "area": 46.79,
+        "price": 739000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1211",
         "typology": "1 quarto",
-        "price": 819000,
-        "parkingSpaces": 1
+        "area": 46.79,
+        "price": 819000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 814",
         "typology": "1 quarto",
-        "price": 719000,
-        "parkingSpaces": 1
+        "area": 42.57,
+        "price": 719000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1114",
         "typology": "1 quarto",
-        "price": 749000,
-        "parkingSpaces": 1
-      },
-      {
-        "unit": "ESSÊNCIA — 315",
-        "typology": "1 quarto",
-        "price": 619000,
-        "parkingSpaces": 0
+        "area": 42.57,
+        "price": 749000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 415",
         "typology": "1 quarto",
-        "price": 659000,
-        "parkingSpaces": 0
+        "area": 42.57,
+        "price": 659000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1015",
         "typology": "1 quarto",
-        "price": 739000,
-        "parkingSpaces": 1
+        "area": 42.57,
+        "price": 739000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1415",
         "typology": "1 quarto",
-        "price": 809000,
-        "parkingSpaces": 1
+        "area": 42.57,
+        "price": 809000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Convencional"
       },
       {
         "unit": "ESSÊNCIA — 816",
         "typology": "1 quarto",
-        "price": 719000,
-        "parkingSpaces": 1
+        "area": 45.03,
+        "price": 719000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Palletizada"
       },
       {
         "unit": "ESSÊNCIA — 1416",
         "typology": "1 quarto",
-        "price": 809000,
-        "parkingSpaces": 1
+        "area": 45.03,
+        "price": 809000.0,
+        "parkingSpaces": 1,
+        "parkingType": "Convencional"
       },
       {
-        "unit": "101",
-        "typology": "1 quarto",
-        "price": 3199000,
-        "parkingSpaces": 0
+        "unit": "Loja 101",
+        "typology": "",
+        "area": 65.58,
+        "price": 3199000.0,
+        "parkingSpaces": 0,
+        "unitKind": "Loja"
       },
       {
-        "unit": "102",
-        "typology": "1 quarto",
-        "price": 3199000,
-        "parkingSpaces": 0
+        "unit": "Loja 102",
+        "typology": "",
+        "area": 67.54,
+        "price": 3199000.0,
+        "parkingSpaces": 0,
+        "unitKind": "Loja"
       }
     ],
-    "parkingCheckedAt": "2026-10-13"
+    "parkingCheckedAt": "2026-11-13"
   },
   "the-grove": {
     "checkedAt": "2026-10-13",

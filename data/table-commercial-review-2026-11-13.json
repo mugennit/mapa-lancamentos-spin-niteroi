@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-11-13",
+  "source": "Linktree > Tabelas de Vendas > SOTER",
+  "tables": [
+    {
+      "id": "maestro",
+      "sourceFile": "Tabela de Vendas Maestro - Novembro 2026.pdf",
+      "commercialDate": "01/11/2026",
+      "deliveryDate": "30/01/2028",
+      "beforePrice": 1749000,
+      "afterPrice": 1749000.0,
+      "beforeOffers": 4,
+      "afterOffers": 5,
+      "offers": [
+        {
+          "unit": "303",
+          "typology": "",
+          "area": 186.55,
+          "price": 2099000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "403",
+          "typology": "",
+          "area": 186.55,
+          "price": 2549000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1403",
+          "typology": "",
+          "area": 186.45,
+          "price": 3299000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "804",
+          "typology": "",
+          "area": 121.34,
+          "price": 1749000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1304",
+          "typology": "",
+          "area": 121.34,
+          "price": 1899000.0,
+          "parkingSpaces": 2
+        }
+      ],
+      "visualReview": "All four source PDF pages rendered and reviewed, including unit/area/parking/full-price columns and notes.",
+      "bookConfirmed": "Books/Soter/Book Maestro.pdf",
+      "beforeCoverage": "partial",
+      "afterCoverage": "complete"
+    },
+    {
+      "id": "origem",
+      "sourceFile": "Tabela de Vendas Origem - Novembro 2026.pdf",
+      "commercialDate": "01/11/2026",
+      "deliveryDate": "31/08/2028",
+      "beforePrice": 619000,
+      "afterPrice": 659000.0,
+      "beforeOffers": 23,
+      "afterOffers": 21,
+      "offers": [
+        {
+          "unit": "ALMA — 1201",
+          "typology": "3 quartos",
+          "area": 106.44,
+          "price": 1625000.0,
+          "parkingSpaces": 1
+        },
+        {
+          "unit": "ALMA — 304",
+          "typology": "3 quartos",
+          "area": 123.52,
+          "price": 1799000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "ALMA — 1305",
+          "typology": "3 quartos",
+          "area": 123.52,
+          "price": 1999000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "ALMA — 1108",
+          "typology": "3 quartos",
+          "area": 106.44,
+          "price": 1629000.0,
+          "parkingSpaces": 1
+        },
+        {
+          "unit": "ESSÊNCIA — 1508",
+          "typology": "",
+          "area": 163.32,
+          "price": 2949000.0,
+          "parkingSpaces": 2,
+          "unitKind": "Cobertura"
+        },
+        {
+          "unit": "ESSÊNCIA — 509",
+          "typology": "1 quarto",
+          "area": 45.03,
+          "price": 749000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1409",
+          "typology": "1 quarto",
+          "area": 45.03,
+          "price": 859000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Convencional"
+        },
+        {
+          "unit": "ESSÊNCIA — 310",
+          "typology": "1 quarto",
+          "area": 42.9,
+          "price": 699000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 910",
+          "typology": "1 quarto",
+          "area": 42.9,
+          "price": 779000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1310",
+          "typology": "1 quarto",
+          "area": 42.9,
+          "price": 849000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Convencional"
+        },
+        {
+          "unit": "ESSÊNCIA — 411",
+          "typology": "1 quarto",
+          "area": 46.79,
+          "price": 739000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1211",
+          "typology": "1 quarto",
+          "area": 46.79,
+          "price": 819000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 814",
+          "typology": "1 quarto",
+          "area": 42.57,
+          "price": 719000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1114",
+          "typology": "1 quarto",
+          "area": 42.57,
+          "price": 749000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 415",
+          "typology": "1 quarto",
+          "area": 42.57,
+          "price": 659000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1015",
+          "typology": "1 quarto",
+          "area": 42.57,
+          "price": 739000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1415",
+          "typology": "1 quarto",
+          "area": 42.57,
+          "price": 809000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Convencional"
+        },
+        {
+          "unit": "ESSÊNCIA — 816",
+          "typology": "1 quarto",
+          "area": 45.03,
+          "price": 719000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Palletizada"
+        },
+        {
+          "unit": "ESSÊNCIA — 1416",
+          "typology": "1 quarto",
+          "area": 45.03,
+          "price": 809000.0,
+          "parkingSpaces": 1,
+          "parkingType": "Convencional"
+        },
+        {
+          "unit": "Loja 101",
+          "typology": "",
+          "area": 65.58,
+          "price": 3199000.0,
+          "parkingSpaces": 0,
+          "unitKind": "Loja"
+        },
+        {
+          "unit": "Loja 102",
+          "typology": "",
+          "area": 67.54,
+          "price": 3199000.0,
+          "parkingSpaces": 0,
+          "unitKind": "Loja"
+        }
+      ],
+      "visualReview": "All four source PDF pages rendered and reviewed, including unit/area/parking/full-price columns and notes.",
+      "bookConfirmed": "Books/Soter/SPIN Origem - Minibook.pdf",
+      "beforeCoverage": "partial",
+      "afterCoverage": "complete"
+    },
+    {
+      "id": "pulse",
+      "sourceFile": "Tabela de Vendas Pulse - Novembro 2026.pdf",
+      "commercialDate": "01/11/2026",
+      "deliveryDate": "30/04/2028",
+      "beforePrice": 2699000,
+      "afterPrice": 2849000.0,
+      "beforeOffers": 5,
+      "afterOffers": 6,
+      "offers": [
+        {
+          "unit": "601",
+          "typology": "4 quartos",
+          "area": 178.47,
+          "price": 3299000.0,
+          "parkingSpaces": 2,
+          "priceNote": "4 suítes, conforme tabela."
+        },
+        {
+          "unit": "502",
+          "typology": "4 quartos",
+          "area": 177.31,
+          "price": 3249000.0,
+          "parkingSpaces": 2,
+          "priceNote": "4 suítes, conforme tabela."
+        },
+        {
+          "unit": "1006",
+          "typology": "4 quartos",
+          "area": 177.45,
+          "price": 3049000.0,
+          "parkingSpaces": 2,
+          "priceNote": "4 suítes, conforme tabela."
+        },
+        {
+          "unit": "707",
+          "typology": "4 quartos",
+          "area": 166.08,
+          "price": 2849000.0,
+          "parkingSpaces": 2,
+          "priceNote": "4 suítes, conforme tabela."
+        },
+        {
+          "unit": "1107",
+          "typology": "4 quartos",
+          "area": 166.08,
+          "price": 3049000.0,
+          "parkingSpaces": 2,
+          "priceNote": "4 suítes, conforme tabela."
+        },
+        {
+          "unit": "Cob. Duplex 1404",
+          "typology": "3 quartos",
+          "area": 232.37,
+          "price": 4199000.0,
+          "parkingSpaces": 2,
+          "priceNote": "3 suítes, conforme tabela.",
+          "unitKind": "Cobertura duplex"
+        }
+      ],
+      "visualReview": "All four source PDF pages rendered and reviewed, including unit/area/parking/full-price columns and notes.",
+      "bookConfirmed": "Books/Soter/Pulse by Soter - Book.pdf",
+      "beforeCoverage": "partial",
+      "afterCoverage": "complete"
+    }
+  ],
+  "corrections": [
+    "Origem Loja 101/102 classified as Loja, with no inferred bedroom count.",
+    "Origem Essência 415 has one palletized space in the current row; previous zero-space value replaced.",
+    "Pulse 507 absent from current list; 707 and duplex penthouse 1404 included.",
+    "Maestro 403 included; room counts not inferred from area."
+  ],
+  "dateEvidence": "01/11/2026 printed on all four pages; SharePoint modification dates kept separately."
+}

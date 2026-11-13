@@ -1,0 +1,367 @@
+{
+  "checkedAt": "2026-11-13",
+  "baseline": "2026-11-12",
+  "status": "complete",
+  "allZipEntriesReadAndCrcVerified": true,
+  "identicalSha256": 70,
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "sameHashMoves": [],
+  "uiListedFilesWithoutCurrentBinaryVerification": [],
+  "files": [
+    {
+      "path": "Orla Guanabara/Materiais/Checklist Como Aprovar o seu Crédito copiar.jpg",
+      "bytes": 551130,
+      "sha256": "bb7b531920f42e085e3b7bb13e365aa26bde191f4ca6f41a89604d857ce769b6"
+    },
+    {
+      "path": "Orla Guanabara/Materiais/Ficha cadastral emccamp.pdf",
+      "bytes": 69441,
+      "sha256": "30affff0fb47e8ad9de58a867361b7a32f3fd8148e944b3f87d1baf7383e153f"
+    },
+    {
+      "path": "Orla Guanabara/Materiais/FICHA TÉCNICA - ÁREAS COMUNS.pdf",
+      "bytes": 638794,
+      "sha256": "33a9581020d47cc6e4816bc32a5f177b011525490237b9de7b5be233b98e0d25"
+    },
+    {
+      "path": "Orla Guanabara/Materiais/FICHA TÉCNICA.pdf",
+      "bytes": 1149826,
+      "sha256": "ebb73244008cec3e398049247e43b49b6471e962831f466a3f5b65887b95ad88"
+    },
+    {
+      "path": "Orla Guanabara/Materiais/Ficha_Tecnica_Orla_Guanabara.pdf",
+      "bytes": 999963,
+      "sha256": "5a382c0a3d92ef2393d77e6a185fdc71dcad3f393e9f4ca4ae439defe2e33347"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Feed.jpg",
+      "bytes": 746903,
+      "sha256": "b5c762a42b6df15264527bee78b6f6525a65bf1accad07f03c4c618abf8da1fb"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Feed_2.jpg",
+      "bytes": 941445,
+      "sha256": "671b490d85a6351a81be7cc6deb359e53264cbac6439e032e833de7662706d1d"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1feed_3.jpg",
+      "bytes": 1138205,
+      "sha256": "ccb97a03e5ff3bdb4e65ec351b9aa5f1c977b082f081abbe7e670ae3359b3ae9"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Quadrado.jpg",
+      "bytes": 692925,
+      "sha256": "c30920a62991177ea3948749ecbc96d791320c8c0ff8e005b5c10f4c4b8e5de6"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Quadrado_2.jpg",
+      "bytes": 799232,
+      "sha256": "f13ece965831676f588f03467502277205752cf80637925fa8d5af1d5bc565d1"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Quadrado_3.jpg",
+      "bytes": 987924,
+      "sha256": "adf78265d79abf7e46a19eb9385ea3e5b19c94277408681d0392905ed76eb33d"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Reels.jpg",
+      "bytes": 740411,
+      "sha256": "5e0bbb6f61fe4589d5d3385b17261f73e3e0fe94916249be6c4d1e6785fac5b3"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Story.jpg",
+      "bytes": 806925,
+      "sha256": "cd175c67c99e0b67b33623e56f0aff563ad7f53c2b32efd1be6a7812c3f0ede9"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Story_2.jpg",
+      "bytes": 1242044,
+      "sha256": "4df7ebb55ac0a4ca7a82089e688e39a9b4a1243db2f21195f492fb984e13458b"
+    },
+    {
+      "path": "Orla Guanabara/Peças para Redes Sociais/Orla Guanabara Peças 1Story_3.jpg",
+      "bytes": 1248792,
+      "sha256": "39af215b7909aa4ab879010cba7d985bc79b7eaffb40a6bbcac5a520b32701db"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_FACHADA_A.jpg",
+      "bytes": 1029261,
+      "sha256": "5c249f282fc31e784a7b785f67352c26724a6c90454afeae40a0fab827e29ae4"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_FACHADA_LOJAS_A.jpg",
+      "bytes": 895649,
+      "sha256": "e72684d44ec819ab2f1413b34b4a4551e7e06d4d03ae0a6690bf0f3cc64926e7"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_FOTOMONTAGEM_DJI_0133_D.jpg",
+      "bytes": 1156714,
+      "sha256": "4f79bf127d2a846b000789e6d7f085da932954144bc2213c975011fa791f92bb"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_PETPLACE_A.jpg",
+      "bytes": 1865173,
+      "sha256": "b027afae7a5aa307615bfa7b35f69ffdb1cc82d352eb5c16b00b69107a4ca624"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_PISCINA_A.jpg",
+      "bytes": 1667369,
+      "sha256": "6499be5be619b393d41d18c6321c091b89dcec23a7175b86df1f9bc091bfd493"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_PLAYGROUND_A.jpg",
+      "bytes": 1548991,
+      "sha256": "90cab1447412ad26b9a5aee8538f40ed5e5a0d07bd1d53e79655c924cc5c1c0f"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_PORTARIA_D.jpg",
+      "bytes": 667906,
+      "sha256": "34083d0dc2a2e876c648fe8c280c4528aa87d3ffb6babd77d28cf0447faaa4f1"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/EMC_NIT_036_QUADRA_B.jpg",
+      "bytes": 1360990,
+      "sha256": "b0185855fcffe27f0d8ec0d7c6d8697a5fdeb3deb801bcb23f813e9117b7d630"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS EXTERNAS/localizacoes.jpg",
+      "bytes": 1156714,
+      "sha256": "4f79bf127d2a846b000789e6d7f085da932954144bc2213c975011fa791f92bb"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_CAM_BANHO_C.jpg",
+      "bytes": 989530,
+      "sha256": "3ed273576a6a4836f6809498e606b61dded86e9fc4f2fc563edacf7e01f71de7"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_CAM_SALA_A_TV2.jpg",
+      "bytes": 627850,
+      "sha256": "f3c903e725c4cd7960fd089fb3847a9bec5f2bb29b55abf84461d0302b6c3702"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_CAM_SALA_C (1).jpg",
+      "bytes": 581174,
+      "sha256": "0e2278c6bf239728ac2b31ff98910d723bcf1c6713402d3a9d6ebf622d168076"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_CAM_SALA_C.jpg",
+      "bytes": 581174,
+      "sha256": "0e2278c6bf239728ac2b31ff98910d723bcf1c6713402d3a9d6ebf622d168076"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_ISOMETRICA.jpg",
+      "bytes": 486886,
+      "sha256": "39a8e9c70916d3f7ae974d28d703845b07f0de83049c35aea36a6bbe957b84fc"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_QUARTO_CASAL (1).jpg",
+      "bytes": 962448,
+      "sha256": "51e82dcc7a87dabbad0ca6bb37b82aa2fbd24ac3f1c938910fb014c748c27f6c"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_QUARTO_CASAL.jpg",
+      "bytes": 962448,
+      "sha256": "51e82dcc7a87dabbad0ca6bb37b82aa2fbd24ac3f1c938910fb014c748c27f6c"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_1BHO_QUARTO_KIDS.jpg",
+      "bytes": 794948,
+      "sha256": "396834529fbb7fc2a704ac51d026aec1df727d995f784b0b2646910a37e625a7"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_BANHEIRO_SOCIAL (1).jpg",
+      "bytes": 617179,
+      "sha256": "6f03d5c941a3bb006ccab509a144649dbf8e7af10dbe739e610197f633564a11"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_BANHEIRO_SOCIAL.jpg",
+      "bytes": 617179,
+      "sha256": "6f03d5c941a3bb006ccab509a144649dbf8e7af10dbe739e610197f633564a11"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_COZINHA_B.jpg",
+      "bytes": 700755,
+      "sha256": "bba6b2901b54e894cc6859cf7181d5b2df6ba7de52e821e5521ffa93228705ae"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_ISOMETRICA.jpg",
+      "bytes": 353445,
+      "sha256": "df3b8d126de6cb905e5b350f02e7204fd8871841c6e5c3d209c4b0fde5f72045"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_QUARTO_KIDS.jpg",
+      "bytes": 787490,
+      "sha256": "6b37afa5c935c490151a8133383ef8b9cc8ccc0092eef67aee042497a8b7c940"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_SALA_B.jpg",
+      "bytes": 421335,
+      "sha256": "ac3b87f315748f4c3208a349334b6eea2c0be8ed77a5d07562666a97fcf7c7e2"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_SALA_C (1).jpg",
+      "bytes": 420033,
+      "sha256": "5b730bbe6f59b38a60cfa3b33aa25b0f4991b779710c399a36daae5ee6f06fe0"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_SALA_C.jpg",
+      "bytes": 420033,
+      "sha256": "5b730bbe6f59b38a60cfa3b33aa25b0f4991b779710c399a36daae5ee6f06fe0"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_SUITE(1).jpg",
+      "bytes": 828362,
+      "sha256": "7af8f879fe56a1def8eddf7815a88d5592292ddc784189be3d17dd33525bcfd1"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_2BHO_SUITE.jpg",
+      "bytes": 828362,
+      "sha256": "7af8f879fe56a1def8eddf7815a88d5592292ddc784189be3d17dd33525bcfd1"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_ACADEMIA_AEROBICA_A.jpg",
+      "bytes": 444439,
+      "sha256": "a2e755bff4d7bb58fafdd7f0c33b018ba06b869a30ab77b84018bdf7befa63fc"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_ACADEMIA_MUSCULACAO_B (1).jpg",
+      "bytes": 473740,
+      "sha256": "d8bf285321d41cad349ac3bc5995f12dbded4c122bad79804266c8fa3569965a"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_ACADEMIA_MUSCULACAO_B.jpg",
+      "bytes": 473740,
+      "sha256": "d8bf285321d41cad349ac3bc5995f12dbded4c122bad79804266c8fa3569965a"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_BRINQUEDOTECA_A.jpg",
+      "bytes": 714810,
+      "sha256": "02a964f22d61006b3816bab9e19b49aac91f2e302e86a8384a850ccba6db8954"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_ESPACO_GOURMET_A.jpg",
+      "bytes": 498469,
+      "sha256": "7942ebeb4db94e3a05602a629608efa0ed9e876bc79b01dd817a4d0c4fd90a78"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_ESPACO_MULHER (1).jpg",
+      "bytes": 527620,
+      "sha256": "10e17033e566c4fd3a93f504b08d1ce43159089e7fbd7e8328b63e5998f224ef"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_ESPACO_MULHER.jpg",
+      "bytes": 527620,
+      "sha256": "10e17033e566c4fd3a93f504b08d1ce43159089e7fbd7e8328b63e5998f224ef"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_FESTAS_B (1).jpg",
+      "bytes": 557733,
+      "sha256": "b7b39e7d4c7becdf98dc3e5dd9e3e7fb2eb99ebb1474c242f3c39721b87a0e79"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_FESTAS_B.jpg",
+      "bytes": 557733,
+      "sha256": "b7b39e7d4c7becdf98dc3e5dd9e3e7fb2eb99ebb1474c242f3c39721b87a0e79"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_JOGOS_B.jpg",
+      "bytes": 553619,
+      "sha256": "067d416352c3ea2281123986353cfd7f98bf6658387976c2f1de6e4919632d00"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_LAVANDERIA_A (1).jpg",
+      "bytes": 365178,
+      "sha256": "01b36266d4f3438c78f7edf64a8793e3842e9953fd7fc91a6801b9619a83537c"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_LAVANDERIA_A.jpg",
+      "bytes": 365178,
+      "sha256": "01b36266d4f3438c78f7edf64a8793e3842e9953fd7fc91a6801b9619a83537c"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_SALA_GINASTICA_A.jpg",
+      "bytes": 448749,
+      "sha256": "cb0295984e70306fdda91fe0ebd6a619d84684b5e41a696e32f263920093a89e"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/EMC_NIT_036_TERRACO_JOGOS_E.jpg",
+      "bytes": 616616,
+      "sha256": "30cfb09f9a04f3faf9eef4f7c33bf9856fd657843b1482713274d1afa11982f2"
+    },
+    {
+      "path": "Orla Guanabara/Perspectivas/IMAGENS INTERNAS/isometrica com suite.jpg",
+      "bytes": 338568,
+      "sha256": "b5a0a5e14c9e9eadd91d0507a5c9dc3e2096b0d0b32cf66b68083ea34ea4cef5"
+    },
+    {
+      "path": "Orla Guanabara/Plantas/EMC_NIT_PLANTA_MASTERPLAN.jpg",
+      "bytes": 852881,
+      "sha256": "66b9af503acdd74e6ec9a50f607a6fcc9ea88230dcca761968f25e3c4f350011"
+    },
+    {
+      "path": "Orla Guanabara/Plantas/EMC_NIT_PLANTA_ROOFTOP_TORRE_1.jpg",
+      "bytes": 353942,
+      "sha256": "d49a9486dc48b631dc099d8bdca16adabf9bc92b09545ac228298bec07c5dca8"
+    },
+    {
+      "path": "Orla Guanabara/Plantas/EMC_NIT_PLANTA_ROOFTOP_TORRE_2.jpg",
+      "bytes": 349132,
+      "sha256": "e38b0b4549747ee9cfffaaa418e71d1daa7898dbff41cd46c04aec871ddd37ca"
+    },
+    {
+      "path": "Orla Guanabara/Plantas/EMC_NIT_PLANTA_TERREO_TORRE_1.jpg",
+      "bytes": 363306,
+      "sha256": "748ec053f8fc4c23c838ce680aafb39496b1bafcdd3aff48a929f9bdd9bd02f0"
+    },
+    {
+      "path": "Orla Guanabara/Plantas/EMC_NIT_PLANTA_TERREO_TORRE_2.jpg",
+      "bytes": 337103,
+      "sha256": "c9510c3420cb1b2f607a606035b5d2a562439624a389d62c63080f1b9370fa3d"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Spin_EMC-1455-1-26 - Orla Guanabara - Video Produto.mp4",
+      "bytes": 176891317,
+      "sha256": "5eea78219144e9184a2d242fc9e4bb298baa69c44651ae23e9cd8b1462049790"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Corretores/katia(1).mp4",
+      "bytes": 134720923,
+      "sha256": "865c3eeaa5f738c62cc7f6c96bbb84d8404e209d1d60c81d2a7aab0a3dc264f6"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Corretores/ORLA GUANABARA - CLAUDIA(1).mp4",
+      "bytes": 119690117,
+      "sha256": "f639fabc0cd3bdeb8bff44034365185c09659195905348a239d86738f36479c8"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Corretores/Orla Guanabara Carol.mp4",
+      "bytes": 67368805,
+      "sha256": "61707f030a10e38d99d96964d578ee3f6ec4419349baab1be733f54d07730793"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Corretores/regina.mp4",
+      "bytes": 51424162,
+      "sha256": "a8393ffa7fa4a40299fe940d575e9f7c3b87266dc55b49b9e4c1835e93391ef8"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Corretores/Roberta Guida Orla Guanabara.mp4",
+      "bytes": 11803413,
+      "sha256": "9a5a0de1d4bd9af0c289aeadf2392c6676599a728a873eb75909b93da197d11e"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Corretores/silvia orla(1).mp4",
+      "bytes": 93917353,
+      "sha256": "5c0d47d33d805c0a5f1063147af6f1ecf7310f147ea837ffbd4b6c6e468dd0bf"
+    },
+    {
+      "path": "Orla Guanabara/Vídeos/Spin_Vídeo apresentador.mp4",
+      "bytes": 63054338,
+      "sha256": "4aab2457ff3f75a78eb592e364761463e29ea27bdec859d7f3e833692985fd7a"
+    }
+  ],
+  "folders": 8,
+  "entrypointButton": "Orla Guanabara - Emccamp",
+  "commercialTablesOrBooks": []
+}

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-12",
+  "checkedAt": "2026-11-13",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,29 +16,29 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "All 141 source table PDFs fully CRC/SHA-256 verified: 131 unchanged, nine version replacements, new Kronos table and removed East Side Meier table.",
-    "identicalTables": 131,
-    "differentTables": 10,
+    "tableComparison": "141 source tables fully CRC/SHA-256 checked: 138 identical and three Soter November version replacements.",
+    "identicalTables": 138,
+    "differentTables": 3,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "All 132 existing Book-folder files identical; one blank Documento.docx added at root.",
+    "bookComparison": "All 133 source Book-folder files identical to previous audit.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 0,
-    "bookContentReport": "data/books-content-comparison-2026-11-12.json",
+    "bookContentReport": "data/books-content-comparison-2026-11-13.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-12",
-      "baseline": "2026-11-11",
-      "tableFilesIdenticalSha256": 131,
-      "tableFilesAdded": 10,
-      "tableFilesRemoved": 10,
-      "sourceTableVersionReplacements": 9,
-      "catalogTablesUpdated": 5,
-      "bookFilesIdenticalSha256": 132,
-      "bookFilesAdded": 1,
+      "date": "2026-11-13",
+      "baseline": "2026-11-12",
+      "tableFilesIdenticalSha256": 138,
+      "tableFilesAdded": 3,
+      "tableFilesRemoved": 3,
+      "sourceTableVersionReplacements": 3,
+      "catalogTablesUpdated": 3,
+      "bookFilesIdenticalSha256": 133,
+      "bookFilesAdded": 0,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
@@ -47,10 +47,10 @@
       "ownerSuppliedBooksPreserved": 1,
       "ownerProvidedExactPointsIncorporated": 0
     },
-    "sourceTableVersionReplacements": 9,
-    "catalogTablesUpdated": 5,
+    "sourceTableVersionReplacements": 3,
+    "catalogTablesUpdated": 3,
     "catalogValidityMetadataCorrections": [],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-12.json",
+    "commercialValidityReview": "data/table-commercial-review-2026-11-13.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json"
   },
@@ -686,31 +686,10 @@
       "driveIdentical": true
     },
     {
-      "id": "maestro",
-      "name": "Tabela de Vendas Maestro - Outubro 2026.pdf",
-      "sha256": "98d8bfc43a637a5280093b460005ad33feae715938c20430ec142e78597f89f4",
-      "bytes": 434153,
-      "driveIdentical": true
-    },
-    {
       "id": "clarice",
       "name": "Tabela de Vendas Clarice - Outubro 2026.pdf",
       "sha256": "25b3f7e742d7e8a883985ad90e72ed3620dec46cbccd369c76d85fbdc7dd5a2f",
       "bytes": 246473,
-      "driveIdentical": true
-    },
-    {
-      "id": "pulse",
-      "name": "Tabela de Vendas Pulse - Outubro 2026.pdf",
-      "sha256": "5680a7b268b1435c41496a3946d31f2f04950d790f2aab173d0e2b8230376606",
-      "bytes": 282961,
-      "driveIdentical": true
-    },
-    {
-      "id": "origem",
-      "name": "Tabela de Vendas Origem - Outubro 2026.pdf",
-      "sha256": "3784b1a54057cdb6eb47325e064d0e23fe38a44c79eea023afa49dc88620ad97",
-      "bytes": 660373,
       "driveIdentical": true
     },
     {
@@ -959,17 +938,47 @@
       "verifiedAt": "2026-11-12",
       "date": "Novembro 2026",
       "checkedAt": "2026-11-12"
+    },
+    {
+      "id": "maestro",
+      "name": "Tabela de Vendas Maestro - Novembro 2026.pdf",
+      "sha256": "02ca8590c0e70671bc75132a59071ef72b77e1716af6713be1b93072058a832a",
+      "bytes": 434424,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-13",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "pulse",
+      "name": "Tabela de Vendas Pulse - Novembro 2026.pdf",
+      "sha256": "f7be2c8e4397443ba16e0c193f66056619f737c2689381e42989413866cdfeca",
+      "bytes": 282938,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-13",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "origem",
+      "name": "Tabela de Vendas Origem - Novembro 2026.pdf",
+      "sha256": "ea03999ca32c3cd61d76d352df4ca099144ba7288ce0ea37f76f5896e42ee9c2",
+      "bytes": 661542,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-13",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-13"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-12",
-  "lastTablesUpdatedAt": "2026-11-12",
-  "lastBooksComparedAt": "2026-11-12",
-  "lastTablesInventoryCheckedAt": "2026-11-12",
-  "lastFullSourceAuditAt": "2026-11-12",
-  "lastTablesComparedAt": "2026-11-12",
-  "sourceAuditReport": "data/source-audit-2026-11-12.json",
+  "lastInventoryCheckedAt": "2026-11-13",
+  "lastTablesUpdatedAt": "2026-11-13",
+  "lastBooksComparedAt": "2026-11-13",
+  "lastTablesInventoryCheckedAt": "2026-11-13",
+  "lastFullSourceAuditAt": "2026-11-13",
+  "lastTablesComparedAt": "2026-11-13",
+  "sourceAuditReport": "data/source-audit-2026-11-13.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-12.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-12",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-13.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-13",
   "lastBooksUpdatedAt": "2026-11-05"
 }

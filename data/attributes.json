@@ -2092,14 +2092,15 @@
       "601",
       "502",
       "1006",
-      "507",
+      "707",
       "1107",
-      "Cob 1404"
+      "Cob. Duplex 1404"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Abril 2028",
-    "deliveryEvidence": "7- Data prevista para conclusão da obra: 30/04/2028.",
-    "deliverySource": "https://drive.google.com/file/d/1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw/view?usp=drivesdk"
+    "deliveryEvidence": "Data prevista para conclusão da obra: 30/04/2028",
+    "deliverySource": "https://drive.google.com/file/d/1nk0td9Le-6Xugu93oyet9iGWL1KgXkzw/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-13"
   },
   "attrium-icarai": {
     "typologies": [
@@ -2127,14 +2128,16 @@
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/maestro-apartamentos-coberturas-e-apartamentos-garden-niteroi-3-a-4-quartos-121-a-242-m/22585015-SETV",
     "availableUnits": [
       "303",
+      "403",
       "1403",
       "804",
       "1304"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Janeiro 2028",
-    "deliveryEvidence": "5- Data prevista para conclusão da obra: 30/01/2028",
-    "deliverySource": "https://drive.google.com/file/d/1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY/view?usp=drivesdk"
+    "deliveryEvidence": "Data prevista para conclusão da obra: 30/01/2028",
+    "deliverySource": "https://drive.google.com/file/d/1CQioh5ZWPBMWUq5Urgzjk6TXQr3o_fZY/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-13"
   },
   "clarice": {
     "typologies": [
@@ -2172,7 +2175,10 @@
   },
   "origem": {
     "typologies": [
-      "3 quartos"
+      "1 quarto",
+      "3 quartos",
+      "Cobertura",
+      "Loja"
     ],
     "features": [
       "Academia",
@@ -2180,34 +2186,33 @@
     ],
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/origem-residencial-icarai-apartamentos-garden-apartamentos-coberturas-e-lojas-niteroi-3-quartos-43-a-179-m/23427403-SETV",
     "availableUnits": [
-      "ALMA         1201",
-      "ALMA          304",
-      "ALMA         1305",
-      "ALMA         1108",
-      "ESSÊNCIA        613",
-      "ESSÊNCIA        1508",
-      "ESSÊNCIA        509",
-      "ESSÊNCIA        1109",
-      "ESSÊNCIA        1409",
-      "ESSÊNCIA        910",
-      "ESSÊNCIA        1310",
-      "ESSÊNCIA        411",
-      "ESSÊNCIA        1211",
-      "ESSÊNCIA        814",
-      "ESSÊNCIA        1114",
-      "ESSÊNCIA        315",
-      "ESSÊNCIA        415",
-      "ESSÊNCIA        1015",
-      "ESSÊNCIA        1415",
-      "ESSÊNCIA        816",
-      "ESSÊNCIA        1416",
+      "ALMA — 1201",
+      "ALMA — 304",
+      "ALMA — 1305",
+      "ALMA — 1108",
+      "ESSÊNCIA — 1508",
+      "ESSÊNCIA — 509",
+      "ESSÊNCIA — 1409",
+      "ESSÊNCIA — 310",
+      "ESSÊNCIA — 910",
+      "ESSÊNCIA — 1310",
+      "ESSÊNCIA — 411",
+      "ESSÊNCIA — 1211",
+      "ESSÊNCIA — 814",
+      "ESSÊNCIA — 1114",
+      "ESSÊNCIA — 415",
+      "ESSÊNCIA — 1015",
+      "ESSÊNCIA — 1415",
+      "ESSÊNCIA — 816",
+      "ESSÊNCIA — 1416",
       "Loja 101",
       "Loja 102"
     ],
-    "availabilityTableDate": "Outubro 2026",
+    "availabilityTableDate": "Novembro 2026",
     "delivery": "Agosto 2028",
-    "deliveryEvidence": "7- Data prevista para conclusão da obra: 31/08/2028.",
-    "deliverySource": "https://drive.google.com/file/d/1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c/view?usp=drivesdk"
+    "deliveryEvidence": "Data prevista para conclusão da obra: 31/08/2028",
+    "deliverySource": "https://drive.google.com/file/d/1X5hjk2mc6bF1mldxMxWGKFrKGboOCo8c/view?usp=drivesdk",
+    "availabilityCheckedAt": "2026-11-13"
   },
   "duetto": {
     "typologies": [
