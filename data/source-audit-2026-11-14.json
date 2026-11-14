@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-11-14",
+  "baseline": "2026-11-13",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "status": "complete",
+  "method": [
+    "Clicked both public Linktree buttons in the same browser session, without login.",
+    "Scrolled all root lists and every folder/subfolder to the end; reconciled displayed direct-item counts with actual UI rows and complete ZIP contents.",
+    "Read all 344 downloaded source files to EOF, validating ZIP CRC and SHA-256; compared against the previous audit.",
+    "Rendered and visually checked all five pages of the three updated tables.",
+    "Read current Sheet metadata and bounded ranges, all referenced Drive permissions/metadata and all map material folders; verified replacements by download hash."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "rootFiles": 0,
+      "subfolders": 0,
+      "filesListed": 141,
+      "archiveFiles": 141,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "rootFiles": 1,
+      "subfolders": 3,
+      "filesListed": 133,
+      "archiveFiles": 133,
+      "divergences": []
+    },
+    "orla": {
+      "rootFolders": 5,
+      "rootFiles": 0,
+      "subfolders": 3,
+      "filesListed": 70,
+      "archiveFiles": 70,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 141,
+      "identical": 138,
+      "newVersionFiles": 3,
+      "removedOldPaths": 3,
+      "versionReplacements": 3,
+      "newProjectTables": [],
+      "removedProjectTables": [],
+      "unchangedPathContentChanges": 0
+    },
+    "books": {
+      "files": 133,
+      "pdfs": 131,
+      "mp4": 1,
+      "docx": 1,
+      "identical": 133,
+      "added": 0,
+      "removed": 0
+    },
+    "supplementalOrla": {
+      "files": 70,
+      "folders": 8,
+      "identical": 70,
+      "added": [],
+      "removed": [],
+      "changed": []
+    }
+  },
+  "changes": {
+    "tablesUpdated": [
+      {
+        "id": "lazuli",
+        "sourceFile": "Tabela de Vendas Lazuli - Novembro 2026.pdf",
+        "commercialDate": "Novembro 2026",
+        "beforePrice": 1922000,
+        "afterPrice": 1922000.0,
+        "beforeOffers": 61,
+        "afterOffers": 60
+      },
+      {
+        "id": "jardim-itacoa",
+        "sourceFile": "Tabela de Vendas Jardim Itacoá - Novembro 2026.pdf",
+        "commercialDate": null,
+        "beforePrice": 492500,
+        "afterPrice": 517125.0,
+        "beforeOffers": 7,
+        "afterOffers": 4
+      },
+      {
+        "id": "uni-home-studios",
+        "sourceFile": "Tabela de Vendas Uni Home Studio - Novembro 2026 (2).pdf",
+        "commercialDate": "2026-08-11",
+        "beforePrice": 550000,
+        "afterPrice": 550000.0,
+        "beforeOffers": 3,
+        "afterOffers": 3
+      }
+    ],
+    "retiredTables": [],
+    "projectsAdded": [],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "foldersRemoved": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "metadataOnlyChanges": []
+  },
+  "catalog": {
+    "projects": 114,
+    "projectsWithBookAndTable": 83,
+    "mapEligibleProjects": 83,
+    "projectsWithCurrentTable": 89,
+    "incompleteProjectsPreserved": 31
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 83,
+    "newPoints": [],
+    "pending": [],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 221,
+    "uniqueReferencedFiles": 220,
+    "allReferencedPublicReader": true,
+    "mapFolders": 83,
+    "mapFiles": 167,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 3
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true
+  },
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "a76665a0473fd7ee4533ff86016cd5effc2c301e",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "This record precedes its containing commit. Verify the containing commit deployment status for completed publication."
+  },
+  "accessEvents": [
+    {
+      "path": "Linktree > Tabelas de Vendas > MRC",
+      "observed": "Attempted to perform an unauthorized operation. Retry led to Microsoft sign-in.",
+      "recovery": "Reopened Tabelas de Vendas from the Linktree button and entered MRC successfully; one file reconciled.",
+      "resolved": true
+    },
+    {
+      "path": "Linktree > Books dos Lançamentos > EMCCAMP",
+      "observed": "This item isn't available. It might have been moved, renamed, deleted, or you don't have access.",
+      "recovery": "Reopened Books from the Linktree button; EMCCAMP and its Orla Guanabara subfolder opened without login and were fully reconciled.",
+      "resolved": true
+    }
+  ]
+}

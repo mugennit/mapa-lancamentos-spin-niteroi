@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13",
+  "checkedAt": "2026-11-14",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,7 +16,7 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "141 source tables fully CRC/SHA-256 checked: 138 identical and three Soter November version replacements.",
+    "tableComparison": "141 source tables fully CRC/SHA-256 checked: 138 identical and three November file replacements for Lazuli, Jardim Itacoa and Uni Home Studios.",
     "identicalTables": 138,
     "differentTables": 3,
     "missingCatalogDriveFiles": 0,
@@ -24,14 +24,14 @@
     "bookComparison": "All 133 source Book-folder files identical to previous audit.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 0,
-    "bookContentReport": "data/books-content-comparison-2026-11-13.json",
+    "bookContentReport": "data/books-content-comparison-2026-11-14.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-13",
-      "baseline": "2026-11-12",
+      "date": "2026-11-14",
+      "baseline": "2026-11-13",
       "tableFilesIdenticalSha256": 138,
       "tableFilesAdded": 3,
       "tableFilesRemoved": 3,
@@ -50,7 +50,7 @@
     "sourceTableVersionReplacements": 3,
     "catalogTablesUpdated": 3,
     "catalogValidityMetadataCorrections": [],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-13.json",
+    "commercialValidityReview": "data/table-commercial-review-2026-11-14.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json"
   },
@@ -400,13 +400,6 @@
       "driveIdentical": true
     },
     {
-      "id": "lazuli",
-      "name": "Tabela de Vendas - Lazuli -  Setembro 2026 - .pdf",
-      "sha256": "cf5e6c54b8d404b3aa2abc8fd08a30fbc0e7af224db145008cc0e73335e086d0",
-      "bytes": 445272,
-      "driveIdentical": true
-    },
-    {
       "id": "sou-icarai",
       "name": "Tabela de Vendas Sou Mais Icaraí - Maio 2026.pdf",
       "sha256": "e9b6b86ee2ba99f2096c1083250c75673119193f2e91f8ba620e21cfadce7449",
@@ -489,16 +482,6 @@
       "verifiedAt": "2026-11-06"
     },
     {
-      "id": "uni-home-studios",
-      "name": "Tabela de Vendas Uni Home Studio - Novembro 2026.pdf",
-      "sha256": "ddbee7efd4c34318225e8a6a6a5debd7a2648fa382467fb45e8e652f1447ea12",
-      "bytes": 69323,
-      "driveIdentical": true,
-      "date": "Agosto 2026",
-      "checkedAt": "2026-11-06",
-      "verifiedAt": "2026-11-06"
-    },
-    {
       "id": "maris",
       "name": "Tabela de Vendas Maris - Novembro 2026.pdf",
       "sha256": "7ca91f13e5a057c8365c186ea9761145c58f6337d8379a2817e72438b1c965b3",
@@ -529,13 +512,6 @@
       "bytes": 296541,
       "driveIdentical": true,
       "verifiedAt": "2026-10-18"
-    },
-    {
-      "id": "jardim-itacoa",
-      "name": "Tabela de Vendas Jardim Itacoá - Agosto 2026.pdf",
-      "sha256": "a25f9147571931dd5c2eb268a3f53508fadf36bb3e4a89fc29c2ecf394357034",
-      "bytes": 519638,
-      "driveIdentical": true
     },
     {
       "id": "wind-itacoatiara",
@@ -968,17 +944,47 @@
       "verifiedAt": "2026-11-13",
       "date": "Novembro 2026",
       "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "lazuli",
+      "name": "Tabela de Vendas Lazuli - Novembro 2026.pdf",
+      "sha256": "9af1ecf76c18614827dadfffbb7aab12456e2b8aa312c31d3d6f636c90cc85af",
+      "bytes": 407996,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-14",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-14"
+    },
+    {
+      "id": "uni-home-studios",
+      "name": "Tabela de Vendas Uni Home Studio - Novembro 2026 (2).pdf",
+      "sha256": "1f68b5cbf5e50cf3586698b43fec34ae2c947ddcaccb863f585369e701adae83",
+      "bytes": 69323,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-14",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-14"
+    },
+    {
+      "id": "jardim-itacoa",
+      "name": "Tabela de Vendas Jardim Itacoá - Novembro 2026.pdf",
+      "sha256": "eb805f04c4e30a10201d3215d0792e4423c81122909e64864c434556caf66de9",
+      "bytes": 268202,
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-14",
+      "date": "Novembro 2026",
+      "checkedAt": "2026-11-14"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-13",
-  "lastTablesUpdatedAt": "2026-11-13",
-  "lastBooksComparedAt": "2026-11-13",
-  "lastTablesInventoryCheckedAt": "2026-11-13",
-  "lastFullSourceAuditAt": "2026-11-13",
-  "lastTablesComparedAt": "2026-11-13",
-  "sourceAuditReport": "data/source-audit-2026-11-13.json",
+  "lastInventoryCheckedAt": "2026-11-14",
+  "lastTablesUpdatedAt": "2026-11-14",
+  "lastBooksComparedAt": "2026-11-14",
+  "lastTablesInventoryCheckedAt": "2026-11-14",
+  "lastFullSourceAuditAt": "2026-11-14",
+  "lastTablesComparedAt": "2026-11-14",
+  "sourceAuditReport": "data/source-audit-2026-11-14.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-13.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-13",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-14.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-14",
   "lastBooksUpdatedAt": "2026-11-05"
 }

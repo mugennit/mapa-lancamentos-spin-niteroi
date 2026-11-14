@@ -1,0 +1,479 @@
+{
+  "checkedAt": "2026-11-14",
+  "source": "Linktree > Tabelas de Vendas > HABITARE, MEDEIROS, JPR",
+  "tables": [
+    {
+      "id": "lazuli",
+      "sourceFile": "Tabela de Vendas Lazuli - Novembro 2026.pdf",
+      "commercialDate": "Novembro 2026",
+      "fileVersionMonth": "Novembro 2026",
+      "dateEvidence": "Cabeçalho Tabela 11.2026",
+      "beforePrice": 1922000,
+      "afterPrice": 1922000.0,
+      "beforeOffers": 61,
+      "afterOffers": 60,
+      "offers": [
+        {
+          "unit": "401 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 2899000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "402 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 2899000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "404 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 2901000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "502 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 2934000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "DECORADO 505 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 4800000.0,
+          "parkingSpaces": 2,
+          "priceNote": "Unidade identificada como decorado na tabela; confirmar itens incluídos."
+        },
+        {
+          "unit": "601 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 2969000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "603 — Orizzonte",
+          "typology": "3 quartos",
+          "price": 2159000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "604 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 2971000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "702 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3004000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "703 — Orizzonte",
+          "typology": "3 quartos",
+          "price": 2199000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "705 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3513000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "802 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3039000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "803 — Orizzonte",
+          "typology": "3 quartos",
+          "price": 2239000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "806 — Orizzonte",
+          "typology": "3 quartos",
+          "price": 1922000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "903 — Orizzonte",
+          "typology": "3 quartos",
+          "price": 2279000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "904 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3075000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "905 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3654000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1002 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3722000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1004 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3110000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1005 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 3794000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1006 — Orizzonte",
+          "typology": "3 quartos",
+          "price": 2450000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "COB 1102 — Orizzonte",
+          "typology": "4 quartos",
+          "price": 10849000.0,
+          "parkingSpaces": 4,
+          "unitKind": "Cobertura"
+        },
+        {
+          "unit": "402 — Ciello",
+          "typology": "3 quartos",
+          "price": 2240000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "405 — Ciello",
+          "typology": "4 quartos",
+          "price": 3652000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "501 — Ciello",
+          "typology": "3 quartos",
+          "price": 2399000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "502 — Ciello",
+          "typology": "3 quartos",
+          "price": 2284000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "503 — Ciello",
+          "typology": "4 quartos",
+          "price": 3017000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "504 — Ciello",
+          "typology": "4 quartos",
+          "price": 3116000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "505 — Ciello",
+          "typology": "4 quartos",
+          "price": 3784000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "602 — Ciello",
+          "typology": "3 quartos",
+          "price": 2328000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "603 — Ciello",
+          "typology": "4 quartos",
+          "price": 3053000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "701 — Ciello",
+          "typology": "3 quartos",
+          "price": 2491000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "702 — Ciello",
+          "typology": "3 quartos",
+          "price": 2373000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "704 — Ciello",
+          "typology": "4 quartos",
+          "price": 3170000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "705 — Ciello",
+          "typology": "4 quartos",
+          "price": 3828000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "803 — Ciello",
+          "typology": "4 quartos",
+          "price": 3124000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "804 — Ciello",
+          "typology": "4 quartos",
+          "price": 3188000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "901 — Ciello",
+          "typology": "3 quartos",
+          "price": 2583000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "903 — Ciello",
+          "typology": "4 quartos",
+          "price": 3159000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "904 — Ciello",
+          "typology": "4 quartos",
+          "price": 3224000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1001 — Ciello",
+          "typology": "3 quartos",
+          "price": 2629000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1002 — Ciello",
+          "typology": "3 quartos",
+          "price": 2504000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1003 — Ciello",
+          "typology": "4 quartos",
+          "price": 3195000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "1005 — Ciello",
+          "typology": "4 quartos",
+          "price": 3917000.0,
+          "parkingSpaces": 2
+        },
+        {
+          "unit": "COB 1101 — Ciello",
+          "typology": "3 quartos",
+          "price": 6200000.0,
+          "parkingSpaces": 4,
+          "unitKind": "Cobertura"
+        },
+        {
+          "unit": "COB 1103 — Ciello",
+          "typology": "3 quartos",
+          "price": 5250000.0,
+          "parkingSpaces": 4,
+          "unitKind": "Cobertura"
+        },
+        {
+          "unit": "404 — Mare",
+          "typology": "4 quartos",
+          "price": 4713000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "502 — Mare",
+          "typology": "4 quartos",
+          "price": 4760000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "503 — Mare",
+          "typology": "4 quartos",
+          "price": 4760000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "602 — Mare",
+          "typology": "4 quartos",
+          "price": 4810000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "603 — Mare",
+          "typology": "4 quartos",
+          "price": 4810000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "702 — Mare",
+          "typology": "4 quartos",
+          "price": 4907000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "704 — Mare",
+          "typology": "4 quartos",
+          "price": 4962000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "803 — Mare",
+          "typology": "4 quartos",
+          "price": 5006000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "804 — Mare",
+          "typology": "4 quartos",
+          "price": 5061000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "902 — Mare",
+          "typology": "4 quartos",
+          "price": 5104000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "904 — Mare",
+          "typology": "4 quartos",
+          "price": 5160000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "1002 — Mare",
+          "typology": "4 quartos",
+          "price": 5202000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "1003 — Mare",
+          "typology": "4 quartos",
+          "price": 5202000.0,
+          "parkingSpaces": 3
+        },
+        {
+          "unit": "COB 1102 — Mare",
+          "typology": "4 quartos",
+          "price": 10849000.0,
+          "parkingSpaces": 4,
+          "unitKind": "Cobertura"
+        }
+      ],
+      "visualReview": "All five PDF pages rendered and reviewed; full price and row-aligned units/rooms/parking preserved. Lazuli has no area column, Uni has no rooms or parking column: none inferred.",
+      "bookConfirmed": "Book LAZULI.pdf",
+      "beforeCoverage": "partial",
+      "afterCoverage": "complete"
+    },
+    {
+      "id": "jardim-itacoa",
+      "sourceFile": "Tabela de Vendas Jardim Itacoá - Novembro 2026.pdf",
+      "commercialDate": null,
+      "fileVersionMonth": "Novembro 2026",
+      "dateEvidence": "Nenhuma data comercial expressa no conteúdo; novembro é a versão do nome do arquivo.",
+      "beforePrice": 492500,
+      "afterPrice": 517125.0,
+      "beforeOffers": 7,
+      "afterOffers": 4,
+      "offers": [
+        {
+          "unit": "502",
+          "typology": "1 quarto",
+          "area": 41.34,
+          "price": 517125.0,
+          "parkingSpaces": 1
+        },
+        {
+          "unit": "609",
+          "typology": "2 quartos",
+          "area": 60.23,
+          "price": 705600.0,
+          "parkingSpaces": 1
+        },
+        {
+          "unit": "809",
+          "typology": "2 quartos",
+          "area": 65.48,
+          "price": 760725.0,
+          "parkingSpaces": 1
+        },
+        {
+          "unit": "812",
+          "typology": "1 quarto",
+          "area": 45.06,
+          "price": 583275.0,
+          "parkingSpaces": 1
+        }
+      ],
+      "visualReview": "All five PDF pages rendered and reviewed; full price and row-aligned units/rooms/parking preserved. Lazuli has no area column, Uni has no rooms or parking column: none inferred.",
+      "bookConfirmed": "Medeiros — SPIN Apresentação_Book Jardim Itacoa.pdf",
+      "beforeCoverage": "partial",
+      "afterCoverage": "complete"
+    },
+    {
+      "id": "uni-home-studios",
+      "sourceFile": "Tabela de Vendas Uni Home Studio - Novembro 2026 (2).pdf",
+      "commercialDate": "2026-08-11",
+      "fileVersionMonth": "Novembro 2026",
+      "dateEvidence": "Rodapé 11-ago-26",
+      "beforePrice": 550000,
+      "afterPrice": 550000.0,
+      "beforeOffers": 3,
+      "afterOffers": 3,
+      "offers": [
+        {
+          "unit": "101",
+          "typology": "Loja",
+          "unitKind": "Loja",
+          "area": 60.46,
+          "price": 1000000.0
+        },
+        {
+          "unit": "1010",
+          "typology": "",
+          "unitKind": "Cobertura",
+          "area": 47.99,
+          "price": 550000.0,
+          "areaEvidence": "19,25 + 28,74 m² impressos"
+        },
+        {
+          "unit": "1005",
+          "typology": "",
+          "unitKind": "Cobertura",
+          "area": 53.69,
+          "price": 550000.0,
+          "areaEvidence": "20,33 + 33,36 m² impressos"
+        }
+      ],
+      "visualReview": "All five PDF pages rendered and reviewed; full price and row-aligned units/rooms/parking preserved. Lazuli has no area column, Uni has no rooms or parking column: none inferred.",
+      "bookConfirmed": "SPIN BOOK DIGITAL UNI HOME STUDIOS - JPR_21.06.pdf",
+      "beforeCoverage": "complete",
+      "afterCoverage": "complete"
+    }
+  ],
+  "corrections": [
+    "Lazuli offer units include the tower name to prevent unit-number collisions.",
+    "Jardim Itacoa has no printed commercial date; filename month is stored separately.",
+    "Uni Home footer remains 11-ago-26, while filename version is November.",
+    "No room count or parking inferred for Uni Home; no floor area inferred for Lazuli."
+  ]
+}
