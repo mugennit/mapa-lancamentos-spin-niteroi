@@ -1,0 +1,6 @@
+{
+  "checkedAt": "2026-11-15",
+  "baseline": "2026-11-14",
+  "tables": [],
+  "reason": "All 141 source PDFs have identical SHA-256 to 14/11. Existing commercial dates and offers preserved; modification dates and filename months were not treated as commercial dates."
+}
