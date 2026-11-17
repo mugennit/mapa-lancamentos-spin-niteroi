@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-11-17",
+  "baseline": "2026-11-16",
+  "status": "partial",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "initialAccess": "Clicked both public Linktree buttons in the same browser session; both root pages opened without login. No source login requirement inferred.",
+  "tableArchive": {
+    "files": 141,
+    "allReadToEnd": true,
+    "crcVerified": true,
+    "identicalSha256": 141,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "uiInventoryComplete": false
+  },
+  "books": {
+    "currentBinaryVerification": false,
+    "currentFullUiInventory": false,
+    "priorFiles": 133,
+    "priorCountDate": "2026-11-16"
+  },
+  "orla": {
+    "currentBinaryVerification": false,
+    "currentFullUiInventory": false,
+    "priorFiles": 70,
+    "priorCountDate": "2026-11-16"
+  },
+  "drive": {
+    "metadataAndPermissionsRead": 220,
+    "allPublicReader": true,
+    "mapFoldersListed": 83,
+    "mapFiles": 167,
+    "mainFolderFiles": 7,
+    "currentTables": 89,
+    "allUnchanged": true,
+    "overwrittenFiles": 0,
+    "removedFiles": 0
+  },
+  "coordinates": {
+    "currentSheetRead": true,
+    "projectRows": 112,
+    "existingCompleteDrivePairsChecked": 83,
+    "pending": [],
+    "newPoints": [],
+    "scope": "Existing confirmed Drive material pairs; source Books freshness not verified."
+  },
+  "catalog": {
+    "projects": 114,
+    "existingMaterialPairs": 83,
+    "existingEligiblePins": 83,
+    "preserved": true,
+    "materialsCheckedAtNotAdvanced": true,
+    "lastSuccessfulFullAudit": "2026-11-16"
+  },
+  "baume": {
+    "tableSourceVerifiedToday": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "ceuTableFolderDirectItems": 6,
+    "driveOwnerBookPreserved": true,
+    "driveOfficialBookPreserved": true,
+    "driveCurrentTables": 1,
+    "sourceOfficialBookFreshnessNotVerifiedToday": true,
+    "notMarkedMissing": true
+  },
+  "changes": {
+    "catalogChanged": false,
+    "materialLinksChanged": false,
+    "driveFilesChanged": false,
+    "pinsChanged": false,
+    "commercialDatesChanged": false
+  },
+  "limitations": [
+    {
+      "scope": "Linktree > Tabelas de Vendas: root and all folders except CEU",
+      "blocker": "Browser CDP Input.dispatchMouseEvent timed out repeatedly during scrolling. Final recovery attempt timed out after 60s and reset the browser-control kernel.",
+      "affected": "42 root folder rows observed, but root EOF and 41 folder listings were not reconciled today. CEU alone reconciled 6/6."
+    },
+    {
+      "scope": "Linktree > Books dos Lançamentos",
+      "blocker": "Root opened without login, but full-archive download listener timed out after 55s; no completed Books file was available in the current run download directory. Navigation could not be completed after browser-control failure.",
+      "affected": "All 41 folders, 3 subfolders and root file remain unverified today. Prior 133-file count is historical, not a current inventory."
+    },
+    {
+      "scope": "Linktree > Orla Guanabara - Emccamp supplemental materials",
+      "blocker": "Not reached after temporary browser-control failure.",
+      "affected": "All 8 folders and previous 70 files remain unverified today."
+    }
+  ],
+  "publication": {
+    "state": "report-only-ready-to-publish",
+    "baseCommit": "fab8cda4568d76bd6dce178ef3e1a8b4206c2a06",
+    "target": "GitHub main → existing Vercel; only five audit files added, current catalog and UI untouched."
+  },
+  "temporaryBrowserIssue": true
+}

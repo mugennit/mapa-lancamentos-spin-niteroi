@@ -1,0 +1,435 @@
+{
+  "checkedAt": "2026-11-17",
+  "status": "partial",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "initialPublicRootsOpenedWithoutLogin": [
+    "Tabelas de Vendas",
+    "Books dos Lançamentos"
+  ],
+  "rootListsScrolledToEnd": false,
+  "tablesRootObservedRows": [
+    {
+      "kind": "folder",
+      "modified": "11/9/2026 5:48 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "Emccamp",
+      "sizeOrItems": "2 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "10/29/2026 6:43 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "MRC",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "6/25/2026 10:21 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "Smart Ville",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "6/19/2026 11:35 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "Fazenda Fillomena",
+      "sizeOrItems": "2 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "6/18/2026 7:55 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "Golden Realty",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "2/4/2026 12:46 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "JM",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "1/19/2026 6:29 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "EQUIPE",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/3/2025 5:31 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "NATUS",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "10/31/2025 11:46 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "FEFM",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "10/14/2025 6:35 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "GPCON",
+      "sizeOrItems": "2 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "8/4/2025 11:35 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "PA5",
+      "sizeOrItems": "2 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "7/28/2025 8:45 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "4MX",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "7/11/2025 6:06 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "SELLING",
+      "sizeOrItems": "7 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "7/3/2025 7:26 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "ARETÊ BUZIOS",
+      "sizeOrItems": "7 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "6/26/2025 11:34 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "MEDEIROS",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "5/20/2025 11:04 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "RJ ENGENHARIA",
+      "sizeOrItems": "9 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "5/19/2025 6:39 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "Pró-Lotes",
+      "sizeOrItems": "6 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "4/28/2025 6:44 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "JOAMA",
+      "sizeOrItems": "2 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "2/13/2025 7:38 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "Meu Crescer",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "1/27/2025 7:59 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "MRV",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "1/13/2025 6:20 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "METTA",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "12/19/2024 6:34 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "CHEADE",
+      "sizeOrItems": " 0 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "12/2/2024 6:23 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "CONVIVA",
+      "sizeOrItems": "10 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:03 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "TEGRA",
+      "sizeOrItems": "6 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:03 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "TECCONSTRU",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:03 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "SOTER",
+      "sizeOrItems": "8 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:03 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "RDR",
+      "sizeOrItems": "2 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:03 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "RAMABE",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:02 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "PROART",
+      "sizeOrItems": "7 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:02 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "PINTO DE ALMEIDA",
+      "sizeOrItems": " 0 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:02 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "NOVOLAR",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:02 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "LRM",
+      "sizeOrItems": "3 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:01 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "JPR",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:01 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "JOÃO FORTES",
+      "sizeOrItems": "1 item"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:00 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "ITAUBA",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 12:00 PM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "HABITARE",
+      "sizeOrItems": "5 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 11:59 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "FERNANDES MACIEL",
+      "sizeOrItems": "7 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 11:59 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "FALVES",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 11:58 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "ELVAS",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 11:55 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "CURY",
+      "sizeOrItems": "4 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 11:54 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "CEU",
+      "sizeOrItems": "6 items"
+    },
+    {
+      "kind": "folder",
+      "modified": "11/25/2024 11:53 AM (UTC-08:00) Pacific Time (US and Canada)",
+      "name": "BACOS",
+      "sizeOrItems": "6 items"
+    }
+  ],
+  "tablesRootLastSavedScroll": {
+    "atEnd": false,
+    "height": 718,
+    "top": 1163,
+    "total": 2107
+  },
+  "inventory": {
+    "tables": {
+      "CEU": {
+        "path": "CEU",
+        "expected": 6,
+        "rows": [
+          {
+            "kind": "file",
+            "modified": "11/4/2026 6:33 AM (UTC-08:00) Pacific Time (US and Canada)",
+            "name": "Tabela de Vendas Nomad - Novembro 2026.pdf",
+            "sizeOrItems": "318 KB"
+          },
+          {
+            "kind": "file",
+            "modified": "11/4/2026 6:31 AM (UTC-08:00) Pacific Time (US and Canada)",
+            "name": "Tabela de Vendas Maria Maria - Novembro 2026.pdf",
+            "sizeOrItems": "339 KB"
+          },
+          {
+            "kind": "file",
+            "modified": "11/4/2026 6:27 AM (UTC-08:00) Pacific Time (US and Canada)",
+            "name": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+            "sizeOrItems": "406 KB"
+          },
+          {
+            "kind": "file",
+            "modified": "11/4/2026 6:25 AM (UTC-08:00) Pacific Time (US and Canada)",
+            "name": "Tabela de Vendas 141 Living - Novembro 2026.pdf",
+            "sizeOrItems": "412 KB"
+          },
+          {
+            "kind": "file",
+            "modified": "11/4/2026 6:16 AM (UTC-08:00) Pacific Time (US and Canada)",
+            "name": "Tabela de Vendas Tao - Novembro 2026.pdf",
+            "sizeOrItems": "527 KB"
+          },
+          {
+            "kind": "file",
+            "modified": "6/26/2026 10:09 AM (UTC-08:00) Pacific Time (US and Canada)",
+            "name": "Tabela de Vendas 141 Living (Permutante) - Junho 2026.pdf",
+            "sizeOrItems": "61.0 KB"
+          }
+        ],
+        "scrollEnd": true,
+        "scrollState": {
+          "atEnd": true,
+          "height": 718,
+          "top": 0,
+          "total": 718
+        }
+      }
+    },
+    "books": {},
+    "orla": {}
+  },
+  "verifiedDirectFolderCounts": {
+    "Tabelas de Vendas/CEU": {
+      "displayed": 6,
+      "listed": 6,
+      "scrolledToEnd": true
+    }
+  },
+  "baselineFoldersNotReconciledToday": {
+    "tables": [
+      "4MX",
+      "ARETÊ BUZIOS",
+      "BACOS",
+      "CHEADE",
+      "CONVIVA",
+      "CURY",
+      "ELVAS",
+      "EQUIPE",
+      "Emccamp",
+      "FALVES",
+      "FEFM",
+      "FERNANDES MACIEL",
+      "Fazenda Fillomena",
+      "GPCON",
+      "Golden Realty",
+      "HABITARE",
+      "ITAUBA",
+      "JM",
+      "JOAMA",
+      "JOÃO FORTES",
+      "JPR",
+      "LRM",
+      "MEDEIROS",
+      "METTA",
+      "MRC",
+      "MRV",
+      "Meu Crescer",
+      "NATUS",
+      "NOVOLAR",
+      "PA5",
+      "PINTO DE ALMEIDA",
+      "PROART",
+      "Pró-Lotes",
+      "RAMABE",
+      "RDR",
+      "RJ ENGENHARIA",
+      "SELLING",
+      "SOTER",
+      "Smart Ville",
+      "TECCONSTRU",
+      "TEGRA"
+    ],
+    "books": [
+      "4MX",
+      "Anasa",
+      "Bacos",
+      "CAC",
+      "CEU",
+      "CYCOHRP Engenharia",
+      "Cheade",
+      "Conviva",
+      "Crescer",
+      "Cury",
+      "Direcional",
+      "EMCCAMP",
+      "EMCCAMP/Orla Guanabara",
+      "Elvas",
+      "Equipe",
+      "Falves",
+      "Fernandes Maciel",
+      "GPCON",
+      "Habitare",
+      "Itauba",
+      "JPR",
+      "Joama",
+      "João Fortes",
+      "Krion",
+      "LRM",
+      "MRC",
+      "Medeiros",
+      "Metta",
+      "Mhor",
+      "Nexis",
+      "Novolar",
+      "PA5",
+      "Proart",
+      "Pró-lotes",
+      "RAMABE",
+      "RDR",
+      "RJ Engenharia",
+      "Soter",
+      "Soter/Clarice",
+      "Tecconstru",
+      "Tegra",
+      "Tresor",
+      "Tresor/União Contruções",
+      "VL Construtora"
+    ],
+    "orla": [
+      "Materiais",
+      "Perspectivas",
+      "Perspectivas/IMAGENS EXTERNAS",
+      "Perspectivas/IMAGENS INTERNAS",
+      "Peças para Redes Sociais",
+      "Plantas",
+      "Vídeos",
+      "Vídeos/Corretores"
+    ]
+  },
+  "pendingFoldersMayHaveChanged": true,
+  "noRemovalInferredFromUnvisitedFolders": true
+}
