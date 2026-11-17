@@ -1,4 +1,4 @@
-export type UnitOffer = {unit: string; typology: string; price: number; unitKind?: string; priceNote?: string; parkingSpaces?: number; parkingCountIsMinimum?: boolean; parkingNote?: string; offerKind?: 'group'; availableCount?: number};
+export type UnitOffer = {unit: string; typology: string; price: number; area?: number; unitKind?: string; priceNote?: string; parkingSpaces?: number; parkingCountIsMinimum?: boolean; parkingNote?: string; offerKind?: 'group'; availableCount?: number};
 export type OfferTable = {tableUrl: string; tableDate: string; checkedAt: string; coverage: string; offers: UnitOffer[]};
 export const FAVORITES_KEY = 'spinmap:favorites:v1';
 export const SHARE_KEY = 'spinmap:shared-selection:v1';
@@ -17,6 +17,7 @@ export function matchesBudget(project: {price: number | null; priceLabel?: strin
   if (min === '' && max === '') return true;
   if (project.priceLabel?.toLowerCase().startsWith('aluguel')) return false;
   if (typology !== 'all') return matchingOffers(table, typology, min, max).length > 0;
+  if (table?.offers.length) return matchingOffers(table, typology, min, max).length > 0;
   const price = project.price;
   return price !== null && (min === '' || price >= Number(min)) && (max === '' || price <= Number(max));
 }
