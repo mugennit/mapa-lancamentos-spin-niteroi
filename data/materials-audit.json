@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16",
+  "checkedAt": "2026-11-18",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,7 +16,7 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "All 141 source tables unchanged by full CRC/SHA-256 comparison with 15/11.",
+    "tableComparison": "All 141 source tables unchanged by full CRC/SHA-256 comparison with 16/11.",
     "identicalTables": 141,
     "differentTables": 0,
     "missingCatalogDriveFiles": 0,
@@ -24,14 +24,14 @@
     "bookComparison": "All 133 source Book-folder files unchanged by CRC/SHA-256 comparison.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 0,
-    "bookContentReport": "data/books-content-comparison-2026-11-16.json",
+    "bookContentReport": "data/books-content-comparison-2026-11-18.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-16",
-      "baseline": "2026-11-15",
+      "date": "2026-11-18",
+      "baseline": "2026-11-16",
       "tableFilesIdenticalSha256": 141,
       "tableFilesAdded": 0,
       "tableFilesRemoved": 0,
@@ -50,7 +50,7 @@
     "sourceTableVersionReplacements": 0,
     "catalogTablesUpdated": 0,
     "catalogValidityMetadataCorrections": [],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-16.json",
+    "commercialValidityReview": "data/table-commercial-review-2026-11-18.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json"
   },
@@ -976,15 +976,15 @@
       "checkedAt": "2026-11-14"
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-16",
+  "lastInventoryCheckedAt": "2026-11-18",
   "lastTablesUpdatedAt": "2026-11-14",
-  "lastBooksComparedAt": "2026-11-16",
-  "lastTablesInventoryCheckedAt": "2026-11-16",
-  "lastFullSourceAuditAt": "2026-11-16",
-  "lastTablesComparedAt": "2026-11-16",
-  "sourceAuditReport": "data/source-audit-2026-11-16.json",
+  "lastBooksComparedAt": "2026-11-18",
+  "lastTablesInventoryCheckedAt": "2026-11-18",
+  "lastFullSourceAuditAt": "2026-11-18",
+  "lastTablesComparedAt": "2026-11-18",
+  "sourceAuditReport": "data/source-audit-2026-11-18.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-16.json",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-18.json",
   "lastCatalogMetadataUpdatedAt": "2026-11-14",
   "lastBooksUpdatedAt": "2026-11-05"
 }
