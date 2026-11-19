@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-11-19",
+  "baseline": "2026-11-18",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "status": "complete",
+  "method": [
+    "Clicked both Linktree buttons in the same browser session; public sources opened without login.",
+    "Scrolled every root, folder and subfolder to EOF, reconciling displayed direct-item counts with UI rows and full archives.",
+    "Read all 345 downloaded files to EOF with ZIP CRC verification and SHA-256 comparison; Unicode-normalized paths before comparing.",
+    "Read current spreadsheet metadata and A1:Z150 plus empty A151:Z969; checked all 83 complete projects against validated exact coordinates.",
+    "Re-read all 221 referenced Drive metadata/permissions, main folder and all 83 map folders; compared against prior post-update state."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "rootFiles": 0,
+      "subfolders": 0,
+      "filesListed": 142,
+      "archiveFiles": 142,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "rootFiles": 1,
+      "subfolders": 3,
+      "filesListed": 133,
+      "archiveFiles": 133,
+      "divergences": []
+    },
+    "orla": {
+      "rootFolders": 5,
+      "rootFiles": 0,
+      "subfolders": 3,
+      "filesListed": 70,
+      "archiveFiles": 70,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 142,
+      "identical": 140,
+      "added": 2,
+      "removed": 1,
+      "changed": 0
+    },
+    "books": {
+      "files": 133,
+      "identical": 133,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "orla": {
+      "files": 70,
+      "identical": 70,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "changes": {
+    "tablesUpdated": [
+      "seven-avenue"
+    ],
+    "retiredTables": [],
+    "projectsAdded": [
+      "conviva-piratininga-ii"
+    ],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "foldersRemoved": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "metadataOnlyChanges": [],
+    "tablesAdded": [
+      "conviva-piratininga-ii"
+    ]
+  },
+  "catalog": {
+    "projects": 115,
+    "projectsWithBookAndTable": 83,
+    "mapEligibleProjects": 83,
+    "projectsWithCurrentTable": 90,
+    "incompleteProjectsPreserved": 32
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 83,
+    "newPoints": [],
+    "pending": [],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 222,
+    "uniqueReferencedFiles": 221,
+    "allReferencedPublicReader": true,
+    "mapFolders": 83,
+    "mapFiles": 167,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 1,
+    "filesAdded": 1,
+    "filesRemoved": 0,
+    "allOtherMetadataUnchangedFromPreviousPostUpdate": true,
+    "driveFilesDownloadedToday": 2,
+    "updatedFilesSha256Verified": [
+      "1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v",
+      "1NTF3PbWzuVJmAdN1BkE6jgo2eiK4tt-1"
+    ]
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "sourceTableFolderItems": 6,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true,
+    "driveFolderFiles": 3
+  },
+  "accessEvents": [
+    {
+      "path": "SharePoint virtualized lists",
+      "observed": "Browser-control call exceeded 60 seconds while navigating a batch; the browser-control kernel reset.",
+      "recovery": "Resumed from the last saved folder in smaller batches; validated folder heading, grid and item counts before saving. All 42 table folders, 44 Books folders/subfolders and 8 supplemental Orla folders fully reconciled.",
+      "resolved": true
+    }
+  ],
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs tests/project-insights.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true,
+    "preservedRecentImprovements": [
+      "Satellite basemap with imagery and place labels",
+      "Delivery deadlines, commercial freshness indicators and individual unit sheets"
+    ]
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "8e352e73173aa1286b7aca7ba4420b2e4afa0651",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "Record precedes its containing commit; verify deployment status of that commit for completed publication."
+  },
+  "previousAttempt": {
+    "date": "2026-11-18",
+    "status": "complete"
+  },
+  "linktreeChanges": {
+    "addedButtons": [],
+    "removedButtons": [],
+    "newLaunchInferredFromButton": false
+  },
+  "pendingMaterials": [
+    {
+      "id": "conviva-piratininga-ii",
+      "name": "Conviva Piratininga II",
+      "missing": [
+        "Book",
+        "Endereço e ponto exato"
+      ],
+      "bookSearch": "All Books folders and subfolders plus Drive name search; no matching Book found",
+      "onMap": false
+    },
+    {
+      "id": "seven-avenue",
+      "name": "Seven Avenue",
+      "missing": [
+        "Book"
+      ],
+      "onMap": false
+    }
+  ]
+}

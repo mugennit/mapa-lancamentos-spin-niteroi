@@ -15652,40 +15652,43 @@
   },
   "seven-avenue": {
     "tableUrl": "https://drive.google.com/file/d/1mO7ydxBg_6BbFdGG17B7ywdIazMnr0_v/view?usp=drivesdk",
-    "tableDate": "Outubro 2026",
-    "checkedAt": "2026-10-23",
-    "coverage": "partial",
+    "tableDate": "Não informada",
+    "checkedAt": "2026-11-19",
+    "coverage": "complete",
     "offers": [
       {
         "unit": "402",
-        "typology": "3 quartos",
+        "typology": "",
         "price": 1590000,
         "unitKind": "Apartamento",
         "priceNote": "Apartamento decorado"
       },
       {
-        "unit": "1502",
-        "typology": "3 quartos",
-        "price": 1185000,
-        "unitKind": "Apartamento"
-      },
-      {
         "unit": "1602",
-        "typology": "3 quartos",
-        "price": 1800000,
-        "unitKind": "Cobertura"
-      },
-      {
-        "unit": "1305",
         "typology": "",
-        "price": 955000,
-        "unitKind": "Apartamento"
+        "price": 1800000,
+        "unitKind": "Cobertura",
+        "priceNote": "Cobertura linear"
       },
       {
         "unit": "1506",
         "typology": "",
         "price": 1350000,
-        "unitKind": "Cobertura"
+        "unitKind": "Cobertura",
+        "priceNote": "Cobertura duplex"
+      }
+    ],
+    "commercialDate": null,
+    "reservedUnits": [
+      {
+        "unit": "1502",
+        "price": 1185000,
+        "reservation": "MOVV"
+      },
+      {
+        "unit": "1305",
+        "price": 955000,
+        "reservation": "SPIN"
       }
     ]
   },
@@ -21755,5 +21758,176 @@
       }
     ],
     "parkingCheckedAt": "2026-11-10"
+  },
+  "conviva-piratininga-ii": {
+    "checkedAt": "2026-11-19",
+    "tableUrl": "https://drive.google.com/file/d/1NTF3PbWzuVJmAdN1BkE6jgo2eiK4tt-1/view?usp=drivesdk",
+    "tableDate": "Novembro 2026",
+    "commercialDate": "2026-11-09",
+    "coverage": "complete",
+    "offers": [
+      {
+        "unit": "105",
+        "typology": "2 quartos",
+        "price": 999900,
+        "area": 76.14,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "109",
+        "typology": "2 quartos",
+        "price": 999900,
+        "area": 76.14,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "312",
+        "typology": "1 quarto",
+        "price": 639900,
+        "area": 37.8,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "313",
+        "typology": "1 quarto",
+        "price": 639900,
+        "area": 38.54,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "314",
+        "typology": "",
+        "price": 639900,
+        "area": 38.51,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "401",
+        "typology": "1 quarto",
+        "price": 644900,
+        "area": 37.73,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "402",
+        "typology": "1 quarto",
+        "price": 644900,
+        "area": 38.51,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "403",
+        "typology": "1 quarto",
+        "price": 644900,
+        "area": 38.54,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "413",
+        "typology": "1 quarto",
+        "price": 644900,
+        "area": 38.54,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "415",
+        "typology": "1 quarto",
+        "price": 644900,
+        "area": 37.78,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "501",
+        "typology": "1 quarto",
+        "price": 649900,
+        "area": 37.65,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "502",
+        "typology": "2 quartos",
+        "price": 1099900,
+        "area": 81.08,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "503",
+        "typology": "1 quarto",
+        "price": 649900,
+        "area": 37.8,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "510",
+        "typology": "2 quartos",
+        "price": 1099900,
+        "area": 81.08,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "511",
+        "typology": "1 quarto",
+        "price": 649900,
+        "area": 37.7,
+        "parkingSpaces": 1,
+        "unitKind": "Apartamento",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "COB 01",
+        "typology": "2 quartos",
+        "price": 1399900,
+        "area": 102.4,
+        "parkingSpaces": 1,
+        "unitKind": "Cobertura",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "COB 03",
+        "typology": "2 quartos",
+        "price": 999900,
+        "area": 65.91,
+        "parkingSpaces": 1,
+        "unitKind": "Cobertura",
+        "evidence": "PDF oficial, página 1"
+      },
+      {
+        "unit": "COB 04",
+        "typology": "2 quartos",
+        "price": 1399900,
+        "area": 102.4,
+        "parkingSpaces": 1,
+        "unitKind": "Cobertura",
+        "evidence": "PDF oficial, página 1"
+      }
+    ]
   }
 }

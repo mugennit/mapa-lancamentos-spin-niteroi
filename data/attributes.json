@@ -3497,12 +3497,11 @@
     "sourceUrl": "https://www.spinimoveis.com/empreendimento/seven-avenue-apartamentos-salas-e-coberturas-niteroi-3-quartos-30-a-186-m/19583442-SETV",
     "availableUnits": [
       "402",
-      "1502",
       "1602",
-      "1305",
       "1506"
     ],
-    "availabilityTableDate": "Outubro 2026"
+    "availabilityTableDate": "Não informada",
+    "availabilityCheckedAt": "2026-11-19"
   },
   "vila-moura": {
     "typologies": [
@@ -3639,5 +3638,37 @@
       "2 quartos"
     ],
     "sourceUrl": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk"
+  },
+  "conviva-piratininga-ii": {
+    "typologies": [
+      "1 quarto",
+      "2 quartos",
+      "Cobertura"
+    ],
+    "availableUnits": [
+      "105",
+      "109",
+      "312",
+      "313",
+      "314",
+      "401",
+      "402",
+      "403",
+      "413",
+      "415",
+      "501",
+      "502",
+      "503",
+      "510",
+      "511",
+      "COB 01",
+      "COB 03",
+      "COB 04"
+    ],
+    "availabilityTableDate": "Novembro 2026",
+    "availabilityCheckedAt": "2026-11-19",
+    "delivery": "Outubro 2029",
+    "deliveryEvidence": "A previsão para a conclusão das obras é OUTUBRO/29, ressalvada a tolerância de 180 dias.",
+    "deliverySource": "https://drive.google.com/file/d/1NTF3PbWzuVJmAdN1BkE6jgo2eiK4tt-1/view?usp=drivesdk"
   }
 }

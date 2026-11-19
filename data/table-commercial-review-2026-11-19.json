@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-11-19",
+  "baseline": "2026-11-18",
+  "tables": [],
+  "reason": "140 source PDFs unchanged. Seven Avenue replaced; Conviva Piratininga II added. See reviewedTables for commercial dates and availability.",
+  "reviewedTables": [
+    {
+      "id": "seven-avenue",
+      "sourceFileVersion": "Tabela de Vendas Seven Avenue - Novembro 2026.pdf",
+      "commercialDate": null,
+      "date": "Não informada",
+      "availableUnits": [
+        "402",
+        "1602",
+        "1506"
+      ],
+      "reservedUnits": [
+        "1502",
+        "1305"
+      ],
+      "availablePriceFrom": 1350000,
+      "roomsAndParking": "Not stated in this PDF; not inferred",
+      "pagesVisuallyReviewed": 1
+    },
+    {
+      "id": "conviva-piratininga-ii",
+      "sourceFileVersion": "Tabela de Vendas Conviva Piratininga II - Novembro 2026.pdf",
+      "commercialDate": "2026-11-09",
+      "offers": 18,
+      "priceFrom": 639900,
+      "delivery": "Outubro 2029",
+      "unit314Rooms": "Not stated",
+      "pagesVisuallyReviewed": 1
+    }
+  ]
+}
