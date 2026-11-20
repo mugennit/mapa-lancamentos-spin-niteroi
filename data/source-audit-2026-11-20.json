@@ -1,0 +1,197 @@
+{
+  "checkedAt": "2026-11-20",
+  "baseline": "2026-11-19",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "status": "complete",
+  "method": [
+    "Clicked both Linktree buttons in the same browser session; public sources opened without login.",
+    "Scrolled every root, folder and subfolder to EOF, reconciling displayed direct-item counts with UI rows and full archives.",
+    "Read all 347 downloaded files to EOF with ZIP CRC verification and SHA-256 comparison; Unicode-normalized paths before comparing.",
+    "Read current spreadsheet metadata and A1:Z150 plus empty A151:Z969; checked all 84 complete projects against validated exact coordinates.",
+    "Re-read all 221 existing Drive files and all existing 83 map folders; verified public reader permissions and byte sizes; compared against prior post-update state. Added and re-fetched both Lothus PDFs with matching SHA-256."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "rootFiles": 0,
+      "subfolders": 0,
+      "filesListed": 143,
+      "archiveFiles": 143,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "rootFiles": 1,
+      "subfolders": 3,
+      "filesListed": 134,
+      "archiveFiles": 134,
+      "divergences": []
+    },
+    "orla": {
+      "rootFolders": 5,
+      "rootFiles": 0,
+      "subfolders": 3,
+      "filesListed": 70,
+      "archiveFiles": 70,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 143,
+      "identical": 142,
+      "added": 1,
+      "removed": 0,
+      "changed": 0
+    },
+    "books": {
+      "files": 134,
+      "identical": 133,
+      "added": 1,
+      "removed": 0,
+      "changed": 0
+    },
+    "orla": {
+      "files": 70,
+      "identical": 70,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "changes": {
+    "tablesUpdated": [],
+    "tablesAdded": [
+      "lothus-residence"
+    ],
+    "booksAdded": [
+      "lothus-residence"
+    ],
+    "projectsAdded": [
+      "lothus-residence"
+    ],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "foldersRemoved": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "metadataOnlyChanges": []
+  },
+  "catalog": {
+    "projects": 116,
+    "projectsWithBookAndTable": 84,
+    "mapEligibleProjects": 83,
+    "projectsWithCurrentTable": 91,
+    "incompleteProjectsPreserved": 32
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 84,
+    "newPoints": [],
+    "pending": [
+      {
+        "id": "lothus-residence",
+        "name": "Lothus Residence",
+        "address": "Rua A, 47 — Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
+        "row": null
+      }
+    ],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 224,
+    "uniqueReferencedFiles": 223,
+    "allReferencedPublicReader": true,
+    "mapFolders": 84,
+    "mapFiles": 169,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 0,
+    "filesAdded": 2,
+    "filesRemoved": 0,
+    "allOtherMetadataUnchangedFromPreviousPostUpdate": true,
+    "driveFilesDownloadedToday": 2,
+    "updatedFilesSha256Verified": [
+      "1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w",
+      "1a_FRe2ZbhVsEQ9KxT4yzQ4L9NZ5lVzxp"
+    ]
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "sourceTableFolderItems": 6,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true,
+    "driveFolderFiles": 3
+  },
+  "accessEvents": [
+    {
+      "path": "Linktree → Books dos Lançamentos → Krion",
+      "observed": "SharePoint displayed Attempted to perform an unauthorized operation. Retry led to Microsoft sign-in.",
+      "recovery": "Reopened Books through the original Linktree button. Guest sharing session restored without login; Krion and all other folders fully inventoried.",
+      "resolved": true
+    },
+    {
+      "path": "Supplemental Orla browser download",
+      "observed": "A browser-control call exceeded 30 seconds and its kernel reset.",
+      "recovery": "Resumed the live shared folder; completed its download and every UI subfolder count in smaller batches.",
+      "resolved": true
+    }
+  ],
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs tests/project-insights.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true,
+    "preservedRecentImprovements": [
+      "Satellite basemap with imagery and place labels",
+      "Delivery deadlines, commercial freshness indicators and individual unit sheets"
+    ]
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "aa28796ef8ee0451e625d1bf11175a807ac571c4",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "Record precedes its containing commit; verify deployment status of that commit for completed publication."
+  },
+  "linktreeChanges": {
+    "addedButtons": [],
+    "removedButtons": [],
+    "newLaunchInferredFromButton": false
+  },
+  "pendingMaterials": [
+    {
+      "id": "conviva-piratininga-ii",
+      "name": "Conviva Piratininga II",
+      "missing": [
+        "Book",
+        "Endereço e ponto exato"
+      ],
+      "bookSearch": "All Books folders and subfolders fully reviewed; no matching Book found",
+      "onMap": false
+    },
+    {
+      "id": "seven-avenue",
+      "name": "Seven Avenue",
+      "missing": [
+        "Book"
+      ],
+      "onMap": false
+    }
+  ]
+}

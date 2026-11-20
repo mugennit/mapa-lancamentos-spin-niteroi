@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-11-20",
+  "baseline": "2026-11-19",
+  "tables": [],
+  "reason": "142 prior source tables unchanged; one new table for Lothus reviewed. No commercial date inferred from filename or SharePoint timestamps.",
+  "reviewedTables": [
+    {
+      "id": "lothus-residence",
+      "sourceFileVersion": "Tabela de Vendas Lothus - Novembro 2026.pdf",
+      "commercialDate": null,
+      "date": "Não informada",
+      "fileVersionMonth": "Novembro 2026",
+      "availableUnits": 62,
+      "priceFrom": 811000.47,
+      "deliveryDate": "2029-09-30",
+      "rooms": [
+        2,
+        3
+      ],
+      "parkingSpaces": [
+        1,
+        2
+      ],
+      "unitIdentifiers": "Block number plus unit number; repeated unit numbers are distinct across blocks.",
+      "pagesVisuallyReviewed": 1,
+      "bookPages": 36,
+      "bookAddressPagesVisuallyReviewed": [
+        7,
+        34
+      ],
+      "bookAddress": "Rua A, nº 47, Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
+      "tableLotNotation": "Lote 03 a 07, Quadra 01",
+      "coordinateStatus": "Pending owner exact-point validation; absent from current sheet"
+    }
+  ]
+}

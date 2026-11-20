@@ -1,60 +1,68 @@
 {
-  "checkedAt": "2026-11-19",
+  "checkedAt": "2026-11-20",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
     "tableFolders": 42,
-    "tableSourceFiles": 142,
+    "tableSourceFiles": 143,
     "bookRootFolders": 41,
     "bookSubfolders": 3,
-    "bookSourceFiles": 133,
-    "catalogProjects": 115,
-    "projectsWithBookAndTable": 83,
-    "projectsWithTable": 90,
-    "driveProjectFolders": 83,
-    "driveFilesInProjectFolders": 167,
+    "bookSourceFiles": 134,
+    "catalogProjects": 116,
+    "projectsWithBookAndTable": 84,
+    "projectsWithTable": 91,
+    "driveProjectFolders": 84,
+    "driveFilesInProjectFolders": 169,
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "140 source tables unchanged; two added filenames and one replaced filename, fully verified by CRC/SHA-256.",
-    "identicalTables": 140,
-    "differentTables": 1,
+    "tableComparison": "142 prior source PDFs unchanged; one new Lothus PDF fully verified by CRC/SHA-256.",
+    "identicalTables": 142,
+    "differentTables": 0,
     "missingCatalogDriveFiles": 0,
-    "driveFoldersWithExactlyTwoFiles": 82,
-    "bookComparison": "All 133 source Book-folder files unchanged by CRC/SHA-256 comparison.",
+    "driveFoldersWithExactlyTwoFiles": 83,
+    "bookComparison": "133 prior Book-folder files unchanged; one new official Lothus book fully verified by CRC/SHA-256.",
     "newUncataloguedNiteroiProjects": [],
     "newTables": 1,
-    "bookContentReport": "data/books-content-comparison-2026-11-19.json",
+    "bookContentReport": "data/books-content-comparison-2026-11-20.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-19",
-      "baseline": "2026-11-18",
-      "tableFilesIdenticalSha256": 140,
-      "tableFilesAdded": 2,
-      "tableFilesRemoved": 1,
-      "sourceTableVersionReplacements": 1,
-      "catalogTablesUpdated": 1,
+      "date": "2026-11-20",
+      "baseline": "2026-11-19",
+      "tableFilesIdenticalSha256": 142,
+      "tableFilesAdded": 1,
+      "tableFilesRemoved": 0,
+      "sourceTableVersionReplacements": 0,
+      "catalogTablesUpdated": 0,
       "bookFilesIdenticalSha256": 133,
-      "bookFilesAdded": 0,
+      "bookFilesAdded": 1,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
-      "allReferencedUniqueFilesWithPublicReader": 221,
-      "newOfficialBooks": 0,
+      "allReferencedUniqueFilesWithPublicReader": 223,
+      "newOfficialBooks": 1,
       "ownerSuppliedBooksPreserved": 1,
       "ownerProvidedExactPointsIncorporated": 0
     },
-    "sourceTableVersionReplacements": 1,
-    "catalogTablesUpdated": 1,
+    "sourceTableVersionReplacements": 0,
+    "catalogTablesUpdated": 0,
     "catalogValidityMetadataCorrections": [],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-19.json",
+    "commercialValidityReview": "data/table-commercial-review-2026-11-20.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "catalogProjectsAdded": [
-      "conviva-piratininga-ii"
+      "lothus-residence"
+    ],
+    "completeProjectsPendingCoordinates": [
+      {
+        "id": "lothus-residence",
+        "name": "Lothus Residence",
+        "address": "Rua A, 47 — Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
+        "row": null
+      }
     ]
   },
   "corrections": [
@@ -462,16 +470,16 @@
     },
     {
       "id": "althea",
-      "name": "Tabela de Vendas Althea - Outubro 2026.pdf",
-      "sha256": "0b38570475f060823088655c9bf350de66a49e273d303a360c9072ff29988313",
-      "bytes": 332646,
+      "name": "Tabela de Vendas Althea - Novembro 2026.pdf",
+      "sha256": "44b1ae180dbce7977e2287c36a95ae82d8eb0d3b1173b723496b050ad5f17eca",
+      "bytes": 334322,
       "driveIdentical": true
     },
     {
       "id": "np38",
-      "name": "Tabela de Vendas NP38 - Outubro 2026.pdf",
-      "sha256": "dc8ea870de1e10c73a33543b9b7b2a0d696b9127c01f86df24d9c698625df9e5",
-      "bytes": 321678,
+      "name": "Tabela de Vendas NP38 - Novembro 2026.pdf",
+      "sha256": "78b81f4bf4c5b4fc27e6ad22cf2ed09b6cdd49adeb3e96c93a46e28e495a9149",
+      "bytes": 322326,
       "driveIdentical": true
     },
     {
@@ -563,49 +571,49 @@
     },
     {
       "id": "jardim-dos-manacas",
-      "name": "Tabela de Vendas Jardim dos Manacás - Outubro 2026.pdf",
-      "sha256": "112a16d597579720eda31c1a77c1697c427af61d82b61c5184f478e610d5d699",
-      "bytes": 333578,
+      "name": "Tabela de Vendas Jardim dos Manacás - Novembro 2026.pdf",
+      "sha256": "d8bd3c3b82129c214af4f35a6134fa671ff4b1ca9e7f9efc4c3d20f071186829",
+      "bytes": 333608,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
     },
     {
       "id": "up-icarai",
-      "name": "Tabela de Vendas Up Icaraí - Outubro 2026.pdf",
-      "sha256": "32e6b9f5429e3ea2b43c0f88b9ef0c9f862121efcd9a84fdde5f91a3cd9591b7",
-      "bytes": 252928,
+      "name": "Tabela de Vendas Up Icaraí - Novembro 2026.pdf",
+      "sha256": "d04b2d5a1f87dffc73a572ee8ef498d3f94eab3ea3c88b4e1f9fce2c700a6fac",
+      "bytes": 251895,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
     },
     {
       "id": "nirvana",
-      "name": "Tabela  de Vendas Nirvana - Outubro 2026.pdf",
-      "sha256": "2cfdebd4e5674268a72c343ccce61e43c4b308ceeae914e00344d18a8aa10ce8",
-      "bytes": 257044,
+      "name": "Tabela de Vendas Nirvana - Novembro 2026.pdf",
+      "sha256": "2f2d55391d9f7ed20aef27d518e1fde0eb8a538b853242e984f5bf2b5f43eff9",
+      "bytes": 257042,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
     },
     {
       "id": "stage",
-      "name": "Tabela de Vendas Stage - Financiamento Bancario - Outubro 2026.pdf",
-      "sha256": "b7bd7582067c506f27866c21688dd44e7d08804309d49b3faaa189553f771349",
+      "name": "Tabela de Vendas Stage - Financiamento - Novembro 2026.pdf",
+      "sha256": "0c5ce33ce5260afa38a3485bbfafcf7c69baafc3a77d56ac5924e0cbe7c98cff",
       "bytes": 375395,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
     },
     {
       "id": "sunset",
-      "name": "Tabela de Vendas Sunset - Outubro 2026.pdf",
-      "sha256": "f121a0a057391e5352fe70ab5e45a2a0e431155fd46f6c3d6610aab1f3a09333",
-      "bytes": 296826,
+      "name": "Tabela de Vendas Sunset - Novembro 2026.pdf",
+      "sha256": "db549cd6497f38d481c62e99b7c324aadf406b6093b2def6d26d4582d947817f",
+      "bytes": 296236,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
     },
     {
       "id": "soma",
-      "name": "Tabela de Vendas Soma - Outubro 2026.pdf",
-      "sha256": "d26f6c75ca86ade08b11cb8310cecb42f168edcfa4418ae570a0eb72f37e07bf",
-      "bytes": 601306,
+      "name": "Tabela de Vendas Soma - Novembro 2026.pdf",
+      "sha256": "af430602fb4174c8694c03e0f2975fd466f0dc0bece7b0041f574d230d14104e",
+      "bytes": 600106,
       "driveIdentical": true,
       "verifiedAt": "2026-10-16"
     },
@@ -733,11 +741,13 @@
     },
     {
       "id": "seven-avenue",
-      "name": "Tabela de Vendas Seven Avenue - Outubro 2026.pdf",
-      "sha256": "66a05a2ce4cacb98d4a7dcd5c00e331de2240d393f6eb088263a40daab3cd90e",
-      "bytes": 136800,
+      "name": "Tabela de Vendas Seven Avenue - Novembro 2026.pdf",
+      "sha256": "b09ccb206a6f6d6ef46acdad22d36fbc93631ae42f5d18e6c3af65c51afd1e72",
+      "bytes": 136010,
       "driveIdentical": true,
-      "verifiedAt": "2026-10-23"
+      "verifiedAt": "2026-11-19",
+      "date": "Não informada",
+      "commercialDate": null
     },
     {
       "id": "vila-moura",
@@ -977,17 +987,37 @@
       "verifiedAt": "2026-11-14",
       "date": "Novembro 2026",
       "checkedAt": "2026-11-14"
+    },
+    {
+      "id": "conviva-piratininga-ii",
+      "name": "Tabela de Vendas Conviva Piratininga II - Novembro 2026.pdf",
+      "bytes": 117557,
+      "sha256": "ac6b3c2ddf096dea09ca95f8fb48490fea14404783ae0894f63187f44d0fa5a7",
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-19",
+      "date": "Novembro 2026",
+      "commercialDate": "2026-11-09"
+    },
+    {
+      "id": "lothus-residence",
+      "name": "Tabela de Vendas Lothus - Novembro 2026.pdf",
+      "bytes": 316358,
+      "sha256": "d0f4e2280557f8e0e384a0757b59ba284eb21c3e05408537cda1273cac6e0991",
+      "driveIdentical": true,
+      "verifiedAt": "2026-11-20",
+      "date": "Não informada",
+      "commercialDate": null
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-19",
-  "lastTablesUpdatedAt": "2026-11-19",
-  "lastBooksComparedAt": "2026-11-19",
-  "lastTablesInventoryCheckedAt": "2026-11-19",
-  "lastFullSourceAuditAt": "2026-11-19",
-  "lastTablesComparedAt": "2026-11-19",
-  "sourceAuditReport": "data/source-audit-2026-11-19.json",
+  "lastInventoryCheckedAt": "2026-11-20",
+  "lastTablesUpdatedAt": "2026-11-20",
+  "lastBooksComparedAt": "2026-11-20",
+  "lastTablesInventoryCheckedAt": "2026-11-20",
+  "lastFullSourceAuditAt": "2026-11-20",
+  "lastTablesComparedAt": "2026-11-20",
+  "sourceAuditReport": "data/source-audit-2026-11-20.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-19.json",
-  "lastCatalogMetadataUpdatedAt": "2026-11-19",
-  "lastBooksUpdatedAt": "2026-11-05"
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-20.json",
+  "lastCatalogMetadataUpdatedAt": "2026-11-20",
+  "lastBooksUpdatedAt": "2026-11-20"
 }
