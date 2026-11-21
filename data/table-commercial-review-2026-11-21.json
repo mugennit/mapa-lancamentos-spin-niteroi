@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-11-21",
+  "baseline": "2026-11-20",
+  "tables": [],
+  "reviewedTables": [],
+  "reason": "All 143 source table PDFs identical by CRC/SHA-256. Existing commercial readings and dates retained; no dates inferred from filenames or modification timestamps."
+}

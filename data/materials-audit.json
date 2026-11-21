@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-20",
+  "checkedAt": "2026-11-21",
   "entrypoint": "https://linktr.ee/corretorSPIN",
   "status": "complete",
   "scope": {
@@ -16,46 +16,45 @@
     "mapEligibleProjects": 83
   },
   "validation": {
-    "tableComparison": "142 prior source PDFs unchanged; one new Lothus PDF fully verified by CRC/SHA-256.",
-    "identicalTables": 142,
+    "tableComparison": "All 143 source table PDFs unchanged by CRC/SHA-256.",
+    "identicalTables": 143,
     "differentTables": 0,
     "missingCatalogDriveFiles": 0,
     "driveFoldersWithExactlyTwoFiles": 83,
-    "bookComparison": "133 prior Book-folder files unchanged; one new official Lothus book fully verified by CRC/SHA-256.",
+    "bookComparison": "All 134 Book-folder files unchanged by CRC/SHA-256.",
     "newUncataloguedNiteroiProjects": [],
-    "newTables": 1,
-    "bookContentReport": "data/books-content-comparison-2026-11-20.json",
+    "newTables": 0,
+    "bookContentReport": "data/books-content-comparison-2026-11-21.json",
     "bookNormalizationReport": "data/books-normalization-verification-2026-11-05.json",
     "pendingBookReplacements": 0,
     "verifiedOptimizedBooks": 16,
     "verifiedOptimizedPages": 779,
     "latestSourceComparison": {
-      "date": "2026-11-20",
-      "baseline": "2026-11-19",
-      "tableFilesIdenticalSha256": 142,
-      "tableFilesAdded": 1,
+      "date": "2026-11-21",
+      "baseline": "2026-11-20",
+      "tableFilesIdenticalSha256": 143,
+      "tableFilesAdded": 0,
       "tableFilesRemoved": 0,
       "sourceTableVersionReplacements": 0,
       "catalogTablesUpdated": 0,
-      "bookFilesIdenticalSha256": 133,
-      "bookFilesAdded": 1,
+      "bookFilesIdenticalSha256": 134,
+      "bookFilesAdded": 0,
       "bookFilesUnverified": 0,
       "sourceModificationMetadataChanges": 0,
       "retiredCatalogTables": 0,
       "allReferencedUniqueFilesWithPublicReader": 223,
-      "newOfficialBooks": 1,
+      "newOfficialBooks": 0,
       "ownerSuppliedBooksPreserved": 1,
-      "ownerProvidedExactPointsIncorporated": 0
+      "ownerProvidedExactPointsIncorporated": 0,
+      "supplementalOrlaStatus": "complete"
     },
     "sourceTableVersionReplacements": 0,
     "catalogTablesUpdated": 0,
     "catalogValidityMetadataCorrections": [],
-    "commercialValidityReview": "data/table-commercial-review-2026-11-20.json",
+    "commercialValidityReview": "data/table-commercial-review-2026-11-21.json",
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
-    "catalogProjectsAdded": [
-      "lothus-residence"
-    ],
+    "catalogProjectsAdded": [],
     "completeProjectsPendingCoordinates": [
       {
         "id": "lothus-residence",
@@ -1009,15 +1008,18 @@
       "commercialDate": null
     }
   ],
-  "lastInventoryCheckedAt": "2026-11-20",
+  "lastInventoryCheckedAt": "2026-11-21",
   "lastTablesUpdatedAt": "2026-11-20",
-  "lastBooksComparedAt": "2026-11-20",
-  "lastTablesInventoryCheckedAt": "2026-11-20",
-  "lastFullSourceAuditAt": "2026-11-20",
-  "lastTablesComparedAt": "2026-11-20",
-  "sourceAuditReport": "data/source-audit-2026-11-20.json",
+  "lastBooksComparedAt": "2026-11-21",
+  "lastTablesInventoryCheckedAt": "2026-11-21",
+  "lastFullSourceAuditAt": "2026-11-21",
+  "lastTablesComparedAt": "2026-11-21",
+  "sourceAuditReport": "data/source-audit-2026-11-21.json",
   "lastCoordinatesUpdatedAt": "2026-11-10",
-  "coordinatesAuditReport": "data/coordinates-audit-2026-11-20.json",
+  "coordinatesAuditReport": "data/coordinates-audit-2026-11-21.json",
   "lastCatalogMetadataUpdatedAt": "2026-11-20",
-  "lastBooksUpdatedAt": "2026-11-20"
+  "lastBooksUpdatedAt": "2026-11-20",
+  "primarySourcesStatus": "complete",
+  "lastPrimarySourceAuditAt": "2026-11-21",
+  "limitations": []
 }
