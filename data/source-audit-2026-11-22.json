@@ -1,0 +1,177 @@
+{
+  "checkedAt": "2026-11-22",
+  "baseline": "2026-11-21",
+  "entrypoint": "https://linktr.ee/corretorSPIN",
+  "status": "complete",
+  "primarySourcesStatus": "complete",
+  "method": [
+    "Clicked Tabelas de Vendas and Books dos Lançamentos from public Linktree; both opened without login.",
+    "Scrolled all 42 table folders, 41 book root folders and 3 book subfolders to EOF; reconciled every direct-item count.",
+    "Read all 347 currently downloaded source files to EOF with ZIP CRC and SHA-256 checks; all identical to the previous complete run.",
+    "Read current spreadsheet metadata, A1:Z150 and empty A151:Z969. Checked all 84 material-complete projects against exact validated locations.",
+    "Read all 223 referenced Drive metadata and permissions and all 84 material folders plus main folder; compared against prior post-update state."
+  ],
+  "structure": {
+    "tables": {
+      "rootFolders": 42,
+      "rootFiles": 0,
+      "subfolders": 0,
+      "filesListed": 143,
+      "archiveFiles": 143,
+      "divergences": []
+    },
+    "books": {
+      "rootFolders": 41,
+      "rootFiles": 1,
+      "subfolders": 3,
+      "filesListed": 134,
+      "archiveFiles": 134,
+      "divergences": []
+    },
+    "orla": {
+      "rootFolders": 5,
+      "rootFiles": 0,
+      "subfolders": 3,
+      "filesListed": 70,
+      "archiveFiles": 70,
+      "divergences": []
+    }
+  },
+  "content": {
+    "tables": {
+      "files": 143,
+      "identical": 143,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "books": {
+      "files": 134,
+      "identical": 134,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "orla": {
+      "files": 70,
+      "identical": 70,
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    }
+  },
+  "changes": {
+    "tablesUpdated": [],
+    "tablesAdded": [],
+    "booksAdded": [],
+    "projectsAdded": [],
+    "projectsRemovedFromGeneralList": [],
+    "mapPinsAdded": [],
+    "mapPinsRemoved": [],
+    "foldersAdded": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "foldersRemoved": {
+      "tables": [],
+      "books": [],
+      "orla": []
+    },
+    "metadataOnlyChanges": []
+  },
+  "catalog": {
+    "projects": 116,
+    "projectsWithBookAndTable": 84,
+    "mapEligibleProjects": 83,
+    "projectsWithCurrentTable": 91,
+    "incompleteProjectsPreserved": 32
+  },
+  "coordinates": {
+    "sheetRows": 112,
+    "completeProjectsChecked": 84,
+    "newPoints": [],
+    "pending": [
+      {
+        "id": "lothus-residence",
+        "name": "Lothus Residence",
+        "address": "Rua A, 47 — Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
+        "row": null
+      }
+    ],
+    "sheetWritePerformed": false,
+    "ownerPointsPreserved": [
+      "solo",
+      "baume",
+      "orla-guanabara"
+    ]
+  },
+  "drive": {
+    "activeMaterialEntries": 224,
+    "uniqueReferencedFiles": 223,
+    "allReferencedPublicReader": true,
+    "mapFolders": 84,
+    "mapFiles": 169,
+    "foldersWithMultipleCurrentTables": [],
+    "overwrittenInPlace": 0,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "allOtherMetadataUnchangedFromPreviousPostUpdate": true,
+    "driveFilesDownloadedToday": 0
+  },
+  "baume": {
+    "officialBookPresent": "Books/CEU/Spin_BOOK-BAUME-DIGITAL.pdf",
+    "sourceBookFolderItems": 10,
+    "sourceTableFolderItems": 6,
+    "table": "Tabela de Vendas Bäume - Novembro 2026.pdf",
+    "bookAndTableUnchangedSha256": true,
+    "ownerSuppliedBookPreserved": true,
+    "driveFolderFiles": 3
+  },
+  "accessEvents": [
+    {
+      "path": "Whole Books archive download",
+      "observed": "50-second download event listener expired while the server prepared the archive.",
+      "recovery": "The complete 134-file archive arrived later; all entries were read to EOF with CRC and SHA-256 verification. No further download attempt was needed.",
+      "resolved": true
+    }
+  ],
+  "validation": {
+    "tests": "node --test tests/project-search.test.mjs tests/parking-search.test.mjs tests/project-insights.test.mjs",
+    "sourceFilesUnverified": [],
+    "unreconciledCounts": [],
+    "passwordAndSearchAndPinVisibilityCodeUnchanged": true
+  },
+  "limitations": [],
+  "publication": {
+    "state": "ready-to-publish",
+    "target": "GitHub main → existing production Vercel project",
+    "baseCommit": "b70ec4ac89a85a966e491007914e4f5e32e2a122",
+    "productionUrl": "https://mapa-lancamentos-spin-niteroi.vercel.app",
+    "note": "Record precedes its containing commit; verify deployment status of that commit for completed publication."
+  },
+  "linktreeChanges": {
+    "addedButtons": [],
+    "removedButtons": []
+  },
+  "pendingMaterials": [
+    {
+      "id": "conviva-piratininga-ii",
+      "name": "Conviva Piratininga II",
+      "missing": [
+        "Book",
+        "Endereço e ponto exato"
+      ],
+      "bookSearch": "All Books folders and subfolders fully reviewed; no matching Book found",
+      "onMap": false
+    },
+    {
+      "id": "seven-avenue",
+      "name": "Seven Avenue",
+      "missing": [
+        "Book"
+      ],
+      "onMap": false
+    }
+  ]
+}
