@@ -1,0 +1,356 @@
+{
+  "checkedAt": "2026-11-23",
+  "scope": "Primeiro lote de revisão integral dos books do Drive para a vitrine. Não é uma nova varredura completa do Linktree.",
+  "catalogCount": 116,
+  "internalMapEligibleCount": 84,
+  "reviewedCount": 2,
+  "approvedCount": 1,
+  "rejectedCount": 1,
+  "pendingReviewCount": 82,
+  "reviews": [
+    {
+      "projectId": "lothus-residence",
+      "pages": 36,
+      "decision": "approved",
+      "evidence": "Texto integral e conferência visual de todas as páginas; aprovação vinculada ao SHA-256 da cópia do Drive."
+    },
+    {
+      "projectId": "baume",
+      "pages": 51,
+      "decision": "rejected",
+      "needsClientVersion": true,
+      "evidence": "PDF em imagem: leitura com OCR e conferência visual de todas as páginas; notas de pré-publicação nas páginas 24 e 44."
+    }
+  ],
+  "pendingProjects": [
+    {
+      "id": "jardin-di-grazielle",
+      "name": "Jardin di Grazielle"
+    },
+    {
+      "id": "pebe-74",
+      "name": "Pebê 74"
+    },
+    {
+      "id": "singular",
+      "name": "Singular"
+    },
+    {
+      "id": "style",
+      "name": "Style"
+    },
+    {
+      "id": "oka-icarai",
+      "name": "Oka Icaraí"
+    },
+    {
+      "id": "oka-sao-francisco",
+      "name": "Oka São Francisco"
+    },
+    {
+      "id": "141-living",
+      "name": "141 Living"
+    },
+    {
+      "id": "nomad",
+      "name": "Nomad"
+    },
+    {
+      "id": "maria-maria",
+      "name": "Maria Maria"
+    },
+    {
+      "id": "tao",
+      "name": "Tao"
+    },
+    {
+      "id": "conviva-camboinhas",
+      "name": "Conviva Camboinhas"
+    },
+    {
+      "id": "conviva-charitas",
+      "name": "Conviva Charitas"
+    },
+    {
+      "id": "nice-camboinhas",
+      "name": "Nice Camboinhas"
+    },
+    {
+      "id": "brise-by-conviva",
+      "name": "Brise by Conviva"
+    },
+    {
+      "id": "conviva-life-camboinhas",
+      "name": "Conviva Life Camboinhas"
+    },
+    {
+      "id": "conviva-life-inga",
+      "name": "Conviva Life Ingá"
+    },
+    {
+      "id": "conviva-icarai",
+      "name": "Conviva Icaraí"
+    },
+    {
+      "id": "conviva-itacoa",
+      "name": "Conviva Itacoá"
+    },
+    {
+      "id": "caminhos-da-guanabara",
+      "name": "Caminhos da Guanabara"
+    },
+    {
+      "id": "orla-central",
+      "name": "Orla Central"
+    },
+    {
+      "id": "rio-branco-220",
+      "name": "Rio Branco 220"
+    },
+    {
+      "id": "the-pier",
+      "name": "The Pier"
+    },
+    {
+      "id": "reserva-sao-francisco",
+      "name": "Reserva São Francisco"
+    },
+    {
+      "id": "neo-design-icarai",
+      "name": "Neo Design Icaraí"
+    },
+    {
+      "id": "upside-charitas",
+      "name": "Upside Charitas"
+    },
+    {
+      "id": "mok-132",
+      "name": "Mok 132"
+    },
+    {
+      "id": "namas-smart-living",
+      "name": "Namas Smart Living"
+    },
+    {
+      "id": "cascais",
+      "name": "Cascais"
+    },
+    {
+      "id": "trend-by-falves",
+      "name": "Trend by Falves"
+    },
+    {
+      "id": "arend",
+      "name": "Arend"
+    },
+    {
+      "id": "duetto",
+      "name": "Duetto"
+    },
+    {
+      "id": "ile",
+      "name": "Íle"
+    },
+    {
+      "id": "sd40",
+      "name": "SD40"
+    },
+    {
+      "id": "green-open",
+      "name": "Green Open"
+    },
+    {
+      "id": "niteroi-open-santa-rosa",
+      "name": "Niterói Open Santa Rosa"
+    },
+    {
+      "id": "lazuli",
+      "name": "Lazuli"
+    },
+    {
+      "id": "sou-icarai",
+      "name": "Sou + Icaraí"
+    },
+    {
+      "id": "sou-itacoa",
+      "name": "Sou + Itacoá"
+    },
+    {
+      "id": "sou-charitas",
+      "name": "Sou + Charitas"
+    },
+    {
+      "id": "sou-wellness-charitas",
+      "name": "Sou + Wellness Charitas"
+    },
+    {
+      "id": "marina",
+      "name": "Marina"
+    },
+    {
+      "id": "triunfo",
+      "name": "Triunfo"
+    },
+    {
+      "id": "serena",
+      "name": "Serena"
+    },
+    {
+      "id": "althea",
+      "name": "Althea"
+    },
+    {
+      "id": "np38",
+      "name": "NP38"
+    },
+    {
+      "id": "terramarine",
+      "name": "Terramarine"
+    },
+    {
+      "id": "uni-home-studios",
+      "name": "Uni Home Studios"
+    },
+    {
+      "id": "maris",
+      "name": "Maris"
+    },
+    {
+      "id": "calle-sardegna",
+      "name": "Calle Sardegna"
+    },
+    {
+      "id": "solo",
+      "name": "Solo"
+    },
+    {
+      "id": "scenarium-piratininga",
+      "name": "Scenarium Piratininga"
+    },
+    {
+      "id": "jardim-itacoa",
+      "name": "Jardim Itacoá"
+    },
+    {
+      "id": "wind-oceanica",
+      "name": "Wind Oceânica"
+    },
+    {
+      "id": "115-tapuias",
+      "name": "115 Tapuias"
+    },
+    {
+      "id": "green-life",
+      "name": "Green Life"
+    },
+    {
+      "id": "monier",
+      "name": "Monier"
+    },
+    {
+      "id": "gael",
+      "name": "Gael"
+    },
+    {
+      "id": "jardim-dos-manacas",
+      "name": "Jardim dos Manacás"
+    },
+    {
+      "id": "up-icarai",
+      "name": "Up Icaraí"
+    },
+    {
+      "id": "nirvana",
+      "name": "Nirvana"
+    },
+    {
+      "id": "stage",
+      "name": "Stage"
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset"
+    },
+    {
+      "id": "soma",
+      "name": "Soma"
+    },
+    {
+      "id": "maren",
+      "name": "Maren"
+    },
+    {
+      "id": "soul-fonseca",
+      "name": "Soul Fonseca"
+    },
+    {
+      "id": "sun-in",
+      "name": "Sun In"
+    },
+    {
+      "id": "giardino-di-verona",
+      "name": "Giardino di Verona"
+    },
+    {
+      "id": "dahlia-residence",
+      "name": "Dahlia Residence"
+    },
+    {
+      "id": "dianthus",
+      "name": "Dianthus"
+    },
+    {
+      "id": "attrium-icarai",
+      "name": "Attrium Icaraí"
+    },
+    {
+      "id": "ion-icarai",
+      "name": "Íon Icaraí"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro"
+    },
+    {
+      "id": "clarice",
+      "name": "Clarice"
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse"
+    },
+    {
+      "id": "origem",
+      "name": "Origem"
+    },
+    {
+      "id": "the-grove",
+      "name": "The Grove"
+    },
+    {
+      "id": "tropico-camboinhas",
+      "name": "Trópico Camboinhas"
+    },
+    {
+      "id": "flua",
+      "name": "Flua"
+    },
+    {
+      "id": "tresor-dior",
+      "name": "Trésor Dior"
+    },
+    {
+      "id": "mare-blu",
+      "name": "Mare Blu"
+    },
+    {
+      "id": "conviva-piratininga",
+      "name": "Conviva Piratininga"
+    },
+    {
+      "id": "orla-guanabara",
+      "name": "Orla Guanabara"
+    }
+  ],
+  "commercialDatesReview": "As 13 divergências de mês e as 6 datas Não informada do levantamento do PR #10 continuam pendentes; não foram alteradas neste lote."
+}

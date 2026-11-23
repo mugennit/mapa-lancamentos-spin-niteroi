@@ -1,5 +1,25 @@
 {
   "schemaVersion": 1,
   "description": "Liberação de books para a versão pública (/vitrine). Mantida pela rotina do ChatGPT após revisar o conteúdo de cada PDF. Um book só aparece na vitrine com aprovação para o mesmo projectId, fileUrl e sha256 informados em catalog.json (book.url e book.sha256). Ver docs/liberacao-books.md.",
-  "releases": []
+  "releases": [
+    {
+      "projectId": "lothus-residence",
+      "fileUrl": "https://drive.google.com/file/d/1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w/view?usp=drivesdk",
+      "sha256": "0ad308db5be23aba62836403c724b9180f1355baca561edf7a90a047c6008518",
+      "approved": true,
+      "reviewedAt": "2026-11-23",
+      "reviewedBy": "ChatGPT",
+      "notes": "36 páginas lidas integralmente e conferidas visualmente na cópia do Google Drive. Sem preços, condições de pagamento, espelho de disponibilidade ou informações internas. A página 13 descreve tipologias e áreas, não estoque de unidades. Na página 36, Vendas identifica a Spin; não há contato interno."
+    },
+    {
+      "projectId": "baume",
+      "fileUrl": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk",
+      "sha256": "0a169b91abbabae3cf26e090dbe8dea3a10b97ace51cf2a50ee1514d72706448",
+      "approved": false,
+      "needsClientVersion": true,
+      "reviewedAt": "2026-11-23",
+      "reviewedBy": "ChatGPT",
+      "notes": "51 páginas conferidas visualmente e lidas com apoio de OCR. Não encontrei preços ou espelho de vendas. Reprovado para clientes pela instrução editorial interna na página 44: números do R3 a conferir no memorial descritivo e no registro de incorporação antes da publicação. A página 24 também informa medidas a conferir na planta executiva. Confirmar esses dados em fonte técnica e preparar versão pública revisada; não basta apagar as ressalvas. Preservar o book e o pin internos."
+    }
+  ]
 }

@@ -4910,7 +4910,8 @@
     "address": "Rua Dr. Herotides de Oliveira, 18",
     "book": {
       "name": "Spin_BOOK-BAUME-DIGITAL — leitura.pdf",
-      "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk"
+      "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk",
+      "sha256": "0a169b91abbabae3cf26e090dbe8dea3a10b97ace51cf2a50ee1514d72706448"
     },
     "tables": [
       {
@@ -4975,8 +4976,8 @@
       1,
       2
     ],
-    "delivery": null,
-    "status": "Lançamento",
+    "delivery": "Dezembro 2029",
+    "status": "Em construção",
     "lat": -22.886341,
     "lng": -43.127997,
     "precision": "exact",
@@ -4985,8 +4986,9 @@
     "notes": [
       "Arquivo de novembro de 2026; a tabela impressa informa base de preços de outubro de 2026 e versão de 28/10/2026.",
       "Tabela preliminar com 700 unidades. Confirme a disponibilidade no espelho de vendas antes da proposta.",
-      "As unidades de 1 quarto são identificadas como PcD. A tabela indica 680 unidades sem vaga de automóvel e 20 com uma vaga.",
-      "Ponto exato fornecido por Frederico Costa em 10/11/2026 e conferido no link do Google Maps."
+      "Ponto exato fornecido por Frederico Costa em 10/11/2026 e conferido no link do Google Maps.",
+      "Frederico Costa confirmou em 23/11/2026: obra iniciada, em fase inicial; previsão de entrega dezembro de 2029. Confirmação do responsável pelo projeto, sem nova leitura documental nesta alteração.",
+      "Frederico Costa confirmou em 23/11/2026 que todas as unidades são sem vaga. Esta confirmação corrige a informação anterior da tabela que indicava 20 unidades com vaga."
     ],
     "locationStatus": "Ponto exato fornecido e confirmado por Frederico Costa no Google Maps",
     "addressReview": null,
@@ -5047,7 +5049,8 @@
     "address": "Rua A, 47 — Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
     "book": {
       "name": "Lothus Residence - Spin Book de Vendas.pdf",
-      "url": "https://drive.google.com/file/d/1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w/view?usp=drivesdk"
+      "url": "https://drive.google.com/file/d/1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w/view?usp=drivesdk",
+      "sha256": "0ad308db5be23aba62836403c724b9180f1355baca561edf7a90a047c6008518"
     },
     "tables": [
       {
