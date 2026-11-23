@@ -317,3 +317,5 @@ a.detail-text { display: inline-flex; align-items: center; gap: 4px; margin: 0 0
 .broker-form .primary-button { max-width: none; margin-top: 8px; }
 .broker-result { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; padding: 12px; border-radius: 12px; background: var(--canvas); }
 .broker-result input { font-size: 13px; background: #fff; }
+.public-book-status { margin: 0 0 14px; padding: 8px 10px; border-radius: 8px; font-size: 13px; background: #fff4e5; color: #8a4b08; }
+.public-book-status.is-liberado { background: #e5f4ec; color: #19643f; }

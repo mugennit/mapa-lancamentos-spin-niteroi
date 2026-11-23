@@ -8,10 +8,10 @@ import unitOffers from "@/data/unit-offers.json";
 import audit from "@/data/materials-audit.json";
 import type { Metadata } from "next";
 import PublicCatalogApp from "@/components/public-catalog";
-import { buildPublicCatalog, isBookReleasable } from "@/lib/public-catalog";
+import { buildPublicCatalog, isBookReleasable, type BookRelease } from "@/lib/public-catalog";
 import { isMapEligible } from "@/lib/catalog-rules";
 import { verifyBrokerToken, normalizeWhatsApp, normalizeBrokerName } from "@/lib/broker-link";
-import { PUBLIC_BOOK_BLOCKLIST } from "@/lib/public-book-blocklist";
+import bookReleases from "@/data/public-book-releases.json";
 
 export const dynamic = "force-dynamic";
 
@@ -22,12 +22,14 @@ export const metadata: Metadata = {
 };
 
 type Offers = Record<string, { tableUrl?: string; offers: { typology?: string }[] }>;
-type Raw = Record<string, unknown> & { id: string; lat: number | null; lng: number | null; tables?: { url: string }[]; book?: { url: string; name?: string } | null };
+type Raw = Record<string, unknown> & { id: string; lat: number | null; lng: number | null; tables?: { url: string }[]; book?: { url: string; name?: string; sha256?: string } | null };
 
 export default async function VitrinePage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const params = await searchParams;
   const token = typeof params.c === "string" ? params.c : null;
-  const broker = await verifyBrokerToken(token, process.env.SITE_SESSION_SECRET);
+  // Links de corretor usam chave própria (BROKER_LINK_SECRET), separada da sessão.
+  const linkSecret = process.env.BROKER_LINK_SECRET;
+  const broker = linkSecret && linkSecret.length >= 16 ? await verifyBrokerToken(token, linkSecret) : null;
 
   // Contato central: só aparece se estiver configurado (nunca um número presumido).
   const centralPhone = normalizeWhatsApp(process.env.PUBLIC_CONTACT_WHATSAPP || "");
@@ -44,13 +46,13 @@ export default async function VitrinePage({ searchParams }: { searchParams: Prom
     ...projects.flatMap((p) => (p.tables || []).map((t) => t.url)),
     ...Object.values(offers).map((t) => t.tableUrl).filter((url): url is string => Boolean(url)),
   ]);
-  const blocked = new Set(PUBLIC_BOOK_BLOCKLIST);
+  const releases = ((bookReleases as { releases?: BookRelease[] }).releases || []) as BookRelease[];
 
   const data = buildPublicCatalog({
     catalog: projects,
     attributes: attributes as Record<string, Record<string, unknown>>,
     mapIds: new Set(projects.filter((p) => isMapEligible(p, materialUrls)).map((p) => p.id)),
-    releasedBookIds: new Set(projects.filter((p) => isBookReleasable(p, materialList, tableUrls, blocked, p.id)).map((p) => p.id)),
+    releasedBookIds: new Set(projects.filter((p) => isBookReleasable(p, materialList, tableUrls, releases)).map((p) => p.id)),
     offerTypologies: Object.fromEntries(Object.entries(offers).map(([id, table]) => [id, table.offers.map((o) => o.typology).filter((t): t is string => Boolean(t))])),
     checkedAt: (audit as { checkedAt?: string }).checkedAt ?? null,
   });

@@ -1,15 +1,14 @@
 'use client';
-import offers from '@/data/unit-offers.json';
 import {type OfferTable} from '@/lib/project-search';
 import {Sheet, SheetContent, SheetTitle, SheetDescription} from '@/components/ui/sheet';
 export type ComparisonProject = {id:string;name:string;neighborhood:string;company:string;price:number|null;priceLabel?:string;typologies?:string[];delivery:string|null;features?:string[];book:{url:string;name:string}|null;tables:{url:string;date:string;name:string}[]};
-export default function ProjectComparison({projects,open,onOpenChange,onRemove}:{projects:ComparisonProject[];open:boolean;onOpenChange:(open:boolean)=>void;onRemove:(id:string)=>void}) {
+export default function ProjectComparison({offers,projects,open,onOpenChange,onRemove}:{offers:Record<string,OfferTable>;projects:ComparisonProject[];open:boolean;onOpenChange:(open:boolean)=>void;onRemove:(id:string)=>void}) {
  const money=(n:number)=>new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:2}).format(n);
  const rows:{label:string;value:(p:ComparisonProject)=>React.ReactNode}[]=[
   {label:'Bairro',value:p=>p.neighborhood},{label:'Construtora',value:p=>p.company},
   {label:'Preço inicial do empreendimento',value:p=>p.price===null?'A confirmar':`${p.priceLabel || 'A partir de'} ${money(p.price)}`},
   {label:'Tipologias',value:p=>p.typologies?.join(' · ')||'A confirmar'},
-  {label:'Vagas nas unidades cadastradas',value:p=>{const rows=(offers as Record<string,OfferTable>)[p.id]?.offers||[];const labels=[...new Set(rows.filter(o=>o.parkingSpaces!==undefined).map(o=>o.parkingCountIsMinimum?'Com vaga (quantidade a confirmar)':o.parkingSpaces===0?'Sem vaga':`${o.parkingSpaces} ${o.parkingSpaces===1?'vaga':'vagas'}`))];return labels.join(' · ')||'A confirmar'}},
+  {label:'Vagas nas unidades cadastradas',value:p=>{const rows=offers[p.id]?.offers||[];const labels=[...new Set(rows.filter(o=>o.parkingSpaces!==undefined).map(o=>o.parkingCountIsMinimum?'Com vaga (quantidade a confirmar)':o.parkingSpaces===0?'Sem vaga':`${o.parkingSpaces} ${o.parkingSpaces===1?'vaga':'vagas'}`))];return labels.join(' · ')||'A confirmar'}},
   {label:'Previsão de entrega',value:p=>p.delivery||'A confirmar'},
   {label:'Características',value:p=>p.features?.join(' · ')||'A confirmar'},
   {label:'Tabela comercial',value:p=>p.tables[0]?.date||'A confirmar'},

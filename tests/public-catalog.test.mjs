@@ -1,18 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {buildPublicCatalog,isBookReleasable,PUBLIC_FIELDS} from '../lib/public-catalog.ts';
+import {buildPublicCatalog,isBookReleasable,bookReleaseStatus,PUBLIC_FIELDS} from '../lib/public-catalog.ts';
 import {isMapEligible} from '../lib/catalog-rules.ts';
 import {createBrokerToken,verifyBrokerToken,normalizeWhatsApp,normalizeBrokerName,whatsappUrl} from '../lib/broker-link.ts';
 
 const read=name=>JSON.parse(readFileSync(new URL(`../data/${name}`,import.meta.url)));
-const catalog=read('catalog.json'),attributes=read('attributes.json'),materials=read('materials.json'),offers=read('unit-offers.json');
+const catalog=read('catalog.json'),attributes=read('attributes.json'),materials=read('materials.json'),offers=read('unit-offers.json'),releases=read('public-book-releases.json').releases;
 const materialUrls=new Set(materials.map(m=>m.url));
 const tableUrls=new Set(catalog.flatMap(p=>(p.tables||[]).map(t=>t.url)).concat(Object.values(offers).map(t=>t.tableUrl)).filter(Boolean));
 const build=()=>buildPublicCatalog({
   catalog,attributes,
   mapIds:new Set(catalog.filter(p=>isMapEligible(p,materialUrls)).map(p=>p.id)),
-  releasedBookIds:new Set(catalog.filter(p=>isBookReleasable(p,materials,tableUrls)).map(p=>p.id)),
+  releasedBookIds:new Set(catalog.filter(p=>isBookReleasable(p,materials,tableUrls,releases)).map(p=>p.id)),
   offerTypologies:Object.fromEntries(Object.entries(offers).map(([id,t])=>[id,t.offers.map(o=>o.typology).filter(Boolean)])),
 });
 
@@ -37,14 +37,37 @@ test('public map follows the official map rule; address only when checked',()=>{
   }
 });
 
-test('books are released only after the automatic checks',()=>{
-  const book={url:'https://drive.google.com/book'},table={url:'https://drive.google.com/table'};
+test('books need a review approved for the same file and version; replacing the PDF requires a new review',()=>{
+  const sha='a'.repeat(64),newSha='b'.repeat(64);
+  const book={url:'https://drive.google.com/book',name:'Book X.pdf',sha256:sha},table={url:'https://drive.google.com/table'};
   const mats=[{url:book.url,type:'Book',name:'Book X.pdf'},{url:table.url,type:'Tabela',name:'Tabela X.pdf'}];
-  assert.equal(isBookReleasable({book},mats,new Set([table.url])),true);
-  assert.equal(isBookReleasable({book:table},mats,new Set([table.url])),false,'tabela no lugar do book');
-  assert.equal(isBookReleasable({book:{url:'https://x'}},mats,new Set()),false,'fora do inventário');
-  assert.equal(isBookReleasable({book:{...book,name:'Tabela de preços.pdf'}},mats,new Set()),false,'nome sugere preço');
-  assert.equal(isBookReleasable({book},mats,new Set(),new Set(['p1']),'p1'),false,'bloqueado manualmente');
+  const tables=new Set([table.url]);
+  const approved=[{projectId:'p1',fileUrl:book.url,sha256:sha,approved:true,reviewedAt:'2026-11-24',reviewedBy:'ChatGPT'}];
+  const p={id:'p1',book};
+  assert.equal(isBookReleasable(p,mats,tables,[]),false,'sem revisão: indisponível');
+  assert.equal(bookReleaseStatus(p,mats,tables,[]),'aguardando-revisao');
+  assert.equal(isBookReleasable(p,mats,tables,approved),true,'revisado e aprovado');
+  assert.equal(bookReleaseStatus(p,mats,tables,approved),'liberado');
+  const replaced={id:'p1',book:{...book,sha256:newSha}};
+  assert.equal(isBookReleasable(replaced,mats,tables,approved),false,'PDF substituído exige nova revisão');
+  assert.equal(bookReleaseStatus(replaced,mats,tables,approved),'versao-nova');
+  assert.equal(isBookReleasable({id:'p1',book:{url:book.url,name:book.name}},mats,tables,approved),false,'sem SHA-256 no catálogo');
+  assert.equal(bookReleaseStatus({id:'p1',book:{url:book.url}},mats,tables,approved),'sem-versao');
+  assert.equal(isBookReleasable({id:'p2',book},mats,tables,approved),false,'aprovação de outro empreendimento não vale');
+  assert.equal(isBookReleasable(p,mats,tables,[{...approved[0],approved:false}]),false,'reprovado');
+  assert.equal(bookReleaseStatus(p,mats,tables,[{...approved[0],approved:false}]),'reprovado');
+  assert.equal(isBookReleasable({id:'p1',book:{...table,sha256:sha}},mats,tables,[{...approved[0],fileUrl:table.url}]),false,'tabela nunca é book');
+  assert.equal(isBookReleasable({id:'p1',book:{...book,name:'Tabela de preços.pdf'}},mats,tables,approved),false,'nome sugere preço');
+});
+
+test('unreviewed books stay hidden but the project stays visible',()=>{
+  const data=build();
+  assert.equal(data.projects.length,catalog.length);
+  const withBook=catalog.filter(p=>p.book?.url);
+  for(const p of withBook){
+    const out=data.projects.find(x=>x.id===p.id);
+    assert.equal(out.bookUrl!==null,isBookReleasable(p,materials,tableUrls,releases),p.id);
+  }
 });
 
 test('broker link is signed: forged or altered links are rejected',async()=>{

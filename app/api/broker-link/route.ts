@@ -9,12 +9,18 @@ export async function POST(request: NextRequest) {
   if (!secret || !(await isValidSiteSession(request.cookies.get("spinmap_session")?.value, secret))) {
     return NextResponse.json({ error: "Sua sessão expirou. Entre novamente no mapa." }, { status: 401 });
   }
+  // Chave exclusiva dos links (separada da chave de sessão): trocar a senha ou a
+  // sessão não invalida os links já enviados aos clientes.
+  const linkSecret = process.env.BROKER_LINK_SECRET;
+  if (!linkSecret || linkSecret.length < 16) {
+    return NextResponse.json({ error: "Os links para clientes ainda não foram configurados (falta a chave BROKER_LINK_SECRET)." }, { status: 503 });
+  }
   const body = (await request.json().catch(() => ({}))) as { name?: unknown; phone?: unknown };
   const name = typeof body.name === "string" ? normalizeBrokerName(body.name) : null;
   const phone = typeof body.phone === "string" ? normalizeWhatsApp(body.phone) : null;
   if (!name) return NextResponse.json({ error: "Informe seu nome (2 a 60 caracteres)." }, { status: 400 });
   if (!phone) return NextResponse.json({ error: "Informe um WhatsApp brasileiro com DDD." }, { status: 400 });
-  const token = await createBrokerToken({ name, phone }, secret);
+  const token = await createBrokerToken({ name, phone }, linkSecret);
   const url = new URL("/vitrine", request.url);
   url.searchParams.set("c", token);
   return NextResponse.json({ url: url.toString(), name, phone }, { headers: { "Cache-Control": "no-store" } });

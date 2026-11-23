@@ -5,7 +5,12 @@ export async function proxy(request: NextRequest) {
   const secret = process.env.SITE_SESSION_SECRET;
   const token = request.cookies.get("spinmap_session")?.value;
 
-  if (secret && (await isValidSiteSession(token, secret))) return NextResponse.next();
+  if (secret && (await isValidSiteSession(token, secret))) {
+    // Respostas com dados internos não podem ficar em cache compartilhado.
+    const response = NextResponse.next();
+    response.headers.set("Cache-Control", "private, no-store");
+    return response;
+  }
   return NextResponse.redirect(new URL("/login", request.url));
 }
 

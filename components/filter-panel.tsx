@@ -2,7 +2,6 @@
 // Painel de filtros agrupado em Onde / O quê / Quanto / Quando, com contagem
 // por opção. A regra de unidade continua em `lib/project-search`: preço,
 // tipologia e vagas precisam corresponder à mesma unidade da tabela.
-import { X } from "lucide-react";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import type { ReactNode } from "react";
 import type { FilterState, ParkingFilter } from "@/lib/filter-state";

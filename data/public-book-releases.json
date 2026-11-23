@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "Liberação de books para a versão pública (/vitrine). Mantida pela rotina do ChatGPT após revisar o conteúdo de cada PDF. Um book só aparece na vitrine com aprovação para o mesmo projectId, fileUrl e sha256 informados em catalog.json (book.url e book.sha256). Ver docs/liberacao-books.md.",
+  "releases": []
+}

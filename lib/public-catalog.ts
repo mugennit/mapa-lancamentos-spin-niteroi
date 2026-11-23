@@ -76,24 +76,63 @@ export function buildPublicCatalog(input: PublicCatalogInput): PublicCatalog {
   return { projects, checkedAt: input.checkedAt ?? null };
 }
 
+export type BookRelease = {
+  projectId: string;
+  /** Link do book aprovado (o mesmo de catalog.json → book.url). */
+  fileUrl: string;
+  /** SHA-256 do PDF revisado (64 caracteres hexadecimais). */
+  sha256: string;
+  approved: boolean;
+  reviewedAt?: string;
+  reviewedBy?: string;
+  notes?: string;
+};
+
+export type ReleaseProject = {
+  id: string;
+  book?: { url?: string | null; name?: string | null; sha256?: string | null } | null;
+};
+
+const SHA256 = /^[a-f0-9]{64}$/;
+
 /**
- * Verificações automáticas de um book antes de liberá-lo ao público:
- * precisa estar no inventário de materiais como "Book", não pode ser o mesmo
- * arquivo de uma tabela e o nome não pode sugerir preço ou tabela.
- * (O conteúdo do PDF não é lido aqui.)
+ * Um book só é liberado na vitrine quando:
+ * 1. está no inventário de materiais como "Book" e não é o arquivo de uma tabela;
+ * 2. o nome não sugere preço ou tabela;
+ * 3. o catálogo informa o SHA-256 da versão atual (book.sha256); e
+ * 4. existe aprovação para o MESMO empreendimento, arquivo e SHA-256.
+ * Se o PDF for substituído, o SHA-256 muda e o book volta a ficar indisponível
+ * até nova revisão. O empreendimento continua visível de qualquer forma.
  */
 export function isBookReleasable(
-  project: { book?: { url?: string | null; name?: string | null } | null; tables?: { url?: string | null }[] | null },
+  project: ReleaseProject,
   materials: { url: string; type?: string; name?: string }[],
   allTableUrls: Set<string>,
-  blocked: Set<string> = new Set(),
-  id?: string,
+  releases: BookRelease[],
 ): boolean {
   const url = project.book?.url;
-  if (!url || (id && blocked.has(id))) return false;
+  const sha = project.book?.sha256?.toLowerCase();
+  if (!url || !sha || !SHA256.test(sha)) return false;
   const material = materials.find((item) => item.url === url);
-  if (!material || material.type !== "Book") return false;
-  if (allTableUrls.has(url)) return false;
-  const names = `${project.book?.name || ""} ${material.name || ""}`;
-  return !/tabela|pre[cç]o|valores|price|planilha/i.test(names);
+  if (!material || material.type !== "Book" || allTableUrls.has(url)) return false;
+  if (/tabela|pre[cç]o|valores|price|planilha/i.test(`${project.book?.name || ""} ${material.name || ""}`)) return false;
+  return releases.some((release) => release.approved === true && release.projectId === project.id && release.fileUrl === url && release.sha256?.toLowerCase() === sha);
+}
+
+/** Situação do book de um empreendimento na vitrine (para a área interna). */
+export function bookReleaseStatus(
+  project: ReleaseProject,
+  materials: { url: string; type?: string; name?: string }[],
+  allTableUrls: Set<string>,
+  releases: BookRelease[],
+): "sem-book" | "liberado" | "sem-versao" | "aguardando-revisao" | "versao-nova" | "reprovado" | "bloqueado" {
+  if (!project.book?.url) return "sem-book";
+  if (isBookReleasable(project, materials, allTableUrls, releases)) return "liberado";
+  const sha = project.book.sha256?.toLowerCase();
+  if (!sha || !SHA256.test(sha)) return "sem-versao";
+  const forFile = releases.filter((release) => release.projectId === project.id && release.fileUrl === project.book!.url);
+  const sameVersion = forFile.find((release) => release.sha256?.toLowerCase() === sha);
+  if (sameVersion && !sameVersion.approved) return "reprovado";
+  if (sameVersion) return "bloqueado";
+  return forFile.length ? "versao-nova" : "aguardando-revisao";
 }

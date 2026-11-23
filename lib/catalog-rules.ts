@@ -48,3 +48,69 @@ export function pendingIssues(project: EligibilityProject, materialUrls: Set<str
   if (!hasValidatedLocation(project)) issues.push("Coordenadas ou endereço a confirmar");
   return issues;
 }
+
+// ---------------------------------------------------------------------------
+// Pacote de dados da área interna, montado no SERVIDOR e entregue só depois da
+// validação da sessão. Mantém o que a interface usa e descarta campos internos
+// de evidência e de origem. Os valores mantidos são copiados sem alteração.
+
+type Json = Record<string, unknown>;
+
+/** Campos de cada oferta usados pela interface. */
+export const OFFER_FIELDS = ["unit", "typology", "unitKind", "price", "priceNote", "area", "parkingSpaces", "parkingCountIsMinimum", "parkingNote", "offerKind"] as const;
+/** Campos de cada tabela de ofertas usados pela interface. */
+export const OFFER_TABLE_FIELDS = ["tableUrl", "tableDate", "checkedAt", "coverage"] as const;
+/** Campos internos de auditoria que não vão ao navegador. */
+export const PRIVATE_PROJECT_FIELDS = ["geocoding", "locationSource", "sourceUrl", "deliverySource", "deliveryEvidence", "deliveryStatusEvidence", "parkingEvidence", "addressReview"] as const;
+
+const pick = (source: Json, keys: readonly string[]) => {
+  const out: Json = {};
+  for (const key of keys) if (source[key] !== undefined) out[key] = source[key];
+  return out;
+};
+
+export type CatalogRaw = {
+  catalog: Json[];
+  attributes: Record<string, Json>;
+  materials: { url: string }[];
+  offers: Record<string, Json>;
+  audit: { checkedAt?: string };
+};
+
+export type CatalogPayload<P = Json, T = Json> = {
+  projects: P[];
+  offers: Record<string, T>;
+  completeIds: string[];
+  mapIds: string[];
+  pending: { id: string; issues: string[] }[];
+  checkedAt: string | null;
+};
+
+export function buildCatalogPayload(raw: CatalogRaw): CatalogPayload {
+  const materialUrls = new Set(raw.materials.map((material) => material.url));
+  const offers: Record<string, Json> = {};
+  for (const [id, table] of Object.entries(raw.offers)) {
+    offers[id] = { ...pick(table, OFFER_TABLE_FIELDS), offers: ((table.offers as Json[]) || []).map((offer) => pick(offer, OFFER_FIELDS)) };
+  }
+  const projects = raw.catalog.map((project) => {
+    const id = String(project.id);
+    const extra = raw.attributes[id] || {};
+    const offerTypologies = ((offers[id]?.offers as Json[]) || []).map((offer) => offer.typology).filter(Boolean) as string[];
+    const merged: Json = {
+      ...project,
+      ...extra,
+      typologies: [...new Set([...((project.typologies as string[]) || []), ...((extra.typologies as string[]) || []), ...offerTypologies])],
+    };
+    for (const key of PRIVATE_PROJECT_FIELDS) delete merged[key];
+    return merged;
+  });
+  const asRule = (p: Json) => p as unknown as EligibilityProject;
+  return {
+    projects,
+    offers,
+    completeIds: projects.filter((p) => hasBookAndTable(asRule(p), materialUrls)).map((p) => String(p.id)),
+    mapIds: projects.filter((p) => isMapEligible(asRule(p), materialUrls)).map((p) => String(p.id)),
+    pending: projects.map((p) => ({ id: String(p.id), issues: pendingIssues(asRule(p), materialUrls) })).filter((row) => row.issues.length),
+    checkedAt: raw.audit.checkedAt ?? null,
+  };
+}

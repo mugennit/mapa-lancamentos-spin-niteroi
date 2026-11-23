@@ -41,3 +41,17 @@ test('current catalog: everyone stays listed and the map only holds eligible pro
   // uma trava: a rotina diária pode incluir novos empreendimentos.
   console.log(`catálogo: ${catalog.length} · book+tabela: ${complete.length} · mapa: ${onMap.length}`);
 });
+
+import {buildCatalogPayload,OFFER_FIELDS,PRIVATE_PROJECT_FIELDS} from '../lib/catalog-rules.ts';
+test('internal payload keeps every project, the map rule and the commercial values, without audit evidence',()=>{
+  const raw={catalog,attributes:read('attributes.json'),materials:read('materials.json'),offers:read('unit-offers.json'),audit:read('materials-audit.json')};
+  const payload=buildCatalogPayload(raw);
+  assert.equal(payload.projects.length,catalog.length);
+  assert.deepEqual(new Set(payload.mapIds),new Set(catalog.filter(p=>isMapEligible(p,materialUrls)).map(p=>p.id)));
+  for(const p of payload.projects)for(const key of PRIVATE_PROJECT_FIELDS)assert.ok(!(key in p),`${p.id}.${key}`);
+  for(const [id,table] of Object.entries(raw.offers)){
+    assert.equal(payload.offers[id].offers.length,table.offers.length,id);
+    table.offers.forEach((offer,i)=>{for(const key of OFFER_FIELDS)assert.deepEqual(payload.offers[id].offers[i][key],offer[key],`${id}/${offer.unit}/${key}`)});
+  }
+  for(const p of catalog){const out=payload.projects.find(x=>x.id===p.id);for(const key of ['price','lat','lng','tables','book','address'])assert.deepEqual(out[key],p[key],`${p.id}.${key}`);const attr=raw.attributes[p.id]||{};assert.deepEqual(out.delivery,attr.delivery??p.delivery,`${p.id}.delivery`)}
+});

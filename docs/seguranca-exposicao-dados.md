@@ -1,7 +1,12 @@
 # Possível exposição dos dados sem senha (item 7 — segunda etapa)
 
-> Situação: **documentado e não corrigido, por decisão do responsável
-> (23/11/2026).** O registro fica para referência caso o assunto volte.
+> Situação (24/11/2026): **correção implementada em prévia, aguardando
+> aprovação.** `app/page.tsx` passou a ser componente de servidor que valida a
+> sessão antes de entregar os dados; nenhum componente de cliente importa
+> `data/`. `tests/e2e/access.mjs` confere, no build de produção, que nenhum
+> arquivo público contém preços, tabelas ou campos internos e que sem sessão a
+> página, o RSC e as APIs redirecionam ao login. O texto abaixo descreve o
+> problema original.
 
 ## Resumo
 
