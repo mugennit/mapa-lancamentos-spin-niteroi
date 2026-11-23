@@ -1,102 +1,495 @@
 "use client";
-import {useState,useMemo,useEffect,useRef} from 'react';
-import {Search,MapPin,BookOpen,FileSpreadsheet,Building2,ExternalLink,Map as MapIcon,List,LocateFixed,SlidersHorizontal,Copy,Navigation,X,Heart,GitCompareArrows,Share2} from 'lucide-react';
-import {Input} from '@/components/ui/input';
-import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
-import {Sheet,SheetContent,SheetTitle,SheetDescription} from '@/components/ui/sheet';
-import source from '@/data/catalog.json';
-import materials from '@/data/materials.json';
-import attributes from '@/data/attributes.json';
-import audit from '@/data/materials-audit.json';
-import unitOffers from '@/data/unit-offers.json';
-import ProjectComparison from '@/components/project-comparison';
-import ProjectInventory,{DataFreshness} from '@/components/project-inventory';
-import {matchesDelivery,deliveryYearOf,commercialMonth} from '@/lib/project-insights';
-import {FAVORITES_KEY,SHARE_KEY,validIds,parseSelection,matchingOffers,matchesBudget,type OfferTable,type UnitOffer} from '@/lib/project-search';
-const offersById=unitOffers as Record<string,OfferTable>;
-type MapArea={south:number;north:number;west:number;east:number};
-const parkingCoverage=Object.values(offersById).filter(table=>table.offers.some(offer=>offer.parkingSpaces!==undefined)).length;
-import type {Map as LeafletMap,LayerGroup} from 'leaflet';
-type Project=typeof source[number] & {priceLabel?:string;locationStatus?:string;typologies?:string[];features?:string[];sourceUrl?:string;availableUnits?:string[];availabilityTableDate?:string|null;availabilityCheckedAt?:string|null;deliveryStatus?:string;deliveryEvidence?:string};
-const catalog:Project[]=(source as Project[]).map(p=>({...p,...(attributes as Record<string,Partial<Project>>)[p.id],typologies:[...new Set([...(p.typologies||[]),...((attributes as Record<string,Partial<Project>>)[p.id]?.typologies||[]),...(offersById[p.id]?.offers.map(offer=>offer.typology).filter(Boolean)||[])])]}) as Project);
-const materialUrls=new Set((materials as {url:string}[]).map(material=>material.url));
-const completeCatalog=catalog.filter(p=>Boolean(p.book?.url&&materialUrls.has(p.book.url)&&p.tables?.some(table=>Boolean(table.url&&materialUrls.has(table.url)))));
-const catalogIds=new Set(catalog.map(p=>p.id));
-const completeIds=new Set(completeCatalog.map(p=>p.id));
-const mapCatalog=completeCatalog.filter(p=>p.addressReviewStatus==='Conferido'&&p.lat!==null&&p.lng!==null);
-const mapIds=new Set(mapCatalog.map(p=>p.id));
-const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-function DeliverySummary({project}:{project:Project}){const month=commercialMonth(project.delivery);const now=new Date();const previous=month!==null&&month<Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1);return <div className="delivery-summary"><span>{project.deliveryStatus==='Pronto'?'Pronto confirmado nos materiais':project.delivery?`Previsão: ${project.delivery}`:'Previsão de entrega a confirmar'}</span>{project.deliveryStatus!=='Pronto'&&previous&&<small>Previsão anterior à data atual; confirmar entrega.</small>}</div>}
-const deliveryOptions=['Prontos',...[...new Set(catalog.map(deliveryYearOf).filter((year):year is number=>year!==null))].sort((a,b)=>a-b).map(year=>`Até ${year}`),'Sem previsão informada'];
+import { useState, useMemo, useEffect, useCallback, useRef } from "react";
+import { Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/ui/sheet";
+import audit from "@/data/materials-audit.json";
+import ProjectComparison from "@/components/project-comparison";
+import ProjectInventory, { DataFreshness } from "@/components/project-inventory";
+import ProjectMap, { type MapPoint } from "@/components/project-map";
+import FilterPanel from "@/components/filter-panel";
+import { DeliverySummary, Materials, ProjectFeedback, formatPrice, formatCheckedDate } from "@/components/project-parts";
+import { matchesDelivery } from "@/lib/project-insights";
+import { FAVORITES_KEY, SHARE_KEY, validIds, parseSelection, matchingOffers, matchesBudget, type UnitOffer } from "@/lib/project-search";
+import { DEFAULT_FILTERS, filtersFromSearch, filtersToSearch, countPanelFilters, type FilterState, type ViewMode, type SortMode } from "@/lib/filter-state";
+import {
+  catalog, offersById, catalogIds, completeIds, mapIds, pending, parkingCoverage, deliveryOptions, hoodOptions, companyOptions,
+  typologyOptions, featureOptions, stageOptions, locationOptions, normalize, offMapReason, type Project,
+} from "@/lib/catalog";
+import { useBackToClose, useMediaQuery } from "@/hooks/use-back-to-close";
 
-function Filter({label,value,onChange,values}:{label:string,value:string,onChange:(v:string)=>void,values:string[]}){return <div><label className="filter-label">{label}</label><Select value={value} onValueChange={onChange}><SelectTrigger aria-label={label} className="filter-trigger"><SelectValue/></SelectTrigger><SelectContent style={{zIndex:1200}}><SelectItem value="all">Todos</SelectItem>{values.map(x=><SelectItem key={x} value={x}>{x}</SelectItem>)}</SelectContent></Select></div>}
-function FeatureFilter({values,selected,onToggle}:{values:string[];selected:string[];onToggle:(v:string)=>void}){return <fieldset className="feature-filter"><legend>Características do condomínio</legend><div className="feature-options">{values.map(x=><label key={x} className="feature-option"><input type="checkbox" checked={selected.includes(x)} onChange={()=>onToggle(x)}/><span>{x}</span></label>)}</div><small>Ao marcar mais de uma, aparecem empreendimentos com todas as características escolhidas.</small></fieldset>}
-function ProjectFeedback({project}:{project:Project}){const [open,setOpen]=useState(false),[issue,setIssue]=useState(''),[status,setStatus]=useState(''),[sending,setSending]=useState(false);const send=async()=>{if(!issue.trim()||sending)return;setSending(true);setStatus('');try{const configResponse=await fetch('/api/report');const rawConfig=await configResponse.json().catch(()=>({}));const config=(rawConfig&&typeof rawConfig==='object'?rawConfig:{}) as {recipient?:unknown;error?:string};if(!configResponse.ok||typeof config.recipient!=='string')throw new Error(config.error||'Não foi possível preparar o envio.');const response=await fetch('https://formsubmit.co/ajax/'+config.recipient,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({name:'Mapa de Lançamentos SPIN Niterói',message:['Reporte do mapa de lançamentos SPIN Niterói','Empreendimento: '+project.name,'Bairro: '+project.neighborhood,'Endereço exibido: '+(project.address||'não informado'),'','Problema ou correção:',issue.trim()].join(String.fromCharCode(10)),_subject:'Reporte no mapa: '+project.name,_template:'table',_honey:''})});const rawResult=await response.json().catch(()=>({}));const result=(rawResult&&typeof rawResult==='object'?rawResult:{}) as {success?:unknown;message?:unknown};const accepted=result.success===true||result.success==='true';if(!response.ok||!accepted)throw new Error(typeof result.message==='string'?result.message:'O serviço de e-mail não confirmou o envio (HTTP '+response.status+').');setStatus('Reporte enviado com sucesso. Obrigado pela contribuição!')}catch(error){setStatus(error instanceof Error?error.message:'Falha ao enviar. Tente novamente.')}finally{setSending(false)}};return <section className="project-feedback">{!open?<button type="button" className="material-link" onClick={()=>{setIssue('');setStatus('');setOpen(true)}}>Informar problema</button>:<div className="feedback-panel"><label htmlFor="project-feedback-issue">O que está incorreto?</label><textarea id="project-feedback-issue" value={issue} onChange={event=>{setIssue(event.target.value);setStatus('')}} placeholder="Descreva o erro e, se souber, a correção e uma fonte de referência." rows={4}/><div className="feedback-actions"><button type="button" className="material-link" disabled={!issue.trim()||sending} onClick={send}>{sending?'Enviando…':'Enviar por e-mail'}</button><button type="button" className="quiet-button" onClick={()=>setOpen(false)}>Fechar</button></div>{status&&<small role="status">{status}</small>}</div>}</section>}
-function formatPrice(value:number){return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:0,maximumFractionDigits:2}).format(value)}
-function formatCheckedDate(value?:string){if(!value)return null;const date=new Date(`${value}T00:00:00Z`);return Number.isNaN(date.getTime())?null:date.toLocaleDateString('pt-BR',{timeZone:'UTC'})}
-function Materials({p}:{p:Project}){return <div className="material-actions">{p.book?<a className="material-link" href={p.book.url} target="_blank" rel="noopener noreferrer" aria-label={`Abrir book de ${p.name}`}><BookOpen size={14}/>Book<ExternalLink size={11}/></a>:<span className="missing-material">Sem book</span>}{p.tables[0]?<a className="material-link" href={p.tables[0].url} target="_blank" rel="noopener noreferrer" aria-label={`Abrir tabela de ${p.name}`}><FileSpreadsheet size={14}/>Tabela<ExternalLink size={11}/></a>:<span className="missing-material">Sem tabela</span>}</div>}
-function ProjectMap({projects,selected,onSelect,reset,visible,onSearchArea}:{projects:Project[],selected:string|null,onSelect:(p:Project)=>void,reset:number,visible:boolean,onSearchArea:(area:MapArea)=>void}){
- const element=useRef<HTMLDivElement>(null),map=useRef<LeafletMap|null>(null),group=useRef<LayerGroup|null>(null);
- const [ready,setReady]=useState(false),[error,setError]=useState(false);const onSelectRef=useRef(onSelect);useEffect(()=>{onSelectRef.current=onSelect},[onSelect]);
- useEffect(()=>{let cancelled=false;import('leaflet').then(L=>{if(cancelled||!element.current)return;map.current=L.map(element.current,{zoomControl:false}).setView([-22.91,-43.065],13);L.control.zoom({position:'topright'}).addTo(map.current);const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',maxZoom:19});
-const imagery=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Imagens &copy; Esri, Maxar, Earthstar Geographics e colaboradores',maxZoom:19,maxNativeZoom:19});
-map.current.createPane('satelliteLabels');map.current.getPane('satelliteLabels')!.style.zIndex='350';map.current.getPane('satelliteLabels')!.style.pointerEvents='none';
-const labels=L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{attribution:'Rótulos &copy; Esri e colaboradores',pane:'satelliteLabels',maxZoom:19,maxNativeZoom:19});
-const satellite=L.layerGroup([imagery,labels]);
-[street,imagery].forEach(layer=>layer.on('tileerror',()=>setError(true)).on('load',()=>setError(false)));
-street.addTo(map.current);
-const layerControl=L.control.layers({'Mapa':street,'Satélite':satellite},undefined,{position:'topright',collapsed:false}).addTo(map.current);layerControl.getContainer()?.setAttribute('aria-label','Camada do mapa');
-map.current.on('baselayerchange',()=>setError(false));group.current=L.layerGroup().addTo(map.current);setReady(true)}).catch(()=>setError(true));return()=>{cancelled=true;map.current?.remove();map.current=null;group.current=null}},[]);
- useEffect(()=>{if(!ready||!map.current||!group.current)return;let alive=true;import('leaflet').then(L=>{if(!alive||!map.current||!group.current)return;const render=()=>{if(!map.current||!group.current)return;group.current.clearLayers();const zoom=map.current.getZoom(),cell=zoom>=17?52:zoom>=14?72:94;const buckets=new Map<string,Project[]>();projects.forEach(p=>{if(p.lat===null||p.lng===null)return;const pixel=map.current!.project([p.lat,p.lng],zoom),key=`${Math.floor(pixel.x/cell)}:${Math.floor(pixel.y/cell)}`;buckets.set(key,[...(buckets.get(key)||[]),p])});buckets.forEach(items=>{const center:[number,number]=[items.reduce((sum,p)=>sum+p.lat!,0)/items.length,items.reduce((sum,p)=>sum+p.lng!,0)/items.length];const active=items.some(p=>p.id===selected);const el=document.createElement('span');el.className='pin'+(items.length>1?' pin-cluster':zoom<16&&!active?' pin-dot':'')+(active?' pin-active':'');el.textContent=items.length>1?String(items.length):zoom<16&&!active?'':items[0].name;const marker=L.marker(center,{icon:L.divIcon({html:el,className:'',iconSize:undefined}),keyboard:true,title:items.length>1?`${items.length} empreendimentos próximos`:items[0].name,zIndexOffset:active?1000:0}).addTo(group.current!);if(items.length===1)marker.on('click',()=>onSelectRef.current(items[0]));else{const box=document.createElement('div');box.style.cssText='display:flex;flex-direction:column;gap:7px;min-width:175px';const title=document.createElement('strong');title.textContent=`${items.length} empreendimentos próximos`;box.appendChild(title);items.forEach(item=>{const button=document.createElement('button');button.className='material-link';button.textContent=item.name;button.onclick=()=>onSelectRef.current(item);box.appendChild(button)});marker.bindPopup(box);marker.on('click',()=>map.current?.setView(center,Math.min(zoom+2,18)))}});};map.current.on('zoomend',render);render();return()=>map.current?.off('zoomend',render)});return()=>{alive=false}},[projects,selected,ready]);useEffect(()=>{if(!ready||!selected||!map.current)return;const p=projects.find(x=>x.id===selected);if(p?.lat!==null&&p?.lat!==undefined&&p.lng!==null)map.current.panTo([p.lat,p.lng])},[selected,ready,projects]);
- useEffect(()=>{if(!ready)return;const points=projects.filter(p=>p.lat!==null&&p.lng!==null).map(p=>[p.lat!,p.lng!] as [number,number]);import('leaflet').then(L=>{if(points.length)map.current?.fitBounds(L.latLngBounds(points),{padding:[85,85],maxZoom:points.length===1?17:14});else map.current?.setView([-22.91,-43.065],13)})},[reset,ready,projects]);
- useEffect(()=>{if(!visible)return;const timer=setTimeout(()=>{map.current?.invalidateSize();const points=projects.filter(p=>p.lat!==null&&p.lng!==null).map(p=>[p.lat!,p.lng!] as [number,number]);if(points.length)map.current?.fitBounds(points,{padding:[65,65],maxZoom:14})},60);return()=>clearTimeout(timer)},[visible,ready]);
- const searchArea=()=>{const bounds=map.current?.getBounds();if(bounds)onSearchArea({south:bounds.getSouth(),north:bounds.getNorth(),west:bounds.getWest(),east:bounds.getEast()})};
- return <><button type="button" className="map-area-button map-action" disabled={!ready} onClick={searchArea}>Buscar nesta região</button><div ref={element} className="map-canvas" aria-label="Mapa de empreendimentos de Niterói"/>{error&&<div className="map-error">O mapa base está indisponível nesta conexão. Você pode continuar consultando a lista e os materiais.</div>}</>;
+const PARKING_TEXT: Record<string, string> = { none: "Sem vaga", "1": "Com vaga", "2": "2 ou mais" };
+const SORT_LABELS: Record<SortMode, string> = { recommended: "Recomendados", "price-asc": "Menor preço", "price-desc": "Maior preço", name: "Nome A–Z" };
+
+/** Mesmo critério de filtragem da versão anterior, agora numa função única (usada também nas contagens). */
+function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedIds: string[]) {
+  const matchesPrice = matchesBudget(p, offersById[p.id], f.typology, f.minPrice, f.maxPrice, f.parking);
+  return normalize(`${p.name} ${p.company} ${p.neighborhood} ${p.address}`).includes(normalize(f.query))
+    && (f.hood === "all" || p.neighborhood === f.hood)
+    && (f.company === "all" || p.company === f.company)
+    && (f.typology === "all" || p.typologies?.includes(f.typology) || offersById[p.id]?.offers.some((o) => o.typology === f.typology || o.unitKind === f.typology))
+    && f.features.every((feature) => p.features?.includes(feature))
+    && (f.location === "all" || (f.location === "No mapa" ? mapIds.has(p.id) : !mapIds.has(p.id)))
+    && (f.delivery === "all" || (f.delivery === "A confirmar" ? !p.deliveryStatus : p.deliveryStatus === f.delivery))
+    && matchesDelivery(p, f.deliveryYear)
+    && (!f.area || (p.lat !== null && p.lng !== null && p.lat >= f.area.south && p.lat <= f.area.north && p.lng >= f.area.west && p.lng <= f.area.east))
+    && matchesPrice
+    && (!f.onlyFavorites || favorites.includes(p.id))
+    && (!sharedIds.length || sharedIds.includes(p.id));
 }
-export default function Home(){const [query,setQuery]=useState(''),[hood,setHood]=useState('all'),[company,setCompany]=useState('all'),[typology,setTypology]=useState('all'),[parking,setParking]=useState('all'),[features,setFeatures]=useState<string[]>([]),[location,setLocation]=useState('all'),[minPrice,setMinPrice]=useState(''),[maxPrice,setMaxPrice]=useState(''),[more,setMore]=useState(false),[selected,setSelected]=useState<Project|null>(null),[detail,setDetail]=useState(false),[mode,setMode]=useState<'list'|'map'>('list'),[reset,setReset]=useState(0),[addressCopied,setAddressCopied]=useState(false),[sortBy,setSortBy]=useState('recommended');
-const [pendingOpen,setPendingOpen]=useState(false),[draft,setDraft]=useState<string|null>(null),[draftCopied,setDraftCopied]=useState(false);
-const [delivery,setDelivery]=useState('all'),[deliveryYear,setDeliveryYear]=useState('all'),[area,setArea]=useState<MapArea|null>(null);
-const [favorites,setFavorites]=useState<string[]>([]),[favoritesReady,setFavoritesReady]=useState(false),[onlyFavorites,setOnlyFavorites]=useState(false),[comparison,setComparison]=useState<string[]>([]),[comparisonOpen,setComparisonOpen]=useState(false),[sharedIds,setSharedIds]=useState<string[]>([]),[notice,setNotice]=useState(''),[shareFallback,setShareFallback]=useState('');
-useEffect(()=>{try{setFavorites(validIds(JSON.parse(localStorage.getItem(FAVORITES_KEY)||'[]'),catalogIds))}catch{setNotice('Favoritos não puderam ser recuperados neste navegador.')}finally{setFavoritesReady(true)}const fromHash=parseSelection(window.location.hash,catalogIds);let incoming=fromHash;try{if(!incoming.length)incoming=validIds(JSON.parse(sessionStorage.getItem(SHARE_KEY)||'[]'),catalogIds,3);sessionStorage.removeItem(SHARE_KEY)}catch{}if(incoming.length){setSharedIds(incoming);setComparison(incoming)}},[]);
-useEffect(()=>{if(!favoritesReady)return;try{localStorage.setItem(FAVORITES_KEY,JSON.stringify(favorites))}catch{setNotice('O navegador bloqueou o armazenamento. Os favoritos valem apenas nesta sessão.')}},[favorites,favoritesReady]);
-const toggleFavorite=(id:string)=>setFavorites(current=>current.includes(id)?current.filter(x=>x!==id):[...current,id]);
-const toggleComparison=(id:string)=>{setShareFallback('');setComparison(current=>current.includes(id)?current.filter(x=>x!==id):current.length<3?[...current,id]:current)};
-const comparisonProjects=useMemo(()=>comparison.map(id=>catalog.find(p=>p.id===id)).filter((p):p is Project=>Boolean(p)),[comparison]);
-const share=async()=>{if(!comparison.length)return;const url=new URL('/',window.location.origin);url.hash=new URLSearchParams({selecao:comparison.join(',')}).toString();try{await navigator.clipboard.writeText(url.href);setShareFallback('');setNotice('Link copiado. Quem receber precisa da senha do site.')}catch{setShareFallback(url.href);setNotice('Copie o link abaixo para compartilhar.')}};
-const exactBudget=parking!=='all'||(typology!=='all'&&(minPrice!==''||maxPrice!==''));
-const unverifiedCount=exactBudget?catalog.filter(p=>!matchingOffers(offersById[p.id],typology,'','',parking).length).length:0;
-const unitFiltersActive=typology!=='all'||parking!=='all'||minPrice!==''||maxPrice!=='';
-const displayPrice=(p:Project)=>{if(!unitFiltersActive)return p.price;const values=matchingOffers(offersById[p.id],typology,minPrice,maxPrice,parking).map(o=>o.price);return values.length?Math.min(...values):exactBudget?null:p.price};
-const inventorySummary=(p:Project)=>{const table=offersById[p.id];if(table?.offers.length){const rows=unitFiltersActive?matchingOffers(table,typology,minPrice,maxPrice,parking):table.offers;return `${rows.length} ofertas ${unitFiltersActive?'nos filtros':'cadastradas'}${rows.length?` · ${rows.slice(0,4).map(o=>o.unit).join(' · ')}${rows.length>4?' · …':''}`:''}`}return unitFiltersActive?'Consulte a ficha para verificar as unidades':p.availableUnits?.length?`${p.availableUnits.slice(0,5).join(' · ')}${p.availableUnits.length>5?` · +${p.availableUnits.length-5}`:''}`:'Consulte a tabela vinculada'};
-const parkingSummary=(p:Project)=>{const offers=exactBudget?matchingOffers(offersById[p.id],typology,minPrice,maxPrice,parking):offersById[p.id]?.offers||[];const known=offers.filter(o=>o.parkingSpaces!==undefined);if(!known.length)return 'Vagas a confirmar';const labels=[...new Set(known.map(o=>o.parkingCountIsMinimum?'Com vaga (quantidade a confirmar)':o.parkingSpaces===0?'Sem vaga':`${o.parkingSpaces} ${o.parkingSpaces===1?'vaga':'vagas'}`))];return labels.join(' · ')+(known.length<offers.length?' · Outras vagas a confirmar':'')};
-const pending=catalog.map(p=>({project:p,issues:[!p.book?.url||!materialUrls.has(p.book.url)?'Book pendente':null,!p.tables.some(t=>materialUrls.has(t.url))?'Tabela pendente':null,p.addressReviewStatus!=='Conferido'||p.lat===null||p.lng===null?'Coordenadas ou endereço a confirmar':null].filter((v):v is string=>Boolean(v))})).filter(row=>row.issues.length);
-const prepareMessage=(p:Project,chosenOffer?:UnitOffer)=>{
- const constrained=Boolean(chosenOffer)||typology!=='all'||parking!=='all'||minPrice!==''||maxPrice!=='';
- const offer=chosenOffer??(constrained?[...matchingOffers(offersById[p.id],typology,minPrice,maxPrice,parking)].sort((a,b)=>a.price-b.price)[0]:undefined);
- const price=offer?.price??(!constrained?p.price:null);
- const garage=offer?offer.parkingSpaces===undefined?'Vagas a confirmar':offer.parkingCountIsMinimum?'Com vaga — quantidade a confirmar':`${offer.parkingSpaces} ${offer.parkingSpaces===1?'vaga':'vagas'}`:constrained?'Vagas a confirmar':parkingSummary(p);
- setDraft([p.name,`${p.neighborhood} · Niterói`,offer?`${offer.offerKind==='group'?'Oferta':'Unidade'}: ${offer.unit}`:null,offer?[offer.typology,offer.unitKind].filter((v,i,a)=>v&&a.indexOf(v)===i).join(' · '):!constrained?p.typologies?.join(' · '):'Tipologia e unidade a confirmar',price!==null?`${p.priceLabel?.toLowerCase().startsWith('aluguel')?'Aluguel':offer?'Preço total da oferta':'Preço total a partir de'}: ${formatPrice(price)}`:'Preço da unidade a confirmar',offer?.priceNote,offer?.area!==undefined?`Área: ${offer.area.toLocaleString('pt-BR')} m²`:null,garage,p.delivery?`Previsão de entrega: ${p.delivery}`:'Entrega a confirmar','Entrada e condições de pagamento: a confirmar',`Tabela: ${offer?offersById[p.id].tableDate:p.tables[0]?.date||'não disponível'}`,p.book?.url?`Book: ${p.book.url}`:null,(offer?offersById[p.id].tableUrl:p.tables[0]?.url)?`Tabela: ${offer?offersById[p.id].tableUrl:p.tables[0].url}`:null,'Valores e disponibilidade sujeitos a confirmação.'].filter(Boolean).join('\n'));setDraftCopied(false);
-};
-const hoods=useMemo(()=>[...new Set(catalog.map(p=>p.neighborhood))].sort((a,b)=>a.localeCompare(b,'pt-BR')),[]),companies=useMemo(()=>[...new Set(catalog.map(p=>p.company))].sort((a,b)=>a.localeCompare(b,'pt-BR')),[]),typologies=useMemo(()=>[...new Set(catalog.flatMap(p=>[...(p.typologies||[]),...(offersById[p.id]?.offers.map(o=>o.typology).filter(Boolean)||[])]))].sort((a,b)=>a.localeCompare(b,'pt-BR')),[]),featureOptions=useMemo(()=>[...new Set(completeCatalog.flatMap(p=>p.features||[]))].sort((a,b)=>a.localeCompare(b,'pt-BR')),[]);
-const filtered=useMemo(()=>catalog.filter(p=>{
-const matchesPrice=matchesBudget(p,offersById[p.id],typology,minPrice,maxPrice,parking);
-return normalize(`${p.name} ${p.company} ${p.neighborhood} ${p.address}`).includes(normalize(query))&&(hood==='all'||p.neighborhood===hood)&&(company==='all'||p.company===company)&&(typology==='all'||p.typologies?.includes(typology)||offersById[p.id]?.offers.some(o=>(o.typology===typology||o.unitKind===typology)))&&features.every(feature=>p.features?.includes(feature))&&(location==='all'||(location==='No mapa'?mapIds.has(p.id):!mapIds.has(p.id)))&&(delivery==='all'||(delivery==='A confirmar'?!p.deliveryStatus:p.deliveryStatus===delivery))&&matchesDelivery(p,deliveryYear)&&(!area||(p.lat!==null&&p.lng!==null&&p.lat>=area.south&&p.lat<=area.north&&p.lng>=area.west&&p.lng<=area.east))&&matchesPrice&&(!onlyFavorites||favorites.includes(p.id))&&(!sharedIds.length||sharedIds.includes(p.id));
-}),[query,hood,company,typology,features,location,minPrice,maxPrice,parking,onlyFavorites,favorites,sharedIds,delivery,deliveryYear,area]);const sorted=useMemo(()=>{const copy=[...filtered];if(sortBy==='price-asc')copy.sort((a,b)=>(displayPrice(a)??Infinity)-(displayPrice(b)??Infinity));else if(sortBy==='price-desc')copy.sort((a,b)=>(displayPrice(b)??-Infinity)-(displayPrice(a)??-Infinity));else if(sortBy==='name')copy.sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));return copy},[filtered,sortBy,typology,minPrice,maxPrice,parking]);const mapFiltered=useMemo(()=>filtered.filter(p=>mapIds.has(p.id)),[filtered]);const located=mapFiltered.length;
-const pick=(p:Project)=>{setSelected(p);setAddressCopied(false);setDetail(true)};const copyAddress=async()=>{if(!selected?.address)return;try{await navigator.clipboard.writeText(selected.address);setAddressCopied(true);setTimeout(()=>setAddressCopied(false),1800)}catch{setAddressCopied(false)}};const toggleFeature=(v:string)=>setFeatures(current=>current.includes(v)?current.filter(x=>x!==v):[...current,v]);const clear=()=>{setDelivery('all');setDeliveryYear('all');setArea(null);setQuery('');setHood('all');setCompany('all');setTypology('all');setParking('all');setFeatures([]);setLocation('all');setMinPrice('');setMaxPrice('');setOnlyFavorites(false);setSharedIds([]);if(window.location.hash.startsWith('#selecao='))history.replaceState(null,'',window.location.pathname+window.location.search)};
-const activeFilters:{key:string,label:string,remove:()=>void}[]=[];
-if(delivery!=='all')activeFilters.push({key:'delivery',label:`Entrega: ${delivery}`,remove:()=>setDelivery('all')});
-if(deliveryYear!=='all')activeFilters.push({key:'deliveryYear',label:`Entrega: ${deliveryYear}`,remove:()=>setDeliveryYear('all')});
-if(area)activeFilters.push({key:'area',label:'Área selecionada no mapa',remove:()=>setArea(null)});
-if(onlyFavorites)activeFilters.push({key:'favorites',label:'Meus favoritos',remove:()=>setOnlyFavorites(false)});
-if(sharedIds.length)activeFilters.push({key:'shared',label:'Seleção compartilhada',remove:()=>{setSharedIds([]);history.replaceState(null,'',window.location.pathname+window.location.search)}});
-if(query.trim())activeFilters.push({key:'query',label:`Busca: ${query.trim()}`,remove:()=>setQuery('')});
-if(hood!=='all')activeFilters.push({key:'hood',label:`Bairro: ${hood}`,remove:()=>setHood('all')});
-if(company!=='all')activeFilters.push({key:'company',label:`Construtora: ${company}`,remove:()=>setCompany('all')});
-if(parking!=='all')activeFilters.push({key:'parking',label:`Vagas: ${parking==='none'?'Sem vaga':parking==='1'?'Com vaga':'2 ou mais'}`,remove:()=>setParking('all')});
-if(typology!=='all')activeFilters.push({key:'typology',label:`Tipologia: ${typology}`,remove:()=>setTypology('all')});
-if(minPrice!=='')activeFilters.push({key:'minPrice',label:`Mínimo: ${formatPrice(Number(minPrice))}`,remove:()=>setMinPrice('')});
-if(maxPrice!=='')activeFilters.push({key:'maxPrice',label:`Máximo: ${formatPrice(Number(maxPrice))}`,remove:()=>setMaxPrice('')});
-if(location!=='all')activeFilters.push({key:'location',label:`Localização: ${location}`,remove:()=>setLocation('all')});
-features.forEach(feature=>activeFilters.push({key:`feature-${feature}`,label:feature,remove:()=>setFeatures(current=>current.filter(item=>item!==feature))}));
-return <main><header className="app-header"><div className="brand"><img className="brand-logo" src="/spin-logo.svg" alt="Spin Inovações Imobiliárias"/><div><h1>Mapa de Empreendimentos</h1><p>Niterói</p><small className="source-scan-date">Fontes conferidas em {formatCheckedDate(audit.checkedAt)}</small></div></div><form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form></header><nav className="mobile-switch" aria-label="Visualização"><button className={mode==='list'?'active':''} onClick={()=>setMode('list')}><List size={16}/>Lista</button><button className={mode==='map'?'active':''} onClick={()=>setMode('map')}><MapIcon size={16}/>Mapa</button></nav><div className="workspace"><aside className={'sidebar '+(mode==='map'?'mobile-hidden':'')}><div className="controls"><div className="collection-actions"><button type="button" className={'collection-button '+(onlyFavorites?'is-active':'')} aria-pressed={onlyFavorites} onClick={()=>setOnlyFavorites(v=>!v)}><Heart size={15}/>Favoritos ({favorites.length})</button><button type="button" className="collection-button" onClick={()=>setPendingOpen(true)}>Pendências ({pending.length})</button></div><div className="search-wrap"><Search size={18}/><Input aria-label="Buscar empreendimento" placeholder="Buscar nome, bairro ou endereço" value={query} onChange={e=>setQuery(e.target.value)}/></div><div className="filters"><Filter label="Bairro" value={hood} onChange={setHood} values={hoods}/><Filter label="Construtora" value={company} onChange={setCompany} values={companies}/><div className="filter-wide"><Filter label="Tipologia" value={typology} onChange={setTypology} values={typologies}/></div></div><div className="filter-wide"><Filter label="Vaga de garagem" value={parking==='1'?'Com vaga':parking==='2'?'2 ou mais vagas':parking==='none'?'Sem vaga':'all'} onChange={value=>setParking(value==='Com vaga'?'1':value==='2 ou mais vagas'?'2':value==='Sem vaga'?'none':'all')} values={['Com vaga','2 ou mais vagas','Sem vaga']}/><small className="price-range-hint">Vagas conferidas em {parkingCoverage} empreendimentos. Onde a tabela não confirma a informação, a opção fica fora deste filtro.</small></div><div className="filter-wide price-range-filter"><div className="filter-label">Faixa de preço total do imóvel</div><div className="price-range-fields"><label className="price-range-control"><span>Mínimo</span><div className="price-input-wrap"><span aria-hidden="true">R$</span><input aria-label="Preço mínimo" type="number" min="0" step="10000" placeholder="Sem mínimo" value={minPrice} onChange={e=>setMinPrice(e.target.value)}/></div></label><label className="price-range-control"><span>Máximo</span><div className="price-input-wrap"><span aria-hidden="true">R$</span><input aria-label="Preço máximo" type="number" min="0" step="10000" placeholder="Sem máximo" value={maxPrice} onChange={e=>setMaxPrice(e.target.value)}/></div></label></div><small className="price-range-hint">{typology==='all'?'Valores totais do imóvel, não de entrada. Sem tipologia, usa o preço inicial do empreendimento. Aluguéis não entram.':'Com tipologia, só entram unidades com quartos e preço comprovados na mesma linha da tabela.'}</small></div><div className="delivery-filter"><Filter label="Prazo de entrega" value={deliveryYear} onChange={setDeliveryYear} values={deliveryOptions}/><small className="price-range-hint">“Até” inclui os prontos confirmados e as previsões até o fim do ano. Uma previsão vencida não comprova entrega.</small></div><div className="filter-toggle"><button className="quiet-button" aria-expanded={more} onClick={()=>setMore(!more)}><SlidersHorizontal size={15}/>{more?'Menos filtros':'Mais filtros'}</button><button className="quiet-button" onClick={clear}>Limpar</button></div>{more&&<div className="extra-filters"><Filter label="Etapa confirmada" value={delivery} onChange={setDelivery} values={['Pronto','Em construção','Lançamento','A confirmar']}/><small className="data-note">Etapa confirmada nos materiais. Previsão de entrega não comprova a etapa atual.</small><Filter label="Localização" value={location} onChange={setLocation} values={['No mapa','Fora do mapa'] }/><FeatureFilter values={featureOptions} selected={features} onToggle={toggleFeature}/></div>}</div>{activeFilters.length>0&&<div className="active-filters" role="group" aria-label="Filtros ativos">{activeFilters.map(filter=><button type="button" className="active-filter" key={filter.key} onClick={filter.remove} aria-label={`Remover filtro ${filter.label}`}>{filter.label}<X size={12}/></button>)}</div>}{exactBudget&&<p className="unit-filter-notice">Busca por unidade comprovada. {unverifiedCount} empreendimentos sem unidade confirmada para os critérios selecionados ficam fora. O levantamento por unidade ainda é parcial; consulte a tabela para outras opções.</p>}{notice&&<p role="status" className="selection-notice">{notice}</p>}<div className="count-row"><strong aria-live="polite">{filtered.length} lançamentos</strong><div className="count-meta"><small>{located} no mapa</small><label className="sort-control"><span>Ordenar</span><Select value={sortBy} onValueChange={setSortBy}><SelectTrigger aria-label="Ordenar lançamentos"><SelectValue/></SelectTrigger><SelectContent style={{zIndex:1200}}><SelectItem value="recommended">Recomendados</SelectItem><SelectItem value="price-asc">Menor preço</SelectItem><SelectItem value="price-desc">Maior preço</SelectItem><SelectItem value="name">Nome A–Z</SelectItem></SelectContent></Select></label></div></div><div className="results">{sorted.length===0?<div className="empty-results">Nenhum empreendimento com esses filtros.<br/><button className="quiet-button" onClick={clear}>Limpar filtros</button></div>:sorted.map(p=><article className={'project-card '+(selected?.id===p.id?'selected':'')} key={p.id}><button className="card-main" onClick={()=>pick(p)} aria-label={`Ver detalhes de ${p.name}`}>{p.photo?<img className="card-thumb" src={p.photo} alt="" loading="lazy"/>:<span className="no-photo"><Building2 size={26}/></span>}<div className="card-copy"><div className="eyebrow">{p.company}</div><h2>{p.name}</h2><div className="card-location"><MapPin size={13}/>{p.neighborhood}</div>{Boolean(p.typologies?.length)&&<div className="card-typologies" aria-label="Tipologias">{p.typologies?.map(value=><span key={value}>{value}</span>)}</div>}<div className="card-garage">{parkingSummary(p)}</div><DeliverySummary project={p}/>{!completeIds.has(p.id)&&<div className="card-facts">{!p.book?.url?'Book não disponível':''}{!p.book?.url&&!p.tables.length?' · ':''}{!p.tables.length?'Tabela não disponível':''}</div>}{typeof displayPrice(p)==='number'&&<div className="card-price">{exactBudget?`Preço total · ${typology==='all'?'unidade selecionada':typology} a partir de`:(p.priceLabel?.toLowerCase().startsWith('aluguel')?p.priceLabel:'Preço total a partir de')} <strong>{formatPrice(displayPrice(p)!)}</strong></div>}{completeIds.has(p.id)&&!mapIds.has(p.id)&&<div className="card-facts">{p.addressReviewStatus==='Precisa de apoio'?'Endereço em revisão':(p.locationStatus||'Ponto exato pendente')}</div>}<div className="card-availability"><strong>Unidades na tabela:</strong> {inventorySummary(p)}</div></div></button><div className="matching-unit-note">Entrada e condições: a confirmar na tabela.</div><div className="card-selection"><button type="button" className={'selection-button '+(favorites.includes(p.id)?'is-active':'')} onClick={()=>toggleFavorite(p.id)} aria-pressed={favorites.includes(p.id)} aria-label={`${favorites.includes(p.id)?'Remover':'Salvar'} ${p.name} nos favoritos`}><Heart size={15} fill={favorites.includes(p.id)?'currentColor':'none'}/>{favorites.includes(p.id)?'Salvo':'Favoritar'}</button><button type="button" className={'selection-button '+(comparison.includes(p.id)?'is-active':'')} disabled={comparison.length>=3&&!comparison.includes(p.id)} onClick={()=>toggleComparison(p.id)} aria-pressed={comparison.includes(p.id)}><GitCompareArrows size={15}/>{comparison.includes(p.id)?'Selecionado':'Comparar'}</button></div>{exactBudget&&<div className="matching-unit-note">Opções na faixa: {matchingOffers(offersById[p.id],typology,minPrice,maxPrice,parking).slice(0,5).map(o=>`${o.unit}${o.priceNote?` [${o.priceNote}]`:''}${parking!=='all'?` (${o.parkingCountIsMinimum?'com vaga':`${o.parkingSpaces} ${o.parkingSpaces===1?'vaga':'vagas'}`})`:''}`).join(' · ')}</div>}{parking!=='all'&&[...new Set(matchingOffers(offersById[p.id],typology,minPrice,maxPrice,parking).map(o=>o.parkingNote).filter(Boolean))].slice(0,2).map(note=><div className="matching-unit-note" key={note}>{note}</div>)}<div className="card-footer"><Materials p={p}/><button className="details-button" onClick={()=>prepareMessage(p)}>Ficha WhatsApp</button><button className="details-button" onClick={()=>pick(p)}>Unidades e detalhes</button></div><DataFreshness project={p} table={offersById[p.id]}/></article>)}</div><footer className="catalog-foot">Última varredura completa das fontes: {formatCheckedDate(audit.checkedAt)}. <br/>Valores e disponibilidade podem mudar. Confirme na tabela vinculada.</footer></aside><section className={'map-shell '+(mode==='list'?'mobile-hidden':'')}><ProjectMap projects={mapFiltered} selected={selected?.id??null} onSelect={pick} reset={reset} visible={mode==='map'} onSearchArea={setArea}/><div className="map-toolbar"><div className="map-summary"><strong>Niterói</strong><span>{located} pontos no mapa</span></div><button className="map-action" onClick={()=>{setArea(null);setReset(v=>v+1)}}><LocateFixed size={16}/>Ver todos os pontos</button></div><div className="map-legend">O mapa inclui lançamentos com book, tabela e ponto exato confirmado.</div></section></div>{comparison.length>0&&<div className="comparison-bar" aria-label="Seleção para comparação"><div className="comparison-chips">{comparisonProjects.map(p=><button type="button" key={p.id} onClick={()=>toggleComparison(p.id)} aria-label={`Remover ${p.name} da seleção`}>{p.name}<X size={12}/></button>)}</div><div className="comparison-bar-actions"><span>{comparison.length}/3</span><button type="button" className="material-link" onClick={()=>setComparisonOpen(true)}><GitCompareArrows size={15}/>Comparar</button><button type="button" className="material-link" onClick={share}><Share2 size={15}/>Compartilhar</button><button type="button" className="quiet-button" onClick={()=>{setComparison([]);setShareFallback('')}}>Limpar seleção</button></div>{shareFallback&&<input className="share-fallback" aria-label="Link para compartilhar" value={shareFallback} readOnly onFocus={e=>e.target.select()}/>}</div>}<Sheet open={pendingOpen} onOpenChange={setPendingOpen}><SheetContent style={{zIndex:1700,width:'min(100vw,520px)',maxWidth:520,background:'white',overflowY:'auto'}}><SheetTitle>Pendências do catálogo</SheetTitle><SheetDescription>Catálogo completo, independente dos filtros. O mapa exige book, tabela e localização confirmada.</SheetDescription><a className="material-link" href="https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit" target="_blank" rel="noopener noreferrer">Abrir planilha de coordenadas ↗</a><p>{pending.filter(r=>completeIds.has(r.project.id)).length} lançamentos com book e tabela aguardam localização confirmada.</p>{pending.length===0?<p>Nenhuma pendência de materiais ou localização.</p>:pending.map(({project:p,issues})=><section key={p.id} style={{borderBottom:'1px solid #ddd',padding:'12px 0'}}><strong>{p.name}</strong><p>{p.neighborhood}</p><ul>{issues.map(issue=><li key={issue}>{issue}</li>)}</ul><Materials p={p}/><button className="quiet-button" onClick={()=>{setPendingOpen(false);pick(p)}}>Ver detalhes</button></section>)}</SheetContent></Sheet><Sheet open={draft!==null} onOpenChange={open=>{if(!open)setDraft(null)}}><SheetContent style={{zIndex:1800,width:'min(100vw,520px)',maxWidth:520,background:'white',overflowY:'auto'}}><SheetTitle>Ficha para WhatsApp</SheetTitle><SheetDescription>Revise e edite antes de copiar. Com filtros ativos, a ficha usa a oferta de menor preço que atende aos critérios confirmados.</SheetDescription><label htmlFor="whatsapp-draft">Texto da ficha</label><textarea id="whatsapp-draft" rows={18} style={{width:'100%',padding:12,border:'1px solid #ccc',borderRadius:8}} value={draft||''} onChange={e=>{setDraft(e.target.value);setDraftCopied(false)}}/><button className="material-link" onClick={async()=>{try{await navigator.clipboard.writeText(draft||'');setDraftCopied(true)}catch{setDraftCopied(false);document.getElementById('whatsapp-draft')?.focus();(document.getElementById('whatsapp-draft') as HTMLTextAreaElement)?.select()}}}>Copiar ficha</button><p role="status">{draftCopied?'Ficha copiada. Cole na conversa do WhatsApp.':'Você também pode selecionar o texto e copiar manualmente.'}</p></SheetContent></Sheet><ProjectComparison projects={comparisonProjects} open={comparisonOpen} onOpenChange={setComparisonOpen} onRemove={toggleComparison}/><Sheet open={detail} onOpenChange={setDetail}><SheetContent style={{zIndex:1500,width:'min(100vw,480px)',maxWidth:480,gap:0,background:'white'}}><div className="detail-top"><SheetTitle>{selected?.name}</SheetTitle><SheetDescription>{selected?.company} · {selected?.neighborhood}</SheetDescription></div>{selected&&<div className="detail-body">{selected.photo&&<img src={selected.photo} className="detail-photo" alt={`Página do book de ${selected.name}`}/>}<p className="detail-address"><MapPin size={18} style={{flexShrink:0}}/>{selected.address||'Endereço em conferência nos materiais'}</p>{formatCheckedDate(selected.checkedAt)&&<p className="detail-checked-at">Cadastro revisto em {formatCheckedDate(selected.checkedAt)}</p>}<button type="button" className="material-link" onClick={()=>prepareMessage(selected)}>Preparar ficha para WhatsApp</button><ProjectFeedback key={selected.id} project={selected}/>{mapIds.has(selected.id)&&<div className="location-actions"><button className="material-link" onClick={copyAddress}><Copy size={13}/>{addressCopied?'Endereço copiado':'Copiar endereço'}</button><a className="material-link" href={`https://www.google.com/maps?q=${selected.lat},${selected.lng}`} target="_blank" rel="noopener noreferrer"><Navigation size={13}/>Abrir local no Maps</a></div>}{selected.addressReviewStatus==='Precisa de apoio'&&<div style={{margin:'-6px 0 12px',padding:'8px 10px',borderRadius:8,background:'#fff4e5',color:'#8a4b08',fontSize:12,fontWeight:700}}>Endereço em revisão</div>}{selected.addressSource&&<a className="detail-text" href={selected.addressSource} target="_blank" rel="noopener noreferrer">Fonte do endereço <ExternalLink size={13} className="inline"/></a>}{completeIds.has(selected.id)&&!mapIds.has(selected.id)&&<p className="detail-text">{selected.addressReviewStatus==='Precisa de apoio'?'Endereço em revisão; o pin não aparece no mapa.':'Falta confirmar o ponto exato para exibir no mapa.'}</p>}<p className="detail-checked-at">Arquivos verificados em {formatCheckedDate(selected.materialsCheckedAt)||'data não registrada'}. Essa varredura não altera a data de leitura dos preços e do estoque.</p><DeliverySummary project={selected}/><DataFreshness project={selected} table={offersById[selected.id]}/><ProjectInventory key={[selected.id,typology,minPrice,maxPrice,parking].join(':')} project={selected} table={offersById[selected.id]} typology={typology} minPrice={minPrice} maxPrice={maxPrice} parking={parking} onPrepare={offer=>prepareMessage(selected,offer)}/><h3>Arquivos do lançamento</h3>{selected.book?<a className="detail-material" href={selected.book.url} target="_blank" rel="noopener noreferrer">Book <ExternalLink size={13} className="inline"/><small>{selected.book.name}</small></a>:<p className="detail-text">Book não localizado na pasta consultada.</p>}{selected.tables.map((t,i)=><a className="detail-material" key={i} href={t.url} target="_blank" rel="noopener noreferrer">Tabela · {t.date} <ExternalLink size={13} className="inline"/><small>{t.name}</small></a>)}{selected.notes.length>0&&<div className="detail-note">{selected.notes.filter(n=>n!=='Endereço em conferência nos materiais.'&&!n.startsWith('Validação pendente:')).map((n,i)=><p key={i} style={{marginTop:8}}>{n}</p>)}</div>}</div>}</SheetContent></Sheet></main>}
 
+export default function Home() {
+  const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
+  const [view, setView] = useState<ViewMode>("cards");
+  const [listStyle, setListStyle] = useState<"cards" | "lista">("cards");
+  const [urlReady, setUrlReady] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [selected, setSelected] = useState<Project | null>(null);
+  const [detail, setDetail] = useState(false);
+  const [focusId, setFocusId] = useState<string | null>(null);
+  const [hoverId, setHoverId] = useState<string | null>(null);
+  const [previewOpen, setPreviewOpen] = useState(false);
+  const [fanOpen, setFanOpen] = useState(false);
+  const [flyTo, setFlyTo] = useState<{ id: string; nonce: number } | null>(null);
+  const [reset, setReset] = useState(0);
+  const [addressCopied, setAddressCopied] = useState(false);
+  const [pendingOpen, setPendingOpen] = useState(false);
+  const [draft, setDraft] = useState<string | null>(null);
+  const [draftCopied, setDraftCopied] = useState(false);
+  const [favorites, setFavorites] = useState<string[]>([]);
+  const [favoritesReady, setFavoritesReady] = useState(false);
+  const [comparison, setComparison] = useState<string[]>([]);
+  const [comparisonOpen, setComparisonOpen] = useState(false);
+  const [sharedIds, setSharedIds] = useState<string[]>([]);
+  const [notice, setNotice] = useState("");
+  const [shareFallback, setShareFallback] = useState("");
+  const isMobile = useMediaQuery("(max-width: 760px)");
+  const canHover = useMediaQuery("(hover: hover) and (pointer: fine)");
+  const resultsRef = useRef<HTMLDivElement>(null);
+
+  const update = useCallback((patch: Partial<FilterState>) => setFilters((current) => ({ ...current, ...patch })), []);
+  const f = filters;
+
+  // Favoritos, seleção compartilhada (hash) e filtros vindos do endereço.
+  useEffect(() => {
+    try { setFavorites(validIds(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"), catalogIds)); }
+    catch { setNotice("Favoritos não puderam ser recuperados neste navegador."); }
+    finally { setFavoritesReady(true); }
+    let incoming = parseSelection(window.location.hash, catalogIds);
+    try {
+      if (!incoming.length) incoming = validIds(JSON.parse(sessionStorage.getItem(SHARE_KEY) || "[]"), catalogIds, 3);
+      sessionStorage.removeItem(SHARE_KEY);
+    } catch {}
+    if (incoming.length) { setSharedIds(incoming); setComparison(incoming); }
+    const fromUrl = filtersFromSearch(window.location.search, {
+      hoods: hoodOptions, companies: companyOptions, typologies: typologyOptions, features: featureOptions,
+      locations: locationOptions, deliveries: stageOptions, deliveryYears: deliveryOptions,
+    });
+    setFilters(fromUrl.filters);
+    setView(fromUrl.view);
+    if (fromUrl.view === "lista") setListStyle("lista");
+    setUrlReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!urlReady) return;
+    const next = `${window.location.pathname}${filtersToSearch(filters, view)}${window.location.hash}`;
+    if (next !== `${window.location.pathname}${window.location.search}${window.location.hash}`) window.history.replaceState(window.history.state, "", next);
+  }, [filters, view, urlReady]);
+
+  // Fechar um painel pelo "voltar" restaura a entrada anterior do histórico,
+  // que pode ter filtros antigos no endereço; reescreve com os filtros atuais.
+  const latestUrlState = useRef({ filters, view, urlReady });
+  useEffect(() => { latestUrlState.current = { filters, view, urlReady }; }, [filters, view, urlReady]);
+  useEffect(() => {
+    const resync = () => setTimeout(() => {
+      const { filters: current, view: currentView, urlReady: ready } = latestUrlState.current;
+      if (!ready) return;
+      window.history.replaceState(window.history.state, "", `${window.location.pathname}${filtersToSearch(current, currentView)}${window.location.hash}`);
+    }, 0);
+    window.addEventListener("popstate", resync);
+    return () => window.removeEventListener("popstate", resync);
+  }, []);
+
+  useEffect(() => {
+    if (!favoritesReady) return;
+    try { localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites)); }
+    catch { setNotice("O navegador bloqueou o armazenamento. Os favoritos valem apenas nesta sessão."); }
+  }, [favorites, favoritesReady]);
+
+  useBackToClose(detail, () => setDetail(false), "detail");
+  useBackToClose(filtersOpen, () => setFiltersOpen(false), "filters");
+  useBackToClose(pendingOpen, () => setPendingOpen(false), "pending");
+  useBackToClose(draft !== null, () => setDraft(null), "draft");
+  useBackToClose(comparisonOpen, () => setComparisonOpen(false), "comparison");
+
+  const toggleFavorite = (id: string) => setFavorites((current) => current.includes(id) ? current.filter((x) => x !== id) : [...current, id]);
+  const toggleComparison = (id: string) => { setShareFallback(""); setComparison((current) => current.includes(id) ? current.filter((x) => x !== id) : current.length < 3 ? [...current, id] : current); };
+  const comparisonProjects = useMemo(() => comparison.map((id) => catalog.find((p) => p.id === id)).filter((p): p is Project => Boolean(p)), [comparison]);
+  const share = async () => {
+    if (!comparison.length) return;
+    const url = new URL("/", window.location.origin);
+    url.hash = new URLSearchParams({ selecao: comparison.join(",") }).toString();
+    try { await navigator.clipboard.writeText(url.href); setShareFallback(""); setNotice("Link copiado. Quem receber precisa da senha do site."); }
+    catch { setShareFallback(url.href); setNotice("Copie o link abaixo para compartilhar."); }
+  };
+
+  const exactBudget = f.parking !== "all" || (f.typology !== "all" && (f.minPrice !== "" || f.maxPrice !== ""));
+  const unverifiedCount = exactBudget ? catalog.filter((p) => !matchingOffers(offersById[p.id], f.typology, "", "", f.parking).length).length : 0;
+  const unitFiltersActive = f.typology !== "all" || f.parking !== "all" || f.minPrice !== "" || f.maxPrice !== "";
+  const displayPrice = (p: Project) => {
+    if (!unitFiltersActive) return p.price;
+    const values = matchingOffers(offersById[p.id], f.typology, f.minPrice, f.maxPrice, f.parking).map((o) => o.price);
+    return values.length ? Math.min(...values) : exactBudget ? null : p.price;
+  };
+  const priceLabel = (p: Project) => exactBudget
+    ? `Preço total · ${f.typology === "all" ? "unidade selecionada" : f.typology} a partir de`
+    : (p.priceLabel?.toLowerCase().startsWith("aluguel") ? p.priceLabel : "Preço total a partir de");
+  const inventorySummary = (p: Project) => {
+    const table = offersById[p.id];
+    if (table?.offers.length) {
+      const rows = unitFiltersActive ? matchingOffers(table, f.typology, f.minPrice, f.maxPrice, f.parking) : table.offers;
+      return `${rows.length} ofertas ${unitFiltersActive ? "nos filtros" : "cadastradas"}${rows.length ? ` · ${rows.slice(0, 4).map((o) => o.unit).join(" · ")}${rows.length > 4 ? " · …" : ""}` : ""}`;
+    }
+    return unitFiltersActive ? "Consulte a ficha para verificar as unidades" : p.availableUnits?.length ? `${p.availableUnits.slice(0, 5).join(" · ")}${p.availableUnits.length > 5 ? ` · +${p.availableUnits.length - 5}` : ""}` : "Consulte a tabela vinculada";
+  };
+  const parkingSummary = (p: Project) => {
+    const offers = exactBudget ? matchingOffers(offersById[p.id], f.typology, f.minPrice, f.maxPrice, f.parking) : offersById[p.id]?.offers || [];
+    const known = offers.filter((o) => o.parkingSpaces !== undefined);
+    if (!known.length) return "Vagas a confirmar";
+    const labels = [...new Set(known.map((o) => o.parkingCountIsMinimum ? "Com vaga (quantidade a confirmar)" : o.parkingSpaces === 0 ? "Sem vaga" : `${o.parkingSpaces} ${o.parkingSpaces === 1 ? "vaga" : "vagas"}`))];
+    return labels.join(" · ") + (known.length < offers.length ? " · Outras vagas a confirmar" : "");
+  };
+  const prepareMessage = (p: Project, chosenOffer?: UnitOffer) => {
+    const constrained = Boolean(chosenOffer) || f.typology !== "all" || f.parking !== "all" || f.minPrice !== "" || f.maxPrice !== "";
+    const offer = chosenOffer ?? (constrained ? [...matchingOffers(offersById[p.id], f.typology, f.minPrice, f.maxPrice, f.parking)].sort((a, b) => a.price - b.price)[0] : undefined);
+    const price = offer?.price ?? (!constrained ? p.price : null);
+    const garage = offer ? offer.parkingSpaces === undefined ? "Vagas a confirmar" : offer.parkingCountIsMinimum ? "Com vaga — quantidade a confirmar" : `${offer.parkingSpaces} ${offer.parkingSpaces === 1 ? "vaga" : "vagas"}` : constrained ? "Vagas a confirmar" : parkingSummary(p);
+    setDraft([
+      p.name,
+      `${p.neighborhood} · Niterói`,
+      offer ? `${offer.offerKind === "group" ? "Oferta" : "Unidade"}: ${offer.unit}` : null,
+      offer ? [offer.typology, offer.unitKind].filter((v, i, a) => v && a.indexOf(v) === i).join(" · ") : !constrained ? p.typologies?.join(" · ") : "Tipologia e unidade a confirmar",
+      price !== null ? `${p.priceLabel?.toLowerCase().startsWith("aluguel") ? "Aluguel" : offer ? "Preço total da oferta" : "Preço total a partir de"}: ${formatPrice(price)}` : "Preço da unidade a confirmar",
+      offer?.priceNote,
+      offer?.area !== undefined ? `Área: ${offer.area.toLocaleString("pt-BR")} m²` : null,
+      garage,
+      p.delivery ? `Previsão de entrega: ${p.delivery}` : "Entrega a confirmar",
+      "Entrada e condições de pagamento: a confirmar",
+      `Tabela: ${offer ? offersById[p.id].tableDate : p.tables[0]?.date || "não disponível"}`,
+      p.book?.url ? `Book: ${p.book.url}` : null,
+      (offer ? offersById[p.id].tableUrl : p.tables[0]?.url) ? `Tabela: ${offer ? offersById[p.id].tableUrl : p.tables[0].url}` : null,
+      "Valores e disponibilidade sujeitos a confirmação.",
+    ].filter(Boolean).join("\n"));
+    setDraftCopied(false);
+  };
+
+  const filtered = useMemo(() => catalog.filter((p) => matchesFilters(p, f, favorites, sharedIds)), [f, favorites, sharedIds]);
+  const sorted = useMemo(() => {
+    const copy = [...filtered];
+    if (f.sortBy === "price-asc") copy.sort((a, b) => (displayPrice(a) ?? Infinity) - (displayPrice(b) ?? Infinity));
+    else if (f.sortBy === "price-desc") copy.sort((a, b) => (displayPrice(b) ?? -Infinity) - (displayPrice(a) ?? -Infinity));
+    else if (f.sortBy === "name") copy.sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
+    return copy;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filtered, f.sortBy, f.typology, f.minPrice, f.maxPrice, f.parking]);
+  const mapFiltered = useMemo(() => filtered.filter((p) => mapIds.has(p.id)), [filtered]);
+  const mapPoints = useMemo<MapPoint[]>(() => mapFiltered.map((p) => ({ id: p.id, name: p.name, lat: p.lat!, lng: p.lng! })), [mapFiltered]);
+  const located = mapFiltered.length;
+  const fitKey = useMemo(() => JSON.stringify({ ...f, area: null, sortBy: null, sharedIds, favorites: f.onlyFavorites ? favorites : null, reset }), [f, sharedIds, favorites, reset]);
+  const countFor = useCallback((patch: Partial<FilterState>) => catalog.filter((p) => matchesFilters(p, { ...f, ...patch }, favorites, sharedIds)).length, [f, favorites, sharedIds]);
+  const panelCount = countPanelFilters(f);
+
+  const pick = (p: Project) => { setSelected(p); setAddressCopied(false); setDetail(true); if (mapIds.has(p.id)) setFocusId(p.id); };
+  const onPinSelect = useCallback((id: string) => {
+    setFocusId(id);
+    setPreviewOpen(true);
+    if (!isMobile) requestAnimationFrame(() => document.getElementById(`item-${id}`)?.scrollIntoView({ block: "nearest", behavior: "smooth" }));
+  }, [isMobile]);
+  const onBackgroundClick = useCallback(() => setPreviewOpen(false), []);
+  const showOnMap = (p: Project) => {
+    setFocusId(p.id);
+    setPreviewOpen(true);
+    if (isMobile) setView("mapa");
+    // Espera o mapa ficar visível (no celular) antes de centralizar.
+    setTimeout(() => setFlyTo({ id: p.id, nonce: Date.now() }), isMobile ? 120 : 0);
+  };
+  const chooseView = (next: ViewMode) => { setView(next); if (next !== "mapa") setListStyle(next); };
+  const copyAddress = async () => {
+    if (!selected?.address) return;
+    try { await navigator.clipboard.writeText(selected.address); setAddressCopied(true); setTimeout(() => setAddressCopied(false), 1800); }
+    catch { setAddressCopied(false); }
+  };
+  const clear = () => {
+    setFilters((current) => ({ ...DEFAULT_FILTERS, sortBy: current.sortBy }));
+    setSharedIds([]);
+    if (window.location.hash.startsWith("#selecao=")) window.history.replaceState(window.history.state, "", window.location.pathname + window.location.search);
+  };
+  const hover = (id: string | null) => { if (canHover) setHoverId(id); };
+
+  const activeFilters: { key: string; label: string; remove: () => void }[] = [];
+  if (f.deliveryYear !== "all") activeFilters.push({ key: "deliveryYear", label: `Entrega: ${f.deliveryYear}`, remove: () => update({ deliveryYear: "all" }) });
+  if (f.delivery !== "all") activeFilters.push({ key: "delivery", label: `Etapa: ${f.delivery}`, remove: () => update({ delivery: "all" }) });
+  if (f.area) activeFilters.push({ key: "area", label: "Área selecionada no mapa", remove: () => update({ area: null }) });
+  if (sharedIds.length) activeFilters.push({ key: "shared", label: "Seleção compartilhada", remove: () => { setSharedIds([]); window.history.replaceState(window.history.state, "", window.location.pathname + window.location.search); } });
+  if (f.query.trim()) activeFilters.push({ key: "query", label: `Busca: ${f.query.trim()}`, remove: () => update({ query: "" }) });
+  if (f.hood !== "all") activeFilters.push({ key: "hood", label: `Bairro: ${f.hood}`, remove: () => update({ hood: "all" }) });
+  if (f.company !== "all") activeFilters.push({ key: "company", label: `Construtora: ${f.company}`, remove: () => update({ company: "all" }) });
+  if (f.parking !== "all") activeFilters.push({ key: "parking", label: `Vagas: ${PARKING_TEXT[f.parking]}`, remove: () => update({ parking: "all" }) });
+  if (f.typology !== "all") activeFilters.push({ key: "typology", label: `Tipologia: ${f.typology}`, remove: () => update({ typology: "all" }) });
+  if (f.minPrice !== "") activeFilters.push({ key: "minPrice", label: `Mínimo: ${formatPrice(Number(f.minPrice))}`, remove: () => update({ minPrice: "" }) });
+  if (f.maxPrice !== "") activeFilters.push({ key: "maxPrice", label: `Máximo: ${formatPrice(Number(f.maxPrice))}`, remove: () => update({ maxPrice: "" }) });
+  if (f.location !== "all") activeFilters.push({ key: "location", label: `Localização: ${f.location}`, remove: () => update({ location: "all" }) });
+  f.features.forEach((feature) => activeFilters.push({ key: `feature-${feature}`, label: feature, remove: () => update({ features: f.features.filter((item) => item !== feature) }) }));
+
+  const preview = previewOpen && focusId ? mapFiltered.find((p) => p.id === focusId) ?? null : null;
+  const sidebarStyle = listStyle;
+
+  const priceLine = (p: Project, compact = false) => {
+    const value = displayPrice(p);
+    if (typeof value !== "number") return compact ? <span className="prow-price is-muted">Ver tabela</span> : null;
+    return compact
+      ? <span className="prow-price">{formatPrice(value)}</span>
+      : <div className="pcard-price"><span>{priceLabel(p)}</span><strong>{formatPrice(value)}</strong></div>;
+  };
+  const mapBadge = (p: Project) => mapIds.has(p.id)
+    ? <span className="map-badge is-on"><MapPin size={12} aria-hidden="true" />No mapa</span>
+    : <span className="map-badge is-off" title="Motivo de não aparecer no mapa">Fora do mapa · {offMapReason(p)}</span>;
+
+  return <main className="app-v2" data-view={view}>
+    <header className="topbar">
+      <div className="topbar-brand">
+        <img className="topbar-logo" src="/spin-logo.svg" alt="Spin Inovações Imobiliárias" width={86} height={40} />
+        <div>
+          <h1>Mapa de Empreendimentos <span>Niterói</span></h1>
+          <small>Fontes conferidas em {formatCheckedDate(audit.checkedAt)}</small>
+        </div>
+      </div>
+      <form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form>
+    </header>
+
+    <div className="layout">
+      <aside className={`panel${view === "mapa" ? " is-mobile-hidden" : ""}`} aria-label="Lista de empreendimentos">
+        <div className="panel-controls">
+          <div className="search-row">
+            <div className="search-box">
+              <Search size={18} aria-hidden="true" />
+              <Input aria-label="Buscar empreendimento" placeholder="Buscar nome, bairro ou endereço" value={f.query} onChange={(e) => update({ query: e.target.value })} />
+              {f.query && <button type="button" className="search-clear" aria-label="Limpar busca" onClick={() => update({ query: "" })}><X size={16} /></button>}
+            </div>
+            <button type="button" className={`filter-button${panelCount ? " has-filters" : ""}`} aria-haspopup="dialog" onClick={() => setFiltersOpen(true)}>
+              <SlidersHorizontal size={17} aria-hidden="true" />Filtros{panelCount > 0 && <span className="filter-count" aria-label={`${panelCount} ativos`}>{panelCount}</span>}
+            </button>
+          </div>
+          <div className="chip-row" role="group" aria-label="Atalhos e filtros ativos">
+            <button type="button" className={`chip chip-toggle${f.onlyFavorites ? " is-active" : ""}`} aria-pressed={f.onlyFavorites} onClick={() => update({ onlyFavorites: !f.onlyFavorites })}>
+              <Heart size={14} fill={f.onlyFavorites ? "currentColor" : "none"} aria-hidden="true" />Favoritos ({favorites.length})
+            </button>
+            <button type="button" className="chip" onClick={() => setPendingOpen(true)}>Pendências ({pending.length})</button>
+            {activeFilters.map((filter) => <button type="button" className="chip chip-active" key={filter.key} onClick={filter.remove} aria-label={`Remover filtro ${filter.label}`}>{filter.label}<X size={12} aria-hidden="true" /></button>)}
+            {(activeFilters.length > 0 || f.onlyFavorites) && <button type="button" className="chip chip-clear" onClick={clear}>Limpar tudo</button>}
+          </div>
+          {exactBudget && <p className="unit-filter-notice">Busca por unidade comprovada. {unverifiedCount} empreendimentos sem unidade confirmada para os critérios selecionados ficam fora. O levantamento por unidade ainda é parcial; consulte a tabela para outras opções.</p>}
+          {notice && <p role="status" className="selection-notice">{notice}</p>}
+          <div className="count-row">
+            <p className="count-text" aria-live="polite"><strong>{filtered.length} lançamentos</strong><span> · {located} no mapa</span></p>
+            <div className="count-tools">
+              <div className="view-toggle" role="group" aria-label="Formato da lista">
+                <button type="button" aria-pressed={sidebarStyle === "cards"} onClick={() => chooseView("cards")} title="Cards" aria-label="Cards"><LayoutGrid size={15} aria-hidden="true" /><span>Cards</span></button>
+                <button type="button" aria-pressed={sidebarStyle === "lista"} onClick={() => chooseView("lista")} title="Lista compacta" aria-label="Lista compacta"><List size={15} aria-hidden="true" /><span>Lista</span></button>
+              </div>
+              <Select value={f.sortBy} onValueChange={(value) => update({ sortBy: value as SortMode })}>
+                <SelectTrigger aria-label="Ordenar lançamentos" className="sort-trigger"><SelectValue /></SelectTrigger>
+                <SelectContent style={{ zIndex: 1200 }}>
+                  {(Object.keys(SORT_LABELS) as SortMode[]).map((key) => <SelectItem key={key} value={key}>{SORT_LABELS[key]}</SelectItem>)}
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+        </div>
+
+        <div className="results-v2" ref={resultsRef}>
+          {sorted.length === 0 ? <div className="empty-results">Nenhum empreendimento com esses filtros.<br /><button className="quiet-button" onClick={clear}>Limpar filtros</button></div>
+            : sidebarStyle === "lista" ? <ul className="prow-list">
+              {sorted.map((p) => <li key={p.id} id={`item-${p.id}`} className={`prow${focusId === p.id ? " is-selected" : ""}`} onMouseEnter={() => hover(p.id)} onMouseLeave={() => hover(null)}>
+                <button type="button" className="prow-main" onClick={() => pick(p)} aria-label={`Ver detalhes de ${p.name}`}>
+                  <span className={`prow-dot${mapIds.has(p.id) ? " is-on" : ""}`} title={mapIds.has(p.id) ? "No mapa" : `Fora do mapa: ${offMapReason(p)}`} aria-hidden="true" />
+                  <span className="prow-text"><strong>{p.name}</strong><small>{p.neighborhood} · {p.company}</small></span>
+                  {priceLine(p, true)}
+                </button>
+                {mapIds.has(p.id)
+                  ? <button type="button" className="icon-button" onClick={() => showOnMap(p)} aria-label={`Ver ${p.name} no mapa`} title="Ver no mapa"><MapPin size={17} /></button>
+                  : <span className="icon-button is-placeholder" aria-hidden="true" />}
+                <button type="button" className={`icon-button${favorites.includes(p.id) ? " is-active" : ""}`} onClick={() => toggleFavorite(p.id)} aria-pressed={favorites.includes(p.id)} aria-label={`${favorites.includes(p.id) ? "Remover" : "Salvar"} ${p.name} nos favoritos`}><Heart size={17} fill={favorites.includes(p.id) ? "currentColor" : "none"} /></button>
+              </li>)}
+            </ul>
+            : sorted.map((p) => <article id={`item-${p.id}`} className={`pcard${focusId === p.id ? " is-selected" : ""}${hoverId === p.id ? " is-hover" : ""}`} key={p.id} onMouseEnter={() => hover(p.id)} onMouseLeave={() => hover(null)}>
+              <button className="pcard-main" onClick={() => pick(p)} aria-label={`Ver detalhes de ${p.name}`}>
+                {p.photo ? <img className="pcard-thumb" src={p.photo} alt="" loading="lazy" decoding="async" width={88} height={96} /> : <span className="pcard-thumb no-photo"><Building2 size={26} /></span>}
+                <span className="pcard-copy">
+                  <span className="pcard-eyebrow">{p.company}</span>
+                  <span className="pcard-name" role="heading" aria-level={2}>{p.name}</span>
+                  <span className="pcard-loc"><MapPin size={13} aria-hidden="true" />{p.neighborhood}</span>
+                  {mapBadge(p)}
+                </span>
+              </button>
+              <div className="pcard-body">
+                {priceLine(p)}
+                {Boolean(p.typologies?.length) && <div className="card-typologies" aria-label="Tipologias">{p.typologies?.map((value) => <span key={value}>{value}</span>)}</div>}
+                <div className="pcard-facts">
+                  <DeliverySummary project={p} />
+                  <div className="card-garage">{parkingSummary(p)}</div>
+                  <div className="card-availability"><strong>Unidades na tabela:</strong> {inventorySummary(p)}</div>
+                  {!completeIds.has(p.id) && <div className="card-facts">{!p.book?.url ? "Book não disponível" : ""}{!p.book?.url && !p.tables.length ? " · " : ""}{!p.tables.length ? "Tabela não disponível" : ""}</div>}
+                </div>
+                {exactBudget && <div className="matching-unit-note">Opções na faixa: {matchingOffers(offersById[p.id], f.typology, f.minPrice, f.maxPrice, f.parking).slice(0, 5).map((o) => `${o.unit}${o.priceNote ? ` [${o.priceNote}]` : ""}${f.parking !== "all" ? ` (${o.parkingCountIsMinimum ? "com vaga" : `${o.parkingSpaces} ${o.parkingSpaces === 1 ? "vaga" : "vagas"}`})` : ""}`).join(" · ")}</div>}
+                {f.parking !== "all" && [...new Set(matchingOffers(offersById[p.id], f.typology, f.minPrice, f.maxPrice, f.parking).map((o) => o.parkingNote).filter(Boolean))].slice(0, 2).map((note) => <div className="matching-unit-note" key={note}>{note}</div>)}
+                <div className="matching-unit-note">Entrada e condições: a confirmar na tabela.</div>
+              </div>
+              <div className="pcard-actions">
+                <Materials p={p} />
+                {mapIds.has(p.id) && <button type="button" className="material-link" onClick={() => showOnMap(p)}><MapIcon size={14} aria-hidden="true" />Ver no mapa</button>}
+              </div>
+              <div className="pcard-actions is-secondary">
+                <button type="button" className={`selection-button${favorites.includes(p.id) ? " is-active" : ""}`} onClick={() => toggleFavorite(p.id)} aria-pressed={favorites.includes(p.id)} aria-label={`${favorites.includes(p.id) ? "Remover" : "Salvar"} ${p.name} nos favoritos`}><Heart size={15} fill={favorites.includes(p.id) ? "currentColor" : "none"} />{favorites.includes(p.id) ? "Salvo" : "Favoritar"}</button>
+                <button type="button" className={`selection-button${comparison.includes(p.id) ? " is-active" : ""}`} disabled={comparison.length >= 3 && !comparison.includes(p.id)} onClick={() => toggleComparison(p.id)} aria-pressed={comparison.includes(p.id)}><GitCompareArrows size={15} />{comparison.includes(p.id) ? "Selecionado" : "Comparar"}</button>
+                <button type="button" className="selection-button" onClick={() => prepareMessage(p)}><MessageCircle size={15} />Ficha WhatsApp</button>
+                <button type="button" className="selection-button is-strong" onClick={() => pick(p)}>Unidades e detalhes</button>
+              </div>
+              <DataFreshness project={p} table={offersById[p.id]} />
+            </article>)}
+          <footer className="catalog-foot">Última varredura completa das fontes: {formatCheckedDate(audit.checkedAt)}. <br />Valores e disponibilidade podem mudar. Confirme na tabela vinculada.</footer>
+        </div>
+      </aside>
+
+      <section className={`map-area${view !== "mapa" ? " is-mobile-hidden" : ""}`} aria-label="Mapa">
+        <ProjectMap projects={mapPoints} focusId={focusId} hoverId={hoverId} flyTo={flyTo} fitKey={fitKey} onPinSelect={onPinSelect} onBackgroundClick={onBackgroundClick} onSearchArea={(area) => update({ area })} onFanChange={setFanOpen} />
+        <div className="map-topleft">
+          <button type="button" className="map-pill" onClick={() => { update({ area: null }); setReset((v) => v + 1); setPreviewOpen(false); }}>
+            <LocateFixed size={16} aria-hidden="true" />Ver todos <span className="map-pill-count">{located}</span>
+          </button>
+          {isMobile && <button type="button" className={`map-pill${panelCount ? " has-filters" : ""}`} onClick={() => setFiltersOpen(true)}>
+            <SlidersHorizontal size={16} aria-hidden="true" />Filtros{panelCount > 0 && <span className="filter-count">{panelCount}</span>}
+          </button>}
+        </div>
+        {fanOpen && !preview && <div className="map-legend-v2 is-fan" role="status"><span className="legend-real" aria-hidden="true" />Pins abertos em leque só para visualização. O ponto branco marca o local cadastrado.</div>}
+        {!preview && !fanOpen && <div className="map-legend-v2"><span className="legend-dot" aria-hidden="true" />Só aparecem lançamentos com book, tabela e ponto exato confirmado. {catalog.length - mapIds.size} estão apenas na lista.</div>}
+        {preview && <div className="map-preview" role="dialog" aria-label={`Resumo de ${preview.name}`}>
+          <button type="button" className="map-preview-close" onClick={() => setPreviewOpen(false)} aria-label="Fechar resumo"><X size={18} /></button>
+          <button type="button" className="map-preview-main" onClick={() => pick(preview)} aria-label={`Ver detalhes de ${preview.name}`}>
+            {preview.photo ? <img src={preview.photo} alt="" className="map-preview-thumb" width={84} height={84} /> : <span className="map-preview-thumb no-photo"><Building2 size={24} /></span>}
+            <span className="map-preview-copy">
+              <span className="pcard-eyebrow">{preview.company}</span>
+              <strong>{preview.name}</strong>
+              <span className="pcard-loc"><MapPin size={13} aria-hidden="true" />{preview.neighborhood}</span>
+              {typeof displayPrice(preview) === "number" && <span className="map-preview-price">{priceLabel(preview)} <b>{formatPrice(displayPrice(preview)!)}</b></span>}
+            </span>
+          </button>
+          {fanOpen && <p className="map-preview-fan" role="status"><span className="legend-real" aria-hidden="true" />Leque só visual: o ponto branco marca o local cadastrado.</p>}
+          <div className="map-preview-actions">
+            <button type="button" className="material-link is-primary" onClick={() => pick(preview)}>Ver detalhes</button>
+            {preview.book && <a className="material-link" href={preview.book.url} target="_blank" rel="noopener noreferrer" aria-label={`Abrir book de ${preview.name}`}><BookOpen size={14} />Book</a>}
+            {preview.tables[0] && <a className="material-link" href={preview.tables[0].url} target="_blank" rel="noopener noreferrer" aria-label={`Abrir tabela de ${preview.name}`}><FileSpreadsheet size={14} />Tabela</a>}
+            <button type="button" className={`icon-button${favorites.includes(preview.id) ? " is-active" : ""}`} onClick={() => toggleFavorite(preview.id)} aria-pressed={favorites.includes(preview.id)} aria-label={`${favorites.includes(preview.id) ? "Remover" : "Salvar"} ${preview.name} nos favoritos`}><Heart size={17} fill={favorites.includes(preview.id) ? "currentColor" : "none"} /></button>
+          </div>
+        </div>}
+      </section>
+    </div>
+
+    <nav className="bottom-nav" aria-label="Visualização">
+      <button type="button" aria-pressed={view === "cards"} onClick={() => chooseView("cards")}><LayoutGrid size={19} aria-hidden="true" />Cards</button>
+      <button type="button" aria-pressed={view === "lista"} onClick={() => chooseView("lista")}><List size={19} aria-hidden="true" />Lista</button>
+      <button type="button" aria-pressed={view === "mapa"} onClick={() => chooseView("mapa")}><MapIcon size={19} aria-hidden="true" />Mapa <span className="nav-count">{located}</span></button>
+    </nav>
+
+    {comparison.length > 0 && <div className="comparison-bar" aria-label="Seleção para comparação">
+      <div className="comparison-chips">{comparisonProjects.map((p) => <button type="button" key={p.id} onClick={() => toggleComparison(p.id)} aria-label={`Remover ${p.name} da seleção`}>{p.name}<X size={12} /></button>)}</div>
+      <div className="comparison-bar-actions">
+        <span>{comparison.length}/3</span>
+        <button type="button" className="material-link" onClick={() => setComparisonOpen(true)}><GitCompareArrows size={15} />Comparar</button>
+        <button type="button" className="material-link" onClick={share}><Share2 size={15} />Compartilhar</button>
+        <button type="button" className="quiet-button" onClick={() => { setComparison([]); setShareFallback(""); }}>Limpar seleção</button>
+      </div>
+      {shareFallback && <input className="share-fallback" aria-label="Link para compartilhar" value={shareFallback} readOnly onFocus={(e) => e.target.select()} />}
+    </div>}
+
+    <Sheet open={filtersOpen} onOpenChange={setFiltersOpen}>
+      <SheetContent side={isMobile ? "bottom" : "right"} className={`filter-sheet ${isMobile ? "is-bottom" : "is-right"}`} style={{ zIndex: 1650 }}>
+        <div className="filter-sheet-head">
+          <SheetTitle>Filtros</SheetTitle>
+          <SheetDescription>As contagens consideram os demais filtros ativos.</SheetDescription>
+        </div>
+        <div className="filter-sheet-body">
+          <FilterPanel filters={f} update={update} count={countFor} parkingCoverage={parkingCoverage}
+            options={{ hoods: hoodOptions, companies: companyOptions, typologies: typologyOptions, features: featureOptions, deliveryYears: deliveryOptions, stages: stageOptions, locations: locationOptions }} />
+        </div>
+        <div className="filter-sheet-foot">
+          <button type="button" className="quiet-button" onClick={clear}>Limpar filtros</button>
+          <button type="button" className="primary-button" onClick={() => setFiltersOpen(false)}>Ver {filtered.length} lançamentos</button>
+        </div>
+      </SheetContent>
+    </Sheet>
+
+    <Sheet open={pendingOpen} onOpenChange={setPendingOpen}>
+      <SheetContent className="side-sheet" style={{ zIndex: 1700, width: "min(100vw,520px)", maxWidth: 520 }}>
+        <SheetTitle>Pendências do catálogo</SheetTitle>
+        <SheetDescription>Catálogo completo, independente dos filtros. O mapa exige book, tabela e localização confirmada.</SheetDescription>
+        <a className="material-link" href="https://docs.google.com/spreadsheets/d/11AGVEMeCyXG8N4yOFaEoacUnb3FHu1r_xJ3VxGGuAk0/edit" target="_blank" rel="noopener noreferrer">Abrir planilha de coordenadas ↗</a>
+        <p>{pending.filter((r) => completeIds.has(r.project.id)).length} lançamentos com book e tabela aguardam localização confirmada.</p>
+        {pending.length === 0 ? <p>Nenhuma pendência de materiais ou localização.</p> : pending.map(({ project: p, issues }) => <section key={p.id} className="pending-row">
+          <strong>{p.name}</strong>
+          <p>{p.neighborhood}</p>
+          <ul>{issues.map((issue) => <li key={issue}>{issue}</li>)}</ul>
+          <Materials p={p} />
+          <button className="quiet-button" onClick={() => { setPendingOpen(false); pick(p); }}>Ver detalhes</button>
+        </section>)}
+      </SheetContent>
+    </Sheet>
+
+    <Sheet open={draft !== null} onOpenChange={(open) => { if (!open) setDraft(null); }}>
+      <SheetContent className="side-sheet" style={{ zIndex: 1800, width: "min(100vw,520px)", maxWidth: 520 }}>
+        <SheetTitle>Ficha para WhatsApp</SheetTitle>
+        <SheetDescription>Revise e edite antes de copiar. Com filtros ativos, a ficha usa a oferta de menor preço que atende aos critérios confirmados.</SheetDescription>
+        <label htmlFor="whatsapp-draft">Texto da ficha</label>
+        <textarea id="whatsapp-draft" className="draft-text" rows={18} value={draft || ""} onChange={(e) => { setDraft(e.target.value); setDraftCopied(false); }} />
+        <button className="material-link" onClick={async () => { try { await navigator.clipboard.writeText(draft || ""); setDraftCopied(true); } catch { setDraftCopied(false); document.getElementById("whatsapp-draft")?.focus(); (document.getElementById("whatsapp-draft") as HTMLTextAreaElement)?.select(); } }}>Copiar ficha</button>
+        <p role="status">{draftCopied ? "Ficha copiada. Cole na conversa do WhatsApp." : "Você também pode selecionar o texto e copiar manualmente."}</p>
+      </SheetContent>
+    </Sheet>
+
+    <ProjectComparison projects={comparisonProjects} open={comparisonOpen} onOpenChange={setComparisonOpen} onRemove={toggleComparison} />
+
+    <Sheet open={detail} onOpenChange={setDetail}>
+      <SheetContent className="side-sheet detail-sheet" style={{ zIndex: 1500, width: "min(100vw,480px)", maxWidth: 480, gap: 0 }}>
+        <div className="detail-top">
+          <SheetTitle>{selected?.name}</SheetTitle>
+          <SheetDescription>{selected?.company} · {selected?.neighborhood}</SheetDescription>
+        </div>
+        {selected && <div className="detail-body">
+          {selected.photo && <img src={selected.photo} className="detail-photo" alt={`Página do book de ${selected.name}`} />}
+          <p className="detail-address"><MapPin size={18} style={{ flexShrink: 0 }} />{selected.address || "Endereço em conferência nos materiais"}</p>
+          {formatCheckedDate(selected.checkedAt) && <p className="detail-checked-at">Cadastro revisto em {formatCheckedDate(selected.checkedAt)}</p>}
+          <button type="button" className="material-link" onClick={() => prepareMessage(selected)}>Preparar ficha para WhatsApp</button>
+          <ProjectFeedback key={selected.id} project={selected} />
+          {mapIds.has(selected.id) && <div className="location-actions">
+            <button className="material-link" onClick={() => { setDetail(false); showOnMap(selected); }}><MapIcon size={13} />Ver no mapa</button>
+            <button className="material-link" onClick={copyAddress}><Copy size={13} />{addressCopied ? "Endereço copiado" : "Copiar endereço"}</button>
+            <a className="material-link" href={`https://www.google.com/maps?q=${selected.lat},${selected.lng}`} target="_blank" rel="noopener noreferrer"><Navigation size={13} />Abrir local no Maps</a>
+          </div>}
+          {selected.addressReviewStatus === "Precisa de apoio" && <div className="address-review-flag">Endereço em revisão</div>}
+          {selected.addressSource && <a className="detail-text" href={selected.addressSource} target="_blank" rel="noopener noreferrer">Fonte do endereço <ExternalLink size={13} className="inline" /></a>}
+          {completeIds.has(selected.id) && !mapIds.has(selected.id) && <p className="detail-text">{selected.addressReviewStatus === "Precisa de apoio" ? "Endereço em revisão; o pin não aparece no mapa." : "Falta confirmar o ponto exato para exibir no mapa."}</p>}
+          <p className="detail-checked-at">Arquivos verificados em {formatCheckedDate(selected.materialsCheckedAt) || "data não registrada"}. Essa varredura não altera a data de leitura dos preços e do estoque.</p>
+          <DeliverySummary project={selected} />
+          <DataFreshness project={selected} table={offersById[selected.id]} />
+          <ProjectInventory key={[selected.id, f.typology, f.minPrice, f.maxPrice, f.parking].join(":")} project={selected} table={offersById[selected.id]} typology={f.typology} minPrice={f.minPrice} maxPrice={f.maxPrice} parking={f.parking} onPrepare={(offer) => prepareMessage(selected, offer)} />
+          <h3>Arquivos do lançamento</h3>
+          {selected.book ? <a className="detail-material" href={selected.book.url} target="_blank" rel="noopener noreferrer">Book <ExternalLink size={13} className="inline" /><small>{selected.book.name}</small></a> : <p className="detail-text">Book não localizado na pasta consultada.</p>}
+          {selected.tables.map((t, i) => <a className="detail-material" key={i} href={t.url} target="_blank" rel="noopener noreferrer">Tabela · {t.date} <ExternalLink size={13} className="inline" /><small>{t.name}</small></a>)}
+          {selected.notes.length > 0 && <div className="detail-note">{selected.notes.filter((n) => n !== "Endereço em conferência nos materiais." && !n.startsWith("Validação pendente:")).map((n, i) => <p key={i} style={{ marginTop: 8 }}>{n}</p>)}</div>}
+        </div>}
+      </SheetContent>
+    </Sheet>
+  </main>;
+}
