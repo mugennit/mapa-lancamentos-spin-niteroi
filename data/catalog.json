@@ -5069,22 +5069,24 @@
     ],
     "delivery": "Setembro 2029",
     "status": "Lançamento",
-    "lat": null,
-    "lng": null,
-    "precision": "pending",
+    "lat": -22.9279849,
+    "lng": -43.0940902,
+    "precision": "exact",
     "photo": null,
     "checkedAt": "2026-11-20",
     "materialsCheckedAt": "2026-11-23",
-    "locationStatus": "Ponto exato pendente de confirmação",
-    "addressReviewStatus": "Pendente",
+    "locationStatus": "Ponto exato confirmado por Frederico no Google Maps",
+    "addressReviewStatus": "Conferido",
     "addressSource": "https://drive.google.com/file/d/1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w/view?usp=drivesdk",
-    "addressReview": "Book, páginas 7 e 34: Rua A, nº 47, lote 3A, quadra 01. A tabela indica lotes 03 a 07. Falta validar o ponto exato com Frederico.",
+    "addressReview": "Ponto exato fornecido por Frederico em 23/11/2026. Coordenadas do marcador Lothus Residence no link do Maps, não da câmera Street View.",
     "notes": [
       "Book oficial e tabela de novembro de 2026 confirmados nas pastas RJ Engenharia do Linktree.",
       "A tabela não informa data comercial; novembro de 2026 é a versão no nome do arquivo.",
       "Previsão de entrega informada na tabela: 30/09/2029.",
       "62 unidades ofertadas na tabela, identificadas por bloco e número; o book informa 78 residências no total.",
-      "Sem linha correspondente na planilha atual e sem ponto exato validado. Permanece na lista geral e fora do mapa até confirmação."
-    ]
+      "Ponto exato confirmado por Frederico em 23/11/2026; habilitado no mapa com book e tabela confirmados."
+    ],
+    "locationSource": "https://maps.app.goo.gl/T2buv5Qv49Udh1S38",
+    "locationCheckedAt": "2026-11-23"
   }
 ]
