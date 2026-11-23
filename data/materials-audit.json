@@ -13,7 +13,7 @@
     "projectsWithTable": 91,
     "driveProjectFolders": 84,
     "driveFilesInProjectFolders": 169,
-    "mapEligibleProjects": 83
+    "mapEligibleProjects": 84
   },
   "validation": {
     "tableComparison": "All 143 source table PDFs unchanged by CRC/SHA-256.",
@@ -55,14 +55,7 @@
     "driveFoldersWithSupplementaryBooks": 1,
     "historicalBookNormalizationReport": "data/books-normalization-verification-2026-10-16.json",
     "catalogProjectsAdded": [],
-    "completeProjectsPendingCoordinates": [
-      {
-        "id": "lothus-residence",
-        "name": "Lothus Residence",
-        "address": "Rua A, 47 — Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
-        "row": null
-      }
-    ]
+    "completeProjectsPendingCoordinates": []
   },
   "corrections": [
     {
@@ -1015,11 +1008,19 @@
   "lastFullSourceAuditAt": "2026-11-23",
   "lastTablesComparedAt": "2026-11-23",
   "sourceAuditReport": "data/source-audit-2026-11-23.json",
-  "lastCoordinatesUpdatedAt": "2026-11-10",
+  "lastCoordinatesUpdatedAt": "2026-11-23",
   "coordinatesAuditReport": "data/coordinates-audit-2026-11-23.json",
   "lastCatalogMetadataUpdatedAt": "2026-11-20",
   "lastBooksUpdatedAt": "2026-11-20",
   "primarySourcesStatus": "complete",
   "lastPrimarySourceAuditAt": "2026-11-23",
-  "limitations": []
+  "limitations": [],
+  "ownerCoordinateConfirmation": {
+    "date": "2026-11-23",
+    "projectId": "lothus-residence",
+    "source": "https://maps.app.goo.gl/T2buv5Qv49Udh1S38",
+    "lat": -22.9279849,
+    "lng": -43.0940902,
+    "report": "data/lothus-location-confirmation-2026-11-23.json"
+  }
 }
