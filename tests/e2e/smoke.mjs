@@ -4,6 +4,7 @@
 // Não depende dos mosaicos do mapa (podem estar bloqueados pela rede).
 import { chromium, devices } from "playwright";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 
 const base = (process.env.BASE_URL || "http://localhost:5173").replace(/\/$/, "");
 const password = process.env.SITE_PASSWORD;
@@ -60,5 +61,39 @@ async function run(name, contextOptions, mobile) {
   await browser.close();
 }
 
+// Versão pública: abre sem senha e NADA de tabela ou preço chega ao navegador.
+async function publicCheck() {
+  const read = (name) => JSON.parse(readFileSync(new URL(`../../data/${name}`, import.meta.url)));
+  const catalog = read("catalog.json"), offers = read("unit-offers.json");
+  const tableUrls = [...new Set([...catalog.flatMap((p) => (p.tables || []).map((t) => t.url)), ...Object.values(offers).map((t) => t.tableUrl)].filter(Boolean))];
+  const prices = [...new Set(Object.values(offers).flatMap((t) => t.offers.map((o) => String(o.price))).filter((v) => v.length >= 6))];
+  const browser = await chromium.launch();
+  const page = await (await browser.newContext({ ...devices["iPhone 13"] })).newPage();
+  const bodies = [];
+  page.on("response", async (response) => {
+    if (!response.url().startsWith(base)) return;
+    const type = response.headers()["content-type"] || "";
+    if (/javascript|html|json|text|x-component/.test(type)) { try { bodies.push([response.url(), await response.text()]); } catch {} }
+  });
+  await page.goto(`${base}/vitrine`);
+  assert.match(page.url(), /\/vitrine/, "vitrine: não deveria pedir senha");
+  await page.locator("main[data-ready='1']").waitFor();
+  await page.locator(".pcard").first().getByRole("button", { name: "Detalhes", exact: true }).click();
+  await page.locator(".detail-body").waitFor();
+  await page.waitForTimeout(800);
+  const total = catalog.length;
+  assert.equal(await page.locator(".pcard").count(), total, "vitrine: catálogo completo");
+  const leaks = [];
+  for (const [url, text] of bodies) {
+    for (const table of tableUrls) if (text.includes(table)) leaks.push(`${url}: link de tabela`);
+    for (const price of prices) if (text.includes(price)) { leaks.push(`${url}: preço ${price}`); break; }
+    if (/"price"\s*:/.test(text)) leaks.push(`${url}: campo price`);
+  }
+  assert.deepEqual(leaks, [], "vitrine: informação comercial enviada ao navegador público");
+  console.log(`ok vitrine: ${total} empreendimentos, ${bodies.length} respostas sem preços nem tabelas`);
+  await browser.close();
+}
+
+await publicCheck();
 await run("celular", { ...devices["iPhone 13"] }, true);
 await run("computador", { viewport: { width: 1440, height: 900 } }, false);

@@ -11,5 +11,6 @@ export async function proxy(request: NextRequest) {
 
 export const config = {
   // manifest.webmanifest e /icons só têm nome e ícone do app (sem dados), para poder instalar.
-  matcher: ["/((?!login|api/auth|api/logout|_next/static|_next/image|favicon.ico|robots.txt|manifest.webmanifest|icons/).*)"],
+  // /vitrine é a versão pública: o servidor só envia campos permitidos (sem preços nem tabelas).
+  matcher: ["/((?!login|api/auth|api/logout|_next/static|_next/image|favicon.ico|robots.txt|manifest.webmanifest|icons/|vitrine).*)"],
 };

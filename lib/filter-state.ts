@@ -50,20 +50,12 @@ const PARKING: ParkingFilter[] = ["all", "1", "2", "none"];
 /** Mantém só os dígitos dos reais (centavos após a vírgula são descartados). */
 export const digitsOnly = (value: string) => value.split(",")[0].replace(/\D/g, "").replace(/^0+(?=\d)/, "").slice(0, 10);
 
-/** Formata dígitos com separador de milhar brasileiro: "800000" → "800.000". */
+/** Formata dígitos com separador de milhar brasileiro: "1234567" → "1.234.567". */
 export function formatThousands(digits: string): string {
   const clean = digitsOnly(digits);
   return clean ? clean.replace(/\B(?=(\d{3})+(?!\d))/g, ".") : "";
 }
 
-/** Atalhos de faixa de preço. Apenas preenchem mínimo e máximo; não criam dados. */
-export const PRICE_PRESETS = [
-  { label: "Até R$ 500 mil", min: "", max: "500000" },
-  { label: "R$ 500 mil a 800 mil", min: "500000", max: "800000" },
-  { label: "R$ 800 mil a 1,2 mi", min: "800000", max: "1200000" },
-  { label: "R$ 1,2 mi a 2 mi", min: "1200000", max: "2000000" },
-  { label: "Acima de R$ 2 mi", min: "2000000", max: "" },
-] as const;
 
 const KEYS = {
   query: "q", hood: "bairro", company: "construtora", typology: "tipologia", parking: "vagas",

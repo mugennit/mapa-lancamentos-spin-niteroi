@@ -55,8 +55,30 @@ Regras decorrentes:
 - Os dados vão embutidos no JavaScript público e podem ser lidos sem senha
   (`docs/seguranca-exposicao-dados.md`). Em 23/11/2026 o responsável decidiu
   **não** aplicar a correção. Não reabrir o assunto sem pedido.
-- `proxy.ts` libera só o que não tem dados: login, autenticação, arquivos
-  estáticos do build, `manifest.webmanifest` e `/icons/`.
+- `proxy.ts` libera só o que não tem dados internos: login, autenticação,
+  arquivos estáticos do build, `manifest.webmanifest`, `/icons/` e `/vitrine`.
+
+## Versão pública (`/vitrine`)
+
+- Sem senha. Catálogo completo, mapa (mesma regra de elegibilidade) e books;
+  **sem preços, tabelas, unidades, vagas, datas de leitura, notas ou fontes**.
+- Os dados são filtrados no servidor (`app/vitrine/page.tsx`) por **lista de
+  campos permitidos** (`lib/public-catalog.ts`, `PUBLIC_FIELDS`). Nunca enviar o
+  pacote interno.
+- `components/public-catalog.tsx` e tudo o que ele importa **não podem importar
+  `data/*.json` nem `lib/catalog.ts`**, nem os atalhos de preço
+  (`lib/price-presets.ts`, `components/filter-price.tsx`). O teste de navegador
+  confere que nenhum link de tabela ou preço chega à vitrine.
+- Books: liberados só se passarem em `isBookReleasable`, que confere o
+  inventário, se o arquivo não é uma tabela e se o nome não sugere preço. Para
+  esconder um book específico, use `lib/public-book-blocklist.ts`.
+- Link do corretor: gerado na área interna (botão "Link para clientes",
+  `app/api/broker-link`), assinado com HMAC usando `SITE_SESSION_SECRET`
+  (`lib/broker-link.ts`). Trocar esse segredo invalida os links já enviados.
+  O parâmetro `c` precisa ser preservado no endereço durante a navegação.
+- Sem corretor: o contato central vem de `PUBLIC_CONTACT_WHATSAPP` (e
+  `PUBLIC_CONTACT_NAME`, opcional) no ambiente da Vercel. Sem essa variável,
+  **não exibir botão de WhatsApp** e nunca usar um número presumido.
 
 ## Regras dos dados (valem para qualquer alteração de código)
 

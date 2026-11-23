@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {DEFAULT_FILTERS,filtersToSearch,filtersFromSearch,formatThousands,digitsOnly,countPanelFilters,PRICE_PRESETS} from '../lib/filter-state.ts';
+import {DEFAULT_FILTERS,filtersToSearch,filtersFromSearch,formatThousands,digitsOnly,countPanelFilters} from '../lib/filter-state.ts';
+import {PRICE_PRESETS} from '../lib/price-presets.ts';
 
 test('default filters produce a clean address',()=>{
   assert.equal(filtersToSearch(DEFAULT_FILTERS,'cards'),'');

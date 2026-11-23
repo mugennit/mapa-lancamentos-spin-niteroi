@@ -10,6 +10,7 @@ import ProjectInventory, { DataFreshness } from "@/components/project-inventory"
 import ProjectMap, { type MapPoint } from "@/components/project-map";
 import { distanceKm, formatDistance, formatShortPrice, stageKey, STAGE_LABELS, type Coords, type StageKey } from "@/lib/map-format";
 import FilterPanel from "@/components/filter-panel";
+import PriceSection from "@/components/filter-price";
 import { DeliverySummary, Materials, ProjectFeedback, formatPrice, formatCheckedDate } from "@/components/project-parts";
 import { matchesDelivery, isCurrentMonthTable } from "@/lib/project-insights";
 import { FAVORITES_KEY, SHARE_KEY, validIds, parseSelection, matchingOffers, matchesBudget, type UnitOffer } from "@/lib/project-search";
@@ -78,6 +79,15 @@ export default function Home() {
   const [locateNonce, setLocateNonce] = useState(0);
   const [locating, setLocating] = useState(false);
   const [compareRequested, setCompareOnMap] = useState(false);
+  const [brokerOpen, setBrokerOpen] = useState(false);
+  const [storedBroker, writeBroker] = useStoredValue("spin-broker-profile");
+  const savedBroker = useMemo(() => { try { return JSON.parse(storedBroker || "{}") as { name?: string; phone?: string }; } catch { return {}; } }, [storedBroker]);
+  const [brokerName, setBrokerName] = useState<string | null>(null);
+  const [brokerPhone, setBrokerPhone] = useState<string | null>(null);
+  const [brokerLink, setBrokerLink] = useState("");
+  const [brokerError, setBrokerError] = useState("");
+  const [brokerBusy, setBrokerBusy] = useState(false);
+  const [brokerCopied, setBrokerCopied] = useState(false);
   // Só vale enquanto houver algum comparado com ponto no mapa.
   const compareOnMap = compareRequested && comparison.some((id) => mapIds.has(id));
   const isMobile = useMediaQuery("(max-width: 760px)");
@@ -135,6 +145,24 @@ export default function Home() {
   useBackToClose(pendingOpen, () => setPendingOpen(false), "pending");
   useBackToClose(draft !== null, () => setDraft(null), "draft");
   useBackToClose(comparisonOpen, () => setComparisonOpen(false), "comparison");
+  useBackToClose(brokerOpen, () => setBrokerOpen(false), "broker");
+  const nameValue = brokerName ?? savedBroker.name ?? "";
+  const phoneValue = brokerPhone ?? savedBroker.phone ?? "";
+  const generateBrokerLink = async () => {
+    setBrokerBusy(true); setBrokerError(""); setBrokerLink(""); setBrokerCopied(false);
+    try {
+      const response = await fetch("/api/broker-link", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: nameValue, phone: phoneValue }) });
+      const result = await response.json().catch(() => ({})) as { url?: string; error?: string };
+      if (!response.ok || !result.url) throw new Error(result.error || "Não foi possível gerar o link.");
+      setBrokerLink(result.url);
+      writeBroker(JSON.stringify({ name: nameValue, phone: phoneValue }));
+    } catch (error) { setBrokerError(error instanceof Error ? error.message : "Não foi possível gerar o link."); }
+    finally { setBrokerBusy(false); }
+  };
+  const copyBrokerLink = async () => {
+    try { await navigator.clipboard.writeText(brokerLink); setBrokerCopied(true); }
+    catch { setBrokerCopied(false); (document.getElementById("broker-link-output") as HTMLInputElement | null)?.select(); }
+  };
 
   const toggleFavorite = (id: string) => {
     const next = favorites.includes(id) ? favorites.filter((x) => x !== id) : [...favorites, id];
@@ -326,7 +354,10 @@ export default function Home() {
           <small>Fontes conferidas em {formatCheckedDate(audit.checkedAt)}</small>
         </div>
       </div>
-      <form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form>
+      <div className="topbar-actions">
+        <button type="button" className="topbar-contact" aria-label="Link para clientes" onClick={() => { setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); }}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
+        <form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form>
+      </div>
     </header>
 
     <div className="layout">
@@ -501,7 +532,7 @@ export default function Home() {
           <SheetDescription>As contagens consideram os demais filtros ativos.</SheetDescription>
         </div>
         <div className="filter-sheet-body">
-          <FilterPanel filters={f} update={update} count={countFor} parkingCoverage={parkingCoverage}
+          <FilterPanel filters={f} update={update} count={countFor} parkingCoverage={parkingCoverage} priceSection={<PriceSection filters={f} update={update} count={countFor} />}
             options={{ hoods: hoodOptions, companies: companyOptions, typologies: typologyOptions, features: featureOptions, deliveryYears: deliveryOptions, stages: stageOptions, locations: locationOptions }} />
         </div>
         <div className="filter-sheet-foot">
@@ -535,6 +566,32 @@ export default function Home() {
         <textarea id="whatsapp-draft" className="draft-text" rows={18} value={draft || ""} onChange={(e) => { setDraft(e.target.value); setDraftCopied(false); }} />
         <button className="material-link" onClick={async () => { try { await navigator.clipboard.writeText(draft || ""); setDraftCopied(true); } catch { setDraftCopied(false); document.getElementById("whatsapp-draft")?.focus(); (document.getElementById("whatsapp-draft") as HTMLTextAreaElement)?.select(); } }}>Copiar ficha</button>
         <p role="status">{draftCopied ? "Ficha copiada. Cole na conversa do WhatsApp." : "Você também pode selecionar o texto e copiar manualmente."}</p>
+      </SheetContent>
+    </Sheet>
+
+    <Sheet open={brokerOpen} onOpenChange={setBrokerOpen}>
+      <SheetContent className="side-sheet" style={{ zIndex: 1750, width: "min(100vw,480px)", maxWidth: 480 }}>
+        <SheetTitle>Link para clientes</SheetTitle>
+        <SheetDescription>Gere seu link de divulgação. O cliente vê o catálogo, o mapa e os books, sem preços nem tabelas, e fala com você pelo WhatsApp.</SheetDescription>
+        <div className="broker-form">
+          <label htmlFor="broker-name">Seu nome</label>
+          <input id="broker-name" autoComplete="name" value={nameValue} onChange={(e) => setBrokerName(e.target.value)} placeholder="Como o cliente vai ver" maxLength={60} />
+          <label htmlFor="broker-phone">Seu WhatsApp (com DDD)</label>
+          <input id="broker-phone" inputMode="tel" autoComplete="tel" value={phoneValue} onChange={(e) => setBrokerPhone(e.target.value)} placeholder="(21) 99999-9999" maxLength={20} />
+          <button type="button" className="primary-button" disabled={brokerBusy} onClick={generateBrokerLink}>{brokerBusy ? "Gerando…" : "Gerar meu link"}</button>
+          {brokerError && <p className="fp-warning" role="alert">{brokerError}</p>}
+          {brokerLink && <div className="broker-result">
+            <label htmlFor="broker-link-output">Seu link</label>
+            <input id="broker-link-output" readOnly value={brokerLink} onFocus={(e) => e.target.select()} />
+            <div className="map-preview-actions">
+              <button type="button" className="material-link is-primary" onClick={copyBrokerLink}><Copy size={14} />{brokerCopied ? "Link copiado" : "Copiar link"}</button>
+              <a className="material-link" href={brokerLink} target="_blank" rel="noopener noreferrer"><ExternalLink size={14} />Ver como o cliente</a>
+              <a className="material-link" href={`https://wa.me/?text=${encodeURIComponent(`Veja os lançamentos em Niterói: ${brokerLink}`)}`} target="_blank" rel="noopener noreferrer"><MessageCircle size={14} />Enviar pelo WhatsApp</a>
+            </div>
+            <small className="fp-hint">O link não expira e funciona sem senha. Ele só mostra informações públicas.</small>
+          </div>}
+          <a className="quiet-button" href="/vitrine" target="_blank" rel="noopener noreferrer">Ver a versão pública sem corretor ↗</a>
+        </div>
       </SheetContent>
     </Sheet>
 
