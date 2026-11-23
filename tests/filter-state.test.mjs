@@ -5,7 +5,20 @@ import {PRICE_PRESETS} from '../lib/price-presets.ts';
 
 test('default filters produce a clean address',()=>{
   assert.equal(filtersToSearch(DEFAULT_FILTERS,'cards'),'');
-  assert.deepEqual(filtersFromSearch(''),{filters:DEFAULT_FILTERS,view:'cards'});
+  assert.deepEqual(filtersFromSearch(''),{filters:DEFAULT_FILTERS,view:'cards',explicitView:false});
+});
+
+test('view in the address: explicit modes are kept; the device default is omitted',()=>{
+  assert.equal(filtersFromSearch('?ver=cards').explicitView,true);
+  assert.equal(filtersFromSearch('?ver=cards').view,'cards');
+  assert.equal(filtersFromSearch('?ver=grade').explicitView,false);
+  // Celular (padrão mapa): mapa não vai para o endereço; cards precisa ir.
+  assert.equal(filtersToSearch(DEFAULT_FILTERS,'mapa','mapa'),'');
+  assert.equal(filtersToSearch(DEFAULT_FILTERS,'cards','mapa'),'?ver=cards');
+  assert.equal(filtersToSearch(DEFAULT_FILTERS,'lista','mapa'),'?ver=lista');
+  // Computador (padrão cards).
+  assert.equal(filtersToSearch(DEFAULT_FILTERS,'cards','cards'),'');
+  assert.equal(filtersToSearch(DEFAULT_FILTERS,'mapa','cards'),'?ver=mapa');
 });
 
 test('filters round-trip through the address',()=>{

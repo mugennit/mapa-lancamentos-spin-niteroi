@@ -8,7 +8,7 @@ import unitOffers from "@/data/unit-offers.json";
 import audit from "@/data/materials-audit.json";
 import type { Metadata } from "next";
 import PublicCatalogApp from "@/components/public-catalog";
-import { buildPublicCatalog, isBookReleasable, type BookRelease } from "@/lib/public-catalog";
+import { buildPublicCatalog, collectTableUrls, type BookRelease } from "@/lib/public-catalog";
 import { isMapEligible } from "@/lib/catalog-rules";
 import { verifyBrokerToken, normalizeWhatsApp, normalizeBrokerName } from "@/lib/broker-link";
 import bookReleases from "@/data/public-book-releases.json";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 type Offers = Record<string, { tableUrl?: string; offers: { typology?: string }[] }>;
-type Raw = Record<string, unknown> & { id: string; lat: number | null; lng: number | null; tables?: { url: string }[]; book?: { url: string; name?: string; sha256?: string } | null };
+type Raw = Record<string, unknown> & { id: string; lat: number | null; lng: number | null; tables?: { url: string }[]; book?: { url: string; name?: string; sha256?: string } | null; clientBook?: { url: string; name?: string; sha256?: string } | null };
 
 export default async function VitrinePage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const params = await searchParams;
@@ -42,20 +42,20 @@ export default async function VitrinePage({ searchParams }: { searchParams: Prom
   const projects = catalog as unknown as Raw[];
   const materialList = materials as { url: string; type?: string; name?: string }[];
   const materialUrls = new Set(materialList.map((item) => item.url));
-  const tableUrls = new Set([
-    ...projects.flatMap((p) => (p.tables || []).map((t) => t.url)),
-    ...Object.values(offers).map((t) => t.tableUrl).filter((url): url is string => Boolean(url)),
-  ]);
+  const tableUrls = collectTableUrls(projects, Object.values(offers));
   const releases = ((bookReleases as { releases?: BookRelease[] }).releases || []) as BookRelease[];
 
+  // Regra única para a lista e o mapa públicos: regra do mapa dos corretores
+  // + book adequado liberado para clientes (lib/public-catalog.ts).
   const data = buildPublicCatalog({
     catalog: projects,
     attributes: attributes as Record<string, Record<string, unknown>>,
-    mapIds: new Set(projects.filter((p) => isMapEligible(p, materialUrls)).map((p) => p.id)),
-    releasedBookIds: new Set(projects.filter((p) => isBookReleasable(p, materialList, tableUrls, releases)).map((p) => p.id)),
+    materials: materialList,
+    releases,
+    isMapEligible: (p) => isMapEligible(p, materialUrls),
     offerTypologies: Object.fromEntries(Object.entries(offers).map(([id, table]) => [id, table.offers.map((o) => o.typology).filter((t): t is string => Boolean(t))])),
     checkedAt: (audit as { checkedAt?: string }).checkedAt ?? null,
-  });
+  }, tableUrls);
 
-  return <PublicCatalogApp data={data} contact={contact} brokerToken={broker ? token : null} />;
+  return <PublicCatalogApp data={data} contact={contact} brokerToken={broker ? token : null} explicitView={typeof params.ver === "string"} />;
 }

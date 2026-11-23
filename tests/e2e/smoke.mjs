@@ -5,6 +5,8 @@
 import { chromium, devices } from "playwright";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { collectTableUrls, isPubliclyListed } from "../../lib/public-catalog.ts";
+import { isMapEligible } from "../../lib/catalog-rules.ts";
 
 const base = (process.env.BASE_URL || "http://localhost:5173").replace(/\/$/, "");
 const password = process.env.SITE_PASSWORD;
@@ -31,18 +33,36 @@ async function run(name, contextOptions, mobile) {
   await page.fill("input[type=password]", password);
   await page.press("input[type=password]", "Enter");
   await page.waitForURL(`${base}/`);
+  // No celular a área interna abre no Mapa; este teste confere a lista de cards.
+  if (mobile) {
+    await page.locator("main[data-ready='1']").waitFor();
+    assert.equal(await page.locator("main").getAttribute("data-view"), "mapa", `${name}: deveria abrir no Mapa`);
+    await page.goto(`${base}/?ver=cards`);
+  }
   // Espera a interface ficar interativa (hidratação concluída).
   await page.locator("main[data-ready='1']").waitFor();
   const count = await page.locator(".count-text").textContent();
-  assert.match(count, /\d+ lançamentos · \d+ no mapa/, `${name}: contador`);
+  assert.match(count, /\d+ lançamentos? · \d+ no mapa/, `${name}: contador`);
   const [total, onMap] = count.match(/\d+/g).map(Number);
   assert.ok(total > 0 && onMap > 0 && onMap <= total, `${name}: contagens incoerentes (${count})`);
   assert.equal(await page.locator(".pcard").count(), total, `${name}: todos os empreendimentos devem estar na lista`);
 
+  // Cabeçalho: "Link para clientes" visível (com texto), sem sobreposição nem rolagem horizontal.
+  const header = await page.evaluate(() => {
+    const button = document.querySelector(".broker-link-button"), text = button?.querySelector("span");
+    const rect = (e) => e.getBoundingClientRect();
+    const others = [".topbar-brand", ".logout-button"].map((s) => document.querySelector(s)).filter(Boolean);
+    const overlaps = others.some((e) => { const a = rect(e), b = rect(button); return a.left < b.right - 0.5 && a.right > b.left + 0.5 && a.top < b.bottom && a.bottom > b.top; });
+    return { visible: Boolean(button && text && getComputedStyle(text).display !== "none" && text.textContent.trim() === "Link para clientes"), height: button ? rect(button).height : 0, overlaps, clipped: text ? text.scrollWidth > text.clientWidth + 1 : true, scrollX: document.documentElement.scrollWidth > window.innerWidth };
+  });
+  assert.ok(header.visible && !header.clipped, `${name}: texto "Link para clientes" visível no cabeçalho`);
+  assert.ok(header.height >= 40, `${name}: botão fácil de tocar`);
+  assert.ok(!header.overlaps && !header.scrollX, `${name}: cabeçalho sem sobreposição nem rolagem horizontal`);
+
   // Filtros abrem, mostram contagens e voltam.
   await page.getByRole("button", { name: /^Filtros/ }).first().click();
   await page.getByRole("dialog").getByText("Faixa de preço total do imóvel").waitFor();
-  await page.getByRole("button", { name: /^Ver \d+ lançamentos/ }).click();
+  await page.getByRole("button", { name: /^Ver \d+ lançamentos?/ }).click();
 
   // Detalhe de um empreendimento.
   await page.locator(".pcard").first().getByRole("button", { name: "Unidades e detalhes" }).click();
@@ -75,14 +95,25 @@ async function publicCheck() {
     const type = response.headers()["content-type"] || "";
     if (/javascript|html|json|text|x-component/.test(type)) { try { bodies.push([response.url(), await response.text()]); } catch {} }
   });
-  await page.goto(`${base}/vitrine`);
+  // No celular a vitrine abre no Mapa; ver=cards abre a lista de cards.
+  await page.goto(`${base}/vitrine?ver=cards`);
   assert.match(page.url(), /\/vitrine/, "vitrine: não deveria pedir senha");
   await page.locator("main[data-ready='1']").waitFor();
-  await page.locator(".pcard").first().getByRole("button", { name: "Detalhes", exact: true }).click();
-  await page.locator(".detail-body").waitFor();
+  // Regra única: só quem está no mapa dos corretores E tem book liberado.
+  const materials = read("materials.json"), releases = read("public-book-releases.json").releases;
+  const materialUrls = new Set(materials.map((m) => m.url));
+  const tables = collectTableUrls(catalog, Object.values(offers));
+  const expected = catalog.filter((p) => isPubliclyListed(p, isMapEligible(p, materialUrls), materials, tables, releases));
+  const total = expected.length;
+  assert.equal(await page.locator(".pcard").count(), total, "vitrine: lista pública segue a regra única");
+  if (total === 0) {
+    await page.locator(".public-empty").waitFor();
+  } else {
+    assert.equal(await page.getByRole("link", { name: /^Abrir o book de / }).count(), total, "vitrine: todo card com Ver book");
+    await page.locator(".pcard").first().getByRole("button", { name: "Detalhes", exact: true }).click();
+    await page.locator(".detail-body").waitFor();
+  }
   await page.waitForTimeout(800);
-  const total = catalog.length;
-  assert.equal(await page.locator(".pcard").count(), total, "vitrine: catálogo completo");
   const leaks = [];
   for (const [url, text] of bodies) {
     for (const table of tableUrls) if (text.includes(table)) leaks.push(`${url}: link de tabela`);
@@ -117,13 +148,17 @@ async function brokerCheck() {
   await client.goto(link);
   await client.locator("main[data-ready='1']").waitFor();
   assert.match(await client.locator(".topbar small").textContent(), /Corretor Teste/, "nome do corretor na vitrine");
-  const href = await client.locator(".consult-button").first().getAttribute("href");
-  assert.match(href, /^https:\/\/wa\.me\/5521998765432\?text=/, "WhatsApp do corretor");
+  const href = await client.locator(".topbar-contact").getAttribute("href");
+  assert.match(href, /^https:\/\/wa\.me\/5521998765432\?text=/, "WhatsApp do corretor no topo");
+  if (await client.locator(".pcard").count()) {
+    const cardHref = await client.locator(".consult-button").first().getAttribute("href");
+    assert.match(cardHref, /^https:\/\/wa\.me\/5521998765432\?text=/, "WhatsApp do corretor nos cards");
+  }
   // Link adulterado: sem corretor e sem botão (contato central não configurado).
   const forged = link.replace(/c=([^.]+)\./, (_, payload) => `c=${payload.slice(0, -3)}abc.`);
   await client.goto(forged);
   await client.locator("main[data-ready='1']").waitFor();
-  assert.equal(await client.locator(".consult-button").count(), 0, "link adulterado não pode mostrar WhatsApp");
+  assert.equal(await client.locator(".consult-button, .topbar-contact").count(), 0, "link adulterado não pode mostrar WhatsApp");
   console.log("ok link do corretor: gerado, aceito na vitrine e recusado quando adulterado");
   await browser.close();
 }

@@ -4,11 +4,12 @@
 // módulos que importem — assim o JavaScript desta página não carrega o catálogo
 // interno.
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Search, MapPin, Building2, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, X, BookOpen, MessageCircle, Navigation, Navigation2 } from "lucide-react";
+import { Search, MapPin, Building2, Map as MapIcon, List, LayoutGrid, SlidersHorizontal, X, BookOpen, MessageCircle, Navigation, Navigation2 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import ProjectMap, { type MapPoint } from "@/components/project-map";
+import MapControls from "@/components/map-controls";
 import FilterPanel from "@/components/filter-panel";
 import { matchesDelivery, deliveryYearOf } from "@/lib/project-insights";
 import { DEFAULT_FILTERS, filtersFromSearch, filtersToSearch, countPanelFilters, type FilterState, type ViewMode, type SortMode } from "@/lib/filter-state";
@@ -21,10 +22,8 @@ type Contact = { name: string; phone: string; isBroker: boolean } | null;
 
 const SORT_LABELS: Partial<Record<SortMode, string>> = { recommended: "Recomendados", name: "Nome A–Z", distance: "Mais perto" };
 const STAGES = ["Pronto", "Em construção", "Lançamento", "A confirmar"];
-const LOCATIONS = ["No mapa", "Fora do mapa"];
 const byName = (a: string, b: string) => a.localeCompare(b, "pt-BR");
 const normalize = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-const onMap = (p: PublicProject) => p.lat !== null && p.lng !== null;
 const asDelivery = (p: PublicProject) => ({ delivery: p.delivery, deliveryStatus: p.deliveryStatus ?? undefined });
 
 function matches(p: PublicProject, f: FilterState) {
@@ -33,7 +32,6 @@ function matches(p: PublicProject, f: FilterState) {
     && (f.company === "all" || p.company === f.company)
     && (f.typology === "all" || p.typologies.includes(f.typology))
     && f.features.every((feature) => p.features.includes(feature))
-    && (f.location === "all" || (f.location === "No mapa" ? onMap(p) : !onMap(p)))
     && (f.delivery === "all" || (f.delivery === "A confirmar" ? !p.deliveryStatus : p.deliveryStatus === f.delivery))
     && matchesDelivery(asDelivery(p), f.deliveryYear)
     && (!f.area || (p.lat !== null && p.lng !== null && p.lat >= f.area.south && p.lat <= f.area.north && p.lng >= f.area.west && p.lng <= f.area.east));
@@ -44,7 +42,7 @@ function deliveryText(p: PublicProject) {
   return p.delivery ? `Previsão de entrega: ${p.delivery}` : "Previsão de entrega a confirmar";
 }
 
-export default function PublicCatalogApp({ data, contact, brokerToken }: { data: PublicCatalog; contact: Contact; brokerToken: string | null }) {
+export default function PublicCatalogApp({ data, contact, brokerToken, explicitView = false }: { data: PublicCatalog; contact: Contact; brokerToken: string | null; explicitView?: boolean }) {
   const catalog = data.projects;
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [view, setView] = useState<ViewMode>("cards");
@@ -64,6 +62,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
   const [locating, setLocating] = useState(false);
   const [notice, setNotice] = useState("");
   const isMobile = useMediaQuery("(max-width: 760px)");
+  const defaultView: ViewMode = isMobile ? "mapa" : "cards";
   const canHover = useMediaQuery("(hover: hover) and (pointer: fine)");
   const f = filters;
   const update = useCallback((patch: Partial<FilterState>) => setFilters((current) => ({ ...current, ...patch })), []);
@@ -77,32 +76,34 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
   // Filtros do endereço (a referência do corretor, `c`, é preservada).
   useEffect(() => {
     /* eslint-disable react-hooks/set-state-in-effect -- leitura única do endereço ao abrir a página */
-    const fromUrl = filtersFromSearch(window.location.search, { hoods, companies, typologies, features, locations: LOCATIONS, deliveries: STAGES, deliveryYears: deliveryOptions });
+    const fromUrl = filtersFromSearch(window.location.search, { hoods, companies, typologies, features, locations: [], deliveries: STAGES, deliveryYears: deliveryOptions });
     setFilters({ ...fromUrl.filters, minPrice: "", maxPrice: "", parking: "all", currentTable: false, onlyFavorites: false, sortBy: fromUrl.filters.sortBy === "name" ? "name" : "recommended" });
-    setView(fromUrl.view);
-    if (fromUrl.view === "lista") setListStyle("lista");
+    // Celular abre no Mapa por padrão; um modo pedido no endereço (ver=...) é respeitado.
+    const initialView = fromUrl.explicitView ? fromUrl.view : (window.matchMedia("(max-width: 760px)").matches ? "mapa" : "cards");
+    setView(initialView);
+    if (initialView === "lista") setListStyle("lista");
     setUrlReady(true);
     /* eslint-enable react-hooks/set-state-in-effect */
   }, [hoods, companies, typologies, features, deliveryOptions]);
 
   useEffect(() => {
     if (!urlReady) return;
-    const params = new URLSearchParams(filtersToSearch(filters, view).slice(1));
+    const params = new URLSearchParams(filtersToSearch(filters, view, defaultView).slice(1));
     if (brokerToken) params.set("c", brokerToken);
     const query = params.toString();
     const next = `${window.location.pathname}${query ? `?${query}` : ""}`;
     if (next !== `${window.location.pathname}${window.location.search}`) window.history.replaceState(window.history.state, "", next);
-  }, [filters, view, urlReady, brokerToken]);
+  }, [filters, view, urlReady, brokerToken, defaultView]);
 
   // Fechar um painel pelo "voltar" restaura a entrada anterior do histórico;
   // reescreve o endereço com os filtros atuais e a referência do corretor.
-  const latest = useRef({ filters, view, urlReady, brokerToken });
-  useEffect(() => { latest.current = { filters, view, urlReady, brokerToken }; }, [filters, view, urlReady, brokerToken]);
+  const latest = useRef({ filters, view, urlReady, brokerToken, defaultView });
+  useEffect(() => { latest.current = { filters, view, urlReady, brokerToken, defaultView }; }, [filters, view, urlReady, brokerToken, defaultView]);
   useEffect(() => {
     const resync = () => setTimeout(() => {
       const state = latest.current;
       if (!state.urlReady) return;
-      const params = new URLSearchParams(filtersToSearch(state.filters, state.view).slice(1));
+      const params = new URLSearchParams(filtersToSearch(state.filters, state.view, state.defaultView).slice(1));
       if (state.brokerToken) params.set("c", state.brokerToken);
       const query = params.toString();
       window.history.replaceState(window.history.state, "", `${window.location.pathname}${query ? `?${query}` : ""}`);
@@ -122,7 +123,8 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
     else if (f.sortBy === "distance" && userLocation) copy.sort((a, b) => (distanceTo(a) ?? Infinity) - (distanceTo(b) ?? Infinity));
     return copy;
   }, [filtered, f.sortBy, userLocation, distanceTo]);
-  const mapFiltered = useMemo(() => filtered.filter(onMap), [filtered]);
+  // Regra única: todo empreendimento da vitrine está na lista e no mapa.
+  const mapFiltered = filtered;
   const mapPoints = useMemo<MapPoint[]>(() => mapFiltered.map((p) => ({ id: p.id, name: p.name, lat: p.lat!, lng: p.lng!, stage: stageKey(p.deliveryStatus) })), [mapFiltered]);
   const stagesOnMap = useMemo(() => (Object.keys(STAGE_LABELS) as StageKey[]).filter((key) => mapPoints.some((p) => p.stage === key)), [mapPoints]);
   const fitKey = useMemo(() => JSON.stringify({ ...f, area: null, sortBy: null, reset }), [f, reset]);
@@ -130,7 +132,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
   const panelCount = countPanelFilters(f);
   const preview = previewOpen && focusId ? mapFiltered.find((p) => p.id === focusId) ?? null : null;
 
-  const pick = (p: PublicProject) => { setSelected(p); setDetail(true); if (onMap(p)) setFocusId(p.id); };
+  const pick = (p: PublicProject) => { setSelected(p); setDetail(true); setFocusId(p.id); };
   const onPinSelect = useCallback((id: string) => {
     setFocusId(id); setPreviewOpen(true);
     if (!isMobile) requestAnimationFrame(() => document.getElementById(`item-${id}`)?.scrollIntoView({ block: "nearest", behavior: "smooth" }));
@@ -162,9 +164,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
         <MessageCircle size={16} aria-hidden="true" />Consultar valores e disponibilidade
       </a>
     : null;
-  const bookLink = (p: PublicProject) => p.bookUrl
-    ? <a className="material-link" href={p.bookUrl} target="_blank" rel="noopener noreferrer" aria-label={`Abrir o book de ${p.name}`}><BookOpen size={14} aria-hidden="true" />Ver book</a>
-    : null;
+  const bookLink = (p: PublicProject) => <a className="material-link" href={p.bookUrl} target="_blank" rel="noopener noreferrer" aria-label={`Abrir o book de ${p.name}`}><BookOpen size={14} aria-hidden="true" />Ver book</a>;
 
   const activeFilters: { key: string; label: string; remove: () => void }[] = [];
   if (f.query.trim()) activeFilters.push({ key: "query", label: `Busca: ${f.query.trim()}`, remove: () => update({ query: "" }) });
@@ -174,10 +174,9 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
   if (f.typology !== "all") activeFilters.push({ key: "typology", label: `Tipologia: ${f.typology}`, remove: () => update({ typology: "all" }) });
   if (f.deliveryYear !== "all") activeFilters.push({ key: "deliveryYear", label: `Entrega: ${f.deliveryYear}`, remove: () => update({ deliveryYear: "all" }) });
   if (f.delivery !== "all") activeFilters.push({ key: "delivery", label: `Etapa: ${f.delivery}`, remove: () => update({ delivery: "all" }) });
-  if (f.location !== "all") activeFilters.push({ key: "location", label: f.location, remove: () => update({ location: "all" }) });
   f.features.forEach((feature) => activeFilters.push({ key: `feature-${feature}`, label: feature, remove: () => update({ features: f.features.filter((item) => item !== feature) }) }));
 
-  return <main className="app-v2 is-public" data-view={view} data-ready={urlReady ? "1" : undefined}>
+  return <main className="app-v2 is-public" data-view={view} data-ready={urlReady ? "1" : undefined} data-auto-view={!urlReady && !explicitView ? "1" : undefined}>
     <header className="topbar">
       <div className="topbar-brand">
         <img className="topbar-logo" src="/spin-logo.svg" alt="SPIN Inovações Imobiliárias" width={86} height={40} />
@@ -210,7 +209,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
           </div>}
           {notice && <p role="status" className="selection-notice">{notice}</p>}
           <div className="count-row">
-            <p className="count-text" aria-live="polite"><strong>{filtered.length} empreendimentos</strong><span> · {mapFiltered.length} no mapa</span></p>
+            <p className="count-text" aria-live="polite"><strong>{filtered.length} {filtered.length === 1 ? "empreendimento" : "empreendimentos"}</strong></p>
             <div className="count-tools">
               <div className="view-toggle" role="group" aria-label="Formato da lista">
                 <button type="button" aria-pressed={listStyle === "cards"} onClick={() => chooseView("cards")} title="Cards" aria-label="Cards"><LayoutGrid size={15} aria-hidden="true" /><span>Cards</span></button>
@@ -227,14 +226,18 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
         </div>
 
         <div className="results-v2">
-          {sorted.length === 0 ? <div className="empty-results">Nenhum empreendimento com esses filtros.<br /><button className="quiet-button" onClick={clear}>Limpar filtros</button></div>
+          {catalog.length === 0 ? <div className="empty-results public-empty" role="status">
+              <strong>Os lançamentos estão sendo preparados para esta página.</strong><br />
+              Em breve você poderá explorar o mapa e os books por aqui.{contact ? <> Enquanto isso, fale com {contact.isBroker ? contact.name : "a SPIN"} pelo WhatsApp.</> : null}
+            </div>
+            : sorted.length === 0 ? <div className="empty-results">Nenhum empreendimento com esses filtros.<br /><button className="quiet-button" onClick={clear}>Limpar filtros</button></div>
             : listStyle === "lista" ? <ul className="prow-list">
               {sorted.map((p) => <li key={p.id} id={`item-${p.id}`} className={`prow${focusId === p.id ? " is-selected" : ""}`} onMouseEnter={() => hover(p.id)} onMouseLeave={() => hover(null)}>
                 <button type="button" className="prow-main" onClick={() => pick(p)} aria-label={`Ver detalhes de ${p.name}`}>
-                  <span className={`prow-dot${onMap(p) ? " is-on" : ""}`} aria-hidden="true" />
+                  <span className="prow-dot is-on" aria-hidden="true" />
                   <span className="prow-text"><strong>{p.name}</strong><small>{p.neighborhood} · {p.company}{distanceLabel(p) ? ` · ${distanceLabel(p)}` : ""}</small></span>
                 </button>
-                {onMap(p) ? <button type="button" className="icon-button" onClick={() => showOnMap(p)} aria-label={`Ver ${p.name} no mapa`} title="Ver no mapa"><MapPin size={17} /></button> : <span className="icon-button is-placeholder" aria-hidden="true" />}
+                <button type="button" className="icon-button" onClick={() => showOnMap(p)} aria-label={`Ver ${p.name} no mapa`} title="Ver no mapa"><MapPin size={17} /></button>
               </li>)}
             </ul>
             : sorted.map((p) => <article id={`item-${p.id}`} key={p.id} className={`pcard${focusId === p.id ? " is-selected" : ""}${hoverId === p.id ? " is-hover" : ""}`} onMouseEnter={() => hover(p.id)} onMouseLeave={() => hover(null)}>
@@ -244,7 +247,6 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
                   <span className="pcard-eyebrow">{p.company}</span>
                   <span className="pcard-name" role="heading" aria-level={2}>{p.name}</span>
                   <span className="pcard-loc"><MapPin size={13} aria-hidden="true" />{p.neighborhood}{distanceLabel(p) && <span className="pcard-distance"> · {distanceLabel(p)}</span>}</span>
-                  {onMap(p) && <span className="pcard-badges"><span className="map-badge is-on"><MapPin size={12} aria-hidden="true" />No mapa</span></span>}
                 </span>
               </button>
               <div className="pcard-body">
@@ -253,7 +255,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
               </div>
               <div className="pcard-actions">
                 {bookLink(p)}
-                {onMap(p) && <button type="button" className="material-link" onClick={() => showOnMap(p)}><MapIcon size={14} aria-hidden="true" />Ver no mapa</button>}
+                <button type="button" className="material-link" onClick={() => showOnMap(p)}><MapIcon size={14} aria-hidden="true" />Ver no mapa</button>
                 <button type="button" className="material-link" onClick={() => pick(p)}>Detalhes</button>
               </div>
               {contact && <div className="pcard-actions is-secondary">{consult(p)}</div>}
@@ -265,17 +267,9 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
 
       <section className={`map-area${view !== "mapa" ? " is-mobile-hidden" : ""}`} aria-label="Mapa">
         <ProjectMap projects={mapPoints} focusId={focusId} hoverId={hoverId} flyTo={flyTo} fitKey={fitKey} onPinSelect={onPinSelect} onBackgroundClick={onBackgroundClick} onSearchArea={(area) => update({ area })} onFanChange={setFanOpen} userLocation={userLocation} locateNonce={locateNonce} />
-        <div className="map-topleft">
-          <button type="button" className="map-pill" onClick={() => { update({ area: null }); setReset((v) => v + 1); setPreviewOpen(false); }}>
-            <LocateFixed size={16} aria-hidden="true" />Ver todos <span className="map-pill-count">{mapFiltered.length}</span>
-          </button>
-          {isMobile && <button type="button" className={`map-pill${panelCount ? " has-filters" : ""}`} onClick={() => setFiltersOpen(true)}>
-            <SlidersHorizontal size={16} aria-hidden="true" />Filtros{panelCount > 0 && <span className="filter-count">{panelCount}</span>}
-          </button>}
-          <button type="button" className={`map-pill${userLocation ? " is-on" : ""}`} onClick={locate} disabled={locating} aria-label="Perto de mim: centralizar na minha localização e ordenar por distância">
-            <Navigation2 size={16} aria-hidden="true" />{locating ? "Localizando…" : "Perto de mim"}
-          </button>
-        </div>
+        <MapControls isMobile={isMobile} located={mapFiltered.length} panelCount={panelCount} onOpenFilters={() => setFiltersOpen(true)}
+          onShowAll={() => { update({ area: null }); setReset((v) => v + 1); setPreviewOpen(false); }}
+          locating={locating} hasLocation={Boolean(userLocation)} onLocate={locate} />
         {fanOpen && !preview && <div className="map-legend-v2 is-fan" role="status"><span className="legend-real" aria-hidden="true" />Pins abertos em leque só para visualização. O ponto branco marca o local cadastrado.</div>}
         {!preview && !fanOpen && <details className="map-legend-v2 is-stages" open={!isMobile}>
           <summary>
@@ -284,7 +278,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
             </ul>
             <span className="legend-more" aria-hidden="true">ⓘ</span>
           </summary>
-          <span>No mapa aparecem os empreendimentos com localização confirmada. Os demais estão na lista.</span>
+          <span>Todos os empreendimentos da lista estão no mapa, com localização confirmada.</span>
         </details>}
         {preview && <div className="map-preview" role="dialog" aria-label={`Resumo de ${preview.name}`}>
           <button type="button" className="map-preview-close" onClick={() => setPreviewOpen(false)} aria-label="Fechar resumo"><X size={18} /></button>
@@ -321,11 +315,11 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
         </div>
         <div className="filter-sheet-body">
           <FilterPanel variant="public" filters={f} update={update} count={countFor}
-            options={{ hoods, companies, typologies, features, deliveryYears: deliveryOptions, stages: STAGES, locations: LOCATIONS }} />
+            options={{ hoods, companies, typologies, features, deliveryYears: deliveryOptions, stages: STAGES, locations: [] }} />
         </div>
         <div className="filter-sheet-foot">
           <button type="button" className="quiet-button" onClick={clear}>Limpar filtros</button>
-          <button type="button" className="primary-button" onClick={() => setFiltersOpen(false)}>Ver {filtered.length} empreendimentos</button>
+          <button type="button" className="primary-button" onClick={() => setFiltersOpen(false)}>Ver {filtered.length} {filtered.length === 1 ? "empreendimento" : "empreendimentos"}</button>
         </div>
       </SheetContent>
     </Sheet>
@@ -347,9 +341,9 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
           </dl>
           <div className="location-actions">
             {bookLink(selected)}
-            {onMap(selected) && <button className="material-link" onClick={() => { setDetail(false); showOnMap(selected); }}><MapIcon size={13} />Ver no mapa</button>}
-            {onMap(selected) && <a className="material-link" href={`https://www.google.com/maps?q=${selected.lat},${selected.lng}`} target="_blank" rel="noopener noreferrer"><Navigation size={13} />Google Maps</a>}
-            {onMap(selected) && <a className="material-link" href={`https://waze.com/ul?ll=${selected.lat},${selected.lng}&navigate=yes`} target="_blank" rel="noopener noreferrer"><Navigation2 size={13} />Waze</a>}
+            <button className="material-link" onClick={() => { setDetail(false); showOnMap(selected); }}><MapIcon size={13} />Ver no mapa</button>
+            <a className="material-link" href={`https://www.google.com/maps?q=${selected.lat},${selected.lng}`} target="_blank" rel="noopener noreferrer"><Navigation size={13} />Google Maps</a>
+            <a className="material-link" href={`https://waze.com/ul?ll=${selected.lat},${selected.lng}&navigate=yes`} target="_blank" rel="noopener noreferrer"><Navigation2 size={13} />Waze</a>
           </div>
           <p className="detail-checked-at public-note">Valores, unidades disponíveis e condições são informados no atendimento. Imagens e informações dos materiais das incorporadoras, sujeitas a alteração.</p>
         </div>}

@@ -1,12 +1,13 @@
 "use client";
 import { useState, useMemo, useEffect, useCallback, useRef } from "react";
-import { Link2, Navigation2, Tag, Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
+import { Link2, Navigation2, Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import ProjectComparison from "@/components/project-comparison";
 import ProjectInventory, { DataFreshness } from "@/components/project-inventory";
 import ProjectMap, { type MapPoint } from "@/components/project-map";
+import MapControls from "@/components/map-controls";
 import { distanceKm, formatDistance, formatShortPrice, stageKey, STAGE_LABELS, type Coords, type StageKey } from "@/lib/map-format";
 import FilterPanel from "@/components/filter-panel";
 import PriceSection from "@/components/filter-price";
@@ -42,16 +43,21 @@ function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedI
 }
 
 const PUBLIC_BOOK_TEXT: Record<string, string> = {
-  liberado: "Book liberado na versão pública.",
-  "sem-versao": "Book fora da versão pública: falta registrar a versão (SHA-256) do PDF.",
-  "aguardando-revisao": "Book fora da versão pública: aguardando revisão de conteúdo.",
-  "versao-nova": "Book fora da versão pública: o PDF mudou e precisa de nova revisão.",
-  reprovado: "Book fora da versão pública: reprovado na revisão.",
-  retirado: "Book fora da versão pública: liberação retirada (substituição do PDF em andamento).",
-  bloqueado: "Book fora da versão pública: não passou nas verificações automáticas.",
+  liberado: "Na vitrine (book liberado).",
+  "liberado-versao-clientes": "Na vitrine (versão do book para clientes liberada).",
+  "fora-do-mapa": "Fora da vitrine: o pin ainda não está habilitado no mapa dos corretores.",
+  "sem-book": "Fora da vitrine: sem book.",
+  "sem-versao": "Fora da vitrine: falta registrar a versão (SHA-256) do book.",
+  "aguardando-revisao": "Fora da vitrine: book aguardando revisão de conteúdo.",
+  "versao-nova": "Fora da vitrine: o PDF do book mudou e precisa de nova revisão.",
+  "precisa-versao-clientes": "Fora da vitrine: o book tem preços ou informações internas; é preciso uma versão para clientes.",
+  "versao-clientes-em-revisao": "Fora da vitrine: versão do book para clientes aguardando revisão.",
+  reprovado: "Fora da vitrine: book reprovado na revisão.",
+  retirado: "Fora da vitrine: liberação retirada (substituição do PDF em andamento).",
+  bloqueado: "Fora da vitrine: book não passou nas verificações automáticas.",
 };
 
-export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogData; publicBooks?: Record<string, string> }) {
+export default function CatalogApp({ data, publicBooks = {}, explicitView = false }: { data: CatalogData; publicBooks?: Record<string, string>; explicitView?: boolean }) {
   const v = useMemo(() => buildCatalogView(data), [data]);
   const {
     catalog, offersById, catalogIds, completeIds, mapIds, pending, parkingCoverage, deliveryOptions, hoodOptions, companyOptions,
@@ -101,6 +107,7 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
   // Só vale enquanto houver algum comparado com ponto no mapa.
   const compareOnMap = compareRequested && comparison.some((id) => mapIds.has(id));
   const isMobile = useMediaQuery("(max-width: 760px)");
+  const defaultView: ViewMode = isMobile ? "mapa" : "cards";
   const canHover = useMediaQuery("(hover: hover) and (pointer: fine)");
   const resultsRef = useRef<HTMLDivElement>(null);
 
@@ -123,32 +130,52 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
       locations: locationOptions, deliveries: stageOptions, deliveryYears: deliveryOptions,
     });
     setFilters(fromUrl.filters);
-    setView(fromUrl.view);
-    if (fromUrl.view === "lista") setListStyle("lista");
+    // Celular abre no Mapa por padrão; um modo pedido no endereço (ver=...) é respeitado.
+    const initialView = fromUrl.explicitView ? fromUrl.view : (window.matchMedia("(max-width: 760px)").matches ? "mapa" : "cards");
+    setView(initialView);
+    if (initialView === "lista") setListStyle("lista");
     setUrlReady(true);
     /* eslint-enable react-hooks/set-state-in-effect */
   }, [catalogIds, companyOptions, deliveryOptions, featureOptions, hoodOptions, typologyOptions]);
 
   useEffect(() => {
     if (!urlReady) return;
-    const next = `${window.location.pathname}${filtersToSearch(filters, view)}${window.location.hash}`;
+    const next = `${window.location.pathname}${filtersToSearch(filters, view, defaultView)}${window.location.hash}`;
     if (next !== `${window.location.pathname}${window.location.search}${window.location.hash}`) window.history.replaceState(window.history.state, "", next);
-  }, [filters, view, urlReady]);
+  }, [filters, view, urlReady, defaultView]);
 
   // Fechar um painel pelo "voltar" restaura a entrada anterior do histórico,
   // que pode ter filtros antigos no endereço; reescreve com os filtros atuais.
-  const latestUrlState = useRef({ filters, view, urlReady });
-  useEffect(() => { latestUrlState.current = { filters, view, urlReady }; }, [filters, view, urlReady]);
+  const latestUrlState = useRef({ filters, view, urlReady, defaultView });
+  useEffect(() => { latestUrlState.current = { filters, view, urlReady, defaultView }; }, [filters, view, urlReady, defaultView]);
   useEffect(() => {
     const resync = () => setTimeout(() => {
       const { filters: current, view: currentView, urlReady: ready } = latestUrlState.current;
       if (!ready) return;
-      window.history.replaceState(window.history.state, "", `${window.location.pathname}${filtersToSearch(current, currentView)}${window.location.hash}`);
+      window.history.replaceState(window.history.state, "", `${window.location.pathname}${filtersToSearch(current, currentView, latestUrlState.current.defaultView)}${window.location.hash}`);
     }, 0);
     window.addEventListener("popstate", resync);
     return () => window.removeEventListener("popstate", resync);
   }, []);
 
+
+  // Altura da barra de comparação (celular): o cartão de resumo, a legenda e a
+  // atribuição do mapa sobem para não ficarem por baixo dela.
+  useEffect(() => {
+    const main = document.querySelector<HTMLElement>(".app-v2");
+    const bar = document.querySelector<HTMLElement>(".comparison-bar");
+    if (!main) return;
+    if (!bar) { main.style.removeProperty("--compare-h"); return; }
+    const sync = () => {
+      const nav = document.querySelector<HTMLElement>(".bottom-nav");
+      const overlap = nav && getComputedStyle(nav).display !== "none" ? bar.getBoundingClientRect().height + 8 : 0;
+      main.style.setProperty("--compare-h", `${Math.round(overlap)}px`);
+    };
+    sync();
+    const observer = new ResizeObserver(sync);
+    observer.observe(bar);
+    return () => { observer.disconnect(); main.style.removeProperty("--compare-h"); };
+  }, [comparison.length, isMobile]);
 
   useBackToClose(detail, () => setDetail(false), "detail");
   useBackToClose(filtersOpen, () => setFiltersOpen(false), "filters");
@@ -357,17 +384,17 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
     ? <span className="map-badge is-on"><MapPin size={12} aria-hidden="true" />No mapa</span>
     : <span className="map-badge is-off" title="Motivo de não aparecer no mapa">Fora do mapa · {offMapReason(p)}</span>;
 
-  return <main className="app-v2" data-view={view} data-ready={urlReady ? "1" : undefined}>
+  return <main className="app-v2" data-view={view} data-ready={urlReady ? "1" : undefined} data-auto-view={!urlReady && !explicitView ? "1" : undefined}>
     <header className="topbar">
       <div className="topbar-brand">
         <img className="topbar-logo" src="/spin-logo.svg" alt="Spin Inovações Imobiliárias" width={86} height={40} />
         <div>
-          <h1>Mapa de Empreendimentos <span>Niterói</span></h1>
+          <h1><span className="title-long">Mapa de Empreendimentos</span><span className="title-short">Lançamentos</span> <span className="title-city">Niterói</span></h1>
           <small>Fontes conferidas em {formatCheckedDate(v.checkedAt ?? undefined)}</small>
         </div>
       </div>
       <div className="topbar-actions">
-        <button type="button" className="topbar-contact" aria-label="Link para clientes" onClick={() => { setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); }}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
+        <button type="button" className="broker-link-button" onClick={() => { setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); }}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
         <form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form>
       </div>
     </header>
@@ -401,7 +428,7 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
           {notice && <p role="status" className="selection-notice">{notice}</p>}
           {shareFallback && comparison.length === 0 && <input className="share-fallback" aria-label="Link para compartilhar" value={shareFallback} readOnly onFocus={(e) => e.target.select()} />}
           <div className="count-row">
-            <p className="count-text" aria-live="polite"><strong>{filtered.length} lançamentos</strong><span> · {located} no mapa</span></p>
+            <p className="count-text" aria-live="polite"><strong>{filtered.length} {filtered.length === 1 ? "lançamento" : "lançamentos"}</strong><span> · {located} no mapa</span></p>
             <div className="count-tools">
               <div className="view-toggle" role="group" aria-label="Formato da lista">
                 <button type="button" aria-pressed={sidebarStyle === "cards"} onClick={() => chooseView("cards")} title="Cards" aria-label="Cards"><LayoutGrid size={15} aria-hidden="true" /><span>Cards</span></button>
@@ -473,20 +500,9 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
 
       <section className={`map-area${view !== "mapa" ? " is-mobile-hidden" : ""}`} aria-label="Mapa">
         <ProjectMap projects={mapPoints} focusId={focusId} hoverId={hoverId} flyTo={flyTo} fitKey={fitKey} onPinSelect={onPinSelect} onBackgroundClick={onBackgroundClick} onSearchArea={(area) => update({ area })} onFanChange={setFanOpen} showPrices={showPrices} userLocation={userLocation} locateNonce={locateNonce} />
-        <div className="map-topleft">
-          <button type="button" className="map-pill" onClick={() => { update({ area: null }); setCompareOnMap(false); setReset((v) => v + 1); setPreviewOpen(false); }}>
-            <LocateFixed size={16} aria-hidden="true" />Ver todos <span className="map-pill-count">{located}</span>
-          </button>
-          {isMobile && <button type="button" className={`map-pill${panelCount ? " has-filters" : ""}`} onClick={() => setFiltersOpen(true)}>
-            <SlidersHorizontal size={16} aria-hidden="true" />Filtros{panelCount > 0 && <span className="filter-count">{panelCount}</span>}
-          </button>}
-          <button type="button" className={`map-pill${userLocation ? " is-on" : ""}`} onClick={locate} disabled={locating} aria-label="Perto de mim: centralizar na minha localização e ordenar por distância">
-            <Navigation2 size={16} aria-hidden="true" />{locating ? "Localizando…" : "Perto de mim"}
-          </button>
-          <button type="button" className={`map-pill${showPrices ? " is-on" : ""}`} aria-pressed={showPrices} onClick={toggleShowPrices}>
-            <Tag size={16} aria-hidden="true" />Preços
-          </button>
-        </div>
+        <MapControls isMobile={isMobile} located={located} panelCount={panelCount} onOpenFilters={() => setFiltersOpen(true)}
+          onShowAll={() => { update({ area: null }); setCompareOnMap(false); setReset((v) => v + 1); setPreviewOpen(false); }}
+          locating={locating} hasLocation={Boolean(userLocation)} onLocate={locate} showPrices={showPrices} onTogglePrices={toggleShowPrices} />
         {fanOpen && !preview && <div className="map-legend-v2 is-fan" role="status"><span className="legend-real" aria-hidden="true" />Pins abertos em leque só para visualização. O ponto branco marca o local cadastrado.</div>}
         {!preview && !fanOpen && <details className="map-legend-v2 is-stages" open={!isMobile}>
           <summary>
@@ -549,7 +565,7 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
         </div>
         <div className="filter-sheet-foot">
           <button type="button" className="quiet-button" onClick={clear}>Limpar filtros</button>
-          <button type="button" className="primary-button" onClick={() => setFiltersOpen(false)}>Ver {filtered.length} lançamentos</button>
+          <button type="button" className="primary-button" onClick={() => setFiltersOpen(false)}>Ver {filtered.length} {filtered.length === 1 ? "lançamento" : "lançamentos"}</button>
         </div>
       </SheetContent>
     </Sheet>
@@ -630,7 +646,7 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
           {selected.addressReviewStatus === "Precisa de apoio" && <div className="address-review-flag">Endereço em revisão</div>}
           {selected.addressSource && <a className="detail-text" href={selected.addressSource} target="_blank" rel="noopener noreferrer">Fonte do endereço <ExternalLink size={13} className="inline" /></a>}
           {completeIds.has(selected.id) && !mapIds.has(selected.id) && <p className="detail-text">{selected.addressReviewStatus === "Precisa de apoio" ? "Endereço em revisão; o pin não aparece no mapa." : "Falta confirmar o ponto exato para exibir no mapa."}</p>}
-          {PUBLIC_BOOK_TEXT[publicBooks[selected.id]] && <p className={`public-book-status is-${publicBooks[selected.id]}`}>Vitrine: {PUBLIC_BOOK_TEXT[publicBooks[selected.id]]}</p>}
+          {PUBLIC_BOOK_TEXT[publicBooks[selected.id]] && <p className={`public-book-status is-${publicBooks[selected.id]}`}>Vitrine para clientes: {PUBLIC_BOOK_TEXT[publicBooks[selected.id]]}</p>}
           <p className="detail-checked-at">Arquivos verificados em {formatCheckedDate(selected.materialsCheckedAt) || "data não registrada"}. Essa varredura não altera a data de leitura dos preços e do estoque.</p>
           <DeliverySummary project={selected} />
           <DataFreshness project={selected} table={offersById[selected.id]} />
