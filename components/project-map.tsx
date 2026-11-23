@@ -7,8 +7,15 @@ import { useEffect, useRef, useState } from "react";
 import type { Map as LeafletMap, LayerGroup, LatLng } from "leaflet";
 import { clusterWithoutOverlap, clusterSize, estimateLabelWidth, fanOffsets, maxSpread, placeLabels, type Box, type ScreenPoint } from "@/lib/map-clusters";
 import type { MapArea } from "@/lib/filter-state";
+import type { Coords, StageKey } from "@/lib/map-format";
 
-export type MapPoint = { id: string; name: string; lat: number; lng: number };
+export type MapPoint = {
+  id: string; name: string; lat: number; lng: number;
+  /** Etapa confirmada (cor do pin). */
+  stage?: StageKey;
+  /** Preço abreviado "a partir de", já considerando os filtros por unidade. */
+  priceText?: string;
+};
 
 type Props = {
   projects: MapPoint[];
@@ -21,6 +28,12 @@ type Props = {
   onSearchArea: (area: MapArea) => void;
   /** Avisa quando o leque abre ou fecha, para a página exibir a explicação. */
   onFanChange?: (open: boolean) => void;
+  /** Mostra o preço "a partir de" ao lado do nome nos rótulos. */
+  showPrices?: boolean;
+  /** Posição do aparelho ("Perto de mim"), desenhada como ponto azul. */
+  userLocation?: (Coords & { accuracy?: number }) | null;
+  /** Centraliza o mapa na posição do aparelho quando o valor muda. */
+  locateNonce?: number;
 };
 
 const DEFAULT_CENTER: [number, number] = [-22.91, -43.065];
@@ -31,7 +44,7 @@ const FAN_ZOOM = 17;
 
 const reducedMotion = () => typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
-export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, onPinSelect, onBackgroundClick, onSearchArea, onFanChange }: Props) {
+export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, onPinSelect, onBackgroundClick, onSearchArea, onFanChange, showPrices = false, userLocation = null, locateNonce = 0 }: Props) {
   const element = useRef<HTMLDivElement>(null);
   const map = useRef<LeafletMap | null>(null);
   const group = useRef<LayerGroup | null>(null);
@@ -166,6 +179,7 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
 
       // Rótulos: selecionado e destacado sempre; os demais só onde couberem.
       const forced = new Set([focusId, hoverId].filter((id): id is string => Boolean(id)));
+      const labelText = (p: MapPoint) => (showPrices && p.priceText ? `${p.name} · ${p.priceText}` : p.name);
       const obstacles: Box[] = groups.map((cluster) => {
         const size = clusterSize(cluster.ids.length) / 2 + 2;
         return { left: cluster.x - size, right: cluster.x + size, top: cluster.y - size, bottom: cluster.y + size };
@@ -174,16 +188,16 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
         .map((cluster) => byId.get(cluster.ids[0])!)
         .filter((p) => zoom >= LABEL_ZOOM || forced.has(p.id))
         .sort((a, b) => Number(forced.has(b.id)) - Number(forced.has(a.id)) || a.name.localeCompare(b.name, "pt-BR"))
-        .map((p) => ({ id: p.id, x: pointById.get(p.id)!.x, y: pointById.get(p.id)!.y - 6, width: estimateLabelWidth(p.name), height: LABEL_HEIGHT }));
+        .map((p) => ({ id: p.id, x: pointById.get(p.id)!.x, y: pointById.get(p.id)!.y - 6, width: estimateLabelWidth(labelText(p), showPrices ? 230 : 170), height: LABEL_HEIGHT }));
       const labeled = placeLabels(candidates, obstacles, forced);
 
       const addPin = (p: MapPoint, at: [number, number], options: { label: boolean; fanned?: boolean }) => {
         const active = p.id === focusId, hovered = p.id === hoverId;
         const html = document.createElement("span");
-        html.className = ["mk", options.label ? "mk-label" : "mk-dot", active ? "mk-active" : "", hovered ? "mk-hover" : "", options.fanned ? "mk-fanned" : ""].filter(Boolean).join(" ");
+        html.className = ["mk", options.label ? "mk-label" : "mk-dot", `mk-stage-${p.stage ?? "indefinida"}`, active ? "mk-active" : "", hovered ? "mk-hover" : "", options.fanned ? "mk-fanned" : "", showPrices ? "mk-wide" : ""].filter(Boolean).join(" ");
         const inner = document.createElement("span");
         inner.className = "mk-body";
-        inner.textContent = options.label ? p.name : "";
+        inner.textContent = options.label ? labelText(p) : "";
         html.appendChild(inner);
         const marker = L.marker(at, {
           icon: L.divIcon({ html, className: "mk-host", iconSize: [0, 0], iconAnchor: [0, 0] }),
@@ -195,7 +209,7 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
         const el = marker.getElement();
         el?.setAttribute("role", "button");
         el?.setAttribute("aria-label", `${p.name}${active ? " (selecionado)" : ""}`);
-        if (!options.label) marker.bindTooltip(p.name, { direction: "top", offset: [0, -12], className: "mk-tooltip" });
+        if (!options.label) marker.bindTooltip(labelText(p), { direction: "top", offset: [0, -12], className: "mk-tooltip" });
         marker.on("click", (event) => {
           event.originalEvent?.stopPropagation?.();
           callbacks.current.onPinSelect(p.id);
@@ -265,6 +279,16 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
         });
       }
 
+      // Posição do aparelho ("Perto de mim"): só desenho, não interfere nos pins.
+      if (userLocation) {
+        if (userLocation.accuracy && userLocation.accuracy < 2000) {
+          L.circle([userLocation.lat, userLocation.lng], { radius: userLocation.accuracy, color: "#1a73e8", weight: 1, fillColor: "#1a73e8", fillOpacity: 0.1, interactive: false }).addTo(layer);
+        }
+        L.circleMarker([userLocation.lat, userLocation.lng], { radius: 8, color: "#ffffff", weight: 3, fillColor: "#1a73e8", fillOpacity: 1, interactive: true })
+          .bindTooltip("Você está aqui (aproximado)", { direction: "top", offset: [0, -10], className: "mk-tooltip" })
+          .addTo(layer);
+      }
+
       // "Ver no mapa" de um pin agrupado: abre leque ou aproxima mais.
       if (pendingFly.current) {
         const id = pendingFly.current;
@@ -299,7 +323,7 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
 
     renderRef.current = render;
     render();
-  }, [projects, focusId, hoverId, ready]);
+  }, [projects, focusId, hoverId, ready, showPrices, userLocation]);
 
   // Enquadra os pontos quando os filtros mudam (não a cada troca de aba).
   useEffect(() => {
@@ -332,6 +356,13 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
     setTimeout(() => { if (pendingFly.current === p.id) renderRef.current(); }, 400);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [flyTo, ready]);
+
+  // "Perto de mim": centraliza na posição do aparelho.
+  useEffect(() => {
+    if (!ready || !locateNonce || !userLocation || !map.current) return;
+    moveMap((m) => m.setView([userLocation.lat, userLocation.lng], Math.max(m.getZoom(), 15), { animate: !reducedMotion() }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [locateNonce, ready]);
 
   // Seleção pela lista: acompanha o pin sem tirar o usuário do lugar à toa.
   useEffect(() => {

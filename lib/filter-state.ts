@@ -4,7 +4,7 @@
 
 export type MapArea = { south: number; north: number; west: number; east: number };
 export type ViewMode = "cards" | "lista" | "mapa";
-export type SortMode = "recommended" | "price-asc" | "price-desc" | "name";
+export type SortMode = "recommended" | "price-asc" | "price-desc" | "name" | "distance";
 export type ParkingFilter = "all" | "1" | "2" | "none";
 
 export type FilterState = {
@@ -42,7 +42,7 @@ export const DEFAULT_FILTERS: FilterState = {
 };
 
 const VIEWS: ViewMode[] = ["cards", "lista", "mapa"];
-const SORTS: SortMode[] = ["recommended", "price-asc", "price-desc", "name"];
+const SORTS: SortMode[] = ["recommended", "price-asc", "price-desc", "name", "distance"];
 const PARKING: ParkingFilter[] = ["all", "1", "2", "none"];
 
 /** Mantém só os dígitos dos reais (centavos após a vírgula são descartados). */

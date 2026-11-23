@@ -255,3 +255,37 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial
   .app-v2 *, .app-v2 *::before, .app-v2 *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
 .app-v2:has(.comparison-bar) .results-v2 { padding-bottom: 210px; }
+
+/* Cor do pin pela etapa confirmada nos materiais */
+:root { --stage-pronto: #1f7a4d; --stage-obra: #b4580b; --stage-lancamento: #7b3fb3; --stage-indefinida: #0c578d; }
+.mk-stage-pronto { --stage: var(--stage-pronto); }
+.mk-stage-obra { --stage: var(--stage-obra); }
+.mk-stage-lancamento { --stage: var(--stage-lancamento); }
+.mk-stage-indefinida { --stage: var(--stage-indefinida); }
+.mk-dot:not(.mk-active):not(.mk-hover) .mk-body { background: var(--stage, var(--blue)); box-shadow: 0 0 0 1.5px var(--stage, var(--blue)), 0 2px 6px rgba(0, 0, 0, .45); }
+.mk-label:not(.mk-active):not(.mk-hover) .mk-body, .mk-label:not(.mk-active):not(.mk-hover)::after { border-color: var(--stage, var(--blue)); }
+.mk-label:not(.mk-active) .mk-body { box-shadow: inset 4px 0 0 var(--stage, var(--blue)), 0 2px 8px rgba(0, 0, 0, .35); padding-left: 13px; }
+.mk-label.mk-wide .mk-body { max-width: 230px; }
+.map-legend-v2.is-stages { flex-direction: column; gap: 6px; }
+.legend-stages { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 0; padding: 0; list-style: none; font-weight: 650; color: var(--ink); }
+.legend-stages li { display: inline-flex; align-items: center; gap: 5px; }
+.legend-swatch { width: 12px; height: 12px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1.5px currentColor; }
+.legend-swatch.stage-pronto { background: var(--stage-pronto); color: var(--stage-pronto); }
+.legend-swatch.stage-obra { background: var(--stage-obra); color: var(--stage-obra); }
+.legend-swatch.stage-lancamento { background: var(--stage-lancamento); color: var(--stage-lancamento); }
+.legend-swatch.stage-indefinida { background: var(--stage-indefinida); color: var(--stage-indefinida); }
+.map-pill.is-on { background: var(--blue-soft); border-color: var(--blue); color: var(--blue); }
+.map-pill:disabled { opacity: .7; }
+.pcard-distance { color: var(--blue); font-weight: 650; }
+.unit-ppsm { margin: -2px 0 6px; font-size: 13px; font-weight: 650; color: var(--ink); text-align: right; }
+.unit-ppsm span { font-weight: 400; color: var(--ink-faint); font-size: 12px; }
+@media (max-width: 760px) {
+  .map-topleft { max-width: calc(100% - 120px); gap: 6px; }
+  .map-topleft .map-pill { min-height: 38px; padding: 0 10px; font-size: 12.5px; }
+  .map-legend-v2.is-stages { bottom: 22px; }
+}
+.map-legend-v2.is-stages > summary { display: flex; align-items: center; justify-content: space-between; gap: 10px; cursor: pointer; list-style: none; min-height: 28px; }
+.map-legend-v2.is-stages > summary::-webkit-details-marker { display: none; }
+.legend-more { font-size: 15px; color: var(--blue); }
+.map-legend-v2.is-stages[open] .legend-more { opacity: .6; }
+@media (max-width: 760px) { .map-legend-v2.is-stages { right: auto; max-width: calc(100% - 20px); } }

@@ -2,6 +2,7 @@
 import {useState} from 'react';
 import {matchingOffers,type OfferTable,type UnitOffer} from '@/lib/project-search';
 import {freshnessOf,formatDataDate} from '@/lib/project-insights';
+import {pricePerSquareMeter} from '@/lib/map-format';
 
 export type InventoryProject = {id:string;name:string;checkedAt?:string|null;availabilityCheckedAt?:string|null;availableUnits?:string[];tables:{url:string;date:string;checkedAt?:string}[]};
 
@@ -39,6 +40,7 @@ export default function ProjectInventory({project,table,typology,minPrice,maxPri
       {constrained&&<button type="button" className="material-link inventory-toggle" aria-pressed={showAll} onClick={()=>{setShowAll(v=>!v);setLimit(20)}}>{showAll?'Aplicar filtros às unidades':`Ver todas as ${all.length} ofertas deste lançamento`}</button>}
       {rows.length===0?<p className="inventory-empty">Nenhuma unidade cadastrada atende simultaneamente à tipologia, ao preço e às vagas selecionados. Consulte a tabela para outras opções.</p>:<div className="unit-rows">{rows.slice(0,limit).map((offer,index)=><article className="unit-row" key={`${offer.unit}-${offer.price}-${index}`}>
         <div className="unit-row-heading"><strong>{offer.offerKind==='group'?'Oferta':'Unidade'} {offer.unit}</strong><b>{money(offer.price)}</b></div>
+        {pricePerSquareMeter(offer.price,offer.area)!==null&&<p className="unit-ppsm">{new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0}).format(pricePerSquareMeter(offer.price,offer.area)!)}/m² <span>(preço ÷ área da tabela)</span></p>}
         <dl><div><dt>Tipologia</dt><dd>{[offer.typology,offer.unitKind].filter((v,i,a)=>v&&a.indexOf(v)===i).join(' · ')||'A confirmar'}</dd></div><div><dt>Área</dt><dd>{typeof offer.area==='number'?`${number(offer.area)} m²`:'A confirmar'}</dd></div><div><dt>Garagem</dt><dd>{parkingLabel(offer)}</dd></div></dl>
         {offer.priceNote&&<p className="unit-offer-note">{offer.priceNote}</p>}{offer.parkingNote&&<p className="unit-offer-note">{offer.parkingNote}</p>}
         {offer.offerKind==='group'&&<p className="unit-offer-note">Oferta agrupada; confirme a unidade específica na tabela.</p>}

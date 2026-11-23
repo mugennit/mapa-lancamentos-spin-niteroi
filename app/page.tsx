@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo, useEffect, useCallback, useRef } from "react";
-import { Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
+import { Navigation2, Tag, Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/ui/sheet";
@@ -8,6 +8,7 @@ import audit from "@/data/materials-audit.json";
 import ProjectComparison from "@/components/project-comparison";
 import ProjectInventory, { DataFreshness } from "@/components/project-inventory";
 import ProjectMap, { type MapPoint } from "@/components/project-map";
+import { distanceKm, formatDistance, formatShortPrice, stageKey, STAGE_LABELS, type Coords, type StageKey } from "@/lib/map-format";
 import FilterPanel from "@/components/filter-panel";
 import { DeliverySummary, Materials, ProjectFeedback, formatPrice, formatCheckedDate } from "@/components/project-parts";
 import { matchesDelivery } from "@/lib/project-insights";
@@ -20,7 +21,7 @@ import {
 import { useBackToClose, useMediaQuery } from "@/hooks/use-back-to-close";
 
 const PARKING_TEXT: Record<string, string> = { none: "Sem vaga", "1": "Com vaga", "2": "2 ou mais" };
-const SORT_LABELS: Record<SortMode, string> = { recommended: "Recomendados", "price-asc": "Menor preço", "price-desc": "Maior preço", name: "Nome A–Z" };
+const SORT_LABELS: Record<SortMode, string> = { recommended: "Recomendados", "price-asc": "Menor preço", "price-desc": "Maior preço", name: "Nome A–Z", distance: "Mais perto" };
 
 /** Mesmo critério de filtragem da versão anterior, agora numa função única (usada também nas contagens). */
 function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedIds: string[]) {
@@ -64,6 +65,11 @@ export default function Home() {
   const [sharedIds, setSharedIds] = useState<string[]>([]);
   const [notice, setNotice] = useState("");
   const [shareFallback, setShareFallback] = useState("");
+  const [showPrices, setShowPrices] = useState(false);
+  const [userLocation, setUserLocation] = useState<(Coords & { accuracy?: number }) | null>(null);
+  const [locateNonce, setLocateNonce] = useState(0);
+  const [locating, setLocating] = useState(false);
+  const [compareOnMap, setCompareOnMap] = useState(false);
   const isMobile = useMediaQuery("(max-width: 760px)");
   const canHover = useMediaQuery("(hover: hover) and (pointer: fine)");
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -191,15 +197,58 @@ export default function Home() {
     if (f.sortBy === "price-asc") copy.sort((a, b) => (displayPrice(a) ?? Infinity) - (displayPrice(b) ?? Infinity));
     else if (f.sortBy === "price-desc") copy.sort((a, b) => (displayPrice(b) ?? -Infinity) - (displayPrice(a) ?? -Infinity));
     else if (f.sortBy === "name") copy.sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
+    else if (f.sortBy === "distance" && userLocation) copy.sort((a, b) => (distanceTo(a) ?? Infinity) - (distanceTo(b) ?? Infinity));
     return copy;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filtered, f.sortBy, f.typology, f.minPrice, f.maxPrice, f.parking]);
-  const mapFiltered = useMemo(() => filtered.filter((p) => mapIds.has(p.id)), [filtered]);
-  const mapPoints = useMemo<MapPoint[]>(() => mapFiltered.map((p) => ({ id: p.id, name: p.name, lat: p.lat!, lng: p.lng! })), [mapFiltered]);
+  }, [filtered, f.sortBy, f.typology, f.minPrice, f.maxPrice, f.parking, userLocation]);
+  const comparisonOnMap = compareOnMap ? comparison.filter((id) => mapIds.has(id)) : [];
+  const mapFiltered = useMemo(
+    () => compareOnMap ? catalog.filter((p) => comparison.includes(p.id) && mapIds.has(p.id)) : filtered.filter((p) => mapIds.has(p.id)),
+    [filtered, compareOnMap, comparison],
+  );
+  const mapPoints = useMemo<MapPoint[]>(() => mapFiltered.map((p) => {
+    const price = displayPrice(p);
+    const rent = p.priceLabel?.toLowerCase().startsWith("aluguel");
+    return {
+      id: p.id, name: p.name, lat: p.lat!, lng: p.lng!, stage: stageKey(p.deliveryStatus),
+      priceText: typeof price === "number" && price > 0 ? `${rent ? "aluguel " : ""}${formatShortPrice(price)}` : undefined,
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }), [mapFiltered, f.typology, f.minPrice, f.maxPrice, f.parking]);
   const located = mapFiltered.length;
-  const fitKey = useMemo(() => JSON.stringify({ ...f, area: null, sortBy: null, sharedIds, favorites: f.onlyFavorites ? favorites : null, reset }), [f, sharedIds, favorites, reset]);
+  const fitKey = useMemo(() => JSON.stringify({ ...f, area: null, sortBy: null, sharedIds, favorites: f.onlyFavorites ? favorites : null, reset, compare: compareOnMap ? comparison : null }), [f, sharedIds, favorites, reset, compareOnMap, comparison]);
+  const stagesOnMap = useMemo(() => (Object.keys(STAGE_LABELS) as StageKey[]).filter((key) => mapPoints.some((p) => p.stage === key)), [mapPoints]);
   const countFor = useCallback((patch: Partial<FilterState>) => catalog.filter((p) => matchesFilters(p, { ...f, ...patch }, favorites, sharedIds)).length, [f, favorites, sharedIds]);
   const panelCount = countPanelFilters(f);
+
+  function distanceTo(p: Project) {
+    return userLocation && typeof p.lat === "number" && typeof p.lng === "number" ? distanceKm(userLocation, { lat: p.lat, lng: p.lng }) : null;
+  }
+  const distanceLabel = (p: Project) => { const km = distanceTo(p); return km === null ? null : `a ${formatDistance(km)}`; };
+  const locate = () => {
+    if (!("geolocation" in navigator)) { setNotice("Este navegador não informa a localização."); return; }
+    setLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserLocation({ lat: position.coords.latitude, lng: position.coords.longitude, accuracy: position.coords.accuracy });
+        setLocating(false);
+        setLocateNonce(Date.now());
+        update({ sortBy: "distance" });
+        setNotice("Lista ordenada pela distância até você (aproximada).");
+      },
+      (error) => {
+        setLocating(false);
+        setNotice(error.code === error.PERMISSION_DENIED ? "Sem permissão para usar a localização. Libere nas configurações do navegador." : "Não foi possível obter a localização agora.");
+      },
+      { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 },
+    );
+  };
+  useEffect(() => { try { setShowPrices(localStorage.getItem("spin-map-show-prices") === "1"); } catch {} }, []);
+  const toggleShowPrices = () => setShowPrices((current) => {
+    try { localStorage.setItem("spin-map-show-prices", current ? "0" : "1"); } catch {}
+    return !current;
+  });
+  useEffect(() => { if (compareOnMap && comparison.filter((id) => mapIds.has(id)).length === 0) setCompareOnMap(false); }, [compareOnMap, comparison]);
 
   const pick = (p: Project) => { setSelected(p); setAddressCopied(false); setDetail(true); if (mapIds.has(p.id)) setFocusId(p.id); };
   const onPinSelect = useCallback((id: string) => {
@@ -229,6 +278,7 @@ export default function Home() {
   const hover = (id: string | null) => { if (canHover) setHoverId(id); };
 
   const activeFilters: { key: string; label: string; remove: () => void }[] = [];
+  if (compareOnMap) activeFilters.push({ key: "compareOnMap", label: "Mapa: só a comparação", remove: () => setCompareOnMap(false) });
   if (f.deliveryYear !== "all") activeFilters.push({ key: "deliveryYear", label: `Entrega: ${f.deliveryYear}`, remove: () => update({ deliveryYear: "all" }) });
   if (f.delivery !== "all") activeFilters.push({ key: "delivery", label: `Etapa: ${f.delivery}`, remove: () => update({ delivery: "all" }) });
   if (f.area) activeFilters.push({ key: "area", label: "Área selecionada no mapa", remove: () => update({ area: null }) });
@@ -302,7 +352,7 @@ export default function Home() {
               <Select value={f.sortBy} onValueChange={(value) => update({ sortBy: value as SortMode })}>
                 <SelectTrigger aria-label="Ordenar lançamentos" className="sort-trigger"><SelectValue /></SelectTrigger>
                 <SelectContent style={{ zIndex: 1200 }}>
-                  {(Object.keys(SORT_LABELS) as SortMode[]).map((key) => <SelectItem key={key} value={key}>{SORT_LABELS[key]}</SelectItem>)}
+                  {(Object.keys(SORT_LABELS) as SortMode[]).filter((key) => key !== "distance" || userLocation).map((key) => <SelectItem key={key} value={key}>{SORT_LABELS[key]}</SelectItem>)}
                 </SelectContent>
               </Select>
             </div>
@@ -315,7 +365,7 @@ export default function Home() {
               {sorted.map((p) => <li key={p.id} id={`item-${p.id}`} className={`prow${focusId === p.id ? " is-selected" : ""}`} onMouseEnter={() => hover(p.id)} onMouseLeave={() => hover(null)}>
                 <button type="button" className="prow-main" onClick={() => pick(p)} aria-label={`Ver detalhes de ${p.name}`}>
                   <span className={`prow-dot${mapIds.has(p.id) ? " is-on" : ""}`} title={mapIds.has(p.id) ? "No mapa" : `Fora do mapa: ${offMapReason(p)}`} aria-hidden="true" />
-                  <span className="prow-text"><strong>{p.name}</strong><small>{p.neighborhood} · {p.company}</small></span>
+                  <span className="prow-text"><strong>{p.name}</strong><small>{p.neighborhood} · {p.company}{distanceLabel(p) ? ` · ${distanceLabel(p)}` : ""}</small></span>
                   {priceLine(p, true)}
                 </button>
                 {mapIds.has(p.id)
@@ -330,7 +380,7 @@ export default function Home() {
                 <span className="pcard-copy">
                   <span className="pcard-eyebrow">{p.company}</span>
                   <span className="pcard-name" role="heading" aria-level={2}>{p.name}</span>
-                  <span className="pcard-loc"><MapPin size={13} aria-hidden="true" />{p.neighborhood}</span>
+                  <span className="pcard-loc"><MapPin size={13} aria-hidden="true" />{p.neighborhood}{distanceLabel(p) && <span className="pcard-distance"> · {distanceLabel(p)}</span>}</span>
                   {mapBadge(p)}
                 </span>
               </button>
@@ -364,17 +414,31 @@ export default function Home() {
       </aside>
 
       <section className={`map-area${view !== "mapa" ? " is-mobile-hidden" : ""}`} aria-label="Mapa">
-        <ProjectMap projects={mapPoints} focusId={focusId} hoverId={hoverId} flyTo={flyTo} fitKey={fitKey} onPinSelect={onPinSelect} onBackgroundClick={onBackgroundClick} onSearchArea={(area) => update({ area })} onFanChange={setFanOpen} />
+        <ProjectMap projects={mapPoints} focusId={focusId} hoverId={hoverId} flyTo={flyTo} fitKey={fitKey} onPinSelect={onPinSelect} onBackgroundClick={onBackgroundClick} onSearchArea={(area) => update({ area })} onFanChange={setFanOpen} showPrices={showPrices} userLocation={userLocation} locateNonce={locateNonce} />
         <div className="map-topleft">
-          <button type="button" className="map-pill" onClick={() => { update({ area: null }); setReset((v) => v + 1); setPreviewOpen(false); }}>
+          <button type="button" className="map-pill" onClick={() => { update({ area: null }); setCompareOnMap(false); setReset((v) => v + 1); setPreviewOpen(false); }}>
             <LocateFixed size={16} aria-hidden="true" />Ver todos <span className="map-pill-count">{located}</span>
           </button>
           {isMobile && <button type="button" className={`map-pill${panelCount ? " has-filters" : ""}`} onClick={() => setFiltersOpen(true)}>
             <SlidersHorizontal size={16} aria-hidden="true" />Filtros{panelCount > 0 && <span className="filter-count">{panelCount}</span>}
           </button>}
+          <button type="button" className={`map-pill${userLocation ? " is-on" : ""}`} onClick={locate} disabled={locating} aria-label="Perto de mim: centralizar na minha localização e ordenar por distância">
+            <Navigation2 size={16} aria-hidden="true" />{locating ? "Localizando…" : "Perto de mim"}
+          </button>
+          <button type="button" className={`map-pill${showPrices ? " is-on" : ""}`} aria-pressed={showPrices} onClick={toggleShowPrices}>
+            <Tag size={16} aria-hidden="true" />Preços
+          </button>
         </div>
         {fanOpen && !preview && <div className="map-legend-v2 is-fan" role="status"><span className="legend-real" aria-hidden="true" />Pins abertos em leque só para visualização. O ponto branco marca o local cadastrado.</div>}
-        {!preview && !fanOpen && <div className="map-legend-v2"><span className="legend-dot" aria-hidden="true" />Só aparecem lançamentos com book, tabela e ponto exato confirmado. {catalog.length - mapIds.size} estão apenas na lista.</div>}
+        {!preview && !fanOpen && <details className="map-legend-v2 is-stages" open={!isMobile}>
+          <summary>
+            <ul className="legend-stages" aria-label="Cor do pin: etapa confirmada nos materiais">
+              {stagesOnMap.map((key) => <li key={key}><span className={`legend-swatch stage-${key}`} aria-hidden="true" />{STAGE_LABELS[key]}</li>)}
+            </ul>
+            <span className="legend-more" aria-hidden="true">ⓘ</span>
+          </summary>
+          <span>{compareOnMap ? `Mostrando só os ${comparisonOnMap.length} da comparação que estão no mapa.` : `Só aparecem lançamentos com book, tabela e ponto exato confirmado. ${catalog.length - mapIds.size} estão apenas na lista.`}{showPrices && " Preços: a partir de, arredondados para baixo."}</span>
+        </details>}
         {preview && <div className="map-preview" role="dialog" aria-label={`Resumo de ${preview.name}`}>
           <button type="button" className="map-preview-close" onClick={() => setPreviewOpen(false)} aria-label="Fechar resumo"><X size={18} /></button>
           <button type="button" className="map-preview-main" onClick={() => pick(preview)} aria-label={`Ver detalhes de ${preview.name}`}>
@@ -409,6 +473,7 @@ export default function Home() {
         <span>{comparison.length}/3</span>
         <button type="button" className="material-link" onClick={() => setComparisonOpen(true)}><GitCompareArrows size={15} />Comparar</button>
         <button type="button" className="material-link" onClick={share}><Share2 size={15} />Compartilhar</button>
+        {comparison.some((id) => mapIds.has(id)) && <button type="button" className={`material-link${compareOnMap ? " is-primary" : ""}`} aria-pressed={compareOnMap} onClick={() => { const next = !compareOnMap; setCompareOnMap(next); if (next && isMobile) setView("mapa"); }}><MapIcon size={15} />{compareOnMap ? "Mostrar todos no mapa" : "Ver no mapa"}</button>}
         <button type="button" className="quiet-button" onClick={() => { setComparison([]); setShareFallback(""); }}>Limpar seleção</button>
       </div>
       {shareFallback && <input className="share-fallback" aria-label="Link para compartilhar" value={shareFallback} readOnly onFocus={(e) => e.target.select()} />}
@@ -476,6 +541,7 @@ export default function Home() {
             <button className="material-link" onClick={() => { setDetail(false); showOnMap(selected); }}><MapIcon size={13} />Ver no mapa</button>
             <button className="material-link" onClick={copyAddress}><Copy size={13} />{addressCopied ? "Endereço copiado" : "Copiar endereço"}</button>
             <a className="material-link" href={`https://www.google.com/maps?q=${selected.lat},${selected.lng}`} target="_blank" rel="noopener noreferrer"><Navigation size={13} />Abrir local no Maps</a>
+            <a className="material-link" href={`https://waze.com/ul?ll=${selected.lat},${selected.lng}&navigate=yes`} target="_blank" rel="noopener noreferrer"><Navigation2 size={13} />Abrir no Waze</a>
           </div>}
           {selected.addressReviewStatus === "Precisa de apoio" && <div className="address-review-flag">Endereço em revisão</div>}
           {selected.addressSource && <a className="detail-text" href={selected.addressSource} target="_blank" rel="noopener noreferrer">Fonte do endereço <ExternalLink size={13} className="inline" /></a>}
