@@ -52,9 +52,11 @@ Regras decorrentes:
   `REPORT_TO_EMAIL`. Nunca registrar valores em código, commits, logs, PRs ou chat.
 - Para teste local, usar valores fictícios num `.env` (já ignorado pelo Git) e
   apagá-lo ao terminar.
-- Pendência conhecida: os dados vão embutidos no JavaScript público e podem ser
-  lidos sem senha. Ver `docs/seguranca-exposicao-dados.md`. A correção é uma etapa
-  separada e precisa de aprovação.
+- Os dados vão embutidos no JavaScript público e podem ser lidos sem senha
+  (`docs/seguranca-exposicao-dados.md`). Em 23/11/2026 o responsável decidiu
+  **não** aplicar a correção. Não reabrir o assunto sem pedido.
+- `proxy.ts` libera só o que não tem dados: login, autenticação, arquivos
+  estáticos do build, `manifest.webmanifest` e `/icons/`.
 
 ## Regras dos dados (valem para qualquer alteração de código)
 
@@ -114,6 +116,9 @@ responsável: o campo precisa ser produzido pela rotina do ChatGPT.
 - `lib/catalog-rules.ts`, `lib/map-clusters.ts`, `lib/filter-state.ts`,
   `lib/project-search.ts`, `lib/project-insights.ts`: funções puras, testadas.
 - `hooks/use-back-to-close.ts`: o "voltar" do celular fecha painéis.
+- `hooks/use-stored-value.ts`: preferências no navegador (favoritos, "Preços").
+- `lib/map-format.ts`: distância, preço abreviado (sempre arredondado para
+  baixo), etapa e preço por m².
 - Stack: vinext (Next.js 16 App Router sobre Vite), React 19, Leaflet,
   Tailwind 4 e shadcn/ui.
 
@@ -123,10 +128,22 @@ responsável: o campo precisa ser produzido pela rotina do ChatGPT.
 corepack pnpm install --frozen-lockfile   # instalar dependências
 npm test                                  # testes (node --test, sem dependências extras)
 npx tsc --noEmit -p .                     # tipos (apague tsconfig.tsbuildinfo depois)
-npm run lint                              # 2 erros react-hooks/set-state-in-effect já existentes em app/page.tsx
+npm run lint                              # 0 erros (há avisos sobre <img>)
 VERCEL=1 npx vite build                   # build igual ao da Vercel (saída em .vercel/, ignorada)
 node scripts/run-framework.mjs dev        # servidor local em http://localhost:5173 (precisa de .env local)
+BASE_URL=http://localhost:5173 SITE_PASSWORD=<senha do .env> node tests/e2e/smoke.mjs   # teste de navegador
 ```
+
+## Verificação automática (GitHub Actions)
+
+`.github/workflows/verificacao.yml` roda em todo push (inclusive os commits
+diários do ChatGPT na `main`) e em PRs. Tem duas etapas:
+- `npm test`: regras, contrato dos dados e formatos;
+- teste de navegador (`tests/e2e/smoke.mjs`), com senha fictícia só de teste.
+
+A verificação **apenas avisa**: não bloqueia commits nem a Vercel. Se falhar
+depois de um commit diário, o problema costuma estar nos dados. Avise o
+responsável, em vez de "consertar" `data/`.
 
 ## Testes: regras
 
