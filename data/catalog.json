@@ -5047,7 +5047,8 @@
     "address": "Rua A, 47 — Lote 3A, Quadra 01, Loteamento Aruã, Charitas, Niterói",
     "book": {
       "name": "Lothus Residence - Spin Book de Vendas.pdf",
-      "url": "https://drive.google.com/file/d/1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w/view?usp=drivesdk"
+      "url": "https://drive.google.com/file/d/1iyVkjrzlPkiEhfFe01vMgpn7p6KI174w/view?usp=drivesdk",
+      "sha256": "0ad308db5be23aba62836403c724b9180f1355baca561edf7a90a047c6008518"
     },
     "tables": [
       {
