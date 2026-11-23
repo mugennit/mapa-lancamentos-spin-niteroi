@@ -20,6 +20,7 @@ export type FilterState = {
   delivery: string;
   deliveryYear: string;
   onlyFavorites: boolean;
+  currentTable: boolean;
   area: MapArea | null;
   sortBy: SortMode;
 };
@@ -37,6 +38,7 @@ export const DEFAULT_FILTERS: FilterState = {
   delivery: "all",
   deliveryYear: "all",
   onlyFavorites: false,
+  currentTable: false,
   area: null,
   sortBy: "recommended",
 };
@@ -66,7 +68,7 @@ export const PRICE_PRESETS = [
 const KEYS = {
   query: "q", hood: "bairro", company: "construtora", typology: "tipologia", parking: "vagas",
   features: "carac", location: "local", minPrice: "min", maxPrice: "max", delivery: "etapa",
-  deliveryYear: "entrega", onlyFavorites: "favoritos", area: "area", sortBy: "ordem",
+  deliveryYear: "entrega", onlyFavorites: "favoritos", currentTable: "tabelames", area: "area", sortBy: "ordem",
 } as const;
 
 const roundCoord = (value: number) => Math.round(value * 1e5) / 1e5;
@@ -86,6 +88,7 @@ export function filtersToSearch(filters: FilterState, view: ViewMode): string {
   text(KEYS.delivery, filters.delivery, "all");
   text(KEYS.deliveryYear, filters.deliveryYear, "all");
   if (filters.onlyFavorites) params.set(KEYS.onlyFavorites, "1");
+  if (filters.currentTable) params.set(KEYS.currentTable, "1");
   if (filters.area) {
     const { south, west, north, east } = filters.area;
     params.set(KEYS.area, [south, west, north, east].map(roundCoord).join(","));
@@ -145,6 +148,7 @@ export function filtersFromSearch(search: string, options: FilterOptions = {}): 
       delivery: allowed(params.get(KEYS.delivery), options.deliveries),
       deliveryYear: allowed(params.get(KEYS.deliveryYear), options.deliveryYears),
       onlyFavorites: params.get(KEYS.onlyFavorites) === "1",
+      currentTable: params.get(KEYS.currentTable) === "1",
       area: parseArea(params.get(KEYS.area)),
       sortBy: sortBy && SORTS.includes(sortBy) ? sortBy : "recommended",
     },
@@ -152,7 +156,7 @@ export function filtersFromSearch(search: string, options: FilterOptions = {}): 
   };
 }
 
-/** Quantidade de filtros ativos no painel (busca, favoritos e ordenação não contam). */
+/** Quantidade de filtros ativos no painel (busca, atalhos e ordenação não contam). */
 export function countPanelFilters(filters: FilterState): number {
   return [
     filters.hood !== "all", filters.company !== "all", filters.typology !== "all", filters.parking !== "all",

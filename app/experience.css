@@ -289,3 +289,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial
 .legend-more { font-size: 15px; color: var(--blue); }
 .map-legend-v2.is-stages[open] .legend-more { opacity: .6; }
 @media (max-width: 760px) { .map-legend-v2.is-stages { right: auto; max-width: calc(100% - 20px); } }
+.chip.is-on { background: #e5f4ec; border-color: #8cc6a6; color: #19643f; }
+.chip-link { color: var(--blue); border-color: #a9c8e0; }
+.pcard-badges { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin-top: 3px; }
+.pcard-badges .map-badge { margin-top: 0; }
+.table-badge { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; line-height: 1.3; background: #eef3fb; color: #24518a; }

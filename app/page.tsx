@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo, useEffect, useCallback, useRef } from "react";
-import { Navigation2, Tag, Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
+import { Link2, Navigation2, Tag, Search, MapPin, Building2, ExternalLink, Map as MapIcon, List, LayoutGrid, LocateFixed, SlidersHorizontal, Copy, Navigation, X, Heart, GitCompareArrows, Share2, MessageCircle, BookOpen, FileSpreadsheet } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from "@/components/ui/sheet";
@@ -11,7 +11,7 @@ import ProjectMap, { type MapPoint } from "@/components/project-map";
 import { distanceKm, formatDistance, formatShortPrice, stageKey, STAGE_LABELS, type Coords, type StageKey } from "@/lib/map-format";
 import FilterPanel from "@/components/filter-panel";
 import { DeliverySummary, Materials, ProjectFeedback, formatPrice, formatCheckedDate } from "@/components/project-parts";
-import { matchesDelivery } from "@/lib/project-insights";
+import { matchesDelivery, isCurrentMonthTable } from "@/lib/project-insights";
 import { FAVORITES_KEY, SHARE_KEY, validIds, parseSelection, matchingOffers, matchesBudget, type UnitOffer } from "@/lib/project-search";
 import { DEFAULT_FILTERS, filtersFromSearch, filtersToSearch, countPanelFilters, type FilterState, type ViewMode, type SortMode } from "@/lib/filter-state";
 import {
@@ -22,6 +22,9 @@ import { useBackToClose, useMediaQuery } from "@/hooks/use-back-to-close";
 
 const PARKING_TEXT: Record<string, string> = { none: "Sem vaga", "1": "Com vaga", "2": "2 ou mais" };
 const SORT_LABELS: Record<SortMode, string> = { recommended: "Recomendados", "price-asc": "Menor preço", "price-desc": "Maior preço", name: "Nome A–Z", distance: "Mais perto" };
+
+/** Data da tabela comercial: a das unidades lidas ou, sem elas, a da tabela vinculada. */
+const tableDateOf = (p: Project) => offersById[p.id]?.offers.length ? offersById[p.id].tableDate : p.tables[0]?.date;
 
 /** Mesmo critério de filtragem da versão anterior, agora numa função única (usada também nas contagens). */
 function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedIds: string[]) {
@@ -36,6 +39,7 @@ function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedI
     && matchesDelivery(p, f.deliveryYear)
     && (!f.area || (p.lat !== null && p.lng !== null && p.lat >= f.area.south && p.lat <= f.area.north && p.lng >= f.area.west && p.lng <= f.area.east))
     && matchesPrice
+    && (!f.currentTable || isCurrentMonthTable(tableDateOf(p)))
     && (!f.onlyFavorites || favorites.includes(p.id))
     && (!sharedIds.length || sharedIds.includes(p.id));
 }
@@ -220,6 +224,12 @@ export default function Home() {
   const stagesOnMap = useMemo(() => (Object.keys(STAGE_LABELS) as StageKey[]).filter((key) => mapPoints.some((p) => p.stage === key)), [mapPoints]);
   const countFor = useCallback((patch: Partial<FilterState>) => catalog.filter((p) => matchesFilters(p, { ...f, ...patch }, favorites, sharedIds)).length, [f, favorites, sharedIds]);
   const panelCount = countPanelFilters(f);
+  const currentTableCount = useMemo(() => catalog.filter((p) => isCurrentMonthTable(tableDateOf(p))).length, []);
+  const copySearchLink = async () => {
+    const url = window.location.href.split("#")[0];
+    try { await navigator.clipboard.writeText(url); setShareFallback(""); setNotice("Link da busca copiado. Quem receber precisa da senha do site."); }
+    catch { setShareFallback(url); setNotice("Copie o link abaixo para compartilhar esta busca."); }
+  };
 
   function distanceTo(p: Project) {
     return userLocation && typeof p.lat === "number" && typeof p.lng === "number" ? distanceKm(userLocation, { lat: p.lat, lng: p.lng }) : null;
@@ -336,12 +346,17 @@ export default function Home() {
             <button type="button" className={`chip chip-toggle${f.onlyFavorites ? " is-active" : ""}`} aria-pressed={f.onlyFavorites} onClick={() => update({ onlyFavorites: !f.onlyFavorites })}>
               <Heart size={14} fill={f.onlyFavorites ? "currentColor" : "none"} aria-hidden="true" />Favoritos ({favorites.length})
             </button>
+            <button type="button" className={`chip chip-toggle${f.currentTable ? " is-on" : ""}`} aria-pressed={f.currentTable} onClick={() => update({ currentTable: !f.currentTable })} title="Tabela comercial datada do mês atual">
+              Tabela do mês ({currentTableCount})
+            </button>
             <button type="button" className="chip" onClick={() => setPendingOpen(true)}>Pendências ({pending.length})</button>
             {activeFilters.map((filter) => <button type="button" className="chip chip-active" key={filter.key} onClick={filter.remove} aria-label={`Remover filtro ${filter.label}`}>{filter.label}<X size={12} aria-hidden="true" /></button>)}
-            {(activeFilters.length > 0 || f.onlyFavorites) && <button type="button" className="chip chip-clear" onClick={clear}>Limpar tudo</button>}
+            {(activeFilters.length > 0 || f.onlyFavorites || f.currentTable) && <button type="button" className="chip chip-link" onClick={copySearchLink}><Link2 size={14} aria-hidden="true" />Copiar link da busca</button>}
+            {(activeFilters.length > 0 || f.onlyFavorites || f.currentTable) && <button type="button" className="chip chip-clear" onClick={clear}>Limpar tudo</button>}
           </div>
           {exactBudget && <p className="unit-filter-notice">Busca por unidade comprovada. {unverifiedCount} empreendimentos sem unidade confirmada para os critérios selecionados ficam fora. O levantamento por unidade ainda é parcial; consulte a tabela para outras opções.</p>}
           {notice && <p role="status" className="selection-notice">{notice}</p>}
+          {shareFallback && comparison.length === 0 && <input className="share-fallback" aria-label="Link para compartilhar" value={shareFallback} readOnly onFocus={(e) => e.target.select()} />}
           <div className="count-row">
             <p className="count-text" aria-live="polite"><strong>{filtered.length} lançamentos</strong><span> · {located} no mapa</span></p>
             <div className="count-tools">
@@ -381,7 +396,7 @@ export default function Home() {
                   <span className="pcard-eyebrow">{p.company}</span>
                   <span className="pcard-name" role="heading" aria-level={2}>{p.name}</span>
                   <span className="pcard-loc"><MapPin size={13} aria-hidden="true" />{p.neighborhood}{distanceLabel(p) && <span className="pcard-distance"> · {distanceLabel(p)}</span>}</span>
-                  {mapBadge(p)}
+                  <span className="pcard-badges">{mapBadge(p)}{isCurrentMonthTable(tableDateOf(p)) && <span className="table-badge">Tabela de {tableDateOf(p)}</span>}</span>
                 </span>
               </button>
               <div className="pcard-body">

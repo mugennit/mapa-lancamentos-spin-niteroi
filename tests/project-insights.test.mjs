@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {matchesDelivery,deliveryYearOf,freshnessOf,commercialMonth} from '../lib/project-insights.ts';
+import {matchesDelivery,deliveryYearOf,freshnessOf,commercialMonth,isCurrentMonthTable} from '../lib/project-insights.ts';
 import {matchingOffers,matchesBudget} from '../lib/project-search.ts';
 
 test('delivery deadlines include confirmed ready and exclude missing or later forecasts',()=>{
@@ -34,4 +34,13 @@ test('price-only searches find a matching unit above the project starting price'
   assert(!matchesBudget({price:400000},table,'all','500000','600000'));
   assert.equal(matchingOffers(table,'2 quartos','','600000','1').length,0);
   assert(matchesBudget({price:400000},undefined,'all','','500000'));
+});
+
+test('current-month table badge uses only the table date',()=>{
+  const now=new Date('2026-11-23T12:00:00Z');
+  assert(isCurrentMonthTable('Novembro 2026',now));
+  assert(!isCurrentMonthTable('Outubro 2026',now));
+  assert(!isCurrentMonthTable('Novembro 2025',now));
+  assert(!isCurrentMonthTable('A confirmar',now));
+  assert(!isCurrentMonthTable(null,now));
 });
