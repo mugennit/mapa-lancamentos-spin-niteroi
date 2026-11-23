@@ -4910,7 +4910,8 @@
     "address": "Rua Dr. Herotides de Oliveira, 18",
     "book": {
       "name": "Spin_BOOK-BAUME-DIGITAL — leitura.pdf",
-      "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk"
+      "url": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk",
+      "sha256": "0a169b91abbabae3cf26e090dbe8dea3a10b97ace51cf2a50ee1514d72706448"
     },
     "tables": [
       {

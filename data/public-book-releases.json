@@ -10,6 +10,16 @@
       "reviewedAt": "2026-11-23",
       "reviewedBy": "ChatGPT",
       "notes": "36 páginas lidas integralmente e conferidas visualmente na cópia do Google Drive. Sem preços, condições de pagamento, espelho de disponibilidade ou informações internas. A página 13 descreve tipologias e áreas, não estoque de unidades. Na página 36, Vendas identifica a Spin; não há contato interno."
+    },
+    {
+      "projectId": "baume",
+      "fileUrl": "https://drive.google.com/file/d/1rEN3IlzeObvi1z7Poq2ddwJh_9dZOIxC/view?usp=drivesdk",
+      "sha256": "0a169b91abbabae3cf26e090dbe8dea3a10b97ace51cf2a50ee1514d72706448",
+      "approved": false,
+      "needsClientVersion": true,
+      "reviewedAt": "2026-11-23",
+      "reviewedBy": "ChatGPT",
+      "notes": "51 páginas conferidas visualmente e lidas com apoio de OCR. Não encontrei preços ou espelho de vendas. Reprovado para clientes pela instrução editorial interna na página 44: números do R3 a conferir no memorial descritivo e no registro de incorporação antes da publicação. A página 24 também informa medidas a conferir na planta executiva. Confirmar esses dados em fonte técnica e preparar versão pública revisada; não basta apagar as ressalvas. Preservar o book e o pin internos."
     }
   ]
 }
