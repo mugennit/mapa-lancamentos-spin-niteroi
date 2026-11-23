@@ -3637,7 +3637,13 @@
       "1 quarto",
       "2 quartos"
     ],
-    "sourceUrl": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk"
+    "sourceUrl": "https://drive.google.com/file/d/1DfYPtTSe3lNyJpz7g_qWKwM5zHfbQS1J/view?usp=drivesdk",
+    "delivery": "Dezembro 2029",
+    "deliveryStatus": "Em construção",
+    "deliveryStatusEvidence": "Frederico Costa confirmou no chat em 23/11/2026: obra iniciada, bem no início.",
+    "deliveryEvidence": "Previsão dezembro de 2029, informada por Frederico Costa no chat.",
+    "deliverySource": "Confirmação direta de Frederico Costa no chat do projeto",
+    "deliveryStatusCheckedAt": "2026-11-23"
   },
   "conviva-piratininga-ii": {
     "typologies": [
