@@ -53,3 +53,19 @@ test('attributes.json, materials.json, unit-offers.json e materials-audit.json',
   const audit=read('materials-audit.json');
   assert.ok(isStr(audit.checkedAt)&&/^\d{4}-\d{2}-\d{2}$/.test(audit.checkedAt),'materials-audit.checkedAt deve ser AAAA-MM-DD');
 });
+
+test('public-book-releases.json: lista de liberação dos books da vitrine',()=>{
+  const file=read('public-book-releases.json');
+  assert.ok(Array.isArray(file.releases),'releases deve ser uma lista');
+  const ids=new Set(read('catalog.json').map(p=>p.id));
+  for(const r of file.releases){
+    const where=`${r.projectId}/${r.fileUrl}`;
+    assert.ok(isStr(r.projectId)&&ids.has(r.projectId),`${where}: projectId inexistente no catálogo`);
+    assert.ok(isStr(r.fileUrl)&&r.fileUrl.startsWith('https://'),`${where}: fileUrl`);
+    assert.ok(/^[a-f0-9]{64}$/i.test(r.sha256||''),`${where}: sha256 deve ter 64 caracteres hexadecimais`);
+    assert.equal(typeof r.approved,'boolean',`${where}: approved deve ser true ou false`);
+    assert.ok(r.withdrawn===undefined||(r.withdrawn===true&&r.approved===false),`${where}: withdrawn só com approved false`);
+    assert.ok(optional(r.reviewedAt,v=>/^\d{4}-\d{2}-\d{2}$/.test(v)),`${where}: reviewedAt deve ser AAAA-MM-DD`);
+  }
+  for(const p of read('catalog.json'))if(p.book&&p.book.sha256!==undefined)assert.ok(/^[a-f0-9]{64}$/i.test(p.book.sha256),`${p.id}: book.sha256 inválido`);
+});

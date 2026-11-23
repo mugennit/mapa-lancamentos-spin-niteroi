@@ -4,6 +4,7 @@
 // Não depende dos mosaicos do mapa (podem estar bloqueados pela rede).
 import { chromium, devices } from "playwright";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 
 const base = (process.env.BASE_URL || "http://localhost:5173").replace(/\/$/, "");
 const password = process.env.SITE_PASSWORD;
@@ -60,5 +61,74 @@ async function run(name, contextOptions, mobile) {
   await browser.close();
 }
 
+// Versão pública: abre sem senha e NADA de tabela ou preço chega ao navegador.
+async function publicCheck() {
+  const read = (name) => JSON.parse(readFileSync(new URL(`../../data/${name}`, import.meta.url)));
+  const catalog = read("catalog.json"), offers = read("unit-offers.json");
+  const tableUrls = [...new Set([...catalog.flatMap((p) => (p.tables || []).map((t) => t.url)), ...Object.values(offers).map((t) => t.tableUrl)].filter(Boolean))];
+  const prices = [...new Set(Object.values(offers).flatMap((t) => t.offers.map((o) => String(o.price))).filter((v) => v.length >= 6))];
+  const browser = await chromium.launch();
+  const page = await (await browser.newContext({ ...devices["iPhone 13"] })).newPage();
+  const bodies = [];
+  page.on("response", async (response) => {
+    if (!response.url().startsWith(base)) return;
+    const type = response.headers()["content-type"] || "";
+    if (/javascript|html|json|text|x-component/.test(type)) { try { bodies.push([response.url(), await response.text()]); } catch {} }
+  });
+  await page.goto(`${base}/vitrine`);
+  assert.match(page.url(), /\/vitrine/, "vitrine: não deveria pedir senha");
+  await page.locator("main[data-ready='1']").waitFor();
+  await page.locator(".pcard").first().getByRole("button", { name: "Detalhes", exact: true }).click();
+  await page.locator(".detail-body").waitFor();
+  await page.waitForTimeout(800);
+  const total = catalog.length;
+  assert.equal(await page.locator(".pcard").count(), total, "vitrine: catálogo completo");
+  const leaks = [];
+  for (const [url, text] of bodies) {
+    for (const table of tableUrls) if (text.includes(table)) leaks.push(`${url}: link de tabela`);
+    for (const price of prices) if (new RegExp(`(?<![0-9.])${price}(?![0-9])`).test(text)) { leaks.push(`${url}: preço ${price}`); break; }
+    if (/"price"\s*:/.test(text)) leaks.push(`${url}: campo price`);
+  }
+  assert.deepEqual(leaks, [], "vitrine: informação comercial enviada ao navegador público");
+  console.log(`ok vitrine: ${total} empreendimentos, ${bodies.length} respostas sem preços nem tabelas`);
+  await browser.close();
+}
+
+// Link do corretor: gerado na área interna e usado na vitrine (chave própria).
+async function brokerCheck() {
+  const browser = await chromium.launch();
+  const context = await browser.newContext({ viewport: { width: 1280, height: 860 } });
+  const page = await context.newPage();
+  await page.goto(`${base}/login`);
+  await page.fill("input[type=password]", password);
+  await page.press("input[type=password]", "Enter");
+  await page.waitForURL(`${base}/`);
+  await page.locator("main[data-ready='1']").waitFor();
+  await page.getByRole("button", { name: "Link para clientes" }).click();
+  await page.getByLabel("Seu nome").fill("Corretor Teste");
+  await page.getByLabel(/Seu WhatsApp/).fill("(21) 99876-5432");
+  await page.getByRole("button", { name: "Gerar meu link" }).click();
+  const output = page.locator("#broker-link-output");
+  await output.waitFor({ timeout: 10000 });
+  const link = await output.inputValue();
+  assert.match(link, /\/vitrine\?c=/, "link do corretor");
+  // Cliente (sem sessão) abre o link.
+  const client = await (await browser.newContext({ viewport: { width: 1280, height: 860 } })).newPage();
+  await client.goto(link);
+  await client.locator("main[data-ready='1']").waitFor();
+  assert.match(await client.locator(".topbar small").textContent(), /Corretor Teste/, "nome do corretor na vitrine");
+  const href = await client.locator(".consult-button").first().getAttribute("href");
+  assert.match(href, /^https:\/\/wa\.me\/5521998765432\?text=/, "WhatsApp do corretor");
+  // Link adulterado: sem corretor e sem botão (contato central não configurado).
+  const forged = link.replace(/c=([^.]+)\./, (_, payload) => `c=${payload.slice(0, -3)}abc.`);
+  await client.goto(forged);
+  await client.locator("main[data-ready='1']").waitFor();
+  assert.equal(await client.locator(".consult-button").count(), 0, "link adulterado não pode mostrar WhatsApp");
+  console.log("ok link do corretor: gerado, aceito na vitrine e recusado quando adulterado");
+  await browser.close();
+}
+
+await publicCheck();
+await brokerCheck();
 await run("celular", { ...devices["iPhone 13"] }, true);
 await run("computador", { viewport: { width: 1440, height: 900 } }, false);

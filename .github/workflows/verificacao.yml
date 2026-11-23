@@ -33,14 +33,15 @@ jobs:
         run: node --test "tests/*.test.mjs"
 
   navegador:
-    name: Navegador (celular e computador)
+    name: Build de produção, acesso direto e navegador
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     needs: dados-e-regras
     env:
-      # Valores fictícios, só para este teste. A senha real nunca entra aqui.
+      # Valores fictícios, só para este teste. As chaves reais nunca entram aqui.
       SITE_PASSWORD: senha-de-teste-ci
       SITE_SESSION_SECRET: segredo-de-teste-ci-nao-usar-em-producao
+      BROKER_LINK_SECRET: chave-de-links-de-teste-ci-nao-usar
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -52,16 +53,25 @@ jobs:
           corepack pnpm install --frozen-lockfile
       - name: Instalar Chromium
         run: npx playwright install --with-deps chromium
-      - name: Subir o site localmente
+      - name: Build igual ao da Vercel
+        run: VERCEL=1 NITRO_PRESET=vercel npx vite build
+      - name: Subir o build de produção (simulador da Vercel)
         run: |
-          printf 'SITE_PASSWORD=%s\nSITE_SESSION_SECRET=%s\n' "$SITE_PASSWORD" "$SITE_SESSION_SECRET" > .env
-          nohup node scripts/run-framework.mjs dev > dev.log 2>&1 &
-          for i in $(seq 1 60); do curl -sf -o /dev/null http://localhost:5173/login && exit 0; sleep 2; done
-          cat dev.log; exit 1
-      - name: Teste de fumaça
+          nohup node tests/e2e/vercel-sim.mjs > sim.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:4181/login && exit 0; sleep 2; done
+          cat sim.log; exit 1
+      - name: Acesso direto sem autenticação
+        run: node tests/e2e/access.mjs
+        env:
+          BASE_URL: http://localhost:4181
+      - name: Navegador (vitrine, link do corretor, celular e computador)
         run: node tests/e2e/smoke.mjs
         env:
-          BASE_URL: http://localhost:5173
+          BASE_URL: http://localhost:4181
+      - name: Clique em área vazia do mapa (computador e celular)
+        run: node tests/e2e/map-click.mjs
+        env:
+          BASE_URL: http://localhost:4181
       - name: Log do servidor (se falhar)
         if: failure()
-        run: tail -100 dev.log
+        run: tail -100 sim.log

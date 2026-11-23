@@ -2,9 +2,9 @@
 // Painel de filtros agrupado em Onde / O quê / Quanto / Quando, com contagem
 // por opção. A regra de unidade continua em `lib/project-search`: preço,
 // tipologia e vagas precisam corresponder à mesma unidade da tabela.
-import { X } from "lucide-react";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
-import { PRICE_PRESETS, digitsOnly, formatThousands, type FilterState, type ParkingFilter } from "@/lib/filter-state";
+import type { ReactNode } from "react";
+import type { FilterState, ParkingFilter } from "@/lib/filter-state";
 
 export type FacetCounter = (patch: Partial<FilterState>) => number;
 
@@ -41,31 +41,22 @@ function CountSelect({ id, label, value, values, onChange, count, display }: {
   </div>;
 }
 
-function PriceInput({ label, value, placeholder, onChange }: { label: string; value: string; placeholder: string; onChange: (digits: string) => void }) {
-  return <label className="fp-price">
-    <span>{label}</span>
-    <span className="fp-price-wrap">
-      <span aria-hidden="true">R$</span>
-      <input inputMode="numeric" autoComplete="off" aria-label={`Preço ${label.toLowerCase()} em reais`} placeholder={placeholder}
-        value={formatThousands(value)} onChange={(event) => onChange(digitsOnly(event.target.value))} />
-      {value && <button type="button" className="fp-price-clear" aria-label={`Limpar preço ${label.toLowerCase()}`} onClick={() => onChange("")}><X size={14} /></button>}
-    </span>
-  </label>;
-}
-
-export default function FilterPanel({ filters, update, count, options, parkingCoverage }: {
+export default function FilterPanel({ filters, update, count, options, parkingCoverage = 0, variant = "internal", priceSection = null }: {
   filters: FilterState;
   update: (patch: Partial<FilterState>) => void;
   count: FacetCounter;
   options: Options;
-  parkingCoverage: number;
+  parkingCoverage?: number;
+  /** "public": sem preço e sem vagas (versão para clientes). */
+  variant?: "internal" | "public";
+  /** Seção "Quanto" (só na área interna; fica em outro arquivo para não ir à versão pública). */
+  priceSection?: ReactNode;
 }) {
+  const isPublic = variant === "public";
   const parkingValue = filters.parking === "all" ? "all" : PARKING_LABELS[filters.parking];
   const toggleFeature = (feature: string) => update({
     features: filters.features.includes(feature) ? filters.features.filter((item) => item !== feature) : [...filters.features, feature],
   });
-  const minNumber = Number(filters.minPrice || 0), maxNumber = Number(filters.maxPrice || 0);
-  const invertedRange = filters.minPrice !== "" && filters.maxPrice !== "" && minNumber > maxNumber;
 
   return <div className="fp">
     <section className="fp-section" aria-labelledby="fp-onde">
@@ -81,10 +72,10 @@ export default function FilterPanel({ filters, update, count, options, parkingCo
     <section className="fp-section" aria-labelledby="fp-oque">
       <h3 id="fp-oque">O quê</h3>
       <CountSelect id="fp-typology" label="Tipologia" value={filters.typology} values={options.typologies} onChange={(typology) => update({ typology })} count={(typology) => count({ typology })} />
-      <CountSelect id="fp-parking" label="Vaga de garagem" value={parkingValue} values={Object.values(PARKING_LABELS)}
+      {!isPublic && <><CountSelect id="fp-parking" label="Vaga de garagem" value={parkingValue} values={Object.values(PARKING_LABELS)}
         onChange={(label) => update({ parking: (Object.entries(PARKING_LABELS).find(([, text]) => text === label)?.[0] as ParkingFilter) ?? "all" })}
         count={(label) => count({ parking: (Object.entries(PARKING_LABELS).find(([, text]) => text === label)?.[0] as ParkingFilter) ?? "all" })} />
-      <small className="fp-hint">Vagas conferidas em {parkingCoverage} empreendimentos. Onde a tabela não confirma a informação, a opção fica fora deste filtro.</small>
+      <small className="fp-hint">Vagas conferidas em {parkingCoverage} empreendimentos. Onde a tabela não confirma a informação, a opção fica fora deste filtro.</small></>}
       <CountSelect id="fp-company" label="Construtora" value={filters.company} values={options.companies} onChange={(company) => update({ company })} count={(company) => count({ company })} />
       <fieldset className="fp-features">
         <legend>Características do condomínio</legend>
@@ -102,27 +93,7 @@ export default function FilterPanel({ filters, update, count, options, parkingCo
       </fieldset>
     </section>
 
-    <section className="fp-section" aria-labelledby="fp-quanto">
-      <h3 id="fp-quanto">Quanto</h3>
-      <p className="fp-sub">Faixa de preço total do imóvel</p>
-      <div className="fp-presets" role="group" aria-label="Atalhos de faixa de preço">
-        {PRICE_PRESETS.map((preset) => {
-          const active = filters.minPrice === preset.min && filters.maxPrice === preset.max;
-          return <button type="button" key={preset.label} className={`fp-preset${active ? " is-active" : ""}`} aria-pressed={active}
-            onClick={() => update(active ? { minPrice: "", maxPrice: "" } : { minPrice: preset.min, maxPrice: preset.max })}>
-            {preset.label} <small>({count({ minPrice: preset.min, maxPrice: preset.max })})</small>
-          </button>;
-        })}
-      </div>
-      <div className="fp-price-row">
-        <PriceInput label="Mínimo" value={filters.minPrice} placeholder="Sem mínimo" onChange={(minPrice) => update({ minPrice })} />
-        <PriceInput label="Máximo" value={filters.maxPrice} placeholder="Sem máximo" onChange={(maxPrice) => update({ maxPrice })} />
-      </div>
-      {invertedRange && <small className="fp-warning" role="alert">O mínimo está acima do máximo. Ajuste a faixa.</small>}
-      <small className="fp-hint">{filters.typology === "all" && filters.parking === "all"
-        ? "Valores totais do imóvel, não de entrada. Sem tipologia, usa o preço inicial do empreendimento. Aluguéis não entram."
-        : "Com tipologia ou vaga, só entram unidades em que preço, tipologia e vagas estão comprovados na mesma linha da tabela."}</small>
-    </section>
+    {!isPublic && priceSection}
 
     <section className="fp-section" aria-labelledby="fp-quando">
       <h3 id="fp-quando">Quando</h3>

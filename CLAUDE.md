@@ -48,15 +48,47 @@ Regras decorrentes:
   `lib/site-auth.ts` (sessão assinada com HMAC), `app/api/auth`, `app/api/logout`
   e `app/login`. `app/api/report` também verifica a sessão. **Não enfraquecer nem
   contornar.**
-- Variáveis de ambiente: `SITE_PASSWORD`, `SITE_SESSION_SECRET` e
-  `REPORT_TO_EMAIL`. Nunca registrar valores em código, commits, logs, PRs ou chat.
+- Variáveis de ambiente: `SITE_PASSWORD`, `SITE_SESSION_SECRET`, `REPORT_TO_EMAIL`,
+  `BROKER_LINK_SECRET` (links de corretor) e `PUBLIC_CONTACT_WHATSAPP` /
+  `PUBLIC_CONTACT_NAME` (contato central da vitrine, por enquanto sem
+  configuração). Nunca registrar valores em código, commits, logs, PRs ou chat.
 - Para teste local, usar valores fictícios num `.env` (já ignorado pelo Git) e
   apagá-lo ao terminar.
-- Os dados vão embutidos no JavaScript público e podem ser lidos sem senha
-  (`docs/seguranca-exposicao-dados.md`). Em 23/11/2026 o responsável decidiu
-  **não** aplicar a correção. Não reabrir o assunto sem pedido.
-- `proxy.ts` libera só o que não tem dados: login, autenticação, arquivos
-  estáticos do build, `manifest.webmanifest` e `/icons/`.
+- **Dados comerciais só depois da sessão validada.** `app/page.tsx` é componente
+  de servidor: confere a sessão (além do `proxy.ts`), monta o pacote
+  (`buildCatalogPayload`) e entrega à interface (`components/catalog-app.tsx`).
+  **Nenhum componente de cliente pode importar `data/*.json`** (só tipos, com
+  `import type`). As respostas autenticadas saem com `Cache-Control: private, no-store`.
+- `tests/e2e/access.mjs` testa o acesso direto sem autenticação contra o build
+  de produção: página, RSC, APIs, cookie forjado e **todos** os arquivos públicos.
+- `proxy.ts` libera só o que não tem dados internos: login, autenticação,
+  arquivos estáticos do build, `manifest.webmanifest`, `/icons/` e `/vitrine`.
+
+## Versão pública (`/vitrine`)
+
+- Sem senha. Catálogo completo, mapa (mesma regra de elegibilidade) e books;
+  **sem preços, tabelas, unidades, vagas, datas de leitura, notas ou fontes**.
+- Os dados são filtrados no servidor (`app/vitrine/page.tsx`) por **lista de
+  campos permitidos** (`lib/public-catalog.ts`, `PUBLIC_FIELDS`). Nunca enviar o
+  pacote interno.
+- `components/public-catalog.tsx` e tudo o que ele importa **não podem importar
+  `data/*.json` nem `components/catalog-app.tsx`**, nem os atalhos de preço
+  (`lib/price-presets.ts`, `components/filter-price.tsx`). O teste de navegador
+  confere que nenhum link de tabela ou preço chega à vitrine.
+- Books: liberados por **arquivo e versão**. Só aparecem com aprovação em
+  `data/public-book-releases.json` para o mesmo `projectId`, `fileUrl` e
+  `sha256` de `catalog.json → book`. A revisão do conteúdo é feita pela rotina do
+  ChatGPT (`docs/liberacao-books.md`). Sem aprovação, ou com PDF substituído
+  (hash diferente), o book fica indisponível; o empreendimento continua visível.
+- Link do corretor: gerado na área interna (botão "Link para clientes",
+  `app/api/broker-link`), assinado com HMAC usando a chave exclusiva
+  `BROKER_LINK_SECRET` (`lib/broker-link.ts`), separada da sessão. Trocar a senha
+  ou a chave de sessão não invalida os links; trocar `BROKER_LINK_SECRET`, sim.
+  Sem essa chave, a geração fica desativada e a vitrine ignora o parâmetro `c`,
+  que precisa ser preservado no endereço durante a navegação.
+- Sem corretor: o contato central vem de `PUBLIC_CONTACT_WHATSAPP` (e
+  `PUBLIC_CONTACT_NAME`, opcional) no ambiente da Vercel. Sem essa variável,
+  **não exibir botão de WhatsApp** e nunca usar um número presumido.
 
 ## Regras dos dados (valem para qualquer alteração de código)
 
@@ -100,6 +132,10 @@ derivadas dos dados, nunca listas fixas.
   `coverage` e `offers[]` (`unit`, `typology`, `unitKind?`, `price`, `priceNote?`,
   `area?`, `parkingSpaces?`, `parkingCountIsMinimum?`, `parkingNote?`, `offerKind?`).
 - `data/materials-audit.json`: `checkedAt`, a data exibida como “Fontes conferidas em”.
+- `catalog.json → book.sha256` (opcional): SHA-256 do PDF atual no Drive,
+  produzido pela rotina do ChatGPT. Sem ele, o book não vai para a vitrine.
+- `data/public-book-releases.json`: decisões de revisão dos books para a vitrine
+  (mantido pelo ChatGPT; ver `docs/liberacao-books.md`). Não apagar.
 - Os relatórios diários (`*-YYYY-MM-DD.json`) são do ChatGPT; o site não depende deles.
 
 Se uma mudança de interface exigir um campo novo nos dados, combine antes com o
@@ -107,12 +143,18 @@ responsável: o campo precisa ser produzido pela rotina do ChatGPT.
 
 ## Estrutura do código
 
-- `app/page.tsx`: página principal (cliente), com estado dos filtros, cards, lista e folhas.
+- `app/page.tsx`: área interna (servidor): valida a sessão e entrega os dados.
+- `components/catalog-app.tsx`: interface interna (cliente): filtros, cards, lista e folhas.
+- `app/vitrine/page.tsx` e `components/public-catalog.tsx`: versão pública.
 - `app/globals.css` (base original) e `app/experience.css` (layout v2).
-- `components/project-map.tsx`: mapa, agrupamento, rótulos e leque.
+- `components/project-map.tsx`: mapa, agrupamento, rótulos e leque. Clique em área
+  vazia desmarca, fecha o resumo e recolhe o leque, sem mudar zoom, posição ou filtros.
 - `components/filter-panel.tsx`: painel Onde / O quê / Quanto / Quando.
 - `components/project-inventory.tsx`, `project-comparison.tsx`, `project-parts.tsx`.
-- `lib/catalog.ts`: monta o catálogo a partir de `data/`.
+- `lib/catalog-rules.ts` (`buildCatalogPayload`), `lib/catalog-types.ts` e
+  `lib/catalog-view.ts`: pacote interno, tipos e derivações no navegador.
+- `lib/public-catalog.ts`, `lib/broker-link.ts`: vitrine, liberação de books e
+  links de corretor.
 - `lib/catalog-rules.ts`, `lib/map-clusters.ts`, `lib/filter-state.ts`,
   `lib/project-search.ts`, `lib/project-insights.ts`: funções puras, testadas.
 - `hooks/use-back-to-close.ts`: o "voltar" do celular fecha painéis.
@@ -129,9 +171,12 @@ corepack pnpm install --frozen-lockfile   # instalar dependências
 npm test                                  # testes (node --test, sem dependências extras)
 npx tsc --noEmit -p .                     # tipos (apague tsconfig.tsbuildinfo depois)
 npm run lint                              # 0 erros (há avisos sobre <img>)
-VERCEL=1 npx vite build                   # build igual ao da Vercel (saída em .vercel/, ignorada)
+VERCEL=1 NITRO_PRESET=vercel npx vite build   # build igual ao da Vercel (saída em .vercel/, ignorada)
 node scripts/run-framework.mjs dev        # servidor local em http://localhost:5173 (precisa de .env local)
-BASE_URL=http://localhost:5173 SITE_PASSWORD=<senha do .env> node tests/e2e/smoke.mjs   # teste de navegador
+VERCEL=1 NITRO_PRESET=vercel npx vite build && PORT=4181 node tests/e2e/vercel-sim.mjs   # build de produção local (precisa das variáveis no ambiente)
+BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/access.mjs   # acesso direto sem autenticação
+BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/smoke.mjs    # navegador (vitrine, corretor, interno)
+BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/map-click.mjs # área vazia do mapa desmarca (computador e celular)
 ```
 
 ## Verificação automática (GitHub Actions)
@@ -139,7 +184,8 @@ BASE_URL=http://localhost:5173 SITE_PASSWORD=<senha do .env> node tests/e2e/smok
 `.github/workflows/verificacao.yml` roda em todo push (inclusive os commits
 diários do ChatGPT na `main`) e em PRs. Tem duas etapas:
 - `npm test`: regras, contrato dos dados e formatos;
-- teste de navegador (`tests/e2e/smoke.mjs`), com senha fictícia só de teste.
+- build de produção com simulador da Vercel, teste de acesso direto sem
+  autenticação e teste de navegador, com chaves fictícias só de teste.
 
 A verificação **apenas avisa**: não bloqueia commits nem a Vercel. Se falhar
 depois de um commit diário, o problema costuma estar nos dados. Avise o

@@ -5,11 +5,17 @@ export async function proxy(request: NextRequest) {
   const secret = process.env.SITE_SESSION_SECRET;
   const token = request.cookies.get("spinmap_session")?.value;
 
-  if (secret && (await isValidSiteSession(token, secret))) return NextResponse.next();
+  if (secret && (await isValidSiteSession(token, secret))) {
+    // Respostas com dados internos não podem ficar em cache compartilhado.
+    const response = NextResponse.next();
+    response.headers.set("Cache-Control", "private, no-store");
+    return response;
+  }
   return NextResponse.redirect(new URL("/login", request.url));
 }
 
 export const config = {
   // manifest.webmanifest e /icons só têm nome e ícone do app (sem dados), para poder instalar.
-  matcher: ["/((?!login|api/auth|api/logout|_next/static|_next/image|favicon.ico|robots.txt|manifest.webmanifest|icons/).*)"],
+  // /vitrine é a versão pública: o servidor só envia campos permitidos (sem preços nem tabelas).
+  matcher: ["/((?!login|api/auth|api/logout|_next/static|_next/image|favicon.ico|robots.txt|manifest.webmanifest|icons/|vitrine).*)"],
 };
