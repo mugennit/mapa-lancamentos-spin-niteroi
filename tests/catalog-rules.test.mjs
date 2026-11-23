@@ -32,7 +32,9 @@ test('current catalog: everyone stays listed and the map only holds eligible pro
   for(const p of onMap){
     assert.equal(p.addressReviewStatus,'Conferido',p.id);
     assert.ok(Number.isFinite(p.lat)&&Number.isFinite(p.lng),p.id);
-    assert.ok(p.lat>-23.2&&p.lat<-22.7&&p.lng>-43.3&&p.lng<-42.8,`${p.id} outside the Niterói region`);
+    // Faixa ampla (Leste Metropolitano do RJ) só para pegar latitude/longitude trocadas
+    // ou sinal invertido; não limita novos bairros nem municípios vizinhos.
+    assert.ok(p.lat>-23.4&&p.lat<-22.4&&p.lng>-43.8&&p.lng<-42.3,`${p.id}: coordinates look swapped or outside RJ`);
   }
   for(const p of catalog.filter(p=>!isMapEligible(p,materialUrls)))assert.ok(pendingIssues(p,materialUrls).length>0,p.id);
   // Referência desta versão (23/11/2026): 116 no catálogo e 83 no mapa. Não é

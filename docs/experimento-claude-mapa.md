@@ -71,8 +71,9 @@ npm test
 ```
 - `tests/catalog-rules.test.mjs`: regras do mapa e invariantes sobre o catálogo
   real (todos continuam na lista; no mapa só quem tem book, tabela, endereço
-  "Conferido" e coordenadas). Não fixa as quantidades: 116/83 são só a referência
-  impressa no log desta versão, para não travar as inclusões da rotina diária.
+  "Conferido" e coordenadas). Não fixa as quantidades (em 23/11/2026, após o ponto do
+  Lothus: 116 no catálogo e 84 no mapa); os números só aparecem no log, para não
+  travar as inclusões da rotina diária.
 - `tests/map-clusters.test.mjs`: agrupamento, ausência de sobreposição, leque
   sem alterar coordenadas e distribuição de rótulos.
 - `tests/filter-state.test.mjs`: filtros no endereço, descarte de valores
