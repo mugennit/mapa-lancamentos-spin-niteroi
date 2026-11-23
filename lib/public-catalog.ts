@@ -83,6 +83,8 @@ export type BookRelease = {
   /** SHA-256 do PDF revisado (64 caracteres hexadecimais). */
   sha256: string;
   approved: boolean;
+  /** Retirada da liberação (por exemplo, antes de substituir o PDF no mesmo link). */
+  withdrawn?: boolean;
   reviewedAt?: string;
   reviewedBy?: string;
   notes?: string;
@@ -96,11 +98,25 @@ export type ReleaseProject = {
 const SHA256 = /^[a-f0-9]{64}$/;
 
 /**
+ * Decisão vigente para um empreendimento, arquivo e versão: a lista é um
+ * histórico (só se acrescenta), então vale a ÚLTIMA entrada que corresponde.
+ * Assim, uma retirada registrada depois de uma aprovação bloqueia o book.
+ */
+export function latestDecision(releases: BookRelease[], projectId: string, fileUrl: string, sha256: string): BookRelease | null {
+  let found: BookRelease | null = null;
+  for (const release of releases) {
+    if (release.projectId === projectId && release.fileUrl === fileUrl && release.sha256?.toLowerCase() === sha256) found = release;
+  }
+  return found;
+}
+
+/**
  * Um book só é liberado na vitrine quando:
  * 1. está no inventário de materiais como "Book" e não é o arquivo de uma tabela;
  * 2. o nome não sugere preço ou tabela;
  * 3. o catálogo informa o SHA-256 da versão atual (book.sha256); e
- * 4. existe aprovação para o MESMO empreendimento, arquivo e SHA-256.
+ * 4. a ÚLTIMA decisão registrada para o MESMO empreendimento, arquivo e SHA-256
+ *    é uma aprovação (uma retirada posterior bloqueia).
  * Se o PDF for substituído, o SHA-256 muda e o book volta a ficar indisponível
  * até nova revisão. O empreendimento continua visível de qualquer forma.
  */
@@ -116,7 +132,8 @@ export function isBookReleasable(
   const material = materials.find((item) => item.url === url);
   if (!material || material.type !== "Book" || allTableUrls.has(url)) return false;
   if (/tabela|pre[cç]o|valores|price|planilha/i.test(`${project.book?.name || ""} ${material.name || ""}`)) return false;
-  return releases.some((release) => release.approved === true && release.projectId === project.id && release.fileUrl === url && release.sha256?.toLowerCase() === sha);
+  const decision = latestDecision(releases, project.id, url, sha);
+  return decision !== null && decision.approved === true && decision.withdrawn !== true;
 }
 
 /** Situação do book de um empreendimento na vitrine (para a área interna). */
@@ -125,13 +142,14 @@ export function bookReleaseStatus(
   materials: { url: string; type?: string; name?: string }[],
   allTableUrls: Set<string>,
   releases: BookRelease[],
-): "sem-book" | "liberado" | "sem-versao" | "aguardando-revisao" | "versao-nova" | "reprovado" | "bloqueado" {
+): "sem-book" | "liberado" | "sem-versao" | "aguardando-revisao" | "versao-nova" | "reprovado" | "retirado" | "bloqueado" {
   if (!project.book?.url) return "sem-book";
   if (isBookReleasable(project, materials, allTableUrls, releases)) return "liberado";
   const sha = project.book.sha256?.toLowerCase();
   if (!sha || !SHA256.test(sha)) return "sem-versao";
   const forFile = releases.filter((release) => release.projectId === project.id && release.fileUrl === project.book!.url);
-  const sameVersion = forFile.find((release) => release.sha256?.toLowerCase() === sha);
+  const sameVersion = latestDecision(releases, project.id, project.book.url, sha);
+  if (sameVersion?.withdrawn) return "retirado";
   if (sameVersion && !sameVersion.approved) return "reprovado";
   if (sameVersion) return "bloqueado";
   return forFile.length ? "versao-nova" : "aguardando-revisao";

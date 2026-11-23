@@ -135,7 +135,9 @@ export default function PublicCatalogApp({ data, contact, brokerToken }: { data:
     setFocusId(id); setPreviewOpen(true);
     if (!isMobile) requestAnimationFrame(() => document.getElementById(`item-${id}`)?.scrollIntoView({ block: "nearest", behavior: "smooth" }));
   }, [isMobile]);
-  const onBackgroundClick = useCallback(() => setPreviewOpen(false), []);
+  // Clique em área vazia do mapa: desmarca o empreendimento e fecha o resumo
+  // (o leque é recolhido pelo próprio mapa). Zoom, posição e filtros ficam.
+  const onBackgroundClick = useCallback(() => { setPreviewOpen(false); setFocusId(null); setHoverId(null); }, []);
   const showOnMap = (p: PublicProject) => {
     setFocusId(p.id); setPreviewOpen(true);
     if (isMobile) setView("mapa");

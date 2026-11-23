@@ -64,6 +64,7 @@ test('public-book-releases.json: lista de liberação dos books da vitrine',()=>
     assert.ok(isStr(r.fileUrl)&&r.fileUrl.startsWith('https://'),`${where}: fileUrl`);
     assert.ok(/^[a-f0-9]{64}$/i.test(r.sha256||''),`${where}: sha256 deve ter 64 caracteres hexadecimais`);
     assert.equal(typeof r.approved,'boolean',`${where}: approved deve ser true ou false`);
+    assert.ok(r.withdrawn===undefined||(r.withdrawn===true&&r.approved===false),`${where}: withdrawn só com approved false`);
     assert.ok(optional(r.reviewedAt,v=>/^\d{4}-\d{2}-\d{2}$/.test(v)),`${where}: reviewedAt deve ser AAAA-MM-DD`);
   }
   for(const p of read('catalog.json'))if(p.book&&p.book.sha256!==undefined)assert.ok(/^[a-f0-9]{64}$/i.test(p.book.sha256),`${p.id}: book.sha256 inválido`);

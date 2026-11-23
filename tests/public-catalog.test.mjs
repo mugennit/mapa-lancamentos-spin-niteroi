@@ -58,6 +58,14 @@ test('books need a review approved for the same file and version; replacing the 
   assert.equal(bookReleaseStatus(p,mats,tables,[{...approved[0],approved:false}]),'reprovado');
   assert.equal(isBookReleasable({id:'p1',book:{...table,sha256:sha}},mats,tables,[{...approved[0],fileUrl:table.url}]),false,'tabela nunca é book');
   assert.equal(isBookReleasable({id:'p1',book:{...book,name:'Tabela de preços.pdf'}},mats,tables,approved),false,'nome sugere preço');
+  // Substituição no mesmo link: a rotina retira a liberação ANTES da troca.
+  const withdrawn=[...approved,{projectId:'p1',fileUrl:book.url,sha256:sha,approved:false,withdrawn:true,reviewedAt:'2026-11-25',reviewedBy:'ChatGPT'}];
+  assert.equal(isBookReleasable(p,mats,tables,withdrawn),false,'retirada posterior bloqueia mesmo com hash antigo no catálogo');
+  assert.equal(bookReleaseStatus(p,mats,tables,withdrawn),'retirado');
+  const reapproved=[...withdrawn,{projectId:'p1',fileUrl:book.url,sha256:newSha,approved:true,reviewedAt:'2026-11-26',reviewedBy:'ChatGPT'}];
+  assert.equal(isBookReleasable(p,mats,tables,reapproved),false,'catálogo ainda com hash antigo: continua bloqueado');
+  assert.equal(isBookReleasable(replaced,mats,tables,reapproved),true,'nova versão revisada e registrada no catálogo: liberada');
+  assert.equal(isBookReleasable(p,mats,tables,[...withdrawn,{...approved[0],reviewedAt:'2026-11-27'}]),true,'última decisão vale (nova aprovação explícita)');
 });
 
 test('unreviewed books stay hidden but the project stays visible',()=>{

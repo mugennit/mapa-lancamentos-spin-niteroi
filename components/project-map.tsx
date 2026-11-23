@@ -134,10 +134,22 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
       m.on("movestart", () => { if (byUser()) setMoved(true); });
       m.on("zoomstart", () => { if (fan.current && byUser()) { fan.current = null; setFanOpen(false); } });
       m.on("zoomend", () => renderRef.current());
+      // Clique/toque em área vazia (o Leaflet não dispara "click" depois de
+      // arrastar; pins, grupos e controles não propagam o clique até aqui):
+      // recolhe o leque e avisa a página para desmarcar e fechar o resumo.
+      // Zoom, posição e filtros não mudam.
       m.on("click", () => {
         if (fan.current) { fan.current = null; setFanOpen(false); renderRef.current(); }
         callbacks.current.onBackgroundClick();
       });
+      // Zoom e centro atuais como atributos (usados pelos testes de navegador).
+      const publishView = () => {
+        const center = m.getCenter();
+        element.current?.setAttribute("data-zoom", String(m.getZoom()));
+        element.current?.setAttribute("data-center", `${center.lat.toFixed(6)},${center.lng.toFixed(6)}`);
+      };
+      m.on("moveend zoomend", publishView);
+      publishView();
       group.current = L.layerGroup().addTo(m);
       observer = new ResizeObserver(() => {
         m.invalidateSize();
@@ -272,7 +284,7 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
           const key = `${p.lat},${p.lng}`;
           if (!realSeen.has(key)) {
             realSeen.add(key);
-            L.circleMarker([p.lat, p.lng], { radius: 6, color: "#0f2c44", weight: 2, fillColor: "#ffffff", fillOpacity: 1, interactive: true })
+            L.circleMarker([p.lat, p.lng], { radius: 6, color: "#0f2c44", weight: 2, fillColor: "#ffffff", fillOpacity: 1, interactive: true, bubblingMouseEvents: false })
               .bindTooltip("Ponto real cadastrado", { direction: "bottom", offset: [0, 8], className: "mk-tooltip" })
               .addTo(layer);
           }
@@ -284,7 +296,7 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
         if (userLocation.accuracy && userLocation.accuracy < 2000) {
           L.circle([userLocation.lat, userLocation.lng], { radius: userLocation.accuracy, color: "#1a73e8", weight: 1, fillColor: "#1a73e8", fillOpacity: 0.1, interactive: false }).addTo(layer);
         }
-        L.circleMarker([userLocation.lat, userLocation.lng], { radius: 8, color: "#ffffff", weight: 3, fillColor: "#1a73e8", fillOpacity: 1, interactive: true })
+        L.circleMarker([userLocation.lat, userLocation.lng], { radius: 8, color: "#ffffff", weight: 3, fillColor: "#1a73e8", fillOpacity: 1, interactive: true, bubblingMouseEvents: false })
           .bindTooltip("Você está aqui (aproximado)", { direction: "top", offset: [0, -10], className: "mk-tooltip" })
           .addTo(layer);
       }

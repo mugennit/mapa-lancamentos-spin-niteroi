@@ -47,6 +47,7 @@ const PUBLIC_BOOK_TEXT: Record<string, string> = {
   "aguardando-revisao": "Book fora da versão pública: aguardando revisão de conteúdo.",
   "versao-nova": "Book fora da versão pública: o PDF mudou e precisa de nova revisão.",
   reprovado: "Book fora da versão pública: reprovado na revisão.",
+  retirado: "Book fora da versão pública: liberação retirada (substituição do PDF em andamento).",
   bloqueado: "Book fora da versão pública: não passou nas verificações automáticas.",
 };
 
@@ -303,7 +304,9 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
     setPreviewOpen(true);
     if (!isMobile) requestAnimationFrame(() => document.getElementById(`item-${id}`)?.scrollIntoView({ block: "nearest", behavior: "smooth" }));
   }, [isMobile]);
-  const onBackgroundClick = useCallback(() => setPreviewOpen(false), []);
+  // Clique em área vazia do mapa: desmarca o empreendimento e fecha o resumo
+  // (o leque é recolhido pelo próprio mapa). Zoom, posição e filtros ficam.
+  const onBackgroundClick = useCallback(() => { setPreviewOpen(false); setFocusId(null); setHoverId(null); }, []);
   const showOnMap = (p: Project) => {
     setFocusId(p.id);
     setPreviewOpen(true);

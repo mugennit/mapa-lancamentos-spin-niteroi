@@ -147,7 +147,8 @@ responsável: o campo precisa ser produzido pela rotina do ChatGPT.
 - `components/catalog-app.tsx`: interface interna (cliente): filtros, cards, lista e folhas.
 - `app/vitrine/page.tsx` e `components/public-catalog.tsx`: versão pública.
 - `app/globals.css` (base original) e `app/experience.css` (layout v2).
-- `components/project-map.tsx`: mapa, agrupamento, rótulos e leque.
+- `components/project-map.tsx`: mapa, agrupamento, rótulos e leque. Clique em área
+  vazia desmarca, fecha o resumo e recolhe o leque, sem mudar zoom, posição ou filtros.
 - `components/filter-panel.tsx`: painel Onde / O quê / Quanto / Quando.
 - `components/project-inventory.tsx`, `project-comparison.tsx`, `project-parts.tsx`.
 - `lib/catalog-rules.ts` (`buildCatalogPayload`), `lib/catalog-types.ts` e
@@ -170,11 +171,12 @@ corepack pnpm install --frozen-lockfile   # instalar dependências
 npm test                                  # testes (node --test, sem dependências extras)
 npx tsc --noEmit -p .                     # tipos (apague tsconfig.tsbuildinfo depois)
 npm run lint                              # 0 erros (há avisos sobre <img>)
-VERCEL=1 npx vite build                   # build igual ao da Vercel (saída em .vercel/, ignorada)
+VERCEL=1 NITRO_PRESET=vercel npx vite build   # build igual ao da Vercel (saída em .vercel/, ignorada)
 node scripts/run-framework.mjs dev        # servidor local em http://localhost:5173 (precisa de .env local)
 VERCEL=1 NITRO_PRESET=vercel npx vite build && PORT=4181 node tests/e2e/vercel-sim.mjs   # build de produção local (precisa das variáveis no ambiente)
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/access.mjs   # acesso direto sem autenticação
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/smoke.mjs    # navegador (vitrine, corretor, interno)
+BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/map-click.mjs # área vazia do mapa desmarca (computador e celular)
 ```
 
 ## Verificação automática (GitHub Actions)
