@@ -47,3 +47,9 @@ export function formatDataDate(value?: string | null): string | null {
   const date = new Date(`${value}T00:00:00Z`);
   return Number.isNaN(date.getTime()) ? null : date.toLocaleDateString('pt-BR',{timeZone:'UTC'});
 }
+
+/** A tabela comercial é do mês corrente? (Só pela data da própria tabela.) */
+export function isCurrentMonthTable(tableDate?: string | null, now = new Date()): boolean {
+  const month = commercialMonth(tableDate);
+  return month !== null && month === Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1);
+}

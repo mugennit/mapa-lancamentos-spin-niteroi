@@ -1,7 +1,7 @@
 # Possível exposição dos dados sem senha (item 7 — segunda etapa)
 
-> Situação: **documentado, não corrigido nesta branch.** A correção foi deixada
-> para uma segunda etapa, conforme combinado. Nada aqui altera a proteção atual.
+> Situação: **documentado e não corrigido, por decisão do responsável
+> (23/11/2026).** O registro fica para referência caso o assunto volte.
 
 ## Resumo
 

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./experience.css";
 
@@ -8,8 +8,14 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
+    apple: "/icons/apple-touch-icon.png",
   },
+  manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, title: "Lançamentos SPIN", statusBarStyle: "default" },
+  robots: { index: false, follow: false },
 };
+
+export const viewport: Viewport = { themeColor: "#132a43" };
 
 export default function RootLayout({
   children,

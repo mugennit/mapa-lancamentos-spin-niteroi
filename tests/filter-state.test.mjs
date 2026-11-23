@@ -8,7 +8,7 @@ test('default filters produce a clean address',()=>{
 });
 
 test('filters round-trip through the address',()=>{
-  const filters={...DEFAULT_FILTERS,query:'Icaraí ',hood:'Icaraí',typology:'2 quartos',parking:'1',features:['Piscina','Academia'],minPrice:'500000',maxPrice:'800000',deliveryYear:'Até 2028',onlyFavorites:true,area:{south:-22.91234567,west:-43.12,north:-22.88,east:-43.09},sortBy:'price-asc'};
+  const filters={...DEFAULT_FILTERS,query:'Icaraí ',hood:'Icaraí',typology:'2 quartos',parking:'1',features:['Piscina','Academia'],minPrice:'500000',maxPrice:'800000',deliveryYear:'Até 2028',onlyFavorites:true,currentTable:true,area:{south:-22.91234567,west:-43.12,north:-22.88,east:-43.09},sortBy:'price-asc'};
   const search=filtersToSearch(filters,'mapa');
   const back=filtersFromSearch(search);
   assert.equal(back.view,'mapa');
