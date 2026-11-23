@@ -294,3 +294,4 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial
 .pcard-badges { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin-top: 3px; }
 .pcard-badges .map-badge { margin-top: 0; }
 .table-badge { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; line-height: 1.3; background: #eef3fb; color: #24518a; }
+a.detail-text { display: inline-flex; align-items: center; gap: 4px; margin: 0 0 16px; }

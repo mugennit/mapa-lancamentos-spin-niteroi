@@ -19,6 +19,7 @@ import {
   typologyOptions, featureOptions, stageOptions, locationOptions, normalize, offMapReason, type Project,
 } from "@/lib/catalog";
 import { useBackToClose, useMediaQuery } from "@/hooks/use-back-to-close";
+import { useStoredValue } from "@/hooks/use-stored-value";
 
 const PARKING_TEXT: Record<string, string> = { none: "Sem vaga", "1": "Com vaga", "2": "2 ou mais" };
 const SORT_LABELS: Record<SortMode, string> = { recommended: "Recomendados", "price-asc": "Menor preço", "price-desc": "Maior preço", name: "Nome A–Z", distance: "Mais perto" };
@@ -62,18 +63,23 @@ export default function Home() {
   const [pendingOpen, setPendingOpen] = useState(false);
   const [draft, setDraft] = useState<string | null>(null);
   const [draftCopied, setDraftCopied] = useState(false);
-  const [favorites, setFavorites] = useState<string[]>([]);
-  const [favoritesReady, setFavoritesReady] = useState(false);
+  const [storedFavorites, writeFavorites] = useStoredValue(FAVORITES_KEY);
+  const favorites = useMemo(() => {
+    try { return validIds(JSON.parse(storedFavorites || "[]"), catalogIds); } catch { return []; }
+  }, [storedFavorites]);
   const [comparison, setComparison] = useState<string[]>([]);
   const [comparisonOpen, setComparisonOpen] = useState(false);
   const [sharedIds, setSharedIds] = useState<string[]>([]);
   const [notice, setNotice] = useState("");
   const [shareFallback, setShareFallback] = useState("");
-  const [showPrices, setShowPrices] = useState(false);
+  const [storedShowPrices, writeShowPrices] = useStoredValue("spin-map-show-prices");
+  const showPrices = storedShowPrices === "1";
   const [userLocation, setUserLocation] = useState<(Coords & { accuracy?: number }) | null>(null);
   const [locateNonce, setLocateNonce] = useState(0);
   const [locating, setLocating] = useState(false);
-  const [compareOnMap, setCompareOnMap] = useState(false);
+  const [compareRequested, setCompareOnMap] = useState(false);
+  // Só vale enquanto houver algum comparado com ponto no mapa.
+  const compareOnMap = compareRequested && comparison.some((id) => mapIds.has(id));
   const isMobile = useMediaQuery("(max-width: 760px)");
   const canHover = useMediaQuery("(hover: hover) and (pointer: fine)");
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -81,11 +87,11 @@ export default function Home() {
   const update = useCallback((patch: Partial<FilterState>) => setFilters((current) => ({ ...current, ...patch })), []);
   const f = filters;
 
-  // Favoritos, seleção compartilhada (hash) e filtros vindos do endereço.
+  // Seleção compartilhada (hash) e filtros vindos do endereço. Só existem no
+  // navegador; lê-los aqui (depois da hidratação) evita divergência entre o
+  // HTML do servidor e o do navegador.
   useEffect(() => {
-    try { setFavorites(validIds(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]"), catalogIds)); }
-    catch { setNotice("Favoritos não puderam ser recuperados neste navegador."); }
-    finally { setFavoritesReady(true); }
+    /* eslint-disable react-hooks/set-state-in-effect -- leitura única do endereço ao abrir a página */
     let incoming = parseSelection(window.location.hash, catalogIds);
     try {
       if (!incoming.length) incoming = validIds(JSON.parse(sessionStorage.getItem(SHARE_KEY) || "[]"), catalogIds, 3);
@@ -100,6 +106,7 @@ export default function Home() {
     setView(fromUrl.view);
     if (fromUrl.view === "lista") setListStyle("lista");
     setUrlReady(true);
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, []);
 
   useEffect(() => {
@@ -122,11 +129,6 @@ export default function Home() {
     return () => window.removeEventListener("popstate", resync);
   }, []);
 
-  useEffect(() => {
-    if (!favoritesReady) return;
-    try { localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites)); }
-    catch { setNotice("O navegador bloqueou o armazenamento. Os favoritos valem apenas nesta sessão."); }
-  }, [favorites, favoritesReady]);
 
   useBackToClose(detail, () => setDetail(false), "detail");
   useBackToClose(filtersOpen, () => setFiltersOpen(false), "filters");
@@ -134,7 +136,10 @@ export default function Home() {
   useBackToClose(draft !== null, () => setDraft(null), "draft");
   useBackToClose(comparisonOpen, () => setComparisonOpen(false), "comparison");
 
-  const toggleFavorite = (id: string) => setFavorites((current) => current.includes(id) ? current.filter((x) => x !== id) : [...current, id]);
+  const toggleFavorite = (id: string) => {
+    const next = favorites.includes(id) ? favorites.filter((x) => x !== id) : [...favorites, id];
+    if (!writeFavorites(JSON.stringify(next))) setNotice("O navegador bloqueou o armazenamento. Os favoritos valem apenas nesta sessão.");
+  };
   const toggleComparison = (id: string) => { setShareFallback(""); setComparison((current) => current.includes(id) ? current.filter((x) => x !== id) : current.length < 3 ? [...current, id] : current); };
   const comparisonProjects = useMemo(() => comparison.map((id) => catalog.find((p) => p.id === id)).filter((p): p is Project => Boolean(p)), [comparison]);
   const share = async () => {
@@ -253,12 +258,7 @@ export default function Home() {
       { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 },
     );
   };
-  useEffect(() => { try { setShowPrices(localStorage.getItem("spin-map-show-prices") === "1"); } catch {} }, []);
-  const toggleShowPrices = () => setShowPrices((current) => {
-    try { localStorage.setItem("spin-map-show-prices", current ? "0" : "1"); } catch {}
-    return !current;
-  });
-  useEffect(() => { if (compareOnMap && comparison.filter((id) => mapIds.has(id)).length === 0) setCompareOnMap(false); }, [compareOnMap, comparison]);
+  const toggleShowPrices = () => writeShowPrices(showPrices ? "0" : "1");
 
   const pick = (p: Project) => { setSelected(p); setAddressCopied(false); setDetail(true); if (mapIds.has(p.id)) setFocusId(p.id); };
   const onPinSelect = useCallback((id: string) => {
