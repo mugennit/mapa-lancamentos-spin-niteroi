@@ -72,6 +72,10 @@ jobs:
         run: node tests/e2e/map-click.mjs
         env:
           BASE_URL: http://localhost:4181
+      - name: Celular (controles do mapa e abertura no modo Mapa)
+        run: node tests/e2e/mobile-map.mjs
+        env:
+          BASE_URL: http://localhost:4181
       # Cenário de teste: libera books fictícios só nesta cópia (nunca commitado)
       # para testar a vitrine com cards, "Ver book" e o mapa público.
       - name: Vitrine com books liberados (cenário de teste)
@@ -87,6 +91,7 @@ jobs:
           node tests/e2e/access.mjs
           node tests/e2e/smoke.mjs
           node tests/e2e/map-click.mjs
+          node tests/e2e/mobile-map.mjs
       - name: Log do servidor (se falhar)
         if: failure()
         run: tail -100 sim.log

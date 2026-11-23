@@ -151,6 +151,14 @@ export default function ProjectMap({ projects, focusId, hoverId, flyTo, fitKey, 
       m.on("moveend zoomend", publishView);
       publishView();
       group.current = L.layerGroup().addTo(m);
+      // Altura real do crédito do mapa (cresce no satélite): cartão e legenda ficam acima dele.
+      const attribution = element.current.querySelector<HTMLElement>(".leaflet-control-attribution");
+      const syncAttribution = () => {
+        const height = attribution?.getBoundingClientRect().height ?? 0;
+        element.current?.parentElement?.style.setProperty("--attr-h", `${Math.ceil(height)}px`);
+      };
+      syncAttribution();
+      if (attribution) new ResizeObserver(syncAttribution).observe(attribution);
       observer = new ResizeObserver(() => {
         m.invalidateSize();
         const size = m.getSize();

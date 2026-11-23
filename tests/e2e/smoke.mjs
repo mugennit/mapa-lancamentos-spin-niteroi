@@ -33,10 +33,16 @@ async function run(name, contextOptions, mobile) {
   await page.fill("input[type=password]", password);
   await page.press("input[type=password]", "Enter");
   await page.waitForURL(`${base}/`);
+  // No celular a área interna abre no Mapa; este teste confere a lista de cards.
+  if (mobile) {
+    await page.locator("main[data-ready='1']").waitFor();
+    assert.equal(await page.locator("main").getAttribute("data-view"), "mapa", `${name}: deveria abrir no Mapa`);
+    await page.goto(`${base}/?ver=cards`);
+  }
   // Espera a interface ficar interativa (hidratação concluída).
   await page.locator("main[data-ready='1']").waitFor();
   const count = await page.locator(".count-text").textContent();
-  assert.match(count, /\d+ lançamentos · \d+ no mapa/, `${name}: contador`);
+  assert.match(count, /\d+ lançamentos? · \d+ no mapa/, `${name}: contador`);
   const [total, onMap] = count.match(/\d+/g).map(Number);
   assert.ok(total > 0 && onMap > 0 && onMap <= total, `${name}: contagens incoerentes (${count})`);
   assert.equal(await page.locator(".pcard").count(), total, `${name}: todos os empreendimentos devem estar na lista`);
@@ -56,7 +62,7 @@ async function run(name, contextOptions, mobile) {
   // Filtros abrem, mostram contagens e voltam.
   await page.getByRole("button", { name: /^Filtros/ }).first().click();
   await page.getByRole("dialog").getByText("Faixa de preço total do imóvel").waitFor();
-  await page.getByRole("button", { name: /^Ver \d+ lançamentos/ }).click();
+  await page.getByRole("button", { name: /^Ver \d+ lançamentos?/ }).click();
 
   // Detalhe de um empreendimento.
   await page.locator(".pcard").first().getByRole("button", { name: "Unidades e detalhes" }).click();
@@ -89,7 +95,8 @@ async function publicCheck() {
     const type = response.headers()["content-type"] || "";
     if (/javascript|html|json|text|x-component/.test(type)) { try { bodies.push([response.url(), await response.text()]); } catch {} }
   });
-  await page.goto(`${base}/vitrine`);
+  // No celular a vitrine abre no Mapa; ver=cards abre a lista de cards.
+  await page.goto(`${base}/vitrine?ver=cards`);
   assert.match(page.url(), /\/vitrine/, "vitrine: não deveria pedir senha");
   await page.locator("main[data-ready='1']").waitFor();
   // Regra única: só quem está no mapa dos corretores E tem book liberado.

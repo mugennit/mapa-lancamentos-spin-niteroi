@@ -65,7 +65,8 @@ const KEYS = {
 
 const roundCoord = (value: number) => Math.round(value * 1e5) / 1e5;
 
-export function filtersToSearch(filters: FilterState, view: ViewMode): string {
+/** `defaultView` é o modo padrão do aparelho (celular: mapa; computador: cards); só os outros vão para o endereço. */
+export function filtersToSearch(filters: FilterState, view: ViewMode, defaultView: ViewMode = "cards"): string {
   const params = new URLSearchParams();
   const text = (key: string, value: string, empty: string) => { if (value && value !== empty) params.set(key, value); };
   text(KEYS.query, filters.query.trim(), "");
@@ -86,7 +87,7 @@ export function filtersToSearch(filters: FilterState, view: ViewMode): string {
     params.set(KEYS.area, [south, west, north, east].map(roundCoord).join(","));
   }
   text(KEYS.sortBy, filters.sortBy, "recommended");
-  if (view !== "cards") params.set("ver", view);
+  if (view !== defaultView) params.set("ver", view);
   const result = params.toString();
   return result ? `?${result}` : "";
 }
@@ -114,7 +115,7 @@ function parseArea(raw: string | null): MapArea | null {
  * Lê filtros do endereço. Valores desconhecidos (por exemplo, um bairro que
  * saiu do catálogo) são descartados em vez de produzir uma lista vazia.
  */
-export function filtersFromSearch(search: string, options: FilterOptions = {}): { filters: FilterState; view: ViewMode } {
+export function filtersFromSearch(search: string, options: FilterOptions = {}): { filters: FilterState; view: ViewMode; explicitView: boolean } {
   const params = new URLSearchParams(search.startsWith("?") ? search.slice(1) : search);
   const allowed = (value: string | null, list?: Iterable<string>) => {
     if (!value) return "all";
@@ -145,6 +146,8 @@ export function filtersFromSearch(search: string, options: FilterOptions = {}): 
       sortBy: sortBy && SORTS.includes(sortBy) ? sortBy : "recommended",
     },
     view: view && VIEWS.includes(view) ? view : "cards",
+    /** O endereço pediu um modo explicitamente (ver=...). */
+    explicitView: Boolean(view && VIEWS.includes(view)),
   };
 }
 

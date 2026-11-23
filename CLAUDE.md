@@ -157,6 +157,13 @@ responsável: o campo precisa ser produzido pela rotina do ChatGPT.
 - `app/globals.css` (base original) e `app/experience.css` (layout v2).
 - `components/project-map.tsx`: mapa, agrupamento, rótulos e leque. Clique em área
   vazia desmarca, fecha o resumo e recolhe o leque, sem mudar zoom, posição ou filtros.
+- `components/map-controls.tsx`: botões sobre o mapa. No celular: "Filtros" +
+  menu "Mais" (Ver todos, Perto de mim, Preços), camada e zoom à direita e
+  faixa própria para "Buscar nesta região"; cartão e legenda ficam acima do
+  crédito do mapa e da barra de comparação.
+- **Modo inicial:** no celular, área interna e vitrine abrem no **Mapa**; no
+  computador, em Cards. Um `ver=` no endereço é sempre respeitado (o modo
+  padrão do aparelho não vai para o endereço).
 - `components/filter-panel.tsx`: painel Onde / O quê / Quanto / Quando.
 - `components/project-inventory.tsx`, `project-comparison.tsx`, `project-parts.tsx`.
 - `lib/catalog-rules.ts` (`buildCatalogPayload`), `lib/catalog-types.ts` e
@@ -185,6 +192,7 @@ VERCEL=1 NITRO_PRESET=vercel npx vite build && PORT=4181 node tests/e2e/vercel-s
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/access.mjs   # acesso direto sem autenticação
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/smoke.mjs    # navegador (vitrine, corretor, interno)
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/map-click.mjs # área vazia do mapa desmarca (computador e celular)
+BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/mobile-map.mjs # celular: controles sem sobreposição e abertura no Mapa
 ```
 
 ## Verificação automática (GitHub Actions)

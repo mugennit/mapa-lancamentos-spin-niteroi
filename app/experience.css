@@ -346,3 +346,50 @@ a.detail-text { display: inline-flex; align-items: center; gap: 4px; margin: 0 0
   .app-v2:not(.is-public) .topbar-logo { display: none; }
 }
 .topbar h1 .title-long, .topbar h1 .title-short { color: #fff; font-weight: 700; margin-left: 0; }
+
+/* Controles do mapa no celular: uma linha à esquerda (Filtros + Mais), camada
+   e zoom à direita e uma faixa livre para "Buscar nesta região". */
+.map-menu { position: absolute; top: calc(100% + 6px); left: 0; z-index: 800; min-width: 220px; padding: 6px; border-radius: 14px; background: #fff; border: 1px solid #d6e0ea; box-shadow: 0 10px 30px rgba(16, 40, 61, .25); display: flex; flex-direction: column; }
+.map-menu button { display: flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 12px; border: 0; border-radius: 10px; background: none; color: var(--ink); font-size: 15px; font-weight: 600; text-align: left; }
+.map-menu button > span:first-of-type { flex: 1; }
+.map-menu button:hover, .map-menu button:focus-visible { background: var(--blue-soft); }
+.map-menu button:disabled { opacity: .6; }
+@media (max-width: 760px) {
+  .map-topleft.is-mobile { flex-wrap: nowrap; max-width: none; top: 10px; left: 10px; gap: 6px; }
+  .map-topleft.is-mobile .map-pill { min-height: 44px; padding: 0 12px; font-size: 14px; }
+  .map-area .leaflet-control-layers-base { flex-direction: row; }
+  .map-area .leaflet-control-layers-expanded { padding: 3px; }
+  .map-area .leaflet-control-layers-base label > span { min-height: 38px; padding: 0 9px; font-size: 13px; gap: 4px; }
+  .map-area .leaflet-control-layers-selector { width: 14px; height: 14px; margin: 0; }
+  .map-area .leaflet-control-zoom a { width: 44px; height: 44px; line-height: 44px; }
+  /* Faixa própria, abaixo da linha de botões e à esquerda do zoom. */
+  .map-search-area { top: 64px; left: 10px; right: auto; transform: none; min-height: 44px; max-width: calc(100% - 80px); }
+  /* Cartão, legenda e atribuição sobem quando a barra de comparação está aberta. */
+  .map-preview, .map-legend-v2 { bottom: calc(var(--compare-h, 0px) + 24px); }
+  .map-area .leaflet-bottom { bottom: var(--compare-h, 0px); }
+}
+@media (max-width: 360px) {
+  .map-topleft.is-mobile .map-pill { padding: 0 10px; font-size: 13px; gap: 5px; }
+  .map-area .leaflet-control-layers-base label > span { padding: 0 7px; font-size: 12px; }
+}
+/* Antes de carregar, no celular e sem modo pedido no endereço: já mostra o mapa
+   (evita piscar a lista de cards antes de abrir no Mapa). */
+@media (max-width: 760px) {
+  .app-v2[data-auto-view] .panel { display: none !important; }
+  .app-v2[data-auto-view] .map-area { display: block !important; }
+}
+/* Cartão de resumo e legenda sempre acima do crédito do mapa (que cresce no satélite). */
+.map-preview, .map-legend-v2 { bottom: calc(var(--attr-h, 16px) + 10px); }
+.map-menu { min-width: 200px; top: calc(100% + 8px); }
+@media (max-width: 760px) {
+  .map-preview, .map-legend-v2 { bottom: calc(var(--compare-h, 0px) + var(--attr-h, 16px) + 8px); }
+}
+@media (max-width: 360px) {
+  .map-topleft.is-mobile .map-more { width: 44px; padding: 0; justify-content: center; }
+  .map-more-text { display: none; }
+}
+.map-area .map-legend-v2, .map-area .map-legend-v2.is-stages { bottom: calc(var(--attr-h, 16px) + 10px); }
+@media (max-width: 760px) {
+  .map-area .map-legend-v2, .map-area .map-legend-v2.is-stages { bottom: calc(var(--compare-h, 0px) + var(--attr-h, 16px) + 8px); }
+}
+.map-area:has(.map-menu) .map-search-area { visibility: hidden; }

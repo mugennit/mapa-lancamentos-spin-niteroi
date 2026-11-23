@@ -93,13 +93,18 @@ async function run(label, contextOptions, { mobile, vitrine }) {
   }
   await page.locator(".mk-host").first().waitFor({ state: "attached" });
   // Aproxima até haver pins individuais visíveis.
-  for (let i = 0; i < 4 && (await page.locator(".mk-dot, .mk-label").count()) < 3; i++) {
-    await page.locator(".leaflet-control-zoom-in").click();
-    await page.waitForTimeout(500);
-  }
 
   // 1. Tocar num pin seleciona e abre o resumo.
-  assert.ok(await selectPin(page, mobile), `${label}: nenhum pin individual visível`);
+  // Tenta tocar num pin individual; se estiverem agrupados ou sob os controles, aproxima e tenta de novo.
+  let picked = await selectPin(page, mobile);
+  for (let i = 0; i < 4 && !picked; i++) {
+    const zoomIn = page.locator(".leaflet-control-zoom-in");
+    if ((await zoomIn.getAttribute("aria-disabled")) === "true") break;
+    await zoomIn.click();
+    await page.waitForTimeout(600);
+    picked = await selectPin(page, mobile);
+  }
+  assert.ok(picked, `${label}: nenhum pin individual visível`);
   let s = await state(page);
   assert.ok(s.preview && s.active === 1, `${label}: pin não ficou selecionado`);
 

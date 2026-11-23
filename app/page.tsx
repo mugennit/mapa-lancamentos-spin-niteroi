@@ -19,7 +19,8 @@ import type { CatalogData } from "@/lib/catalog-types";
 // Sempre por requisição: a página nunca vira arquivo estático servido sem senha.
 export const dynamic = "force-dynamic";
 
-export default async function Page() {
+export default async function Page({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  const explicitView = typeof (await searchParams).ver === "string";
   const secret = process.env.SITE_SESSION_SECRET;
   const session = (await cookies()).get("spinmap_session")?.value;
   if (!secret || !(await isValidSiteSession(session, secret))) redirect("/login");
@@ -32,5 +33,5 @@ export default async function Page() {
   const materialUrls = new Set(materialList.map((item) => item.url));
   const tableUrls = collectTableUrls(projects, Object.values(offers));
   const publicBooks = Object.fromEntries(projects.map((p) => [p.id, publicStatus(p, isMapEligible(p as never, materialUrls), materialList, tableUrls, releases)]));
-  return <CatalogApp data={data} publicBooks={publicBooks} />;
+  return <CatalogApp data={data} publicBooks={publicBooks} explicitView={explicitView} />;
 }

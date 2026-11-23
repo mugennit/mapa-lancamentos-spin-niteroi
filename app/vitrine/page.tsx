@@ -57,5 +57,5 @@ export default async function VitrinePage({ searchParams }: { searchParams: Prom
     checkedAt: (audit as { checkedAt?: string }).checkedAt ?? null,
   }, tableUrls);
 
-  return <PublicCatalogApp data={data} contact={contact} brokerToken={broker ? token : null} />;
+  return <PublicCatalogApp data={data} contact={contact} brokerToken={broker ? token : null} explicitView={typeof params.ver === "string"} />;
 }
