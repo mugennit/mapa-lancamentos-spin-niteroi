@@ -1,0 +1,33 @@
+# Verificação automática do site.
+# Roda a cada push (inclusive os commits diários da rotina do ChatGPT na main) e
+# em cada pull request. Ela apenas AVISA: não bloqueia commits, merges nem a
+# publicação da Vercel. Se falhar, o GitHub envia e-mail a quem fez o push.
+name: Verificação do site
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verificacao-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dados-e-regras:
+    name: Dados e regras (npm test)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.23"
+      # Os testes usam só o Node: validam o JSON dos arquivos de dados, ids
+      # únicos, a regra de elegibilidade do mapa, a regra de mesma unidade nos
+      # filtros e o formato das ofertas. Não dependem de instalar pacotes.
+      - name: Testes
+        run: node --test "tests/*.test.mjs"
