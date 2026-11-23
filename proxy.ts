@@ -10,5 +10,6 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!login|api/auth|api/logout|_next/static|_next/image|favicon.ico|robots.txt).*)"],
+  // manifest.webmanifest e /icons só têm nome e ícone do app (sem dados), para poder instalar.
+  matcher: ["/((?!login|api/auth|api/logout|_next/static|_next/image|favicon.ico|robots.txt|manifest.webmanifest|icons/).*)"],
 };

@@ -317,7 +317,7 @@ export default function Home() {
     ? <span className="map-badge is-on"><MapPin size={12} aria-hidden="true" />No mapa</span>
     : <span className="map-badge is-off" title="Motivo de não aparecer no mapa">Fora do mapa · {offMapReason(p)}</span>;
 
-  return <main className="app-v2" data-view={view}>
+  return <main className="app-v2" data-view={view} data-ready={urlReady ? "1" : undefined}>
     <header className="topbar">
       <div className="topbar-brand">
         <img className="topbar-logo" src="/spin-logo.svg" alt="Spin Inovações Imobiliárias" width={86} height={40} />

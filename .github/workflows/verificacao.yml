@@ -31,3 +31,37 @@ jobs:
       # filtros e o formato das ofertas. Não dependem de instalar pacotes.
       - name: Testes
         run: node --test "tests/*.test.mjs"
+
+  navegador:
+    name: Navegador (celular e computador)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    needs: dados-e-regras
+    env:
+      # Valores fictícios, só para este teste. A senha real nunca entra aqui.
+      SITE_PASSWORD: senha-de-teste-ci
+      SITE_SESSION_SECRET: segredo-de-teste-ci-nao-usar-em-producao
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.23"
+      - name: Instalar dependências
+        run: |
+          corepack enable
+          corepack pnpm install --frozen-lockfile
+      - name: Instalar Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Subir o site localmente
+        run: |
+          printf 'SITE_PASSWORD=%s\nSITE_SESSION_SECRET=%s\n' "$SITE_PASSWORD" "$SITE_SESSION_SECRET" > .env
+          nohup node scripts/run-framework.mjs dev > dev.log 2>&1 &
+          for i in $(seq 1 60); do curl -sf -o /dev/null http://localhost:5173/login && exit 0; sleep 2; done
+          cat dev.log; exit 1
+      - name: Teste de fumaça
+        run: node tests/e2e/smoke.mjs
+        env:
+          BASE_URL: http://localhost:5173
+      - name: Log do servidor (se falhar)
+        if: failure()
+        run: tail -100 dev.log
