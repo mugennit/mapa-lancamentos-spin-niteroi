@@ -72,6 +72,21 @@ jobs:
         run: node tests/e2e/map-click.mjs
         env:
           BASE_URL: http://localhost:4181
+      # Cenário de teste: libera books fictícios só nesta cópia (nunca commitado)
+      # para testar a vitrine com cards, "Ver book" e o mapa público.
+      - name: Vitrine com books liberados (cenário de teste)
+        env:
+          BASE_URL: http://localhost:4181
+          E2E_FIXTURE: "1"
+        run: |
+          pkill -f vercel-sim.mjs || true
+          node tests/e2e/fixture-releases.mjs
+          VERCEL=1 NITRO_PRESET=vercel npx vite build
+          nohup node tests/e2e/vercel-sim.mjs > sim.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:4181/login && break; sleep 2; done
+          node tests/e2e/access.mjs
+          node tests/e2e/smoke.mjs
+          node tests/e2e/map-click.mjs
       - name: Log do servidor (se falhar)
         if: failure()
         run: tail -100 sim.log

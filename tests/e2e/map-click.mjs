@@ -86,6 +86,11 @@ async function run(label, contextOptions, { mobile, vitrine }) {
   await page.goto(`${base}${vitrine ? "/vitrine" : "/"}?ver=mapa`);
   await page.locator("main[data-ready='1']").waitFor();
   if (mobile) await page.getByRole("navigation", { name: "Visualização" }).getByRole("button", { name: /Mapa/ }).tap();
+  if (vitrine && (await page.locator(".public-empty").count())) {
+    console.log(`ok ${label}: vitrine sem lançamentos liberados (nada a clicar no mapa)`);
+    await browser.close();
+    return;
+  }
   await page.locator(".mk-host").first().waitFor({ state: "attached" });
   // Aproxima até haver pins individuais visíveis.
   for (let i = 0; i < 4 && (await page.locator(".mk-dot, .mk-label").count()) < 3; i++) {
@@ -134,7 +139,16 @@ async function run(label, contextOptions, { mobile, vitrine }) {
     await page.goto(`${base}${vitrine ? "/vitrine" : "/"}?ver=lista`);
     await page.locator("main[data-ready='1']").waitFor();
     if (mobile) await page.getByRole("navigation", { name: "Visualização" }).getByRole("button", { name: /Lista/ }).tap();
-    await page.getByRole("button", { name: `Ver ${twins[0].name} no mapa` }).click();
+    const twinButton = page.getByRole("button", { name: `Ver ${twins[0].name} no mapa` });
+    const twinsVisible = (await twinButton.count()) > 0 && (await page.getByRole("button", { name: `Ver ${twins[1].name} no mapa` }).count()) > 0;
+    if (!twinsVisible) {
+      console.log(`   ${label}: par com coordenadas iguais não está nesta lista; teste do leque pulado`);
+      assert.deepEqual(errors, [], `${label}: erros no navegador`);
+      console.log(`ok ${label}: área vazia desmarca e fecha; zoom, posição e filtros preservados`);
+      await browser.close();
+      return;
+    }
+    await twinButton.click();
     await page.waitForTimeout(2000);
     s = await state(page);
     assert.ok(s.fanned >= 2, `${label}: leque não abriu (${s.fanned})`);

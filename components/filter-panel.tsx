@@ -62,7 +62,7 @@ export default function FilterPanel({ filters, update, count, options, parkingCo
     <section className="fp-section" aria-labelledby="fp-onde">
       <h3 id="fp-onde">Onde</h3>
       <CountSelect id="fp-hood" label="Bairro" value={filters.hood} values={options.hoods} onChange={(hood) => update({ hood })} count={(hood) => count({ hood })} />
-      <CountSelect id="fp-location" label="Localização" value={filters.location} values={options.locations} onChange={(location) => update({ location })} count={(location) => count({ location })} />
+      {options.locations.length > 0 && <CountSelect id="fp-location" label="Localização" value={filters.location} values={options.locations} onChange={(location) => update({ location })} count={(location) => count({ location })} />}
       {filters.area && <div className="fp-area">
         <span>Área selecionada no mapa</span>
         <button type="button" className="quiet-button" onClick={() => update({ area: null })}>Remover área</button>

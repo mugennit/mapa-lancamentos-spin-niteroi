@@ -40,7 +40,7 @@ Regras decorrentes:
   revisão humana.
 - Evitar push ou merge perto das 08h–09h30 (horário de São Paulo), quando a
   automação do ChatGPT costuma commitar na `main`.
-- Branch experimental atual: `experimento/claude-mapa` (PR #7).
+- Os PRs #7, #8 e #9 já foram incorporados. Novos trabalhos: branch própria e PR.
 
 ## Senha e credenciais
 
@@ -66,8 +66,12 @@ Regras decorrentes:
 
 ## Versão pública (`/vitrine`)
 
-- Sem senha. Catálogo completo, mapa (mesma regra de elegibilidade) e books;
-  **sem preços, tabelas, unidades, vagas, datas de leitura, notas ou fontes**.
+- Sem senha. **Regra única para a lista e o mapa públicos**
+  (`isPubliclyListed` em `lib/public-catalog.ts`): só entram empreendimentos que
+  atendem à regra do mapa dos corretores **e** têm book adequado liberado. Todo
+  card público tem "Ver book". Sem book liberado, o empreendimento fica fora da
+  vitrine (lista e mapa); a área interna continua com todo o catálogo.
+- **Sem preços, tabelas, unidades, vagas, datas de leitura, notas ou fontes.**
 - Os dados são filtrados no servidor (`app/vitrine/page.tsx`) por **lista de
   campos permitidos** (`lib/public-catalog.ts`, `PUBLIC_FIELDS`). Nunca enviar o
   pacote interno.
@@ -78,8 +82,10 @@ Regras decorrentes:
 - Books: liberados por **arquivo e versão**. Só aparecem com aprovação em
   `data/public-book-releases.json` para o mesmo `projectId`, `fileUrl` e
   `sha256` de `catalog.json → book`. A revisão do conteúdo é feita pela rotina do
-  ChatGPT (`docs/liberacao-books.md`). Sem aprovação, ou com PDF substituído
-  (hash diferente), o book fica indisponível; o empreendimento continua visível.
+  ChatGPT (`docs/liberacao-books.md`). Vale a última decisão registrada; antes de
+  substituir um PDF no mesmo link, a rotina registra a retirada. Book com preços
+  ou dados internos: decisão com `needsClientVersion: true` e versão própria em
+  `catalog.json → clientBook`, revisada e liberada pelo mesmo processo.
 - Link do corretor: gerado na área interna (botão "Link para clientes",
   `app/api/broker-link`), assinado com HMAC usando a chave exclusiva
   `BROKER_LINK_SECRET` (`lib/broker-link.ts`), separada da sessão. Trocar a senha
@@ -134,6 +140,8 @@ derivadas dos dados, nunca listas fixas.
 - `data/materials-audit.json`: `checkedAt`, a data exibida como “Fontes conferidas em”.
 - `catalog.json → book.sha256` (opcional): SHA-256 do PDF atual no Drive,
   produzido pela rotina do ChatGPT. Sem ele, o book não vai para a vitrine.
+- `catalog.json → clientBook {url, name, sha256}` (opcional): versão do book para
+  clientes, quando o original tem preços ou dados internos (ChatGPT).
 - `data/public-book-releases.json`: decisões de revisão dos books para a vitrine
   (mantido pelo ChatGPT; ver `docs/liberacao-books.md`). Não apagar.
 - Os relatórios diários (`*-YYYY-MM-DD.json`) são do ChatGPT; o site não depende deles.

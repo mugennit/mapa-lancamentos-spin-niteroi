@@ -3,9 +3,23 @@
 Responsável pela revisão: **automação do ChatGPT “Atualizar lançamentos SPIN”**.
 O site só lê os arquivos; não revisa conteúdo de PDF.
 
-## Regra
+## Quem aparece na vitrine (regra única para a lista e o mapa)
 
-Um book aparece na vitrine somente quando **todas** as condições abaixo valem:
+Um empreendimento aparece na vitrine, **na lista e no mapa**, somente quando:
+
+1. atende à regra do mapa dos corretores: book e tabela de vendas confirmados,
+   endereço conferido, coordenadas exatas validadas e pin habilitado
+   (`isMapEligible` em `lib/catalog-rules.ts`); **e**
+2. tem um **book adequado e liberado** para clientes (regras abaixo).
+
+Todo card público tem o botão "Ver book". Sem book liberado, o empreendimento
+fica **fora da vitrine** (lista e mapa). A área interna dos corretores continua
+mostrando todo o catálogo, inclusive os empreendimentos com pendências, e o
+detalhe de cada um informa a situação na vitrine.
+
+## Regra de liberação do book
+
+Um book é liberado para a vitrine somente quando **todas** as condições abaixo valem:
 
 1. O book está em `data/materials.json` com `type: "Book"` e não é o arquivo de
    uma tabela.
@@ -20,6 +34,32 @@ Se qualquer condição falhar, o book fica indisponível na vitrine. **O
 empreendimento continua visível** (nome, bairro, mapa, tipologias, entrega).
 
 Books ainda não revisados ficam **bloqueados** na vitrine.
+
+## Book com preços ou informações internas: versão para clientes
+
+Se a revisão encontrar preços, tabelas, condições comerciais ou informações
+internas no book:
+
+1. Registre a decisão para esse arquivo e versão com `"approved": false` e
+   `"needsClientVersion": true`, explicando em `notes` o que impede a
+   publicação (por exemplo, "página 12 com tabela de preços"). Na área interna,
+   o empreendimento aparece como "é preciso uma versão para clientes".
+2. Prepare, no ChatGPT, uma versão do book para clientes, sem esse conteúdo.
+3. Publique essa versão no Drive e registre-a em `catalog.json` no campo
+   `clientBook`, com `url`, `name` e `sha256` do arquivo publicado:
+   ```json
+   "clientBook": {
+     "name": "Book Style - clientes.pdf",
+     "url": "https://drive.google.com/file/d/…/view?usp=drivesdk",
+     "sha256": "…"
+   }
+   ```
+4. Revise a versão para clientes (todas as páginas) e registre a decisão para
+   o `fileUrl` e o `sha256` **dela**. Com aprovação, a vitrine passa a mostrar
+   esse arquivo em "Ver book"; o book original continua só na área interna.
+
+Enquanto não houver um book adequado liberado, o empreendimento fica fora da
+vitrine. Substituições da versão para clientes seguem a mesma sequência abaixo.
 
 ## Substituição de um book (obrigatório seguir esta ordem)
 
@@ -117,12 +157,17 @@ Registrar a decisão em `data/public-book-releases.json`:
 ### 3. Conferência
 A verificação automática do GitHub valida o formato do arquivo (ids
 existentes, `sha256` com 64 caracteres hexadecimais, `approved` booleano, data
-`AAAA-MM-DD`, `withdrawn` só junto com `approved: false`). Na área interna, o detalhe de cada empreendimento mostra a
+`AAAA-MM-DD`, `withdrawn` só junto com `approved: false`, `needsClientVersion` booleano, `clientBook` com `url` e `sha256` válidos). Na área interna, o detalhe de cada empreendimento mostra a
 situação do book na vitrine:
 
 | Situação | Significado |
 | --- | --- |
-| Liberado | Aparece na vitrine. |
+| Na vitrine (book liberado) | Aparece na lista e no mapa públicos. |
+| Na vitrine (versão para clientes) | Aparece usando o `clientBook` liberado. |
+| Pin não habilitado no mapa | Não atende à regra do mapa dos corretores; fica fora da vitrine. |
+| Sem book | O empreendimento não tem book. |
+| É preciso uma versão para clientes | Última decisão do book original tem `needsClientVersion: true`. |
+| Versão para clientes aguardando revisão | Há `clientBook` sem aprovação vigente. |
 | Falta registrar a versão | `book.sha256` ausente no catálogo. |
 | Aguardando revisão | Nenhuma decisão para este arquivo. |
 | O PDF mudou | Há decisão para outra versão; é preciso revisar a nova. |

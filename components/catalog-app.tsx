@@ -42,13 +42,18 @@ function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedI
 }
 
 const PUBLIC_BOOK_TEXT: Record<string, string> = {
-  liberado: "Book liberado na versão pública.",
-  "sem-versao": "Book fora da versão pública: falta registrar a versão (SHA-256) do PDF.",
-  "aguardando-revisao": "Book fora da versão pública: aguardando revisão de conteúdo.",
-  "versao-nova": "Book fora da versão pública: o PDF mudou e precisa de nova revisão.",
-  reprovado: "Book fora da versão pública: reprovado na revisão.",
-  retirado: "Book fora da versão pública: liberação retirada (substituição do PDF em andamento).",
-  bloqueado: "Book fora da versão pública: não passou nas verificações automáticas.",
+  liberado: "Na vitrine (book liberado).",
+  "liberado-versao-clientes": "Na vitrine (versão do book para clientes liberada).",
+  "fora-do-mapa": "Fora da vitrine: o pin ainda não está habilitado no mapa dos corretores.",
+  "sem-book": "Fora da vitrine: sem book.",
+  "sem-versao": "Fora da vitrine: falta registrar a versão (SHA-256) do book.",
+  "aguardando-revisao": "Fora da vitrine: book aguardando revisão de conteúdo.",
+  "versao-nova": "Fora da vitrine: o PDF do book mudou e precisa de nova revisão.",
+  "precisa-versao-clientes": "Fora da vitrine: o book tem preços ou informações internas; é preciso uma versão para clientes.",
+  "versao-clientes-em-revisao": "Fora da vitrine: versão do book para clientes aguardando revisão.",
+  reprovado: "Fora da vitrine: book reprovado na revisão.",
+  retirado: "Fora da vitrine: liberação retirada (substituição do PDF em andamento).",
+  bloqueado: "Fora da vitrine: book não passou nas verificações automáticas.",
 };
 
 export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogData; publicBooks?: Record<string, string> }) {
@@ -362,12 +367,12 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
       <div className="topbar-brand">
         <img className="topbar-logo" src="/spin-logo.svg" alt="Spin Inovações Imobiliárias" width={86} height={40} />
         <div>
-          <h1>Mapa de Empreendimentos <span>Niterói</span></h1>
+          <h1><span className="title-long">Mapa de Empreendimentos</span><span className="title-short">Lançamentos</span> <span className="title-city">Niterói</span></h1>
           <small>Fontes conferidas em {formatCheckedDate(v.checkedAt ?? undefined)}</small>
         </div>
       </div>
       <div className="topbar-actions">
-        <button type="button" className="topbar-contact" aria-label="Link para clientes" onClick={() => { setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); }}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
+        <button type="button" className="broker-link-button" onClick={() => { setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); }}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
         <form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form>
       </div>
     </header>
@@ -630,7 +635,7 @@ export default function CatalogApp({ data, publicBooks = {} }: { data: CatalogDa
           {selected.addressReviewStatus === "Precisa de apoio" && <div className="address-review-flag">Endereço em revisão</div>}
           {selected.addressSource && <a className="detail-text" href={selected.addressSource} target="_blank" rel="noopener noreferrer">Fonte do endereço <ExternalLink size={13} className="inline" /></a>}
           {completeIds.has(selected.id) && !mapIds.has(selected.id) && <p className="detail-text">{selected.addressReviewStatus === "Precisa de apoio" ? "Endereço em revisão; o pin não aparece no mapa." : "Falta confirmar o ponto exato para exibir no mapa."}</p>}
-          {PUBLIC_BOOK_TEXT[publicBooks[selected.id]] && <p className={`public-book-status is-${publicBooks[selected.id]}`}>Vitrine: {PUBLIC_BOOK_TEXT[publicBooks[selected.id]]}</p>}
+          {PUBLIC_BOOK_TEXT[publicBooks[selected.id]] && <p className={`public-book-status is-${publicBooks[selected.id]}`}>Vitrine para clientes: {PUBLIC_BOOK_TEXT[publicBooks[selected.id]]}</p>}
           <p className="detail-checked-at">Arquivos verificados em {formatCheckedDate(selected.materialsCheckedAt) || "data não registrada"}. Essa varredura não altera a data de leitura dos preços e do estoque.</p>
           <DeliverySummary project={selected} />
           <DataFreshness project={selected} table={offersById[selected.id]} />
