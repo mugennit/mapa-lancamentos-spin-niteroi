@@ -54,7 +54,7 @@ jobs:
       - name: Instalar Chromium
         run: npx playwright install --with-deps chromium
       - name: Build igual ao da Vercel
-        run: VERCEL=1 npx vite build
+        run: VERCEL=1 NITRO_PRESET=vercel npx vite build
       - name: Subir o build de produção (simulador da Vercel)
         run: |
           nohup node tests/e2e/vercel-sim.mjs > sim.log 2>&1 &

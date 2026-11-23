@@ -172,7 +172,7 @@ npx tsc --noEmit -p .                     # tipos (apague tsconfig.tsbuildinfo d
 npm run lint                              # 0 erros (há avisos sobre <img>)
 VERCEL=1 npx vite build                   # build igual ao da Vercel (saída em .vercel/, ignorada)
 node scripts/run-framework.mjs dev        # servidor local em http://localhost:5173 (precisa de .env local)
-VERCEL=1 npx vite build && PORT=4181 node tests/e2e/vercel-sim.mjs   # build de produção local (precisa das variáveis no ambiente)
+VERCEL=1 NITRO_PRESET=vercel npx vite build && PORT=4181 node tests/e2e/vercel-sim.mjs   # build de produção local (precisa das variáveis no ambiente)
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/access.mjs   # acesso direto sem autenticação
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/smoke.mjs    # navegador (vitrine, corretor, interno)
 ```
