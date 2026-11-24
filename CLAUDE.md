@@ -31,9 +31,18 @@ Regras decorrentes:
 ## Git, deploy e produção
 
 - **Nunca** fazer merge, push ou commit na `main` sem aprovação explícita. Todo
-  push na `main` publica a produção automaticamente em dois projetos da Vercel
-  (`mapa-lancamentos-spin-niteroi`, cujo nome coincide com o endereço oficial,
-  e `mapa-lancamentos-spin-niteroi-r2au`).
+  push na `main` publica a produção automaticamente no projeto da Vercel
+  **`mapa-lancamentos-spin-niteroi`** (o endereço oficial). **Só ele deve receber
+  novas publicações.**
+- `mapa-lancamentos-spin-niteroi-r2au` está em desativação por etapas
+  (`docs/desativacao-r2au.md`): o Git foi desconectado na Vercel, o projeto e
+  os endereços continuam existindo e a última publicação segue no ar, sem
+  receber atualizações. Não reconectar o Git, não publicar nele, não alterar
+  suas chaves e não excluí-lo sem pedido explícito. Conferências de publicação
+  são feitas só no projeto principal.
+- O banco `spin-links-clientes` (links curtos) é compartilhado e usado pelo
+  site oficial: **nunca excluí-lo**. Ao desativar o `r2au`, no máximo
+  desconectá-lo desse projeto.
 - Não alterar a configuração da Vercel, os domínios, `vercel.json` ou
   `.openai/hosting.json` sem pedido explícito.
 - Branches e PRs geram prévias da Vercel (autorizadas). A prévia não substitui a
