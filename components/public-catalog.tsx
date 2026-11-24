@@ -42,7 +42,7 @@ function deliveryText(p: PublicProject) {
   return p.delivery ? `Previsão de entrega: ${p.delivery}` : "Previsão de entrega a confirmar";
 }
 
-export default function PublicCatalogApp({ data, contact, brokerToken, explicitView = false }: { data: PublicCatalog; contact: Contact; brokerToken: string | null; explicitView?: boolean }) {
+export default function PublicCatalogApp({ data, contact, brokerToken, explicitView = false, initialProjectId = null }: { data: PublicCatalog; contact: Contact; brokerToken: string | null; explicitView?: boolean; initialProjectId?: string | null }) {
   const catalog = data.projects;
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [view, setView] = useState<ViewMode>("cards");
@@ -61,6 +61,7 @@ export default function PublicCatalogApp({ data, contact, brokerToken, explicitV
   const [locateNonce, setLocateNonce] = useState(0);
   const [locating, setLocating] = useState(false);
   const [notice, setNotice] = useState("");
+  const openedInitial = useRef(false);
   const isMobile = useMediaQuery("(max-width: 760px)");
   const defaultView: ViewMode = isMobile ? "mapa" : "cards";
   const canHover = useMediaQuery("(hover: hover) and (pointer: fine)");
@@ -82,9 +83,14 @@ export default function PublicCatalogApp({ data, contact, brokerToken, explicitV
     const initialView = fromUrl.explicitView ? fromUrl.view : (window.matchMedia("(max-width: 760px)").matches ? "mapa" : "cards");
     setView(initialView);
     if (initialView === "lista") setListStyle("lista");
+    // Link do corretor para um lançamento: abre direto o card desse empreendimento,
+    // uma única vez (o `p` sai do endereço na primeira sincronização, para que o
+    // "voltar" não reabra o card).
+    const initial = initialProjectId && !openedInitial.current ? catalog.find((p) => p.id === initialProjectId) : null;
+    if (initial) { openedInitial.current = true; setSelected(initial); setDetail(true); setFocusId(initial.id); }
     setUrlReady(true);
     /* eslint-enable react-hooks/set-state-in-effect */
-  }, [hoods, companies, typologies, features, deliveryOptions]);
+  }, [hoods, companies, typologies, features, deliveryOptions, catalog, initialProjectId]);
 
   useEffect(() => {
     if (!urlReady) return;

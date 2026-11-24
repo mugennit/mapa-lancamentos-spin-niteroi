@@ -51,7 +51,9 @@ Regras decorrentes:
 - Variáveis de ambiente: `SITE_PASSWORD`, `SITE_SESSION_SECRET`, `REPORT_TO_EMAIL`,
   `BROKER_LINK_SECRET` (links de corretor) e `PUBLIC_CONTACT_WHATSAPP` /
   `PUBLIC_CONTACT_NAME` (contato central da vitrine, por enquanto sem
-  configuração). Nunca registrar valores em código, commits, logs, PRs ou chat.
+  configuração) e `KV_REST_API_URL` / `KV_REST_API_TOKEN` (banco dos links
+  curtos, criados pela integração Upstash da Vercel). Nunca registrar valores em
+  código, commits, logs, PRs ou chat.
 - Para teste local, usar valores fictícios num `.env` (já ignorado pelo Git) e
   apagá-lo ao terminar.
 - **Dados comerciais só depois da sessão validada.** `app/page.tsx` é componente
@@ -62,7 +64,8 @@ Regras decorrentes:
 - `tests/e2e/access.mjs` testa o acesso direto sem autenticação contra o build
   de produção: página, RSC, APIs, cookie forjado e **todos** os arquivos públicos.
 - `proxy.ts` libera só o que não tem dados internos: login, autenticação,
-  arquivos estáticos do build, `manifest.webmanifest`, `/icons/` e `/vitrine`.
+  arquivos estáticos do build, `manifest.webmanifest`, `/icons/`, `/vitrine` e
+  `/c/` (link curto, que só redireciona para a vitrine).
 
 ## Versão pública (`/vitrine`)
 
@@ -93,6 +96,14 @@ Regras decorrentes:
   ou a chave de sessão não invalida os links; trocar `BROKER_LINK_SECRET`, sim.
   Sem essa chave, a geração fica desativada e a vitrine ignora o parâmetro `c`,
   que precisa ser preservado no endereço durante a navegação.
+- Links curtos (`/c/código`, `docs/links-curtos.md`, `lib/short-links.ts`):
+  gerados pela área interna, guardam o token assinado do corretor e o
+  lançamento num banco chave-valor (Upstash Redis da Vercel) e abrem o card
+  público do lançamento. Códigos aleatórios, gravação condicional (nunca
+  sobrescrever), mesmo par corretor/lançamento reaproveita o código. Os links
+  não podem depender da publicação (nada de arquivo local ou memória do
+  servidor). Sem o banco, o site entrega o link longo. Links longos antigos
+  continuam válidos. Sem encurtador externo.
 - Sem corretor: o contato central vem de `PUBLIC_CONTACT_WHATSAPP` (e
   `PUBLIC_CONTACT_NAME`, opcional) no ambiente da Vercel. Sem essa variável,
   **não exibir botão de WhatsApp** e nunca usar um número presumido.
@@ -169,8 +180,8 @@ responsável: o campo precisa ser produzido pela rotina do ChatGPT.
 - `components/project-inventory.tsx`, `project-comparison.tsx`, `project-parts.tsx`.
 - `lib/catalog-rules.ts` (`buildCatalogPayload`), `lib/catalog-types.ts` e
   `lib/catalog-view.ts`: pacote interno, tipos e derivações no navegador.
-- `lib/public-catalog.ts`, `lib/broker-link.ts`: vitrine, liberação de books e
-  links de corretor.
+- `lib/public-catalog.ts`, `lib/broker-link.ts`, `lib/short-links.ts`: vitrine,
+  books, links de corretor e links curtos (`app/c/[code]/route.ts`).
 - `lib/catalog-rules.ts`, `lib/map-clusters.ts`, `lib/filter-state.ts`,
   `lib/project-search.ts`, `lib/project-insights.ts`: funções puras, testadas.
 - `hooks/use-back-to-close.ts`: o "voltar" do celular fecha painéis.
@@ -190,6 +201,7 @@ npm run lint                              # 0 erros (há avisos sobre <img>)
 VERCEL=1 NITRO_PRESET=vercel npx vite build   # build igual ao da Vercel (saída em .vercel/, ignorada)
 node scripts/run-framework.mjs dev        # servidor local em http://localhost:5173 (precisa de .env local)
 VERCEL=1 NITRO_PRESET=vercel npx vite build && PORT=4181 node tests/e2e/vercel-sim.mjs   # build de produção local (precisa das variáveis no ambiente)
+KV_PORT=4199 KV_REST_API_TOKEN=token-de-teste node tests/e2e/fake-kv.mjs   # banco fictício dos links curtos (com KV_REST_API_URL=http://localhost:4199 no simulador)
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/access.mjs   # acesso direto sem autenticação
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/smoke.mjs    # navegador (vitrine, corretor, interno)
 BASE_URL=http://localhost:4181 SITE_PASSWORD=<senha> node tests/e2e/map-click.mjs # área vazia do mapa desmarca (computador e celular)

@@ -98,6 +98,8 @@ export default function CatalogApp({ data, publicBooks = {}, explicitView = fals
   const [brokerError, setBrokerError] = useState("");
   const [brokerBusy, setBrokerBusy] = useState(false);
   const [brokerCopied, setBrokerCopied] = useState(false);
+  const [brokerProject, setBrokerProject] = useState("");
+  const [brokerNotice, setBrokerNotice] = useState("");
   // Só vale enquanto houver algum comparado com ponto no mapa.
   const compareOnMap = compareRequested && comparison.some((id) => mapIds.has(id));
   const isMobile = useMediaQuery("(max-width: 760px)");
@@ -180,16 +182,22 @@ export default function CatalogApp({ data, publicBooks = {}, explicitView = fals
   const nameValue = brokerName ?? savedBroker.name ?? "";
   const phoneValue = brokerPhone ?? savedBroker.phone ?? "";
   const generateBrokerLink = async () => {
-    setBrokerBusy(true); setBrokerError(""); setBrokerLink(""); setBrokerCopied(false);
+    setBrokerBusy(true); setBrokerError(""); setBrokerLink(""); setBrokerCopied(false); setBrokerNotice("");
     try {
-      const response = await fetch("/api/broker-link", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: nameValue, phone: phoneValue }) });
-      const result = await response.json().catch(() => ({})) as { url?: string; error?: string };
+      const response = await fetch("/api/broker-link", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: nameValue, phone: phoneValue, projectId: brokerProject || null }) });
+      const result = await response.json().catch(() => ({})) as { url?: string; error?: string; notice?: string };
       if (!response.ok || !result.url) throw new Error(result.error || "Não foi possível gerar o link.");
+      // Com o banco de links configurado, `url` já é o link curto (/c/código).
       setBrokerLink(result.url);
+      setBrokerNotice(result.notice || "");
       writeBroker(JSON.stringify({ name: nameValue, phone: phoneValue }));
     } catch (error) { setBrokerError(error instanceof Error ? error.message : "Não foi possível gerar o link."); }
     finally { setBrokerBusy(false); }
   };
+  // Lançamentos que podem ir no link (os mesmos da versão para clientes).
+  const brokerProjects = useMemo(() => catalog.filter((p) => mapIds.has(p.id)).sort((a, b) => a.name.localeCompare(b.name, "pt-BR")), [catalog, mapIds]);
+  const brokerProjectName = brokerProjects.find((p) => p.id === brokerProject)?.name ?? "";
+  const openBrokerLink = (projectId: string) => { setBrokerProject(projectId); setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); setBrokerNotice(""); };
   const copyBrokerLink = async () => {
     try { await navigator.clipboard.writeText(brokerLink); setBrokerCopied(true); }
     catch { setBrokerCopied(false); (document.getElementById("broker-link-output") as HTMLInputElement | null)?.select(); }
@@ -388,7 +396,7 @@ export default function CatalogApp({ data, publicBooks = {}, explicitView = fals
         </div>
       </div>
       <div className="topbar-actions">
-        <button type="button" className="broker-link-button" onClick={() => { setBrokerOpen(true); setBrokerLink(""); setBrokerError(""); }}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
+        <button type="button" className="broker-link-button" onClick={() => openBrokerLink(detail && selected && mapIds.has(selected.id) ? selected.id : "")}><Share2 size={16} aria-hidden="true" /><span>Link para clientes</span></button>
         <form action="/api/logout" method="post"><button className="logout-button" type="submit">Sair</button></form>
       </div>
     </header>
@@ -600,6 +608,12 @@ export default function CatalogApp({ data, publicBooks = {}, explicitView = fals
           <input id="broker-name" autoComplete="name" value={nameValue} onChange={(e) => setBrokerName(e.target.value)} placeholder="Como o cliente vai ver" maxLength={60} />
           <label htmlFor="broker-phone">Seu WhatsApp (com DDD)</label>
           <input id="broker-phone" inputMode="tel" autoComplete="tel" value={phoneValue} onChange={(e) => setBrokerPhone(e.target.value)} placeholder="(21) 99999-9999" maxLength={20} />
+          <label htmlFor="broker-project">Lançamento</label>
+          <select id="broker-project" value={brokerProject} onChange={(e) => { setBrokerProject(e.target.value); setBrokerLink(""); setBrokerCopied(false); }}>
+            <option value="">Todos os lançamentos (vitrine completa)</option>
+            {brokerProjects.map((p) => <option key={p.id} value={p.id}>{p.name} · {p.neighborhood}</option>)}
+          </select>
+          <small className="fp-hint">{brokerProject ? "O link abre direto o card deste lançamento." : "O link abre a vitrine com todos os lançamentos."}</small>
           <button type="button" className="primary-button" disabled={brokerBusy} onClick={generateBrokerLink}>{brokerBusy ? "Gerando…" : "Gerar meu link"}</button>
           {brokerError && <p className="fp-warning" role="alert">{brokerError}</p>}
           {brokerLink && <div className="broker-result">
@@ -608,8 +622,9 @@ export default function CatalogApp({ data, publicBooks = {}, explicitView = fals
             <div className="map-preview-actions">
               <button type="button" className="material-link is-primary" onClick={copyBrokerLink}><Copy size={14} />{brokerCopied ? "Link copiado" : "Copiar link"}</button>
               <a className="material-link" href={brokerLink} target="_blank" rel="noopener noreferrer"><ExternalLink size={14} />Ver como o cliente</a>
-              <a className="material-link" href={`https://wa.me/?text=${encodeURIComponent(`Veja os lançamentos em Niterói: ${brokerLink}`)}`} target="_blank" rel="noopener noreferrer"><MessageCircle size={14} />Enviar pelo WhatsApp</a>
+              <a className="material-link" href={`https://wa.me/?text=${encodeURIComponent(`${brokerProjectName ? `Veja o lançamento ${brokerProjectName} em Niterói` : "Veja os lançamentos em Niterói"}: ${brokerLink}`)}`} target="_blank" rel="noopener noreferrer"><MessageCircle size={14} />Enviar pelo WhatsApp</a>
             </div>
+            {brokerNotice && <small className="fp-hint" role="status">{brokerNotice}</small>}
             <small className="fp-hint">O link não expira e funciona sem senha. Ele só mostra informações públicas.</small>
           </div>}
           <a className="quiet-button" href="/vitrine" target="_blank" rel="noopener noreferrer">Ver a versão pública sem corretor ↗</a>
@@ -641,6 +656,7 @@ export default function CatalogApp({ data, publicBooks = {}, explicitView = fals
           {selected.addressSource && <a className="detail-text" href={selected.addressSource} target="_blank" rel="noopener noreferrer">Fonte do endereço <ExternalLink size={13} className="inline" /></a>}
           {completeIds.has(selected.id) && !mapIds.has(selected.id) && <p className="detail-text">{selected.addressReviewStatus === "Precisa de apoio" ? "Endereço em revisão; o pin não aparece no mapa." : "Falta confirmar o ponto exato para exibir no mapa."}</p>}
           {PUBLIC_BOOK_TEXT[publicBooks[selected.id]] && <p className={`public-book-status is-${publicBooks[selected.id]}`}>Vitrine para clientes: {PUBLIC_BOOK_TEXT[publicBooks[selected.id]]}</p>}
+          {mapIds.has(selected.id) && <button type="button" className="material-link detail-broker-link" onClick={() => openBrokerLink(selected.id)}><Share2 size={14} aria-hidden="true" />Link deste lançamento para clientes</button>}
           <p className="detail-checked-at">Arquivos verificados em {formatCheckedDate(selected.materialsCheckedAt) || "data não registrada"}. Essa varredura não altera a data de leitura dos preços e do estoque.</p>
           <DeliverySummary project={selected} />
           <DataFreshness project={selected} table={offersById[selected.id]} />

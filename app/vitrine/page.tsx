@@ -57,5 +57,8 @@ export default async function VitrinePage({ searchParams }: { searchParams: Prom
     checkedAt: (audit as { checkedAt?: string }).checkedAt ?? null,
   }, tableUrls);
 
-  return <PublicCatalogApp data={data} contact={contact} brokerToken={broker ? token : null} explicitView={typeof params.ver === "string"} />;
+  // Card aberto direto (link curto do corretor ou `p=` no endereço): só lançamentos da vitrine.
+  const initialProjectId = typeof params.p === "string" && data.projects.some((p) => p.id === params.p) ? params.p : null;
+
+  return <PublicCatalogApp data={data} contact={contact} brokerToken={broker ? token : null} explicitView={typeof params.ver === "string"} initialProjectId={initialProjectId} />;
 }

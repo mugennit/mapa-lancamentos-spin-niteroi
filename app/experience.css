@@ -313,10 +313,12 @@ a.detail-text { display: inline-flex; align-items: center; gap: 4px; margin: 0 0
 .topbar-actions .topbar-contact { border: 0; background: rgba(255, 255, 255, .14); }
 .broker-form { display: flex; flex-direction: column; gap: 8px; }
 .broker-form label { font-size: 14px; font-weight: 650; color: var(--ink); margin-top: 6px; }
-.broker-form input { height: 46px; padding: 0 12px; border: 1px solid #cfdbe6; border-radius: 10px; font-size: 16px; }
+.broker-form input, .broker-form select { height: 46px; padding: 0 12px; border: 1px solid #cfdbe6; border-radius: 10px; font-size: 16px; }
 .broker-form .primary-button { max-width: none; margin-top: 8px; }
 .broker-result { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; padding: 12px; border-radius: 12px; background: var(--canvas); }
 .broker-result input { font-size: 13px; background: #fff; }
+.broker-form select { background: #fff; color: var(--ink); }
+.detail-broker-link { align-self: flex-start; margin: 4px 0 2px; }
 .public-book-status { margin: 0 0 14px; padding: 8px 10px; border-radius: 8px; font-size: 13px; background: #fff4e5; color: #8a4b08; }
 .public-book-status.is-liberado, .public-book-status.is-liberado-versao-clientes { background: #e5f4ec; color: #19643f; }
 

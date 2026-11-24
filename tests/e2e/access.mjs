@@ -85,6 +85,15 @@ assert.equal(vitrine.status, 200);
 assert.deepEqual(leaksIn(await vitrine.text()), [], "vitrine com dados comerciais");
 ok("vitrine pública sem dados comerciais");
 
+// 5b. Link curto (/c/código) sem sessão: só redireciona para a vitrine, sem dados.
+for (const code of ["zzzzzz", "Ab7x2k", "..%2F..%2Fetc"]) {
+  const response = await get(`/c/${code}`);
+  assert.ok([301, 302, 303, 307, 308].includes(response.status), `/c/${code}: esperado redirecionamento, veio ${response.status}`);
+  assert.match(new URL(response.headers.get("location") || "", base).pathname, /^\/vitrine$/, `/c/${code}: deveria levar à vitrine`);
+  assert.deepEqual(leaksIn(await response.text()), [], `/c/${code}: corpo com dados`);
+}
+ok("link curto sem sessão leva só à vitrine");
+
 // 6. Controle positivo: com sessão válida os dados chegam (prova que o teste enxerga os dados).
 const login = await get("/api/auth", { method: "POST", body: new URLSearchParams({ password }) });
 const cookie = (login.headers.getSetCookie?.() || []).map((value) => value.split(";")[0]).find((value) => value.startsWith("spinmap_session="));
