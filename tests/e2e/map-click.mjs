@@ -33,13 +33,13 @@ async function emptyPoint(page) {
   const point = await page.evaluate(() => {
     const map = document.querySelector(".map-canvas").getBoundingClientRect();
     const blocked = ".leaflet-marker-icon, .leaflet-interactive, .leaflet-control, .leaflet-tooltip, .map-preview, .map-topleft, .map-legend-v2, .map-pill, .map-search-area, .bottom-nav, .comparison-bar";
-    for (let y = map.top + map.height * 0.35; y < map.bottom - 80; y += 23) {
-      for (let x = map.left + 30; x < map.right - 30; x += 29) {
+    for (let y = map.top + 130; y < map.bottom - 60; y += 17) {
+      for (let x = map.left + 24; x < map.right - 24; x += 19) {
         const element = document.elementFromPoint(x, y);
         if (!element || !element.closest(".map-canvas") || element.closest(blocked)) continue;
-        // Margem: nada clicável num raio de 26 px.
+        // Margem: nada clicável num raio de 22 px.
         let clear = true;
-        for (const [dx, dy] of [[-26, 0], [26, 0], [0, -26], [0, 26]]) {
+        for (const [dx, dy] of [[-22, 0], [22, 0], [0, -22], [0, 22]]) {
           const near = document.elementFromPoint(x + dx, y + dy);
           if (!near || near.closest(blocked)) { clear = false; break; }
         }

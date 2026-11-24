@@ -164,7 +164,10 @@ export default function PublicCatalogApp({ data, contact, brokerToken, explicitV
         <MessageCircle size={16} aria-hidden="true" />Consultar valores e disponibilidade
       </a>
     : null;
-  const bookLink = (p: PublicProject) => <a className="material-link" href={p.bookUrl} target="_blank" rel="noopener noreferrer" aria-label={`Abrir o book de ${p.name}`}><BookOpen size={14} aria-hidden="true" />Ver book</a>;
+  // O PDF só aparece depois de revisado e liberado; o lançamento aparece de qualquer forma.
+  const bookLink = (p: PublicProject) => p.bookUrl
+    ? <a className="material-link" href={p.bookUrl} target="_blank" rel="noopener noreferrer" aria-label={`Abrir o book de ${p.name}`}><BookOpen size={14} aria-hidden="true" />Ver book</a>
+    : null;
 
   const activeFilters: { key: string; label: string; remove: () => void }[] = [];
   if (f.query.trim()) activeFilters.push({ key: "query", label: `Busca: ${f.query.trim()}`, remove: () => update({ query: "" }) });

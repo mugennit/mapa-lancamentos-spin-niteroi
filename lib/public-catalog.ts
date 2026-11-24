@@ -13,8 +13,8 @@ export type PublicProject = {
   /** Endereço conferido. */
   address: string | null;
   photo: string | null;
-  /** Link do book liberado para clientes (sempre presente na vitrine). */
-  bookUrl: string;
+  /** Link do book para clientes (o book vinculado); null só se falhar nas verificações automáticas. */
+  bookUrl: string | null;
   typologies: string[];
   features: string[];
   /** Previsão de entrega como consta nos materiais (texto), ou null. */
@@ -82,70 +82,79 @@ export function latestDecision(releases: BookRelease[], projectId: string, fileU
 }
 
 /**
- * Um arquivo de book pode ir para a vitrine quando: tem SHA-256 válido, não é o
- * arquivo de uma tabela, o nome não sugere preço e a ÚLTIMA decisão registrada
- * para o mesmo empreendimento, arquivo e SHA-256 é uma aprovação.
- * O book original também precisa estar no inventário de materiais como "Book";
- * a versão para clientes (`clientBook`) é preparada à parte e dispensa isso.
+ * Verificações automáticas de um arquivo de book (nunca dependem de revisão):
+ * tem link, não é o arquivo de uma tabela e o nome não sugere preço. O book
+ * original também precisa estar no inventário de materiais como "Book".
  */
-function isFileReleasable(projectId: string, file: BookFile, releases: BookRelease[], allTableUrls: Set<string>, material?: Material | null): boolean {
+function passesChecks(file: BookFile, allTableUrls: Set<string>, material?: Material | null): boolean {
   const url = file?.url;
-  const sha = file?.sha256?.toLowerCase();
-  if (!url || !sha || !SHA256.test(sha) || allTableUrls.has(url)) return false;
+  if (!url || allTableUrls.has(url)) return false;
   if (material === null || (material && material.type !== "Book")) return false;
-  if (PRICE_NAME.test(`${file?.name || ""} ${material?.name || ""}`)) return false;
-  const decision = latestDecision(releases, projectId, url, sha);
-  return decision !== null && decision.approved === true && decision.withdrawn !== true;
+  return !PRICE_NAME.test(`${file?.name || ""} ${material?.name || ""}`);
 }
 
-/** Link do book que o cliente pode ver: a versão para clientes, se liberada; senão o book original, se liberado. */
+/** Decisão vigente para a versão atual do arquivo (exige SHA-256 para casar). */
+function currentDecision(projectId: string, file: BookFile, releases: BookRelease[]): BookRelease | null {
+  const sha = file?.sha256?.toLowerCase();
+  if (!file?.url || !sha || !SHA256.test(sha)) return null;
+  return latestDecision(releases, projectId, file.url, sha);
+}
+
+/** Decisão vigente desfavorável (reprovado, retirado ou "precisa de versão para clientes"). */
+function isUnfavorable(decision: BookRelease | null): boolean {
+  return decision !== null && (decision.approved !== true || decision.withdrawn === true || decision.needsClientVersion === true);
+}
+
+/**
+ * Link do book que o cliente pode ver.
+ *
+ * Liberação autorizada pelo responsável pelo projeto: todo empreendimento da
+ * vitrine oferece o book JÁ VINCULADO (`book.url`), sem exigir revisão
+ * individual do PDF; decisões de revisão não retiram o botão. Se houver uma
+ * versão para clientes (`clientBook`) aprovada para o seu próprio arquivo e
+ * versão, ela tem preferência. Únicas travas: verificações automáticas que
+ * impedem oferecer uma TABELA como se fosse book (link de tabela, tipo
+ * diferente de "Book" no inventário ou nome que sugere preço).
+ */
 export function publicBookUrl(project: ReleaseProject, materials: Material[], allTableUrls: Set<string>, releases: BookRelease[]): string | null {
-  if (project.clientBook?.url && isFileReleasable(project.id, project.clientBook, releases, allTableUrls)) return project.clientBook.url;
+  const client = project.clientBook;
+  if (client?.url && passesChecks(client, allTableUrls)) {
+    const decision = currentDecision(project.id, client, releases);
+    if (decision && !isUnfavorable(decision)) return client.url;
+  }
   const material = project.book?.url ? materials.find((item) => item.url === project.book!.url) ?? null : null;
-  if (project.book?.url && isFileReleasable(project.id, project.book, releases, allTableUrls, material)) return project.book.url;
+  if (project.book?.url && passesChecks(project.book, allTableUrls, material)) return project.book.url;
   return null;
 }
 
-/** Compatibilidade: o empreendimento tem algum book liberado para clientes. */
+/** Compatibilidade: o empreendimento tem algum book disponível para clientes. */
 export function isBookReleasable(project: ReleaseProject, materials: Material[], allTableUrls: Set<string>, releases: BookRelease[]): boolean {
   return publicBookUrl(project, materials, allTableUrls, releases) !== null;
 }
 
-export type PublicStatus =
-  | "liberado" | "liberado-versao-clientes" | "fora-do-mapa" | "sem-book" | "sem-versao" | "aguardando-revisao"
-  | "versao-nova" | "precisa-versao-clientes" | "versao-clientes-em-revisao" | "reprovado" | "retirado" | "bloqueado";
+export type PublicStatus = "liberado" | "liberado-com-ressalva" | "liberado-versao-clientes" | "fora-do-mapa" | "sem-book" | "bloqueado";
 
 /** Situação do empreendimento na vitrine (para a área interna). */
 export function publicStatus(project: ReleaseProject, mapEligible: boolean, materials: Material[], allTableUrls: Set<string>, releases: BookRelease[]): PublicStatus {
-  const url = publicBookUrl(project, materials, allTableUrls, releases);
   if (!mapEligible) return "fora-do-mapa";
-  if (url) return url === project.clientBook?.url ? "liberado-versao-clientes" : "liberado";
-  if (project.clientBook?.url) return "versao-clientes-em-revisao";
-  const book = project.book;
-  if (!book?.url) return "sem-book";
-  const sha = book.sha256?.toLowerCase();
-  if (!sha || !SHA256.test(sha)) return "sem-versao";
-  const decision = latestDecision(releases, project.id, book.url, sha);
-  if (decision?.withdrawn) return "retirado";
-  if (decision?.needsClientVersion) return "precisa-versao-clientes";
-  if (decision && !decision.approved) return "reprovado";
-  if (decision) return "bloqueado";
-  return releases.some((release) => release.projectId === project.id && release.fileUrl === book.url) ? "versao-nova" : "aguardando-revisao";
+  const url = publicBookUrl(project, materials, allTableUrls, releases);
+  if (!url) return project.book?.url ? "bloqueado" : "sem-book";
+  if (url === project.clientBook?.url && url !== project.book?.url) return "liberado-versao-clientes";
+  return isUnfavorable(currentDecision(project.id, project.book, releases)) ? "liberado-com-ressalva" : "liberado";
 }
 
 // ---------------------------------------------------------------------------
 // Regra única da vitrine (lista e mapa públicos)
 
 /**
- * Um empreendimento aparece na vitrine — na lista E no mapa — somente quando:
- * 1. atende à regra do mapa dos corretores (book e tabela confirmados, endereço
- *    conferido, coordenadas exatas validadas, pin habilitado); e
- * 2. tem um book adequado e liberado para clientes.
- * A regra do mapa vem de `lib/catalog-rules.ts` (`isMapEligible`), passada aqui
- * como função para manter este módulo sem dependências.
+ * A vitrine mostra — na lista E no mapa — exatamente os empreendimentos com pin
+ * no mapa dos corretores (`isMapEligible` em `lib/catalog-rules.ts`: book e
+ * tabela confirmados, endereço conferido, coordenadas exatas validadas).
+ * Todos oferecem "Ver book" com o book vinculado (`publicBookUrl`); a presença
+ * do lançamento nunca depende de revisão do PDF.
  */
-export function isPubliclyListed(project: ReleaseProject, mapEligible: boolean, materials: Material[], allTableUrls: Set<string>, releases: BookRelease[]): boolean {
-  return mapEligible && publicBookUrl(project, materials, allTableUrls, releases) !== null;
+export function isPubliclyListed(_project: ReleaseProject, mapEligible: boolean): boolean {
+  return mapEligible;
 }
 
 export type PublicCatalogInput = {
@@ -171,8 +180,8 @@ export function collectTableUrls(catalog: ReleaseProject[], offerTables: { table
 export function buildPublicCatalog(input: PublicCatalogInput, tableUrls: Set<string>): PublicCatalog {
   const projects: PublicProject[] = [];
   for (const raw of input.catalog) {
+    if (!isPubliclyListed(raw, input.isMapEligible(raw))) continue;
     const bookUrl = publicBookUrl(raw, input.materials, tableUrls, input.releases);
-    if (!isPubliclyListed(raw, input.isMapEligible(raw), input.materials, tableUrls, input.releases) || !bookUrl) continue;
     const id = String(raw.id);
     const extra = input.attributes[id] || {};
     projects.push({

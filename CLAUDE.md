@@ -66,11 +66,16 @@ Regras decorrentes:
 
 ## Versão pública (`/vitrine`)
 
-- Sem senha. **Regra única para a lista e o mapa públicos**
-  (`isPubliclyListed` em `lib/public-catalog.ts`): só entram empreendimentos que
-  atendem à regra do mapa dos corretores **e** têm book adequado liberado. Todo
-  card público tem "Ver book". Sem book liberado, o empreendimento fica fora da
-  vitrine (lista e mapa); a área interna continua com todo o catálogo.
+- Sem senha. **A lista e o mapa públicos mostram exatamente os pins do mapa
+  interno** (`isPubliclyListed` em `lib/public-catalog.ts` = `isMapEligible`):
+  book e tabela confirmados e pin validado. Quem não tem book, tabela ou
+  localização validada fica fora. A área interna continua com todo o catálogo.
+- **Todos os cards públicos têm "Ver book"** com o book já vinculado
+  (`publicBookUrl`), sem exigir revisão individual do PDF (liberação autorizada
+  por Frederico em 24/11/2026; não é registrada em `public-book-releases.json`).
+  Decisões de revisão não retiram o botão; aparecem só como ressalva na área
+  interna. Única trava: nunca oferecer uma tabela como book (link de tabela ou
+  nome com tabela/preço).
 - **Sem preços, tabelas, unidades, vagas, datas de leitura, notas ou fontes.**
 - Os dados são filtrados no servidor (`app/vitrine/page.tsx`) por **lista de
   campos permitidos** (`lib/public-catalog.ts`, `PUBLIC_FIELDS`). Nunca enviar o
@@ -79,13 +84,9 @@ Regras decorrentes:
   `data/*.json` nem `components/catalog-app.tsx`**, nem os atalhos de preço
   (`lib/price-presets.ts`, `components/filter-price.tsx`). O teste de navegador
   confere que nenhum link de tabela ou preço chega à vitrine.
-- Books: liberados por **arquivo e versão**. Só aparecem com aprovação em
-  `data/public-book-releases.json` para o mesmo `projectId`, `fileUrl` e
-  `sha256` de `catalog.json → book`. A revisão do conteúdo é feita pela rotina do
-  ChatGPT (`docs/liberacao-books.md`). Vale a última decisão registrada; antes de
-  substituir um PDF no mesmo link, a rotina registra a retirada. Book com preços
-  ou dados internos: decisão com `needsClientVersion: true` e versão própria em
-  `catalog.json → clientBook`, revisada e liberada pelo mesmo processo.
+- `catalog.json → clientBook`, se aprovado em `data/public-book-releases.json`
+  para o seu próprio arquivo e `sha256`, tem preferência sobre o book original.
+  Esse arquivo de decisões é do ChatGPT (`docs/liberacao-books.md`); não apagar.
 - Link do corretor: gerado na área interna (botão "Link para clientes",
   `app/api/broker-link`), assinado com HMAC usando a chave exclusiva
   `BROKER_LINK_SECRET` (`lib/broker-link.ts`), separada da sessão. Trocar a senha
@@ -139,7 +140,7 @@ derivadas dos dados, nunca listas fixas.
   `area?`, `parkingSpaces?`, `parkingCountIsMinimum?`, `parkingNote?`, `offerKind?`).
 - `data/materials-audit.json`: `checkedAt`, a data exibida como “Fontes conferidas em”.
 - `catalog.json → book.sha256` (opcional): SHA-256 do PDF atual no Drive,
-  produzido pela rotina do ChatGPT. Sem ele, o book não vai para a vitrine.
+  produzido pela rotina do ChatGPT. Não é exigido para o "Ver book".
 - `catalog.json → clientBook {url, name, sha256}` (opcional): versão do book para
   clientes, quando o original tem preços ou dados internos (ChatGPT).
 - `data/public-book-releases.json`: decisões de revisão dos books para a vitrine

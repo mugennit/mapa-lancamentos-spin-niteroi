@@ -43,18 +43,12 @@ function matchesFilters(p: Project, f: FilterState, favorites: string[], sharedI
 }
 
 const PUBLIC_BOOK_TEXT: Record<string, string> = {
-  liberado: "Na vitrine (book liberado).",
-  "liberado-versao-clientes": "Na vitrine (versão do book para clientes liberada).",
+  liberado: "Na vitrine, com \"Ver book\" (book vinculado).",
+  "liberado-com-ressalva": "Na vitrine, com \"Ver book\" (book vinculado). A revisão registrada apontou ressalvas neste PDF; veja as notas em public-book-releases.json.",
+  "liberado-versao-clientes": "Na vitrine, com \"Ver book\" usando a versão do book para clientes.",
   "fora-do-mapa": "Fora da vitrine: o pin ainda não está habilitado no mapa dos corretores.",
-  "sem-book": "Fora da vitrine: sem book.",
-  "sem-versao": "Fora da vitrine: falta registrar a versão (SHA-256) do book.",
-  "aguardando-revisao": "Fora da vitrine: book aguardando revisão de conteúdo.",
-  "versao-nova": "Fora da vitrine: o PDF do book mudou e precisa de nova revisão.",
-  "precisa-versao-clientes": "Fora da vitrine: o book tem preços ou informações internas; é preciso uma versão para clientes.",
-  "versao-clientes-em-revisao": "Fora da vitrine: versão do book para clientes aguardando revisão.",
-  reprovado: "Fora da vitrine: book reprovado na revisão.",
-  retirado: "Fora da vitrine: liberação retirada (substituição do PDF em andamento).",
-  bloqueado: "Fora da vitrine: book não passou nas verificações automáticas.",
+  "sem-book": "Na vitrine, sem book cadastrado.",
+  bloqueado: "Na vitrine, sem \"Ver book\": o arquivo parece ser uma tabela (verificação automática).",
 };
 
 export default function CatalogApp({ data, publicBooks = {}, explicitView = false }: { data: CatalogData; publicBooks?: Record<string, string>; explicitView?: boolean }) {
