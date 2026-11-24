@@ -42,6 +42,12 @@ jobs:
       SITE_PASSWORD: senha-de-teste-ci
       SITE_SESSION_SECRET: segredo-de-teste-ci-nao-usar-em-producao
       BROKER_LINK_SECRET: chave-de-links-de-teste-ci-nao-usar
+      # Banco de links curtos FICTÍCIO (tests/e2e/fake-kv.mjs), só para o teste.
+      KV_REST_API_URL: http://localhost:4199
+      KV_REST_API_TOKEN: token-de-teste-ci
+      FAKE_KV_FILE: /tmp/fake-kv.json
+      # Links curtos gerados na 1ª fase, conferidos de novo após o 2º build.
+      SHORT_LINK_LOG: /tmp/links-curtos.json
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -57,6 +63,7 @@ jobs:
         run: VERCEL=1 NITRO_PRESET=vercel npx vite build
       - name: Subir o build de produção (simulador da Vercel)
         run: |
+          nohup node tests/e2e/fake-kv.mjs > kv.log 2>&1 &
           nohup node tests/e2e/vercel-sim.mjs > sim.log 2>&1 &
           for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:4181/login && exit 0; sleep 2; done
           cat sim.log; exit 1
