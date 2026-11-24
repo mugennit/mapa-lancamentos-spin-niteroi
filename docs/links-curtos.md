@@ -41,9 +41,13 @@ O site usa a API REST do **Upstash Redis**, disponível na própria Vercel:
 2. Conecte o banco ao projeto, nos ambientes **Production** e **Preview**.
    A integração cria as variáveis `KV_REST_API_URL` e `KV_REST_API_TOKEN`
    (também são aceitas `UPSTASH_REDIS_REST_URL` e `UPSTASH_REDIS_REST_TOKEN`).
-3. Conecte **o mesmo banco** ao projeto `mapa-lancamentos-spin-niteroi-r2au`,
-   para que os códigos valham nos dois endereços.
-4. Faça uma nova publicação (ou "Redeploy") para as variáveis valerem.
+3. Faça uma nova publicação (ou "Redeploy") para as variáveis valerem.
+
+O banco configurado é o **`spin-links-clientes`**, usado pelo site oficial.
+**Não o exclua.** Ele também está conectado ao projeto
+`mapa-lancamentos-spin-niteroi-r2au`, que está em desativação e não recebe mais
+publicações (`docs/desativacao-r2au.md`); os links curtos devem ser gerados e
+divulgados só pelo endereço oficial.
 
 Não desative a persistência do banco nem configure expiração das chaves: os
 links não expiram. Não apague chaves `spin:short:v1:*`.
