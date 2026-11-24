@@ -1,111 +1,56 @@
-# Liberação de books para a versão pública (`/vitrine`)
+# Books na versão pública (`/vitrine`)
 
-Responsável pela revisão: **automação do ChatGPT “Atualizar lançamentos SPIN”**.
-O site só lê os arquivos; não revisa conteúdo de PDF.
+## Quem aparece na vitrine (lista e mapa)
 
-## Quem aparece na vitrine (regra única para a lista e o mapa)
+A vitrine mostra, **na lista e no mapa**, exatamente os mesmos empreendimentos
+que têm pin no mapa dos corretores: book e tabela de vendas confirmados em
+`data/materials.json`, endereço conferido e coordenadas exatas validadas
+(`isMapEligible` em `lib/catalog-rules.ts`). Quem estiver sem book, sem tabela
+ou sem localização validada fica fora da lista e do mapa dos clientes.
 
-Um empreendimento aparece na vitrine, **na lista e no mapa**, somente quando:
+Preços, tabelas, unidades, vagas e informações internas nunca vão para a
+vitrine. A área interna dos corretores continua mostrando todo o catálogo.
 
-1. atende à regra do mapa dos corretores: book e tabela de vendas confirmados,
-   endereço conferido, coordenadas exatas validadas e pin habilitado
-   (`isMapEligible` em `lib/catalog-rules.ts`); **e**
-2. tem um **book adequado e liberado** para clientes (regras abaixo).
+## "Ver book": book vinculado, sem revisão individual
 
-Todo card público tem o botão "Ver book". Sem book liberado, o empreendimento
-fica **fora da vitrine** (lista e mapa). A área interna dos corretores continua
-mostrando todo o catálogo, inclusive os empreendimentos com pendências, e o
-detalhe de cada um informa a situação na vitrine.
+**Liberação autorizada por Frederico (responsável pelo projeto) em 24/11/2026.**
+Todo empreendimento da vitrine tem o botão "Ver book", que abre o book **já
+vinculado** em `catalog.json → book.url`. Não é exigida revisão individual do
+PDF, nem `book.sha256`. Essa autorização **não** é registrada em
+`data/public-book-releases.json` e não conta como revisão dos PDFs.
 
-## Regra de liberação do book
+O site só deixa de oferecer o book em um caso, como trava automática para nunca
+expor uma tabela: o arquivo vinculado como book é um link de tabela, não está
+no inventário como `type: "Book"` ou o nome sugere preço ("tabela", "preço",
+"valores", "planilha"). Nesse caso, a área interna mostra "o arquivo parece ser
+uma tabela".
 
-Um book é liberado para a vitrine somente quando **todas** as condições abaixo valem:
+Decisões desfavoráveis já registradas em `public-book-releases.json`
+(reprovado, retirado ou `needsClientVersion`) **não retiram o botão**: aparecem
+apenas como ressalva no detalhe do empreendimento na área interna.
 
-1. O book está em `data/materials.json` com `type: "Book"` e não é o arquivo de
-   uma tabela.
-2. O nome do arquivo não sugere preço ou tabela.
-3. `data/catalog.json` informa a versão atual do PDF em `book.sha256`.
-4. Em `data/public-book-releases.json`, a **última** decisão registrada para o
-   **mesmo** `projectId`, `fileUrl` (igual a `book.url`) e `sha256` é uma
-   aprovação (`approved: true`). O arquivo é um histórico: só se acrescentam
-   entradas, e a mais recente prevalece.
+## Versão para clientes (opcional)
 
-Se qualquer condição falhar, o book fica indisponível na vitrine. **O
-empreendimento continua visível** (nome, bairro, mapa, tipologias, entrega).
+Se for preparada uma versão do book para clientes, registre-a em
+`catalog.json → clientBook` com `url`, `name` e `sha256`, e a aprovação em
+`data/public-book-releases.json` para o `fileUrl` e o `sha256` **dela**:
 
-Books ainda não revisados ficam **bloqueados** na vitrine.
+```json
+"clientBook": {
+  "name": "Book Style - clientes.pdf",
+  "url": "https://drive.google.com/file/d/…/view?usp=drivesdk",
+  "sha256": "…"
+}
+```
 
-## Book com preços ou informações internas: versão para clientes
+Com essa aprovação, "Ver book" passa a abrir a versão para clientes; sem ela,
+continua abrindo o book vinculado.
 
-Se a revisão encontrar preços, tabelas, condições comerciais ou informações
-internas no book:
+## Registro de revisões (opcional, mantido pelo ChatGPT)
 
-1. Registre a decisão para esse arquivo e versão com `"approved": false` e
-   `"needsClientVersion": true`, explicando em `notes` o que impede a
-   publicação (por exemplo, "página 12 com tabela de preços"). Na área interna,
-   o empreendimento aparece como "é preciso uma versão para clientes".
-2. Prepare, no ChatGPT, uma versão do book para clientes, sem esse conteúdo.
-3. Publique essa versão no Drive e registre-a em `catalog.json` no campo
-   `clientBook`, com `url`, `name` e `sha256` do arquivo publicado:
-   ```json
-   "clientBook": {
-     "name": "Book Style - clientes.pdf",
-     "url": "https://drive.google.com/file/d/…/view?usp=drivesdk",
-     "sha256": "…"
-   }
-   ```
-4. Revise a versão para clientes (todas as páginas) e registre a decisão para
-   o `fileUrl` e o `sha256` **dela**. Com aprovação, a vitrine passa a mostrar
-   esse arquivo em "Ver book"; o book original continua só na área interna.
-
-Enquanto não houver um book adequado liberado, o empreendimento fica fora da
-vitrine. Substituições da versão para clientes seguem a mesma sequência abaixo.
-
-## Substituição de um book (obrigatório seguir esta ordem)
-
-Quando o PDF é trocado **no mesmo link** do Drive, o link passa a entregar o
-arquivo novo imediatamente, mas o `book.sha256` do catálogo continua com o hash
-antigo até a próxima atualização. Nesse intervalo, a aprovação antiga ainda
-casaria com o catálogo, e o arquivo novo, **não revisado**, apareceria na
-vitrine. Por isso, o hash sozinho não basta: a liberação precisa ser retirada
-**antes** da troca.
-
-1. **Retirar a liberação atual.** Acrescentar em `public-book-releases.json`
-   uma entrada para a versão em vigor (o `sha256` atual), com
-   `"approved": false` e `"withdrawn": true`:
-   ```json
-   {
-     "projectId": "style",
-     "fileUrl": "https://drive.google.com/file/d/…/view?usp=drivesdk",
-     "sha256": "<sha256 atual>",
-     "approved": false,
-     "withdrawn": true,
-     "reviewedAt": "2026-11-25",
-     "reviewedBy": "ChatGPT",
-     "notes": "Retirado antes da substituição do PDF."
-   }
-   ```
-2. **Publicar a retirada antes de tocar no Drive.** Fazer commit e push na
-   `main` e aguardar a Vercel concluir a publicação. Confirmar na área interna
-   que o empreendimento mostra "liberação retirada", ou que o botão "Ver book"
-   sumiu da vitrine.
-3. **Substituir o PDF no Drive.**
-4. **Atualizar o catálogo.** Gravar em `catalog.json → book.sha256` o hash do
-   arquivo novo, calculado a partir do arquivo **baixado do próprio link**
-   depois da troca. Nesse ponto o book continua bloqueado ("o PDF mudou e
-   precisa de nova revisão").
-5. **Revisar o arquivo novo**, lendo todas as páginas, com os mesmos critérios
-   da seção 2.
-6. **Liberar só depois da revisão.** Acrescentar a decisão para o **novo**
-   `sha256` (`approved: true`, ou `false` se reprovado) e publicar.
-
-Se a troca for para um **link novo**, a aprovação antiga não vale para ele, mas
-a sequência acima continua recomendada, para manter o histórico coerente.
-
-Se o arquivo for trocado sem a retirada prévia (por exemplo, por terceiros),
-registre a retirada assim que perceber, publique e siga a partir do passo 4.
-
-## O que a rotina diária precisa fazer
+O arquivo `public-book-releases.json` continua válido como histórico (só se
+acrescentam entradas; a última prevalece) e é usado para liberar a versão para
+clientes. Não apague o arquivo.
 
 ### 1. Registrar a versão de cada book em `catalog.json`
 Para cada empreendimento com `book`, gravar o SHA-256 (64 caracteres
@@ -162,15 +107,8 @@ situação do book na vitrine:
 
 | Situação | Significado |
 | --- | --- |
-| Na vitrine (book liberado) | Aparece na lista e no mapa públicos. |
-| Na vitrine (versão para clientes) | Aparece usando o `clientBook` liberado. |
-| Pin não habilitado no mapa | Não atende à regra do mapa dos corretores; fica fora da vitrine. |
-| Sem book | O empreendimento não tem book. |
-| É preciso uma versão para clientes | Última decisão do book original tem `needsClientVersion: true`. |
-| Versão para clientes aguardando revisão | Há `clientBook` sem aprovação vigente. |
-| Falta registrar a versão | `book.sha256` ausente no catálogo. |
-| Aguardando revisão | Nenhuma decisão para este arquivo. |
-| O PDF mudou | Há decisão para outra versão; é preciso revisar a nova. |
-| Reprovado | Última decisão para esta versão é `approved: false`. |
-| Liberação retirada | Última decisão é uma retirada (`withdrawn: true`), por exemplo durante a substituição. |
-| Não passou nas verificações automáticas | Arquivo fora do inventário, é uma tabela ou o nome sugere preço. |
+| Na vitrine, com "Ver book" | Abre o book vinculado. |
+| Na vitrine, com "Ver book" (ressalva) | Abre o book vinculado; há decisão desfavorável registrada para este PDF. |
+| Na vitrine, com a versão para clientes | Abre o `clientBook` aprovado. |
+| Fora da vitrine | Pin não habilitado no mapa dos corretores. |
+| Sem "Ver book" | O arquivo vinculado parece ser uma tabela (trava automática). |

@@ -5,7 +5,7 @@
 import { chromium, devices } from "playwright";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { collectTableUrls, isPubliclyListed } from "../../lib/public-catalog.ts";
+import { collectTableUrls, isPubliclyListed, publicBookUrl } from "../../lib/public-catalog.ts";
 import { isMapEligible } from "../../lib/catalog-rules.ts";
 
 const base = (process.env.BASE_URL || "http://localhost:5173").replace(/\/$/, "");
@@ -99,17 +99,19 @@ async function publicCheck() {
   await page.goto(`${base}/vitrine?ver=cards`);
   assert.match(page.url(), /\/vitrine/, "vitrine: não deveria pedir senha");
   await page.locator("main[data-ready='1']").waitFor();
-  // Regra única: só quem está no mapa dos corretores E tem book liberado.
+  // Regra única: exatamente os pins do mapa dos corretores (book, tabela e pin validado).
   const materials = read("materials.json"), releases = read("public-book-releases.json").releases;
   const materialUrls = new Set(materials.map((m) => m.url));
   const tables = collectTableUrls(catalog, Object.values(offers));
-  const expected = catalog.filter((p) => isPubliclyListed(p, isMapEligible(p, materialUrls), materials, tables, releases));
+  // "Ver book" em todos, com o book vinculado (só a trava automática contra tabelas o retira).
+  const expected = catalog.filter((p) => isPubliclyListed(p, isMapEligible(p, materialUrls)));
   const total = expected.length;
-  assert.equal(await page.locator(".pcard").count(), total, "vitrine: lista pública segue a regra única");
+  const withBook = expected.filter((p) => publicBookUrl(p, materials, tables, releases)).length;
+  assert.equal(await page.locator(".pcard").count(), total, "vitrine: mesmos empreendimentos do mapa interno");
   if (total === 0) {
     await page.locator(".public-empty").waitFor();
   } else {
-    assert.equal(await page.getByRole("link", { name: /^Abrir o book de / }).count(), total, "vitrine: todo card com Ver book");
+    assert.equal(await page.getByRole("link", { name: /^Abrir o book de / }).count(), withBook, "vitrine: Ver book com o book vinculado");
     await page.locator(".pcard").first().getByRole("button", { name: "Detalhes", exact: true }).click();
     await page.locator(".detail-body").waitFor();
   }
@@ -163,7 +165,28 @@ async function brokerCheck() {
   await browser.close();
 }
 
+// Os dois mapas mostram o mesmo conjunto de empreendimentos.
+async function sameSetCheck() {
+  const browser = await chromium.launch();
+  const page = await (await browser.newContext({ viewport: { width: 1440, height: 900 } })).newPage();
+  await page.goto(`${base}/login`);
+  await page.fill("input[type=password]", password);
+  await page.press("input[type=password]", "Enter");
+  await page.waitForURL(`${base}/`);
+  await page.locator("main[data-ready='1']").waitFor();
+  const internal = await page.locator(".pcard").evaluateAll((cards) => cards.filter((c) => c.querySelector(".map-badge.is-on")).map((c) => c.querySelector(".pcard-name").textContent.trim()).sort());
+  const client = await (await browser.newContext({ viewport: { width: 1440, height: 900 } })).newPage();
+  await client.goto(`${base}/vitrine`);
+  await client.locator("main[data-ready='1']").waitFor();
+  const vitrine = await client.locator(".pcard .pcard-name").evaluateAll((names) => names.map((n) => n.textContent.trim()).sort());
+  assert.deepEqual(vitrine, internal, "vitrine e mapa interno devem ter o mesmo conjunto de empreendimentos");
+  assert.equal(await client.locator(".mk-host").count() > 0, internal.length > 0, "vitrine: pins no mapa");
+  console.log(`ok mesmo conjunto nos dois mapas: ${internal.length} empreendimentos`);
+  await browser.close();
+}
+
 await publicCheck();
+await sameSetCheck();
 await brokerCheck();
 await run("celular", { ...devices["iPhone 13"] }, true);
 await run("computador", { viewport: { width: 1440, height: 900 } }, false);

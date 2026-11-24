@@ -24,14 +24,8 @@ const add = (p, grupo, campo, exibido, origem, situacao, confirmacao) =>
 
 const PUBLIC_TEXT = {
   "fora-do-mapa": "Fora da vitrine: pin não habilitado no mapa dos corretores",
-  "sem-book": "Fora da vitrine: sem book",
-  "sem-versao": "Fora da vitrine: falta registrar a versão (SHA-256) do book",
-  "aguardando-revisao": "Fora da vitrine: book aguardando revisão de conteúdo",
-  "versao-nova": "Fora da vitrine: PDF mudou e precisa de nova revisão",
-  "precisa-versao-clientes": "Fora da vitrine: book com preços/dados internos; precisa de versão para clientes",
-  "versao-clientes-em-revisao": "Fora da vitrine: versão para clientes aguardando revisão",
-  reprovado: "Fora da vitrine: book reprovado", retirado: "Fora da vitrine: liberação retirada",
-  bloqueado: "Fora da vitrine: book não passou nas verificações automáticas",
+  "sem-book": "Na vitrine sem \"Ver book\": sem book",
+  bloqueado: "Na vitrine sem \"Ver book\": arquivo parece ser uma tabela (verificação automática)",
 };
 
 for (const p of catalog) {
@@ -130,7 +124,7 @@ for (const p of catalog) {
 
   // Vitrine (versão para clientes)
   const status = publicStatus(p, onMap, materials, tableUrls, releases);
-  if (PUBLIC_TEXT[status]) add(p, "Vitrine", "Book para clientes", PUBLIC_TEXT[status], status === "fora-do-mapa" ? "regra do mapa (ver Materiais/Endereço/Coordenadas)" : "catalog.json → book.sha256 / clientBook; public-book-releases.json", status === "fora-do-mapa" ? VALIDACAO : AUSENTE, status === "fora-do-mapa" ? "Resolver as pendências de materiais, endereço e coordenadas acima." : "Registrar o SHA-256, revisar o conteúdo do book e registrar a decisão (docs/liberacao-books.md).");
+  if (PUBLIC_TEXT[status]) add(p, "Vitrine", "Book para clientes", PUBLIC_TEXT[status], status === "fora-do-mapa" ? "regra do mapa (ver Materiais/Endereço/Coordenadas)" : "catalog.json → book / materials.json", status === "fora-do-mapa" ? VALIDACAO : AUSENTE, status === "fora-do-mapa" ? "Resolver as pendências de materiais, endereço e coordenadas acima." : "Conferir o arquivo vinculado como book (docs/liberacao-books.md).");
 }
 
 // Saídas
